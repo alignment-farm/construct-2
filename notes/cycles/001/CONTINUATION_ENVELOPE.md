@@ -1,11 +1,13 @@
-# Proposed Cycle 1 continuation envelope C1-02
+# Cycle 1 continuation envelope C1-02
 
-2026-09-08 · Version 0.1 · **PROPOSED — not yet assigned by the user.**
-This is a concrete resource and authority proposal following the
-[workload review](WORKLOAD_REVIEW.md). It grants no authority merely by being
-written, linked, or read. The original 100-start envelope remains exhausted.
-On user adoption, record the adopted revision and assignment in the derivative
-charter; preserve both old and new phase accounting.
+2026-09-08 · Version 0.2 · **APPROVED — assigned to Grok by the user.**
+The user approved C1-02 on 2026-09-08 following the
+[workload review](WORKLOAD_REVIEW.md). The approved proposal is version 0.1 at
+root commit `a55b1021e4994ddb19f57a08188ec64a566bbdff`; this revision records
+adoption without changing its scientific scope or resource limits. Grok may
+prepare, freeze, and execute the in-scope protocol under the conditions below.
+Record this adoption commit in the derivative charter. The original 100-start
+envelope remains exhausted; preserve both old and new phase accounting.
 
 ## Objective and completion
 
@@ -16,11 +18,11 @@ migration, using fresh task cohorts. Complete the comparisons below or return
 an accounted stop, with a reproducible report and a recommendation about the
 value of a larger study. A positive reset effect is not a completion condition.
 
-The investigator may be Grok or another user-designated agent/session. The
+The assigned investigator is Grok; the user may reassign the agent/session. The
 assignment covers `construct-memory-utility`; it includes no work in Cycle 2
 and no automatic launch of a confirmatory study.
 
-## Scientific scope assigned on adoption
+## Assigned scientific scope
 
 Use the derivative's existing candidate schedule: **two separately acquired
 histories, 12 tasks per history, and 396 planned episodes per history**.
@@ -89,7 +91,7 @@ reported. The enforceable limits are the counts above and the output caps.
 
 ## Decisions the derivative may make without another round-trip
 
-On adoption, the investigator may:
+The investigator may:
 
 - Implement the schedule, budgets, provenance, independent outcome checks,
   artifact inventories, and an operational handoff.

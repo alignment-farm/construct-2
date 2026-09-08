@@ -18,10 +18,12 @@ dashboard, or reporting service.
 ## Current assignments and agent continuity
 
 - **Cycle 1 — `construct-memory-utility`: Grok continues to own this
-  investigation**, currently parked after the original budget was exhausted.
+  investigation** under C1-02, approved by the user on 2026-09-08.
   The [latest workload return](cycles/001/WORKLOAD_REVIEW.md) has been reviewed;
-  a [continuation envelope](cycles/001/CONTINUATION_ENVELOPE.md) is proposed
-  and awaits user assignment. This agreement does not redirect Grok to Cycle 2.
+  the [continuation envelope](cycles/001/CONTINUATION_ENVELOPE.md) assigns
+  preparation, protocol freezing, and execution within its scope and caps.
+  The original budget remains exhausted. This agreement does not redirect
+  Grok to Cycle 2.
 - **Cycle 2 — `construct-lesson-transfer`: Codex executed the separately
   assigned application attempt and [returned its protocol stop](cycles/002/APPLICATION_REVIEW.md).**
   The diagnostic remains incomplete. Further execution is a separate user
@@ -181,10 +183,11 @@ For Grok's continuing Cycle 1 work, use the
 [workload review](cycles/001/WORKLOAD_REVIEW.md) as the latest assessment.
 Its report successfully kept code, evidence, limitations, and the resource
 decision together. The practical lesson is to populate a continuation's scope
-and caps: a template alone cannot grant them. The proposed
+and caps: a template alone cannot grant them. The user-approved
 [C1-02 envelope](cycles/001/CONTINUATION_ENVELOPE.md) makes initial protocol
 freezing and execution autonomous within an assigned design, with explicit
-limits on changes and spending. It remains a proposal until the user adopts it.
+limits on changes and spending. The user adopted it on 2026-09-08; its
+assignment record and the derivative charter carry the specific authority.
 Earlier runs are not retroactively represented as following this agreement.
 See also the
 [Cycle 2 development return](cycles/002/PILOT.md) for the application/construction

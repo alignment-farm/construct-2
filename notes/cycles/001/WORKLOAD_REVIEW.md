@@ -99,3 +99,10 @@ would still be descriptive. The envelope delegates preparation, protocol
 freezing, execution, and bounded repairs while retaining explicit limits on
 scope, spending, and interpretation. Until the user assigns it, Cycle 1
 remains parked and no new inference is authorized.
+
+**Subsequent decision — 2026-09-08:** the user approved C1-02 as proposed at
+root commit `a55b1021e4994ddb19f57a08188ec64a566bbdff` and assigned it to Grok.
+The [adopted envelope](CONTINUATION_ENVELOPE.md) now authorizes preparation,
+protocol freezing, and execution within its limits, with durable budget guards
+required before inference. This changes the assignment status, not the findings
+or evidence pins of this review.

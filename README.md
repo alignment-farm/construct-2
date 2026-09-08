@@ -34,9 +34,11 @@ The [derivative working agreement](notes/DERIVATIVE_WORKING_AGREEMENT.md)
 defines that ownership, when decisions return here, and how an agent reports
 progress and completion. It includes four reusable templates and a
 [Cycle 2 charter](notes/cycles/002/DERIVATIVE_CHARTER.md) applying them to the
-existing handoff. Grok owns Cycle 1, now parked at its exhausted budget;
-the [latest review](notes/cycles/001/WORKLOAD_REVIEW.md) includes a proposed
-continuation envelope for the user's decision. Cycle 2's assigned diagnostic attempt
+existing handoff. Grok owns Cycle 1 under the user-approved
+[C1-02 continuation envelope](notes/cycles/001/CONTINUATION_ENVELOPE.md),
+following the [latest review](notes/cycles/001/WORKLOAD_REVIEW.md).
+Preparation, protocol freezing, and execution within that envelope are assigned.
+Cycle 2's assigned diagnostic attempt
 has [returned with an instrument stop](notes/cycles/002/APPLICATION_REVIEW.md).
 Further derivative assignments may use a different agent family or session.
 The agreement's adoption notes record what the Cycle 1 return taught us about
@@ -57,7 +59,8 @@ correct scored answers followed by HTTP 500 on the eighth attempt. The fixed
 study remains parked while the root returns to synthesis.
 Grok's [Cycle 1 workload return](notes/cycles/001/WORKLOAD_REVIEW.md) exercises
 the revised writer and memory-conditioned actor on development tasks. Its
-utility-reset question remains open, and the next budget is unassigned.
+utility-reset question remains open. The user approved two further development
+histories under C1-02; a larger confirmatory study remains unassigned.
 
 Serious empirical work can include exploration. We should be free to discover that a task is unsuitable, a representation is unusable, or an unexpected behavior deserves attention. When we move to testing a claim developed during that exploration, we should specify the comparison and analysis in advance and use fresh evaluation material. Registered Reports offer a useful precedent for separating prospective tests from exploratory analyses while reporting both. [Center for Open Science](https://www.cos.io/initiatives/registered-reports)
 

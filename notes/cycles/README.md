@@ -6,7 +6,7 @@ derivative repositories own executable experiments and raw evidence.
 
 | Cycle | Question | Current status | Latest root assessment |
 | --- | --- | --- | --- |
-| [001 — Memory utility](001/README.md) | When do learned retrieval utilities stop helping after circumstances change? | Original budget exhausted; proposed continuation awaits user assignment | [Workload review](001/WORKLOAD_REVIEW.md): revised writing/retrieval path exercised; utility-reset question remains open |
+| [001 — Memory utility](001/README.md) | When do learned retrieval utilities stop helping after circumstances change? | C1-02 development continuation approved and assigned to Grok; preparation precedes inference | [Workload review](001/WORKLOAD_REVIEW.md): revised writing/retrieval path exercised; utility-reset question remains open |
 | [002 — Lesson construction and application](002/README.md) | Which conditions must a lesson preserve, and can its consumer apply them? | Assigned attempt returned with a protocol stop; larger study parked | [Application review](002/APPLICATION_REVIEW.md): the diagnostic comparison is incomplete; development findings stand |
 
 ## Organization
