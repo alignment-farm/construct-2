@@ -32,6 +32,13 @@ separating selection from application; it does not establish that the model
 correctly recognized and rejected stale advice. The affected records may not
 have influenced the relevant action at all. [Pilot evidence](CYCLE_1_PILOT.md)
 
+The [Cycle 1 channel follow-up](CYCLE_1_CHANNEL_REVIEW.md) adds a consumer-side
+qualification: an interface change made more actions available but also
+coincided with a new incorrect UPDATE. Historical utility is conditional on
+the model and execution interface as well as the world. A resulting conjecture
+is that changing the consumer can make old scores poorly calibrated even when
+memory content remains true. The follow-up has not tested that score effect.
+
 **Distinguishing evidence.** At matched access to current information, scope
 information should reduce inappropriate transfer while preserving benefits on
 tasks where the lesson remains valid. If ordinary retrieval and interpretation

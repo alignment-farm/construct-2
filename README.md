@@ -35,6 +35,9 @@ conditional lesson construction from fixed experience. Its code, protocols,
 and evidence live in [construct-lesson-transfer](../construct-lesson-transfer/README.md).
 The [Cycle 2 development return](notes/CYCLE_2_PILOT.md) explains why its next
 agent will test rule application before scaling the construction comparison.
+Grok's [Cycle 1 channel follow-up](notes/CYCLE_1_CHANNEL_REVIEW.md) improves
+the response interface on development tasks; its utility-reset question
+remains open.
 
 Serious empirical work can include exploration. We should be free to discover that a task is unsuitable, a representation is unusable, or an unexpected behavior deserves attention. When we move to testing a claim developed during that exploration, we should specify the comparison and analysis in advance and use fresh evaluation material. Registered Reports offer a useful precedent for separating prospective tests from exploratory analyses while reporting both. [Center for Open Science](https://www.cos.io/initiatives/registered-reports)
 

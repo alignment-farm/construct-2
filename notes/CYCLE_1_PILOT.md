@@ -5,6 +5,10 @@
 The derivative owns the [full pilot report](../../construct-memory-utility/notes/PILOT_REPORT.md),
 pinned upstream source, environment, protocol, raw traces, amendments and analysis.
 The completed pilot evidence is committed in the derivative as `80f6d18`.
+The later [channel diagnostic review](CYCLE_1_CHANNEL_REVIEW.md) covers Grok
+4.6's return at `6eaaed6`: a declared interface change produced 13/13 nonempty
+actor responses and 5/6 successes on a no-memory smoke. It preserves the pilot
+and does not add utility-reset evidence.
 
 The first 84-episode development comparison is complete. It required 90 attempts:
 an earlier four-episode partial run, two instrument failures, and the included
@@ -54,8 +58,9 @@ The following work remains with the derivative, under the user's direction.
 It is not the root project's current task; the broader implications belong in
 the [theory map](THEORY_MAP.md).
 
-Resolve or characterize the empty-response issue on development inputs before
-scaling. Then freeze a fresh-data design with repeated post-migration encounters,
+The empty-response issue is now characterized and an actor-only workload smoke
+has completed. The revised writer and full memory-conditioned path still need
+declared workload checks before scaling. Then freeze a fresh-data design with repeated post-migration encounters,
 several independently acquired histories, and a compute budget chosen with
 prospective precision in mind. Preserve the migration family and competing
 hypotheses; do not tune the task change simply to produce obsolete SQL.
