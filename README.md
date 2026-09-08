@@ -30,7 +30,9 @@ The [derivative working agreement](notes/DERIVATIVE_WORKING_AGREEMENT.md)
 defines that ownership, when decisions return here, and how an agent reports
 progress and completion. It includes four reusable templates and a
 [Cycle 2 charter](notes/CYCLE_2_DERIVATIVE_CHARTER.md) applying them to the
-existing handoff. Version 0.1 will be revised after the next Cycle 1 return.
+existing handoff. Grok continues Cycle 1; Cycle 2 is a separate assignment
+and may use a different agent family or session. The root will review the
+agreement after the next Cycle 1 return.
 
 The current focus here is theory development and synthesis. The user directs empirical agents in derivative projects and brings their reports back. The [theory map](notes/THEORY_MAP.md) connects those returns to the larger questions: when experience remains applicable, where learning should reside, and how its influence can be corrected. A derivative may need substantial further work without becoming the center of this project's agenda. Progress here includes sharpening an explanation, finding a boundary condition, or retiring a claim across the accumulated evidence.
 

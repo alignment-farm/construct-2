@@ -1,6 +1,6 @@
 # Derivative charter: <project / bounded investigation>
 
-Template: Construct-2 working agreement v0.1. Replace angle-bracket fields;
+Template: Construct-2 working agreement v0.1.1. Replace angle-bracket fields;
 link existing material instead of duplicating it. This file records assigned
 scope; it does not grant a budget by itself.
 

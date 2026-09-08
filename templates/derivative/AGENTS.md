@@ -1,6 +1,6 @@
 # Instructions for the derivative agent
 
-Template: Construct-2 working agreement v0.1. Adapt paths and project-specific
+Template: Construct-2 working agreement v0.1.1. Adapt paths and project-specific
 instructions before adoption; retain existing instructions that still apply.
 
 ## Read and own the task
@@ -11,6 +11,11 @@ the root question, assignment, allowed resources, and completion criteria.
 Inspect Git status and active runs before editing or launching work. Preserve
 other contributors' changes. Resume from the recorded state rather than
 repeating completed setup experiments.
+
+Your assignment covers the named derivative. Examples and other cycles in the
+root agreement do not assign additional projects. Leave enough committed
+context for a fresh session or different agent family to continue this work.
+A change of research agent does not change the model under test or its protocol.
 
 Own implementation, documentation, meaningful tests, instrument repairs,
 execution, and evidence reports within the assigned scope. Resolve routine

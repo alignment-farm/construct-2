@@ -1,8 +1,12 @@
 # Cycle 2 derivative charter: applying a supplied rule
 
-2026-09-08 · Charter v0.1 under the [working agreement](DERIVATIVE_WORKING_AGREEMENT.md).
-**Setup is ready; the user will assign the executing derivative agent.** This
-root copy records the existing handoff's scope. It adds no model run, budget,
+2026-09-08 · Charter v0.1 under [working agreement v0.1.1](DERIVATIVE_WORKING_AGREEMENT.md).
+**Setup is ready; the user will assign the executing derivative agent.** That
+may be a different agent family or session from Cycle 1's Grok. This charter
+does not assign Cycle 2 to Grok or end its Cycle 1 work. The committed handoff
+provides the context a fresh session needs.
+
+This root copy records the existing handoff's scope. It adds no model run, budget,
 or experimental amendment. Adopt it by reference in the derivative's entry
 documents when taking ownership; preserve the protocol's detailed rules.
 

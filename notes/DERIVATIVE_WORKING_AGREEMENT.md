@@ -1,6 +1,6 @@
 # Derivative working agreement
 
-Version 0.1 · 2026-09-08 · First use: Cycle 2; review after Grok's next Cycle 1 return.
+Version 0.1.1 · 2026-09-08 · Clarifies independent agent assignments; experiment scopes are unchanged.
 
 **A derivative owns a bounded investigation through a reviewable evidence
 return.** The root owns the connected theory, interpretation across cycles,
@@ -14,6 +14,26 @@ method or a fixed organization. Use existing documents where they already
 cover a field. A short diagnostic needs less documentation than a large study.
 The templates provide a common entry point without requiring a new framework,
 dashboard, or reporting service.
+
+## Current assignments and agent continuity
+
+- **Cycle 1 — `construct-memory-utility`: Grok continues to own this
+  investigation**, including cleanup, review corrections, and further work
+  within its assigned scope through its evidence return. Use this agreement
+  to organize that work. It does not redirect Grok to Cycle 2.
+- **Cycle 2 — `construct-lesson-transfer`: a separate assignment, awaiting the
+  user's choice of agent.** Its charter is a worked example of this agreement.
+  Reading that example does not assign its experiment to the reader.
+
+The agreement applies across agent families and sessions. The user may assign
+a different agent or a fresh session to any derivative; continuity must come
+from the committed project, protocol, evidence, and handoff, without requiring
+access to an earlier conversation. Each assignment is to a specified
+derivative, with no automatic progression from one cycle to the next.
+
+The agent conducting the research is distinct from the model being tested.
+Changing the assigned research agent leaves the experiment's model pins,
+treatments, and other protocol conditions in force.
 
 ## The small document set
 
@@ -141,18 +161,19 @@ uninterpretable run can close operationally while leaving the hypothesis
 untested. Corrections stay in the derivative, followed by a new pinned return;
 root reviews retain their historical pins and link subsequent revisions.
 
-## First application and revision
+## Adoption and revision
 
 The [Cycle 2 charter](CYCLE_2_DERIVATIVE_CHARTER.md) applies this agreement to the
 already prepared application diagnostic. It records the current scope; the
 derivative's existing protocol and handoff remain the execution specification.
-No new experiment is launched by this document.
+It is for the separately assigned Cycle 2 agent; no new experiment is launched
+by this document.
 
-Grok owns Cycle 1's cleanup and next return. Use the
+For Grok's continuing Cycle 1 work, use the
 [channel review](CYCLE_1_CHANNEL_REVIEW.md) as the specific correction record,
 and these templates to organize the next return without retroactively claiming
-the earlier runs followed this agreement. After that review, revise v0.1 based
-on missing information, unnecessary reporting burden, and decisions that still
-required avoidable course correction. See also the
+the earlier runs followed this agreement. After that return, the root will
+review this agreement based on missing information, unnecessary reporting
+burden, and decisions that still required avoidable course correction. See also the
 [Cycle 2 development return](CYCLE_2_PILOT.md) for the application/construction
 distinction that motivated its present scope.

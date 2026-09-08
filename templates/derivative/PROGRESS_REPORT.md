@@ -1,6 +1,6 @@
 # Progress return: <project / milestone>
 
-Template: Construct-2 working agreement v0.1. Keep this short; link existing
+Template: Construct-2 working agreement v0.1.1. Keep this short; link existing
 evidence. Remove guidance and use explicit unknowns rather than empty fields.
 
 - Date / report ID / previous return: <identifiers and link>
