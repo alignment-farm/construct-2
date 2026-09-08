@@ -49,3 +49,37 @@ knows that the model does not. Then inspect a failure with the same care.
   exposes exactly what enters the actor and writer endpoints. Trace a request,
   SQL action, outcome and Q update in a run's `events.jsonl`. Keep the oracle
   audit file separate when identifying what the participant could know.
+
+## Cycle 2: tracing what was learned
+
+| When you encounter this in the project | Read or inspect | A useful question to answer yourself |
+| --- | --- | --- |
+| [The M2 retained correction](CYCLE_2_M2_REVIEW.md#the-retained-object-is-a-supplied-correction) | [The mint](../../construct/harness/resident.py), especially `corrected_claim` and `mint_earned_record` | Which parts come from the agent's failure, the external source, and the programmer's decision rule? |
+| [Construction versus application](CYCLE_2_QUESTION.md#separate-construction-from-application) | [ExpeL v3](https://arxiv.org/pdf/2308.10144v3), algorithms 1–3 | Which information is available while building memory, and which crosses into evaluation? |
+| [The competing explanations](CYCLE_2_QUESTION.md#explanations-to-distinguish) | [LEAP v2](https://arxiv.org/pdf/2402.05403v2), §3 | Could a principle be useful even if every reasoning operation needed to apply it was available before the experience? |
+| [Repeated performance](CYCLE_2_QUESTION.md#evidence-that-would-move-the-account) | [ERL v2](https://arxiv.org/pdf/2603.24639v2), Figure 3 | Why does solving a task in all three attempts differ from solving it at least once? What can neither tell us about unobserved attempts? |
+
+For the last question, consider an idealized fixed success probability `p` with
+independent attempts: success at least once in three attempts has probability
+`1 - (1 - p)^3`, while success in all three has probability `p^3`. Work through
+`p = 0.5` and `p = 0.8`. This is an illustration, not a model fitted to ERL;
+real tasks have different probabilities and runs may share sources of variation.
+
+## Cycle 2: inspecting the derivative
+
+- Follow [one source experience through the simulator](../../construct-lesson-transfer/src/lesson_transfer/environment.py):
+  compare `execute`, `reference_plan`, and `independent_valid`. The second
+  validator uses an enumerated table instead of the execution function. Why
+  would testing a function against itself provide weaker assurance?
+- Read the [writer and actor prompts](../../construct-lesson-transfer/src/lesson_transfer/prompts.py)
+  beside the [protocol](../../construct-lesson-transfer/notes/PROTOCOL.md).
+  Identify which information is fixed across construction treatments and which
+  information the raw-evidence and oracle controls receive. Equal output word
+  limits do not imply equal tokenizer counts or total compute.
+- Work through paired success: a policy that always uses one order might solve
+  half of a two-member pair but never both. Then examine why four tasks and
+  repeated calls using the same constructed memory still do not constitute
+  independent samples of memory construction.
+- Compare [CLIN's heating failure](https://arxiv.org/pdf/2310.10134v1), §4.3,
+  with the derivative's fixed presentation of the entire memory. Which failure
+  mechanisms did this experimental simplification remove, and which remain?

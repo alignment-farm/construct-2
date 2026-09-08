@@ -11,6 +11,13 @@ Read the [Research perspective](notes/TRENDS.md).
 
 The task is to combine the synthesis with the perspective to continue agent memory research. Form theories here, then breakout empirical experiments into other projects over time.
 
+### Research focus and division of work
+
+- Keep this root project focused on theories, competing explanations, literature, and synthesis across the research program. Maintain the connections in the [Theory map](notes/THEORY_MAP.md).
+- The user directs empirical agents in derivative projects. Derivatives own implementation, experiment execution, instrument repairs, and their evidence reports; pursue that work here only when the user explicitly redirects the task.
+- Evaluate returned findings by what they change in the broader account, including what remains unresolved. A derivative's next engineering task does not automatically become the root project's next research priority.
+- Keep failures and limitations visible. Distinguish evidence about the proposed mechanism from evidence about the instrument, and preserve alternative explanations.
+
 ### Model resources
 
 - Open weight models with `docker model`

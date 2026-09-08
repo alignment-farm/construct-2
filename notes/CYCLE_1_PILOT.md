@@ -48,7 +48,11 @@ similarity, and 5/6 with MemRL; both adaptive policies ever solved 5/6 tasks.
 These dependent development counts do not confirm the paper's quantitative
 claim. All 84 included scorer outcomes agree with independent checks.
 
-## Next decision
+## Empirical follow-up in the derivative
+
+The following work remains with the derivative, under the user's direction.
+It is not the root project's current task; the broader implications belong in
+the [theory map](THEORY_MAP.md).
 
 Resolve or characterize the empty-response issue on development inputs before
 scaling. Then freeze a fresh-data design with repeated post-migration encounters,
