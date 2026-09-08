@@ -17,6 +17,7 @@ The task is to combine the synthesis with the perspective to continue agent memo
 - The user directs empirical agents in derivative projects. Derivatives own implementation, experiment execution, instrument repairs, and their evidence reports; pursue that work here only when the user explicitly redirects the task.
 - Evaluate returned findings by what they change in the broader account, including what remains unresolved. A derivative's next engineering task does not automatically become the root project's next research priority.
 - Keep failures and limitations visible. Distinguish evidence about the proposed mechanism from evidence about the instrument, and preserve alternative explanations.
+- Use the [Derivative working agreement](notes/DERIVATIVE_WORKING_AGREEMENT.md) when commissioning or reviewing empirical work. Its templates define ownership and evidence returns; a derivative's adopted charter and protocol specify its actual experiment and authority. Keep root reviews here and implementation and raw evidence in the derivative.
 
 ### Model resources
 

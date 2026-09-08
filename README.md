@@ -26,6 +26,12 @@ Educational material should emerge from the work. When a proposed experiment dep
 
 A derivative would own its code, data, configurations, raw outputs, analysis, and experimental report. The root would explain how its findings affect the larger inquiry. That division keeps the evidence close to the machinery that produced it while allowing theories to develop across several experiments.
 
+The [derivative working agreement](notes/DERIVATIVE_WORKING_AGREEMENT.md)
+defines that ownership, when decisions return here, and how an agent reports
+progress and completion. It includes four reusable templates and a
+[Cycle 2 charter](notes/CYCLE_2_DERIVATIVE_CHARTER.md) applying them to the
+existing handoff. Version 0.1 will be revised after the next Cycle 1 return.
+
 The current focus here is theory development and synthesis. The user directs empirical agents in derivative projects and brings their reports back. The [theory map](notes/THEORY_MAP.md) connects those returns to the larger questions: when experience remains applicable, where learning should reside, and how its influence can be corrected. A derivative may need substantial further work without becoming the center of this project's agenda. Progress here includes sharpening an explanation, finding a boundary condition, or retiring a claim across the accumulated evidence.
 
 The active inquiry is [Cycle 2: from a correction to a reusable lesson](notes/CYCLE_2_QUESTION.md), beginning with Construct M2 and related work on learning from experience. The [Cycle 1 pilot return](notes/CYCLE_1_PILOT.md) remains part of the evidence base while its derivative continues separately.
