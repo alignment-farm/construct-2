@@ -3,7 +3,8 @@
 2026-09-08 · Active root theory cycle. M2 evidence inspection and an initial
 literature comparison are complete. The [derivative proposal](CYCLE_2_PROPOSAL.md)
 now selects a small M2 reproduction and a controlled construction comparison;
-its development protocol is frozen and validation is underway. Cycle 1 continues separately under the user's
+its [development evidence has returned](CYCLE_2_PILOT.md), and a bounded
+application diagnostic is ready for the next derivative agent. Cycle 1 continues separately under the user's
 direction; Grok 4.6's findings will enter through a later evidence return.
 
 ## Starting question
@@ -136,13 +137,15 @@ Interpret the returns separately:
 
 ## Root work next
 
-The closer comparison of CLIN, ERL, and S3Gym now informs the
-[Cycle 2 proposal](CYCLE_2_PROPOSAL.md). The derivative tests conditional rule
-compression with fixed experience and fixed memory presentation. On return,
-ask whether any gain comes from preserving decision-relevant content, whether
-raw evidence already suffices, and which limits arise in construction versus
-application. Keep broader comparisons of persistence mechanisms open rather
-than inferring them from this single text-memory experiment.
+The closer comparison of CLIN, ERL, and S3Gym informed the
+[Cycle 2 proposal](CYCLE_2_PROPOSAL.md). Its [pilot return](CYCLE_2_PILOT.md)
+now separates visible construction errors from failures to apply correct
+guidance on composed tasks. The incoming agent owns the next diagnostic.
+At the root, compare these boundaries with Cycle 1's eventual evidence return:
+does useful memory fail because the relevant information was not acquired,
+not retained, not selected, or not applied? Keep broader comparisons of
+persistence mechanisms open rather than inferring them from this single
+text-memory experiment.
 
 The earlier EFC line also asked about a learned checking behavior across domains.
 Its [recorded instrument and admission failures](RESEARCH_BRIEF.md) remain

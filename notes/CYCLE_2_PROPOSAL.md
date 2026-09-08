@@ -5,6 +5,9 @@
 `3408022`. This note explains the research choice; the derivative owns the
 [executable protocol](../../construct-lesson-transfer/notes/PROTOCOL.md),
 raw evidence, and [handoff](../../construct-lesson-transfer/notes/HANDOFF.md).
+The [development return](CYCLE_2_PILOT.md) records the completed reproduction
+and extension, including the stopped first attempt. It parks the larger
+construction study and selects a bounded application diagnostic next.
 
 ## What the closer reading changed
 

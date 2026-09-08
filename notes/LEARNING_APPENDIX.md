@@ -83,3 +83,9 @@ real tasks have different probabilities and runs may share sources of variation.
 - Compare [CLIN's heating failure](https://arxiv.org/pdf/2310.10134v1), §4.3,
   with the derivative's fixed presentation of the entire memory. Which failure
   mechanisms did this experimental simplification remove, and which remain?
+- The derivative's [prospective sample size](../../construct-lesson-transfer/notes/PROSPECTIVE_PROTOCOL.md#fresh-sample-and-precision)
+  follows from a conservative bound on independent world differences. Substitute
+  48, 192, and 768 for the sample size: quadrupling the number of independent
+  worlds halves the interval radius. Why would quadrupling actor repeats within
+  the same four worlds not justify that calculation? The original reference is
+  [Hoeffding (1963)](https://www.tandfonline.com/doi/abs/10.1080/01621459.1963.10500830).

@@ -106,6 +106,11 @@ construction, application, and scope; these inform all three conjectures above.
 The [derivative proposal](CYCLE_2_PROPOSAL.md) tests conditional rule compression
 from fixed experience, with the primary link to applicability and a narrower
 cost comparison relevant to placement.
+Its [development return](CYCLE_2_PILOT.md) finds both inaccurate constructed
+rules and composed-task failures with correct supplied rules. The compression
+interaction did not support the predicted direction in four worlds. The next
+derivative diagnostic separates compact-rule application from explicit lookup
+and supplied-plan execution; the larger comparison remains parked.
 
 Cycle 1's empirical follow-up remains with the user-directed derivative.
 This map is a starting set of conjectures to revise, combine, or retire as

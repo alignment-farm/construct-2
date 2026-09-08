@@ -30,6 +30,12 @@ The current focus here is theory development and synthesis. The user directs emp
 
 The active inquiry is [Cycle 2: from a correction to a reusable lesson](notes/CYCLE_2_QUESTION.md), beginning with Construct M2 and related work on learning from experience. The [Cycle 1 pilot return](notes/CYCLE_1_PILOT.md) remains part of the evidence base while its derivative continues separately.
 
+Cycle 2's [proposal](notes/CYCLE_2_PROPOSAL.md) narrows the comparison to
+conditional lesson construction from fixed experience. Its code, protocols,
+and evidence live in [construct-lesson-transfer](../construct-lesson-transfer/README.md).
+The [Cycle 2 development return](notes/CYCLE_2_PILOT.md) explains why its next
+agent will test rule application before scaling the construction comparison.
+
 Serious empirical work can include exploration. We should be free to discover that a task is unsuitable, a representation is unusable, or an unexpected behavior deserves attention. When we move to testing a claim developed during that exploration, we should specify the comparison and analysis in advance and use fresh evaluation material. Registered Reports offer a useful precedent for separating prospective tests from exploratory analyses while reporting both. [Center for Open Science](https://www.cos.io/initiatives/registered-reports)
 
 **Failures should change the account of the research.** Each report should explain what happened, which explanations remain possible, and what would resolve the uncertainty. A broken scorer is evidence about the instrument. A treatment that reliably harms performance is evidence about the intervention under those conditions. An imprecise null leaves a different uncertainty. The previous Construct synthesis shows why these distinctions matter.
