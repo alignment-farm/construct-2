@@ -26,29 +26,33 @@ Educational material should emerge from the work. When a proposed experiment dep
 
 A derivative would own its code, data, configurations, raw outputs, analysis, and experimental report. The root would explain how its findings affect the larger inquiry. That division keeps the evidence close to the machinery that produced it while allowing theories to develop across several experiments.
 
+Browse the [cycle index](notes/cycles/README.md) for the research trajectory.
+Each cycle has a short README with its question, status, derivative, and latest
+conclusion, followed by its proposals, reviews, and source inventories.
+
 The [derivative working agreement](notes/DERIVATIVE_WORKING_AGREEMENT.md)
 defines that ownership, when decisions return here, and how an agent reports
 progress and completion. It includes four reusable templates and a
-[Cycle 2 charter](notes/CYCLE_2_DERIVATIVE_CHARTER.md) applying them to the
+[Cycle 2 charter](notes/cycles/002/DERIVATIVE_CHARTER.md) applying them to the
 existing handoff. Grok continues Cycle 1; Cycle 2's assigned diagnostic attempt
-has [returned with an instrument stop](notes/CYCLE_2_APPLICATION_REVIEW.md).
+has [returned with an instrument stop](notes/cycles/002/APPLICATION_REVIEW.md).
 Further derivative assignments may use a different agent family or session.
 The root will review the agreement after the next Cycle 1 return.
 
 The current focus here is theory development and synthesis. The user directs empirical agents in derivative projects and brings their reports back. The [theory map](notes/THEORY_MAP.md) connects those returns to the larger questions: when experience remains applicable, where learning should reside, and how its influence can be corrected. A derivative may need substantial further work without becoming the center of this project's agenda. Progress here includes sharpening an explanation, finding a boundary condition, or retiring a claim across the accumulated evidence.
 
-The current synthesis follows [Cycle 2: from a correction to a reusable lesson](notes/CYCLE_2_QUESTION.md), beginning with Construct M2 and related work on learning from experience. The [Cycle 1 pilot return](notes/CYCLE_1_PILOT.md) remains part of the evidence base while its derivative continues separately.
+The current synthesis follows [Cycle 2: from a correction to a reusable lesson](notes/cycles/002/QUESTION.md), beginning with Construct M2 and related work on learning from experience. The [Cycle 1 pilot return](notes/cycles/001/PILOT.md) remains part of the evidence base while its derivative continues separately.
 
-Cycle 2's [proposal](notes/CYCLE_2_PROPOSAL.md) narrows the comparison to
+Cycle 2's [proposal](notes/cycles/002/PROPOSAL.md) narrows the comparison to
 conditional lesson construction from fixed experience. Its code, protocols,
 and evidence live in [construct-lesson-transfer](../construct-lesson-transfer/README.md).
-The [Cycle 2 development return](notes/CYCLE_2_PILOT.md) explains why rule
+The [Cycle 2 development return](notes/cycles/002/PILOT.md) explains why rule
 application needed diagnosis before scaling the construction comparison.
-The [application return](notes/CYCLE_2_APPLICATION_REVIEW.md) records seven
+The [application return](notes/cycles/002/APPLICATION_REVIEW.md) records seven
 correct scored answers followed by HTTP 500 on the eighth attempt. The fixed
 480-call comparison is incomplete; its evidence is preserved, and the larger
 study remains parked while the root returns to synthesis.
-Grok's [Cycle 1 channel follow-up](notes/CYCLE_1_CHANNEL_REVIEW.md) improves
+Grok's [Cycle 1 channel follow-up](notes/cycles/001/CHANNEL_REVIEW.md) improves
 the response interface on development tasks; its utility-reset question
 remains open.
 

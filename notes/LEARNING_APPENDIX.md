@@ -9,11 +9,11 @@ prerequisite for project progress.
 
 | When you encounter this in the project | Read or inspect | A useful question to answer yourself |
 | --- | --- | --- |
-| [The reproduction conditions](CYCLE_1_PROPOSAL.md#reproduction) | [MemRL v2, sections 3–4](https://arxiv.org/html/2601.03192v2#S3) | Which stored numbers change, and how can that change a later answer? |
-| [The migration extension](CYCLE_1_PROPOSAL.md#one-extension-schema-migration) | Sutton and Barto, *Reinforcement Learning*, second edition, chapter 2, especially incremental estimation and nonstationary problems; [publisher page](https://mitpress.ublish.com/book/reinforcement-learning-an-introduction-2), [CMU-hosted text](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf) | Why does a constant learning rate discount old evidence, and why might that still be too slow in elapsed tasks? |
-| [The primary contrast](CYCLE_1_PROPOSAL.md#predictions-and-measurements) | Work through the four cells using invented success rates | Can the interaction be positive even when resetting harms performance in both worlds? |
-| [Sampling and evidence](CYCLE_1_PROPOSAL.md#sampling-and-evidence) | [Agarwal et al., v4](https://arxiv.org/abs/2108.13264v4), introduction and interval-estimate discussion | Why are many episodes from one acquired memory history different from many independent histories? |
-| [Prospective protocol decisions](CYCLE_1_PROPOSAL.md#execution-sequence) | [Registered Reports: workflow and FAQ](https://www.cos.io/initiatives/registered-reports) | Which decisions are legitimate exploration, and which conclusions need fresh evaluation? |
+| [The reproduction conditions](cycles/001/PROPOSAL.md#reproduction) | [MemRL v2, sections 3–4](https://arxiv.org/html/2601.03192v2#S3) | Which stored numbers change, and how can that change a later answer? |
+| [The migration extension](cycles/001/PROPOSAL.md#one-extension-schema-migration) | Sutton and Barto, *Reinforcement Learning*, second edition, chapter 2, especially incremental estimation and nonstationary problems; [publisher page](https://mitpress.ublish.com/book/reinforcement-learning-an-introduction-2), [CMU-hosted text](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf) | Why does a constant learning rate discount old evidence, and why might that still be too slow in elapsed tasks? |
+| [The primary contrast](cycles/001/PROPOSAL.md#predictions-and-measurements) | Work through the four cells using invented success rates | Can the interaction be positive even when resetting harms performance in both worlds? |
+| [Sampling and evidence](cycles/001/PROPOSAL.md#sampling-and-evidence) | [Agarwal et al., v4](https://arxiv.org/abs/2108.13264v4), introduction and interval-estimate discussion | Why are many episodes from one acquired memory history different from many independent histories? |
+| [Prospective protocol decisions](cycles/001/PROPOSAL.md#execution-sequence) | [Registered Reports: workflow and FAQ](https://www.cos.io/initiatives/registered-reports) | Which decisions are legitimate exploration, and which conclusions need fresh evaluation? |
 | The distinction between a utility update and model training | [PyTorch's autograd tutorial](https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html) | What would we have to change for learning to alter neural-network parameters? |
 
 ## Two small exercises worth doing
@@ -54,10 +54,10 @@ knows that the model does not. Then inspect a failure with the same care.
 
 | When you encounter this in the project | Read or inspect | A useful question to answer yourself |
 | --- | --- | --- |
-| [The M2 retained correction](CYCLE_2_M2_REVIEW.md#the-retained-object-is-a-supplied-correction) | [The mint](../../construct/harness/resident.py), especially `corrected_claim` and `mint_earned_record` | Which parts come from the agent's failure, the external source, and the programmer's decision rule? |
-| [Construction versus application](CYCLE_2_QUESTION.md#separate-construction-from-application) | [ExpeL v3](https://arxiv.org/pdf/2308.10144v3), algorithms 1–3 | Which information is available while building memory, and which crosses into evaluation? |
-| [The competing explanations](CYCLE_2_QUESTION.md#explanations-to-distinguish) | [LEAP v2](https://arxiv.org/pdf/2402.05403v2), §3 | Could a principle be useful even if every reasoning operation needed to apply it was available before the experience? |
-| [Repeated performance](CYCLE_2_QUESTION.md#evidence-that-would-move-the-account) | [ERL v2](https://arxiv.org/pdf/2603.24639v2), Figure 3 | Why does solving a task in all three attempts differ from solving it at least once? What can neither tell us about unobserved attempts? |
+| [The M2 retained correction](cycles/002/M2_REVIEW.md#the-retained-object-is-a-supplied-correction) | [The mint](../../construct/harness/resident.py), especially `corrected_claim` and `mint_earned_record` | Which parts come from the agent's failure, the external source, and the programmer's decision rule? |
+| [Construction versus application](cycles/002/QUESTION.md#separate-construction-from-application) | [ExpeL v3](https://arxiv.org/pdf/2308.10144v3), algorithms 1–3 | Which information is available while building memory, and which crosses into evaluation? |
+| [The competing explanations](cycles/002/QUESTION.md#explanations-to-distinguish) | [LEAP v2](https://arxiv.org/pdf/2402.05403v2), §3 | Could a principle be useful even if every reasoning operation needed to apply it was available before the experience? |
+| [Repeated performance](cycles/002/QUESTION.md#evidence-that-would-move-the-account) | [ERL v2](https://arxiv.org/pdf/2603.24639v2), Figure 3 | Why does solving a task in all three attempts differ from solving it at least once? What can neither tell us about unobserved attempts? |
 
 For the last question, consider an idealized fixed success probability `p` with
 independent attempts: success at least once in three attempts has probability

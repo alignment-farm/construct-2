@@ -2,7 +2,7 @@
 
 2026-09-08 · Targeted primary-source review, not a systematic review or a
 reproduction of published results. Exact versions and inspection coverage are
-recorded in the [source manifest](CYCLE_2_SOURCES.json).
+recorded in the [source manifest](SOURCES.json).
 
 The search began with M2 and Reflexion, then followed work on experiential
 learning, cross-task memory, principle extraction, and contextual guidelines.
@@ -66,7 +66,7 @@ keeps verifier scores outside the agent's exploration inputs. This is a close,
 recent neighbor of our placement question. The follow-up inspected §§4.4–4.5:
 exploration and evaluation use disjoint seeds, and evaluation trajectories do
 not enter subsequent history, summaries, or training. The training implementation
-and all result tables remain unaudited. The [derivative proposal](CYCLE_2_PROPOSAL.md)
+and all result tables remain unaudited. The [derivative proposal](PROPOSAL.md)
 explains why this cycle isolates supervised text construction first.
 
 ACE v3 was located and cached during discovery but was not substantively
@@ -90,5 +90,5 @@ The useful synthesis is to separate three questions:
 
 These mechanisms can coexist. A model can use a pretrained ability to interpret
 a newly acquired rule, and a rule can both enable a solution and reduce errors.
-The [Cycle 2 question](CYCLE_2_QUESTION.md) makes those distinctions operational
+The [Cycle 2 question](QUESTION.md) makes those distinctions operational
 without claiming access to the model's complete latent repertoire.

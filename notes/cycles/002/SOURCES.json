@@ -125,131 +125,131 @@
   "checkout_note": "Unrelated working-tree changes were present. Listed M2 inputs, code, findings, and ledgers had no tracked diff from HEAD at inspection. Individual hashes identify actual bytes; no historical server recreation or publisher-source verification was performed.",
   "local_sources": [
     {
-      "path_relative_to_notes": "../../construct/notes/M2_FINDINGS.md",
+      "path_relative_to_manifest": "../../../../construct/notes/M2_FINDINGS.md",
       "sha256": "33522a968efdbc14abd267ceef526c36750b93226a0c2a22aa8b8a4738045e89"
     },
     {
-      "path_relative_to_notes": "../../construct/notes/SPEC_M2_RESIDENT_SUBSTRATE.md",
+      "path_relative_to_manifest": "../../../../construct/notes/SPEC_M2_RESIDENT_SUBSTRATE.md",
       "sha256": "0ea7029b81363c69e717216e4f631e92664629a5622f94b38db885d7500e0f36"
     },
     {
-      "path_relative_to_notes": "../../construct/episodes/m2/rs-e1.json",
+      "path_relative_to_manifest": "../../../../construct/episodes/m2/rs-e1.json",
       "sha256": "a46ed0f8be5673a58bbb6a20718c72d6ebd31707f026626489032078a3eaedde"
     },
     {
-      "path_relative_to_notes": "../../construct/episodes/m2/rs-e2.json",
+      "path_relative_to_manifest": "../../../../construct/episodes/m2/rs-e2.json",
       "sha256": "e90e83193bd9a75e196dbe668fbb4146051f8ffd9a63f93e9ccbb5436357d982"
     },
     {
-      "path_relative_to_notes": "../../construct/harness/resident.py",
+      "path_relative_to_manifest": "../../../../construct/harness/resident.py",
       "sha256": "6aa3c64cf99d6f5fa1fb7bc986fe13bdf2ca61e8203dcbab0e6263e479dd9aac"
     },
     {
-      "path_relative_to_notes": "../../construct/harness/run_m2.py",
+      "path_relative_to_manifest": "../../../../construct/harness/run_m2.py",
       "sha256": "ae2b5d79b676e9336249df2d6dad906b1b96ba02c35721437d348f4ebde10c9e"
     },
     {
-      "path_relative_to_notes": "../../construct/harness/engine.py",
+      "path_relative_to_manifest": "../../../../construct/harness/engine.py",
       "sha256": "66ad61b71fdab67f519f71e7a8250a6c900ac48db255f96a735b9334e6a79a5a"
     },
     {
-      "path_relative_to_notes": "../../construct/harness/score_resident.py",
+      "path_relative_to_manifest": "../../../../construct/harness/score_resident.py",
       "sha256": "2e429d6c47969a5073c27297d902f2c14184d54a65d24db0913258aa95b8bae0"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/claude-1/rs-s1.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/claude-1/rs-s1.jsonl",
       "sha256": "825ec008f05baf8adcd88cc4c3a3b2e8f90dde57400a23176860b65c4f8bc531"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/claude-2/rs-s1.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/claude-2/rs-s1.jsonl",
       "sha256": "1b2ea532c32152a9d06c739cb3221cce05207c0ad274e728d92d6add20a1d6e2"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/claude-3/rs-s1.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/claude-3/rs-s1.jsonl",
       "sha256": "c3316f7e28b156057a3edf85a94e92fc38dc1a107034751846aed65fd0f82491"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/claude-4/rs-s1.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/claude-4/rs-s1.jsonl",
       "sha256": "437de86c12822f0aad113d6d779bbea24baecd408c732264e30c7d208cb42f98"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/claude-5/rs-s1.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/claude-5/rs-s1.jsonl",
       "sha256": "0c59cfd5b6592043e7abbba1ecb03015a89c430f7968d070fd6a6bbb8ce8b820"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/local-1/rs-s1.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/local-1/rs-s1.jsonl",
       "sha256": "89ef7c56005380fc48f580a568e14105e8f06aa17b9bffa1d81b0b949683ef97"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/local-2/rs-s1.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/local-2/rs-s1.jsonl",
       "sha256": "4106c54b2ea57ac61cffe654610a4d6a196d7edb6b7db11658c4df734fe637c9"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/local-3/rs-s1.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/local-3/rs-s1.jsonl",
       "sha256": "4f3fd502e7651a6d303668f8519a96f226c139c1fc227c95979bfe1d1be87051"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/local-4/rs-s1.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/local-4/rs-s1.jsonl",
       "sha256": "dd977e57f3edf92bba1be715b54c5c07feaaa58b572c3e3df992dccb30f7505c"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/local-5/rs-s1.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/local-5/rs-s1.jsonl",
       "sha256": "4f36e57c7aa46770a4d97663a68c1d235afb7ec4dcefd3ad17ae4180eb770f35"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/claude-1/rs-s2.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/claude-1/rs-s2.jsonl",
       "sha256": "b8a33d7ec85153bd61d5b2a1239b14ba565786bd620f92f6848ef8d0834b427e"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/claude-2/rs-s2.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/claude-2/rs-s2.jsonl",
       "sha256": "6f69a4ab5de6e56118cb230fc2ebe7317d4e437a02d3328cc2fcc5808e959320"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/claude-3/rs-s2.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/claude-3/rs-s2.jsonl",
       "sha256": "6ccd7ed16665ce6433602fe9a4398ace18256383b5fdf40799f81f7be11b741b"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/claude-4/rs-s2.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/claude-4/rs-s2.jsonl",
       "sha256": "505caf8ebaab00e241b5bec8c94d84d78e3f0aeeb92f480468a0fe034aa72fde"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/claude-5/rs-s2.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/claude-5/rs-s2.jsonl",
       "sha256": "5eb1583502981fd6ab4702a7c85dd5950ad43ebe19219ed8378262a3c496d25b"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/local-1/rs-s2.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/local-1/rs-s2.jsonl",
       "sha256": "55c8ce72432a1aefa7aa7d254c1576b2827633349b119a87a95a5116269bfa1e"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/local-2/rs-s2.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/local-2/rs-s2.jsonl",
       "sha256": "d8306846818f4835729c8fcf32d6109e87a92e2c288ebc2e89b58654a3de3334"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/local-3/rs-s2.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/local-3/rs-s2.jsonl",
       "sha256": "105adc252e943364dc0485f034510d26ee2418c9838a1ceff05bdcab11a995c1"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/local-4/rs-s2.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/local-4/rs-s2.jsonl",
       "sha256": "86bc0a48566e8a64ea4dbbd851d6a529ac145bfb327e721adc442185677b89f2"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/nsample/local-5/rs-s2.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/nsample/local-5/rs-s2.jsonl",
       "sha256": "081283e7a6ff86ebd289a2c49326d3ad9745d4d77b039e2430afa6c6f84ebff9"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/abl5/rs-s1.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/abl5/rs-s1.jsonl",
       "sha256": "974b0bbb06f3d1d833e329255d44ddaf4e9c84cabca81d0c49a57c0fed300ffa"
     },
     {
-      "path_relative_to_notes": "../../construct/runs/m2/abl5/rs-s2.jsonl",
+      "path_relative_to_manifest": "../../../../construct/runs/m2/abl5/rs-s2.jsonl",
       "sha256": "80f054d7072ed3571974fdc9640aec96e8bcd482c787485837ada62d4e0b35b9"
     },
     {
-      "path_relative_to_notes": "RESEARCH_BRIEF.md",
+      "path_relative_to_manifest": "../../RESEARCH_BRIEF.md",
       "sha256": "a023d0669f6c2489eb36d974fcc6e7dddb2276f94f49d7f105b6f3184b06f359"
     },
     {
-      "path_relative_to_notes": "TRENDS.md",
+      "path_relative_to_manifest": "../../TRENDS.md",
       "sha256": "63819f5b7cefa264deeca8230130d13aea076647627422cb6b4c2f56845965b9"
     }
   ],

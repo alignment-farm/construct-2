@@ -1,11 +1,11 @@
 # Cycle 1: first empirical return
 
-2026-09-08. The [proposal](CYCLE_1_PROPOSAL.md) is now implemented in the
-[construct-memory-utility derivative](../../construct-memory-utility/README.md).
-The derivative owns the [full pilot report](../../construct-memory-utility/notes/PILOT_REPORT.md),
+2026-09-08. The [proposal](PROPOSAL.md) is now implemented in the
+[construct-memory-utility derivative](../../../../construct-memory-utility/README.md).
+The derivative owns the [full pilot report](../../../../construct-memory-utility/notes/PILOT_REPORT.md),
 pinned upstream source, environment, protocol, raw traces, amendments and analysis.
 The completed pilot evidence is committed in the derivative as `80f6d18`.
-The later [channel diagnostic review](CYCLE_1_CHANNEL_REVIEW.md) covers Grok
+The later [channel diagnostic review](CHANNEL_REVIEW.md) covers Grok
 4.6's return at `6eaaed6`: a declared interface change produced 13/13 nonempty
 actor responses and 5/6 successes on a no-memory smoke. It preserves the pilot
 and does not add utility-reset evidence.
@@ -56,7 +56,7 @@ claim. All 84 included scorer outcomes agree with independent checks.
 
 The following work remains with the derivative, under the user's direction.
 It is not the root project's current task; the broader implications belong in
-the [theory map](THEORY_MAP.md).
+the [theory map](../../THEORY_MAP.md).
 
 The empty-response issue is now characterized and an actor-only workload smoke
 has completed. The revised writer and full memory-conditioned path still need
@@ -65,7 +65,7 @@ several independently acquired histories, and a compute budget chosen with
 prospective precision in mind. Preserve the migration family and competing
 hypotheses; do not tune the task change simply to produce obsolete SQL.
 
-The derivative's [next-run design](../../construct-memory-utility/notes/NEXT_RUN_DESIGN.md)
+The derivative's [next-run design](../../../../construct-memory-utility/notes/NEXT_RUN_DESIGN.md)
 includes explicit precision scenarios and costs. No main experiment has started
-and no confirmatory protocol is frozen. The [learning appendix](LEARNING_APPENDIX.md)
+and no confirmatory protocol is frozen. The [learning appendix](../../LEARNING_APPENDIX.md)
 now points into actual code, tests, protocol decisions and failure records.

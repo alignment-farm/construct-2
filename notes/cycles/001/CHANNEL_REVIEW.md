@@ -5,13 +5,13 @@
 improvement on development tasks. It does not yet change the utility-reset or
 schema-migration findings.** No main experiment has started.
 
-The derivative's [diagnostic](../../construct-memory-utility/notes/EMPTY_RESPONSES.md)
-and [amendment 3](../../construct-memory-utility/notes/PILOT_AMENDMENT_3.md)
+The derivative's [diagnostic](../../../../construct-memory-utility/notes/EMPTY_RESPONSES.md)
+and [amendment 3](../../../../construct-memory-utility/notes/PILOT_AMENDMENT_3.md)
 keep the original pilot frozen. This review recomputed channel counts, checked
 smoke scores from saved answers and state snapshots, compared initial requests
 with the baseline, and ran nine isolated tests with fake endpoints. No model
 or database run was started; the derivative was left unchanged.
-[Review evidence and source hashes](CYCLE_1_CHANNEL_REVIEW_SOURCES.json)
+[Review evidence and source hashes](CHANNEL_REVIEW_SOURCES.json)
 record the scope and checks.
 
 ## What is established

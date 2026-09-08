@@ -6,7 +6,7 @@ This is a selection memo, not a systematic literature review or an experimental
 verification of the papers. Sources below are primary papers and author code.
 The review examined relevant methods, limitations, and implementation sections;
 it did not rerun any published results. The recommendation is developed in the
-[proposal](CYCLE_1_PROPOSAL.md).
+[proposal](PROPOSAL.md).
 
 ## Reproduction candidates
 

@@ -18,6 +18,7 @@ The task is to combine the synthesis with the perspective to continue agent memo
 - Evaluate returned findings by what they change in the broader account, including what remains unresolved. A derivative's next engineering task does not automatically become the root project's next research priority.
 - Keep failures and limitations visible. Distinguish evidence about the proposed mechanism from evidence about the instrument, and preserve alternative explanations.
 - Use the [Derivative working agreement](notes/DERIVATIVE_WORKING_AGREEMENT.md) when commissioning or reviewing empirical work. Its templates define ownership and evidence returns; a derivative's adopted charter and protocol specify its actual experiment and authority. Keep root reviews here and implementation and raw evidence in the derivative.
+- Organize cycle-specific notes and source inventories under `notes/cycles/NNN/`, with a short README for the question, current status, derivative, and latest conclusion. Maintain the [cycle index](notes/cycles/README.md). Shared theory, synthesis, agreements, and learning material stay directly under `notes/`.
 
 ### Model resources
 

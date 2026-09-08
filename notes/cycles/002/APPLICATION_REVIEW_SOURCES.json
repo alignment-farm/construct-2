@@ -1,6 +1,6 @@
 {
   "description": "Root review of the pinned stopped application return; the same Codex session executed and reviewed it. Independent outcome verification is not independent peer review.",
-  "derivative_repository": "../construct-lesson-transfer",
+  "derivative_repository_relative_to_root": "../construct-lesson-transfer",
   "return_commit": "2cbd76062c8752006775c509be798067f5af39af",
   "report": "notes/returns/001-application-stop.md",
   "run": "artifacts/application/1788893907497899000",

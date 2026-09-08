@@ -6,7 +6,8 @@ scope; it does not grant a budget by itself.
 
 - Date / charter version / status: <draft, assigned, active, stopped, or returned>
 - Derivative repository / owner: <path or URL; agent designated by the user>
-- Root question / theory: <document paths and relevant revision>
+- Root question / theory: <root cycle README under notes/cycles/NNN/, theory
+  document paths, and relevant revision>
 - Active protocol / handoff: <paths and frozen revisions>
 - Assignment and resource authority: <user instruction or recorded decision>
 - Prior evidence: <source commits, runs, reports; limitations carried forward>

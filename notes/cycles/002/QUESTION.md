@@ -1,9 +1,9 @@
 # Cycle 2: from a correction to a reusable lesson
 
 2026-09-08 · Active root theory cycle. M2 evidence inspection and an initial
-literature comparison are complete. The [derivative proposal](CYCLE_2_PROPOSAL.md)
+literature comparison are complete. The [derivative proposal](PROPOSAL.md)
 now selects a small M2 reproduction and a controlled construction comparison;
-its [development evidence has returned](CYCLE_2_PILOT.md), and a bounded
+its [development evidence has returned](PILOT.md), and a bounded
 application diagnostic is ready for the next derivative agent. Cycle 1 continues separately under the user's
 direction; Grok 4.6's findings will enter through a later evidence return.
 
@@ -12,9 +12,9 @@ direction; Grok 4.6's findings will enter through a later evidence return.
 **When does constructing a lesson from experience improve later decisions
 beyond preserving the correction or providing a generic strategy?**
 
-The [M2 review](CYCLE_2_M2_REVIEW.md) establishes the entry point: a supplied
+The [M2 review](M2_REVIEW.md) establishes the entry point: a supplied
 correction influenced a later decision about the same finding. The
-[literature review](CYCLE_2_LITERATURE.md) extends the inquiry to generated
+[literature review](LITERATURE.md) extends the inquiry to generated
 principles, cross-task reuse, and reliability. This cycle develops an account
 of what experience contributes, with a bounded derivative to test its predictions.
 
@@ -138,7 +138,7 @@ Interpret the returns separately:
 ## Root work next
 
 The closer comparison of CLIN, ERL, and S3Gym informed the
-[Cycle 2 proposal](CYCLE_2_PROPOSAL.md). Its [pilot return](CYCLE_2_PILOT.md)
+[Cycle 2 proposal](PROPOSAL.md). Its [pilot return](PILOT.md)
 now separates visible construction errors from failures to apply correct
 guidance on composed tasks. The incoming agent owns the next diagnostic.
 At the root, compare these boundaries with Cycle 1's eventual evidence return:
@@ -148,6 +148,6 @@ persistence mechanisms open rather than inferring them from this single
 text-memory experiment.
 
 The earlier EFC line also asked about a learned checking behavior across domains.
-Its [recorded instrument and admission failures](RESEARCH_BRIEF.md) remain
+Its [recorded instrument and admission failures](../../RESEARCH_BRIEF.md) remain
 relevant limits on that attempt; they do not settle the present conjecture.
 They are context for theory formation, rather than an inherited repair queue.

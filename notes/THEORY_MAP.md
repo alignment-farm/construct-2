@@ -1,7 +1,7 @@
 # Agent memory: a working theory map
 
 2026-09-08. A synthesis of the [research brief](RESEARCH_BRIEF.md),
-[research perspective](TRENDS.md), and [Cycle 1 return](CYCLE_1_PILOT.md).
+[research perspective](TRENDS.md), and [Cycle 1 return](cycles/001/PILOT.md).
 These are working conjectures, not established general results or claims of
 novelty. This map organizes the questions; derivative projects own empirical
 designs and execution.
@@ -30,9 +30,9 @@ Cycle 1 makes this distinction concrete: resetting utility changed selected
 memory sets, but obsolete SQL identifiers were never executed. That supports
 separating selection from application; it does not establish that the model
 correctly recognized and rejected stale advice. The affected records may not
-have influenced the relevant action at all. [Pilot evidence](CYCLE_1_PILOT.md)
+have influenced the relevant action at all. [Pilot evidence](cycles/001/PILOT.md)
 
-The [Cycle 1 channel follow-up](CYCLE_1_CHANNEL_REVIEW.md) adds a consumer-side
+The [Cycle 1 channel follow-up](cycles/001/CHANNEL_REVIEW.md) adds a consumer-side
 qualification: an interface change made more actions available but also
 coincided with a new incorrect UPDATE. Historical utility is conditional on
 the model and execution interface as well as the world. A resulting conjecture
@@ -105,18 +105,18 @@ root task.
 
 ## Cycle 2 return and current synthesis
 
-[Cycle 2: from a correction to a reusable lesson](CYCLE_2_QUESTION.md) begins
-with Construct M2. Its [evidence review](CYCLE_2_M2_REVIEW.md) distinguishes
+[Cycle 2: from a correction to a reusable lesson](cycles/002/QUESTION.md) begins
+with Construct M2. Its [evidence review](cycles/002/M2_REVIEW.md) distinguishes
 the value of a supplied correction from the value of constructing a lesson
-through experience. The [literature comparison](CYCLE_2_LITERATURE.md) separates
+through experience. The [literature comparison](cycles/002/LITERATURE.md) separates
 construction, application, and scope; these inform all three conjectures above.
-The [derivative proposal](CYCLE_2_PROPOSAL.md) tests conditional rule compression
+The [derivative proposal](cycles/002/PROPOSAL.md) tests conditional rule compression
 from fixed experience, with the primary link to applicability and a narrower
 cost comparison relevant to placement.
-Its [development return](CYCLE_2_PILOT.md) finds both inaccurate constructed
+Its [development return](cycles/002/PILOT.md) finds both inaccurate constructed
 rules and composed-task failures with correct supplied rules. The compression
 interaction did not support the predicted direction in four worlds. The
-[application diagnostic attempt](CYCLE_2_APPLICATION_REVIEW.md) stopped on a
+[application diagnostic attempt](cycles/002/APPLICATION_REVIEW.md) stopped on a
 server output-format error after seven correct scored plans and one failed
 request. Its intended comparison of compact rules, lookup tables, and supplied
 plans remains incomplete. That instrument stop adds no verdict on the

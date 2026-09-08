@@ -20,8 +20,8 @@ capability changes.
 
 This is a dated research agenda. Results below are attributed to their sources;
 the proposed division of responsibilities and research priorities are subjective.
-Local findings remain owned by [Construct](construct/README.md) and
-[Formation](formation/README.md).
+Local findings remain owned by [Construct](../../construct/README.md) and
+[Formation](../../formation/README.md).
 
 ## Model and harness design are converging
 
@@ -204,9 +204,9 @@ failure paths.
 
 ## What I would investigate in this lab
 
-Construct's [GM continuity finding](construct/notes/GM_MEMORY_FINDING.md),
-[X2 recovery result](construct/notes/X2_FINDINGS.md), and
-[M3 channel attack](construct/notes/M3_FINDINGS.md) motivate a practical program:
+Construct's [GM continuity finding](../../construct/notes/GM_MEMORY_FINDING.md),
+[X2 recovery result](../../construct/notes/X2_FINDINGS.md), and
+[M3 channel attack](../../construct/notes/M3_FINDINGS.md) motivate a practical program:
 make useful history available, keep recovery affordable, and protect the
 mechanisms that decide what the model receives. The immediate GM opportunity
 is contact with actual play, including irrelevant memories, revised promises,

@@ -1,15 +1,15 @@
 # Cycle 2: evidence return and next derivative task
 
-Subsequent status: the [application attempt](CYCLE_2_APPLICATION_REVIEW.md)
+Subsequent status: the [application attempt](APPLICATION_REVIEW.md)
 stopped under its protocol after eight requests. Its comparison is incomplete;
 the development findings below remain unchanged.
 
 2026-09-08 · Development return from
-[construct-lesson-transfer](../../construct-lesson-transfer/README.md).
-The derivative owns the [full report](../../construct-lesson-transfer/notes/PILOT_REPORT.md),
+[construct-lesson-transfer](../../../../construct-lesson-transfer/README.md).
+The derivative owns the [full report](../../../../construct-lesson-transfer/notes/PILOT_REPORT.md),
 raw responses, state traces, protocols, and executable checks.
 Its complete development evidence and executable diagnostic setup are committed
-as `184ee08`; [HANDOFF](../../construct-lesson-transfer/notes/HANDOFF.md) is the
+as `184ee08`; [HANDOFF](../../../../construct-lesson-transfer/notes/HANDOFF.md) is the
 incoming agent's entry point.
 
 **A correction can change a decision without being a learned procedure;
@@ -78,14 +78,14 @@ inflated into a general theory of memory.
 ## Handoff decision before the application attempt
 
 The next agent receives a frozen, executable
-[application diagnostic](../../construct-lesson-transfer/notes/APPLICATION_PROTOCOL.md):
+[application diagnostic](../../../../construct-lesson-transfer/notes/APPLICATION_PROTOCOL.md):
 12 fresh worlds, five controls, 480 actor calls, and no lesson generation.
 Conditional rules, an explicit complete lookup table, and a supplied correct
 plan distinguish evidence interpretation, conditional application, and output
 execution. Raw evidence and no-memory controls remain in the comparison.
 Admission thresholds and stopping rules precede its model outcomes.
 
-The larger [192-world construction study](../../construct-lesson-transfer/notes/PROSPECTIVE_PROTOCOL.md)
+The larger [192-world construction study](../../../../construct-lesson-transfer/notes/PROSPECTIVE_PROTOCOL.md)
 is concrete but parked. Its approximately 6.8-hour development-based cost
 estimate is not justified until the application limitation is better understood.
 The derivative returns the diagnostic evidence to the root before another

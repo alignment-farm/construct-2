@@ -3,7 +3,7 @@
 2026-09-08 · Research proposal · No experimental results yet
 
 This proposal was recorded before execution in commit `84809cd`. The subsequent
-[pilot record](CYCLE_1_PILOT.md) contains current progress, evidence and limitations.
+[pilot record](PILOT.md) contains current progress, evidence and limitations.
 
 ## Recommendation
 
@@ -17,7 +17,7 @@ The scientific objective is to characterize when historical success remains a
 useful basis for memory selection. The first cycle keeps model weights fixed
 so that the intervention has a clear location. Direct training belongs in a
 subsequent question that requires it. Learning resources are in the separate
-[appendix](LEARNING_APPENDIX.md).
+[appendix](../../LEARNING_APPENDIX.md).
 
 ## Basis for the choice
 
@@ -37,7 +37,7 @@ The literature already studies evolving state, tool changes, and memory credit
 assignment. Our proposed contribution is the narrower comparison between
 inherited and reset utility on identical starting memories during executable
 schema migration. Novelty remains provisional; see the
-[candidate and overlap review](CYCLE_1_LITERATURE.md).
+[candidate and overlap review](LITERATURE.md).
 
 ## Reproduction
 

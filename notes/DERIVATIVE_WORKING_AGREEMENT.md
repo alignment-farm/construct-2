@@ -22,7 +22,7 @@ dashboard, or reporting service.
   within its assigned scope through its evidence return. Use this agreement
   to organize that work. It does not redirect Grok to Cycle 2.
 - **Cycle 2 — `construct-lesson-transfer`: Codex executed the separately
-  assigned application attempt and [returned its protocol stop](CYCLE_2_APPLICATION_REVIEW.md).**
+  assigned application attempt and [returned its protocol stop](cycles/002/APPLICATION_REVIEW.md).**
   The diagnostic remains incomplete. Further execution is a separate user
   assignment, open to another agent family or session. Its charter is a worked
   example; reading it does not assign its experiment to the reader.
@@ -53,6 +53,11 @@ the charter, active protocol, latest return, and current next action. Retain an
 existing `HANDOFF.md` when it usefully records commands and operational state.
 Code, tests, environment locks, configurations, raw artifacts, and analysis
 remain in the derivative's existing structure.
+
+On the root side, keep the charter, reviews, and source inventories in the
+corresponding `notes/cycles/NNN/` directory. Its short README records the
+current question, status, derivative, and conclusion; the
+[cycle index](cycles/README.md) connects these records across the program.
 
 Record the adopted agreement version. Later template edits do not silently
 amend an active experiment. A populated charter records the scope actually
@@ -165,17 +170,17 @@ root reviews retain their historical pins and link subsequent revisions.
 
 ## Adoption and revision
 
-The [Cycle 2 charter](CYCLE_2_DERIVATIVE_CHARTER.md) applies this agreement to the
+The [Cycle 2 charter](cycles/002/DERIVATIVE_CHARTER.md) applies this agreement to the
 already prepared application diagnostic. It records the current scope; the
 derivative's existing protocol and handoff remain the execution specification.
 It is for the separately assigned Cycle 2 agent; no new experiment is launched
 by this document.
 
 For Grok's continuing Cycle 1 work, use the
-[channel review](CYCLE_1_CHANNEL_REVIEW.md) as the specific correction record,
+[channel review](cycles/001/CHANNEL_REVIEW.md) as the specific correction record,
 and these templates to organize the next return without retroactively claiming
 the earlier runs followed this agreement. After that return, the root will
 review this agreement based on missing information, unnecessary reporting
 burden, and decisions that still required avoidable course correction. See also the
-[Cycle 2 development return](CYCLE_2_PILOT.md) for the application/construction
+[Cycle 2 development return](cycles/002/PILOT.md) for the application/construction
 distinction that motivated its present scope.

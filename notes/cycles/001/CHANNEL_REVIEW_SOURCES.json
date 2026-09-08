@@ -306,7 +306,7 @@
   },
   "review_date": "2026-09-08",
   "review_scope": "Read-only review of the supplied derivative commit; no live model, database, or benchmark run. Recomputed smoke scorer checks in a temporary copy.",
-  "source_root_relative_to_notes": "../../construct-memory-utility",
+  "source_root_relative_to_manifest": "../../../../construct-memory-utility",
   "targeted_tests": {
     "command": "uv run --locked --no-sync pytest -q tests/test_response_channels.py tests/test_runtime.py --noconftest -p no:cacheprovider",
     "passed": 9,

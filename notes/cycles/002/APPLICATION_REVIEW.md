@@ -6,11 +6,11 @@
 return. The intended 480-call diagnostic did not complete.** Keep the larger
 construction study parked and return to synthesis.
 
-The derivative owns [Return 001](../../construct-lesson-transfer/notes/returns/001-application-stop.md)
+The derivative owns [Return 001](../../../../construct-lesson-transfer/notes/returns/001-application-stop.md)
 and its raw evidence. The user directed this session to complete the Cycle 2
 iteration; the same Codex session executed and assessed the attempt.
 Independent outcome checks mean separate validation logic, not an independent
-researcher or peer review. The [review record](CYCLE_2_APPLICATION_REVIEW_SOURCES.json)
+researcher or peer review. The [review record](APPLICATION_REVIEW_SOURCES.json)
 pins files and checks. Cycle 1's project was not accessed.
 
 ## What the new record supports
@@ -72,7 +72,7 @@ The full Cycle 2 record has three different evidential levels:
 | Four-world construction pilot | Some scoped lessons helped single-object pairs, but content errors and composed-task failures remained; the predicted compression interaction did not appear | Whether construction policy reliably preserves distinctions that a consumer can use |
 | Application diagnostic attempt | Seven correct returned plans preceded a server output-format error and the declared stop | Whether conditional rules, explicit tables, and supplied plans differ across the fixed sample |
 
-The [development return](CYCLE_2_PILOT.md) remains the main source of new
+The [development return](PILOT.md) remains the main source of new
 mechanism evidence. This interruption neither strengthens nor weakens the
 conditional-construction hypothesis. It adds a limit on the instrument used
 to investigate it. Earlier admission and matching model/backend versions did
@@ -83,7 +83,7 @@ At the broader level, Cycle 1 and Cycle 2 continue to justify separating
 retrieval is not sufficient evidence that stale advice changed an action.
 A retained correction is not sufficient evidence of learned abstraction.
 Correct stored rules are not sufficient evidence of reliable composition.
-These distinctions organize the [theory map](THEORY_MAP.md); the observations
+These distinctions organize the [theory map](../../THEORY_MAP.md); the observations
 remain bounded to their tested setups.
 
 The next root discussion should examine what must remain invariant when

@@ -2,7 +2,7 @@
 
 2026-09-08 · Read-only examination of the original Construct record.
 This is a new interpretation of existing evidence, not an experimental rerun.
-The [Cycle 2 question](CYCLE_2_QUESTION.md) develops its implications.
+The [Cycle 2 question](QUESTION.md) develops its implications.
 
 ## The phenomenon
 
@@ -11,17 +11,17 @@ later decision. What part of that process constitutes learning, and what would
 establish a reusable change beyond the corrected case?**
 
 M2 provides a concrete starting point because its intervention is unusually
-inspectable. Its [specification](../../construct/notes/SPEC_M2_RESIDENT_SUBSTRATE.md)
+inspectable. Its [specification](../../../../construct/notes/SPEC_M2_RESIDENT_SUBSTRATE.md)
 separates the source of a correction from the model's account of having learned.
-The [findings](../../construct/notes/M2_FINDINGS.md) report a bounded benefit
+The [findings](../../../../construct/notes/M2_FINDINGS.md) report a bounded benefit
 across a cold session boundary.
 
 ## The retained object is a supplied correction
 
-In [session 1](../../construct/episodes/m2/rs-e1.json), the agent receives an
+In [session 1](../../../../construct/episodes/m2/rs-e1.json), the agent receives an
 apparently valid fish age-estimation finding and decides whether to cite it.
 The external corpus records a retraction. After a scored failure,
-[the mint](../../construct/harness/resident.py) constructs a record from the
+[the mint](../../../../construct/harness/resident.py) constructs a record from the
 corpus's claim, event, and stated reason. It ends with an explicit instruction:
 “Decline to cite it as a current finding.”
 
@@ -31,9 +31,9 @@ creation of the record; the corpus and the programmed decision rule supply
 its content. That distinction follows the original design, rather than
 identifying a defect in it.
 
-In [session 2](../../construct/episodes/m2/rs-e2.json), both branches receive
+In [session 2](../../../../construct/episodes/m2/rs-e2.json), both branches receive
 the original finding. The resident also receives the correction; the control
-does not. The [runner](../../construct/harness/run_m2.py) makes the added record
+does not. The [runner](../../../../construct/harness/run_m2.py) makes the added record
 the sole difference in offered record membership and provides enough retrieval
 slots to avoid displacement. The later question concerns the same finding in
 a review-writing context. No new retraction or procedural problem is tested.
@@ -65,7 +65,7 @@ tested conditions; it does not make every future ablation deterministic.
 All eleven inspected runs contain identical lesson text. Repeated draws sample
 responses to one corrected case; they are not eleven independently learned
 rules or eleven task families. The ledger paths and file hashes are retained
-in the [source manifest](CYCLE_2_SOURCES.json).
+in the [source manifest](SOURCES.json).
 
 ## The boundary the next cycle should preserve
 
@@ -96,7 +96,7 @@ Two stronger interpretations in the historical narrative also need care:
   pathology was not observed in those cases.
 
 These qualifications preserve the observed positive result while keeping its
-mechanism and generality open. The existing [research synthesis](RESEARCH_BRIEF.md)
+mechanism and generality open. The existing [research synthesis](../../RESEARCH_BRIEF.md)
 already adopts the narrower scope.
 
 ## Inspection limits
