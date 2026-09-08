@@ -1,6 +1,6 @@
 # Derivative working agreement
 
-Version 0.1.1 · 2026-09-08 · Clarifies independent agent assignments; experiment scopes are unchanged.
+Version 0.1.2 · 2026-09-08 · Centralizes current cycle records and clarifies return numbering; experiment scopes and existing adoptions are unchanged.
 
 **A derivative owns a bounded investigation through a reviewable evidence
 return.** The root owns the connected theory, interpretation across cycles,
@@ -15,20 +15,13 @@ cover a field. A short diagnostic needs less documentation than a large study.
 The templates provide a common entry point without requiring a new framework,
 dashboard, or reporting service.
 
-## Current assignments and agent continuity
+## Assignments and agent continuity
 
-- **Cycle 1 — `construct-memory-utility`: Grok continues to own this
-  investigation** under C1-02, approved by the user on 2026-09-08.
-  The [latest workload return](cycles/001/WORKLOAD_REVIEW.md) has been reviewed;
-  the [continuation envelope](cycles/001/CONTINUATION_ENVELOPE.md) assigns
-  preparation, protocol freezing, and execution within its scope and caps.
-  The original budget remains exhausted. This agreement does not redirect
-  Grok to Cycle 2.
-- **Cycle 2 — `construct-lesson-transfer`: Codex executed the separately
-  assigned application attempt and [returned its protocol stop](cycles/002/APPLICATION_REVIEW.md).**
-  The diagnostic remains incomplete. Further execution is a separate user
-  assignment, open to another agent family or session. Its charter is a worked
-  example; reading it does not assign its experiment to the reader.
+Find current assignments through the [cycle index](cycles/README.md). Each
+cycle README records its investigator, latest root decision, exact assignment
+revision, and latest reviewed return. This agreement defines the working
+relationship; it does not duplicate that changing roster. An example charter
+or another cycle's documents never assign their experiment to the reader.
 
 The agreement applies across agent families and sessions. The user may assign
 a different agent or a fresh session to any derivative; continuity must come
@@ -58,9 +51,13 @@ Code, tests, environment locks, configurations, raw artifacts, and analysis
 remain in the derivative's existing structure.
 
 On the root side, keep the charter, reviews, and source inventories in the
-corresponding `notes/cycles/NNN/` directory. Its short README records the
-current question, status, derivative, and conclusion; the
-[cycle index](cycles/README.md) connects these records across the program.
+corresponding `notes/cycles/NNN/` directory. Its README is the single current
+cycle record. Use the [cycle conventions](cycles/README.md#one-current-record-per-cycle)
+for assignment decisions and record ownership, and the
+[review conventions](cycles/README.md#cycles-and-successive-reviews) for
+successive root assessments. Overviews link to that record; dated reviews and
+assignment documents retain their historical meaning. Actual spend and runner
+state remain in the derivative, not in a second root ledger.
 
 Record the adopted agreement version. Later template edits do not silently
 amend an active experiment. A populated charter records the scope actually
@@ -132,6 +129,11 @@ coding and unchanged run progress belong in the derivative's own log. A
 progress report can be a few paragraphs and a small table. It should state
 what changed since the last return and whether a response is needed.
 
+Use one increasing sequence of return IDs in each derivative's `notes/returns/`,
+shared by progress, final, and correction reports. Take the next unused number;
+include prior-return links when correcting or superseding a report. Root review
+numbers are separate and do not have to match the derivative's return IDs.
+
 The derivative writes and commits its report beside its evidence. The user
 relays **repository, full return commit, report path, status, and any decision
 request** here. Put the enclosing commit in that relay after committing; the
@@ -173,22 +175,16 @@ root reviews retain their historical pins and link subsequent revisions.
 
 ## Adoption and revision
 
-The [Cycle 2 charter](cycles/002/DERIVATIVE_CHARTER.md) applies this agreement to the
-already prepared application diagnostic. It records the current scope; the
-derivative's existing protocol and handoff remain the execution specification.
-It is for the separately assigned Cycle 2 agent; no new experiment is launched
-by this document.
+The [Cycle 2 charter](cycles/002/DERIVATIVE_CHARTER.md) and
+[C1-02 envelope](cycles/001/CONTINUATION_ENVELOPE.md) are dated examples of
+populated assignments. The [Cycle 1 workload review](cycles/001/WORKLOAD_REVIEW.md)
+showed why a template alone cannot replace concrete scope, discretion, and
+caps. The [Cycle 2 development return](cycles/002/PILOT.md) illustrates how an
+application limitation can motivate a different diagnostic without assigning
+it automatically. Use each cycle README for the current decision, rather than
+reading these examples as live instructions.
 
-For Grok's continuing Cycle 1 work, use the
-[workload review](cycles/001/WORKLOAD_REVIEW.md) as the latest assessment.
-Its report successfully kept code, evidence, limitations, and the resource
-decision together. The practical lesson is to populate a continuation's scope
-and caps: a template alone cannot grant them. The user-approved
-[C1-02 envelope](cycles/001/CONTINUATION_ENVELOPE.md) makes initial protocol
-freezing and execution autonomous within an assigned design, with explicit
-limits on changes and spending. The user adopted it on 2026-09-08; its
-assignment record and the derivative charter carry the specific authority.
+Version 0.1.2 changes document maintenance, not any assigned experiment.
+Existing derivatives retain their pinned working-agreement and charter
+adoptions; later template or navigation edits do not change those terms.
 Earlier runs are not retroactively represented as following this agreement.
-See also the
-[Cycle 2 development return](cycles/002/PILOT.md) for the application/construction
-distinction that motivated its present scope.

@@ -265,6 +265,18 @@ system uses familiar components.
 
 ---
 
+## Retained critique of earlier framing
+
+The commentary below was already present in this repository's initial commit,
+`b49fac2`. It discusses earlier wording and is retained as part of the research
+record. Its exact review date and target revision were not recorded. The main
+perspective above already incorporates several of its qualifications, including
+the limits of the “clerk-work” framing and the production-study denominator.
+References below to “TRENDS,” “current,” or work to do “now” describe the
+critique's context, not a new assessment or assignment. Use the
+[theory map](THEORY_MAP.md) and [cycle records](cycles/README.md) for the evolving
+account and current work.
+
 Construct has credible, bounded evidence that memory architecture improves an agent’s behavior. It does **not yet establish where harness improvements stop paying and weight updates become necessary**. That is an interesting open question, but the documents sometimes frame it as more settled than the experiments support.
 
 I read both documents, followed the main findings, and checked Formation’s current account because TRENDS invokes its clerk/practitioner distinction. This is an assessment of the documented evidence, not a rerun of the experiments.

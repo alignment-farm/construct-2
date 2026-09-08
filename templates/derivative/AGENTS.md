@@ -1,6 +1,6 @@
 # Instructions for the derivative agent
 
-Template: Construct-2 working agreement v0.1.1. Adapt paths and project-specific
+Template: Construct-2 working agreement v0.1.2. Adapt paths and project-specific
 instructions before adoption; retain existing instructions that still apply.
 
 ## Read and own the task

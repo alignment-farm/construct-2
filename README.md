@@ -27,40 +27,24 @@ Educational material should emerge from the work. When a proposed experiment dep
 A derivative would own its code, data, configurations, raw outputs, analysis, and experimental report. The root would explain how its findings affect the larger inquiry. That division keeps the evidence close to the machinery that produced it while allowing theories to develop across several experiments.
 
 Browse the [cycle index](notes/cycles/README.md) for the research trajectory.
-Each cycle has a short README with its question, status, derivative, and latest
-conclusion, followed by its proposals, reviews, and source inventories.
+Each cycle's README is its current record for the question, assignment,
+derivative, reviewed evidence, and conclusion. Start there for current status;
+proposals, reviews, and source inventories preserve the history behind it.
 
 The [derivative working agreement](notes/DERIVATIVE_WORKING_AGREEMENT.md)
 defines that ownership, when decisions return here, and how an agent reports
-progress and completion. It includes four reusable templates and a
-[Cycle 2 charter](notes/cycles/002/DERIVATIVE_CHARTER.md) applying them to the
-existing handoff. Grok owns Cycle 1 under the user-approved
-[C1-02 continuation envelope](notes/cycles/001/CONTINUATION_ENVELOPE.md),
-following the [latest review](notes/cycles/001/WORKLOAD_REVIEW.md).
-Preparation, protocol freezing, and execution within that envelope are assigned.
-Cycle 2's assigned diagnostic attempt
-has [returned with an instrument stop](notes/cycles/002/APPLICATION_REVIEW.md).
-Further derivative assignments may use a different agent family or session.
-The agreement's adoption notes record what the Cycle 1 return taught us about
-assigning concrete scope and resources.
+progress and completion. It includes four reusable templates and worked
+assignment examples. Each derivative's investigator and adopted scope are
+recorded in its cycle; a later assignment may use a different agent family or
+session. The agreement itself is not a roster or resource grant.
 
 The current focus here is theory development and synthesis. The user directs empirical agents in derivative projects and brings their reports back. The [theory map](notes/THEORY_MAP.md) connects those returns to the larger questions: when experience remains applicable, where learning should reside, and how its influence can be corrected. A derivative may need substantial further work without becoming the center of this project's agenda. Progress here includes sharpening an explanation, finding a boundary condition, or retiring a claim across the accumulated evidence.
 
-The current synthesis follows [Cycle 2: from a correction to a reusable lesson](notes/cycles/002/QUESTION.md), beginning with Construct M2 and related work on learning from experience. The [Cycle 1 pilot return](notes/cycles/001/PILOT.md) remains part of the evidence base while its derivative continues separately.
-
-Cycle 2's [proposal](notes/cycles/002/PROPOSAL.md) narrows the comparison to
-conditional lesson construction from fixed experience. Its code, protocols,
-and evidence live in [construct-lesson-transfer](../construct-lesson-transfer/README.md).
-The [Cycle 2 development return](notes/cycles/002/PILOT.md) explains why rule
-application needed diagnosis before scaling the construction comparison.
-The [application return](notes/cycles/002/APPLICATION_REVIEW.md) records seven
-correct scored answers followed by HTTP 500 on the eighth attempt. The fixed
-480-call comparison is incomplete; its evidence is preserved, and the larger
-study remains parked while the root returns to synthesis.
-Grok's [Cycle 1 workload return](notes/cycles/001/WORKLOAD_REVIEW.md) exercises
-the revised writer and memory-conditioned actor on development tasks. Its
-utility-reset question remains open. The user approved two further development
-histories under C1-02; a larger confirmatory study remains unassigned.
+[Cycle 1](notes/cycles/001/README.md) examines learned retrieval utility after
+circumstances change. [Cycle 2](notes/cycles/002/README.md) examines constructing
+and applying a reusable lesson, beginning with Construct M2. Their cycle
+records connect the evolving evidence to the theory map and point to the
+derivatives that own the experiments.
 
 Serious empirical work can include exploration. We should be free to discover that a task is unsuitable, a representation is unusable, or an unexpected behavior deserves attention. When we move to testing a claim developed during that exploration, we should specify the comparison and analysis in advance and use fresh evaluation material. Registered Reports offer a useful precedent for separating prospective tests from exploratory analyses while reporting both. [Center for Open Science](https://www.cos.io/initiatives/registered-reports)
 

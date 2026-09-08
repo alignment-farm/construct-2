@@ -1,5 +1,10 @@
 # Cycle 1: first empirical return
 
+**Historical review:** this note covers the pilot and channel return identified
+below. Use the [cycle record](README.md#current-record) for the current
+assignment and latest reviewed evidence; its follow-up recommendations are
+not a live instruction queue.
+
 2026-09-08. The [proposal](PROPOSAL.md) is now implemented in the
 [construct-memory-utility derivative](../../../../construct-memory-utility/README.md).
 The derivative owns the [full pilot report](../../../../construct-memory-utility/notes/PILOT_REPORT.md),
@@ -52,20 +57,25 @@ similarity, and 5/6 with MemRL; both adaptive policies ever solved 5/6 tasks.
 These dependent development counts do not confirm the paper's quantitative
 claim. All 84 included scorer outcomes agree with independent checks.
 
-## Empirical follow-up in the derivative
+## Empirical follow-up recommended at this review
 
-The following work remains with the derivative, under the user's direction.
-It is not the root project's current task; the broader implications belong in
-the [theory map](../../THEORY_MAP.md).
+The following recommendation records the position before the later
+[writer/memory workload review](WORKLOAD_REVIEW.md), which addressed those
+checks on its declared development tasks. Follow the [cycle record](README.md#current-record)
+for subsequent assignments. The broader implications belong in the
+[theory map](../../THEORY_MAP.md).
 
-The empty-response issue is now characterized and an actor-only workload smoke
-has completed. The revised writer and full memory-conditioned path still need
-declared workload checks before scaling. Then freeze a fresh-data design with repeated post-migration encounters,
-several independently acquired histories, and a compute budget chosen with
-prospective precision in mind. Preserve the migration family and competing
-hypotheses; do not tune the task change simply to produce obsolete SQL.
+At that point, the empty-response issue had been characterized and an
+actor-only workload smoke had completed. The revised writer and full
+memory-conditioned path still needed declared workload checks before scaling.
+The recommendation was then to freeze a fresh-data design with repeated
+post-migration encounters, several independently acquired histories, and a
+compute budget chosen with prospective precision in mind. It retained the
+migration family and competing hypotheses, without tuning the task change
+simply to produce obsolete SQL.
 
 The derivative's [next-run design](../../../../construct-memory-utility/notes/NEXT_RUN_DESIGN.md)
-includes explicit precision scenarios and costs. No main experiment has started
-and no confirmatory protocol is frozen. The [learning appendix](../../LEARNING_APPENDIX.md)
-now points into actual code, tests, protocol decisions and failure records.
+contains planning scenarios and costs; the adopted assignment determines which
+work may actually proceed. No main experiment had started and no confirmatory
+protocol was frozen at this review. The [learning appendix](../../LEARNING_APPENDIX.md)
+points into actual code, tests, protocol decisions and failure records.

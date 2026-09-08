@@ -1,5 +1,9 @@
 # Cycle 2 derivative charter: applying a supplied rule
 
+**Dated assignment and return record.** Use the
+[cycle record](README.md#current-record) for current assignments. The scope and
+stop below describe this iteration and are preserved with its adoption pins.
+
 2026-09-08 · Charter v0.1 under [working agreement v0.1.1](../../DERIVATIVE_WORKING_AGREEMENT.md).
 **The assigned attempt has returned with a protocol stop.** The user directed
 Codex in this session to complete the iteration; the

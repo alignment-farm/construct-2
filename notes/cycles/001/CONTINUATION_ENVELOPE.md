@@ -1,5 +1,9 @@
 # Cycle 1 continuation envelope C1-02
 
+**Dated assignment record.** Its approved terms are pinned by the derivative
+charter. Use the [cycle record](README.md#current-record) for the current
+assignment and investigator; this document is not a live status page.
+
 2026-09-08 · Version 0.2 · **APPROVED — assigned to Grok by the user.**
 The user approved C1-02 on 2026-09-08 following the
 [workload review](WORKLOAD_REVIEW.md). The approved proposal is version 0.1 at

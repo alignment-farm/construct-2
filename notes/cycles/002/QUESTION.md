@@ -1,11 +1,12 @@
 # Cycle 2: from a correction to a reusable lesson
 
-2026-09-08 · Active root theory cycle. M2 evidence inspection and an initial
-literature comparison are complete. The [derivative proposal](PROPOSAL.md)
-now selects a small M2 reproduction and a controlled construction comparison;
-its [development evidence has returned](PILOT.md), and a bounded
-application diagnostic is ready for the next derivative agent. Cycle 1 continues separately under the user's
-direction; Grok 4.6's findings will enter through a later evidence return.
+2026-09-08 · Root theory question. M2 evidence inspection and an initial
+literature comparison informed the [derivative proposal](PROPOSAL.md).
+The [development review](PILOT.md) and subsequent
+[application review](APPLICATION_REVIEW.md) record the empirical returns.
+Use the [cycle record](README.md#current-record) for the current assignment,
+investigator, and latest assessment; this question document assigns no
+diagnostic to an incoming agent.
 
 ## Starting question
 
@@ -135,13 +136,14 @@ Interpret the returns separately:
 - Output or scoring failures prevent the comparison: record the instrument
   limitation without converting it into evidence against the learning claim.
 
-## Root work next
+## Connections for root synthesis
 
 The closer comparison of CLIN, ERL, and S3Gym informed the
 [Cycle 2 proposal](PROPOSAL.md). Its [pilot return](PILOT.md)
-now separates visible construction errors from failures to apply correct
-guidance on composed tasks. The incoming agent owns the next diagnostic.
-At the root, compare these boundaries with Cycle 1's eventual evidence return:
+separates visible construction errors from failures to apply correct guidance
+on composed tasks. The subsequent [application review](APPLICATION_REVIEW.md)
+records the diagnostic's instrument stop and limits. Compare these boundaries
+with the evidence linked from [Cycle 1's record](../001/README.md):
 does useful memory fail because the relevant information was not acquired,
 not retained, not selected, or not applied? Keep broader comparisons of
 persistence mechanisms open rather than inferring them from this single

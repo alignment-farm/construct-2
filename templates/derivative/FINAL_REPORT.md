@@ -1,6 +1,6 @@
 # Final return: <project / bounded investigation>
 
-Template: Construct-2 working agreement v0.1.1. Scale detail to the study; link
+Template: Construct-2 working agreement v0.1.2. Scale detail to the study; link
 the protocol and analyses rather than duplicating them. “Final” closes this
 charter's investigation, not the research question or all future work.
 

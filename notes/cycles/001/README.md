@@ -4,16 +4,21 @@
 when should its influence be revised? The adapted MemRL study compares keeping
 or resetting utilities after database-schema migration.
 
-**Status:** Grok owns the
-[construct-memory-utility derivative](../../../../construct-memory-utility/README.md).
-The original 100-start envelope is exhausted. The latest root assessment is
-the [workload review](WORKLOAD_REVIEW.md), covering derivative commit
-`2b27fb55dd2593f4d8ff6179b1fec8921fe4d7f7`. The user approved the
-[C1-02 continuation envelope](CONTINUATION_ENVELOPE.md) on 2026-09-08:
-two development histories, with preparation, protocol freezing, and execution
-assigned to Grok. Durable budget guards are required before inference; the
-[derivative handoff](../../../../construct-memory-utility/notes/HANDOFF.md)
-records the next action. Approval does not establish a new experimental result.
+## Current record
+
+| Field | Record |
+| --- | --- |
+| Derivative | [construct-memory-utility](../../../../construct-memory-utility/README.md) |
+| Assigned investigator | Grok, for Cycle 1 only |
+| Latest root decision | User approved C1-02 on 2026-09-08: preparation, protocol freezing, and execution within the assigned development envelope |
+| Adopted terms | [C1-02 envelope](CONTINUATION_ENVELOPE.md), v0.2 at root adoption commit `7afcc4615782b1a7836e306a604244d69972b567`; approved proposal v0.1 at `a55b1021e4994ddb19f57a08188ec64a566bbdff` |
+| Derivative adoption and operations | [Charter](../../../../construct-memory-utility/notes/CHARTER.md) and [handoff](../../../../construct-memory-utility/notes/HANDOFF.md); use durable phase ledgers for actual spend |
+| Latest reviewed return | [001-progress](../../../../construct-memory-utility/notes/returns/001-progress.md), derivative `2b27fb55dd2593f4d8ff6179b1fec8921fe4d7f7` |
+| Latest root assessment | [Workload review](WORKLOAD_REVIEW.md) and [source inventory](WORKLOAD_REVIEW_SOURCES.json) |
+
+The envelope requires durable budget guards before inference and preserves the
+exhausted original phase. This record identifies the assignment; it does not
+claim a current runner state or turn approval into experimental evidence.
 
 **Current conclusion:** resetting utilities changed retrieved sets, but the
 pilot did not establish harmful use of obsolete SQL identifiers. The later
@@ -27,8 +32,8 @@ The utility-reset question remains open.
 - [Literature](LITERATURE.md): candidate methods and overlap.
 - [Pilot return](PILOT.md): observed outcomes and limits of the initial comparison.
 - [Channel review](CHANNEL_REVIEW.md) and [source inventory](CHANNEL_REVIEW_SOURCES.json): the subsequent root assessment and pinned evidence.
-- [Workload review](WORKLOAD_REVIEW.md) and [source inventory](WORKLOAD_REVIEW_SOURCES.json): the writer/memory path, exhausted budget, and scope of the latest evidence.
-- [Approved C1-02 envelope](CONTINUATION_ENVELOPE.md): assigned development scope, autonomous decisions, and resource caps.
+- [Workload review](WORKLOAD_REVIEW.md) and [source inventory](WORKLOAD_REVIEW_SOURCES.json): the writer/memory path and accounting at that return.
+- [C1-02 assignment record](CONTINUATION_ENVELOPE.md): development scope, autonomous decisions, and resource caps.
 
 The derivative owns protocols, code, data, and execution reports. This cycle's
 main connection is to [applicability in the theory map](../../THEORY_MAP.md#1-applicability-when-should-past-experience-influence-the-present).

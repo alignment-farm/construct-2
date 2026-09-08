@@ -3,20 +3,24 @@
 **Question:** which decision-relevant conditions must survive lesson
 construction, and can the consumer use them on later tasks?
 
-**Status:** the assigned attempt has returned. The
-[construct-lesson-transfer derivative](../../../../construct-lesson-transfer/README.md)
-completed an adapted M2 reproduction and a four-world development pilot.
-Its subsequent 480-call application diagnostic stopped after seven correct
-scored answers and an HTTP 500 on attempt eight. The comparison is incomplete;
-the larger construction study remains parked.
+## Current record
+
+| Field | Record |
+| --- | --- |
+| Derivative | [construct-lesson-transfer](../../../../construct-lesson-transfer/README.md) |
+| Assigned investigator | No continuation assigned; Codex completed the prior assignment through its declared stop |
+| Latest root disposition | 2026-09-08: application-v1 returned with an incomplete diagnostic; further execution requires a separate user assignment; the larger construction study remains parked |
+| Prior assignment and protocol | [Charter](DERIVATIVE_CHARTER.md), v0.1 as recorded at root `7afcc4615782b1a7836e306a604244d69972b567`; derivative pre-run source `18d81c2d0bb50f9e06634e9c926e8e54c6c88e35` pins its assignment and application protocol |
+| Derivative adoption and operations | [Charter](../../../../construct-lesson-transfer/notes/CHARTER.md) and [handoff](../../../../construct-lesson-transfer/notes/HANDOFF.md); unused capacity does not authorize recovery |
+| Latest reviewed return | [001-application-stop](../../../../construct-lesson-transfer/notes/returns/001-application-stop.md), derivative `2cbd76062c8752006775c509be798067f5af39af` |
+| Latest root assessment | [Application review](APPLICATION_REVIEW.md) and [source inventory](APPLICATION_REVIEW_SOURCES.json) |
 
 **Current conclusion:** a supplied correction can change a decision, but
 constructing an accurate reusable lesson and applying correct rules are
 separate challenges. The development pilot exposed failures in both. The
-interrupted diagnostic adds an instrument limit without resolving its
-rule-versus-table comparison. The latest root assessment is the
-[application review](APPLICATION_REVIEW.md), at derivative return
-`2cbd76062c8752006775c509be798067f5af39af`.
+interrupted diagnostic recorded seven correct scored answers and an HTTP 500
+on attempt eight of 480, adding an instrument limit without resolving its
+rule-versus-table comparison.
 
 ## Read the record
 

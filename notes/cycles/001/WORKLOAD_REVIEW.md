@@ -91,14 +91,14 @@ for authority and budgets; the missing item is a populated continuation
 assignment. A detailed protocol need not require another root approval when
 its scientific scope, discretion, and resources have already been assigned.
 
-**Recommendation:** authorize the proposed
+**Recommendation at this review:** authorize the proposed
 [C1-02 development envelope](CONTINUATION_ENVELOPE.md), rather than a large
 confirmatory study. Two separately acquired fresh cohorts and repeated
 post-migration encounters address an actual gap in the pilot. Their results
 would still be descriptive. The envelope delegates preparation, protocol
 freezing, execution, and bounded repairs while retaining explicit limits on
-scope, spending, and interpretation. Until the user assigns it, Cycle 1
-remains parked and no new inference is authorized.
+scope, spending, and interpretation. At that point Cycle 1 remained parked
+without new inference authority pending the user's decision.
 
 **Subsequent decision — 2026-09-08:** the user approved C1-02 as proposed at
 root commit `a55b1021e4994ddb19f57a08188ec64a566bbdff` and assigned it to Grok.
