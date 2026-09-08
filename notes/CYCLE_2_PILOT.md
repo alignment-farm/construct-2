@@ -1,5 +1,9 @@
 # Cycle 2: evidence return and next derivative task
 
+Subsequent status: the [application attempt](CYCLE_2_APPLICATION_REVIEW.md)
+stopped under its protocol after eight requests. Its comparison is incomplete;
+the development findings below remain unchanged.
+
 2026-09-08 · Development return from
 [construct-lesson-transfer](../../construct-lesson-transfer/README.md).
 The derivative owns the [full report](../../construct-lesson-transfer/notes/PILOT_REPORT.md),
@@ -71,7 +75,7 @@ This separates an initial inference-configuration limitation from later
 participant errors. Neither should be concealed as a missing data point or
 inflated into a general theory of memory.
 
-## Handoff decision
+## Handoff decision before the application attempt
 
 The next agent receives a frozen, executable
 [application diagnostic](../../construct-lesson-transfer/notes/APPLICATION_PROTOCOL.md):

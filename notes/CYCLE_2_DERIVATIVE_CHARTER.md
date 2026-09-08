@@ -1,14 +1,16 @@
 # Cycle 2 derivative charter: applying a supplied rule
 
 2026-09-08 · Charter v0.1 under [working agreement v0.1.1](DERIVATIVE_WORKING_AGREEMENT.md).
-**Setup is ready; the user will assign the executing derivative agent.** That
-may be a different agent family or session from Cycle 1's Grok. This charter
-does not assign Cycle 2 to Grok or end its Cycle 1 work. The committed handoff
-provides the context a fresh session needs.
+**The assigned attempt has returned with a protocol stop.** The user directed
+Codex in this session to complete the iteration; the
+[application return](CYCLE_2_APPLICATION_REVIEW.md) records eight attempts,
+seven scored answers, and one HTTP 500. The diagnostic comparison is incomplete.
+Further execution is a separate assignment and may use a different agent
+family or session. Grok continues Cycle 1 independently.
 
-This root copy records the existing handoff's scope. It adds no model run, budget,
-or experimental amendment. Adopt it by reference in the derivative's entry
-documents when taking ownership; preserve the protocol's detailed rules.
+This root copy records the original handoff's scope and current return status.
+It adds no budget or experimental amendment. The derivative has adopted it
+by reference in its entry documents; the protocol's detailed rules remain in force.
 
 - Repository: [construct-lesson-transfer](../../construct-lesson-transfer/README.md).
 - Handoff reviewed at `c3cb20adea8631143e67e43c8728b4e3c613a42d`:
@@ -19,7 +21,7 @@ documents when taking ownership; preserve the protocol's detailed rules.
 - Root question: [from a correction to a reusable lesson](CYCLE_2_QUESTION.md);
   prior evidence: [development return](CYCLE_2_PILOT.md).
 - Authority: the user's Cycle 2 setup-and-handoff assignment and adoption of
-  this agreement. Execution passes to the agent the user designates.
+  this agreement, followed by the instruction to complete this iteration.
 
 Links navigate the current workspace; the commits above identify the reviewed
 versions. New runs must record their own actual pre-run source identity.
@@ -70,6 +72,8 @@ larger study.
 
 At the pinned handoff, development has spent **301/360 model attempts**, with
 59 remaining; the separate `application-v1` cap is **480 attempts**, all unspent.
+At the subsequent return, development is unchanged and application-v1 has
+spent **8/480 attempts**, leaving 472; no continuation is assigned.
 The diagnostic has no writers or extra calibration calls. Retain the single
 append-only ledger and phase accounting; do not treat the remaining development
 allowance as permission for unrelated exploration or replacement diagnostic
@@ -91,8 +95,9 @@ review. Keep raw evidence, the new inventory, analysis/verification, and the
 report in the derivative, preserving its setup inventory. Use the
 [final-return template](../templates/derivative/FINAL_REPORT.md) and relay its
 full enclosing commit and path through the user. The
-[handoff](../../construct-lesson-transfer/notes/HANDOFF.md) supplies execution
-and validation commands; no new run has been performed to write this charter.
+[handoff](../../construct-lesson-transfer/notes/HANDOFF.md) now records the stop
+and verification commands. Its earlier committed version supplied execution
+instructions; the original source and protocol pins above remain the record.
 
 Completion means a fully accounted fixed diagnostic or documented stop, with
 bounded claims and enough retained evidence for independent review. The root

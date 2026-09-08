@@ -1,0 +1,170 @@
+{
+  "description": "Root review of the pinned stopped application return; the same Codex session executed and reviewed it. Independent outcome verification is not independent peer review.",
+  "derivative_repository": "../construct-lesson-transfer",
+  "return_commit": "2cbd76062c8752006775c509be798067f5af39af",
+  "report": "notes/returns/001-application-stop.md",
+  "run": "artifacts/application/1788893907497899000",
+  "experiment_source_commit": "18d81c2d0bb50f9e06634e9c926e8e54c6c88e35",
+  "files_sha256": {
+    "AGENTS.md": "1dc914955c1189a959ef1a570e036b8451f7ba896092900b057b93f70cd2fe4e",
+    "README.md": "5cb3960275c19fa9bb2ce0e1ea3bf657f074217ff3443cedbbfefeaceb8b4a4b",
+    "artifacts/application/1788893907497899000/analysis.json": "a23f8ecb5fd1cf8facc32068256d4698f3f0384a688aeb397ff66eb687f41cfc",
+    "artifacts/application/1788893907497899000/application-v1-000/audit.json": "b4f773eeee25defc65ed103b0b8cf82116f779e4f8ba000805c087cdcdfe5b60",
+    "artifacts/application/1788893907497899000/application-v1-000/experience-traces.json": "668807f049e85c4b5a66e92b78b039b61d3c639c8db851de487e6385c2518925",
+    "artifacts/application/1788893907497899000/application-v1-000/experience.json": "f3aae09b5e5c0a7d303746f92a196436458dc4eee79ffbc6ee9d112fc3e866a5",
+    "artifacts/application/1788893907497899000/application-v1-000/memories.json": "bb7e0804530ed84a6c2b7d8baef49c1b7af3ee3d217b9e91b07ad729099db3c4",
+    "artifacts/application/1788893907497899000/application-v1-000/tasks.json": "86dbe338ce88cb8ff62b47e9dfb90d7b7104a509386dfe1533c77069a936eec0",
+    "artifacts/application/1788893907497899000/application-v1-000/world.json": "d43408a46a25bfdf4e482b031c0e0eb52377b3fa7f9fae27f9530999ea3ac5c8",
+    "artifacts/application/1788893907497899000/docker-version.txt": "27572066f8a5fd7b28225f8b0da1a4454a24590dea414555759faaf743326529",
+    "artifacts/application/1788893907497899000/episodes.jsonl": "79977b8d0817b7018c47c685b3b6c9ef5566af1c9d36291c53fb75011316e5d5",
+    "artifacts/application/1788893907497899000/events.jsonl": "6a636b3d58b4ec0c714d8f2eb65954d2ec8b0e93f08094e5276be5347b7b85d5",
+    "artifacts/application/1788893907497899000/model-ps-before.txt": "330a48db91f362c8f6b36962fbf0e3e12c50fe33f0bf68cfb701d2f0e3320bb7",
+    "artifacts/application/1788893907497899000/model-status.txt": "16727ac5cb53c803710166332e69fb658476f184b1e24b078c873e4511e4e981",
+    "artifacts/application/1788893907497899000/model-version.txt": "238db24e4cb5d41a2a8fcb6da5ac22e7c7a93076049355d91e7b91ee01e5e57d",
+    "artifacts/application/1788893907497899000/model.json": "04655a2459063ea1761c48cc6bc6592c6c24d42f7754e59d712b3aafd126dfc6",
+    "artifacts/application/1788893907497899000/preflight.json": "748f912c9141b56594b3aea49f26d605a813df337457841c80ffc6c3e054ae35",
+    "artifacts/application/1788893907497899000/requests/0302/request.json": "8c8e879e06e22f4e0eec7832dd3e43e27634fb7c668b543f04851814714e34ba",
+    "artifacts/application/1788893907497899000/requests/0302/response.json": "b5c3274b1e2329b539eb672e7960b0fd2bc882da2d777c6e803a3b59fd6e8f5d",
+    "artifacts/application/1788893907497899000/requests/0302/result.json": "cd5ee28672a9b23d0c34074750cd9a2f6b46d806a1033c97b394f8f5d51f4818",
+    "artifacts/application/1788893907497899000/requests/0303/request.json": "397c662de1fef7a61472f4efc59b52890a109fa3c01f5031998b00343ec398c2",
+    "artifacts/application/1788893907497899000/requests/0303/response.json": "ac97a1c4d645f73039f82f70f344e8465586b9fa313421b5fe5a219f05d73350",
+    "artifacts/application/1788893907497899000/requests/0303/result.json": "8a5e5233034d90d833c38e255b671f638dcf951b06ebb8212f6b0fa27d6f51ec",
+    "artifacts/application/1788893907497899000/requests/0304/request.json": "fa0f4ca4532162e920746f831a9081062f83961b46da8c1506707a876a3ddd46",
+    "artifacts/application/1788893907497899000/requests/0304/response.json": "08f37e2db2debbf6baff6c53daca39398a742a0b8980cce7bc8e82688b0c28d9",
+    "artifacts/application/1788893907497899000/requests/0304/result.json": "32e7a4d6d9ded43ed50300db32ce370dcad0e5e306b637a62bf8e7f771b3c1f5",
+    "artifacts/application/1788893907497899000/requests/0305/request.json": "de7a766e745ccdb76d03c7576b6acd2a3cb6f4219e3d875cc0e559454f18d246",
+    "artifacts/application/1788893907497899000/requests/0305/response.json": "0779649d05f4be9b4b95a8945fa01cc4248d850a9ee1e1939b2e8e6997c611fc",
+    "artifacts/application/1788893907497899000/requests/0305/result.json": "4f4e523ac3671c6914796a93113db065e28e3ae8086b1ac780a6b273019531d6",
+    "artifacts/application/1788893907497899000/requests/0306/request.json": "a5bdcb2c3321bef3387661fbf97da154928d4f7be80b8db0e5f83904be9244f9",
+    "artifacts/application/1788893907497899000/requests/0306/response.json": "eae42df70d9e337b8cf63c223c41155105f994707e828892e6cf0bfd745a2299",
+    "artifacts/application/1788893907497899000/requests/0306/result.json": "9503d9a21ee26a934978969a5041a520c318c6eb325062e52b40cd108661f565",
+    "artifacts/application/1788893907497899000/requests/0307/request.json": "2ff99c337b3b6389775e1794d07022ae65956305d013095a1bc0a7c71f0678c6",
+    "artifacts/application/1788893907497899000/requests/0307/response.json": "513038cb32a9c25d87c30774e88a01a0b3b55285a825967b9b4e3e09979fcdc7",
+    "artifacts/application/1788893907497899000/requests/0307/result.json": "de32c75c912f6b1147710a5f4c8c8ad332c69be5bf8d9548d0349cb7c880e595",
+    "artifacts/application/1788893907497899000/requests/0308/request.json": "b0f94b1eb7a0732fe146a87d31714f91fecc00fb6f577970ad8dd032ea7aeb6d",
+    "artifacts/application/1788893907497899000/requests/0308/response.json": "60b5fb7e26f239a6c9be17044e59dd6ff58eb997567ac31781cb4716bbba0e35",
+    "artifacts/application/1788893907497899000/requests/0308/result.json": "b6f6bbb8ed8282620b0b3cbf8daa40e7fc411984358b0ff91202dd24d6bcec01",
+    "artifacts/application/1788893907497899000/requests/0309/error-body.txt": "d612e193c190b3ad58da6b1de44bf9d4511dfab9834b55cdf63eddcb1bffb1f2",
+    "artifacts/application/1788893907497899000/requests/0309/error.json": "bbd03559d045770d2545b356add0a99e164a6b9633a23f7062d2b2fc76998788",
+    "artifacts/application/1788893907497899000/requests/0309/request.json": "83fb59d219c9aa0c55366b901efd1d4445d78d5e7f77e276043f281902377f23",
+    "artifacts/application/1788893907497899000/run.json": "5772a93a592611bb1a3cd190f26a2eb03a1d6516ed6ac23e9d23b233ffc86a45",
+    "artifacts/attempts.jsonl": "3c6b9e6eb73b2b886c30a427262d139dd3b8248f80e4579b0590d6a577d567b3",
+    "artifacts/verification/application-1788893907497899000.json": "603b7bde79d79f3a5a8a9beeecce6da2917014d1b0d1f4e41b3e6c5203e26a58",
+    "artifacts/verification/application-accounting-1788893907497899000.json": "9185a8df3fdd7d12069c33f9463312ddac81448a20e09faa20c730b7b61b881f",
+    "notes/CHARTER.md": "e8d7970a73449f5fdf0c32e3d31c7af17c95962c709036917acc6259c33759aa",
+    "notes/HANDOFF.md": "4e290abeed81768422fcc1154b9d159c55420c5448912fa31aa58f7690a5766f",
+    "notes/returns/001-application-stop.md": "32e0769cfe3fbd2063f4ea0605b1b8f88e450f6b2a2de45b4a382e9fcfb5b6c4",
+    "scripts/review_application.py": "fa65392f42f9df95f2c3d4eb6b37e10847892cdb9d080c9104d291765b733772",
+    "artifacts/APPLICATION_RETURN_001_MANIFEST.json": "b193f15d1c032474c73a3d5e4149a00442e0b4f2caa70e12810bab0d18fda642"
+  },
+  "checks": {
+    "inventory_files_match_commit_and_worktree": 49,
+    "scored_final_contents_match_raw_responses": 7,
+    "successful_scored_episodes": 7,
+    "actor_attempts": 8,
+    "transport_failures": 1,
+    "unattempted_scheduled_calls": 472,
+    "phase_counts": {
+      "development": 301,
+      "application-v1": 8
+    },
+    "reported_tokens": {
+      "prompt_tokens": 4197,
+      "completion_tokens": 981,
+      "total_tokens": 5178
+    },
+    "token_usage_missing_for_attempts": [
+      309
+    ],
+    "source_and_outcome_verification": {
+      "source_files_verified": 172,
+      "request_hashes_verified": 8,
+      "writers_verified": 0,
+      "actors_verified": 7,
+      "analysis_status": "partial_no_pooled_contrasts",
+      "raw_evidence_modified": false
+    },
+    "request_and_accounting_audit": {
+      "run": "artifacts/application/1788893907497899000",
+      "source_commit": "18d81c2d0bb50f9e06634e9c926e8e54c6c88e35",
+      "status": "interrupted",
+      "scheduled": 480,
+      "attempted": 8,
+      "scored": 7,
+      "unattempted": 472,
+      "transport_failures": [
+        {
+          "attempt": 309,
+          "budget_phase": "application-v1",
+          "run": "artifacts/application/1788893907497899000",
+          "request": "artifacts/application/1788893907497899000/requests/0309",
+          "tag": {
+            "role": "actor",
+            "world": "application-v1-000",
+            "policy": "table",
+            "task": "single-1",
+            "repeat": 0
+          },
+          "reserved_at": 1788893922.856193,
+          "request_sha256": "83fb59d219c9aa0c55366b901efd1d4445d78d5e7f77e276043f281902377f23",
+          "kind": "request_error",
+          "error": {
+            "type": "HTTPError",
+            "message": "HTTP Error 500: Internal Server Error"
+          },
+          "elapsed_seconds": 1.0613183329987805
+        }
+      ],
+      "worlds_started": 1,
+      "schedule_prefix_verified": true,
+      "exact_requests_and_memory_isolation_verified": 8,
+      "historical_ledger_prefix_sha256": "664ed3421af121318b9486c845a51d5abd07f690c4b32e4609cd847f202ea3df",
+      "setup_inventory_entries_verified": 998,
+      "ledger_phase_counts": {
+        "development": 301,
+        "application-v1": 8
+      },
+      "costs_by_policy": {
+        "oracle": {
+          "attempts": 4,
+          "request_seconds": 9.891672041019774,
+          "usage_reported_requests": 4,
+          "prompt_tokens": 1846,
+          "completion_tokens": 549,
+          "total_tokens": 2395
+        },
+        "table": {
+          "attempts": 4,
+          "request_seconds": 6.219288458014489,
+          "usage_reported_requests": 3,
+          "prompt_tokens": 2351,
+          "completion_tokens": 432,
+          "total_tokens": 2783,
+          "usage_unreported_requests": 1
+        }
+      },
+      "offered_memory_words_per_attempt": {
+        "oracle": [
+          51,
+          51,
+          51,
+          51
+        ],
+        "table": [
+          127,
+          127,
+          127,
+          127
+        ]
+      },
+      "run_elapsed_seconds": 16.419798851013184,
+      "raw_and_derived_evidence_modified": false,
+      "scope": "Post-run read-only audit; no new inference or experimental amendment."
+    }
+  },
+  "limitations": [
+    "Only seven scored episodes in one incomplete world; no pooled contrast or admission judgment.",
+    "The failed generation and its token usage are unavailable.",
+    "No new inference during root synthesis; Cycle 1 was not accessed."
+  ]
+}

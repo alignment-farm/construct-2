@@ -21,9 +21,11 @@ dashboard, or reporting service.
   investigation**, including cleanup, review corrections, and further work
   within its assigned scope through its evidence return. Use this agreement
   to organize that work. It does not redirect Grok to Cycle 2.
-- **Cycle 2 — `construct-lesson-transfer`: a separate assignment, awaiting the
-  user's choice of agent.** Its charter is a worked example of this agreement.
-  Reading that example does not assign its experiment to the reader.
+- **Cycle 2 — `construct-lesson-transfer`: Codex executed the separately
+  assigned application attempt and [returned its protocol stop](CYCLE_2_APPLICATION_REVIEW.md).**
+  The diagnostic remains incomplete. Further execution is a separate user
+  assignment, open to another agent family or session. Its charter is a worked
+  example; reading it does not assign its experiment to the reader.
 
 The agreement applies across agent families and sessions. The user may assign
 a different agent or a fresh session to any derivative; continuity must come

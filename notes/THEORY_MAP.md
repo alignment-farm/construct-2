@@ -103,7 +103,7 @@ conditions under which the conclusion holds. Instrument failures qualify what
 can be inferred; they remain visible without automatically setting the next
 root task.
 
-## Active cycle
+## Cycle 2 return and current synthesis
 
 [Cycle 2: from a correction to a reusable lesson](CYCLE_2_QUESTION.md) begins
 with Construct M2. Its [evidence review](CYCLE_2_M2_REVIEW.md) distinguishes
@@ -115,9 +115,17 @@ from fixed experience, with the primary link to applicability and a narrower
 cost comparison relevant to placement.
 Its [development return](CYCLE_2_PILOT.md) finds both inaccurate constructed
 rules and composed-task failures with correct supplied rules. The compression
-interaction did not support the predicted direction in four worlds. The next
-derivative diagnostic separates compact-rule application from explicit lookup
-and supplied-plan execution; the larger comparison remains parked.
+interaction did not support the predicted direction in four worlds. The
+[application diagnostic attempt](CYCLE_2_APPLICATION_REVIEW.md) stopped on a
+server output-format error after seven correct scored plans and one failed
+request. Its intended comparison of compact rules, lookup tables, and supplied
+plans remains incomplete. That instrument stop adds no verdict on the
+construction hypothesis; the larger comparison remains parked.
+
+The root now returns to synthesis across these stages: which decision-relevant
+conditions survive a change in representation, whether the consumer can use
+them, and how their influence can be revised. The empirical record separates
+these questions without establishing a preferred general architecture.
 
 Cycle 1's empirical follow-up remains with the user-directed derivative.
 This map is a starting set of conjectures to revise, combine, or retire as
