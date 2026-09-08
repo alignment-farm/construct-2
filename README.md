@@ -34,10 +34,13 @@ The [derivative working agreement](notes/DERIVATIVE_WORKING_AGREEMENT.md)
 defines that ownership, when decisions return here, and how an agent reports
 progress and completion. It includes four reusable templates and a
 [Cycle 2 charter](notes/cycles/002/DERIVATIVE_CHARTER.md) applying them to the
-existing handoff. Grok continues Cycle 1; Cycle 2's assigned diagnostic attempt
+existing handoff. Grok owns Cycle 1, now parked at its exhausted budget;
+the [latest review](notes/cycles/001/WORKLOAD_REVIEW.md) includes a proposed
+continuation envelope for the user's decision. Cycle 2's assigned diagnostic attempt
 has [returned with an instrument stop](notes/cycles/002/APPLICATION_REVIEW.md).
 Further derivative assignments may use a different agent family or session.
-The root will review the agreement after the next Cycle 1 return.
+The agreement's adoption notes record what the Cycle 1 return taught us about
+assigning concrete scope and resources.
 
 The current focus here is theory development and synthesis. The user directs empirical agents in derivative projects and brings their reports back. The [theory map](notes/THEORY_MAP.md) connects those returns to the larger questions: when experience remains applicable, where learning should reside, and how its influence can be corrected. A derivative may need substantial further work without becoming the center of this project's agenda. Progress here includes sharpening an explanation, finding a boundary condition, or retiring a claim across the accumulated evidence.
 
@@ -52,9 +55,9 @@ The [application return](notes/cycles/002/APPLICATION_REVIEW.md) records seven
 correct scored answers followed by HTTP 500 on the eighth attempt. The fixed
 480-call comparison is incomplete; its evidence is preserved, and the larger
 study remains parked while the root returns to synthesis.
-Grok's [Cycle 1 channel follow-up](notes/cycles/001/CHANNEL_REVIEW.md) improves
-the response interface on development tasks; its utility-reset question
-remains open.
+Grok's [Cycle 1 workload return](notes/cycles/001/WORKLOAD_REVIEW.md) exercises
+the revised writer and memory-conditioned actor on development tasks. Its
+utility-reset question remains open, and the next budget is unassigned.
 
 Serious empirical work can include exploration. We should be free to discover that a task is unsuitable, a representation is unusable, or an unexpected behavior deserves attention. When we move to testing a claim developed during that exploration, we should specify the comparison and analysis in advance and use fresh evaluation material. Registered Reports offer a useful precedent for separating prospective tests from exploratory analyses while reporting both. [Center for Open Science](https://www.cos.io/initiatives/registered-reports)
 

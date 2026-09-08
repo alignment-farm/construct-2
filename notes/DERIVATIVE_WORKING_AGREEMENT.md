@@ -18,9 +18,10 @@ dashboard, or reporting service.
 ## Current assignments and agent continuity
 
 - **Cycle 1 — `construct-memory-utility`: Grok continues to own this
-  investigation**, including cleanup, review corrections, and further work
-  within its assigned scope through its evidence return. Use this agreement
-  to organize that work. It does not redirect Grok to Cycle 2.
+  investigation**, currently parked after the original budget was exhausted.
+  The [latest workload return](cycles/001/WORKLOAD_REVIEW.md) has been reviewed;
+  a [continuation envelope](cycles/001/CONTINUATION_ENVELOPE.md) is proposed
+  and awaits user assignment. This agreement does not redirect Grok to Cycle 2.
 - **Cycle 2 — `construct-lesson-transfer`: Codex executed the separately
   assigned application attempt and [returned its protocol stop](cycles/002/APPLICATION_REVIEW.md).**
   The diagnostic remains incomplete. Further execution is a separate user
@@ -177,10 +178,14 @@ It is for the separately assigned Cycle 2 agent; no new experiment is launched
 by this document.
 
 For Grok's continuing Cycle 1 work, use the
-[channel review](cycles/001/CHANNEL_REVIEW.md) as the specific correction record,
-and these templates to organize the next return without retroactively claiming
-the earlier runs followed this agreement. After that return, the root will
-review this agreement based on missing information, unnecessary reporting
-burden, and decisions that still required avoidable course correction. See also the
+[workload review](cycles/001/WORKLOAD_REVIEW.md) as the latest assessment.
+Its report successfully kept code, evidence, limitations, and the resource
+decision together. The practical lesson is to populate a continuation's scope
+and caps: a template alone cannot grant them. The proposed
+[C1-02 envelope](cycles/001/CONTINUATION_ENVELOPE.md) makes initial protocol
+freezing and execution autonomous within an assigned design, with explicit
+limits on changes and spending. It remains a proposal until the user adopts it.
+Earlier runs are not retroactively represented as following this agreement.
+See also the
 [Cycle 2 development return](cycles/002/PILOT.md) for the application/construction
 distinction that motivated its present scope.

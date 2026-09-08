@@ -1,0 +1,462 @@
+{
+  "reviewed_commit": "2b27fb55dd2593f4d8ff6179b1fec8921fe4d7f7",
+  "source_root_relative_to_manifest": "../../../../construct-memory-utility",
+  "analysis_recomputed_match": true,
+  "diagnosis_recomputed_match_except_temporary_source_path": true,
+  "accounting_recomputed_match": true,
+  "adapter_files_verified": 8,
+  "adapter_tree_sha256": "ef7ee80c4bfdadd37497eeb4f799ec265dba39ea4afb2e89e0173e9bf1cd7d0a",
+  "old_pilot_assembled_artifacts_unchanged": true,
+  "smoke_analysis": {
+    "run": "1788891896854486000",
+    "started": 4,
+    "scored": 4,
+    "complete": 4,
+    "cells": [
+      {
+        "stage": "acquisition",
+        "world": "original",
+        "policy": "memrl",
+        "pass": 0,
+        "n": 4,
+        "successes": 2,
+        "affected_n": 3,
+        "affected_successes": 1,
+        "unaffected_successes": 1
+      }
+    ],
+    "cumulative_ever_solved": {
+      "none": 0,
+      "similarity": 0,
+      "memrl": 2
+    },
+    "contrasts": null,
+    "seconds_per_complete_episode_median": 16.207818708498962,
+    "seconds_per_complete_episode_mean": 19.34714323974913,
+    "costs": [
+      {
+        "stage": "acquisition",
+        "policy": "memrl",
+        "world": "original",
+        "component": "actor",
+        "endpoint": "chat/completions",
+        "calls": 9,
+        "seconds": 35.945181000002776,
+        "completion_tokens": 2721,
+        "prompt_tokens": 17482,
+        "total_tokens": 20203,
+        "empty_content": 0,
+        "length_finishes": 0
+      },
+      {
+        "stage": "acquisition",
+        "policy": "memrl",
+        "world": "original",
+        "component": "memory_writer",
+        "endpoint": "chat/completions",
+        "calls": 4,
+        "seconds": 39.90678687399486,
+        "completion_tokens": 3603,
+        "prompt_tokens": 4143,
+        "total_tokens": 7746,
+        "empty_content": 0,
+        "length_finishes": 0
+      },
+      {
+        "stage": "acquisition",
+        "policy": "memrl",
+        "world": "original",
+        "component": "memory_writer",
+        "endpoint": "embeddings",
+        "calls": 7,
+        "seconds": 1.1453681259736186,
+        "prompt_tokens": 382,
+        "total_tokens": 382
+      },
+      {
+        "stage": "acquisition",
+        "policy": "memrl",
+        "world": "original",
+        "component": "actor",
+        "endpoint": "embeddings",
+        "calls": 4,
+        "seconds": 0.06839749999926426,
+        "prompt_tokens": 235,
+        "total_tokens": 235
+      },
+      {
+        "stage": "acquisition",
+        "policy": "memrl",
+        "world": "original",
+        "component": "memory_update",
+        "endpoint": "embeddings",
+        "calls": 6,
+        "seconds": 0.10154450000845827,
+        "prompt_tokens": 426,
+        "total_tokens": 426
+      }
+    ],
+    "episodes": [
+      {
+        "episode": 1,
+        "task_id": "211",
+        "stage": "acquisition",
+        "world": "original",
+        "policy": "memrl",
+        "pass": 0,
+        "success": false,
+        "status": "completed",
+        "retrieved_count": 0,
+        "tool_calls": 2,
+        "sql_errors": 0,
+        "stale_queries": []
+      },
+      {
+        "episode": 2,
+        "task_id": "315",
+        "stage": "acquisition",
+        "world": "original",
+        "policy": "memrl",
+        "pass": 0,
+        "success": false,
+        "status": "agent_validation_failed",
+        "retrieved_count": 1,
+        "tool_calls": 1,
+        "sql_errors": 0,
+        "stale_queries": []
+      },
+      {
+        "episode": 3,
+        "task_id": "51",
+        "stage": "acquisition",
+        "world": "original",
+        "policy": "memrl",
+        "pass": 0,
+        "success": true,
+        "status": "completed",
+        "retrieved_count": 2,
+        "tool_calls": 1,
+        "sql_errors": 0,
+        "stale_queries": []
+      },
+      {
+        "episode": 4,
+        "task_id": "176",
+        "stage": "acquisition",
+        "world": "original",
+        "policy": "memrl",
+        "pass": 0,
+        "success": true,
+        "status": "completed",
+        "retrieved_count": 3,
+        "tool_calls": 1,
+        "sql_errors": 0,
+        "stale_queries": []
+      }
+    ],
+    "scorer_crosschecks": [
+      {
+        "episode": 1,
+        "upstream": false,
+        "independent": false,
+        "agree": true
+      },
+      {
+        "episode": 2,
+        "upstream": false,
+        "independent": false,
+        "agree": true
+      },
+      {
+        "episode": 3,
+        "upstream": true,
+        "independent": true,
+        "agree": true
+      },
+      {
+        "episode": 4,
+        "upstream": true,
+        "independent": true,
+        "agree": true
+      }
+    ],
+    "transport_errors": 0,
+    "instrument_failures": 0
+  },
+  "smoke_diagnosis_summary": {
+    "source": "/Users/macos-user/Developer/Projects/alignment-farm/construct-memory-utility/artifacts/pilot/1788891896854486000/events.jsonl",
+    "run": "1788891896854486000",
+    "interpretation": "Empty final content is observed together with nonempty reasoning_content. The runtime and upstream parser read content only. This diagnostic does not rescore the pilot or treat substitution of reasoning as a valid action. The SQL action parser applies only to actor calls; writer substitution counts are not a script-validity test.",
+    "chat_calls": 13,
+    "empty_final_content": 0,
+    "labels": {
+      "final_channel_present": 13
+    },
+    "empty_labels": {},
+    "by_component": {
+      "actor": {
+        "nonempty": 9,
+        "final_channel_present": 9
+      },
+      "memory_writer": {
+        "nonempty": 4,
+        "final_channel_present": 4
+      }
+    },
+    "by_task_id": {
+      "211": {
+        "nonempty": 4
+      },
+      "315": {
+        "nonempty": 3
+      },
+      "51": {
+        "nonempty": 3
+      },
+      "176": {
+        "nonempty": 3
+      }
+    },
+    "actor_empty_n_messages": {},
+    "actor_empty_with_retrieved_memory": 0,
+    "actor_empty_without_retrieved_memory": 0,
+    "writer_empty": 0,
+    "writer_empty_truncated": 0,
+    "substitution_would_parse": {
+      "actor": 0,
+      "memory_writer": null,
+      "memory_writer_note": "The SQL action parser does not apply to writer scripts; empty writers are reported by finish_reason only."
+    }
+  },
+  "writer_probes": [
+    {
+      "name": "writer_channel_v1_ep6",
+      "source_episode": 6,
+      "usage": {
+        "completion_tokens": 1021,
+        "prompt_tokens": 837,
+        "total_tokens": 1858,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "seconds": 14.80182262499875,
+      "exact_declared_variant": true
+    },
+    {
+      "name": "writer_channel_v1_ep9",
+      "source_episode": 9,
+      "usage": {
+        "completion_tokens": 660,
+        "prompt_tokens": 706,
+        "total_tokens": 1366,
+        "prompt_tokens_details": {
+          "cached_tokens": 86
+        }
+      },
+      "seconds": 7.159653082999284,
+      "exact_declared_variant": true
+    },
+    {
+      "name": "writer_channel_v1_ep14",
+      "source_episode": 14,
+      "usage": {
+        "completion_tokens": 572,
+        "prompt_tokens": 701,
+        "total_tokens": 1273,
+        "prompt_tokens_details": {
+          "cached_tokens": 86
+        }
+      },
+      "seconds": 6.285349124998902,
+      "exact_declared_variant": true
+    },
+    {
+      "name": "writer_channel_v1_ep16",
+      "source_episode": 16,
+      "usage": {
+        "completion_tokens": 2318,
+        "prompt_tokens": 907,
+        "total_tokens": 3225,
+        "prompt_tokens_details": {
+          "cached_tokens": 86
+        }
+      },
+      "seconds": 24.287168459006352,
+      "exact_declared_variant": true
+    },
+    {
+      "name": "writer_channel_v1_ep58",
+      "source_episode": 58,
+      "usage": {
+        "completion_tokens": 2636,
+        "prompt_tokens": 907,
+        "total_tokens": 3543,
+        "prompt_tokens_details": {
+          "cached_tokens": 86
+        }
+      },
+      "seconds": 27.546455874995445,
+      "exact_declared_variant": true
+    }
+  ],
+  "accounting": {
+    "segments": [
+      {
+        "run": "1788873437591433000",
+        "status": "stopped",
+        "error": "RuntimeError('Instrument failure on episode 5; no automatic rerun')",
+        "started_episodes": 5,
+        "elapsed_seconds": 72.35899658299604,
+        "scored_episodes": 4
+      },
+      {
+        "run": "1788873593894333000",
+        "status": "stopped",
+        "error": "RuntimeError('Instrument failure on episode 79; no automatic rerun')",
+        "started_episodes": 79,
+        "elapsed_seconds": 1201.8734367920042,
+        "scored_episodes": 78
+      },
+      {
+        "run": "1788875145581333000",
+        "status": "complete",
+        "started_episodes": 6,
+        "elapsed_seconds": 126.40021699999488,
+        "scored_episodes": 6
+      },
+      {
+        "run": "1788882056129030000",
+        "status": "complete",
+        "started_episodes": 6,
+        "elapsed_seconds": 55.95507925000129,
+        "scored_episodes": 6
+      },
+      {
+        "run": "1788891896854486000",
+        "status": "complete",
+        "started_episodes": 4,
+        "elapsed_seconds": 78.24493587500183,
+        "scored_episodes": 4
+      }
+    ],
+    "requests": 572,
+    "started_episodes": 100,
+    "scored_episodes": 98,
+    "instrument_failures": 2,
+    "active_run_seconds": 1534.8326654999983,
+    "endpoint_costs": {
+      "chat/completions": {
+        "calls": 247,
+        "seconds": 1514.0513503780458,
+        "completion_tokens": 125996,
+        "prompt_tokens": 474686,
+        "total_tokens": 600682
+      },
+      "embeddings": {
+        "calls": 325,
+        "seconds": 9.100723548952374,
+        "prompt_tokens": 18442,
+        "total_tokens": 18442
+      }
+    },
+    "probes": {
+      "interpretation": "Infrastructure probes replay recorded chat requests or labeled variants. They are not scored episodes and do not count toward the 100-attempt cap.",
+      "sets": [
+        {
+          "run": "response-channels-1788878453614230000",
+          "n": 6,
+          "names": [
+            "control_ready",
+            "replay_empty_none",
+            "replay_ok_subquery_select",
+            "replay_empty_subquery_select",
+            "empty_none_final_channel_hint",
+            "empty_none_omit_reasoning_effort"
+          ]
+        },
+        {
+          "run": "response-channels-1788878579547655000",
+          "n": 3,
+          "names": [
+            "empty_none_reasoning_effort_medium",
+            "empty_subquery_select_final_channel_hint",
+            "empty_subquery_select_omit_reasoning_effort"
+          ]
+        },
+        {
+          "run": "response-channels-1788891808532730000",
+          "n": 5,
+          "names": [
+            "writer_channel_v1_ep6",
+            "writer_channel_v1_ep9",
+            "writer_channel_v1_ep14",
+            "writer_channel_v1_ep16",
+            "writer_channel_v1_ep58"
+          ]
+        }
+      ],
+      "chat_probes": 14
+    }
+  },
+  "targeted_tests": "11 passed; fake endpoints; no DB or model contact",
+  "source_files_sha256": {
+    "artifacts/pilot/1788891896854486000/run.json": "40b523c27ea38cc4a23cf4088b39198fa321b56830313b34071d082708aab0a4",
+    "artifacts/pilot/1788891896854486000/events.jsonl": "5a94ef1a3fa117604bf129ff80f04a7ede6919a81ae34eeef3010fd33db646c2",
+    "src/construct_memory_utility/analyze.py": "d2cbe3e377f30bf2eff868c30a0906697debaaaea6ca4b805d5978af958f8c84",
+    "src/construct_memory_utility/response_channels.py": "1588d39ed6449bd655a025e02af747842507992dff6fea649d9d158b4888aadc",
+    "src/construct_memory_utility/runtime.py": "26d7e524c18f8b61b9e7f49229b050b4ea7b9abe1b74ef576ef5017c3e9f3a9a",
+    "data/pilot/original.json": "50247b9059b0cb14ef7d7a4238fa4cc8a8bebe6a2b3351e7de089204250d4b1f",
+    "artifacts/audit/1788873413594939000/events.jsonl": "b61443ea232efd462557cb551a61f4f0fe6723bbd498e3b5c0f669f3260d4f8a",
+    "artifacts/pilot/1788891896854486000/analysis.json": "8b338ffa470a3307f94b4f86423aaa528b094ed3d404259af487f648d5edaead",
+    "artifacts/pilot/1788891896854486000/empty-responses.json": "295a2904c756e2ba5df27fc141eeb94b8c2b64dc0ec96ca1f41e240d498c926a",
+    "src/construct_memory_utility/__init__.py": "2d9af79334c2f3d26a9e4e3b22f403a3796f133b027ad14ff7630736a2471432",
+    "src/construct_memory_utility/audit.py": "3144a477741d9b7dc5180783685feb4d4b464666489f9e3f3fcbbaddb9402e89",
+    "src/construct_memory_utility/memory.py": "8551ce1763d1711e9eb53a5c2f3e47852fe19212b577ce6378a203d75d204916",
+    "src/construct_memory_utility/pilot.py": "45617e5d7199bce08c2210a24cb1f1a779fd1adbf237ce7164e2564dca44140a",
+    "src/construct_memory_utility/tasks.py": "0df55fe06a7ac850e70bf7ca17c76cc0f8e74a4e2f9684755c03058aca918bea",
+    "scripts/account_work.py": "6c75d3ed03cf7f876eb996e40a0527bb1925b3f3c22289455e1f07e926a03db8",
+    "artifacts/analysis/cycle-1-accounting.json": "5b0615066474b69b0327582664e704e6d607685a70b4580ae2a4695293c4b96e",
+    "artifacts/pilot/1788873437591433000/events.jsonl": "f67820a9ff776b02c0cf72bfc5425972313beb9a50d9a54624eeb1c3d4da3068",
+    "artifacts/pilot/1788873437591433000/completion.json": "7e7886a3997333cd6efe82af4733d3e41a7541f57fcd117b3069a0265be74ff0",
+    "artifacts/pilot/1788873593894333000/events.jsonl": "81e5c5911938a195f385de42c2f9837193afde20a76e8495534f31737eaffd98",
+    "artifacts/pilot/1788873593894333000/completion.json": "abadb13da6af93ac51bb6e8607fd233355abbe04d4471bedcdee227b3e4f0ce3",
+    "artifacts/pilot/1788875145581333000/events.jsonl": "4ae09abcd57fdc84eeeb7841612a9c7cb1eedeced23ab2d9ea9dc21457b2acac",
+    "artifacts/pilot/1788875145581333000/completion.json": "79e0344912eb8843bcfe4c7971937b4eff6d36ed75b381b747cd3d85182c6608",
+    "artifacts/pilot/1788882056129030000/events.jsonl": "d8d4c80f720cac2577d11ea5ae52fe5f56b57e95678a4d47773a05d7c32ea290",
+    "artifacts/pilot/1788882056129030000/completion.json": "c83daee72fb10ef170bf636ecb4263e45d13ccc7e18134d70b30e65068b5655d",
+    "artifacts/pilot/1788891896854486000/completion.json": "0d35a752faeb6fb5b9126246c329d913b8b01b68b90903c4d18acb7f5dcff52f",
+    "artifacts/setup/response-channels-1788878453614230000/summary.json": "afb1c79debc5f6a3cc5f944fda59cb6bb14923ec4fe99d7db009bc054d27e7f2",
+    "artifacts/setup/response-channels-1788878579547655000/summary.json": "6509dbc759327ba923bad30afbc6012bda83d6a047d6202d081156700b6ac552",
+    "artifacts/setup/response-channels-1788891808532730000/summary.json": "c13df762f58e38ea12283a31aceeeef8454d3155a49b5c236c5e34051b235f30",
+    "artifacts/analysis/pilot-1/events.jsonl": "6cfaa5abecbabf64d6e5d6f84f0efe863cb464c067753a2884811d7ab3a1ef56",
+    "artifacts/setup/response-channels-1788891808532730000/writer_channel_v1_ep6.json": "ee09841a8f7c4b447b4d0be4617d3029f6db7b89568da253f27c37bb5d5ccee8",
+    "artifacts/setup/response-channels-1788891808532730000/writer_channel_v1_ep9.json": "56d6dc387712e07cd569c23bf125bdd723f6e93caf6535bf592c3af814a9dd73",
+    "artifacts/setup/response-channels-1788891808532730000/writer_channel_v1_ep14.json": "9675eff8737c8ebffabba274cb6f218719f1a6fd30281ff2ae5398b9550807bc",
+    "artifacts/setup/response-channels-1788891808532730000/writer_channel_v1_ep16.json": "748c29c72a60cc5a9a2b1cc27a462ea9011d105bdb16efca48ea23bb992aad89",
+    "artifacts/setup/response-channels-1788891808532730000/writer_channel_v1_ep58.json": "2b6f1e38d2fde2db96383baf62ff72fb3ef9fce17157fac5ae9a85453f7ee181",
+    "notes/returns/001-progress.md": "4e42e75df3c3ce18719d8f353788f8bcc52148a519fdaf9f194e3b67224f8f0a",
+    "notes/CHARTER.md": "3184eda393dcf71cdde3a7a8dcc283eceff4eb07845548e1d90a6b426852d2bc",
+    "notes/HANDOFF.md": "04d6a1793210038970cac79e81b3889d831aeae0c4a3f9ede04372967641e2b1",
+    "notes/NEXT_RUN_DESIGN.md": "17b7a9bee90614312588013ab20ff918fcb9fa34d66f79d62c9b7064a1c46a64",
+    "notes/PILOT_AMENDMENT_4.md": "41ebf00e5399f89720d0d1a85866dfa4365017a256d0ecbe3aef212b9ef4d88f",
+    "scripts/probe_response_channels.py": "08b4314f9441bc16bf620a20885021222b9c6ae52a786bb5af95b43b7e8d8862",
+    "tests/test_runtime.py": "5562f1fbda532bb895720b9121e860c96c25a803fe71211e74c14e0b375d646c",
+    "tests/test_response_channels.py": "1da5b0c2803c5b3b4fdb90933328f0be9a4c112959b4047adc4098f2d6a9632c",
+    "artifacts/analysis/pilot-1/work-accounting.json": "0b9b4e8cd20148caa5c5bc082bfe89dfc14021fdf2b81778ac6ddac8273c926e"
+  },
+  "scope": "Pinned return review; temporary analysis output only; no derivative mutations or new inference.",
+  "memory_path_summary": {
+    "retrieved_counts_by_episode": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "retrieval_events": 4,
+    "q_update_events": 4,
+    "memory_written_events": 4,
+    "note": "Events show pipeline execution; no causal utility or script-quality claim."
+  },
+  "review_date": "2026-09-08"
+}

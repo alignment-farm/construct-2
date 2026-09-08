@@ -39,6 +39,13 @@ the model and execution interface as well as the world. A resulting conjecture
 is that changing the consumer can make old scores poorly calibrated even when
 memory content remains true. The follow-up has not tested that score effect.
 
+The [writer/memory workload return](cycles/001/WORKLOAD_REVIEW.md) exercises
+the revised path and makes credit assignment visible: a retrieved memory's
+score falls after a task fails to produce a valid action, then rises after
+later task successes. Those updates record attributed reward; they do not
+independently establish that memory's causal contribution. The utility-reset
+question remains open after the original development budget is exhausted.
+
 **Distinguishing evidence.** At matched access to current information, scope
 information should reduce inappropriate transfer while preserving benefits on
 tasks where the lesson remains valid. If ordinary retrieval and interpretation
