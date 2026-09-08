@@ -2,6 +2,9 @@
 
 2026-09-08 · Research proposal · No experimental results yet
 
+This proposal was recorded before execution in commit `84809cd`. The subsequent
+[pilot record](CYCLE_1_PILOT.md) contains current progress, evidence and limitations.
+
 ## Recommendation
 
 Reproduce a bounded MemRL comparison on the database component of

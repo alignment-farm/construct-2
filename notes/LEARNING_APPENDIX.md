@@ -29,6 +29,23 @@ follow its task input, candidate memories, selected memories, model request,
 executed SQL, outcome, and utility update. Write down which facts the scorer
 knows that the model does not. Then inspect a failure with the same care.
 
-Code and trace links will be added here as those artifacts actually exist.
-The current links point to the proposal and primary learning resources, rather
-than invented future file paths.
+## Concrete places to inspect
+
+- [The actual Q-update and checkpoint test](../../construct-memory-utility/tests/test_memory.py)
+  checks numerical updates, retrieval order and isolation of sibling branches.
+  Run it and follow the call into the vendored updater. The learned object here
+  is a scalar in memory metadata; no neural-network weight is being trained.
+- [The scorer and migration audit](../../construct-memory-utility/src/construct_memory_utility/audit.py)
+  executes both the correct reference and deliberately wrong controls. Compare
+  that with merely testing that a migration script produces different names.
+- [The pilot protocol](../../construct-memory-utility/notes/PILOT_PROTOCOL.md)
+  distinguishes a development history from independent histories for inference.
+  Six dependent task attempts cannot substitute for six independent experiments.
+- [The first stopped run and its amendment](../../construct-memory-utility/notes/PILOT_AMENDMENT_1.md)
+  show how to preserve evidence while correcting an adapter. Inspect why the
+  database failure does not count as a loss for the memory policy, while an
+  empty actor answer remains visible as a benchmark output failure.
+- [The recorded inference adapter](../../construct-memory-utility/src/construct_memory_utility/runtime.py)
+  exposes exactly what enters the actor and writer endpoints. Trace a request,
+  SQL action, outcome and Q update in a run's `events.jsonl`. Keep the oracle
+  audit file separate when identifying what the participant could know.
