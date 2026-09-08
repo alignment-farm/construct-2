@@ -11,13 +11,13 @@ Read the [Research perspective](notes/TRENDS.md).
 
 The task is to combine the synthesis with the perspective to continue agent memory research. Form theories here, then breakout empirical experiments into other projects over time.
 
-### Model Resources
+### Model resources
 
 - Open weight models with `docker model`
 - OpenAI models with `codex`
 - SpaceXAI models with `agent`
 
-### Research Sources
+### Research sources
 Look for existing public research for theories and experiments to avoid overlap and inspire new ideas.
 
 - [arXiv.org](https://arxiv.org/) — paper discovery, full text, and metadata.
@@ -65,3 +65,8 @@ Look for existing public research for theories and experiments to avoid overlap 
     For large PDF/source collections, use the documented bulk access options.
     [API terms and rate limits](https://info.arxiv.org/help/api/tou.html),
     [bulk data access](https://info.arxiv.org/help/bulk_data.html).
+
+### Dependency management
+
+- Use `uv` for Python package and project management.
+- Use `docker` for local models and `compose`/Dockerfile(s) for complex resources, if/when needed.
