@@ -22,7 +22,7 @@ its original question was incomplete, encounter a different phenomenon, or
 return with evidence that changes the larger map.
 
 Construct's accumulated record motivates this separation. Its
-[research synthesis](notes/RESEARCH_BRIEF.md) describes both useful findings
+[research synthesis](RESEARCH_BRIEF.md) describes both useful findings
 and instrument failures, including cases where admission rules limited contact
 with the proposed phenomenon. Safeguards can protect scientific claims, but
 carrying every local remedy into shared instructions risks making administration
@@ -52,12 +52,10 @@ A study is a standalone research project whose starting question arose
 from the shared program. Its launch is human driven and needs three things:
 
 - **A question:** the uncertainty or observation motivating the investigation,
-  with useful background and sources.
+with useful background and sources.
 - **Resources:** the models, tools, services, and workspace available, together
-  with any limits on their use.
-- **An expectation:** the intended depth or effort, such as “quick look,”
-  “take your time and figure this out,” or “spend at most X,” with the unit of
-  any cap made explicit.
+with any limits on their use.
+- **An expectation:** the intended depth or effort.
 
 A short local `AGENTS.md` describes the project's responsibility, available
 resources, working boundaries, and essential research practices. The agent

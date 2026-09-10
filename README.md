@@ -1,5 +1,7 @@
 Construct-2 is a **research apprenticeship organized around live scientific questions**. Each cycle should produce two things: a clearer understanding of how to do research, and an evidence-based change in what we believe about agents.
 
+The [initial literature review](sources/LITERATURE_REVIEW.md) examines the existing research links at the abstract and source-summary level. The [theory and question map](sources/THEORIES_AND_QUESTIONS.md) connects that reading to Construct's findings and identifies questions for further investigation.
+
 The root project maintains a connected account of the research:
 
 | Component | What it teaches | What it produces |
