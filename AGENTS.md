@@ -1,4 +1,5 @@
 This is the third research project in the Construct series.
+
 ```text
 workspace_root=`~/Developer/Projects/alignment-farm/`
 0 - workspace_root/construct/notes/previous/
@@ -6,20 +7,11 @@ workspace_root=`~/Developer/Projects/alignment-farm/`
 2 - workspace_root/construct-2/ # you are here
 ```
 
-Start with the [project README](README.md) and [cycle index](notes/cycles/README.md).
-Read the [Research synthesis](notes/RESEARCH_BRIEF.md).
-Read the [Research perspective](notes/TRENDS.md).
+Read the [research synthesis](notes/RESEARCH_BRIEF.md) and the [research perspective](notes/PERSPECTIVES.md) for background.
 
 The task is to combine the synthesis with the perspective to continue agent memory research. Form theories here, then breakout empirical experiments into other projects over time.
 
-### Research focus and division of work
-
-- Keep this root project focused on theories, competing explanations, literature, and synthesis across the research program. Maintain the connections in the [Theory map](notes/THEORY_MAP.md).
-- The user directs empirical agents in derivative projects. Derivatives own implementation, experiment execution, instrument repairs, and their evidence reports; pursue that work here only when the user explicitly redirects the task.
-- Evaluate returned findings by what they change in the broader account, including what remains unresolved. A derivative's next engineering task does not automatically become the root project's next research priority.
-- Keep failures and limitations visible. Distinguish evidence about the proposed mechanism from evidence about the instrument, and preserve alternative explanations.
-- Use the [Derivative working agreement](notes/DERIVATIVE_WORKING_AGREEMENT.md) when commissioning or reviewing empirical work. Its templates define ownership and evidence returns; a derivative's adopted charter and protocol specify its actual experiment and authority. Keep root reviews here and implementation and raw evidence in the derivative.
-- Organize cycle-specific notes and source inventories under `notes/cycles/NNN/`. Its README is the single current cycle record for assignment, investigator, latest reviewed return, and conclusion; link there from overviews instead of repeating live status. Follow the [cycle index](notes/cycles/README.md) for record ownership and review naming. Shared theory, synthesis, agreements, and learning material stay directly under `notes/`.
+Then read the [README](README.md).
 
 ### Model resources
 
@@ -28,7 +20,8 @@ The task is to combine the synthesis with the perspective to continue agent memo
 - SpaceXAI models with `agent`
 
 ### Research sources
-Look for existing public research for theories and experiments to avoid overlap and inspire new ideas.
+
+Study existing public research for theories and experiments to avoid overlap and inspire new ideas.
 
 - [arXiv.org](https://arxiv.org/) — paper discovery, full text, and metadata.
 
