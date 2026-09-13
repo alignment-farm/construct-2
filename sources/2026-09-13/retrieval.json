@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-13",
+  "user_agent": "Construct-2 acquisition-transfer study preparation (local research metadata cache)",
+  "minimum_request_start_spacing_seconds": 3.1,
+  "requests": [
+    {
+      "endpoint": "https://export.arxiv.org/api/query",
+      "parameters": {
+        "id_list": "2506.10943v2,2607.01480v1,2507.06415v3",
+        "max_results": "3"
+      },
+      "http_status": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://export.arxiv.org/api/query",
+      "parameters": {
+        "search_query": "abs:\"context distillation\" OR (abs:\"self-distillation\" AND (abs:agent OR abs:memory))",
+        "start": "0",
+        "max_results": "12",
+        "sortBy": "submittedDate",
+        "sortOrder": "descending"
+      },
+      "http_status": 429,
+      "error": "HTTP Error 429: Unknown Error"
+    }
+  ],
+  "metadata_or_discovery_results_used": false,
+  "error_bodies_and_retry_after_headers_retained": false,
+  "subsequent_api_requests": 0,
+  "content_read": "Versioned primary-paper HTML through the web research tool; exact reading scope is in README.md."
+}

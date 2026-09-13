@@ -10,6 +10,11 @@ records later methods reading and connects it to the proposed comparisons.
 Its [worked examples](../studies/README.md#b0-a-worked-explanation-of-neural-writes-reads-and-resets)
 explain the mutable objects, write operations, and persistence boundaries.
 
+The [13 September acquisition-methods review](2026-09-13/README.md) examines
+context and procedural-memory distillation for the next procedure-transfer
+investigation. It records versioned methods reading and the limits of the
+attempted metadata discovery.
+
 ---
 
 The existing sources already cover textual reflection, executable skill reuse,
