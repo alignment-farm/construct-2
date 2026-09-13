@@ -1,0 +1,32 @@
+{
+  "snapshot_documents": 31,
+  "completed_commands": 19,
+  "failed_commands": [],
+  "item_types": [
+    "agent_message",
+    "command_execution"
+  ],
+  "usage": [
+    {
+      "input_tokens": 630987,
+      "cached_input_tokens": 561920,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 4193,
+      "reasoning_output_tokens": 1358
+    }
+  ],
+  "stderr_bytes": 0,
+  "manual_trace_review": "All 19 commands inspected: file discovery and local reads only. No edits, model experiments, network requests, delegation, or reads of prior chats/memories appear in the trace.",
+  "scope": "Hashes cover the 31 snapshotted documents, not every file in the workspace. Snapshots and tool outputs preserve the inputs available to the reviewer; no raw experimental outputs were independently rescored.",
+  "archive_time_check": {
+    "checked_utc": "2026-09-13T16:00:18.872657+00:00",
+    "changed_snapshot_files": [
+      "/Users/macos-user/Developer/Projects/alignment-farm/construct-2/AGENTS.md"
+    ]
+  },
+  "first_post_run_check": {
+    "changed_snapshot_files": [],
+    "provenance": "The orchestrator checked all 31 hashes immediately after reading the completed response. Its tool output reported no changed files; a separate timestamp was not recorded."
+  },
+  "post_run_change": "Root AGENTS.md was updated in the working tree after the first post-run check and before archiving. The obsolete endpoint-not-recorded paragraph was removed. The reviewer trace contains no edits. The input snapshot preserves the version it read."
+}

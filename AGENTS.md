@@ -7,21 +7,16 @@ workspace_root=`~/Developer/Projects/alignment-farm`
 2 - workspace_root/construct-2/ # you are here
 ```
 
-Read the [research synthesis](notes/RESEARCH_BRIEF.md) and the [research perspective](notes/PERSPECTIVES.md) for background.
+## Research organization
 
-The task is to combine the synthesis with the perspective to continue agent memory research. Form theories here, then breakout empirical experiments into other projects over time.
+The root develops theory, reads literature, and synthesizes findings. The
+[studies directory](studies/README.md) owns current questions and root assessments.
+Ancillary studies own their methods, protocols, evidence, and local publications,
+following the [ancillary-study approach](notes/ANCILLARY_STUDY.md). Workload
+discovery can be part of their bounded exploration; useful progress includes
+negative results and explanations that resolve a question without new runs.
 
-Then read the [README](README.md).
-
-### Model resources
-
-- Open weight models with `docker model`
-- OpenAI models with `codex`
-- SpaceXAI models with `agent`
-
-
-
-### Research sources
+## Research sources
 
 Study existing public research for theories and experiments to avoid overlap and inspire new ideas.
 
@@ -67,10 +62,17 @@ Study existing public research for theories and experiments to avoid overlap and
   [API terms and rate limits](https://info.arxiv.org/help/api/tou.html),
   [bulk data access](https://info.arxiv.org/help/bulk_data.html).
 
+## Model resources
 
+- Dedicated Mac Studio M1 (64 GB unified memory), commissioned for model serving
+  over Tailscale backed by docker model runner (preferred).
+  `curl https://mac-studio-7hr7.taile71f88.ts.net/engines/v1/chat/completions ...`
+  Verify gradient or mutable-state access separately before using a serving resource for a neural treatment.
+- Local open-weight models with `docker model`
+- OpenAI models with `codex`
+- SpaceXAI models with `agent`
 
-### Dependency management
+## Dependency management
 
 - Use `uv` for Python package and project management.
 - Use `docker` for local models and `compose`/Dockerfile(s) for complex resources, if/when needed.
-

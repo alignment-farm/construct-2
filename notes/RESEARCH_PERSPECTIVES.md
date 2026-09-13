@@ -4,8 +4,6 @@
 
 Research perspective · 4 September 2026
 
-> Weights provide the policy; external stores provide the revisable declarative knowledge.
-
 The working view is that the most promising agents will learn how to use external
 state while keeping important parts of that state explicit and revisable. The
 interesting question is where each improvement should live: context, a memory
@@ -15,13 +13,11 @@ changes the cost of learning, using, inspecting, and correcting it.
 Expect stronger models to remove some scaffolding and make other scaffolding
 more valuable. A model that can reliably interpret a compact lesson makes that
 lesson worth preserving. A model that already performs the procedure makes a
-long corrective prompt unnecessary. Architecture should be reconsidered when
+long corrective prompt unnecessary. Structure should be reconsidered when
 capability changes.
 
 This is a dated research agenda. Results below are attributed to their sources;
 the proposed division of responsibilities and research priorities are subjective.
-Local findings remain owned by [Construct](../../construct/README.md) and
-[Formation](../../formation/README.md).
 
 ## Model and harness design are converging
 
@@ -42,7 +38,7 @@ verification. The architectural point is clear:
 **a learned memory policy still operates through an external compaction mechanism.**
 [Training Composer for longer horizons, March 2026](https://cursor.com/blog/self-summarization).
 
-My expectation is that training will increasingly improve decisions about
+Expectation is that training will increasingly improve decisions about
 search, tool use, summarization, and recovery. The runtime will still have to
 execute those decisions, preserve state, and enforce access. The promising
 research compares different allocations of responsibility and measures their
@@ -77,16 +73,16 @@ The same standard should apply to weights. A parameter update is evidence that
 training occurred; it does not by itself demonstrate useful generalization.
 Copying, narrow memorization, and inappropriate transfer remain possible.
 
-I would also avoid treating a task's unique correct solution as evidence of
-answer leakage. Many meaningful tasks have one correct result. What matters is
-whether the retained artifact supplies that result directly, or supplies
-reusable knowledge that the participant must apply to new inputs. Changing
-surface details alone is a weak transfer test; changing the required
-composition of the knowledge is more informative.
+Avoid treating a task's unique correct solution as evidence of answer leakage.
+Many meaningful tasks have one correct result. What matters is whether the
+retained artifact supplies that result directly, or supplies reusable knowledge
+that the participant must apply to new inputs. Changing surface details alone is a
+weak transfer test; changing the required composition of the knowledge is more
+informative.
 
 ## Choose storage by how the knowledge must change
 
-My default allocation would be:
+Default allocation would be:
 
 
 | What persists                                                   | Starting place                                                    | Reason                                                                |
@@ -102,10 +98,10 @@ be badly organized; trained behaviors can be difficult to correct. Both can
 contain facts and procedures. The practical question is which representation
 gives the required precision, adaptability, and cost on the actual workload.
 
-The research opportunity I find most compelling is selective consolidation:
-identify which lessons recur across independent experiences, test their scope,
-and determine whether moving some of their use into weights improves the
-system while preserving correction of individual facts.
+The research opportunity is selective consolidation: identify which lessons recur
+across independent experiences, test their scope, and determine whether moving
+some of their use into weights improves the system while preserving correction of
+individual facts.
 
 ## Online adaptation is real, but its benefits need precise names
 
@@ -129,10 +125,10 @@ An adaptation method that improves the current episode may leave no useful
 change for the next one. Conversely, a temporary adapter could be the right
 design precisely because its contents should expire.
 
-My main questions for online updates are what persists after the episode,
-whether the benefit survives a change of task, and what happens when later
-evidence contradicts the update. The strongest result would include successful
-revision as well as successful acquisition.
+Questions for online updates are what persists after the episode, whether the
+benefit survives a change of task, and what happens when later evidence
+contradicts the update. The strongest result would include successful revision as
+well as successful acquisition.
 
 ## Training, inference, and specialization compete on total cost
 
@@ -168,7 +164,7 @@ they permit controlled comparisons on the same base model. The model's
 national origin or place on a leaderboard is less informative than its ability
 to perform the required operation through the chosen interface.
 
-I would retain trajectories with exact inputs, tool results, model versions,
+Retain trajectories with exact inputs, tool results, model versions,
 external outcomes, corrections, and failed attempts. Selecting only apparent
 successes can hide how much human or harness assistance produced them. A
 trajectory becomes a useful training example after its target and evidence
@@ -190,7 +186,7 @@ injection attacks. A system needs to complete the authorized task while
 resisting redirection. Refusing everything would satisfy only half the goal.
 [AgentDojo, 2024](https://arxiv.org/abs/2406.13352).
 
-My design judgment is that learned judgment should be paired with explicit
+One design judgment is that learned judgment should be paired with explicit
 authority boundaries. A retrieved document may inform an action without
 acquiring the right to authorize it. A generated summary may preserve useful
 content without becoming the authoritative history. Greater capability makes

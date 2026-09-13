@@ -1,0 +1,40 @@
+{
+  "prepared_utc": "2026-09-13T15:55:09.306435+00:00",
+  "cwd": "/Users/macos-user/Developer/Projects/alignment-farm/construct-2",
+  "cli_version": "codex-cli 0.154.0",
+  "command": [
+    "codex",
+    "-a",
+    "never",
+    "exec",
+    "--sandbox",
+    "read-only",
+    "--ephemeral",
+    "--disable",
+    "memories",
+    "--disable",
+    "multi_agent",
+    "--disable",
+    "hooks",
+    "--json",
+    "--color",
+    "never",
+    "-C",
+    "/Users/macos-user/Developer/Projects/alignment-farm/construct-2",
+    "-o",
+    "/var/folders/pb/62gd1c2x37q6pr4lqr3tvx9c0000gn/T/construct2-cold-read-oschly68/response.md",
+    "-"
+  ],
+  "configuration_labels": {
+    "/Users/macos-user/.codex/config.toml": {
+      "model": "gpt-6-astra",
+      "model_reasoning_effort": "xhigh",
+      "service_tier": "default"
+    }
+  },
+  "note": "Fresh exec, no resume/fork, memories/hooks/delegation disabled; normal CLI configuration and general instructions retained. Input snapshot covers root Markdown and ancillary entry/notes/protocol Markdown, not the entire linked evidence tree.",
+  "started_utc": "2026-09-13T15:55:13.454385+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 172.93,
+  "finished_utc": "2026-09-13T15:58:06.386333+00:00"
+}

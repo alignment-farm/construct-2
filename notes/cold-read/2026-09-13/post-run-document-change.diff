@@ -1,0 +1,20 @@
+--- AGENTS.md as read by the cold agent
++++ AGENTS.md at archive time
+@@ -65,14 +65,12 @@
+ ## Model resources
+ 
+ - Dedicated Mac Studio M1 (64 GB unified memory), commissioned for model serving
+-  over Tailscale backed by docker model runner (preferred). `curl https://mac-studio-7hr7.taile71f88.ts.net/engines/v1/chat/completions ...`
++  over Tailscale backed by docker model runner (preferred).
++  `curl https://mac-studio-7hr7.taile71f88.ts.net/engines/v1/chat/completions ...`
++  Verify gradient or mutable-state access separately before using a serving resource for a neural treatment.
+ - Local open-weight models with `docker model`
+ - OpenAI models with `codex`
+ - SpaceXAI models with `agent`
+-
+-The Mac Studio was reported by the user on 13 September 2026; its endpoint and
+-installed model revisions are not recorded here. Verify gradient or mutable-state
+-access separately before using a serving resource for a neural treatment.
+ 
+ ## Dependency management
+ 

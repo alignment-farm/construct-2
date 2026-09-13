@@ -1,10 +1,6 @@
-# Agent memory: evidence, questions, and possible studies
+**Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/PREVIOUS_RESEARCH.md) and [research perspective](../notes/RESEARCH_PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. Executable skill libraries remain background; see the [research preference](../sources/README.md#research-preference-to-date).
 
-10 September 2026 · Revised map for review and discussion
-
-**Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/RESEARCH_BRIEF.md) and [research perspective](../notes/PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. Executable skill libraries remain background.
-
-The proposed studies below are candidates, not launched experiments. “Candidate extension” means a comparison is not established by the specific evidence reviewed here; it does not mean nobody has studied it. A useful replication or explanation can proceed without a novelty claim. A proposed new contribution needs its closest methods and evaluation settings checked before we call it new.
+The comparisons below are proposals; S1 includes our assessment of an ancillary feasibility report, and S2 includes a 13 September 2026 assessment of the completed procedure-acquisition investigation relevant to S2 and S5. Read each study's own directory for its latest work. “Candidate extension” means a comparison is not established by the specific evidence reviewed here; it does not mean nobody has studied it. A useful replication or explanation can proceed without a novelty claim. A proposed new contribution needs its closest methods and evaluation settings checked before we call it new.
 
 ## 1. What changed after reading beyond the abstracts
 
@@ -30,7 +26,7 @@ One particularly useful new connection is the different depth results in **Titan
 
 ### B0. A worked explanation of neural writes, reads, and resets
 
-**Status: Background explanation completed; no empirical study launched.** The numbers below are deliberately constructed teaching examples, with arithmetic checked locally. They illustrate mechanisms from the cited papers, not reproduced model results. S1 is the preferred next topic for discussion.
+**Status: Background explanation completed.** The worked numbers below are deliberately constructed teaching examples, with arithmetic checked locally. They illustrate mechanisms from the cited papers, not reproduced model results. B0.4 also connects these distinctions to the first S1 ancillary report.
 
 All these mechanisms have the form `state_next = update(state, observation)`. The important questions are what changes, what drives that change, how a future query uses it, and when it is discarded. Calling the state a parameter does not establish that it supports a different capability.
 
@@ -108,6 +104,8 @@ These are possible effects, not guaranteed outcomes. In particular, fitting a fa
 
 For S1, we should distinguish three outcomes: **the chosen text becomes easier to predict; information remains usable after that text is removed; later decisions improve.** They require different evidence. The proposed study should hold the update mechanism fixed initially and judge selection by later behavior and its total cost. That keeps the question narrow enough to discuss while building on the existing methods.
 
+**Empirical connection — 10 September 2026.** The ancillary [feasibility report](../../ancillary-studies/update-source-selection/output/pdf/update-source-selection.pdf) makes part of this distinction concrete: its final native Qwen3-4B comparison reports lower second-step loss in 72/72 updated branches and changed generation token streams in 288/288 matched action calls, while all sources and no update complete 24/24 retrieval legs. Changed generation streams do not imply changed task actions. Every action still receives the full historical evidence, so this comparison does not establish retention after removing the training information. See [S1](#s1-can-an-agent-choose-which-experience-to-train-on-during-an-episode) for our assessment and the study's [results and reproduction note](../../ancillary-studies/update-source-selection/notes/2026-09-10-interface-results.md) for evidence and limitations.
+
 ## 3. Paper map: what we can build on
 
 **Reading scope:** The entries below identify the exact versions and sections inspected in the full-text HTML, rather than claiming a line-by-line review of every appendix. Results are authors' reported evidence, not independently reproduced findings. Source code, checkpoints, and raw outputs have not been audited. The assessment column is our interpretation of the boundary relevant to this program.
@@ -133,7 +131,7 @@ For S1, we should distinguish three outcomes: **the chosen text becomes easier t
 
 Additional existing background: [Reflexion v4](https://arxiv.org/html/2303.11366v4) §§3–4 explains bounded reflection buffers and repeated trials; [TT-SI v1](https://arxiv.org/html/2510.07841v1) Algorithm 1 restores the original parameters after instance-specific adaptation. [DeepSeek-R1 v2](https://arxiv.org/html/2501.12948v2), including Appendix F, provides training/distillation background. [Composer's developer report](https://cursor.com/blog/self-summarization) describes training summaries within rewarded trajectories. These establish useful mechanisms, with different evidence and reset boundaries.
 
-The original SWE-agent, Voyager, compute-allocation, small-model, production, AgentDojo, and methods references remain background in [Perspectives](../notes/PERSPECTIVES.md). They received abstract/source-summary review in the earlier pass; they are not newly audited in full here. Executable skills are not a proposed study priority.
+The original SWE-agent, Voyager, compute-allocation, small-model, production, AgentDojo, and methods references remain background in [Perspectives](../notes/RESEARCH_PERSPECTIVES.md). They received abstract/source-summary review in the earlier pass; they are not newly audited in full here. Executable skills are not a proposed study priority.
 
 ## 4. What Construct and Formation already answered
 
@@ -163,9 +161,19 @@ The original-question table below uses the Construct synthesis. On 10 September 
 
 The hypotheses below are our proposals. Each study names its intended addition, closest overlap, and a result that could change the theory. They are sketches for discussion; sample sizes, budgets, implementation versions, and exact protocols would be chosen with the investigating project.
 
+**Workload choice.** For placement and repayment questions, a useful comparison needs a motivated workload, explicit information access, and measured costs that can distinguish the competing explanations. Context or retrieval is a comparator whose cost must be measured. An acquisition failure, an explicit-memory advantage, or a tie at lower total cost can each be informative. Bounded exploration may establish the workload; a subsequent test of a developed claim needs fresh evaluation material. The root motivates the question and assesses its implications; the study owns task and protocol design under the [ancillary-study approach](../notes/ANCILLARY_STUDY.md). S3's mechanism comparison can answer its narrower question without establishing an advantage over explicit context.
+
 ### S1. Can an agent choose which experience to train on during an episode?
 
-**Status:** Added [update-source-selection](../../ancillary-studies/update-source-selection/README.md) as the ancillary project; its starting question, expectation, and resources are now documented there. Empirical work has not begun in this setup. P3 explicitly identifies online selection/combination of update sources as unresolved in that paper. P13 and P14 narrow what we could claim as new. The study owns its eventual protocol and findings.
+**Related study:** See the update-source-selection project; read that study's own [README](../../ancillary-studies/update-source-selection/README.md) and publications for the latest. P3 explicitly identifies online selection/combination of update sources as unresolved in that paper. P13 and P14 narrow what we could claim as new.
+
+**Root assessment of the 10 September 2026 report.** [Update Source Selection: A Local Feasibility and Behavioral Diagnostic](../../ancillary-studies/update-source-selection/output/pdf/update-source-selection.pdf) establishes a local route for reproducible LoRA interventions, with exact adapter resets, unchanged base weights, and measurable generation changes. Early first-action gains on 0.6B did not establish four-action episode success: all sources completed 0/24 legs in that diagnostic. The later native 4B reasoning comparison reached 24/24 for every source and no update. These are exploratory results from correlated synthetic cases; neither the floor nor the ceiling settles whether source selection can help elsewhere. No dynamic selector was tested.
+
+The theoretical update is that **source reliability and source training value must be distinguished**. A verified correction can supersede an earlier plan without making its text the best material for a parameter update. This study did not demonstrate that the best training source changes across circumstances. Full historical context and explicit reliability rules also let the competent baseline solve every case without adaptation. No update used the fewest action-generation tokens in the final run, but those descriptive counts do not establish a general cost advantage. Source-dependent training utility, useful retention, and an agent's ability to choose remain unresolved.
+
+We accept the report as completing the initial focused feasibility investigation. Further runs should follow a separately motivated question: **when does training on experience improve later performance or reduce total cost compared with retaining accessible evidence and reasoning over it?** A workload with meaningful context, retrieval, or repeated-use costs would give that comparison a purpose. Evidence that different sources help under different observable conditions—or that selective abstention saves cost—would then motivate selector development. This is a proposed direction for discussion, not a commissioned follow-up or a requirement to find a positive effect.
+
+Assessment scope: we read the [manuscript source](../../ancillary-studies/update-source-selection/paper/update-source-selection.tex), its included results, the [results note](../../ancillary-studies/update-source-selection/notes/2026-09-10-interface-results.md), recorded analysis, and the diagnostic implementation. We did not rerun the experiments or independently rescore all raw traces. Methods, operational state, and the supporting evidence remain with the study.
 
 **Question:** Does choosing between self-generated text, environmental observations, summaries, and no update improve later decisions when the most useful source changes during an episode?
 
@@ -173,7 +181,7 @@ The hypotheses below are our proposals. Each study names its intended addition, 
 
 **Possible comparison:** Keep the base model, adapter, optimizer, and update budget fixed. Compare a selector with each fixed source, a fixed mixture, and a matched random selector. Choose the strongest static policy using development data, not the evaluation outcomes. Include no-update and same-information-in-context controls. First compare updates on common recorded prefixes, then test live trajectories, where selection changes subsequent experience.
 
-**What it adds:** A prospective comparison of changing source usefulness, beyond selecting spans for an already-known question or suppressing repeated text. Cross source reliability with novelty: include repeated but verified corrections and novel but incorrect assertions. Any verification labels available to the selector must be equally available to its controls.
+**What it would add:** A prospective comparison of changing source usefulness, beyond selecting spans for an already-known question or suppressing repeated text. Crossing source reliability with novelty can supply candidate conditions, such as repeated verified corrections and novel incorrect assertions, but does not itself establish changing training utility. Any verification labels available to the selector must be equally available to its controls.
 
 **Evidence to collect:** Task success, unnecessary/harmful updates, retention of corrections, selection cost, and update count. A tie with the best fixed source would weaken the case for dynamic selection. A gain that disappears after charging verification or matching update counts would support a simpler explanation.
 
@@ -182,6 +190,16 @@ The hypotheses below are our proposals. Each study names its intended addition, 
 ### S2. Can a learned procedure survive later learning and accept a scoped correction?
 
 **Status:** High-interest extension candidate with substantial prior overlap. The prospective combination matters; retention, multi-hop consequences, and locality are not individually new tests.
+
+**Related study and scope:** [Procedure acquisition and reuse](../../ancillary-studies/procedure-acquisition-and-reuse/README.md) investigated acquisition, transfer to new inputs, and repeated-use costs. Its initial experiment and bounded follow-up are complete. S2's additional question concerns interference from later learning and scoped correction; neither was tested in that investigation. S5's broader consolidation comparison also remains open.
+
+**Root assessment — 13 September 2026.** The [initial results](../../ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-acquisition-results.md) report 12/12 training-call recall from a fixed twelve-demonstration LoRA adapter, but 26/64 correct new-input calls versus 41/64 with retained examples. The [fresh follow-up](../../ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-followup-results.md) reports 28/64 for the unchanged adapter versus 51/64 for examples, including 13/32 versus 31/32 on ordinary words. This is scored contact with acquisition and transfer, with a bounded result favoring retained examples. It does not establish a general limitation of parameter learning.
+
+The lesson-construction method also failed: none of three candidates passed acquisition validation, and the selected fallback remained explicitly unvalidated. The supplied correct rule scored 64/64 in each evaluation but contained privileged information; it diagnoses execution ability without establishing acquisition from the same evidence. The intended compositional rule is not uniquely determined by the demonstrations, and inputs share identifier clusters. These limits constrain the transfer claim.
+
+The theoretical implication is that **training recall, usable transfer, and acquisition-cost repayment need separate evidence**. The adapter reduced prompt tokens and measured inference time, but its lower accuracy prevented a repayment claim at comparable useful performance. Repeating its use does not by itself resolve the observed transfer deficit. This investigation already addresses the workload concern empirically; a further study needs a motivated acquisition method or different question, without an obligation to obtain an adapter win.
+
+Assessment scope: we read the study README, initial results, follow-up addendum, and frozen follow-up protocol. We did not rerun experiments or independently rescore raw traces. Methods, evidence, and the completed investigation's operational state remain with that study.
 
 **Question:** After an agent internalizes a procedure, can a correction to one condition change its later actions while preserving the rest of the procedure and unrelated abilities?
 
@@ -197,13 +215,15 @@ The hypotheses below are our proposals. Each study names its intended addition, 
 
 ### S3. When does deeper neural memory repay its harder update problem?
 
-**Status:** Mechanistic reconciliation candidate. Attractive for direct contact with weights and research method; potentially more expensive than S1/S2.
+**Status:** [Neural memory depth](../../ancillary-studies/neural-memory-depth/README.md) was prepared on 13 September 2026 for an independent ancillary session. The investigation has not started. The ancillary agent owns the written comparison and its methods; the root will assess the resulting publication.
+
+**First written output:** A comparison of P2 and P12 in common notation, with versioned section and configuration references. Identify the mutable memory, inner loss and update rule, number of update steps, initialization, normalization, reset boundary, and outer training objective. Put the depth comparisons alongside their task, context/chunk lengths, parameter counts, and training compute where reported; mark missing configuration facts explicitly. Explain which comparisons are commensurate and which differences could account for the reported depth trends. If a question survives alignment, sketch the smallest empirical comparison that could distinguish its explanations. This is the ancillary project's intended first deliverable; the alignment has not yet been performed.
 
 **Question:** Which operating differences explain the favorable depth trend in P2 and unfavorable trend in P12?
 
 **Competing explanations:** Additional depth provides useful capacity only when the write dynamics can exploit it; apparent gains instead arise from extra parameters, training compute, task distribution, or the surrounding architecture.
 
-**Possible comparison:** First align the published equations and configurations in a written explanation. Identify the smallest meaningful mismatch among initialization, update rule, normalization, context length, memory capacity, and training schedule. Reproduce the relevant shallow/deep comparison, then change one identified factor in a common implementation. Use both a parameter-matched comparison and a compute-matched comparison; neither can stand in for the other.
+**Possible later empirical comparison:** If written alignment leaves a meaningful uncertainty, reproduce the relevant shallow/deep comparison and change one identified factor in a common implementation. Candidate factors include initialization, update rule, normalization, context length, memory capacity, and training schedule. Use both a parameter-matched comparison and a compute-matched comparison; neither can stand in for the other. This is a possible extension, not a training campaign commissioned by the project preparation.
 
 **What it adds:** An explanation of a change in the direction of the depth effect across settings. Repeating P12's completed initialization/chunk-size sweeps, or plotting deeper models against unmatched shallow ones, would not answer this question.
 
@@ -231,6 +251,8 @@ The hypotheses below are our proposals. Each study names its intended addition, 
 
 **Status:** Later synthesis/measurement study, contingent on an update that already has useful behavior. Not a proposal to train a large general model from scratch.
 
+**Related study and scope:** [Procedure acquisition and reuse](../../ancillary-studies/procedure-acquisition-and-reuse/README.md) measured acquisition and repeated-use costs for examples, a generated lesson, and an adapter; see the [root assessment under S2](#s2-can-a-learned-procedure-survive-later-learning-and-accept-a-scoped-correction). It found no acquisition-cost repayment at comparable useful accuracy. It did not compare reset-and-relearn, consolidation, or changing revision rates. S5 would add those lifecycle comparisons once an appropriate acquisition mechanism is available.
+
 **Question:** Across recurring tasks and changing facts, when is it worth carrying an adapter, consolidating its stable content, or reconstructing it from explicit evidence?
 
 **Competing explanations:** Recurrence amortizes acquisition and consolidation; revision costs and interference erase that advantage. A merged update may only change its packaging, with no improvement in capability.
@@ -246,11 +268,11 @@ The hypotheses below are our proposals. Each study names its intended addition, 
 ## 6. Suggested order for discussion
 
 1. **B0: Completed above; discuss any unclear mechanisms first.** The worked examples distinguish fitting an observation, retaining information, and improving later behavior. They establish vocabulary without claiming new empirical findings.
-2. **S1: Preferred next discussion.** Start with what evidence makes Self, Env, Summary, or no update useful at a given step, and what a selector may observe without privileged evaluation feedback. Inspect the closest selection methods before committing to an ancillary protocol. S2 remains an alternative focused on learning that stays useful and revisable across episodes.
-3. **S3: Pursue the depth comparison if the neural architecture itself is the main interest.** Start with equations/configurations; an explanation may resolve the apparent disagreement before a substantial run is needed.
+2. **S1/S2: Discuss what the two completed investigations leave unresolved.** S1 did not establish source-dependent task benefit; the procedure-acquisition study found poor transfer and no repayment at comparable useful accuracy for its tested adapter. A next acquisition or placement question needs a motivated method and workload. Source selection, later-learning retention, and scoped correction remain separate questions.
+3. **S3: Prepared for an ancillary agent; not started.** The [neural-memory-depth project](../../ancillary-studies/neural-memory-depth/README.md) contains the starting question, sources, and resources. Its ancillary agent will develop the written comparison before considering any experimental extension. The root will synthesize the published findings.
 4. **S4 and S5: Keep as subsequent directions.** They become more informative once we understand a working memory mechanism and can account for its real costs.
 
-Every empirical candidate needs gradient or state access for its neural treatment. An inference-only model endpoint can supply comparison answers or summaries but cannot substitute for inspecting the update. Hardware, training support, official implementation availability, and actual run budgets are not established by this literature map; the chosen ancillary project should assess them before sizing its work. No experiments, model training, or ancillary agents were launched in this revision.
+Every empirical candidate needs gradient or state access for its neural treatment. An inference-only model endpoint can supply comparison answers or summaries but cannot substitute for inspecting the update. S1 established a native MLX training route on its 48 GB Apple M3 Max, and the procedure-acquisition study subsequently used native MLX for a fixed Qwen3-4B adapter comparison. These results do not establish feasibility or budgets for other neural mechanisms. Read each study's own documentation and applicable AGENTS.md for current resources; the [root resource notes](../AGENTS.md#model-resources) identify the newly commissioned Mac Studio as the preferred serving resource. S3's project preparation starts no investigation or experiments.
 
 ## 7. Search scope and remaining uncertainty
 

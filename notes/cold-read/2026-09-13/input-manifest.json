@@ -1,0 +1,157 @@
+[
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/construct-2/AGENTS.md",
+    "snapshot": "input-snapshot/construct-2/AGENTS.md",
+    "sha256": "a4188a812090357de08119a31f38660ace587a1d54a00143195666aaa47f14ba"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/construct-2/README.md",
+    "snapshot": "input-snapshot/construct-2/README.md",
+    "sha256": "33686ffbb88bdf14dc22e6a221a614b90de791ead35310c818d5d9a7fa5f9516"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/construct-2/notes/ANCILLARY_STUDY.md",
+    "snapshot": "input-snapshot/construct-2/notes/ANCILLARY_STUDY.md",
+    "sha256": "753673dc070655ab2f950ec5df4b1a7d64fcf1783909939395c4d636077af5af"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/construct-2/notes/PREVIOUS_RESEARCH.md",
+    "snapshot": "input-snapshot/construct-2/notes/PREVIOUS_RESEARCH.md",
+    "sha256": "b200bc4eb7a02eb0716c501db89cb074cc7a182a39a941e4cd510418c5c900f5"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/construct-2/notes/README.md",
+    "snapshot": "input-snapshot/construct-2/notes/README.md",
+    "sha256": "fc878611a317c1a27e9a4b6c8661e5c141aa2777990aa9a3d737ebab841bc9dd"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/construct-2/notes/RESEARCH_PERSPECTIVES.md",
+    "snapshot": "input-snapshot/construct-2/notes/RESEARCH_PERSPECTIVES.md",
+    "sha256": "c992c5f0962dc2ea4350d4dbded11d2330996c1f7b19fb6973c036c2f5798d37"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/construct-2/sources/2026-09-10/README.md",
+    "snapshot": "input-snapshot/construct-2/sources/2026-09-10/README.md",
+    "sha256": "856910a6bbea7cfac5ec9271a35a3287275ea2061410610d5416f25cac40270b"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/construct-2/sources/README.md",
+    "snapshot": "input-snapshot/construct-2/sources/README.md",
+    "sha256": "22a4464a2f7d02aae31d128f661487b556e73c3defdd785caf2415213b0f7247"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/construct-2/studies/README.md",
+    "snapshot": "input-snapshot/construct-2/studies/README.md",
+    "sha256": "b2d90b627f620d6db40eac9acbc1be4a6e62d62d79cfb3fb0082287353eaec75"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/update-source-selection/AGENTS.md",
+    "snapshot": "input-snapshot/ancillary-studies/update-source-selection/AGENTS.md",
+    "sha256": "253a118098b2437e43163b2e4de4fb93a49cb3448c502b1b8ee8c2e726ad93c6"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/update-source-selection/README.md",
+    "snapshot": "input-snapshot/ancillary-studies/update-source-selection/README.md",
+    "sha256": "cc5e9a5a4b4a442f6fdb3a485d165bcffe1164cca0660190768e3a039638ae34"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/update-source-selection/notes/2026-09-10-adaptation-smoke.md",
+    "snapshot": "input-snapshot/ancillary-studies/update-source-selection/notes/2026-09-10-adaptation-smoke.md",
+    "sha256": "f1d813d7f60ced943eb0bc396e94c175c4d4d846fcc7c3630db9c3b6abf460a5"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/update-source-selection/notes/2026-09-10-docker-smoke.md",
+    "snapshot": "input-snapshot/ancillary-studies/update-source-selection/notes/2026-09-10-docker-smoke.md",
+    "sha256": "34c43da0ae7c963dc000e68ceaf3e628dc77085d3527528e06ea83290c853696"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/update-source-selection/notes/2026-09-10-episode-protocol.md",
+    "snapshot": "input-snapshot/ancillary-studies/update-source-selection/notes/2026-09-10-episode-protocol.md",
+    "sha256": "57b9a4d363773b64d5710cc35f45cd407c358aa354ea4adf48a99de3df334ffa"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/update-source-selection/notes/2026-09-10-episode-results.md",
+    "snapshot": "input-snapshot/ancillary-studies/update-source-selection/notes/2026-09-10-episode-results.md",
+    "sha256": "5498f6336051cc9bd048a3263e10f1126dfb330af801abc8f788b2bb983a14ce"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/update-source-selection/notes/2026-09-10-feasibility.md",
+    "snapshot": "input-snapshot/ancillary-studies/update-source-selection/notes/2026-09-10-feasibility.md",
+    "sha256": "33900e7a7ec3732a470c45394e00c3ee8e5846f124cbf6c4404d7d63ad4b90b3"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/update-source-selection/notes/2026-09-10-interface-protocol.md",
+    "snapshot": "input-snapshot/ancillary-studies/update-source-selection/notes/2026-09-10-interface-protocol.md",
+    "sha256": "1b41cdf7c1fb29c8deb1fa34bd383a49ea30c21d356d7c2cd478d8d7c48a558b"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/update-source-selection/notes/2026-09-10-interface-results.md",
+    "snapshot": "input-snapshot/ancillary-studies/update-source-selection/notes/2026-09-10-interface-results.md",
+    "sha256": "9fee9aabd95426c81242806a3346336bc707a30e5e35fc8b65f0c054f21a7b34"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/update-source-selection/notes/2026-09-10-reasoning-addendum.md",
+    "snapshot": "input-snapshot/ancillary-studies/update-source-selection/notes/2026-09-10-reasoning-addendum.md",
+    "sha256": "bbb7fe17913f104eef6de943e968529c7140ba759f0c6a7672d1a955d6a96edf"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/procedure-acquisition-and-reuse/AGENTS.md",
+    "snapshot": "input-snapshot/ancillary-studies/procedure-acquisition-and-reuse/AGENTS.md",
+    "sha256": "57bd99e4ad5b3feb34915806efa698888b693984e62596dd3081c2750ba4c8cc"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/procedure-acquisition-and-reuse/README.md",
+    "snapshot": "input-snapshot/ancillary-studies/procedure-acquisition-and-reuse/README.md",
+    "sha256": "eaa454538f80d649bf7765374446553b8482a4f12e249ac656ead3affd4d0e70"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-10-resources-recheck.md",
+    "snapshot": "input-snapshot/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-10-resources-recheck.md",
+    "sha256": "84f2733281d6a49189561824bbcfd66e32272f3397cd196d28295dcc2b35fb69"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-10-start.md",
+    "snapshot": "input-snapshot/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-10-start.md",
+    "sha256": "ce0da1af39a5877f3442e94a3f4ab6d66731435c2d2c97c2a0615ed2198a7e1d"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-acquisition-results.md",
+    "snapshot": "input-snapshot/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-acquisition-results.md",
+    "sha256": "0eeac1437c57e05121e4699cfe2d8fa1aa7b6580a428e414652c1701dfdda8e8"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-components.md",
+    "snapshot": "input-snapshot/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-components.md",
+    "sha256": "aebce25210dd6c5921cef08961152c0de8698e0c83c1cb32f4101195fd33c079"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-execution-diagnostic.md",
+    "snapshot": "input-snapshot/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-execution-diagnostic.md",
+    "sha256": "cd86eadc70c77765a60dd9f2aa4cb30629b5694f6032c2b89f7e83533fb8e93c"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-followup-results.md",
+    "snapshot": "input-snapshot/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-followup-results.md",
+    "sha256": "b292a80b0239c7edac3df4b0c5bc8c66b010dd801ed529103f7c70783966703e"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-handoff-audit.md",
+    "snapshot": "input-snapshot/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-handoff-audit.md",
+    "sha256": "a91037d49ae6d8d64f20c7a8023bbaef918d7babd9f3395a0c711b02ffd54153"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-literature.md",
+    "snapshot": "input-snapshot/ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-literature.md",
+    "sha256": "d2470d2f18a8a44b819ff999c401e890f9f4a96287599fc81ed3faf8a03d9ab6"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/procedure-acquisition-and-reuse/protocol/acquisition-v1.md",
+    "snapshot": "input-snapshot/ancillary-studies/procedure-acquisition-and-reuse/protocol/acquisition-v1.md",
+    "sha256": "82fa57e7c1a1c2c3106a82b9bc66886786535c613f77b2d1dcfd60de4b5989e5"
+  },
+  {
+    "path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/procedure-acquisition-and-reuse/protocol/followup-v1.md",
+    "snapshot": "input-snapshot/ancillary-studies/procedure-acquisition-and-reuse/protocol/followup-v1.md",
+    "sha256": "4d4a5d23f503f609ec2a596ecebc2f7babf67f063fb552767e321d6e6c736f69"
+  }
+]

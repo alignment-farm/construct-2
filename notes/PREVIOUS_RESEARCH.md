@@ -4,12 +4,9 @@
 
 Research synthesis · 2026-09-08
 
-**Construct's strongest result is that governing what becomes context can
-improve later decisions, and that keeping memory recoverable can reduce the
-cost of retaining it.** Those benefits have been demonstrated on bounded
-tasks. The larger thesis—that memory architecture explains everything an agent
-becomes after training—remains a research thesis, beyond what these experiments
-establish.
+> Construct's strongest result is that governing what becomes context can improve later decisions, and that keeping memory recoverable can reduce the cost of retaining it.
+
+Those benefits have been demonstrated on bounded tasks. The larger thesis—that memory architecture explains everything an agent becomes after training—remains a research thesis, beyond what these experiments establish.
 
 Construct studies **agent-side memory**: persistent software around a language
 model whose individual sessions do not retain their own context. These
