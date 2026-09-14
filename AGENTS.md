@@ -16,6 +16,20 @@ following the [ancillary-study approach](notes/ANCILLARY_STUDY.md). Workload
 discovery can be part of their bounded exploration; useful progress includes
 negative results and explanations that resolve a question without new runs.
 
+Independent ancillary questions proceed concurrently. A local acquisition or
+implementation problem in one study does not block the others. The root keeps
+the larger question in focus through theory, predictions and synthesis; each
+study owns its experimental work and coordinates use of shared resources.
+
+A negative result alone is not a stop condition. When a learning treatment has
+not acquired even its development cases, pursue bounded diagnostic development
+to distinguish plausible causes or establish a functioning learning regime.
+Finite gradients and verified updates establish mechanics, not successful
+acquisition. Accepting a publication does not close its unresolved research
+question. Stop on explanatory progress, a demonstrated limitation, or a concrete
+resource constraint; a neural advantage is not required. Preserve failed runs
+and use fresh evaluation material to test claims developed through diagnosis.
+
 ## Research sources
 
 Study existing public research for theories and experiments to avoid overlap and inspire new ideas.

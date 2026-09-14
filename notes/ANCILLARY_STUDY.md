@@ -32,6 +32,11 @@ evidence when the claim warrants it. It records its own assessment and the
 implications for the broader account. Operational state, detailed protocols,
 and experimental repair work remain within the ancillary study’s directory.
 
+Independent questions can proceed concurrently. A study may reuse a published
+method or result without waiting for another study's next phase. The root keeps
+their distinct implications connected; investigators coordinate shared machine
+use when heavy jobs or timing comparisons would interfere.
+
 ## Starting an ancillary study
 
 A standalone research project that needs three things:
@@ -72,6 +77,26 @@ claims, and distinguishes exploration from subsequent tests of a developed
 claim using fresh evaluation material. Failed attempts, adverse outcomes, and
 limitations remain part of the record. The project chooses the detail and
 procedures needed for its particular work.
+
+**Research persistence — clarified 14 September 2026.** Acceptance of a
+publication and retirement of its research question are separate decisions.
+An unsuccessful treatment can reveal a limitation or distinguish explanations,
+but failure of one minimally developed recipe is insufficient reason to move
+on while plausible acquisition failures remain undiagnosed. In that situation,
+continue bounded development within the available resources. Choose diagnostic
+comparisons for the explanations their possible outcomes separate. Establishing
+finite gradients or exact resets does not establish a functioning learner.
+Listing possible causes or restating a recipe's failure does not meet that
+explanatory expectation.
+
+Calibration on development material is legitimate research. Preserve its
+unsuccessful attempts and evaluate any resulting transfer claim on fresh
+material; do not revise a completed protocol or select a checkpoint on its test
+results. Closure should rest on explanatory progress, a demonstrated limitation,
+or an actual resource constraint. If resources require stopping before the
+question is resolved, record that constraint. This calls for more informative
+experimentation, without requiring a positive treatment effect or indefinite
+search for a winning configuration.
 
 ## Findings
 

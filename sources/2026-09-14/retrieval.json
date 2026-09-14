@@ -1,0 +1,30 @@
+{
+  "requested_at_utc": "2026-09-14T09:37:41.388005+00:00",
+  "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Human-like+systematic+generalization%22+OR+ti%3A%22Transformers+Can+Do+Arithmetic%22+OR+ti%3A%22Show+Your+Work%22&start=0&max_results=12&sortBy=relevance&sortOrder=descending",
+  "user_agent": "Construct-2 procedural-learning theory review (versioned local research cache)",
+  "parameters": {
+    "search_query": "ti:\"Human-like systematic generalization\" OR ti:\"Transformers Can Do Arithmetic\" OR ti:\"Show Your Work\"",
+    "start": "0",
+    "max_results": "12",
+    "sortBy": "relevance",
+    "sortOrder": "descending"
+  },
+  "status": 429,
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "14",
+    "accept-ranges": "bytes",
+    "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "x-cloud-trace-context": "e56a79e6582ba26a437fff6e330694e3",
+    "server": "Google Frontend",
+    "content-type": "text/html",
+    "Date": "Mon, 14 Sep 2026 09:37:41 GMT",
+    "X-Served-By": "cache-lga21982-LGA, cache-lga21982-LGA, cache-lga21950-LGA, cache-mia-kmia1760109-MIA",
+    "X-Cache": "MISS, MISS, MISS",
+    "X-Cache-Hits": "0, 0, 0",
+    "X-Timer": "S1789378662.624641,VS0,VE121",
+    "Strict-Transport-Security": "max-age=300"
+  },
+  "error": "HTTP Error 429: Unknown Error",
+  "api_requests_stopped": true
+}

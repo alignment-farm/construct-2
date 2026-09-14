@@ -13,11 +13,25 @@ explain the mutable objects, write operations, and persistence boundaries.
 The [13 September acquisition-methods review](2026-09-13/README.md) examines
 context and procedural-memory distillation used to prepare procedure transfer.
 It records versioned methods reading and the limits of the attempted metadata
-discovery. That investigation is now complete as a local recipe test; the
+discovery. Its first local recipe test is published and accepted; the
 [root assessment](../studies/README.md#procedure-transfer-completed-local-recipe-test)
-records its failed acquisition and unresolved broader method question. The
+records its failed distillation acquisition and partial transfer through imitation.
+The subsequent [diagnosis assessment](../studies/README.md#procedure-transfer-acquisition-diagnosis)
+records functioning acquisition, a controlled routing rescue and remaining
+identifier-production failures. The
 study's [14 September reading](../../ancillary-studies/procedure-transfer/sources/README.md)
 adds primary-method and author-code provenance for its implementation.
+
+The root's [14 September procedural-learning reading](2026-09-14/README.md)
+examines positive demonstrations of composition, arithmetic generalization and
+effective adaptation. It supports a [theory note](../notes/PROCEDURAL_LEARNING.md)
+whose original predictions precede the diagnostic reading and whose subsequent
+assessment records how that evidence changes them.
+
+The three [concurrent experimental projects](../studies/README.md#6-research-selection)
+carry versioned starting references in their own READMEs. Their investigators
+own focused methods reading and implementation selection; preparing these briefs
+does not establish new literature coverage or novelty.
 
 ---
 
