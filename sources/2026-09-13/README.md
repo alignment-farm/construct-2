@@ -5,6 +5,12 @@
 It follows the completed procedure-acquisition and neural-memory-depth studies.
 It is a targeted methods review, not a systematic search or a novelty finding.
 
+**Status update — 14 September:** This preparation led to a completed local
+recipe test. Distillation acquisition failed, and its broader method question
+remains unresolved. No continuation is currently planned; see the
+[current root assessment](../../studies/README.md#procedure-transfer-completed-local-recipe-test).
+The decision and prospective language below preserve the 13 September rationale.
+
 ## Closest methods
 
 | Source and reading scope | Method and boundary relevant here |

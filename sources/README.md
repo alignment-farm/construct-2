@@ -11,9 +11,13 @@ Its [worked examples](../studies/README.md#b0-a-worked-explanation-of-neural-wri
 explain the mutable objects, write operations, and persistence boundaries.
 
 The [13 September acquisition-methods review](2026-09-13/README.md) examines
-context and procedural-memory distillation for the next procedure-transfer
-investigation. It records versioned methods reading and the limits of the
-attempted metadata discovery.
+context and procedural-memory distillation used to prepare procedure transfer.
+It records versioned methods reading and the limits of the attempted metadata
+discovery. That investigation is now complete as a local recipe test; the
+[root assessment](../studies/README.md#procedure-transfer-completed-local-recipe-test)
+records its failed acquisition and unresolved broader method question. The
+study's [14 September reading](../../ancillary-studies/procedure-transfer/sources/README.md)
+adds primary-method and author-code provenance for its implementation.
 
 ---
 

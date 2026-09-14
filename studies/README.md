@@ -1,6 +1,6 @@
 **Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/PREVIOUS_RESEARCH.md) and [research perspective](../notes/RESEARCH_PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. Executable skill libraries remain background; see the [research preference](../sources/README.md#research-preference-to-date).
 
-This map combines prospective questions with root assessments of three completed bounded investigations: update-source selection under S1, procedure acquisition and reuse under S2, and neural memory depth under S3. The [synthesis below](#what-the-three-completed-investigations-change) connects their implications without assigning them a common failure mechanism. Read each study's own directory for its latest work. “Candidate extension” means a comparison is not established by the specific evidence reviewed here; it does not mean nobody has studied it. A useful replication or explanation can proceed without a novelty claim. A proposed new contribution needs its closest methods and evaluation settings checked before we call it new.
+This map combines prospective questions with root assessments of four completed bounded investigations: update-source selection under S1, procedure acquisition and reuse and procedure transfer under S2, and neural memory depth under S3. The [synthesis below](#what-the-completed-investigations-change) connects their implications without assigning them a common failure mechanism. Procedure transfer closes as a local acquisition-recipe failure; its broader method question remains unresolved. Current work returns to [research selection](#6-research-selection), with no successor selected. Read each study's own directory for its latest work. “Candidate extension” means a comparison is not established by the specific evidence reviewed here; it does not mean nobody has studied it. A useful replication or explanation can proceed without a novelty claim. A proposed new contribution needs its closest methods and evaluation settings checked before we call it new.
 
 ## 1. What changed after reading beyond the abstracts
 
@@ -193,7 +193,7 @@ Assessment scope: we read the [manuscript source](../../ancillary-studies/update
 
 ### S2. Can a learned procedure survive later learning and accept a scoped correction?
 
-**Status:** Retention and scoped correction remain high-interest extension candidates with substantial prior overlap. The next prepared investigation addresses acquisition and transfer first, as described below. Retention, multi-hop consequences, and locality are not individually new tests.
+**Status:** Retention and scoped correction remain high-interest extension candidates with substantial prior overlap. Both acquisition investigations below are complete; neither tested later-learning retention or scoped correction, and no continuation is currently planned. Retention, multi-hop consequences, and locality are not individually new tests.
 
 **Related study and scope:** [Procedure acquisition and reuse](../../ancillary-studies/procedure-acquisition-and-reuse/README.md) investigated acquisition, transfer to new inputs, and repeated-use costs. Its initial experiment and bounded follow-up are complete. S2's additional question concerns interference from later learning and scoped correction; neither was tested in that investigation. S5's broader consolidation comparison also remains open.
 
@@ -205,15 +205,32 @@ The theoretical implication is that **training recall, usable transfer, and acqu
 
 Assessment scope: we read the study README, initial results, follow-up addendum, and frozen follow-up protocol. We did not rerun experiments or independently rescore raw traces. Methods, evidence, and the completed investigation's operational state remain with that study.
 
-#### Next investigation: procedure transfer
+<a id="next-investigation-procedure-transfer"></a>
 
-**Prepared — 13 September 2026; not started.** [Procedure transfer](../../ancillary-studies/procedure-transfer/README.md) asks: **does evidence-conditioned distillation produce more reliable procedural transfer than direct imitation, under disclosed evidence and acquisition cost?** This is a focused acquisition question within the existing map, preceding S2's retention and correction comparison.
+#### Procedure transfer: completed local recipe test
 
-The earlier recipe fitted twelve calls, but neither its supervision nor its limited demonstrations established reliable transfer. P17 supplies a more specific method to investigate, and P18 supplies the closest broader procedural-memory precedent. The [focused reading](../sources/2026-09-13/README.md) explains their overlap and limitations. S3 motivates considering interactions in learning, without identifying the earlier adapter's failure mechanism.
+**Root assessment and closure — 14 September 2026.** The [local publication](../../ancillary-studies/procedure-transfer/FINDINGS.md), at study commit `78965ca7ffd4ac9389a77505a768cf6dfd6be957`, completes the bounded investigation. **Distillation acquisition failed under the tested recipe; the broader method question remains unresolved. No continuation is currently planned.** Its audited implementation, saved artifacts, costs and failure case are useful contributions. Completing this study does not establish that context distillation is generally ineffective or require further work to rescue the recipe.
 
-The starting comparison is direct imitation versus a selected distillation method, with no-update and explicit-evidence references on fresh procedural inputs. The investigator should distinguish better learning from additional cases, feedback or teacher knowledge, and account for producing that supervision. If the method changes several factors, a gain supports the combined method unless further controls isolate the cause. A supplied rule is a diagnostic with additional information; the old withheld combination cannot be treated as uniquely inferable from its demonstrations.
+The [13 September preparation](../sources/2026-09-13/README.md) selected evidence-conditioned distillation following the earlier adapter's transfer deficit. The completed study covers all four condition combinations with 16 checked calls, uses two coupled initialization/order seeds, and compares direct imitation with full-vocabulary reverse KL on checked answer prefixes and on student-generated prefixes. The secondary comparison holds the loss, teacher, evidence and training inputs fixed. All six final checkpoints preceded fresh evaluation. The development-selected teacher reminder, additional development labels and pretrained teacher capabilities are disclosed in the [protocol](../../ancillary-studies/procedure-transfer/protocol/transfer-v1.md).
 
-A result could establish useful transfer, localize a teacher or evidence limitation, or show that direct imitation or explicit evidence remains preferable. This is not a new learning-mechanism claim or a required parameter-learning win. The ancillary investigator owns the task, implementation, protocol and bounded experiments. Only the project brief has been prepared here; no agent or experiment has been launched.
+The [audited outcomes](../../ancillary-studies/procedure-transfer/evidence/transfer-v1-analysis/README.md) are:
+
+| Method/reference | Training-call recall, seeds 17 / 29 | Fresh-input success, seeds 17 / 29 |
+|---|---:|---:|
+| Direct imitation | 16/16; 16/16 | 24/96; 32/96 |
+| Reverse KL, checked prefixes | 3/16; 4/16 | 3/96; 1/96 |
+| Reverse KL, student-generated prefixes | 0/16; 3/16 | 0/96; 2/96 |
+| Retained examples + selected reminder (one base-model reference) | 14/16 | 89/96 |
+| Supplied complete rule (privileged reference) | Not measured | 65/96 |
+| No acquisition (one base-model reference) | Not measured | 0/96 |
+
+The useful teacher establishes that the evidence supports new-input behavior in this model. Both distillation variants fail largely at acquisition, so their result does not isolate a transfer failure after successful learning or student-generated prefixes as the cause. Imitation again fits demonstrations while generalizing poorly. Distillation costs more to acquire and achieves much lower accuracy; no repayment at comparable useful performance was demonstrated. The supplied-rule prompt was not optimized alongside the examples prompt, so their scores do not establish a general ordering of rules and examples.
+
+**Scientific weight.** Mechanics checks establish that the specified updates occurred, but do not establish that the shared LoRA configuration and optimizer settings are suitable for reverse KL. The pilot did not develop an effective distillation acquisition recipe. Root inspection also found substantially larger gradient spikes in the distillation logs; differing objective scales and those observations do not identify a cause. Optimization, teacher distributions on incorrect prefixes and parameterization remain unresolved. This is evidence against the tested recipe, with little weight against the broader method. One synthetic procedure, four training identifiers and two coupled seeds further limit generality; the reported bootstrap intervals condition on these runs and resample identifier clusters.
+
+**Implication for selection.** Repeatedly closing minimally developed neural recipes after acquisition failure could create an apparent general advantage for explicit memory without a comparison against an adequately developed neural alternative. Preserve that unresolved comparison in the root's beliefs. Continuing this route would require a separately motivated acquisition diagnosis and development effort. Its uncertain return does not make it the next priority, and no further experiment is required to close the present contribution. Retention, correction and consolidation remain untested here.
+
+**Assessment scope.** The root read the publication, protocol, development and reproduction notes, implementation, raw responses, training events and saved audits. It independently rescored all 976 responses, verified 27 evidence-manifest entries, checked paired initialization hashes and training-input orders, and confirmed that executed source snapshots match frozen commit `5f636fb2d2768d1818d53aa51928cbe043c4f2c2`. These checks passed. It did not rerun model training or inference. The native unit-test command could not start because the review environment lacked the recorded Python 3.14.7 interpreter; the study's native audit remains reported evidence. Operational details and any future repairs stay with the ancillary study.
 
 #### Longer-term retention and correction question
 
@@ -281,7 +298,9 @@ The theoretical update is that **architectural memory capacity and the capacity 
 
 **Reading/implementation needed:** P10's lifecycle and compression details; P7's routing/merging; P16's separate adaptation/evaluation accounting. The existing compute-allocation paper supplies an alternative investment, not a universal cost conversion.
 
-### What the three completed investigations change
+<a id="what-the-three-completed-investigations-change"></a>
+
+### What the completed investigations change
 
 The investigations examine different mechanisms and tasks. Together they sharpen the claims required to answer where experience should live:
 
@@ -289,20 +308,34 @@ The investigations examine different mechanisms and tasks. Together they sharpen
 |---|---|---|
 | Update-source selection (S1) | Source reliability differs from its value as training material; changing loss or generation need not change task success. | A trustworthy record alone does not tell us whether training on it is useful. |
 | Procedure acquisition and reuse (relevant to S2/S5) | Recall of demonstrations differs from transfer to new inputs; cheaper repeated inference need not repay acquisition at comparable useful accuracy. | Retaining a parameter update is valuable only to the extent that its learned behavior serves the later workload. |
+| Procedure transfer (relevant to S2) | A useful evidence-conditioned teacher and verified updates do not establish successful student acquisition under a shared training recipe. | Failed acquisition limits conclusions about transfer and about the learning method generally; completing a recipe test leaves those questions open. |
 | Neural memory depth (S3) | An architecture's capacity differs from the retrieval behavior its joint training reaches; individually helpful initialization changes can interfere when combined. | The writer, representations, reader and training conditions must be considered together when assessing usable memory. |
 
 This is a synthesis of distinct local findings, not evidence that the adapter's transfer deficit and the deeper memory's partial retrieval share a cause. The experiments also concern different persistence boundaries: training a fast-memory system to learn within sequences does not demonstrate accumulation of experience across agent sessions. S3's successful synthetic recalls supply no placement or acquisition-cost comparison against accessible explicit evidence.
 
+The acquisition failures also do not accumulate into a general verdict against neural memory. The two procedure studies share a model family and closely related LoRA recipes and routing tasks, so they supply limited methodological diversity. Retained examples are stronger observed references in these comparisons; the general comparison with an adequately developed neural learner remains unresolved. Acceptance of a completed contribution and confidence in a broad negative hypothesis are separate judgments.
+
 For S2, these findings keep acquisition and transfer separate from subsequent retention or correction. For S4, they motivate distinguishing information that training never made usefully retrievable from information lost when the future goal changes. For S5, total cost depends on producing useful behavior reliably, including the cost of unsuccessful acquisition attempts. Those are implications for future questions, not new protocols or claims that the existing studies have tested those later stages. The root's working question is therefore conditional: **which training and memory mechanisms produce useful, transferable behavior on a specified workload, and when is maintaining that behavior preferable to retaining and reasoning over explicit evidence?**
 
-## 6. Suggested order for discussion
+<a id="6-suggested-order-for-discussion"></a>
 
-1. **B0: Completed above; discuss any unclear mechanisms first.** The worked examples distinguish fitting an observation, retaining information, and improving later behavior. They establish vocabulary without claiming new empirical findings.
-2. **S2 acquisition: Procedure transfer is the next prepared investigation.** It examines a different acquisition method with explicit evidence and cost accounting, motivated by the previous transfer deficit and P17/P18. Its [brief](../../ancillary-studies/procedure-transfer/README.md) is ready for an independent ancillary session. Source selection, later-learning retention and scoped correction remain separate questions.
-3. **S3: Completed and incorporated into the root synthesis.** Its evidence distinguishes architectural capacity from usable retrieval under a training recipe and leaves the published depth contrast unresolved. Any continuation needs a separately motivated question; completion does not depend on resolving every uncertainty or running a larger model.
-4. **S4 and S5: Keep as subsequent directions.** S3 sharpens the distinction between acquisition and later use, but does not by itself supply a validated agent-memory mechanism or a cost advantage for these studies. Discuss the [combined implications](#what-the-three-completed-investigations-change) before selecting another investigation.
+## 6. Research selection
 
-Every empirical candidate needs gradient or state access for its neural treatment. An inference-only model endpoint can supply comparison answers or summaries but cannot substitute for inspecting the update. S1 established a native MLX training route on its 48 GB Apple M3 Max, and the procedure-acquisition study subsequently used native MLX for a fixed Qwen3-4B adapter comparison. S3 used small source-loaded CPU graphs with explicit kernel substitutions; it required no model endpoint or language-model pretraining. These results do not establish feasibility or budgets for other neural mechanisms. Read each study's own documentation and applicable AGENTS.md for current resources; the [root resource notes](../AGENTS.md#model-resources) identify the Mac Studio as the preferred serving resource.
+**Current decision — 14 September 2026:** Exit the completed procedure-transfer study for now and return to root research selection. No successor is selected or commissioned. B0 and all four ancillary contributions are complete within their stated bounds; their unresolved questions remain available for separately motivated work.
+
+For the next empirical comparison, prioritize a workload with a concrete reason to retain learning and an existing acquisition result whose implementation and resources make local reproduction plausible. Explain what the comparison would change in our account of memory. A bounded replication or development effort can establish whether the method works locally; failure remains reportable and does not require a search for a neural win. This is a selection preference, not a new admission gate or mandatory protocol.
+
+The open directions provide different possible returns:
+
+| Candidate direction | What would make it informative | Unresolved dependency |
+|---|---|---|
+| S2: procedural retention and scoped correction | A procedure whose later revision tests action consequences and unaffected behavior beyond lookup | Reliable acquisition in the selected mechanism, and a focused overlap check |
+| S4: memory under changed future goals | A specified shift in what the retained history must support, with explicit-evidence references | A usable trained memory mechanism and disclosed capacity and information access |
+| S5: retention and consolidation economics | A motivated recurrence/revision pattern and total costs at comparable useful behavior | Useful learning whose acquisition, reconstruction and revision costs can be measured |
+
+S1 source selection still needs evidence of differing source utility or useful abstention before selector development is well motivated. S3 can be revisited for a specific mechanism or missing configuration, but resolving its published depth contrast is not required for closure. Source-based explanation, workload discovery and a decision to abandon a weak candidate remain legitimate research outcomes under the [ancillary-study approach](../notes/ANCILLARY_STUDY.md).
+
+Every empirical candidate needs gradient or state access for its neural treatment. An inference-only model endpoint can supply comparison answers or summaries but cannot substitute for inspecting the update. S1 established a native MLX training route on its 48 GB Apple M3 Max, and the procedure-acquisition study subsequently used native MLX for a fixed Qwen3-4B adapter comparison. Procedure transfer verified native MLX teacher distributions and LoRA gradients on the 64 GB Mac Studio M1 Ultra. S3 used small source-loaded CPU graphs with explicit kernel substitutions; it required no model endpoint or language-model pretraining. These results do not establish feasibility or budgets for other neural mechanisms. Read each study's own documentation and applicable AGENTS.md for current resources; the [root resource notes](../AGENTS.md#model-resources) identify the Mac Studio as the preferred serving resource.
 
 ## 7. Search scope and remaining uncertainty
 
@@ -318,6 +351,6 @@ B0 additionally uses the original [LoRA paper, 2106.09685v2, §4.1](https://arxi
 
 These bounded searches can miss older work, different terminology, and later follow-ups. In particular, procedural editing, continual meta-learning, and adaptive update-source selection deserve a focused search when we choose a study. “Explicitly open in P3” means open in that paper, not proven open across all subsequent literature. None of S1–S5 is labeled a confirmed novel contribution.
 
-On 13 September, the [focused acquisition-methods reading](../sources/2026-09-13/README.md) added P17/P18 and revisited P4/P8. Its attempted API discovery returned rate-limit errors and supplied no search results; the reading followed versioned primary HTML and references already identified in the local study. The next project therefore begins with specific method leads and substantial known overlap, not a fresh exhaustive novelty search.
+On 13 September, the [focused acquisition-methods reading](../sources/2026-09-13/README.md) added P17/P18 and revisited P4/P8. Its attempted API discovery returned rate-limit errors and supplied no search results; the reading followed versioned primary HTML and references already identified in the local study. Procedure transfer therefore began with specific method leads and substantial known overlap. Its [14 September source note](../../ancillary-studies/procedure-transfer/sources/README.md) adds versioned primary-method and author-code reading for its local adaptation; neither review establishes comprehensive novelty coverage. A newly selected question needs its own focused source assessment.
 
 The earlier abstract review remains historical background. This file now owns the working paper/question/study map; subsequent assessments and discussion should update it here.
