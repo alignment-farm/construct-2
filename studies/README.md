@@ -2,6 +2,40 @@
 
 This map connects the root's questions, ancillary publications and current experimental directions. Four projects have published bounded contributions; procedure-transfer's additional diagnosis establishes functioning acquisition and a controlled repair of failed routing. The [synthesis below](#what-the-completed-investigations-change) connects their implications without assigning them a common failure mechanism. [Current selection](#6-research-selection) commissions three independent projects under S2, S4 and S1 for concurrent investigation. Their directories are prepared; experiments were not started during preparation. Read each study's own directory for its latest work. “Candidate extension” means a comparison is not established by the specific evidence reviewed here; it does not mean nobody has studied it. A useful replication or explanation can proceed without a novelty claim. A proposed new contribution needs its closest methods and evaluation settings checked before we call it new.
 
+## Cloning the studies
+
+[repos.txt](repos.txt) is the maintained list of Construct-2 ancillary repositories,
+one `organization/repository` per line, including completed studies. It contains
+all seven studies currently in this program; the root and other lab projects are
+outside its scope. Contributors need Git, an authenticated GitHub CLI (`gh auth
+login`), and access to these private repositories.
+
+From a `construct-2` checkout:
+
+```bash
+# Show the repository list without contacting GitHub.
+./scripts/clone-studies.sh --list
+
+# Clone all studies.
+./scripts/clone-studies.sh
+
+# Clone only named studies.
+./scripts/clone-studies.sh procedure-retention-and-revision memory-under-goal-shift
+```
+
+The [helper](../scripts/clone-studies.sh) clones into `../ancillary-studies/`
+relative to the root checkout, preserving this documentation's sibling links.
+It also accepts qualified names such as `alignment-farm/experience-selection`.
+It validates all requested names before cloning and skips existing paths without
+pulling or changing local work. A failed clone stops the command with a nonzero
+exit status; rerunning skips already-created paths. The plain-text list is also
+usable by contributors' own Git tooling. Committed study artifacts are included;
+base-model downloads and environment setup follow each study's reproduction notes.
+
+Add each new repository to the list as part of the
+[new-study process](../notes/ANCILLARY_STUDY.md#starting-an-ancillary-study).
+Scientific questions and assessments remain in the map below.
+
 ## 1. What changed after reading beyond the abstracts
 
 Three important corrections to our starting position:

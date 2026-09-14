@@ -54,6 +54,39 @@ needed for its question without requiring the root's entire research history.
 A prompt instruction supplies the immediate expectation; a separate
 charter or orchestration system is unnecessary.
 
+Preparing a new study includes its shared repository:
+
+1. Create `../ancillary-studies/<study-name>/` with a question and starting
+   expectation in `README.md`, local `AGENTS.md` instructions, and a `.gitignore`
+   for environments, credentials, caches and model downloads. Keep evidence
+   needed for the eventual claims trackable.
+2. Initialize an independent Git repository on `main` and commit the preparation.
+   Create the same-named repository under the `alignment-farm` GitHub organization,
+   private by default unless a different visibility is requested. Set it as
+   `origin` and push the initial commit with `main` tracking `origin/main`.
+3. Add its `alignment-farm/<study-name>` entry to the root's
+   [repository list](../studies/repos.txt) and connect the project to its question
+   in the [study map](../studies/README.md). Keep completed studies in the list
+   so contributors can retrieve the program's evidence as well as current work.
+4. Verify the pushed branch matches the local commit and the working tree is
+   clean. The prepared repository is then ready for an independent ancillary
+   session; creating and pushing it does not itself launch experiments.
+
+For a new directory with its preparation files ready, the repository step is:
+
+```bash
+study_name=$(basename "$PWD")
+git init -b main
+git add README.md AGENTS.md .gitignore
+git commit -m "Prepare independent ancillary study"
+gh repo create "alignment-farm/$study_name" --private --source . --remote origin --push
+```
+
+The [clone instructions](../studies/README.md#cloning-the-studies) use the same
+repository list to retrieve all studies or a selected subset. Update that list
+when a repository is added, renamed or moved; it is the maintained inventory
+of Construct-2 ancillary repositories, rather than a list of every lab project.
+
 ## Autonomy
 
 The study manages its execution, experimental protocols, implementation, analysis,
