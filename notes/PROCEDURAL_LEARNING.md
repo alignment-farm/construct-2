@@ -1,6 +1,6 @@
 # What is acquired when an agent learns a procedure?
 
-The original predictive note below is preserved. The [diagnosis assessment](#assessment-after-reading-diagnosis), [retention/revision assessment](#assessment-after-retention-and-revision) and [scope/rehearsal assessment](#assessment-after-scope-and-rehearsal) record what changed after each subsequent publication.
+The original predictive note below is preserved. The [diagnosis assessment](#assessment-after-reading-diagnosis), [retention/revision assessment](#assessment-after-retention-and-revision), [scope/rehearsal assessment](#assessment-after-scope-and-rehearsal) and [complete-maintenance assessment](#assessment-after-complete-procedural-maintenance) record what changed after each subsequent publication.
 
 14 September 2026. Root theory note, written while procedure-transfer's acquisition diagnosis is underway. The local evidence boundary is its accepted first publication at commit `78965ca7ffd4ac9389a77505a768cf6dfd6be957` and the earlier studies assessed in the [study map](../studies/README.md#what-the-completed-investigations-change). We have not read the diagnostic phase's new results for this note. The predictions below precede that reading; they are theory commitments, not a registered experimental protocol or claims of independence from the study's existing brief.
 
@@ -182,3 +182,47 @@ expectation and [S2 brief](../../ancillary-studies/procedure-retention-and-revis
 carry the familiar/unfamiliar correction question into a broader complete
 procedure with recurring use and measured maintenance costs. The assessments
 above remain the record of the preceding evidence.
+
+## Assessment after complete procedural maintenance
+
+15 September 2026. The [third-phase synthesis](../studies/2026-09-15-maintenance-findings.md)
+assesses the complete-workflow S1 and S2 publications and their prospective
+M1/M2 expectations. Earlier predictions and assessments remain unchanged.
+
+**Complete learned behavior can survive supported revision, but the same recipe
+does not reliably preserve it.** S2's two acquired starts each solve all 192
+original-policy work orders. One Novel-support trajectory remains 192/192 through
+both revisions and completes all 672 uses. The other trajectories finish at
+120/192, 132/192 and 130/192. Seven of eight endpoints acquire all 24 newest
+revision obligations, yet both familiar-bridged final states lose all 24 cases
+of the earlier waiver. Rehearsing explicitly relabeled first-waiver records
+does not guarantee their preservation.
+
+This weakens M2 for the tested intervention: replacing novel support identities
+with familiar ones in correction and boundary examples does not yield reliable
+transfer or protection. Directly corrected familiar cases succeed, while one
+additional learned instance remains stale. The result does not show that all
+ways of connecting familiar and unfamiliar behavior are ineffective.
+
+The positive preserving trajectory is an advance beyond earlier route-perfect
+but action-poor outcomes. It supplies bounded existence evidence for complete
+behavioral revision, while **R4's original stronger claim remains unconfirmed**.
+The new task removes identifier copying; it does not repair or test preservation
+of that earlier transformation. All endpoints have valid syntax, and correct
+eligibility always yields a complete correct procedure (1,316/1,316). Errors in
+the learned condition therefore explain the downstream failures here, without
+establishing internal modularity or independent editability of operations.
+
+S1 independently sharpens the distinction between acquiring and maintaining a
+procedure. Damage-aware replay beats the developed fixed mixture in acquisition
+uses (67/72 versus 55/72), but loses during recurrence (84/96 versus 88/96) and
+adds substantial prediction cost. Both finish with all workflows acquired. A
+fixed stopping schedule preserves success in one state and freezes incomplete
+learning in another. Final correctness alone conceals the path of useful and
+failed behavior; repeated exposure alone does not establish that further
+learning is redundant.
+
+The next explanation should address why a supported update preserves complete
+behavior in some acquired states but damages it in others, and what observable
+evidence would support update or stopping decisions. These are prospective
+research directions; this assessment does not assign another experimental phase.

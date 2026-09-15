@@ -3,6 +3,9 @@
 After this assessment, the user approved the [learning-maintenance phase](../notes/LEARNING_MAINTENANCE.md).
 The assessment and its original decision boundary below are preserved.
 
+That subsequent phase is now complete and assessed in the
+[third-phase maintenance synthesis](2026-09-15-maintenance-findings.md).
+
 15 September 2026. The three repositories were fast-forwarded from `origin/main`
 and their resulting heads verified against GitHub before completing this review.
 The previous root write-up remains in the working tree; this assessment extends

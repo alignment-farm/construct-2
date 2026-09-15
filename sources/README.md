@@ -29,9 +29,13 @@ whose original predictions precede the diagnostic reading and whose subsequent
 assessment records how that evidence changes them.
 
 The three [concurrent experimental projects](../studies/README.md#6-research-selection)
-carry versioned starting references in their own READMEs. Their investigators
-own focused methods reading and implementation selection; preparing these briefs
-does not establish new literature coverage or novelty.
+carry versioned references and methods records locally. Their
+[third-phase assessment](../studies/2026-09-15-maintenance-findings.md) now records
+complete maintenance and later compositional use. S1 inspected pinned MIR author
+code before adapting its selection method; S2 records editing-method and code
+inspection; S4 reuses accepted writers and cached TTT reading. These are bounded
+local adaptations and analyses, not new algorithm or comprehensive novelty
+claims. The root synthesis conducted no additional public-literature search.
 
 ---
 

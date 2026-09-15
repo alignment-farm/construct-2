@@ -1,5 +1,11 @@
 # Maintaining useful learned behavior through change
 
+**Current status — 15 September 2026:** All three commissioned phases have
+published and are accepted in the [maintenance assessment](../studies/2026-09-15-maintenance-findings.md).
+The original direction and prospective expectations below are preserved. The
+[assessment appended here](#assessment-after-the-third-phase) records what changed;
+the briefs below describe completed commissions, not newly authorized reruns.
+
 15 September 2026, after the [concurrent follow-up assessment](../studies/2026-09-15-followup-findings.md).
 The user approved broadening the next experiments while keeping independent
 investigations in parallel. This note records the shared direction and prospective
@@ -121,3 +127,37 @@ Git revision, preserving accepted publications and completed protocols. The
 root compares their implications and the forecasts above. S3 remains a completed
 bounded contribution; no additional depth campaign or new repository is needed
 for these commissions. The existing repository list remains the inventory.
+
+## Assessment after the third phase
+
+15 September 2026, after reading all three publications. The
+[root assessment](../studies/2026-09-15-maintenance-findings.md) identifies the
+reviewed commits, verification scope and limits. M1–M3 above remain the original
+prospective wording.
+
+The broader-workload milestone is met within controlled settings. S1 measures
+complete three-action dispatches through six arrivals; S2 measures complete work
+orders through two revisions; S4 tests cross-event queries absent from writer
+training. Each supplies functioning behavior. The procedures remain small and
+reset between jobs; S4 composes familiar independent records with supplied
+operations. This is progress beyond routing alone, not general agent learning.
+
+| Expectation | Result and revision to the account |
+|---|---|
+| **M1** | Damage-aware replay completes 151/168 uses versus 143/168 for the strongest fixed mixture, but the gain is in acquisition. Recurrence is worse (84/96 versus 88/96), paired losses are higher (11 versus 9), and prediction adds substantial work. The intended preservation/cost advantage is not established. |
+| **M2** | Familiar identity bridging does not reliably improve correction or preservation. Both bridged trajectories lose the earlier waiver despite relabeled rehearsal; one withheld familiar case remains stale. A Novel trajectory nevertheless preserves all 192 complete cases through both changes. Complete preservation is possible; reliable support for it remains unresolved. |
+| **M3** | Same-state reader repair and exact query-relevant omissions coexist for later compositions. Two narrow writers retain everything needed by the tested changed questions despite losing other raw information. Broad retention and competent explicit records both answer every tested composition. Availability must be stated relative to the query and read procedure. |
+
+S5 now has measured acquisition, repeated-use and maintenance comparisons. None
+shows learning-cost repayment at comparable complete quality. S1's indexed
+archive, S2's privileged executable policy and S4's full raw records are different
+explicit references, with different supplied knowledge. Their success warrants
+serious baselines, not a universal conclusion about weights versus records.
+
+The next procedural uncertainty is maintenance reliability: why comparably
+competent starts respond differently, and whether affordable observations can
+guide update, stopping or repair. S1 and S2 can investigate that independently.
+S4 has answered its present compositional question; an extension should introduce
+a consequential uncertainty such as dependent histories or acquired read
+operations. These are research recommendations, not another commissioned round.
+No new experiments or repositories are launched by this assessment.
