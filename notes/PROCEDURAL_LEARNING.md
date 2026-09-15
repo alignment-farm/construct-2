@@ -1,6 +1,6 @@
 # What is acquired when an agent learns a procedure?
 
-The original predictive note below is preserved. A [subsequent assessment](#assessment-after-reading-diagnosis) records what changed after reading the diagnostic publication.
+The original predictive note below is preserved. The [diagnosis assessment](#assessment-after-reading-diagnosis), [retention/revision assessment](#assessment-after-retention-and-revision) and [scope/rehearsal assessment](#assessment-after-scope-and-rehearsal) record what changed after each subsequent publication.
 
 14 September 2026. Root theory note, written while procedure-transfer's acquisition diagnosis is underway. The local evidence boundary is its accepted first publication at commit `78965ca7ffd4ac9389a77505a768cf6dfd6be957` and the earlier studies assessed in the [study map](../studies/README.md#what-the-completed-investigations-change). We have not read the diagnostic phase's new results for this note. The predictions below precede that reading; they are theory commitments, not a registered experimental protocol or claims of independence from the study's existing brief.
 
@@ -77,3 +77,108 @@ The strongest new explanation concerns the interaction between the objective and
 Our behavioral account becomes more specific. The learners acquired routing that works on unfamiliar arguments, and suffix use is available conditional on a correct preceding answer. Most identifier mistakes observed in the root's additional descriptive inspection already used uppercase letters: 18 of imitation's 20 wrong identifiers and all 31 of forward's wrong identifiers contained no lowercase letters. For example, both produced `NOD` for `noud` in some calls. This inspection of the saved [component responses](../../ancillary-studies/procedure-transfer/evidence/diagnosis-v2-components/responses.jsonl) is post hoc; it motivates separating faithful string production from case conversion rather than asserting a newly learned uppercase algorithm.
 
 The next empirical directions are concurrent. S2 studies maintenance and revision of acquired behavior; S4 tests how anticipated future use shapes memory; S1 investigates useful source selection and abstention. Their [independent briefs](../studies/README.md#6-research-selection) carry the questions forward without making the remaining identifier problem a prerequisite for all research on accumulated experience.
+
+## Assessment after retention and revision
+
+14 September 2026, after the first concurrent round. [Procedure retention and
+revision](../../ancillary-studies/procedure-retention-and-revision/FINDINGS.md),
+publication `9696af5ef32a86571b66bcedec3b3cd241aef9a0`, now tests R4. The
+[root assessment](../studies/2026-09-14-concurrent-findings.md) records the
+cross-study implications and review scope. The original prediction and the
+earlier diagnosis assessment above remain unchanged.
+
+**R4 receives partial support for routing and contrary evidence for its stronger
+preservation claim.** From the forward-KL-acquired start, later learning and
+correction with filtered replay achieve all 12 revised and 84 unaffected routes
+on fresh identifiers. Complete calls remain 19/96. On the same 36 unchanged old
+queries, five previously correct calls become wrong and one becomes correct,
+reducing full correctness from 11 to 7. The correction transfers within its
+scope, but argument behavior is not preserved. This is not independent
+editability of the complete procedure.
+
+The successful method receives investigator-filtered replay: obsolete records
+are removed and 28 unaffected examples remain. These examples identify the
+correction's boundary as well as rehearse prior behavior. Correction-only
+comparisons lack equivalent boundary evidence. Thus the result does not yet
+isolate whether selective routing comes from scope information, preservation
+through rehearsal, or both. Both acquired starts inherit one seed and training
+set; all later updates use hard-label cross entropy. Their different behavior
+does not establish a general advantage of the earlier acquisition objective.
+
+Budget and behavioral decomposition remain consequential. At 32 updates of
+new learning, both starts retain all old routes and acquire all new routes,
+while longer training can interfere. One of those route-perfect endpoints
+nevertheless reduces old complete-call correctness from 15/48 to 2/48. Equal
+routing competence can therefore conceal very different retained computation.
+The correction arms all start from replay-trained states, so the short
+new-learning path has not been tested through correction.
+
+The revised working account is **a reusable routing relation can be maintained
+and corrected with supporting evidence, while other computations remain
+vulnerable to the same updates**. This supports studying learned behavior
+together with an evidence archive; it does not establish that replay or such an
+archive is universally necessary. The [S2 follow-up](../../ancillary-studies/procedure-retention-and-revision/FOLLOWUP.md)
+separates scope information from broader rehearsal. The
+[prospective expectations](../studies/2026-09-14-concurrent-findings.md#prospective-expectations-and-independent-continuations)
+state what would change this explanation before the root reads follow-up results.
+
+## Assessment after scope and rehearsal
+
+15 September 2026. [FINDINGS-SCOPE.md](../../ancillary-studies/procedure-retention-and-revision/FINDINGS-SCOPE.md),
+publication `6e7049458732c4f3e37e5b8a3d1993129c2bdcfa`, completes the commissioned
+follow-up. The [root synthesis](../studies/2026-09-15-followup-findings.md)
+records its evidence boundary and relationship to S1 and S4. Earlier predictions
+and their preceding assessments remain unchanged.
+
+**The small boundary set sometimes suffices for routing locality, while broader
+history has conditional effects on complete actions.** Four corrections plus
+seven examples crossing unchanged conditions on a corrected identifier produce
+96/96 fresh routes from inherited FK and a new seed-101 acquisition, without
+broad historical replay. Both also revise all four familiar scoped routes.
+Correction-only and tripled-correction controls learn the correction examples
+but overgeneralize to every copper/slow fresh input in all four starts.
+
+The two boundary arms match their starting state, target cases, first boundary
+cases, condition exposure and 384-update budget. The third update either repeats
+the boundary case or substitutes a valid historical identifier of that condition.
+Adding history reduces previously correct unchanged calls lost from 19 to 15,
+33 to 7, and 8 to 5 in three starts, but increases losses from 17 to 24 in the
+fourth. All 16 primary endpoints lose some previously correct unchanged calls.
+Newly correct answers can raise aggregate accuracy while concealing those losses.
+The route-perfect FK boundary endpoint completes none of its 12 fresh corrected
+calls, reinforcing the limit of routing as a description of procedural competence.
+
+This supports the prospective expectation that targeted contrasting evidence
+reduces overgeneralized correction. It narrows any claim that a large archive
+is needed for locality. Additional history can help beyond access to the seven
+boundary cases, but it also supplies identifier diversity and invariance evidence;
+the small set itself rehearses behavior. The comparison identifies the effect
+of substituting those historical examples, not a pure internal protection mechanism.
+Two new acquisitions broaden the starting states, with one preserved failure
+and successful bounded repair. Their differing later-learning histories prevent
+treating all four starts as replications of an identical pipeline.
+
+**Fresh correction and revision of familiar acquired instances also diverge.**
+Inherited CE with history gets 11/12 fresh scoped routes right but leaves all
+four original scoped routes stale. Omitting their obsolete records from replay
+does not erase the behavior already acquired. An identifier-conditioned exception
+can fit every supplied example while leaving those old cases unchanged. That
+counterexample shows the evidence's remaining ambiguity; it does not identify
+the network's implemented rule.
+
+R4's routing component therefore has further bounded support, while its stronger
+preservation expectation remains unsupported. The refined question separates
+three outcomes: transferring a correction to unfamiliar inputs, revising previously
+learned instances, and preserving unaffected computation. S1's concurrent
+follow-up complements this account: material already answered correctly can
+be needed during another update, even though repeating it alone was redundant.
+The learned state and the evidence used to maintain it must be considered together.
+Further investigation of this divergence is an open direction, not a new
+experimental assignment issued by this assessment.
+
+**Subsequent decision, 15 September 2026.** The user approved the
+[learning-maintenance phase](LEARNING_MAINTENANCE.md). Its prospective M2
+expectation and [S2 brief](../../ancillary-studies/procedure-retention-and-revision/MAINTENANCE.md)
+carry the familiar/unfamiliar correction question into a broader complete
+procedure with recurring use and measured maintenance costs. The assessments
+above remain the record of the preceding evidence.
