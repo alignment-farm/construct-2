@@ -226,3 +226,27 @@ The next explanation should address why a supported update preserves complete
 behavior in some acquired states but damages it in others, and what observable
 evidence would support update or stopping decisions. These are prospective
 research directions; this assessment does not assign another experimental phase.
+
+## Assessment after crossing learned state and revision support
+
+15 September 2026. The [fourth S2 synthesis](../studies/2026-09-15-state-support-findings.md)
+accepts the commissioned state/support investigation. Two selected states with
+identical perfect task accuracy respond differently to identical new support;
+changing that support also changes one state's outcome. The controlled crossing
+identifies an interaction. Its positive direction recurs in two fresh acquisitions,
+and one support preference reverses between histories in the second acquisition.
+Those fresh starting accuracies differ, so they extend the interaction rather
+than independently replicating hidden susceptibility at equal accuracy.
+
+All twelve endpoints acquire the newest correction, but many damage both earlier
+corrected and unchanged behavior. One fresh endpoint recalls the entire earlier
+waiver while losing 47 other unchanged orders. Neither initial aggregate accuracy
+nor recall of that correction alone describes maintainability. Current evidence
+has training value relative to the state receiving it; successful acquisition
+and retention require separate observations even within a complete procedure.
+
+This refines the conditional account without confirming R4's original stronger
+transformation-preservation claim or independently editable parameter modules.
+The remaining practical question is whether affordable observations can guide
+a better maintenance action. The bounded phase is complete; no continuation is
+commissioned by this assessment.

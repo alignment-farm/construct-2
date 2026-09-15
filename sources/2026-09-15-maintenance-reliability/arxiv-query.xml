@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5zLLJZnL1Y4xNQ70XSEmDnKxc7c</id>
+  <title>arXiv Query: search_query=ti:"Gradient Episodic Memory" OR ti:"Efficient Lifelong Learning" OR ti:"Gradient based Sample Selection"&amp;id_list=&amp;start=0&amp;max_results=8</title>
+  <updated>2026-09-15T21:04:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Gradient+Episodic+Memory%22+OR+(ti:%22Efficient+Lifelong+Learning%22+OR+ti:%22Gradient+based+Sample+Selection%22)&amp;start=0&amp;max_results=8&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>8</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1706.08840v6</id>
+    <title>Gradient Episodic Memory for Continual Learning</title>
+    <updated>2022-09-13T14:47:52Z</updated>
+    <link href="https://arxiv.org/abs/1706.08840v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.08840v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One major obstacle towards AI is the poor ability of models to solve new problems quicker, and without forgetting previously acquired knowledge. To better understand this issue, we study the problem of continual learning, where the model observes, once and one by one, examples concerning a sequence of tasks. First, we propose a set of metrics to evaluate models learning over a continuum of data. These metrics characterize models not only by their test accuracy, but also in terms of their ability to transfer knowledge across tasks. Second, we propose a model for continual learning, called Gradient Episodic Memory (GEM) that alleviates forgetting, while allowing beneficial transfer of knowledge to previous tasks. Our experiments on variants of the MNIST and CIFAR-100 datasets demonstrate the strong performance of GEM when compared to the state-of-the-art.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-26T14:53:34Z</published>
+    <arxiv:comment>Published at NIPS 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>David Lopez-Paz</name>
+    </author>
+    <author>
+      <name>Marc'Aurelio Ranzato</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.07742v4</id>
+    <title>Gradient-based Sample Selection for Faster Bayesian Optimization</title>
+    <updated>2026-08-26T14:30:51Z</updated>
+    <link href="https://arxiv.org/abs/2504.07742v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.07742v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bayesian optimization (BO) is an effective technique for black-box optimization. However, its applicability is typically limited to moderate-budget problems due to the cubic complexity of fitting the Gaussian process (GP) surrogate model. In large-budget scenarios, directly employing the standard GP model faces significant challenges in computational time and resource requirements. In this paper, we propose a novel approach, gradient-based sample selection Bayesian Optimization (GSSBO), to enhance the computational efficiency of BO. The GP model is constructed on a selected set of samples instead of the whole dataset. These samples are selected by leveraging gradient information to remove redundancy while preserving diversity and representativeness. We provide a theoretical analysis of the gradient-based sample selection strategy and obtain explicit sublinear regret bounds for our proposed framework. Extensive experiments on synthetic and real-world tasks demonstrate that our approach significantly reduces the computational cost of GP fitting in BO while maintaining optimization performance comparable to baseline methods.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-10T13:38:15Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Qiyu Wei</name>
+    </author>
+    <author>
+      <name>Haowei Wang</name>
+    </author>
+    <author>
+      <name>Zirui Cao</name>
+    </author>
+    <author>
+      <name>Songhao Wang</name>
+    </author>
+    <author>
+      <name>Richard Allmendinger</name>
+    </author>
+    <author>
+      <name>Mauricio A Álvarez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.17215v1</id>
+    <title>Continual Safety Alignment via Gradient-Based Sample Selection</title>
+    <updated>2026-04-19T02:52:33Z</updated>
+    <link href="https://arxiv.org/abs/2604.17215v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.17215v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models require continuous adaptation to new tasks while preserving safety alignment. However, fine-tuning on even benign data often compromises safety behaviors, including refusal of harmful requests, truthfulness, and commonsense reasoning. We investigate which training samples cause alignment drift through a data-centric lens. Our empirical analysis shows samples contribute unequally: high-gradient samples cause greater safety degradation and drive models toward pretrained distributions, while moderate-gradient samples enable task learning with minimal alignment loss. We propose gradient-based sample selection that filters high-gradient samples during fine-tuning. Across multiple model families on continual domain tasks, our method substantially improves alignment preservation while maintaining competitive task performance, without requiring curated safe data or architectural modifications. Our method is robust across selection ratios, task orderings, and diverse attack benchmarks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-19T02:52:33Z</published>
+    <arxiv:comment>18 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>ACL 2026 (Findings)</arxiv:journal_ref>
+    <author>
+      <name>Thong Bach</name>
+    </author>
+    <author>
+      <name>Dung Nguyen</name>
+    </author>
+    <author>
+      <name>Thao Minh Le</name>
+    </author>
+    <author>
+      <name>Truyen Tran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.08671v5</id>
+    <title>Gradient based sample selection for online continual learning</title>
+    <updated>2019-10-31T14:45:47Z</updated>
+    <link href="https://arxiv.org/abs/1903.08671v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.08671v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A continual learning agent learns online with a non-stationary and never-ending stream of data. The key to such learning process is to overcome the catastrophic forgetting of previously seen data, which is a well known problem of neural networks. To prevent forgetting, a replay buffer is usually employed to store the previous data for the purpose of rehearsal. Previous works often depend on task boundary and i.i.d. assumptions to properly select samples for the replay buffer. In this work, we formulate sample selection as a constraint reduction problem based on the constrained optimization view of continual learning. The goal is to select a fixed subset of constraints that best approximate the feasible region defined by the original constraints. We show that it is equivalent to maximizing the diversity of samples in the replay buffer with parameters gradient as the feature. We further develop a greedy alternative that is cheap and efficient. The advantage of the proposed method is demonstrated by comparing to other alternatives under the continual learning setting. Further comparisons are made against state of the art methods that rely on task boundaries which show comparable or even better results for our method.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-20T18:01:55Z</published>
+    <arxiv:comment>Neurips 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rahaf Aljundi</name>
+    </author>
+    <author>
+      <name>Min Lin</name>
+    </author>
+    <author>
+      <name>Baptiste Goujaud</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.00420v2</id>
+    <title>Efficient Lifelong Learning with A-GEM</title>
+    <updated>2019-01-09T11:11:47Z</updated>
+    <link href="https://arxiv.org/abs/1812.00420v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.00420v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In lifelong learning, the learner is presented with a sequence of tasks, incrementally building a data-driven prior which may be leveraged to speed up learning of a new task. In this work, we investigate the efficiency of current lifelong approaches, in terms of sample complexity, computational and memory cost. Towards this end, we first introduce a new and a more realistic evaluation protocol, whereby learners observe each example only once and hyper-parameter selection is done on a small and disjoint set of tasks, which is not used for the actual learning experience and evaluation. Second, we introduce a new metric measuring how quickly a learner acquires a new skill. Third, we propose an improved version of GEM (Lopez-Paz &amp; Ranzato, 2017), dubbed Averaged GEM (A-GEM), which enjoys the same or even better performance as GEM, while being almost as computationally and memory efficient as EWC (Kirkpatrick et al., 2016) and other regularization-based methods. Finally, we show that all algorithms including A-GEM can learn even more quickly if they are provided with task descriptors specifying the classification tasks under consideration. Our experiments on several standard lifelong learning benchmarks demonstrate that A-GEM has the best trade-off between accuracy and efficiency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-02T16:39:19Z</published>
+    <arxiv:comment>Published as a conference paper at ICLR 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Arslan Chaudhry</name>
+    </author>
+    <author>
+      <name>Marc'Aurelio Ranzato</name>
+    </author>
+    <author>
+      <name>Marcus Rohrbach</name>
+    </author>
+    <author>
+      <name>Mohamed Elhoseiny</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.07384v1</id>
+    <title>A Fixed Version of Quadratic Program in Gradient Episodic Memory</title>
+    <updated>2021-07-07T07:45:15Z</updated>
+    <link href="https://arxiv.org/abs/2107.07384v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.07384v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Gradient Episodic Memory is indeed a novel method for continual learning, which solves new problems quickly without forgetting previously acquired knowledge. However, in the process of studying the paper, we found there were some problems in the proof of the dual problem of Quadratic Program, so here we give our fixed version for this problem.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-07T07:45:15Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Wei Zhou</name>
+    </author>
+    <author>
+      <name>Yiying Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.18320v1</id>
+    <title>Continual Learning in Machine Speech Chain Using Gradient Episodic Memory</title>
+    <updated>2024-11-27T13:19:20Z</updated>
+    <link href="https://arxiv.org/abs/2411.18320v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.18320v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continual learning for automatic speech recognition (ASR) systems poses a challenge, especially with the need to avoid catastrophic forgetting while maintaining performance on previously learned tasks. This paper introduces a novel approach leveraging the machine speech chain framework to enable continual learning in ASR using gradient episodic memory (GEM). By incorporating a text-to-speech (TTS) component within the machine speech chain, we support the replay mechanism essential for GEM, allowing the ASR model to learn new tasks sequentially without significant performance degradation on earlier tasks. Our experiments, conducted on the LJ Speech dataset, demonstrate that our method outperforms traditional fine-tuning and multitask learning approaches, achieving a substantial error rate reduction while maintaining high performance across varying noise conditions. We showed the potential of our semi-supervised machine speech chain approach for effective and efficient continual learning in speech recognition.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-27T13:19:20Z</published>
+    <arxiv:comment>Published as a conference paper at O-COCOSDA 2024. 6 pages; 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Geoffrey Tyndall</name>
+    </author>
+    <author>
+      <name>Kurniawati Azizah</name>
+    </author>
+    <author>
+      <name>Dipta Tanaya</name>
+    </author>
+    <author>
+      <name>Ayu Purwarianti</name>
+    </author>
+    <author>
+      <name>Dessi Puji Lestari</name>
+    </author>
+    <author>
+      <name>Sakriani Sakti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.07801v1</id>
+    <title>Gradient Episodic Memory with a Soft Constraint for Continual Learning</title>
+    <updated>2020-11-16T09:06:09Z</updated>
+    <link href="https://arxiv.org/abs/2011.07801v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.07801v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Catastrophic forgetting in continual learning is a common destructive phenomenon in gradient-based neural networks that learn sequential tasks, and it is much different from forgetting in humans, who can learn and accumulate knowledge throughout their whole lives. Catastrophic forgetting is the fatal shortcoming of a large decrease in performance on previous tasks when the model is learning a novel task. To alleviate this problem, the model should have the capacity to learn new knowledge and preserve learned knowledge. We propose an average gradient episodic memory (A-GEM) with a soft constraint $ε\in [0, 1]$, which is a balance factor between learning new knowledge and preserving learned knowledge; our method is called gradient episodic memory with a soft constraint $ε$ ($ε$-SOFT-GEM). $ε$-SOFT-GEM outperforms A-GEM and several continual learning benchmarks in a single training epoch; additionally, it has state-of-the-art average accuracy and efficiency for computation and memory, like A-GEM, and provides a better trade-off between the stability of preserving learned knowledge and the plasticity of learning new knowledge.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-16T09:06:09Z</published>
+    <arxiv:comment>20 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Guannan Hu</name>
+    </author>
+    <author>
+      <name>Wu Zhang</name>
+    </author>
+    <author>
+      <name>Hu Ding</name>
+    </author>
+    <author>
+      <name>Wenhao Zhu</name>
+    </author>
+  </entry>
+</feed>

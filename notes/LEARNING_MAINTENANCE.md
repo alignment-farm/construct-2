@@ -161,3 +161,26 @@ S4 has answered its present compositional question; an extension should introduc
 a consequential uncertainty such as dependent histories or acquired read
 operations. These are research recommendations, not another commissioned round.
 No new experiments or repositories are launched by this assessment.
+
+**Subsequent root direction, 15 September 2026.** The user agreed to stand down
+the three experimental phases and focus root work on maintenance reliability,
+with useful placement governing the investment. The
+[reliability note](MAINTENANCE_RELIABILITY.md) develops competing explanations
+and prospective expectations; it does not renew the local commissions.
+
+**Later commissioning decision, 15 September 2026.** Following that note, the
+user approved the next step. S2 now has a bounded
+[state/support follow-up](../../ancillary-studies/procedure-retention-and-revision/STATE_SUPPORT.md)
+addressing MR1. Its investigator owns methods and execution. S1/S4 remain
+complete; preparation of the follow-up ran no experiments.
+
+**Completed state/support follow-up, 15 September 2026.** The
+[fourth S2 assessment](../studies/2026-09-15-state-support-findings.md) accepts a
+controlled interaction between learned history and current support, with its
+predicted direction in two fresh acquisitions. A support change helps one state
+and harms another in the second fresh acquisition; neither choice fully preserves
+that acquisition. This refines M2's earlier negative bridge result into a
+conditional account. Equal-accuracy hidden susceptibility is demonstrated in the
+selected diagnostic pair, while fresh starts differ in accuracy. MR2/MR3's
+prediction and decision claims remain untested. The commission is complete;
+the broader maintenance-reliability question remains open.

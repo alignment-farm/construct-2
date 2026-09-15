@@ -28,6 +28,13 @@ effective adaptation. It supports a [theory note](../notes/PROCEDURAL_LEARNING.m
 whose original predictions precede the diagnostic reading and whose subsequent
 assessment records how that evidence changes them.
 
+The [15 September maintenance-reliability reading](2026-09-15-maintenance-reliability/README.md)
+adds GEM, A-GEM and gradient-based sample selection (P23–P25). It grounds the
+[next root question](../notes/MAINTENANCE_RELIABILITY.md) in existing interference
+methods and distinguishes remembered-loss protection from complete behavior.
+The title-query response and exact versions are retained; no implementations
+were run or experimental phases reopened.
+
 The three [concurrent experimental projects](../studies/README.md#6-research-selection)
 carry versioned references and methods records locally. Their
 [third-phase assessment](../studies/2026-09-15-maintenance-findings.md) now records
