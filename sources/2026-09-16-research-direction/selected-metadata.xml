@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9jn8uhcDlT4a8QoySclnpoK+at8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2402.01865,2406.14026,2506.06266,2602.15902,2603.03796,2608.15008,2608.22215,2608.22767,2608.18066,2609.08067&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-16T09:27:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2402.01865,2406.14026,2506.06266,2602.15902,2603.03796,2608.15008,2608.22215,2608.22767,2608.18066,2609.08067" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.06266v3</id>
+    <title>Cartridges: Lightweight and general-purpose long context representations via self-study</title>
+    <updated>2025-06-13T17:58:55Z</updated>
+    <link href="https://arxiv.org/abs/2506.06266v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.06266v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are often used to answer queries grounded in large text corpora (e.g. codebases, legal documents, or chat histories) by placing the entire corpus in the context window and leveraging in-context learning (ICL). Although current models support contexts of 100K-1M tokens, this setup is costly to serve because the memory consumption of the KV cache scales with input length. We explore an alternative: training a smaller KV cache offline on each corpus. At inference time, we load this trained KV cache, which we call a Cartridge, and decode a response. Critically, the cost of training a Cartridge can be amortized across all the queries referencing the same corpus. However, we find that the naive approach of training the Cartridge with next-token prediction on the corpus is not competitive with ICL. Instead, we propose self-study, a training recipe in which we generate synthetic conversations about the corpus and train the Cartridge with a context-distillation objective. We find that Cartridges trained with self-study replicate the functionality of ICL, while being significantly cheaper to serve. On challenging long-context benchmarks, Cartridges trained with self-study match ICL performance while using 38.6x less memory and enabling 26.4x higher throughput. Self-study also extends the model's effective context length (e.g. from 128k to 484k tokens on MTOB) and surprisingly, leads to Cartridges that can be composed at inference time without retraining.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-06T17:48:23Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sabri Eyuboglu</name>
+    </author>
+    <author>
+      <name>Ryan Ehrlich</name>
+    </author>
+    <author>
+      <name>Simran Arora</name>
+    </author>
+    <author>
+      <name>Neel Guha</name>
+    </author>
+    <author>
+      <name>Dylan Zinsley</name>
+    </author>
+    <author>
+      <name>Emily Liu</name>
+    </author>
+    <author>
+      <name>Will Tennien</name>
+    </author>
+    <author>
+      <name>Atri Rudra</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+    <author>
+      <name>Azalia Mirhoseini</name>
+    </author>
+    <author>
+      <name>Christopher Re</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.14026v8</id>
+    <title>Demystifying Language Model Forgetting with Low-rank Example Associations</title>
+    <updated>2025-12-07T03:34:23Z</updated>
+    <link href="https://arxiv.org/abs/2406.14026v8" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.14026v8" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) suffer from forgetting of upstream knowledge when fine-tuned. Despite efforts on mitigating forgetting, few have investigated how forgotten upstream examples are dependent on newly learned tasks. Insights on such dependencies enable efficient and targeted mitigation of forgetting. In this paper, we empirically analyze forgetting that occurs in $N$ upstream examples of language modeling or instruction-tuning after fine-tuning LLMs on one of $M$ new tasks, visualized in $M\times N$ matrices. We show that the matrices are often well-approximated with low-rank matrices, indicating the dominance of simple associations between the learned tasks and forgotten upstream examples. Leveraging the analysis, we predict forgetting of upstream examples when fine-tuning LLMs on unseen tasks with matrix completion over the empirical associations. This enables fast identification of most forgotten examples without expensive inference on the entire upstream data. Despite simplicity, the approach outperforms prior approaches that learn semantic relationships of learned tasks and upstream examples with LMs. We demonstrate the practical utility of our analysis by showing statistically significantly reduced forgetting as we upweight predicted examples for replay during fine-tuning. Code, data, and statistics collected: https://github.com/AuCson/low-rank-forgetting</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-20T06:46:23Z</published>
+    <arxiv:comment>NeurIPS 2025. Updated code and data URL</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xisen Jin</name>
+    </author>
+    <author>
+      <name>Xiang Ren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.22767v1</id>
+    <title>The Retriever Should Remember: Experience-Amortized Reranking for Long-Term Agent Memory</title>
+    <updated>2026-08-24T03:42:03Z</updated>
+    <link href="https://arxiv.org/abs/2608.22767v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.22767v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term language-model agents accumulate memories across interactions, but their retrievers typically do not accumulate retrieval experience. Semantic retrieval is efficient, but embedding similarity does not always reflect whether a memory contains evidence relevant to the current query. Large language model (LLM) rerankers provide stronger query-conditioned relevance scores, yet stateless reranking repeatedly scores a large candidate pool and discards these scores after each query. We introduce EARM, an experience-amortized reranking framework that treats previously acquired LLM relevance scores as reusable retrieval experience. EARM stores sparse query--memory relevance scores in an online matrix, learns their shared structure through causal matrix completion, and combines a small set of newly observed scores with estimated scores to rerank the remaining candidates. The scoring budget decreases as experience accumulates, changing LLM reranking from a repeated per-query expense into a retrieval capability learned over an agent's lifetime. Experiments on long-term conversational memory show that mixed observed-and-estimated reranking improves answer accuracy over semantic retrieval by up to 6.62% and remains effective when only 17.5% of candidates receive direct LLM relevance scores, thereby substantially reducing the inference overhead of LLM reranking. These results motivate a broader view of agent memory: a long-lived agent should remember not only past content, but also how that content has proved useful for retrieval.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-24T03:42:03Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qi Feng</name>
+    </author>
+    <author>
+      <name>Chris Ding</name>
+    </author>
+    <author>
+      <name>Jicong Fan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.18066v2</id>
+    <title>On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification</title>
+    <updated>2026-09-06T01:12:37Z</updated>
+    <link href="https://arxiv.org/abs/2608.18066v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.18066v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along two axes: (1) including multiple self-improving runs to quantify variance, and (2) shuffling the tasks to investigate the effect of task order. Through these experiments, we make two observations that expose the fragility of current methods: First, agent evaluation is inherently noisy in complex environments and on multi-step tasks, and stacking a self-improving loop on top can further amplify this noise. Second, the agent's improvement is highly dependent on task order. Prior works often adopt default orderings that impose an implicit curriculum, acting as a hidden prerequisite for success.
+  To better understand this fragility, we manually examine the agents' memory and hypothesize that task and environment underspecification contribute to this fragility. We validate this hypothesis by incorporating information that enables better specification, such as detailed rubrics and environment feedback, into the memory construction process. While this added information partially closes the performance degradation in previous experiments, significant gaps still remain, suggesting that other uncharacterized factors contribute to this fragility. Looking ahead, our work advocates for more rigorous evaluation protocols for self-improving agents by reporting results across multiple runs and stress-testing them under challenging conditions. Moreover, our findings on underspecification call for systems and interfaces that enable effective human oversight, preventing agents from failing in unforeseeable ways.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-18T17:55:07Z</published>
+    <arxiv:comment>Code: https://github.com/SalesforceAIResearch/self-improve-fragility Data: https://huggingface.co/datasets/Salesforce/self-improve-fragility</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qinyuan Ye</name>
+    </author>
+    <author>
+      <name>Yu Li</name>
+    </author>
+    <author>
+      <name>Yada Pruksachatkun</name>
+    </author>
+    <author>
+      <name>Jiaxin Zhang</name>
+    </author>
+    <author>
+      <name>Chien-Sheng Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.22215v2</id>
+    <title>Dual-Layer Agentic Memory with Fast Write Routing and Slow Consolidation</title>
+    <updated>2026-08-31T00:06:25Z</updated>
+    <link href="https://arxiv.org/abs/2608.22215v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.22215v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents operate in dynamic environments where knowledge continuously evolves. Existing memory systems typically treat external memory as a monotonically growing repository, inevitably leading to retrieval degradation and increasing computational costs over time. We argue that the core challenge is not retrieval alone, but managing the knowledge lifecycle: deciding what to externalize, update, or ultimately internalize. Inspired by Complementary Learning Systems (CLS) theory in neuroscience, we propose Dual-Layer Agentic Memory, a framework that shifts memory management to the write phase through cost-aware epistemic routing and periodic parametric consolidation. Incoming information is categorized as non-write, write-new, or write-update, and routed through a small-to-large model cascade that minimizes routing overhead while filtering redundant memories. A subsequent write-back phase selectively consolidates high-value external memories into model parameters via supervised fine-tuning. Experiments demonstrate the dual efficiency of our approach: a 1.7B/8B cascade prunes up to 68% of redundant external memory while escalating fewer than 50% of inputs, yet retains over 98% of the downstream QA Exact Match (EM) achieved by an exhaustive retention baseline. We further show that periodic consolidation successfully internalizes external knowledge, allowing the router to adaptively suppress redundant writes as the model's epistemic boundaries evolve. Overall, our framework presents a unified paradigm for agent memory: selective externalization followed by selective internalization. Code and dataset will be released upon acceptance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-23T04:40:13Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wenzhi Li</name>
+    </author>
+    <author>
+      <name>Dong Nie</name>
+    </author>
+    <author>
+      <name>Rui Lan</name>
+    </author>
+    <author>
+      <name>Tongtong Lyu</name>
+    </author>
+    <author>
+      <name>Peiyao Wang</name>
+    </author>
+    <author>
+      <name>Lingzi Hong</name>
+    </author>
+    <author>
+      <name>Weihang Pan</name>
+    </author>
+    <author>
+      <name>Binbin Lin</name>
+    </author>
+    <author>
+      <name>Boyuan Pan</name>
+    </author>
+    <author>
+      <name>Yao Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.01865v3</id>
+    <title>What Will My Model Forget? Forecasting Forgotten Examples in Language Model Refinement</title>
+    <updated>2024-12-09T20:06:44Z</updated>
+    <link href="https://arxiv.org/abs/2402.01865v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.01865v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language models deployed in the wild make errors. However, simply updating the model with the corrected error instances causes catastrophic forgetting -- the updated model makes errors on instances learned during the instruction tuning or upstream training phase. Randomly replaying upstream data yields unsatisfactory performance and often comes with high variance and poor controllability. To this end, we try to forecast upstream examples that will be forgotten due to a model update for improved controllability of the replay process and interpretability. We train forecasting models given a collection of online learned examples and corresponding forgotten upstream pre-training examples. We propose a partially interpretable forecasting model based on the observation that changes in pre-softmax logit scores of pretraining examples resemble that of online learned examples, which performs decently on BART but fails on T5 models. We further show a black-box classifier based on inner products of example representations achieves better forecasting performance over a series of setups. Finally, we show that we reduce forgetting of upstream pretraining examples by replaying examples that are forecasted to be forgotten, demonstrating the practical utility of forecasting example forgetting.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-02T19:43:15Z</published>
+    <arxiv:comment>ICML 2024 (Spotlight)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xisen Jin</name>
+    </author>
+    <author>
+      <name>Xiang Ren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15902v1</id>
+    <title>Doc-to-LoRA: Learning to Instantly Internalize Contexts</title>
+    <updated>2026-02-13T06:54:20Z</updated>
+    <link href="https://arxiv.org/abs/2602.15902v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15902v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long input sequences are central to in-context learning, document understanding, and multi-step reasoning of Large Language Models (LLMs). However, the quadratic attention cost of Transformers makes inference memory-intensive and slow. While context distillation (CD) can transfer information into model parameters, per-prompt distillation is impractical due to training costs and latency. To address these limitations, we propose Doc-to-LoRA (D2L), a lightweight hypernetwork that meta-learns to perform approximate CD within a single forward pass. Given an unseen prompt, D2L generates a LoRA adapter for a target LLM, enabling subsequent queries to be answered without re-consuming the original context, reducing latency and KV-cache memory consumption during inference of the target LLM. On a long-context needle-in-a-haystack task, D2L successfully learns to map contexts into adapters that store the needle information, achieving near-perfect zero-shot accuracy at sequence lengths exceeding the target LLM's native context window by more than 4x. On real-world QA datasets with limited compute, D2L outperforms standard CD while significantly reducing peak memory consumption and update latency. We envision that D2L can facilitate rapid adaptation of LLMs, opening up the possibility of frequent knowledge updates and personalized chat behavior.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T06:54:20Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rujikorn Charakorn</name>
+    </author>
+    <author>
+      <name>Edoardo Cetin</name>
+    </author>
+    <author>
+      <name>Shinnosuke Uesaka</name>
+    </author>
+    <author>
+      <name>Robert Tjarko Lange</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.03796v1</id>
+    <title>When and Where to Reset Matters for Long-Term Test-Time Adaptation</title>
+    <updated>2026-03-04T07:19:25Z</updated>
+    <link href="https://arxiv.org/abs/2603.03796v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.03796v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When continual test-time adaptation (TTA) persists over the long term, errors accumulate in the model and further cause it to predict only a few classes for all inputs, a phenomenon known as model collapse. Recent studies have explored reset strategies that completely erase these accumulated errors. However, their periodic resets lead to suboptimal adaptation, as they occur independently of the actual risk of collapse. Moreover, their full resets cause catastrophic loss of knowledge acquired over time, even though such knowledge could be beneficial in the future. To this end, we propose (1) an Adaptive and Selective Reset (ASR) scheme that dynamically determines when and where to reset, (2) an importance-aware regularizer to recover essential knowledge lost due to reset, and (3) an on-the-fly adaptation adjustment scheme to enhance adaptability under challenging domain shifts. Extensive experiments across long-term TTA benchmarks demonstrate the effectiveness of our approach, particularly under challenging conditions. Our code is available at https://github.com/YonseiML/asr.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-04T07:19:25Z</published>
+    <arxiv:comment>ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Taejun Lim</name>
+    </author>
+    <author>
+      <name>Joong-Won Hwang</name>
+    </author>
+    <author>
+      <name>Kibok Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.08067v1</id>
+    <title>Popular Knowledge Propagates More Errors in LLM Knowledge Updating</title>
+    <updated>2026-09-08T00:23:27Z</updated>
+    <link href="https://arxiv.org/abs/2609.08067v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.08067v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Updating a language model's knowledge through fine-tuning is essential for keeping its outputs current, yet can also induce factual forgetting and new hallucinations. Prior work shows that long-tail knowledge is harder to acquire and newly memorized long-tail facts are difficult to retain during later fine-tuning. We study a complementary question: among facts that a model has encoded correctly, which are most vulnerable to collateral corruption during other updates? To investigate this question under a realistic factual distribution, we construct a large-scale graph FACTPROP of verified Wikipedia facts by linking triples that share head or tail entities, thereby preserving connections among factual knowledge. We fine-tune models on factual statements and measure correct-to-incorrect facts after each update. Our results reveal a pattern distinct from prior findings on long-tail vulnerability during acquisition and retention: among facts that models already answer correctly, those associated with highly connected entities are more likely to be corrupted by neighboring updates, and updates to such facts propagate errors more broadly. Structural popularity therefore predicts both vulnerability and downstream damage. Inspired by this finding, we propose Popularity-based Anchoring (PopAnchor), a lightweight rehearsal strategy that preserves a small set of popular facts and reduces forgetting.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-08T00:23:27Z</published>
+    <arxiv:comment>16 pages, 7 figures, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuji Zhang</name>
+    </author>
+    <author>
+      <name>Weibing Wang</name>
+    </author>
+    <author>
+      <name>Cheng Qian</name>
+    </author>
+    <author>
+      <name>Duo Zhou</name>
+    </author>
+    <author>
+      <name>Dilek Hakkani-Tür</name>
+    </author>
+    <author>
+      <name>Kathleen McKeown</name>
+    </author>
+    <author>
+      <name>Chengxiang Zhai</name>
+    </author>
+    <author>
+      <name>Heng Ji</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.15008v1</id>
+    <title>Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents</title>
+    <updated>2026-08-15T03:29:48Z</updated>
+    <link href="https://arxiv.org/abs/2608.15008v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.15008v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory is becoming core infrastructure for long-horizon LLM agents, yet existing evaluations offer limited guidance on which memory substrate, namely the underlying medium in which memory is represented and stored, should be used under different operating regimes. We present a controlled harness evaluation of memory substrates for memory-augmented agents, covering dense and sparse indices, text records, structural stores, hierarchical stores, refinement-based memories, parametric updates, and activation-compatible context mechanisms. Across three backbone models and four benchmark suites spanning user-centric question answering and agent-centric decision-making, we instrument 26 performance and efficiency metrics under a unified harness. Our results show that no single substrate consistently dominates: broad retrieval benefits long-context factual QA, while excessive retrieval can harm sequential decision-making by shifting attention away from action-critical context. Scalability introduces a further routing axis, as substrates that perform well at moderate history lengths can become costly or brittle at longer horizons. These findings motivate substrate routing as a necessary component of adaptive agent memory systems and provide empirical guidance for designing efficient, reliable, and regime-aware long-term memory for LLM agents. Code will be made available upon acceptance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-15T03:29:48Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wei-Chieh Huang</name>
+    </author>
+    <author>
+      <name>Weizhi Zhang</name>
+    </author>
+    <author>
+      <name>Yuchen Wu</name>
+    </author>
+    <author>
+      <name>Yankai Chen</name>
+    </author>
+    <author>
+      <name>Eric Hanchen Jiang</name>
+    </author>
+    <author>
+      <name>Wooseong Yang</name>
+    </author>
+    <author>
+      <name>Yiwei Yang</name>
+    </author>
+    <author>
+      <name>Henry Peng Zou</name>
+    </author>
+    <author>
+      <name>Hanrong Zhang</name>
+    </author>
+    <author>
+      <name>Ying Nian Wu</name>
+    </author>
+    <author>
+      <name>Haolun Wu</name>
+    </author>
+    <author>
+      <name>Kai-Wei Chang</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+    <author>
+      <name>Xue Liu</name>
+    </author>
+    <author>
+      <name>Aylin Caliskan</name>
+    </author>
+  </entry>
+</feed>

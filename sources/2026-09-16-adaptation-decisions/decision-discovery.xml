@@ -1,0 +1,710 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TKF9Gzpsuz5sQOCRrjAy0LntZTg</id>
+  <title>arXiv Query: search_query=(abs:"agent" AND (abs:"memory management" OR abs:"harness") AND (abs:"learning" OR abs:"adaptation") )&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-09-16T12:24:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22agent%22+AND+((abs:%22memory+management%22+OR+abs:%22harness%22)+AND+(abs:%22learning%22+OR+abs:%22adaptation%22))&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>567</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.17523v1</id>
+    <title>ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents</title>
+    <updated>2026-09-15T17:55:28Z</updated>
+    <link href="https://arxiv.org/abs/2609.17523v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.17523v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution evidence into tasks and evaluation rubrics for continual learning. At its core is recursive-in-recursive self-improvement, a paradigm that couples harness evolution with model reinforcement learning: the inner recursion improves the harness with the model fixed, while the outer recursion trains the model under the improved harness. Harness evolution shapes training experience, and model learning creates new opportunities for harness adaptation. We present case studies of researcher interaction, harness refinement, and model learning, with the benchmark cases spanning four scientific task families. By releasing ScienceBuddy as a research product, we make this paradigm available to the scientific community and take a step toward discovery intelligence: scientific AI that advances through sustained collaboration with researchers and evolves alongside the research it supports. Website: http://science-buddy.io</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-15T17:55:28Z</published>
+    <arxiv:comment>Website: http://science-buddy.io, Code: https://github.com/Gen-Verse/ScienceBuddy-RSI</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shuhan Xue</name>
+    </author>
+    <author>
+      <name>Jianyuan Zhong</name>
+    </author>
+    <author>
+      <name>Ziyuan Nan</name>
+    </author>
+    <author>
+      <name>Wenbin Li</name>
+    </author>
+    <author>
+      <name>Zhaochen Yu</name>
+    </author>
+    <author>
+      <name>Jinchao Ding</name>
+    </author>
+    <author>
+      <name>Qiang Gao</name>
+    </author>
+    <author>
+      <name>Pengyu Zhan</name>
+    </author>
+    <author>
+      <name>Yuntong Zhang</name>
+    </author>
+    <author>
+      <name>Tian Cheng</name>
+    </author>
+    <author>
+      <name>Zhenfei Yin</name>
+    </author>
+    <author>
+      <name>Yingcheng Wu</name>
+    </author>
+    <author>
+      <name>Ling Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.17088v1</id>
+    <title>Interactive Memory Learning for Long-Term Conversations</title>
+    <updated>2026-09-15T12:21:41Z</updated>
+    <link href="https://arxiv.org/abs/2609.17088v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.17088v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advancements in large language models have significantly enhanced the capabilities of agents in modeling long-term conversations. Despite these successes, existing approaches typically adopt a static heuristic paradigm, where information is passively archived without adaptive memory valuation. Consequently, these methods fail to self-evolve or align their memory management with evolving user needs. To address this, we propose ICML (InteraCtive Memory Learning), a multi-agent framework that transforms the memory mechanism from a passive archive into a learnable, interactive memory policy. Specifically, we first employ a session synthesis pipeline to generate expert data, facilitating rapid test-time adaptation in unseen scenarios. Building on this, ICML utilizes an online reinforcement learning mechanism where a Planner agent selectively encodes high-value information and a Trigger agent dynamically retrieves it to optimize response quality, whereby the two agents co-evolve through continuous interaction feedback. Crucially, both agents are synchronized through a delayed reward mechanism that propagates future feedback back to earlier storage decisions, ensuring memory policies are precisely aligned with user expectations. Experimental results demonstrate that ICML significantly outperforms strong baselines, exhibiting the unique capability to continuously improve response quality as interactions accumulate.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-15T12:21:41Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Cai Ke</name>
+    </author>
+    <author>
+      <name>Jiangyue Yan</name>
+    </author>
+    <author>
+      <name>Han Zhang</name>
+    </author>
+    <author>
+      <name>Xin Liu</name>
+    </author>
+    <author>
+      <name>Zike Yuan</name>
+    </author>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Hui Wang</name>
+    </author>
+    <author>
+      <name>Ruifeng Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.16287v1</id>
+    <title>AgentGuard: Learning Execution Guardrails from Anomalous Coding-Agent Trajectories</title>
+    <updated>2026-09-14T19:42:03Z</updated>
+    <link href="https://arxiv.org/abs/2609.16287v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.16287v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI coding agents increasingly rely on execution harnesses to interact with repositories and external tools. However, task success does not guarantee reliable execution. Agents may still modify unrelated files, rewrite tests, issue unsafe commands, or ignore failed validations, motivating behavioral guardrails for reliable execution. We present AgentGuard, an instruction-level guardrail framework that learns conditional execution constraints from anomalous trajectories of coding agents. Rather than relying on manually specified safety rules, AgentGuard automatically extracts recurring execution failure patterns, generalizes them into instruction-level behavioral constraints, and organizes them as a lightweight guardrail skill that dynamically activates only the rules relevant to the current instruction.
+  This design enables behavioral guidance while minimizing unnecessary restrictions on normal execution. We evaluate AgentGuard using 642 documented failure traces collected from real coding-agent executions across 382 repository tasks. Guardrails are learned from 461 traces covering 282 tasks and evaluated on a disjoint set of 100 tasks. Using Claude Code with Claude Haiku 4.5 as the underlying coding agent, we compare the baseline agent with the same agent augmented by AgentGuard. Experimental results show that AgentGuard reduces the Abnormal Execution Rate from 69.0% to 26.7% and increases the Successful Task Completion Rate from 21.7% to 35.0%. These results demonstrate that execution guardrails learned from historical failures can substantially improve the reliability of AI coding agents while highlighting the remaining challenge of balancing safety and task completion.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-14T19:42:03Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Wuyang Dai</name>
+    </author>
+    <author>
+      <name>Song Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.15309v1</id>
+    <title>When Agents Slow Down: Understanding LLM Agents' Test-Time Strategies via Elo-per-token Analysis</title>
+    <updated>2026-09-14T09:57:49Z</updated>
+    <link href="https://arxiv.org/abs/2609.15309v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.15309v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents allocate test-time compute adaptively as they revise solutions, use tools, explore alternatives, and decide when to stop. This test-time strategy makes it difficult to measure how agent performance scales. We study open-ended tasks that provide continuous scores for intermediate submissions, making progress observable throughout long trajectories. We propose Elo-per-token analysis, which tracks the best solution found at each token budget and uses a Bradley-Terry model to aggregate within-task orderings into Elo ratings across tasks with different score scales. We apply it to four general-purpose agents on four open-ended benchmarks, with sessions of up to 100M tokens, and to three feedback-driven LLM optimization harnesses in controlled single-task interventions. Independent sampling provides a theoretically characterized reference, for which Elo grows linearly with log compute. Against this reference, agents can initially convert tokens into Elo faster than independent sampling, but their marginal gains diminish and eventually fall below the reference. In contrast, the strongest historical human contestants improve superlinearly over contest time on shared AtCoder Heuristic Contest tasks, providing evidence of continual learning and substantial headroom after agents slow down. We define the scaling inflection point as the per-session budget where marginal Elo gains match the independent-sampling reference. Using this point as the per-session budget, we split 100M tokens across parallel sessions on FrontierCS Polyomino Packing, gaining +264 Elo over one long session and +355 over ten short sessions.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-14T09:57:49Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kaiyuan Liu</name>
+    </author>
+    <author>
+      <name>Qiuyang Mang</name>
+    </author>
+    <author>
+      <name>Bo Peng</name>
+    </author>
+    <author>
+      <name>Wenhao Chai</name>
+    </author>
+    <author>
+      <name>Hanchen Li</name>
+    </author>
+    <author>
+      <name>Shreyas Pimpalgaonkar</name>
+    </author>
+    <author>
+      <name>Luke Zettlemoyer</name>
+    </author>
+    <author>
+      <name>Alex Dimakis</name>
+    </author>
+    <author>
+      <name>Alvin Cheung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.14857v1</id>
+    <title>ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement</title>
+    <updated>2026-09-14T00:10:45Z</updated>
+    <link href="https://arxiv.org/abs/2609.14857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.14857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work extends recursive self-improvement (RSI) to agent harnesses for long-horizon coding and terminal tasks, enabling agents to improve execution mechanisms from experience. However, generalizable harness RSI remains challenging. First, evolving harnesses on evaluation benchmarks or their subsets makes it difficult to distinguish reusable improvements from benchmark-specific adaptation. Second, single-trajectory updates can conflate systematic harness deficiencies with instance-specific reasoning and solution details, producing modifications that transfer poorly to unseen tasks. Third, localizing recurring behavioral deficiencies within monolithic harnesses is difficult, while whole-harness optimization can entangle unrelated mechanisms and complicate attribution and validation. We propose ModularRSI, a benchmark-disjoint, contrastive, and modular framework for generalizable harness evolution. ModularRSI contrasts successful and failed trajectories for the same task and aggregates evidence across tasks to identify recurring behavioral deficiencies. It decomposes the evolvable harness into five functional modules: Agent Loop, Tool Use, Observation Management, Context Management, and Task Completion Detection. Each module evolves independently within a restricted modification scope, followed by an integration stage that combines the evolved modules into a unified harness and resolves potential conflicts. To support benchmark-disjoint evolution, we curate 2,000 executable evolution tasks from external sources that are disjoint from downstream evaluation benchmarks. Experiments on TB2.0 and SWE-Bench Verified show consistent improvements on unseen in-domain and cross-domain tasks, with the evolved harness also transferring across different foundation models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-14T00:10:45Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Siwei Wu</name>
+    </author>
+    <author>
+      <name>Jincheng Ren</name>
+    </author>
+    <author>
+      <name>Yizhi Li</name>
+    </author>
+    <author>
+      <name>Haau-Sing Li</name>
+    </author>
+    <author>
+      <name>Chengran Yang</name>
+    </author>
+    <author>
+      <name>Yuxuan Zhang</name>
+    </author>
+    <author>
+      <name>Weicheng Gu</name>
+    </author>
+    <author>
+      <name>Jian Yang</name>
+    </author>
+    <author>
+      <name>Riza Batista-Navarro</name>
+    </author>
+    <author>
+      <name>Chuanyi Zhang</name>
+    </author>
+    <author>
+      <name>Xianglong Liu</name>
+    </author>
+    <author>
+      <name>Ming Zhou</name>
+    </author>
+    <author>
+      <name>Bryan Dai</name>
+    </author>
+    <author>
+      <name>Chenghua Lin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.16065v1</id>
+    <title>You Don't Need To Train: Agentic Heuristic Learning Studio for Executable Human Activity Recognition</title>
+    <updated>2026-09-13T11:46:41Z</updated>
+    <link href="https://arxiv.org/abs/2609.16065v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.16065v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human activity recognition (HAR) is usually framed as gradient-based training of neural networks. Agentic Heuristic Learning (AHL) Studio explores a complementary view inspired by human cognitive learning: people learn activities by remembering examples, forming rules, and repairing mistakes, not by backpropagating. This proposed tool implements AHL for HAR: a learning-time agent reasons over sensor protocols, proposes executable heuristic policies, records repair traces, and exports an LLM-free policy for edge deployment. We focus on the HAR benchmark family and provide an end-to-end workflow from dataset observation to edge-oriented export. On eleven HAR datasets evaluated so far, AHL policies reach strong executable-policy performance while remaining inspectable, editable, and replayable \footnote{https://github.com/zhaxidele/ahl-ts-studio}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-13T11:46:41Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Siyu Yuan</name>
+    </author>
+    <author>
+      <name>He Zhang</name>
+    </author>
+    <author>
+      <name>Sizhen Bian</name>
+    </author>
+    <author>
+      <name>Bin Guo</name>
+    </author>
+    <arxiv:doi>10.1145/3798063.3837307</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3798063.3837307" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.16057v1</id>
+    <title>OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning</title>
+    <updated>2026-09-13T07:29:27Z</updated>
+    <link href="https://arxiv.org/abs/2609.16057v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.16057v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unified multimodal large language models (MLLMs) and multi-agent systems have advanced visual generation. However, three limitations remain. (1) Existing methods often distill task-specific experience with limited generalizability. (2) Reflection is often deferred until task completion. (3) Knowledge is often acquired only in response to downstream task demands. To address these limitations, we introduce OmniHarness, a framework for generalizable visual generation via symbolic policy learning. OmniHarness abstracts verified executions into symbolic policies for visual generation task families, capturing shared procedures and applicability conditions while removing instance-specific inputs. The harness instantiates, adapts, and composes these policies for new tasks. Intermediate verification guides refinement and failure recovery during execution. Through self-directed inquiry, OmniHarness autonomously generates and executes practice tasks near its capability limits before downstream objectives are specified. Execution feedback continually refines the policies while model parameters remain fixed. Experiments across six benchmarks, three MLLM backbones, and three visual agent frameworks demonstrate strong performance and continual capability expansion. On ComfyBench's Creative tasks, OmniHarness achieves a 95.0% resolve rate, exceeding the strongest baseline by 27.5 percentage points. Frozen policy snapshots improve existing visual agent systems through plug-and-play reuse.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-13T07:29:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xu Xu</name>
+      <arxiv:affiliation>Beihang University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jinxiu Liu</name>
+      <arxiv:affiliation>The Chinese University of Hong Kong</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhangbo Qiao</name>
+      <arxiv:affiliation>Beihang University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jiaxing Lu</name>
+      <arxiv:affiliation>Beihang University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiangyu Zhang</name>
+      <arxiv:affiliation>Beihang University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yubin Gu</name>
+      <arxiv:affiliation>National University of Singapore</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fangwei Ning</name>
+      <arxiv:affiliation>Beihang University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yan Shi</name>
+      <arxiv:affiliation>Beihang University</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.13739v1</id>
+    <title>HarnessBandit: Joint Learnability-Transferability Scheduling for Multi-Harness Agentic Reinforcement Learning</title>
+    <updated>2026-09-12T06:22:45Z</updated>
+    <link href="https://arxiv.org/abs/2609.13739v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.13739v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language-model agents are increasingly deployed through diverse harnesses that differ in system prompts, tool schemas, control loops, and trajectory formats. The same model can perform unevenly across these interfaces, making robustness to harness variation an important objective. A natural approach is to train a shared policy through multiple harnesses, but doing so introduces a scheduling problem: each training step should favor a harness that currently provides a useful learning signal while also producing an update that benefits the other harnesses. We develop HarnessBandit, an online scheduler that selects one harness per optimizer step. After a group-relative policy optimization (GRPO) update, it observes learnability -- the mean absolute advantage on the batch -- and transferability -- the cosine between a low-dimensional gradient sketch of the current harness and exponential moving averages of the remaining harnesses. The two signals are fused after pooled sliding-window min-max normalization and sampled with a visit-dependent bonus and an explicit exploration floor. We train Qwen3.5-2B across six harnesses on ClawGym and evaluate on PinchBench (held-out tasks, in-distribution OpenClaw) and ClawEval (held-out tasks and harness). HarnessBandit improves over mixed-batch multi-harness training on both benchmarks, while training diagnostics indicate that learnability and transferability provide distinct, evolving signals.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-12T06:22:45Z</published>
+    <arxiv:comment>13 pages. Equal contribution: Hongliang Wei and Xiaobing Tu. Corresponding authors: Xiaobing Tu and Xiaopeng Fan</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hongliang Wei</name>
+      <arxiv:affiliation>Harbin Institute of Technology</arxiv:affiliation>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiaobing Tu</name>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yinggui Wang</name>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhengxi Liu</name>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rongkun Xue</name>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jinkui Ren</name>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiantao Zhang</name>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Debin Zhao</name>
+      <arxiv:affiliation>Harbin Institute of Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiaopeng Fan</name>
+      <arxiv:affiliation>Harbin Institute of Technology</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.13543v1</id>
+    <title>Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents</title>
+    <updated>2026-09-11T21:14:59Z</updated>
+    <link href="https://arxiv.org/abs/2609.13543v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.13543v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents are predominantly benchmarked on short, single-task trajectories, yet real deployments run for hours under contention, surfacing a different class of failures. We use the Clinical Environment Simulator (CES), in which an agent manages an entire emergency-department shift under continuous time and resource pressure, as a testbed: long-horizon execution failures manifest measurably in a single rollout under structured, multi-dimensional grading. On CES, current agents reach the correct diagnosis in most cases yet fail to deliver complete and timely critical actions, revealing an execution gap. We attribute this gap to three long-horizon failure modes, each operationalized as a per-trace counter: instruction-adherence drift, treatment incompleteness, and a severity-equity gap in timeliness. We then introduce Asclepius, an adaptive agent scaffolding with a self-evolving harness that rewrites the operating manual between shifts from trace-level feedback, an externalized clinical skills library for high-stakes regimen knowledge, and three isolated subagents that partition per-turn decisions across the patient queue. On held-out batches never observed during harness evolution, Asclepius improves critical-action correctness by 22% (p = 0.024) over a strong baseline agent framework while preserving diagnostic accuracy, with consistent gains across five LLM judges from three model families; on the full ten-batch set, improvements reach 25% on critical actions and 13% on timeliness. The three failure modes form a coupled bottleneck: decisive reductions appear only when all three components act together.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-11T21:14:59Z</published>
+    <arxiv:comment>9 pages, 4 figures, 11 tables. EMNLP 2026 Findings</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Grace Chang Yuan</name>
+    </author>
+    <author>
+      <name>Xiaoman Zhang</name>
+    </author>
+    <author>
+      <name>Sung Eun Kim</name>
+    </author>
+    <author>
+      <name>Luyang Luo</name>
+    </author>
+    <author>
+      <name>Pranav Rajpurkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.12404v1</id>
+    <title>VRL-Bench: Benchmarking agents on computer control tasks under finite trial budgets</title>
+    <updated>2026-09-11T03:54:02Z</updated>
+    <link href="https://arxiv.org/abs/2609.12404v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.12404v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning from trial and error is a promising way to improve language agents on complex tasks such as computer control. Reflexion introduced verbal reinforcement learning, which turns failed trials into text that guides later attempts without updating model parameters. We introduce VRL-Bench, a harness for fair evaluation of trial-and-error learning under finite trial budgets. Across three models on MiniWoB and WebShop, we evaluate updates from several prominent verbal-memory methods spanning Reflexion and later work: each improves observed success over memory-free retry in some settings but reduces it in others. Replay experiments show that using reflection can reduce success rates, revealing a trade-off between exploiting experience and continued exploration. We propose VEX$^2$, a verbal exploration--exploitation scheduler that uses a language model to jointly select policies and allocate the remaining trial budget. VEX$^2$ is the only evaluated update to achieve positive observed success-rate gains over retry in all six settings.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-11T03:54:02Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yu Bai</name>
+    </author>
+    <author>
+      <name>Yukai Miao</name>
+    </author>
+    <author>
+      <name>Dawei Wang</name>
+    </author>
+    <author>
+      <name>Li Chen</name>
+    </author>
+    <author>
+      <name>Yanyu Ren</name>
+    </author>
+    <author>
+      <name>Yuqian Shi</name>
+    </author>
+    <author>
+      <name>Dan Li</name>
+    </author>
+    <author>
+      <name>Ying Xiong</name>
+    </author>
+    <author>
+      <name>Chengqiu Tan</name>
+    </author>
+    <author>
+      <name>Run Zhou</name>
+    </author>
+    <author>
+      <name>Li Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11911v1</id>
+    <title>Artificial Id: Drive and Persistent Alignment in Agentic AI</title>
+    <updated>2026-09-10T17:56:41Z</updated>
+    <link href="https://arxiv.org/abs/2609.11911v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11911v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. That shift creates a control problem that current harnesses largely solve by hand: objectives, retries, verification, stopping rules and other behavioral transitions are specified externally. We propose an artificial id, an adaptive internal drive for determining whether behavior should continue, stop or change. In a minimal virtual Petri-dish experiment, a controller too small to perform general-purpose reasoning and receiving no task-specific behavioral objective develops useful control through differential persistence. The same mechanism selects an unintended physical strategy when that behavior persists better and later replaces a learned sensor mapping when its environmental meaning changes. These results show that adaptive direction can emerge without being explicitly specified as a behavioral objective. The same persistence that makes such adaptive agency useful can also allow misalignment, corrupted state and unintended behavior to persist across task boundaries. A scalable artificial id would carry consequential state and adaptive drive across those boundaries, making alignment a property of the continuing agentic system rather than of a model response or single trajectory. Such systems require a persistent alignment boundary over trusted observations, consequence channels, persistent state, authority, identity, provenance and hard constraints.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T17:56:41Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yakov Pyotr Shkolnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11677v1</id>
+    <title>Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents</title>
+    <updated>2026-09-10T15:09:08Z</updated>
+    <link href="https://arxiv.org/abs/2609.11677v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11677v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-evolving runtime harnesses can substantially improve the capabilities of large language model (LLM) agents and provide a promising paradigm for optimizing agent execution. Existing harness evolution methods typically rely on iterative search, repeatedly evaluating and revising candidate harnesses based on execution feedback from task instances. While this paradigm enables continuous harness optimization, it incurs substantial time overhead due to repeated agent executions and code modifications, and may overfit to observed tasks and specific failure patterns, resulting in degraded generalization to unseen tasks. We identify the lack of principled failure diagnosis as a key bottleneck in harness evolution: an observed failure can reflect either model-specific deficiencies or systematic harness deficiencies, and directly optimizing against individual failures can lead to unnecessary model-specific accommodation. We therefore propose Ecdysis, an efficient and effective framework that distinguishes model-specific accommodation from harness-level repair and biases adaptation toward systematic harness deficiencies by identifying recurring cross-task failure patterns. Ecdysis adopts a batch-level cross-instance failure aggregation paradigm to jointly analyze failure evidence from multiple task instances and further introduces Failure-Driven Collaborative Refinement to diagnose failure causes and iteratively refine harness modification specifications. By combining cross-instance failure analysis with multi-role diagnosis, Ecdysis enables more effective harness evolution with lower training time. Experiments show that Ecdysis achieves up to a 1.84x speedup in harness training compared with existing harness evolution methods, while improving the reasoning accuracy of the resulting harnesses by 18.56%.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T15:09:08Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Ruiqing Yue</name>
+    </author>
+    <author>
+      <name>Yu Cui</name>
+    </author>
+    <author>
+      <name>Zhuoyu Sun</name>
+    </author>
+    <author>
+      <name>Sicheng Pan</name>
+    </author>
+    <author>
+      <name>Xianhong Xue</name>
+    </author>
+    <author>
+      <name>Tingyu Li</name>
+    </author>
+    <author>
+      <name>Ting Li</name>
+    </author>
+    <author>
+      <name>Wenzhuo Zhu</name>
+    </author>
+    <author>
+      <name>Yi Chen</name>
+    </author>
+    <author>
+      <name>Yifei Liu</name>
+    </author>
+    <author>
+      <name>Baohan Huang</name>
+    </author>
+    <author>
+      <name>Zhe Cui</name>
+    </author>
+    <author>
+      <name>Haibin Zhang</name>
+    </author>
+    <author>
+      <name>Cong Zuo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11225v1</id>
+    <title>Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection</title>
+    <updated>2026-09-10T08:25:46Z</updated>
+    <link href="https://arxiv.org/abs/2609.11225v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11225v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous property inspection requires more than robust robot navigation: a deployable system must connect heterogeneous sensing, reusable autonomy capabilities, multimodal scene understanding, human interaction, and enterprise response within a traceable operational loop. Existing quadruped inspection systems commonly integrate these functions through task-specific interfaces, making contextual coordination, knowledge reuse, and controlled adaptation difficult. This paper presents \textit{Harness Robotic OS} (HROS), a unified embodied-agent runtime, and Argos, its realization for residential-community inspection. HROS organizes the system into robot runtime, embodied autonomy skills, cognitive agent runtime, and interaction and operations planes. A shared context connects physical state with agent reasoning; streaming ASR/TTS supports voice-based mission interaction; hierarchical working, episodic, and semantic memory preserves operational knowledge; and a safety-gated self-evolution loop converts execution traces into versioned candidate updates without permitting unconstrained online modification. The Argos prototype integrates a Vbot quadruped, Fast-LIO2 localization and mapping, Hobot-Stereo depth perception, PCT-Planner global planning, EGO-Planner local motion generation, and OpenClaw-orchestrated Qwen3-VL inspection analysis. Experiments in a residential property environment achieved 100\% waypoint reachability, outdoor localization error below 10~cm, local obstacle-response latency below 200~ms, representative hazard-detection rates of 85--95\%, and 99\% success in alarm delivery and structured-report generation. These results validate the deployed navigation and inspection closed loop, while HROS provides an extensible software foundation for memory-augmented, voice-aware, and continuously improvable embodied inspection agents.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T08:25:46Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yaoyuan Yan</name>
+    </author>
+    <author>
+      <name>Zhiyou Heng</name>
+    </author>
+    <author>
+      <name>Haoxiang Jie</name>
+    </author>
+    <author>
+      <name>Gang Liu</name>
+    </author>
+    <author>
+      <name>Hongjie Yan</name>
+    </author>
+    <author>
+      <name>Wei Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11060v1</id>
+    <title>Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents</title>
+    <updated>2026-09-10T04:06:16Z</updated>
+    <link href="https://arxiv.org/abs/2609.11060v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11060v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Persistent memory is entering production-oriented agent platforms to help long-horizon agents accumulate experience across sessions. Yet a post-task curator agent restricted to completed trajectories can preserve errors, overgeneralize partial evidence, or retain stale knowledge. We introduce environment-probing curation, a deployment-compatible extension that gives an existing asynchronous curator agent least-privilege, read-only world tools to check, scope, and refresh candidate memories. It requires no model retraining and leaves the task agent, retriever, memory representation, and production write authority unchanged. In a production-like GitHub Copilot (GHCP) harness built on its SDK, we compare stateless execution, full in-context learning, GHCP + Mem, and GHCP + Mem (w/ Env Probing) on CLBench database exploration and 90 adapted APEX management-consulting tasks. On CLBench, probing raises pass rate from 39% to 73% and pass-discounted reward from 8.60 to 22.60 while reducing queries from 8.8 to 4.7 per question and task-agent cost from \$3.38 to \$1.68. Across six APEX worlds, all 18 memory-versus-baseline mean reward comparisons are positive and task-agent tool calls fall by 16--75%; probing gives the best task-agent reward gain per dollar in five worlds. Probing also attains higher mean reward than GHCP + Mem on both Sonnet 4.6 and Opus 4.7 without schema drift. Environment probing therefore turns existing agent-memory curation into an environment-informed, auditable process while preserving a compact task-time interface.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T04:06:16Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Susheel Suresh</name>
+    </author>
+    <author>
+      <name>Hazel Mak</name>
+    </author>
+    <author>
+      <name>Sahil Bhatnagar</name>
+    </author>
+    <author>
+      <name>Chhaya Methani</name>
+    </author>
+    <author>
+      <name>Alejandro Gutierrez Munoz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.10522v1</id>
+    <title>Show-Harness: Just a VLM Agent Can Play Robots</title>
+    <updated>2026-09-09T17:53:38Z</updated>
+    <link href="https://arxiv.org/abs/2609.10522v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.10522v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to "play" robots through a compact semantic interface linking intent to action. Show-Harness exposes discrete semantic action units that VLMs can naturally reason over, while embodiment-specific interpreters deterministically ground them into local robot actions, keeping the VLM directly responsible for fine-grained physical decisions. Through the same interface, Show-Harness demonstrates the feasibility of (1) directly unlocking closed-source frontier VLMs for zero-shot robot control, and (2) adapting small-scale open-source VLMs for low-cost deployment with just a few GPU-hours of fine-tuning. We further develop GUMI (GUI Manipulation Interface), which extends the same semantic action space to GUI-based demonstration collection, allowing humans and agents to "play" robots across embodiments without specialized teleoperation hardware. Extensive experiments show that Show-Harness-equipped VLM agents generalize robustly across tasks, embodiments, and environments, outperforming representative agentic and VLA paradigms. These results suggest that the right interface can unlock substantial embodied capability from foundation VLMs, without requiring additional model capacity or costly embodiment-specific pretraining.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-09T17:53:38Z</published>
+    <arxiv:comment>Project website: https://showlab.github.io/Show-Harness</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yanzhe Chen</name>
+    </author>
+    <author>
+      <name>Zechen Bai</name>
+    </author>
+    <author>
+      <name>Zhijun Cao</name>
+    </author>
+    <author>
+      <name>Wenzheng Zeng</name>
+    </author>
+    <author>
+      <name>Kevin Qinghong Lin</name>
+    </author>
+    <author>
+      <name>Yiqi Lin</name>
+    </author>
+    <author>
+      <name>Guoqiang Liang</name>
+    </author>
+    <author>
+      <name>Kevin Yuchen Ma</name>
+    </author>
+    <author>
+      <name>Qiming Huang</name>
+    </author>
+    <author>
+      <name>Mike Zheng Shou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.10266v1</id>
+    <title>KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints</title>
+    <updated>2026-09-09T14:53:45Z</updated>
+    <link href="https://arxiv.org/abs/2609.10266v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.10266v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM serving systems already reuse KV caches, but only when the reused text sits at the very start of the prompt. Two growing workloads break this condition: a retrieval-augmented generation server assembles a different set of retrieved chunks for every query, and a multi-agent coordinator reads reports written by other agents. Reused inside a new prompt, a cache carries the wrong positions and never attended to the other sources. The cache may also have been written by a different checkpoint of the same model family, which changes the stored values. Repair methods for such caches have appeared in three separate communities, each measured on its own terms, and existing benchmarks test only exact-prefix reuse, where nothing is lost. KVShareArena benchmarks KV-cache reuse across prompt contexts and model checkpoints on retrieved chunks and agent reports. It scores every method by the fraction of the gap it recovers between no cache and full recomputation, and charges compute, memory, and per-request latency with the cache in hand, reporting the one-time cost of building a cache separately. We find that correcting positions, which needs no recomputation, is enough until a question needs several sources at once. There, only methods that pay, by re-encoding part of the cache or by training, recover half to two thirds of the gap; unrepaired caches can be worse than no cache. Cache-compression methods that are harmless on a single prompt fall significantly behind position correction on freshly written agent reports. These patterns hold across three model boards. When a different checkpoint wrote the cache, training-free methods are barely affected, while an adapter trained on one checkpoint's caches loses quality. Harness, frozen querysets, and cost accounting ship as a pip package with an automated submission workflow and a public leaderboard.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-09T14:53:45Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xi Shi</name>
+    </author>
+    <author>
+      <name>Qian Lou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.10248v1</id>
+    <title>A-JIT: Agentic Just-In-Time Software Construction</title>
+    <updated>2026-09-09T14:36:51Z</updated>
+    <link href="https://arxiv.org/abs/2609.10248v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.10248v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional software delivery assumes a static paradigm: code is constructed prior to execution and deployed as a fixed artifact. We present Agentic Just-In-Time Software Construction (A-JIT), a paradigm that replaces static binaries with dynamic, software systems that can perpetually evolve to meet changing demands. In A-JIT, an application is an integrated assembly comprising code, a runtime harness, and an embedded AI agent that continuously observes system usage and live execution traces. Much like a traditional JIT compiler specializes machine code to runtime execution paths, A-JIT specializes software logic, workflows, and tool interfaces to meet the specific needs of the end-user. By integrating synthesis directly into the ambient application lifecycle, A-JIT enables applications to dynamically construct missing implementations, generate new capabilities on the fly, and continuously adapt to end-user behavior. We demonstrate how this model supports trace-driven human-AI co-construction and opens a new design space for adaptive, self-evolving software.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-09T14:36:51Z</published>
+    <arxiv:comment>Technical report for presentation at VMIL 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Mark Marron</name>
+    </author>
+    <author>
+      <name>Earl T. Barr</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.10144v1</id>
+    <title>Kernel-Managed Shared Memory for System-Wide Personalization</title>
+    <updated>2026-09-09T13:20:47Z</updated>
+    <link href="https://arxiv.org/abs/2609.10144v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.10144v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI systems become more useful when they can adapt to the people using them, but in multi-agent systems, useful context learned by one agent often remains unavailable to others. We present kernel-managed shared memory, a system-level abstraction in which specialized agents write structured, tagged memories while the agent-system kernel, not individual agents, governs retrieval, privacy enforcement, and prompt injection. We implement and evaluate this design on AIOS and compare it against three alternatives across three assistant models (GPT-4o, Llama-3.1:8B, Qwen-2.5:7B) and 1,800 total trials. Against an unmanaged external memory backend (Mem0) using identical underlying storage, kernel-managed retrieval and injection improve personalization scores by 2.4-4.0 points on a 5-point scale (e.g., 1.05 to 4.69 profile usage on GPT-4o), with every comparison significant at p &lt; 10^-18. Against standard retrieval-augmented injection, gains are similarly large and consistent across all three models. Against full, unfiltered context concatenation, a soft ceiling on available context rather than on response quality, kernel-managed injection statistically matches performance on two of three models and shows a small, model-specific deficit on the third, while using substantially shorter prompts: end-to-end latency is 15-61% lower across all three models, with corresponding reductions in per-call token usage and inference cost. These results indicate that centralizing memory management in the agent-system kernel, rather than leaving retrieval and privacy enforcement to individual agents, delivers most of the personalization benefit of unconstrained context at a fraction of its cost.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-09T13:20:47Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ryan Lum</name>
+    </author>
+    <author>
+      <name>Yongfeng Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.09468v2</id>
+    <title>Code-to-Harness: Distilling Black-Box Optimizers from Self-Play</title>
+    <updated>2026-09-10T23:56:08Z</updated>
+    <link href="https://arxiv.org/abs/2609.09468v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.09468v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Can an agent learn a numerical search strategy through executable practice and then transfer that strategy as text? We study low-budget black-box optimization, where unaided language models remain well below strong classical optimizers. During development, an agent repeatedly writes and evaluates optimizer programs. It then distills the resulting program and practice record once into a 197-word primary Harness A, which is frozen before evaluation. Harness A reduces Gemini Flash regret by 48\% in an independent $N=30$ study ($p&lt;.001$), enters the GP-BO performance range on the practice family, and lowers mean regret on all three held-out BBOB landscapes. The same text improves every tested Gemini executor and transfers to Claude Sonnet, reducing regret by 43\% and 49\% ($p\leq.005$). An independent end-to-end replication produces Harness B, a different program and text at the same performance tier. The same framework also attains the lowest regret on a sealed YouTube reward-tuning production benchmark. Executable practice is thus a viable way to discover a search policy, and language a portable medium for deploying it.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-08T21:33:55Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yi Wu</name>
+    </author>
+    <author>
+      <name>Zheng Ren</name>
+    </author>
+    <author>
+      <name>Zhiyu Hu</name>
+    </author>
+    <author>
+      <name>Haochen Wang</name>
+    </author>
+    <author>
+      <name>Daryl Chang</name>
+    </author>
+    <author>
+      <name>Li Wei</name>
+    </author>
+    <author>
+      <name>Ting Wang</name>
+    </author>
+    <author>
+      <name>Zhen Li</name>
+    </author>
+    <author>
+      <name>Pooja Gupta</name>
+    </author>
+    <author>
+      <name>Nitin Jindal</name>
+    </author>
+    <author>
+      <name>Lukasz Heldt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.09134v1</id>
+    <title>Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails</title>
+    <updated>2026-09-08T17:53:49Z</updated>
+    <link href="https://arxiv.org/abs/2609.09134v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.09134v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agent harnesses (the system prompt, tool set, execution hooks, and context-management scaffolding around a model) are a critical determinant of agentic task success. Automated harness evolution can enable smaller models to perform well on domain-specific tasks at a fraction of frontier-model cost. Since both the harness and model weights shape behavior, we ask how harness evolution and lightweight fine-tuning should be combined. Across seven enterprise agent tasks, we first evolve a harness with the weaker model, then find that a stronger expert often uses it more effectively, suggesting expert supervision could close the remaining gap. However, training the weaker model on the expert's complete trajectories under the evolved harness backfires: performance regresses on all seven tasks by 4 to 30 points across Qwen3-Coder and Gemma 4, even though the same procedure helps under the unevolved harness. Our analysis shows that imitation transfers knowledge and increases scaffold usage, but disrupts model-harness fit: the weaker model adopts the expert's planning strategy without the competence to execute it and no longer matches the harness evolved around its native planning style. We therefore develop an on-policy expert-correction pipeline, automated by a meta-level MLE agent, that localizes the failing turn in the weaker model's own rollout and asks the expert to rewrite only that turn. This preserves the model's planning style and combines the gains of harness evolution and model adaptation. Our results identify and resolve a source of contention between harness and weight updates, yielding a compatibility-preserving recipe for economical co-evolution on domain-specific enterprise tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-08T17:53:49Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhou Yu</name>
+    </author>
+    <author>
+      <name>Bin Bi</name>
+    </author>
+    <author>
+      <name>Shiva Kumar Pentyala</name>
+    </author>
+    <author>
+      <name>Shubham Mehrotra</name>
+    </author>
+    <author>
+      <name>Sougata Chaudhuri</name>
+    </author>
+    <author>
+      <name>Shilpa Bhagavath</name>
+    </author>
+    <author>
+      <name>Zeyuan Chen</name>
+    </author>
+    <author>
+      <name>Ran Xu</name>
+    </author>
+    <author>
+      <name>Phil Mui</name>
+    </author>
+    <author>
+      <name>James Zhu</name>
+    </author>
+    <author>
+      <name>Sitaram Asur</name>
+    </author>
+  </entry>
+</feed>

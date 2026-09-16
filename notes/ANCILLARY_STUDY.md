@@ -26,6 +26,12 @@ study, but theory work need not always produce an experiment. Clarifying a
 concept, finding an existing answer, or abandoning a weak conjecture is useful
 progress.
 
+That work continues while ancillary experiments run. As their findings sharpen
+the questions, the root searches for direct answers and complementary progress
+in public research and records how that evidence changes research selection.
+Independent questions remain available for concurrent investigation. Further
+work in the latest study earns priority through its value to the program.
+
 The root reads ancillary publications as it reads other research: beginning
 with the abstract, examining methods and results, and following supporting
 evidence when the claim warrants it. It records its own assessment and the

@@ -1,0 +1,51 @@
+[
+  {
+    "version": "2601.01885v3",
+    "url": "https://arxiv.org/html/2601.01885v3",
+    "retrieved_at": "2026-09-16T12:26:18.891166+00:00",
+    "sha256": "d2bb3c20fb8ce841145813ee3f7c66cbaed625d2a15f58aa1951fafcd818e73c",
+    "temporary_cache": "/private/tmp/construct2-adaptation-reading/2601.01885v3.html"
+  },
+  {
+    "version": "2508.19828v5",
+    "url": "https://arxiv.org/html/2508.19828v5",
+    "retrieved_at": "2026-09-16T12:26:19.209078+00:00",
+    "sha256": "7361469ed4c8bf3da4b71473a5a21db4bfbd4f42df4ab6d9885fe54bb2032488",
+    "temporary_cache": "/private/tmp/construct2-adaptation-reading/2508.19828v5.html"
+  },
+  {
+    "version": "2605.22166v2",
+    "url": "https://arxiv.org/html/2605.22166v2",
+    "retrieved_at": "2026-09-16T12:26:19.476370+00:00",
+    "sha256": "aee5976f462fc81333a5cc56d47a147b60b2c5d90b49af772fd1d9a44e94ded4",
+    "temporary_cache": "/private/tmp/construct2-adaptation-reading/2605.22166v2.html"
+  },
+  {
+    "version": "2607.01120v2",
+    "url": "https://arxiv.org/html/2607.01120v2",
+    "retrieved_at": "2026-09-16T12:26:19.683228+00:00",
+    "sha256": "92c07fffc1dfe6d99562f13e56299a08893080ea39722e12ebf3a2b36a7d8e9a",
+    "temporary_cache": "/private/tmp/construct2-adaptation-reading/2607.01120v2.html"
+  },
+  {
+    "version": "2609.09134v1",
+    "url": "https://arxiv.org/html/2609.09134v1",
+    "retrieved_at": "2026-09-16T12:26:19.903450+00:00",
+    "sha256": "a3b687cc4a3accaac573e8bfd823895a055f2f33aebebcfb886c1b88c000bc53",
+    "temporary_cache": "/private/tmp/construct2-adaptation-reading/2609.09134v1.html"
+  },
+  {
+    "version": "2609.17088v1",
+    "url": "https://arxiv.org/html/2609.17088v1",
+    "retrieved_at": "2026-09-16T12:26:20.192121+00:00",
+    "sha256": "53e073174c468513000bf7d3ccc5be14afbd8e7bfbfe728902c18f5338c6a0da",
+    "temporary_cache": "/private/tmp/construct2-adaptation-reading/2609.17088v1.html"
+  },
+  {
+    "version": "2609.13739v1",
+    "url": "https://arxiv.org/html/2609.13739v1",
+    "retrieved_at": "2026-09-16T12:26:20.488631+00:00",
+    "sha256": "635714294ef4a24dc3b118addd324e80e49609ade48dc96b0dd89176a3900666",
+    "temporary_cache": "/private/tmp/construct2-adaptation-reading/2609.13739v1.html"
+  }
+]

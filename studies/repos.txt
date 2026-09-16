@@ -5,3 +5,4 @@ alignment-farm/procedure-transfer
 alignment-farm/procedure-retention-and-revision
 alignment-farm/memory-under-goal-shift
 alignment-farm/experience-selection
+alignment-farm/memory-placement-under-revision

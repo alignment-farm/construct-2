@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5LVf3542c650QJrxo8SggWNCvm8</id>
+  <title>arXiv Query: search_query=(abs:forgetting AND (abs:prediction OR abs:predicting OR abs:forecasting) AND (abs:"language model" OR abs:"language models") )&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-09-16T09:25:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:forgetting+AND+((abs:prediction+OR+(abs:predicting+OR+abs:forecasting))+AND+(abs:%22language+model%22+OR+abs:%22language+models%22))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>122</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.08067v1</id>
+    <title>Popular Knowledge Propagates More Errors in LLM Knowledge Updating</title>
+    <updated>2026-09-08T00:23:27Z</updated>
+    <link href="https://arxiv.org/abs/2609.08067v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.08067v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Updating a language model's knowledge through fine-tuning is essential for keeping its outputs current, yet can also induce factual forgetting and new hallucinations. Prior work shows that long-tail knowledge is harder to acquire and newly memorized long-tail facts are difficult to retain during later fine-tuning. We study a complementary question: among facts that a model has encoded correctly, which are most vulnerable to collateral corruption during other updates? To investigate this question under a realistic factual distribution, we construct a large-scale graph FACTPROP of verified Wikipedia facts by linking triples that share head or tail entities, thereby preserving connections among factual knowledge. We fine-tune models on factual statements and measure correct-to-incorrect facts after each update. Our results reveal a pattern distinct from prior findings on long-tail vulnerability during acquisition and retention: among facts that models already answer correctly, those associated with highly connected entities are more likely to be corrupted by neighboring updates, and updates to such facts propagate errors more broadly. Structural popularity therefore predicts both vulnerability and downstream damage. Inspired by this finding, we propose Popularity-based Anchoring (PopAnchor), a lightweight rehearsal strategy that preserves a small set of popular facts and reduces forgetting.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-08T00:23:27Z</published>
+    <arxiv:comment>16 pages, 7 figures, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuji Zhang</name>
+    </author>
+    <author>
+      <name>Weibing Wang</name>
+    </author>
+    <author>
+      <name>Cheng Qian</name>
+    </author>
+    <author>
+      <name>Duo Zhou</name>
+    </author>
+    <author>
+      <name>Dilek Hakkani-Tür</name>
+    </author>
+    <author>
+      <name>Kathleen McKeown</name>
+    </author>
+    <author>
+      <name>Chengxiang Zhai</name>
+    </author>
+    <author>
+      <name>Heng Ji</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.07344v1</id>
+    <title>Staying on the Attack Path: Structured State for Long-Horizon Automated Penetration Testing</title>
+    <updated>2026-09-07T11:09:01Z</updated>
+    <link href="https://arxiv.org/abs/2609.07344v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.07344v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) based agents are increasingly applied to cybersecurity tasks such as vulnerability discovery and automated penetration testing. On long-horizon security tasks, however, such agents remain limited by context forgetting and intent drift: early critical facts and causal reasoning chains are lost over extended interactions, and the agent falls into aimless, repetitive exploration. This paper proposes Intentest, an intent-graph-guided automated penetration testing agent that externalizes long-horizon state from the LLM's context window onto a persistent fact-intent directed acyclic graph (DAG), thereby substantially reducing invalid transitions. We evaluate Intentest on automated penetration testing of web applications, a representative long-tail task in cybersecurity. In the DAG, verified network states are stored as immutable fact nodes, and exploration directions are constrained as intent edges bounded by predecessor facts. The system adopts a three-layer architecture, in which the fact-intent mapping layer maintains the global state, the task scheduling and allocation layer ensures execution stability through two-phase degradation recovery and multi-dimensional adaptive load balancing, and the intent retrieval and prediction layer provides tactical priors through a top-down five-stage filtering algorithm. On a benchmark of real CTF challenges covering more than ten vulnerability types across three difficulty levels, Intentest achieves an overall success rate of 88.2% and a success rate of 75.0% on hard tasks, improving over the baseline by approximately 44 and 50 percentage points. Ablation experiments further show that the intent retrieval and prediction reduce the average number of rounds on successful medium and hard tasks by about 33% and 48%, respectively, without changing the set of solvable tasks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-07T11:09:01Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Weizhe Wang</name>
+    </author>
+    <author>
+      <name>Yitong Zhang</name>
+    </author>
+    <author>
+      <name>Yao Zhang</name>
+    </author>
+    <author>
+      <name>Xiaoqiang Di</name>
+    </author>
+    <author>
+      <name>Zhigang Li</name>
+    </author>
+    <author>
+      <name>Bin Wu</name>
+    </author>
+    <author>
+      <name>Guangquan Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.06786v1</id>
+    <title>When Retain Constraints Conflict: Mitigating Forget-Retain Interference in Tabular Data</title>
+    <updated>2026-09-06T19:08:32Z</updated>
+    <link href="https://arxiv.org/abs/2609.06786v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.06786v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine unlearning aims to remove the influence of designated training data while preserving model utility, but its behavior on tabular data remains underexplored. This gap is important because tabular prediction is widely used in high-stakes domains and is increasingly adapted to language models through record serialization and schema-aware prompting. We identify a key challenge that distinguishes tabular unlearning from unlearning in free-form text or other modalities: schema-induced forget-retain overlap. In serialized tabular data, records share fixed column-name/value slots, similar attribute ranges, and common output spaces. Consequently, a forget row may have nearby retain rows that rely on the same high-signal attributes, causing retain preservation to oppose the update required for forgetting. Motivated by this failure mode, we propose Conflict-Aware Unlearning (CAU), a schema-aware approach that reduces forget-retain interference by relaxing preservation constraints on retained rows that most conflict with the forget set. Across sample-level and feature-level unlearning on clinical and non-medical tabular tasks, CAU more closely matches a retraining oracle while maintaining predictive utility and retain-region behavior. Our results show that reliable tabular LLM unlearning depends not only on the forgetting objective, but also on how retain constraints are constructed.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-06T19:08:32Z</published>
+    <arxiv:comment>EMNLP 2026 Finding Paper</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zijie Liu</name>
+    </author>
+    <author>
+      <name>Jinhao Duan</name>
+    </author>
+    <author>
+      <name>Bingqi Shang</name>
+    </author>
+    <author>
+      <name>Xinming An</name>
+    </author>
+    <author>
+      <name>Sijia Liu</name>
+    </author>
+    <author>
+      <name>Tianlong Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.27763v1</id>
+    <title>Fast Weight Attention for Continual Learning</title>
+    <updated>2026-08-27T22:55:11Z</updated>
+    <link href="https://arxiv.org/abs/2608.27763v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.27763v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recurrent fast-weight memories and selective state-space models compress an expanding context into a fixed-size recurrent state, making the state transition an online learning rule. We study this rule under read-after-write autoregressive semantics. For the prefix-prediction objective considered here, the local fast-memory example revealed at step $t$ is the prefix-aligned pair $(\mathbf{x}_t,\mathbf{y}_t)=(φ(\mathbf{k}_{t-1}),\mathbf{v}_t)$. The common same-step association $(φ(\mathbf{k}_t),\mathbf{v}_t)$ remains causal, but optimizes a different internal objective. We derive normalized first-order updates for squared-error regression and negative inner-product objectives. The regression family comprises Falcon-1 (a scalar NLMS update), Falcon-2 (its per-column extension), and Falcon-3 (a sliding-window mini-batch update); Falcon-1A/Falcon-2A/Falcon-3A are the corresponding inner-product variants. We provide recurrent, masked-parallel, and chunk-parallel forms, together with numerically stable positive-decay renormalization. Representative variants remain competitive in language modeling and improve length extrapolation on variable-digit addition. This framework separates temporal alignment, plasticity, forgetting, and bounded rehearsal in recurrent sequence models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-27T22:55:11Z</published>
+    <arxiv:comment>Project Page: https://github.com/yifanzhang-pro/fast-weight-attention</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yifan Zhang</name>
+    </author>
+    <author>
+      <name>Steve Ta</name>
+    </author>
+    <author>
+      <name>Jasper Zhang</name>
+    </author>
+    <author>
+      <name>Jichen Feng</name>
+    </author>
+    <author>
+      <name>Shuzhen Li</name>
+    </author>
+    <author>
+      <name>Yongxin Zhang</name>
+    </author>
+    <author>
+      <name>Yifeng Liu</name>
+    </author>
+    <author>
+      <name>Huizhuo Yuan</name>
+    </author>
+    <author>
+      <name>Mengdi Wang</name>
+    </author>
+    <author>
+      <name>Quanquan Gu</name>
+    </author>
+    <author>
+      <name>Andrew Chi-Chih Yao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.26982v1</id>
+    <title>JudgeStealer: Extracting LLM Judging Capabilities across Evaluation Protocols</title>
+    <updated>2026-08-27T11:28:32Z</updated>
+    <link href="https://arxiv.org/abs/2608.26982v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.26982v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) judges are increasingly used across various evaluation scenarios, making their judgment capabilities valuable intellectual property. However, black-box access exposes these capabilities to model extraction attacks. Existing extraction methods do not specifically target LLM judges and provide limited support for multiple evaluation protocols under restricted query budgets. In this study, we propose JUDGESTEALER, the first query-efficient model extraction framework for replicating judging capabilities across pointwise scoring, pairwise comparison, and listwise ranking protocols. JUDGESTEALER exploits the strong cross-protocol agreement to acquire pointwise scores and transform them into pairwise and listwise supervisions without additional victim queries. To capture informative judge patterns and improve query efficiency, JUDGESTEALER dynamically selects pointwise inputs based on semantic diversity, predictive uncertainty, and potential judge biases. It further applies score smoothing and multi-protocol review to preserve the ordinal structure of scores and mitigate catastrophic forgetting during surrogate adaptation. Extensive experiments on state-of-the-art LLM-as-a-judge and reward models show that JUDGESTEALER consistently outperforms existing extraction baselines, achieving up to 73.3%, 87.0%, and 71.6% accuracy for pointwise, pairwise, and listwise evaluation, respectively. JUDGESTEALER also remains effective across different sur- rogate model scales, adaptation strategies, and reasoning settings. Moreover, JUDGESTEALER demonstrates robustness against representative extraction defenses.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-27T11:28:32Z</published>
+    <arxiv:comment>20 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chen Chen</name>
+    </author>
+    <author>
+      <name>Yaolin Chen</name>
+    </author>
+    <author>
+      <name>Xuehan Sun</name>
+    </author>
+    <author>
+      <name>Juan Lin</name>
+    </author>
+    <author>
+      <name>Xueluan Gong</name>
+    </author>
+    <author>
+      <name>Yuhang Zheng</name>
+    </author>
+    <author>
+      <name>Qian Wang</name>
+    </author>
+    <author>
+      <name>Kwok-Yan Lam</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.19491v2</id>
+    <title>Activation-Keyed Momentum: An Anisotropic Momentum Update via the Delta Rule</title>
+    <updated>2026-09-03T02:10:55Z</updated>
+    <link href="https://arxiv.org/abs/2608.19491v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.19491v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most modern optimizers form their momentum as an exponential moving average (EMA) of past gradients, forgetting every direction at one fixed rate. However, the inputs a deep network sees during training can be highly anisotropic, with a few directions queried frequently while most are seen rarely. Preconditioning methods address this anisotropy by wrapping extra processing around this buffer and leave the momentum update itself unchanged. We propose Activation-Keyed Momentum (AK-Momentum), which builds direction-awareness into the momentum update rule. The gradient of a linear layer splits into an input activation that acts as a key and an output-side error that acts as a value. Keying on that activation, AK-Momentum updates the momentum buffer by the canonical delta rule, so each direction is forgotten at a rate set by how often it appears. We prove that it is a valid momentum, that it applies the input-side curvature correction without matrix inversion, and that it clears stale directions faster than EMA under both a fixed and a drifting optimum. It is a drop-in replacement for the momentum buffer of any optimizer, its coefficient transfers across widths under $μ$P, and its extra compute stays between $22.2\%$ and $25.0\%$ of a gated-MLP block's linear cost with no persistent memory. In FineWeb-Edu pretraining, AdamW with AK-Momentum (AK-AdamW) reaches AdamW's validation loss in up to $46.39 \pm 4.32\%$ fewer steps at 67M and $22.12 \pm 0.80\%$ at 370M over three seeds, and the gain persists at 1B on a Chinchilla-optimal budget. A Muon baseline tuned under the same protocol sits above AK-AdamW at both language-model scales, and the gain holds for SGD, ResNet-18, and ViT-Tiny on CIFAR-10. Training-time diagnostics confirm the predicted mechanism, better gradient tracking and healthier input directions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-19T23:04:12Z</published>
+    <arxiv:comment>This version (v2) changes the algorithm name from DeltaMomentum to Activation-Keyed Momentum (AK-Momentum) to avoid confusion with an existing algorithm named Delta Momentum</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Euijin Hong</name>
+    </author>
+    <author>
+      <name>Guannan Qu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04604v1</id>
+    <title>COSMO: Consensus-Driven Shift Modulation for Source-Free Domain Adaptation</title>
+    <updated>2026-08-05T09:10:30Z</updated>
+    <link href="https://arxiv.org/abs/2608.04604v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04604v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Source-free domain adaptation (SFDA) adapts a source-trained model to an unlabeled target domain without source data, a practical setting under privacy or storage constraints. Yet its self-generated supervision can reinforce source bias under substantial domain shifts. Pretrained vision-language models (VLMs) offer complementary semantic knowledge, but the relative reliability of the source model and VLM varies across target samples. Existing cross-model guidance does not explicitly account for this variation and may overwrite valid source-derived evidence under conflict, a failure we term source-derived evidence forgetting. We formulate VLM-guided SFDA as a sample-wise reliability-allocation problem and propose Consensus-Driven Shift Modulation (COSMO). COSMO replaces expert-to-expert guidance with co-adaptation through an anchored shared consensus. It first forms a sample-specific initial consensus that favors the more concentrated prediction. During adaptation, COSMO re-aggregates both branches' evolving evidence and regulates how far the resulting consensus moves from its initial anchor based on consensus uncertainty and training progress. This keeps the shared supervision anchored yet adaptive. Across four benchmarks, COSMO achieves state-of-the-art performance under matched VLM backbones. Further analyses indicate that it better balances the retention of valid source-derived evidence with the absorption of complementary VLM evidence.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-05T09:10:30Z</published>
+    <arxiv:comment>30 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bo Li</name>
+    </author>
+    <author>
+      <name>Junjie Peng</name>
+    </author>
+    <author>
+      <name>Xiaohua Xie</name>
+    </author>
+    <author>
+      <name>Jianhuang Lai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.03855v2</id>
+    <title>Bi-semantic Chemical Embedder for Joint Representation Learning of SMILES and Natural Language</title>
+    <updated>2026-08-06T12:23:11Z</updated>
+    <link href="https://arxiv.org/abs/2608.03855v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.03855v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformer models have revolutionized natural language processing (NLP), and text-based molecular representations like SMILES have successfully extended these architectures to chemistry. However, domain-adaptive pre-training often causes models to overfit to chemical syntax, catastrophically forgetting their foundational semantic capabilities. To address this challenge, we introduce CheMatE, a chemistry-oriented embedding model that jointly captures molecular structure and domain-specific natural language within the same representation space. Built on a ModernBERT backbone, CheMatE learns bi-semantic representations through a two-stage training procedure: continued masked language modeling (MLM) followed by a Matryoshka contrastive learning stage via Multiple Negative Ranking Loss (MNRL). First, we train the model using MLM on a novel, large-scale corpus of SMILES-annotated, long-context scientific documents that were constructed and curated from FineWeb and ChemPile (comprising 10.4B and 11.5B tokens, respectively). Subsequently, the model undergoes contrastive learning using a synthetic dataset of SMILES-text pairs algorithmically derived from our original training corpus. This design exposes the model to SMILES-enriched scientific literature, enabling bi-semantic understanding. We evaluate CheMatE across a range of downstream tasks covering molecular property prediction and scientific language understanding. Our results demonstrate that coupling our custom-curated datasets with this sequential training strategy yields robust, highly transferable representations. By effectively unifying structural and contextual signals within a single text-based framework, CheMatE achieves competitive performance across both specialized chemistry models and general-purpose language model baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T15:57:38Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>David Ming Segura</name>
+    </author>
+    <author>
+      <name>Jeremy Goumaz</name>
+    </author>
+    <author>
+      <name>Joshua W. Sin</name>
+    </author>
+    <author>
+      <name>Bojana Ranković</name>
+    </author>
+    <author>
+      <name>Philippe Schwaller</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.03660v1</id>
+    <title>Taming the Implicit: Dual-Channel Risk-Aware Reinforcement Fine-Tuning for Continual Multimodal Post-Training</title>
+    <updated>2026-08-04T13:40:03Z</updated>
+    <link href="https://arxiv.org/abs/2608.03660v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.03660v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement fine-tuning (RFT) is widely believed to inherently resist catastrophic forgetting in continual post-training of multimodal large language models. Under pronounced task distributional shifts, however, forgetting across representative RFT algorithms escalates sharply. This stems from the implicit reward-variance regularization inherent to RFT, which proves incapable of suppressing uncontrolled optimization risk. We propose Risk-Aware Policy Optimization (RAPO), the first dual-channel framework for explicit risk governance in continual RFT. On the policy channel, Risk-Aware Policy Scaling adaptively calibrates per-sample update magnitude via rollout reliability and Fisher-inspired local predictive sensitivity; on the data channel, Risk-Aware Dynamic Bucket Sampling reorganizes training batches through dynamic risk stratification, steering optimization toward informative yet stable samples. As a plug-and-play strategy requiring no cross-task memory, RAPO generalizes to any RFT algorithm without modification. On the public MLLM-CL benchmark, RAPO reduces final forgetting by 79.8% relative to its RLOO backbone while retaining new-task competitiveness.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-04T13:40:03Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yibei Liu</name>
+    </author>
+    <author>
+      <name>Jiajun Chen</name>
+    </author>
+    <author>
+      <name>Qianle Zhang</name>
+    </author>
+    <author>
+      <name>Tangyue Jin</name>
+    </author>
+    <author>
+      <name>Mengying Zhu</name>
+    </author>
+    <author>
+      <name>Meng Xi</name>
+    </author>
+    <author>
+      <name>Yangyang Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.00419v1</id>
+    <title>Unleashing the Potential of Large Language Models: A Blueprint for Real-Time, Enterprise-Ready Deployments</title>
+    <updated>2026-08-01T03:40:22Z</updated>
+    <link href="https://arxiv.org/abs/2608.00419v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.00419v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models deployed in real-time, regulated settings face knowledge staleness, catastrophic forgetting, hallucination, and weak feedback loops. We present a unified, pattern-driven LLMOps architecture integrating real-time data ingestion, continual learning, retrieval-augmented generation (RAG), and human-in-the-loop feedback into a single operational pipeline. Four contributions map to established software design patterns: an adaptive ingestion pattern orchestrator (AIPO) evaluated with FreshStreamBench; STAR+FAR continual learning with sparse temporal adapter routing and freshness-aware replay; SAGE, an SLO-aware adaptive retrieval policy predicting a per-query passage budget to meet tail-latency targets; and an automated feedback-driven convergence stage with RLHF triggers. The result reduces latency-cost-accuracy trade-offs while supporting auditability and rollback for high-risk sectors such as health care and finance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-01T03:40:22Z</published>
+    <arxiv:comment>6 pages, 1 figure. Authors' accepted version of an article published in IEEE Computer. The version of record is available at the DOI below</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Computer, vol. 59, no. 4, pp. 195-199, April 2026</arxiv:journal_ref>
+    <author>
+      <name>Muhammad Faizan Raza</name>
+      <arxiv:affiliation>Luna</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Shuo</name>
+      <arxiv:affiliation>Luna</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Yang</name>
+    </author>
+    <author>
+      <name>Satish Mahadevan Srinivasan</name>
+    </author>
+    <author>
+      <name>Joanna F. DeFranco</name>
+    </author>
+    <arxiv:doi>10.1109/MC.2026.3664470</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/MC.2026.3664470" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.15587v1</id>
+    <title>Rethinking Transfer in Continual Learning: A Replay-Based Realisation</title>
+    <updated>2026-07-17T03:18:17Z</updated>
+    <link href="https://arxiv.org/abs/2607.15587v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.15587v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continual learning studies how deployed language models can continually acquire new tasks without expensive retraining from scratch. Existing methods, whether rehearsal-based (replaying stored past data) or rehearsal-free (regularising or isolating parameters), overwhelmingly target one objective: preventing catastrophic forgetting. Forward transfer, the past helping the future, has meanwhile been pursued almost exclusively through parameter reuse, with no explicit account of when transfer should be expected at all. We begin one step earlier: before designing a transfer mechanism, we ask when transfer should exist at all. We answer with a framework of three measurable conditions: the target task must leave room for improvement beyond its own limited supervision, transferable information must survive continued optimisation, and replay must come from compatible previous tasks. We instantiate this view as Transfer-Selective Replay (TSR), which selects replay data predicted to benefit the incoming task rather than replaying past examples indiscriminately. Selection is guided by a zero-training task signature, while distillation preserves stability on previous tasks. Under the standard continual learning protocol in the low-budget regime, TSR consistently improves forward transfer while maintaining stability, outperforming existing replay baselines across heterogeneous and homogeneous task streams. More broadly, the results argue for treating transfer as a first-class objective of continual learning, to be understood before it is engineered.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-17T03:18:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yang Meng</name>
+    </author>
+    <author>
+      <name>Zhenya Liu</name>
+    </author>
+    <author>
+      <name>Zhuokai Zhao</name>
+    </author>
+    <author>
+      <name>Yuxin Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.02020v1</id>
+    <title>Hidden Forgetting in Continual Multimodal Learning: When Accuracy Survives but Grounding Fails</title>
+    <updated>2026-07-02T10:50:37Z</updated>
+    <link href="https://arxiv.org/abs/2607.02020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.02020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal large language models must continually adapt to evolving tasks and domains, yet standard continual learning metrics mainly measure whether old answers remain correct, leaving the stability of multimodal grounding largely unexamined. We study this overlooked failure mode and ask whether a continually adapted MLLM can preserve not only what it answers, but also how it uses visual, textual, OCR, chart, and document evidence. We identify \emph{hidden evidence-use forgetting}, where answer accuracy is retained while the model silently shifts toward different or less grounded evidence channels, and propose \textsc{RCL}, a replay-free reliance-constrained continual learning framework. \textsc{RCL} freezes the previous checkpoint as a behavioral reference, estimates teacher and student evidence-reliance profiles through counterfactual channel interventions, and jointly optimizes task learning, prediction preservation, and reliance preservation without adding inference-time cost. Across CoIN, COAST, MCITlib, and an evidence-sensitive multimodal stream, \textsc{RCL} consistently improves final performance and reduces forgetting over replay-free, PEFT, routing, and memory-assisted baselines, while substantially lowering modality reliance drift, dominant evidence flips, and hidden forgetting rates. These results suggest that robust continual multimodal learning requires preserving the evidence path behind correct answers, not merely the answers themselves.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-02T10:50:37Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qianyu Chen</name>
+    </author>
+    <author>
+      <name>Canran Xiao</name>
+    </author>
+    <author>
+      <name>Runxuan Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.00434v1</id>
+    <title>Information-Regularized Attention for Visual-Centric Reasoning</title>
+    <updated>2026-07-01T04:45:41Z</updated>
+    <link href="https://arxiv.org/abs/2607.00434v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.00434v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models (VLMs) have become a paradigm for multimodal learning, yet remain unstable due to object hallucination, weak visual grounding, and catastrophic forgetting after full-parameter instruction tuning. We claim these failures result from a lack of explicit control over visual representation learning during the standard next-token prediction objective. As a result, visual embeddings thus become passively optimized and prone to injecting redundant or spurious signals. To counter this, we introduce Information-Regularized Attention (IRA), a stochastic attention mechanism that explicitly regulates the amount of visual information injected into the hidden states of intermediate transformer layers. This local reparameterization translates uncertainty about visual representations into local noise that is independent across data points. Beyond evaluating model performance, we also quantify embedding properties, where IRA produces smoother curvature trajectories and suppresses attention-sink across all layers, indicating a more stable transformation of the visual signal. Our results suggest that stochastic attention is not merely a regularizer but a key contributor to representation learning in a generative architecture, offering a new direction for building more reliable VLMs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T04:45:41Z</published>
+    <arxiv:comment>Accepted by ECCV 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Guohao Sun</name>
+    </author>
+    <author>
+      <name>Xiaofang Wang</name>
+    </author>
+    <author>
+      <name>Yash Patel</name>
+    </author>
+    <author>
+      <name>Mengchen Liu</name>
+    </author>
+    <author>
+      <name>Zhiqiang Tao</name>
+    </author>
+    <author>
+      <name>Praveen Krishnan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.31845v1</id>
+    <title>Explicit Fuzzy Logic in the Feed-Forward Layer: Self-Forgetting Quantifiers Discover Legible Grammatical-Licensing Detectors</title>
+    <updated>2026-06-30T15:46:27Z</updated>
+    <link href="https://arxiv.org/abs/2606.31845v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.31845v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A transformer's feed-forward (FFN) sublayer materializes the distinctions attention gathers, yet gives no account of what it computes. In a parameter-neutral replacement, each hidden unit is an explicit fuzzy set operation on sigmoid-bounded [0,1] memberships: intersection A*B and set-difference A*(1-B), the latter a bounded positive negation ("A but not B") that gated/bilinear units lack -- a negation-capable FFN (NC-FFN). On N-bit parity they are the most parameter-efficient reasoning basis at shallow depth; at scale (125M, OpenWebText) NC-FFN ties the GELU baseline's perplexity, every unit carrying explicit logical form. Two limits share one cause: two-operand logic localizes to layer 0 and erodes under training, and the one robust grammatical deficit concentrates in licensing and quantifiers, beyond within-token operators. We resolve both with a small block of sequence quantifiers: a soft existential and a soft proportion, each with a per-unit learned forgetting rate from a sticky init. This recovers the deficit at epoch one (halving the wider epoch-two gap), modestly leads on LAMBADA, and makes the FFN legible: the structure now holds and migrates into depth; the decay un-learns its stickiness (median half-life ~1.5 tokens; zero latch units); and at the semantic layers the units read, without dictionary learning, as grammatical licensing detectors: each fires on a licensor (a comparative, a passive participle, a negative-polarity item) and carries its memory forward to predict the licensed word (than, by, nor). This legibility is localized and free only up to a partition (a fully Boolean FFN diverges in training), but the result is a parameter-neutral, language-model-quality transformer with a readable, interpretable-by-construction grammatical mechanism -- an account not just of what a feed-forward layer represents but how it licenses.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-30T15:46:27Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mark Oskin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.26050v1</id>
+    <title>Natural Ungrokking: Asymmetric Control of Which Rules Survive Pretraining</title>
+    <updated>2026-06-24T17:27:13Z</updated>
+    <link href="https://arxiv.org/abs/2606.26050v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.26050v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Midway through an ordinary pretraining run, a small language model learns the pronoun-gender rule: cued with a girl's name ("Sue cried because"), it resolves the next pronoun to she, generalizing to held-out probes (0.94 by step 925). By step 3,500 the same model scores near zero on the same probes, although the rule's evidence is still in the training data. We call this within-run reversal natural ungrokking: the corpus decides, with no trace in the loss curve, which learned rules a model keeps.
+  Which rules survive is predictable from one corpus statistic: how often the training stream shows the rule winning. Across un-intervened runs (two corpora, three budgets, three seeds), support frequency decides a rule's fate; the data-to-parameter ratio only modulates how deeply a doomed rule falls. The same emerge-then-collapse dynamics appear in public Pythia checkpoints, collapse depth ordered by model scale as predicted. The forgetting is a displacement: a competing surface pattern out-competes the rule, and the log-probability margin between them crosses zero within 100 training steps of the behavioral collapse.
+  Control over this fate is asymmetric: the same edit that destroys a rule on demand cannot restore it. Flipping support to counter-evidence in place kills the rule with monotone dose-response in two unrelated rules; but injecting support back, even to 450 times the level that naturally sustains it, buys no recovery. Every confirmatory threshold and prediction was pre-registered before the data it governed was read.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-24T17:27:13Z</published>
+    <arxiv:comment>Foundations of Deep Generative Models (FoGen) Workshop at ICML 2026. 23 pages (5-page main text plus appendices), 5 figures. Code: https://github.com/lijuliana/Natural-Ungrokking</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Juliana Li</name>
+    </author>
+    <author>
+      <name>Diya Sreedhar</name>
+    </author>
+  </entry>
+</feed>

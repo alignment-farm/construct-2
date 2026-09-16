@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ly0ANt7H+gSRpIeEbygyG5G5YDY</id>
+  <title>arXiv Query: search_query=(abs:"agent memory" AND (abs:adaptive OR abs:policy OR abs:learning) )&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-09-16T09:26:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22agent+memory%22+AND+(abs:adaptive+OR+(abs:policy+OR+abs:learning))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>176</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.12320v1</id>
+    <title>AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems</title>
+    <updated>2026-09-11T01:00:09Z</updated>
+    <link href="https://arxiv.org/abs/2609.12320v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.12320v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional large language models (LLMs) are scoped to individual user sessions, limiting their knowledge to a single conversation and preventing them from learning user preferences that evolve over time. Existing agentic memory systems address this limitation but generally operate at the individual-user level, restricting the public knowledge that could be shared across users to improve downstream responses. We introduce AIM (Agentic Interoperable Memory), a unified, privacy-aware memory framework that enables multi-agent, multi-user LLM systems to persistently manage private and shared memory. AIM dynamically classifies information as private, scoped to one user and inaccessible to others, or public, accessible to all users. It enforces index-level access controls so that private memories are retrievable only by their owner, protecting sensitive data while allowing beneficial shared knowledge to improve coordination and consistency. We also introduce MUMBench (Multi-User Memory Benchmark), a dataset of multi-user interactions containing private and shareable information across four domains. To our knowledge, MUMBench is the first public dataset designed to evaluate multiple memory operations, including retrieval, creation, update, and deletion, in a multi-user environment. Across three independent runs on MUMBench, AIM achieves 96.0% visibility classification accuracy, 58.8% strict operation accuracy, and 70.5% state-aware operation accuracy.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-11T01:00:09Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zachary Johnson</name>
+    </author>
+    <author>
+      <name>Nigel Boachie Kumankumah</name>
+    </author>
+    <author>
+      <name>Somya Chatterjee</name>
+    </author>
+    <author>
+      <name>Tejas Sathyamurthi</name>
+    </author>
+    <author>
+      <name>Min Chen</name>
+    </author>
+    <author>
+      <name>Xinyi Alice Li</name>
+    </author>
+    <author>
+      <name>Xiao Wang</name>
+    </author>
+    <author>
+      <name>Emily Morgan Gelchie</name>
+    </author>
+    <author>
+      <name>Jessica Lin</name>
+    </author>
+    <author>
+      <name>Sadid A. Hasan</name>
+    </author>
+    <author>
+      <name>Sulaiman Vesal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11060v1</id>
+    <title>Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents</title>
+    <updated>2026-09-10T04:06:16Z</updated>
+    <link href="https://arxiv.org/abs/2609.11060v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11060v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Persistent memory is entering production-oriented agent platforms to help long-horizon agents accumulate experience across sessions. Yet a post-task curator agent restricted to completed trajectories can preserve errors, overgeneralize partial evidence, or retain stale knowledge. We introduce environment-probing curation, a deployment-compatible extension that gives an existing asynchronous curator agent least-privilege, read-only world tools to check, scope, and refresh candidate memories. It requires no model retraining and leaves the task agent, retriever, memory representation, and production write authority unchanged. In a production-like GitHub Copilot (GHCP) harness built on its SDK, we compare stateless execution, full in-context learning, GHCP + Mem, and GHCP + Mem (w/ Env Probing) on CLBench database exploration and 90 adapted APEX management-consulting tasks. On CLBench, probing raises pass rate from 39% to 73% and pass-discounted reward from 8.60 to 22.60 while reducing queries from 8.8 to 4.7 per question and task-agent cost from \$3.38 to \$1.68. Across six APEX worlds, all 18 memory-versus-baseline mean reward comparisons are positive and task-agent tool calls fall by 16--75%; probing gives the best task-agent reward gain per dollar in five worlds. Probing also attains higher mean reward than GHCP + Mem on both Sonnet 4.6 and Opus 4.7 without schema drift. Environment probing therefore turns existing agent-memory curation into an environment-informed, auditable process while preserving a compact task-time interface.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T04:06:16Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Susheel Suresh</name>
+    </author>
+    <author>
+      <name>Hazel Mak</name>
+    </author>
+    <author>
+      <name>Sahil Bhatnagar</name>
+    </author>
+    <author>
+      <name>Chhaya Methani</name>
+    </author>
+    <author>
+      <name>Alejandro Gutierrez Munoz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.08279v1</id>
+    <title>What Eviction Destroys: A Restore-Counterfactual Audit of Forgetting in Agent Memory</title>
+    <updated>2026-09-08T05:48:10Z</updated>
+    <link href="https://arxiv.org/abs/2609.08279v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.08279v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agent memory systems must discard stored information when their history exceeds a fixed token budget. Existing budget-accuracy frontiers quantify the resulting loss in accuracy, but do not distinguish irreversible losses caused by eviction from recoverable retrieval failures. We introduce the restore counterfactual, a per-question paired intervention that reinstates the question's gold evidence in the read-time context and reruns the same reader. Combining the change in correctness with whether the evidence was retained after eviction classifies each oracle-answerable error as recoverable, irreversible, or residual; in the residual case, the answer remains incorrect after restoration. We evaluate FIFO, random, redundancy-aware, and LLM-importance eviction on LongMemEval-S at three budgets and under two retrieval regimes, using GPT-4o-mini as the primary reader and judge and GPT-5.4-mini as a robustness reader. Under top-k retrieval at an 80k-token budget, the irreversible share among errors corrected by restoration is 0.67-0.73 for FIFO, random, and redundancy-aware eviction, compared with 0.60 for LLM-importance. At 8k tokens, it reaches 1.00 for all four policies. Recoverable errors occur under top-k retrieval at 80k tokens but are absent under forced-gold injection by construction, so budget-accuracy results are not directly comparable unless the retrieval regime is reported. An exploratory matched-accuracy analysis detects no difference in irreversible rate among accuracy-matched policy pairs at a resolution of 1.2-6 percentage points. The same analysis detects the deliberately destructive control. To our knowledge, this is the first per-item, per-question restore-counterfactual audit of eviction for external agent-memory stores on a standard conversational benchmark.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-08T05:48:10Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chen Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.08273v1</id>
+    <title>MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging</title>
+    <updated>2026-09-08T05:30:30Z</updated>
+    <link href="https://arxiv.org/abs/2609.08273v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.08273v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agent memory systems have demonstrated significant potential in long-term dialogue, personalized assistants, and video understanding. However, continuously accumulated memory introduces substantial storage and retrieval costs during inference. To address this issue, we propose \textbf{MemForest}, a general memory compression framework adaptable to various agent memory systems. Specifically, MemForest partitions historical memory into event-centric units by leveraging global semantic similarity and local temporal continuity. For each unit, it constructs a maximum spanning tree, termed an EventTree, and progressively merges redundant memory nodes by selecting high-weight edges, reducing storage overhead. Furthermore, we introduce an anchor-guided propagation retrieval mechanism that retrieves relevant memory nodes from the temporal neighborhoods of key nodes, improving retrieval accuracy. Extensive experiments demonstrate the effectiveness of MemForest. Under the unimodal Mem0 framework, MemForest retains \textbf{97.1%} of the original performance while compressing \textbf{50%} of historical memory across three benchmarks (LoCoMo, LongMemEval, and PersonaMem), achieving a \textbf{1.89x} retrieval speedup. Under the multimodal M3-Agent framework, it preserves \textbf{99.7%} of the original performance with a \textbf{50%} compression ratio across two benchmarks (M3-Bench-robot and M3-Bench-web), achieving a \textbf{2.24x} retrieval speedup. \textcolor{RoyalBlue}{\textit{Our code is available at [https://github.com/Celina-love-sweet/MemForest.}}](https://github.com/Celina-love-sweet/MemForest.}})</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-08T05:30:30Z</published>
+    <arxiv:comment>23 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Junxi Wang</name>
+    </author>
+    <author>
+      <name>Te Sun</name>
+    </author>
+    <author>
+      <name>Jiayi Zhu</name>
+    </author>
+    <author>
+      <name>Chen Zhang</name>
+    </author>
+    <author>
+      <name>Siyuan Li</name>
+    </author>
+    <author>
+      <name>Xuyang Liu</name>
+    </author>
+    <author>
+      <name>Zichen Wen</name>
+    </author>
+    <author>
+      <name>Xiaobing Tu</name>
+    </author>
+    <author>
+      <name>Jinkui Ren</name>
+    </author>
+    <author>
+      <name>Xiantao Zhang</name>
+    </author>
+    <author>
+      <name>Ziqi Yuan</name>
+    </author>
+    <author>
+      <name>Linfeng Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.08258v1</id>
+    <title>Revoked but Still Authoritative: An Empirical Study of Revocation Enforcement in Agent-Memory Systems</title>
+    <updated>2026-09-08T05:03:09Z</updated>
+    <link href="https://arxiv.org/abs/2609.08258v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.08258v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-running language-model agents depend on persistent memory. Many agent-memory systems preserve history through soft revocation: a contradicted fact is marked invalid and retained rather than deleted. However, whether that mark is enforced at retrieval time is unexamined. In this paper, we measure five such systems: we load each with a revoked policy and its replacement, track whether the revoked fact is returned at retrieval and whether the agent then acts on it across nine policy scenarios and nine models, and score every trial under six defense conditions. We find that no system enforces revocation by default: the revoked fact is returned wherever the revocation label is visible to the retrieval layer, outranks its replacement, and leads agents to the unsafe action. Based on these findings, we develop a guard that sits between the agent and any memory backend and withholds records that are revoked or conflict with their replacement.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-08T05:03:09Z</published>
+    <arxiv:comment>Code is available at https://github.com/VulcanLab/Memory-Rebirth-Attack</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yi Ting Shen</name>
+    </author>
+    <author>
+      <name>Kentaroh Toyoda</name>
+    </author>
+    <author>
+      <name>Alex Leung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.30177v1</id>
+    <title>Understanding Stage-Wise Utility-Risk Trade-offs in LLM Agent Memory</title>
+    <updated>2026-08-31T02:57:08Z</updated>
+    <link href="https://arxiv.org/abs/2608.30177v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.30177v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term memory is becoming a core capability of LLM agents, enabling personalization and long-horizon interaction. However, memory mechanisms that retain, transform, or expose more information can affect both benign utility and susceptibility to memory poisoning. Existing evaluations typically measure memory utility or attack risk in isolation under fixed configurations, providing limited insight into how stage-specific design choices reshape their trade-off. We present \textsc{MemGauge}, a controllable framework that separately varies writing admission, management policy, and retrieval exposure under matched clean and poisoned conditions. Across 11 LLMs and two long-term memory benchmarks, controlled evaluations reveal three distinct profiles: a threshold-like risk transition during writing, policy-dependent local decoupling during management, and coupled growth of utility and risk during retrieval. We further apply analogous stage-level measurements to four existing memory systems and observe diagnostic associations qualitatively consistent with these profiles. These results show that targeted poisoning risk varies across memory operations and motivate stage-aware evaluation and control of LLM-agent memory.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-31T02:57:08Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Chuanchao Zang</name>
+    </author>
+    <author>
+      <name>Zijian Cao</name>
+    </author>
+    <author>
+      <name>Xiangtao Meng</name>
+    </author>
+    <author>
+      <name>Jianing Wang</name>
+    </author>
+    <author>
+      <name>Wenyu Chen</name>
+    </author>
+    <author>
+      <name>Xinyu Gao</name>
+    </author>
+    <author>
+      <name>Li Wang</name>
+    </author>
+    <author>
+      <name>Zheng Li</name>
+    </author>
+    <author>
+      <name>Shanqing Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.29528v1</id>
+    <title>MedCache: Efficient and Temporally Valid Memory for Longitudinal Clinical Agents</title>
+    <updated>2026-08-30T03:28:56Z</updated>
+    <link href="https://arxiv.org/abs/2608.29528v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.29528v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Longitudinal clinical agents must maintain an evolving patient state from evidence distributed across visits, time points, and specialties. However, how agent memory should be designed for this setting remains unclear. We introduce a benchmark of multi-visit, multi-specialty patient records that evaluates long-context evidence retrieval, cross-time evidence aggregation, and cross-specialty clinical reasoning. Using this benchmark, we systematically study four memory design choices: curation, organization, retrieval, and memory-augmented reasoning. We find that temporal validity is more important than simply retaining more history; specialty-factorized memory reduces context but can hide shared evidence; and multiple agents help when specialists must reason together, not merely when evidence comes from multiple memories. Guided by these findings, we propose \textit{MedCache}, a hybrid framework that constructs temporally valid patient memory, organizes evidence into overlapping specialty views, routes each query to relevant memories, and adaptively invokes one or multiple specialists. Experiments show that MedCache improves reasoning accuracy and memory efficiency over strong single-agent and multi-agent baselines, while generalizing across model backbones and external datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-30T03:28:56Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hei Ting</name>
+      <arxiv:affiliation>Una</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Chan</name>
+    </author>
+    <author>
+      <name>Chenwei Wu</name>
+    </author>
+    <author>
+      <name>Xueshen Liu</name>
+    </author>
+    <author>
+      <name>Boyuan Zheng</name>
+    </author>
+    <author>
+      <name>Liyue Shen</name>
+    </author>
+    <author>
+      <name>Jiasi Chen</name>
+    </author>
+    <author>
+      <name>Z. Morley Mao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.23471v1</id>
+    <title>InjecMEM: Memory Injection Attack on LLM Agent Memory Systems</title>
+    <updated>2026-08-24T16:37:50Z</updated>
+    <link href="https://arxiv.org/abs/2608.23471v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.23471v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory is becoming a default subsystem in deployed LLM agents to provide persistent personalization and continuity. This naturally prompts a question: will memory system introduce new vulnerabilities into agents? Thus we propose InjecMEM, a novel memory injection attack paradigm that requires only a single interaction (no read/edit access to memory store) to steer later responses of related queries toward a pre-specified output. Guided by the retrieval-then-generate mechanism of memory systems, we craft the injection with a retriever-agnostic anchor and an adversarial command. The anchor contains high-recall topical cues so that downstream retrieval consistently associates the record with the target topic. The command is a short sequence optimized to remain effective under uncertain fused contexts, variable placements, and long prompts so that it reliably steers outputs once retrieved. We learn the command via gradient-based coordinate search, averaging over synthetic prompt templates and insertion positions, and extend it to joint optimization across backbones to study transfer. Evaluated across multiple memory systems and backbone models, InjecMEM achieves reliable topic-conditioned retrieval and targeted generation, remains effective under memory drift, and leaves non-target queries unaffected. Our results underscore the need to harden memory systems and provide a reproducible framework for studying agent memory.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-24T16:37:50Z</published>
+    <arxiv:comment>29 pages, 3 figures. Accepted at COLM 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Hanling Tian</name>
+    </author>
+    <author>
+      <name>Gengyu Zhang</name>
+    </author>
+    <author>
+      <name>Zeyang Sha</name>
+    </author>
+    <author>
+      <name>Jingying Wang</name>
+    </author>
+    <author>
+      <name>Yuhang Liu</name>
+    </author>
+    <author>
+      <name>Zhehao Huang</name>
+    </author>
+    <author>
+      <name>Kun Yang</name>
+    </author>
+    <author>
+      <name>Xiaolin Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.23268v1</id>
+    <title>Dual-Grained Agent Memory and Shapley Context Attribution for Multimodal Agentic Learner</title>
+    <updated>2026-08-24T13:56:01Z</updated>
+    <link href="https://arxiv.org/abs/2608.23268v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.23268v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Frontier multimodal large language models (MLLMs) deliver impressive perception yet still falter on scientific and mathematical reasoning. Parameter-level adaptation is unavailable for closed-weight or on-device backbones, and stateless prompting forfeits any compounding benefit from problems already solved. We propose \textbf{DG-Mem}, a dual-grained agentic memory framework that augments a frozen MLLM with a non-parametric, externally stored memory built once from training-time rollouts and consulted read-only at test time. Motivated by the Complementary Learning Systems (CLS) account of human memory, DG-Mem factors its store into an instance-grounded exemplar memory and a category-level schema memory of IF-THEN rules, with a transient reflection store mediating their construction so that schemas are synthesized only from abstract reflections, never from exemplar text. Two design choices distinguish DG-Mem: an online concept categorizer that grows the category space incrementally during training rather than committing to a predefined taxonomy, and a Shapley context attribution procedure that decomposes correctness across the entire retrieved rule set and yields a per-rule utility that re-weights retrieval at test time. The pipeline introduces no gradient updates and is deployable on closed-weight or on-device backbones. Across MathVista, MMMU, and MMMU-Pro on four open-weight and proprietary backbones (Qwen3.5-27B, Qwen3.5-122B-A10B, GPT-5-Nano, Gemini-3-Flash), DG-Mem improves consistently over no-memory and competitive memory baselines.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-24T13:56:01Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jieke Wang</name>
+    </author>
+    <author>
+      <name>Tiancheng Shen</name>
+    </author>
+    <author>
+      <name>Yibo Yang</name>
+    </author>
+    <author>
+      <name>Ming-Hsuan Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.22767v1</id>
+    <title>The Retriever Should Remember: Experience-Amortized Reranking for Long-Term Agent Memory</title>
+    <updated>2026-08-24T03:42:03Z</updated>
+    <link href="https://arxiv.org/abs/2608.22767v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.22767v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term language-model agents accumulate memories across interactions, but their retrievers typically do not accumulate retrieval experience. Semantic retrieval is efficient, but embedding similarity does not always reflect whether a memory contains evidence relevant to the current query. Large language model (LLM) rerankers provide stronger query-conditioned relevance scores, yet stateless reranking repeatedly scores a large candidate pool and discards these scores after each query. We introduce EARM, an experience-amortized reranking framework that treats previously acquired LLM relevance scores as reusable retrieval experience. EARM stores sparse query--memory relevance scores in an online matrix, learns their shared structure through causal matrix completion, and combines a small set of newly observed scores with estimated scores to rerank the remaining candidates. The scoring budget decreases as experience accumulates, changing LLM reranking from a repeated per-query expense into a retrieval capability learned over an agent's lifetime. Experiments on long-term conversational memory show that mixed observed-and-estimated reranking improves answer accuracy over semantic retrieval by up to 6.62% and remains effective when only 17.5% of candidates receive direct LLM relevance scores, thereby substantially reducing the inference overhead of LLM reranking. These results motivate a broader view of agent memory: a long-lived agent should remember not only past content, but also how that content has proved useful for retrieval.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-24T03:42:03Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qi Feng</name>
+    </author>
+    <author>
+      <name>Chris Ding</name>
+    </author>
+    <author>
+      <name>Jicong Fan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.22310v1</id>
+    <title>HERO: Human-profile Enhanced Retrieval Optimization Framework for Long-term Agent Memory</title>
+    <updated>2026-08-23T09:19:34Z</updated>
+    <link href="https://arxiv.org/abs/2608.22310v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.22310v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term memory is crucial for personalized responses and long-horizon agent interactions. Existing methods often rely on LLMs to compress or rewrite dialogue histories and use the transformed memories as retrieval evidence. Despite the progress in organizing fragmented contexts, two major drawbacks persist: (1) information loss from compression, which discards fine-grained but later useful details, and (2) semantic drift from rewriting, which erodes the original tone and situated context. In this work, we propose a novel Human-profile Enhanced Retrieval Optimization framework for long-term agent memory (HERO). Specifically, HERO converts the dialogue history into a traceable heterogeneous memory graph that preserves raw dialogue text as evidence for reasoning, thereby mitigating information loss. For retrieval, HERO extracts initial anchors from the current query and incorporates human profiles via an iterative graph traversal; these anchors and profiles provide guidance signals that adaptively activate the most informative regions of the graph. Experiments on two benchmark datasets show that HERO outperforms strong baselines on both factual and personalized reasoning, while providing more faithful access to raw dialogue evidence.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-23T09:19:34Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuanhua Lin</name>
+    </author>
+    <author>
+      <name>Yile Li</name>
+    </author>
+    <author>
+      <name>Zhiyuan Zhao</name>
+    </author>
+    <author>
+      <name>Jing Shang</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.22215v2</id>
+    <title>Dual-Layer Agentic Memory with Fast Write Routing and Slow Consolidation</title>
+    <updated>2026-08-31T00:06:25Z</updated>
+    <link href="https://arxiv.org/abs/2608.22215v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.22215v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents operate in dynamic environments where knowledge continuously evolves. Existing memory systems typically treat external memory as a monotonically growing repository, inevitably leading to retrieval degradation and increasing computational costs over time. We argue that the core challenge is not retrieval alone, but managing the knowledge lifecycle: deciding what to externalize, update, or ultimately internalize. Inspired by Complementary Learning Systems (CLS) theory in neuroscience, we propose Dual-Layer Agentic Memory, a framework that shifts memory management to the write phase through cost-aware epistemic routing and periodic parametric consolidation. Incoming information is categorized as non-write, write-new, or write-update, and routed through a small-to-large model cascade that minimizes routing overhead while filtering redundant memories. A subsequent write-back phase selectively consolidates high-value external memories into model parameters via supervised fine-tuning. Experiments demonstrate the dual efficiency of our approach: a 1.7B/8B cascade prunes up to 68% of redundant external memory while escalating fewer than 50% of inputs, yet retains over 98% of the downstream QA Exact Match (EM) achieved by an exhaustive retention baseline. We further show that periodic consolidation successfully internalizes external knowledge, allowing the router to adaptively suppress redundant writes as the model's epistemic boundaries evolve. Overall, our framework presents a unified paradigm for agent memory: selective externalization followed by selective internalization. Code and dataset will be released upon acceptance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-23T04:40:13Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wenzhi Li</name>
+    </author>
+    <author>
+      <name>Dong Nie</name>
+    </author>
+    <author>
+      <name>Rui Lan</name>
+    </author>
+    <author>
+      <name>Tongtong Lyu</name>
+    </author>
+    <author>
+      <name>Peiyao Wang</name>
+    </author>
+    <author>
+      <name>Lingzi Hong</name>
+    </author>
+    <author>
+      <name>Weihang Pan</name>
+    </author>
+    <author>
+      <name>Binbin Lin</name>
+    </author>
+    <author>
+      <name>Boyuan Pan</name>
+    </author>
+    <author>
+      <name>Yao Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.21810v1</id>
+    <title>MSM-Mem: A Universal Medical Structured Multimodal Memory Framework for Medical AI Agents</title>
+    <updated>2026-08-22T07:17:10Z</updated>
+    <link href="https://arxiv.org/abs/2608.21810v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.21810v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Clinical decision-making is inherently experience-driven: physicians progressively refine their reasoning by synthesizing patient history, multimodal observations, and prior diagnostic experiences across interactions. In contrast, current multimodal large language model (MLLM)-based medical AI agents largely operate as stateless inference systems, generating decisions independently for each interaction without retaining or internalizing experiential knowledge. This discrepancy limits their ability to progressively improve reasoning reliability through usage and adapt to longitudinal patient contexts in real-world clinical workflows. In this study, we propose Medical Structured Multimodal Memory (MSM-Mem), an agentic memory framework that enables medical AI agents to evolve through accumulated clinical experiences. MSM-Mem organizes heterogeneous clinical experiences into semantic, episodic, and visual memory and incrementally updates them during inference, allowing the agent to retrieve prior experiences to inform current reasoning and progressively refine decision-making over time. Evaluations on MoE-LLaVA backbones demonstrate consistent performance improve- ments with further gains observed through continued usage. In general, MSM-Mem offers a viable pathway toward medical AI agents capable of evolving their reasoning competence in a manner analogous to the way clinicians learn from practice over time.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-22T07:17:10Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Md Asaduzzaman Jabin</name>
+    </author>
+    <author>
+      <name>Khoa Le</name>
+    </author>
+    <author>
+      <name>Lin Zhao</name>
+    </author>
+    <author>
+      <name>Tianming Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.18066v2</id>
+    <title>On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification</title>
+    <updated>2026-09-06T01:12:37Z</updated>
+    <link href="https://arxiv.org/abs/2608.18066v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.18066v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along two axes: (1) including multiple self-improving runs to quantify variance, and (2) shuffling the tasks to investigate the effect of task order. Through these experiments, we make two observations that expose the fragility of current methods: First, agent evaluation is inherently noisy in complex environments and on multi-step tasks, and stacking a self-improving loop on top can further amplify this noise. Second, the agent's improvement is highly dependent on task order. Prior works often adopt default orderings that impose an implicit curriculum, acting as a hidden prerequisite for success.
+  To better understand this fragility, we manually examine the agents' memory and hypothesize that task and environment underspecification contribute to this fragility. We validate this hypothesis by incorporating information that enables better specification, such as detailed rubrics and environment feedback, into the memory construction process. While this added information partially closes the performance degradation in previous experiments, significant gaps still remain, suggesting that other uncharacterized factors contribute to this fragility. Looking ahead, our work advocates for more rigorous evaluation protocols for self-improving agents by reporting results across multiple runs and stress-testing them under challenging conditions. Moreover, our findings on underspecification call for systems and interfaces that enable effective human oversight, preventing agents from failing in unforeseeable ways.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-18T17:55:07Z</published>
+    <arxiv:comment>Code: https://github.com/SalesforceAIResearch/self-improve-fragility Data: https://huggingface.co/datasets/Salesforce/self-improve-fragility</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qinyuan Ye</name>
+    </author>
+    <author>
+      <name>Yu Li</name>
+    </author>
+    <author>
+      <name>Yada Pruksachatkun</name>
+    </author>
+    <author>
+      <name>Jiaxin Zhang</name>
+    </author>
+    <author>
+      <name>Chien-Sheng Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.15008v1</id>
+    <title>Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents</title>
+    <updated>2026-08-15T03:29:48Z</updated>
+    <link href="https://arxiv.org/abs/2608.15008v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.15008v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory is becoming core infrastructure for long-horizon LLM agents, yet existing evaluations offer limited guidance on which memory substrate, namely the underlying medium in which memory is represented and stored, should be used under different operating regimes. We present a controlled harness evaluation of memory substrates for memory-augmented agents, covering dense and sparse indices, text records, structural stores, hierarchical stores, refinement-based memories, parametric updates, and activation-compatible context mechanisms. Across three backbone models and four benchmark suites spanning user-centric question answering and agent-centric decision-making, we instrument 26 performance and efficiency metrics under a unified harness. Our results show that no single substrate consistently dominates: broad retrieval benefits long-context factual QA, while excessive retrieval can harm sequential decision-making by shifting attention away from action-critical context. Scalability introduces a further routing axis, as substrates that perform well at moderate history lengths can become costly or brittle at longer horizons. These findings motivate substrate routing as a necessary component of adaptive agent memory systems and provide empirical guidance for designing efficient, reliable, and regime-aware long-term memory for LLM agents. Code will be made available upon acceptance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-15T03:29:48Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wei-Chieh Huang</name>
+    </author>
+    <author>
+      <name>Weizhi Zhang</name>
+    </author>
+    <author>
+      <name>Yuchen Wu</name>
+    </author>
+    <author>
+      <name>Yankai Chen</name>
+    </author>
+    <author>
+      <name>Eric Hanchen Jiang</name>
+    </author>
+    <author>
+      <name>Wooseong Yang</name>
+    </author>
+    <author>
+      <name>Yiwei Yang</name>
+    </author>
+    <author>
+      <name>Henry Peng Zou</name>
+    </author>
+    <author>
+      <name>Hanrong Zhang</name>
+    </author>
+    <author>
+      <name>Ying Nian Wu</name>
+    </author>
+    <author>
+      <name>Haolun Wu</name>
+    </author>
+    <author>
+      <name>Kai-Wei Chang</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+    <author>
+      <name>Xue Liu</name>
+    </author>
+    <author>
+      <name>Aylin Caliskan</name>
+    </author>
+  </entry>
+</feed>

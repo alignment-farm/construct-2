@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://export.arxiv.org/api/query?id_list=2601.01885%2C2605.22166%2C2607.01120%2C2505.22954&max_results=10",
+    "user_agent": "Construct-2 adaptation-decision synthesis (cached research metadata)",
+    "retrieved_at": "2026-09-16T12:23:25.267290+00:00",
+    "status": 200,
+    "headers": {
+      "Connection": "close",
+      "Content-Length": "11873",
+      "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+      "x-cloud-trace-context": "e70beea595769a5c06526719aa6099eb",
+      "content-type": "application/atom+xml; charset=utf-8",
+      "server": "Google Frontend",
+      "Accept-Ranges": "bytes",
+      "Age": "0",
+      "Date": "Wed, 16 Sep 2026 12:23:25 GMT",
+      "X-Served-By": "cache-lga21967-LGA, cache-lga21967-LGA, cache-lga21947-LGA, cache-mia-kmia1760108-MIA",
+      "X-Cache": "MISS, MISS, MISS",
+      "X-Cache-Hits": "0, 0, 0",
+      "X-Timer": "S1789561405.065251,VS0,VE182",
+      "Strict-Transport-Security": "max-age=300"
+    },
+    "file": "selected-metadata.xml",
+    "sha256": "e1c61c9514b8374cd8c16d78ec560c008ef365a7ff4685d7fd68f6b69664d800"
+  },
+  {
+    "url": "https://export.arxiv.org/api/query?id_list=2508.19828%2C2509.24704%2C2609.09134&max_results=10",
+    "user_agent": "Construct-2 adaptation-decision synthesis (cached research metadata)",
+    "retrieved_at": "2026-09-16T12:23:57.876619+00:00",
+    "status": 200,
+    "headers": {
+      "Connection": "close",
+      "Content-Length": "8531",
+      "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+      "x-cloud-trace-context": "601ebcc010cf4929e6286f68fa4dd76f",
+      "content-type": "application/atom+xml; charset=utf-8",
+      "server": "Google Frontend",
+      "Accept-Ranges": "bytes",
+      "Age": "0",
+      "Date": "Wed, 16 Sep 2026 12:23:57 GMT",
+      "X-Served-By": "cache-lga21992-LGA, cache-lga21992-LGA, cache-lga21947-LGA, cache-mia-kmia1760050-MIA",
+      "X-Cache": "MISS, MISS, MISS",
+      "X-Cache-Hits": "0, 0, 0",
+      "X-Timer": "S1789561438.692860,VS0,VE160",
+      "Strict-Transport-Security": "max-age=300"
+    },
+    "file": "additional-metadata.xml",
+    "sha256": "c5e93d4487d01ae95e34a35c1640062344270b21c8db76d54ef3c8843bb8f0e1"
+  },
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=%28abs%3A%22agent%22+AND+%28abs%3A%22memory+management%22+OR+abs%3A%22harness%22%29+AND+%28abs%3A%22learning%22+OR+abs%3A%22adaptation%22%29%29&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+    "user_agent": "Construct-2 adaptation-decision synthesis (cached research metadata)",
+    "retrieved_at": "2026-09-16T12:24:01.542371+00:00",
+    "status": 200,
+    "headers": {
+      "Connection": "close",
+      "Content-Length": "53753",
+      "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+      "x-cloud-trace-context": "e760808d82b8653ecdfe4ac948101395",
+      "server": "Google Frontend",
+      "content-type": "application/atom+xml; charset=utf-8",
+      "Accept-Ranges": "bytes",
+      "Age": "0",
+      "Date": "Wed, 16 Sep 2026 12:24:01 GMT",
+      "X-Served-By": "cache-lga21924-LGA, cache-lga21924-LGA, cache-lga21922-LGA, cache-mia-kmia1760044-MIA",
+      "X-Cache": "MISS, MISS, MISS",
+      "X-Cache-Hits": "0, 0, 0",
+      "X-Timer": "S1789561441.181608,VS0,VE287",
+      "Strict-Transport-Security": "max-age=300"
+    },
+    "file": "decision-discovery.xml",
+    "sha256": "db0889301f02aa38336ad13234159c0ff7732a358f512a335d89b34f99ada85e"
+  }
+]

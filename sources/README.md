@@ -3,6 +3,29 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [16 September adaptation-decision review](2026-09-16-adaptation-decisions/README.md)
+adds P39–P45: learned memory operations, online policy adaptation, harness
+optimization, component interactions and a proposed broader intervention selector.
+It grounds the [root synthesis](../notes/ADAPTATION_DECISIONS.md) in direct prior
+work and distinguishes implemented results from architectural proposals.
+
+The subsequent [placement assessment](../studies/2026-09-16-placement-findings.md)
+revisits P33's exact methods, comparator and limitations against the completed
+local adaptation. This is focused source comparison, not a new discovery survey.
+
+The [16 September discovery and methods review](2026-09-16-research-direction/README.md)
+adds P26–P35: direct forgetting forecasts, adaptive reset, reusable learned
+context, substrate comparisons, consolidation, learned retrieval and complementary
+reliability results. Four successful arXiv API requests and supplementary web
+searches broaden the earlier title lookups. The
+[research-selection note](../notes/RESEARCH_DIRECTION.md) records which proposed
+questions this prior work answers or narrows and the resulting research choices.
+
+The [subsequent preparation review](2026-09-16-study-preparation/README.md)
+inspects pinned implementations and a document workload, adds closer revision
+and cost precedents P36–P38, and explains the choice to begin with learned access.
+These are static feasibility checks; no method was executed.
+
 The [10 September review](2026-09-10/README.md) preserves the initial abstract
 and source-summary reading and its metadata cache. The current
 [paper and study map](../studies/README.md#3-paper-map-what-we-can-build-on)
@@ -42,7 +65,8 @@ complete maintenance and later compositional use. S1 inspected pinned MIR author
 code before adapting its selection method; S2 records editing-method and code
 inspection; S4 reuses accepted writers and cached TTT reading. These are bounded
 local adaptations and analyses, not new algorithm or comprehensive novelty
-claims. The root synthesis conducted no additional public-literature search.
+claims. That third-phase synthesis conducted no additional public-literature
+search; the subsequent 16 September review above renews discovery.
 
 ---
 

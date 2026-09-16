@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-16",
+  "queries": [
+    {
+      "query": "\"predicting forgetting\" \"language models\"",
+      "domains": []
+    },
+    {
+      "query": "\"test time adaptation\" \"when to adapt\" forgetting",
+      "domains": []
+    },
+    {
+      "query": "\"context distillation\" \"amortization\" memory cost",
+      "domains": []
+    },
+    {
+      "query": "\"What Will My Model Forget\" \"Forecasting\" ICML",
+      "domains": [
+        "proceedings.mlr.press",
+        "arxiv.org"
+      ]
+    },
+    {
+      "query": "\"Cartridges\" \"memory\" \"2025\"",
+      "domains": [
+        "arxiv.org",
+        "hazyresearch.stanford.edu"
+      ]
+    },
+    {
+      "query": "\"test time adaptation\" \"reset\" \"2026\"",
+      "domains": [
+        "arxiv.org",
+        "openreview.net"
+      ]
+    },
+    {
+      "query": "\"Doc-to-LoRA\" paper",
+      "domains": [
+        "arxiv.org",
+        "pub.sakana.ai"
+      ]
+    },
+    {
+      "query": "\"Cartridges\" \"incremental\" context memory",
+      "domains": [
+        "arxiv.org",
+        "openreview.net",
+        "hazyresearch.stanford.edu"
+      ]
+    },
+    {
+      "query": "\"parametric memory\" \"revision\" \"cost\"",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "query": "\"forgetting prediction\" \"sequential\" \"2026\"",
+      "domains": [
+        "arxiv.org",
+        "openreview.net"
+      ]
+    }
+  ],
+  "note": "General web discovery supplemented arXiv API metadata. Secondary summaries were leads only; supporting reading uses exact-version primary papers. Search-engine rankings and snippets are not archived."
+}

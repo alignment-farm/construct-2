@@ -1,0 +1,23 @@
+{
+  "inspected_on": "2026-09-16",
+  "tau_bench": {
+    "revision": "2174a603f6d014ef94473ffa95957f6ce27100db",
+    "documents": 698,
+    "tasks": 97,
+    "scope": "Inventory count, task schema/first entry, and one document inspected. No full corpus validation or execution."
+  },
+  "doc_to_lora_checkpoint_metadata": {
+    "url": "https://huggingface.co/api/models/SakanaAI/doc-to-lora",
+    "revision": "7514da3cf18439265aef805f2a00170199e44456",
+    "gated": false,
+    "checkpoint_files": [
+      "gemma_2b_d2l/checkpoint-20000/pytorch_model.bin",
+      "gemma_demo/checkpoint-80000/pytorch_model.bin",
+      "mistral_7b_d2l/checkpoint-20000/pytorch_model.bin",
+      "qwen_4b_d2l/checkpoint-20000/pytorch_model.bin"
+    ],
+    "metadata_sha256": "d124ff1db8355f041166a4f06c6438063745180190a1a24ce10b428677d22e68",
+    "temporary_cache": "/private/tmp/construct2-method-preparation/doc-to-lora/hf-model-metadata.json",
+    "scope": "Metadata only; no checkpoint download or load."
+  }
+}

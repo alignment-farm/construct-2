@@ -1,0 +1,100 @@
+{
+  "user_agent": "Construct-2 root research direction review (local research metadata cache)",
+  "requests": [
+    {
+      "query": "(abs:forgetting AND (abs:prediction OR abs:predicting OR abs:forecasting) AND (abs:\"language model\" OR abs:\"language models\"))",
+      "url": "https://export.arxiv.org/api/query?search_query=%28abs%3Aforgetting+AND+%28abs%3Aprediction+OR+abs%3Apredicting+OR+abs%3Aforecasting%29+AND+%28abs%3A%22language+model%22+OR+abs%3A%22language+models%22%29%29&start=0&max_results=15&sortBy=submittedDate&sortOrder=descending",
+      "time": "2026-09-16T09:25:39.155946+00:00",
+      "status": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "39287",
+        "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+        "x-cloud-trace-context": "112fb2810a52020fc32f7d00dfc2e287",
+        "server": "Google Frontend",
+        "content-type": "application/atom+xml; charset=utf-8",
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Date": "Wed, 16 Sep 2026 09:25:39 GMT",
+        "X-Served-By": "cache-lga21935-LGA, cache-lga21935-LGA, cache-lga21954-LGA, cache-mia-kmia1760092-MIA",
+        "X-Cache": "MISS, MISS, MISS",
+        "X-Cache-Hits": "0, 0, 0",
+        "X-Timer": "S1789550739.380504,VS0,VE182",
+        "Strict-Transport-Security": "max-age=300"
+      },
+      "file": "forgetting.xml",
+      "sha256": "c5bb1392d80d9acb8de0bcee1f3c8b886ce4c17b36a669fb4b81bea0f93ea242"
+    },
+    {
+      "query": "(abs:\"context distillation\" OR ti:\"Doc-to-LoRA\" OR ti:Cartridges OR (abs:\"parametric memory\" AND (abs:cost OR abs:retrieval)))",
+      "url": "https://export.arxiv.org/api/query?search_query=%28abs%3A%22context+distillation%22+OR+ti%3A%22Doc-to-LoRA%22+OR+ti%3ACartridges+OR+%28abs%3A%22parametric+memory%22+AND+%28abs%3Acost+OR+abs%3Aretrieval%29%29%29&start=0&max_results=15&sortBy=submittedDate&sortOrder=descending",
+      "time": "2026-09-16T09:25:42.792443+00:00",
+      "status": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "38871",
+        "server": "Google Frontend",
+        "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+        "x-cloud-trace-context": "ded7a7084fbf69f27c017da1eaf71b2d",
+        "content-type": "application/atom+xml; charset=utf-8",
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Date": "Wed, 16 Sep 2026 09:25:43 GMT",
+        "X-Served-By": "cache-lga21986-LGA, cache-lga21986-LGA, cache-lga21926-LGA, cache-mia-kmia1760051-MIA",
+        "X-Cache": "MISS, MISS, MISS",
+        "X-Cache-Hits": "0, 0, 0",
+        "X-Timer": "S1789550743.897395,VS0,VE204",
+        "Strict-Transport-Security": "max-age=300"
+      },
+      "file": "placement.xml",
+      "sha256": "196dc12092043641f3547326cba3a40f05c80e1b7aee8e1d36f16cf3125fa662"
+    },
+    {
+      "query": "(abs:\"agent memory\" AND (abs:adaptive OR abs:policy OR abs:learning))",
+      "url": "https://export.arxiv.org/api/query?search_query=%28abs%3A%22agent+memory%22+AND+%28abs%3Aadaptive+OR+abs%3Apolicy+OR+abs%3Alearning%29%29&start=0&max_results=15&sortBy=submittedDate&sortOrder=descending",
+      "time": "2026-09-16T09:25:46.331124+00:00",
+      "status": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "39065",
+        "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+        "x-cloud-trace-context": "8bfaf3b4257036f9d91c6702748d4615",
+        "server": "Google Frontend",
+        "content-type": "application/atom+xml; charset=utf-8",
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Date": "Wed, 16 Sep 2026 09:26:01 GMT",
+        "X-Served-By": "cache-lga21986-LGA, cache-lga21986-LGA, cache-lga21975-LGA, cache-mia-kmia1760068-MIA",
+        "X-Cache": "MISS, MISS, MISS",
+        "X-Cache-Hits": "0, 0, 0",
+        "X-Timer": "S1789550746.433836,VS0,VE15352",
+        "Strict-Transport-Security": "max-age=300"
+      },
+      "file": "memory-policy.xml",
+      "sha256": "40519c758fcf58a2b007fe2cef6a1fdd5c490a398536886e7f2f2edeffbd993e"
+    },
+    {
+      "url": "https://export.arxiv.org/api/query?id_list=2402.01865%2C2406.14026%2C2506.06266%2C2602.15902%2C2603.03796%2C2608.15008%2C2608.22215%2C2608.22767%2C2608.18066%2C2609.08067&max_results=10",
+      "time": "2026-09-16T09:26:59.847440+00:00",
+      "status": 200,
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "26139",
+        "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+        "x-cloud-trace-context": "e2d6c443348b0edba089954d007493d8",
+        "content-type": "application/atom+xml; charset=utf-8",
+        "server": "Google Frontend",
+        "Accept-Ranges": "bytes",
+        "Age": "0",
+        "Date": "Wed, 16 Sep 2026 09:27:00 GMT",
+        "X-Served-By": "cache-lga21982-LGA, cache-lga21982-LGA, cache-lga21934-LGA, cache-mia-kmia1760099-MIA",
+        "X-Cache": "MISS, MISS, MISS",
+        "X-Cache-Hits": "0, 0, 0",
+        "X-Timer": "S1789550820.015463,VS0,VE163",
+        "Strict-Transport-Security": "max-age=300"
+      },
+      "file": "selected-metadata.xml",
+      "sha256": "54f91a099c8ed1a607f3dbfb9f60a5a9e2d28484d6e89af598bf969855e46738"
+    }
+  ]
+}

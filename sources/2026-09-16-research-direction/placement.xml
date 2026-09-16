@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CywIcqBizpPKghMDFmw9krGB+Hs</id>
+  <title>arXiv Query: search_query=(abs:"context distillation" OR ti:"Doc-to-LoRA" OR ti:Cartridges OR (abs:"parametric memory" AND (abs:cost OR abs:retrieval) ) )&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-09-16T09:25:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22context+distillation%22+OR+(ti:%22Doc-to-LoRA%22+OR+(ti:Cartridges+OR+(abs:%22parametric+memory%22+AND+(abs:cost+OR+abs:retrieval))))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>164</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.16927v1</id>
+    <title>Verbalizing Subliminal Learning Effects Using Text Optimization</title>
+    <updated>2026-09-15T10:03:31Z</updated>
+    <link href="https://arxiv.org/abs/2609.16927v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.16927v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Subliminal learning is a phenomenon in which a distillation dataset transmits traits from the teacher model that are not legibly encoded in the dataset itself. This introduces a new challenge for model development and creates new risks from data poisoning. In this work, we use text optimization to detect subliminal learning effects and describe them as legible prompts. Subliminal learning from a prompted teacher motivates our approach. We observe that this is a special case of context distillation and leverage this observation to show that, in theory, the prompted subliminal learning dataset identifies the teacher's prompt. We reduce recovering this prompt to a text optimization problem and present a method to approximately solve it. Our method, SALVE (Search-Aided Latent Verbalization), optimizes a soft prompt, queries the same model to verbalize it as text, and uses beam search to make the verbalization reliable. In the standard subliminal learning setting, SALVE reliably recovers legible prompts that name the teacher's trait, while common text optimization methods fail to do so. In addition, we find that there are settings in which SALVE recovers the teacher's trait from a dataset even when subliminal learning fails, but that modifying student training to improve context distillation can create subliminal learning effects. We lastly show that SALVE detects subliminal learning effects in three additional settings: (1) mixtures of subliminal learning data and unrelated data, (2) data generated when the teacher is biased via activation steering, and (3) subsets of real preference data selected via Logit-Linear Selection. Overall, our results deepen our understanding of subliminal learning and present SALVE as a method to proactively detect subliminal learning effects.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-15T10:03:31Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nathan Hu</name>
+    </author>
+    <author>
+      <name>Sanmi Koyejo</name>
+    </author>
+    <author>
+      <name>Christopher Potts</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.13478v1</id>
+    <title>BadEngram: Backdoor Attack on Gated Memory Components in LLMs</title>
+    <updated>2026-09-11T19:48:59Z</updated>
+    <link href="https://arxiv.org/abs/2609.13478v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.13478v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To expand open-weight models' capacity without proportionally increasing computation, recent language models incorporate gated parametric memories that retrieve learned values and inject them into intermediate representations. Despite these efficiency benefits, such modules create a distinct attack surface: their parameters can be modified independently of the backbone while directly shaping its computation. We introduce BadEngram, a post-training attack that exploits this surface to implant persistent, trigger-dependent behavior while leaving conventional backbone weights and the execution graph unchanged. We first establish the attack's feasibility and causally characterize its mechanism in a controlled Engram model, where BadEngram achieves 96.6% ASR on triggered inputs while limiting false activation on matched trigger-free inputs to 0.1% and preserving 99.6% clean accuracy. Replacing the retrieved memory values with their clean counterparts or closing the memory gates reduces ASR to at most 0.32%, confirming that the backdoor is expressed through the gated-memory pathway. We then test whether this vulnerability extends to production scale in Qwen3.8-Flash-Next's native Per-Layer Embedding subsystem. Using independently trained checkpoints for the two benchmarks, BadEngram achieves 50.4% ASR on HarmBench and 60.0% on AdvBench, while dormant-condition ASR remains 0.9% and 0.0%, respectively. These results identify native gated-memory parameters as a security-critical part of the model whose integrity cannot be inferred from an unchanged backbone.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-11T19:48:59Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ariel Fogel</name>
+    </author>
+    <author>
+      <name>Omer Hofman</name>
+    </author>
+    <author>
+      <name>Eilon Cohen</name>
+    </author>
+    <author>
+      <name>Roman Vainshtein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.01182v1</id>
+    <title>LLMPEDIA: Browsing, Verifying, and Comparing the Parametric Encyclopedic Knowledge of LLMs</title>
+    <updated>2026-09-01T12:56:02Z</updated>
+    <link href="https://arxiv.org/abs/2609.01182v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.01182v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Flagship language models appear saturated on benchmarks like MMLU (Hendrycks et al., 2021), scoring above 90% - yet benchmarks test only what the experimenter thought to ask, the availability bias of fixed question sets. LLMPEDIA makes this bias measurable and browsable. We recursively materialized ~1.3M articles from three model families' parametric memory (GPT-5-mini, DeepSeek-V3.2, Llama-3.3-70B) without retrieval, then audited a stratified sample of atomic claims against Wikipedia and a curated web stack, coloring every claim supported, refuted, or insufficient (Saeed and Razniewski, 2026). On a uniform random sample the true rate is 68.4% - more than 21 pp below MMLU - with 30.5% of claims insufficient: assertions no benchmark probes and the world's largest encyclopedia cannot adjudicate - long-tail knowledge or plausible hallucination, the evidence cannot tell - extending to free text the coverage gap GPTKB established for triples (Hu et al., 2025). The resulting live, open encyclopedia lets visitors inspect this frontier one claim at a time through five one-click views - link-traversal exploration, claim-level factuality, cross-model and political-persona comparison, and a guided topic drill-down - each page, claim, and verdict at a stable URL. LLMPEDIA is live at https://llmpedia.net</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-01T12:56:02Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Muhammed Saeed</name>
+    </author>
+    <author>
+      <name>Simon Razniewski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.30676v1</id>
+    <title>MedAgent-R1: Faithfulness-Aware Reinforcement Learning for Evidence-Grounded Medical Reasoning</title>
+    <updated>2026-08-31T12:19:41Z</updated>
+    <link href="https://arxiv.org/abs/2608.30676v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.30676v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When medical AI systems hallucinate clinical reasoning, the consequences extend beyond incorrect answers: fabricated justifications that superficially reference retrieved evidence can mislead clinicians into unsafe treatment decisions. Medical reasoning agents must therefore produce not only correct answers but also faithful justifications that clinicians can verify against cited evidence. We identify a systematic failure mode in RL-trained retrieval agents: outcome-only rewards improve accuracy while degrading faithfulness, a phenomenon we term confident hallucination. The agent learns to answer from parametric memory and backfill plausible but unsupported justifications; citation fabrication rates rise from 16.5% to 31.8% even as accuracy improves by 5 points over the supervised baseline. We address this with a faithfulness-gated reward design: accuracy credit is conditioned on evidence grounding via a hard gate, complemented by retrieval validity and conciseness signals that close exploitation paths unique to agentic retrieval. The resulting system, MedAgent-R1, reduces citation fabrication from 31.8% to 4.7% and raises evidence completeness from 58.7 to 82.6 while maintaining 75.1% accuracy, with 13.2-point gains on HealthBench Safety. Under the same agentic retrieval setup, MedAgent-R1 outscores GPT-4o on faithfulness-specific dimensions (Factual Support 4.55 vs. 4.25; Overclaiming 4.40 vs. 4.15) while remaining below GPT-4o in overall accuracy, suggesting that explicit faithfulness training yields evidence-grounding gains not achieved by scaling alone.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-31T12:19:41Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jiangwang Chen</name>
+    </author>
+    <author>
+      <name>Chenghao Zhang</name>
+    </author>
+    <author>
+      <name>Hengxing Cai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.28478v1</id>
+    <title>Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge</title>
+    <updated>2026-08-28T16:06:01Z</updated>
+    <link href="https://arxiv.org/abs/2608.28478v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.28478v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address this gap, we introduce ElephantBench, a closed-book knowledge probe comprising 1,094 questions generated through an auditable graph-based pipeline. The pipeline retrieves related documents from a low-exposure web corpus, identifies naturally occurring disagreements, and converts them into multi-account QA records. Each answer is verified against the originating documents and authoritative public web sources and is then reviewed by human annotators. Across 32 models, even the strongest model recovers both accounts on only 52.4% of questions, while on nearly all remaining questions it recalls one account but omits the other. Scaling model size and inference-time reasoning improve recall but do not eliminate this incompleteness. Corpus analysis further shows that exposure imbalance favors the dominant account, whereas greater minority-side exposure is associated with more complete recall. These findings establish ElephantBench as a reproducible knowledge probe for diagnosing epistemic myopia in parametric memory. More broadly, our graph-based benchmark construction pipeline provides an efficient and scalable way to turn long-tail corpora into source-traceable knowledge probes, supporting efforts to evaluate and advance the epistemic rigour of next-generation LLMs. Code is available at https://github.com/Tencent/ElephantBench.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-28T16:06:01Z</published>
+    <arxiv:comment>10 pages, 10 figurs, 1 table, under review</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhuoshi Pan</name>
+    </author>
+    <author>
+      <name>Junru Lu</name>
+    </author>
+    <author>
+      <name>Yan Qian</name>
+    </author>
+    <author>
+      <name>H. Vicky Zhao</name>
+    </author>
+    <author>
+      <name>Di Yin</name>
+    </author>
+    <author>
+      <name>Xing Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.26385v1</id>
+    <title>Why RAGs Hallucinate: Penalty-Aware Evaluation of Retrieval-Augmented Generation Systems with Knowledge-Gap Canaries</title>
+    <updated>2026-08-26T20:17:01Z</updated>
+    <link href="https://arxiv.org/abs/2608.26385v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.26385v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Volume-based accuracy rewards retrieval-augmented generation (RAG) systems for guessing: a system that answers everything outscores one that declines when its knowledge base cannot support an answer. Building on the confidence-target analysis of Kalai et al. (2025), we present a penalty-aware evaluation framework for deployed RAG products, combining (i) asymmetric scoring (correct +1, wrong -4, abstain 0), (ii) knowledge-gap canaries, questions whose answers are verifiably absent from the knowledge base, so that any answer constitutes ungrounded generation from parametric memory, and (iii) a failure-attribution pipeline that separates retrieval, generation, and abstention-policy failures. Applying the framework to three commercial RAG systems and a no-retrieval baseline on SimpleQA-Verified (1,000 questions x 3 repeats, graded blind by a cross-family three-judge panel with 98.9% unanimity), we find that accuracy when answering is closely clustered across systems (97.0-98.0%), while canary violation rates differ roughly sixfold (16.7% vs. 98.1%). The systems are separated less by what they answer correctly than by whether they answer at all when they should not, and penalty-aware scoring reorders the volume-based ranking accordingly; the reordering is stable across penalty settings from k=1 to k=9. All code, configurations, transcripts, and judge votes are released for independent audit.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-26T20:17:01Z</published>
+    <arxiv:comment>13 pages, 1 figure, 5 tables. Code, full per-request logs, and all judge votes: https://github.com/adorosario/why-rags-hallucinate</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Alden Do Rosario</name>
+    </author>
+    <author>
+      <name>Hussein Younes</name>
+    </author>
+    <author>
+      <name>Felipe Pires</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.25610v1</id>
+    <title>Advantage-Driven Explicit Memory for Social Navigation</title>
+    <updated>2026-08-26T10:27:08Z</updated>
+    <link href="https://arxiv.org/abs/2608.25610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.25610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robot policies are predominantly learned with classical parametric variants of imitation learning or RL, where training stores the agent's behavior exclusively in the policy's network parameters, putting a heavy burden on the representation learning algorithm. We propose a new navigation agent equipped with non-parametric memory which explicitly indexes prior steps leading to critical events. The advantages are twofold: first, it allows the policy to outsource some of its behavior into an explicit memory; second, it encourages a form of continual learning by allowing an agent to collect data from its testing episodes during deployment and therefore to better generalize to OOD situations. In the context of social navigation, we show that this improves the agent's capability to retain sparse, high-cost failures, such as human collisions. If the policy is trained in simulation, this also naturally addresses the sim-to-real gap, partially, by basing some of the decision making on real data. We integrate the explicit memory into a recurrent PPO architecture and use hidden states for memory retrieval to capture continuous spatiotemporal dynamics. The goal of exploiting rare, high-impact events is achieved by leveraging the RL agent's advantage signals. We train our agent in simulation with a combination of photorealistic rendering and non-visual crowd simulation and show that the agent is robust with respect to OOD social behavior.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-26T10:27:08Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yeonsoo Park</name>
+    </author>
+    <author>
+      <name>Mattia Racca</name>
+    </author>
+    <author>
+      <name>Guillaume Bono</name>
+    </author>
+    <author>
+      <name>Steeven Janny</name>
+    </author>
+    <author>
+      <name>Gianluca Monaci</name>
+    </author>
+    <author>
+      <name>Tomi Silander</name>
+    </author>
+    <author>
+      <name>Christian Wolf</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.23329v2</id>
+    <title>Thinking Beyond Videos: Unifying Video Reasoning and Deep Research for Open-World Video Agents</title>
+    <updated>2026-08-25T13:58:46Z</updated>
+    <link href="https://arxiv.org/abs/2608.23329v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.23329v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open-world video understanding often requires a model to locate sparse visual evidence and acquire external knowledge that is absent from the video and its parametric memory. While Thinking-with-Videos enables active temporal perception and Deep Research supports multi-step information seeking, the two capabilities are typically developed in isolation. We introduce VideoRover, a unified Video Deep Research framework that iteratively coordinates video cropping, multimodal search, and webpage browsing. Given a video-question pair, VideoRover uses each tool result to select the next action, so localized video clips guide external retrieval and retrieved evidence triggers further video inspection and verification. To develop this capability, we construct an automated data curation pipeline, producing 26K verified SFT trajectories and 3K challenging RL instances. We also introduce VideoRover-Bench, a benchmark stratified by video duration and research difficulty. Experiments on VideoDR and VideoRover-Bench show that our VideoRover-8B-RL achieves performance comparable to proprietary models in the direct-answer setting without tool use while outperforming larger open-source models equipped with the same tool suite. Ablation studies and training dynamics further validate the complementary roles of active video grounding, external retrieval, and long-horizon reinforcement learning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-24T14:42:23Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Wenqi Liu</name>
+    </author>
+    <author>
+      <name>Shijie Ma</name>
+    </author>
+    <author>
+      <name>Yunxiao Wang</name>
+    </author>
+    <author>
+      <name>Meng Liu</name>
+    </author>
+    <author>
+      <name>Qile Su</name>
+    </author>
+    <author>
+      <name>Han Liu</name>
+    </author>
+    <author>
+      <name>Bohan Hou</name>
+    </author>
+    <author>
+      <name>Zeyu Wang</name>
+    </author>
+    <author>
+      <name>Xuanyu Zheng</name>
+    </author>
+    <author>
+      <name>Changyi Liu</name>
+    </author>
+    <author>
+      <name>Tianke Zhang</name>
+    </author>
+    <author>
+      <name>Haonan Fan</name>
+    </author>
+    <author>
+      <name>Kaiyu Jiang</name>
+    </author>
+    <author>
+      <name>Yingxin Li</name>
+    </author>
+    <author>
+      <name>Jiankang Chen</name>
+    </author>
+    <author>
+      <name>Xu Wang</name>
+    </author>
+    <author>
+      <name>Hongyi Fu</name>
+    </author>
+    <author>
+      <name>Jianxiong Wang</name>
+    </author>
+    <author>
+      <name>Bin Wen</name>
+    </author>
+    <author>
+      <name>Tingting Gao</name>
+    </author>
+    <author>
+      <name>Han Li</name>
+    </author>
+    <author>
+      <name>Jianhua Yin</name>
+    </author>
+    <author>
+      <name>Yinwei Wei</name>
+    </author>
+    <author>
+      <name>Xuemeng Song</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.22228v1</id>
+    <title>Prompt-Based Abstention Fails Under Misleading Context: A Controlled Study of Small Frozen RAG Models</title>
+    <updated>2026-08-23T05:43:27Z</updated>
+    <link href="https://arxiv.org/abs/2608.22228v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.22228v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Missing and misleading evidence are not the same problem in retrieval-augmented generation (RAG), but prompt-based abstention treats them alike. Models abstain when context is absent, not when it is misleading. We introduce GRAB-RAG (Graded Abstention Benchmark for Retrieval-Augmented Generation), a paired benchmark that tests the same questions across four context conditions (supportive, degraded, missing, and misleading) in Natural Questions and HotpotQA. In the misleading condition, we edit a gold passage to support a wrong answer and place it among other retrieved passages. We test five abstention policies on three small frozen models (3.8B--8B) across two QA benchmarks. Models abstain reliably when evidence is missing, but under explicit abstention prompting still answer 41.6% of misleading questions, with 63% of those answers echoing the planted wrong entity verbatim. Chain-of-thought provides little additional benefit. A generator-side conflict check cuts the rate to 13.3% but discards many correct answers, while an NLI verifier recovers that coverage but fails when parametric memory and the misleading passage agree on the same wrong answer. Prompt-based abstention asks whether context is sufficient, not whether it is correct. Neither verifier closes this gap without trading coverage for safety.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-23T05:43:27Z</published>
+    <arxiv:comment>20 pages. Committed to AACL-IJCNLP 2026. Code/data to be released</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Yohanes Andre Setiawan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.19621v2</id>
+    <title>Mitigating Identity Essentialism in LLM Agents with Longitudinal Life Trajectories</title>
+    <updated>2026-08-21T09:45:31Z</updated>
+    <link href="https://arxiv.org/abs/2608.19621v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.19621v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) offer a scalable approach to social simulation, but their credibility depends on how agents are constructed. Existing methods can partially reproduce population-level patterns, yet often fail to capture human-like diversity. Our analysis shows that static-profile agents exhibit stronger demographic separation and within-group compression than humans, a pattern consistent with identity essentialism: demographic labels can encourage models to treat group-average tendencies as individual traits, homogenizing responses within groups. We argue that this limitation arises from two related factors: sparse, static agent representations and the limited ability of prompt-only memory to persistently integrate experience. Inspired by complementary memory systems, we propose LifeMem, a longitudinal memory framework that combines structured life-event retrieval with agent-specific parametric memory for experience integration. Experiments on Add Health and Understanding Society with three LLMs show that LifeMem improves alignment with human data in terms of response distributions, overall and within-group diversity, and patterns of within-person response change across life stages. These findings highlight the value of longitudinal life-event memory for constructing more faithful and dynamically evolving social agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-20T04:13:11Z</published>
+    <arxiv:comment>23 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hexi Wang</name>
+    </author>
+    <author>
+      <name>Yujia Zhou</name>
+    </author>
+    <author>
+      <name>Bangde Du</name>
+    </author>
+    <author>
+      <name>Weihang Su</name>
+    </author>
+    <author>
+      <name>Xinyuan Cao</name>
+    </author>
+    <author>
+      <name>Qingyi Pan</name>
+    </author>
+    <author>
+      <name>Qingyao Ai</name>
+    </author>
+    <author>
+      <name>Yueyue Wu</name>
+    </author>
+    <author>
+      <name>Min Zhang</name>
+    </author>
+    <author>
+      <name>Yiqun Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.16630v1</id>
+    <title>The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks</title>
+    <updated>2026-08-17T14:30:41Z</updated>
+    <link href="https://arxiv.org/abs/2608.16630v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.16630v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Repository-scale coding requires an agent to keep tests, imports, configuration, and migration rules consistent within a bounded context window. We model this as reconstructing a coupled-fact graph: at each edit, a required fact comes from recent context or parametric memory, and the facts covered by neither form coherence debt. We supply and withhold each channel and inject faults across seven models and five harnesses. As expected, no model completes a task on an unseen API with both channels empty, and putting the facts in the prompt restores success. When a rename defeats what models memorized about a real library, all seven fail in the same place, passing and missing the same tests. Availability decides the outcome and distance does not: withholding a fact costs exactly the work it supports, and a supplied fact works as well far from the edit as next to it. Harnesses pay unequal prices for it: configurations that all pass every test differ more than tenfold in tokens consumed because they rebuild the same content at different rates, and spending more recovers nothing when facts are withheld. A missing fact produces wrong work rather than absent work: an agent asked to act acts, fabricating the file or guessing the value, so instruments built on reads look for a hole already filled. How often it says it is blocked instead is a property of the model, from every trial to none. Availability does not settle every edit: where standard and code disagree, agents follow the standard even when it prescribes the worse code, so a stale convention file costs more than no file. Because parametric memory substitutes for reading, on SWE-bench, where models likely know the repositories, reads no longer predict success. Harnesses should keep the facts an edit depends on available when the agent writes, and check that availability against what the agent produces rather than what it reads.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-17T14:30:41Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Bardia Mohammadi</name>
+    </author>
+    <author>
+      <name>Lars Klein</name>
+    </author>
+    <author>
+      <name>Aman Chadha</name>
+    </author>
+    <author>
+      <name>Akhil Arora</name>
+    </author>
+    <author>
+      <name>Laurent Bindschaedler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.16515v1</id>
+    <title>When Context Misleads: Intent-Guided Decoding for Robust Retrieval-Augmented Generation</title>
+    <updated>2026-08-17T12:56:43Z</updated>
+    <link href="https://arxiv.org/abs/2608.16515v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.16515v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-augmented generation (RAG) improves large language models by grounding generation in external evidence, but it also introduces a source trust problem: retrieved context may be useful, irrelevant, or even misleading. Existing RAG systems often apply a fixed trust policy toward retrieved evidence, which can either over-trust incorrect context or underuse context when the user explicitly asks for context-following behavior. Therefore, we propose Intent-Guided Decoding (IGD), a framework that arbitrates between retrieved context and parametric memory according to user intent. IGD uses answer-level filtering and token-level correction to steer the final decoding trajectory between retrieved context and parametric memory. We evaluate IGD on three faithful QA benchmarks and three factual-conflict benchmarks across five LLMs, IGD substantially improves factual recovery, achieving gains of up to 65.4 percentage points on factual-conflict benchmarks over Direct RAG, while preserving or improving strict context-following behavior, this findings highlight the importance of balancing factuality and faithfulness in RAG.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-17T12:56:43Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Haolin Jin</name>
+    </author>
+    <author>
+      <name>Pengyue Yang</name>
+    </author>
+    <author>
+      <name>Huaming Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.14221v1</id>
+    <title>MathForm: Scaling Mathematical Autoformalization with Knowledge Retrieval and Verification-Guided Refinement</title>
+    <updated>2026-08-14T11:51:12Z</updated>
+    <link href="https://arxiv.org/abs/2608.14221v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.14221v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autoformalization is commonly framed as translating natural-language mathematical statements into machine-verifiable formal languages such as Lean 4. However, faithful formalization requires more than translation. Models must map mathematical concepts to the complex hierarchy of types and definitions in formal libraries such as Mathlib, while ensuring that generated statements preserve the meaning of the source propositions. Existing approaches struggle because they rely heavily on the model's parametric memory for library-specific knowledge, while common data construction pipelines often resort to filtering single-pass outputs and lack mechanisms for feedback-driven revision. To address these challenges, we introduce MathForm, an autoformalization framework for constructing verified training data through Mathlib knowledge retrieval and verification-guided iterative refinement. Before generation, a retrieval planner gathers relevant definitions and existing formalizations from Mathlib to guide the formalization generator. Generated statements are then revised using compiler diagnostics and semantic-consistency feedback. Using this framework, we construct FormalVerse, a Lean 4 dataset containing approximately 367K verified examples across diverse mathematical domains and sources. We then train MathForm-8B through supervised fine-tuning followed by reinforcement learning. Across six benchmarks, MathForm-8B achieves average Pass@8 rates of 88.06% under Syntax Check (SC) and 72.37% under Consistency Check (CC), outperforming multiple specialized 32B autoformalizers. On the challenging FATE-H and FATE-X subsets, it attains CC pass rates of 63% and 37%, exceeding the strongest specialized baselines in both cases.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-14T11:51:12Z</published>
+    <arxiv:comment>25 pages, 6 figures, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Lushi Pu</name>
+    </author>
+    <author>
+      <name>Weiming Zhang</name>
+    </author>
+    <author>
+      <name>Xinheng Xie</name>
+    </author>
+    <author>
+      <name>Zixuan Fu</name>
+    </author>
+    <author>
+      <name>Bingxiang He</name>
+    </author>
+    <author>
+      <name>Hengyu Zhao</name>
+    </author>
+    <author>
+      <name>Hongya Lyu</name>
+    </author>
+    <author>
+      <name>Xin Li</name>
+    </author>
+    <author>
+      <name>Jie Zhou</name>
+    </author>
+    <author>
+      <name>Yudong Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.09227v1</id>
+    <title>Omni2LoRA: Coherence-Preserving Parametric Memory for Efficient Omni Language Models</title>
+    <updated>2026-08-10T07:49:10Z</updated>
+    <link href="https://arxiv.org/abs/2608.09227v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.09227v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Omnimodal language models (OLMs) enable unified audio-visual understanding, but processing long joint token sequences makes inference computationally prohibitive. While recent token compression methods attempt to alleviate this burden, compressing modalities in isolation often destroys the temporal cross-modal anchors necessary for coherent reasoning. We introduce Omni2LoRA, a two-stage framework for efficient parametric memory compression via coherence-preserving context distillation that bypasses the token bottleneck entirely. First, a Perceiver hypernetwork processes intermediate representations from a frozen OLM to encode the multimodal context into a full-rank Low-Rank Adaptation (LoRA) adapter in a single forward pass. To prevent the resulting parameter footprint from scaling linearly with recording length, we optimize a discrete rank allocation policy via Group Relative Policy Optimization (GRPO) that uses a modality-ablated counterfactual reward to explicitly penalize the loss of audio-visual coherence, forcing the model to allocate its fixed sub-linear rank budget to synergistic cross-modal anchors rather than isolated visual features. Across three omnimodal backbones, Omni2LoRA operating at a 30% rank budget outperforms direct full-context inference and strong token-compression baselines (OmniZip, OMAC, O-MARC) on four audio-visual question answering benchmarks, improving average accuracy by 8-12% over the strongest baseline and remaining stable under compression ratios as tight as 75%, where token-pruning methods degrade sharply. By converting multimodal memory into a fixed-budget, reusable parameter state, our method drives answer-time multimodal-token load to zero, cutting per-query Time to First Token (TTFT) by up to 12x relative to full-context inference and amortizing to under 0.5s after a handful of queries.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-10T07:49:10Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Puneet Mathur</name>
+    </author>
+    <author>
+      <name>Manan Suri</name>
+    </author>
+    <author>
+      <name>Dinesh Manocha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.06128v3</id>
+    <title>Contextual Information Policy Optimization for Search Agents</title>
+    <updated>2026-08-11T02:08:54Z</updated>
+    <link href="https://arxiv.org/abs/2608.06128v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.06128v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Search agents extend large language models beyond static parametric memory by enabling them to acquire and use external evidence during multi-step reasoning. For knowledge-intensive tasks involving complex or evolving information, their reliability depends not only on retrieving relevant evidence but also on using it to guide subsequent reasoning. However, existing methods primarily reward final-answer correctness or intermediate progress, without directly assessing whether post-retrieval actions are grounded in the retrieved evidence. This misalignment encourages prior-driven reasoning: agents form conclusions based on internal knowledge and use retrieval mainly to confirm them, resulting in confirmation bias and inefficient evidence use. To address this issue, we propose Contextual Information Policy Optimization (CIPO), an evidence-oriented reinforcement learning framework that explicitly aligns policy optimization with external evidence use. CIPO assigns dense, turn-level credit to reasoning actions influenced by retrieved information, while combining this evidence-use signal with a global outcome reward to preserve answer correctness. With this manner, CIPO discourages evidence-detached guesses and promotes reasoning trajectories in which retrieved facts can guide or revise subsequent reasoning. Importantly, CIPO requires neither human process annotations nor an additional reward model. Extensive experiments on seven in-domain and out-of-domain benchmarks show that CIPO reduces the prevalence of prior-driven reasoning and achieves excellent performance on most tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-06T15:01:29Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xingyu Guo</name>
+    </author>
+    <author>
+      <name>Wei Chen</name>
+    </author>
+    <author>
+      <name>Linlin Yang</name>
+    </author>
+    <author>
+      <name>Baochang Zhang</name>
+    </author>
+  </entry>
+</feed>

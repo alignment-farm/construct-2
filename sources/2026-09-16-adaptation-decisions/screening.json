@@ -1,0 +1,274 @@
+{
+  "date": "2026-09-16",
+  "scope": "Bounded discovery and selected reading, not a systematic review. Metadata retrieval alone does not imply methods inspection.",
+  "records": [
+    {
+      "version": "2601.01885v3",
+      "title": "Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents",
+      "published": "2026-01-05T08:24:16Z",
+      "updated": "2026-07-23T06:23:36Z",
+      "metadata_files": [
+        "selected-metadata.xml"
+      ],
+      "reading": "targeted full-text reading; exact scope in README",
+      "paper_map_id": "P39"
+    },
+    {
+      "version": "2505.22954v3",
+      "title": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
+      "published": "2025-05-29T00:26:15Z",
+      "updated": "2026-03-12T23:47:40Z",
+      "metadata_files": [
+        "selected-metadata.xml"
+      ],
+      "reading": "abstract lead; no new methods reading"
+    },
+    {
+      "version": "2605.22166v2",
+      "title": "Adapting the Interface, Not the Model: Runtime Harness Adaptation for Deterministic LLM Agents",
+      "published": "2026-05-21T08:36:49Z",
+      "updated": "2026-05-27T04:34:36Z",
+      "metadata_files": [
+        "selected-metadata.xml"
+      ],
+      "reading": "targeted full-text reading; exact scope in README",
+      "paper_map_id": "P41"
+    },
+    {
+      "version": "2607.01120v2",
+      "title": "Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents",
+      "published": "2026-07-01T16:08:02Z",
+      "updated": "2026-07-02T14:02:28Z",
+      "metadata_files": [
+        "selected-metadata.xml"
+      ],
+      "reading": "targeted full-text reading; exact scope in README",
+      "paper_map_id": "P45"
+    },
+    {
+      "version": "2508.19828v5",
+      "title": "Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning",
+      "published": "2025-08-27T12:26:55Z",
+      "updated": "2026-01-14T14:21:21Z",
+      "metadata_files": [
+        "additional-metadata.xml"
+      ],
+      "reading": "targeted full-text reading; exact scope in README",
+      "paper_map_id": "P40"
+    },
+    {
+      "version": "2609.09134v1",
+      "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+      "published": "2026-09-08T17:53:49Z",
+      "updated": "2026-09-08T17:53:49Z",
+      "metadata_files": [
+        "additional-metadata.xml",
+        "decision-discovery.xml"
+      ],
+      "reading": "targeted full-text reading; exact scope in README",
+      "paper_map_id": "P42"
+    },
+    {
+      "version": "2509.24704v2",
+      "title": "MemGen: Weaving Generative Latent Memory for Self-Evolving Agents",
+      "published": "2025-09-29T12:33:13Z",
+      "updated": "2025-10-12T02:37:44Z",
+      "metadata_files": [
+        "additional-metadata.xml"
+      ],
+      "reading": "abstract lead; no new methods reading"
+    },
+    {
+      "version": "2609.17523v1",
+      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+      "published": "2026-09-15T17:55:28Z",
+      "updated": "2026-09-15T17:55:28Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.17088v1",
+      "title": "Interactive Memory Learning for Long-Term Conversations",
+      "published": "2026-09-15T12:21:41Z",
+      "updated": "2026-09-15T12:21:41Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "targeted full-text reading; exact scope in README",
+      "paper_map_id": "P44"
+    },
+    {
+      "version": "2609.16287v1",
+      "title": "AgentGuard: Learning Execution Guardrails from Anomalous Coding-Agent Trajectories",
+      "published": "2026-09-14T19:42:03Z",
+      "updated": "2026-09-14T19:42:03Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.15309v1",
+      "title": "When Agents Slow Down: Understanding LLM Agents' Test-Time Strategies via Elo-per-token Analysis",
+      "published": "2026-09-14T09:57:49Z",
+      "updated": "2026-09-14T09:57:49Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.14857v1",
+      "title": "ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement",
+      "published": "2026-09-14T00:10:45Z",
+      "updated": "2026-09-14T00:10:45Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "abstract lead; no new methods reading"
+    },
+    {
+      "version": "2609.16065v1",
+      "title": "You Don't Need To Train: Agentic Heuristic Learning Studio for Executable Human Activity Recognition",
+      "published": "2026-09-13T11:46:41Z",
+      "updated": "2026-09-13T11:46:41Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.16057v1",
+      "title": "OmniHarness: Harnessing Generalizable Visual Generation via Symbolic Policy Learning",
+      "published": "2026-09-13T07:29:27Z",
+      "updated": "2026-09-13T07:29:27Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.13739v1",
+      "title": "HarnessBandit: Joint Learnability-Transferability Scheduling for Multi-Harness Agentic Reinforcement Learning",
+      "published": "2026-09-12T06:22:45Z",
+      "updated": "2026-09-12T06:22:45Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "targeted full-text reading; exact scope in README",
+      "paper_map_id": "P43"
+    },
+    {
+      "version": "2609.13543v1",
+      "title": "Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents",
+      "published": "2026-09-11T21:14:59Z",
+      "updated": "2026-09-11T21:14:59Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.12404v1",
+      "title": "VRL-Bench: Benchmarking agents on computer control tasks under finite trial budgets",
+      "published": "2026-09-11T03:54:02Z",
+      "updated": "2026-09-11T03:54:02Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.11911v1",
+      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
+      "published": "2026-09-10T17:56:41Z",
+      "updated": "2026-09-10T17:56:41Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.11677v1",
+      "title": "Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents",
+      "published": "2026-09-10T15:09:08Z",
+      "updated": "2026-09-10T15:09:08Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "abstract lead; no new methods reading"
+    },
+    {
+      "version": "2609.11225v1",
+      "title": "Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection",
+      "published": "2026-09-10T08:25:46Z",
+      "updated": "2026-09-10T08:25:46Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.11060v1",
+      "title": "Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents",
+      "published": "2026-09-10T04:06:16Z",
+      "updated": "2026-09-10T04:06:16Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "abstract lead; no new methods reading"
+    },
+    {
+      "version": "2609.10522v1",
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "published": "2026-09-09T17:53:38Z",
+      "updated": "2026-09-09T17:53:38Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.10266v1",
+      "title": "KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints",
+      "published": "2026-09-09T14:53:45Z",
+      "updated": "2026-09-09T14:53:45Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.10248v1",
+      "title": "A-JIT: Agentic Just-In-Time Software Construction",
+      "published": "2026-09-09T14:36:51Z",
+      "updated": "2026-09-09T14:36:51Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.10144v1",
+      "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
+      "published": "2026-09-09T13:20:47Z",
+      "updated": "2026-09-09T13:20:47Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "title/date screening only"
+    },
+    {
+      "version": "2609.09468v2",
+      "title": "Code-to-Harness: Distilling Black-Box Optimizers from Self-Play",
+      "published": "2026-09-08T21:33:55Z",
+      "updated": "2026-09-10T23:56:08Z",
+      "metadata_files": [
+        "decision-discovery.xml"
+      ],
+      "reading": "abstract lead; no new methods reading"
+    }
+  ]
+}

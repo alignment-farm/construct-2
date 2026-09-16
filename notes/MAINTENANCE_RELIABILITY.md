@@ -1,5 +1,14 @@
 # Predicting whether learned behavior will survive an update
 
+**Public-research update — 16 September 2026:** The
+[renewed public-research review](../sources/2026-09-16-research-direction/README.md)
+identifies direct precedents for forgetting prediction and prediction-guided
+replay (P26/P27), alongside adaptive reset (P28). MR2/MR3 remain untested locally;
+they are not broad unanswered questions across public research. The
+[current research selection](RESEARCH_DIRECTION.md) asks about decision usefulness across
+changed learner histories and develops useful placement independently. The
+15 September preparation and expectations below remain unchanged.
+
 **Current assessment — 15 September 2026:** S2's
 [state/support publication](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/FINDINGS-STATE-SUPPORT.md) ([local](../../ancillary-studies/procedure-retention-and-revision/FINDINGS-STATE-SUPPORT.md))
 is complete and accepted in the [root synthesis](../studies/2026-09-15-state-support-findings.md).
@@ -220,3 +229,11 @@ between the two tested support sets cannot always supply a fully preserving acti
 This recommendation does not renew the commission. S2's publication is sufficient
 to stand down the phase, while reliable maintenance and useful placement remain
 open research questions.
+
+**Independent development — 16 September:** The
+[maintenance-decision comparison](MAINTENANCE_DECISIONS.md) now makes the
+history-transfer question concrete using public forecasting methods, explicit
+observation costs and action-value comparators. It preserves MR1–MR3 and does
+not reopen this completed S2 phase. The
+[placement preparation](RESEARCH_DIRECTION.md#preparation-after-the-users-agreement)
+proceeds independently.

@@ -1,0 +1,254 @@
+[
+  {
+    "repo": "HazyResearch/cartridges",
+    "revision": "ef34ba97a06049c34820506e2c283746284ae5f0",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/HazyResearch/cartridges/ef34ba97a06049c34820506e2c283746284ae5f0/README.md",
+    "retrieved_at": "2026-09-16T09:46:16.399129+00:00",
+    "sha256": "98c95db6baab584368da05f32381fd3478ce8bbf788346ad69233391ca7558c4",
+    "local_cache": "/private/tmp/construct2-method-preparation/cartridges/README.md"
+  },
+  {
+    "repo": "HazyResearch/cartridges",
+    "revision": "ef34ba97a06049c34820506e2c283746284ae5f0",
+    "path": "pyproject.toml",
+    "url": "https://raw.githubusercontent.com/HazyResearch/cartridges/ef34ba97a06049c34820506e2c283746284ae5f0/pyproject.toml",
+    "retrieved_at": "2026-09-16T09:46:16.592344+00:00",
+    "sha256": "5c34a54df723a86e68a78b3abfdc7a1fc9ebe4050c89ce02a51fae3852205d68",
+    "local_cache": "/private/tmp/construct2-method-preparation/cartridges/pyproject.toml"
+  },
+  {
+    "repo": "HazyResearch/cartridges",
+    "revision": "ef34ba97a06049c34820506e2c283746284ae5f0",
+    "path": "docs/training.md",
+    "url": "https://raw.githubusercontent.com/HazyResearch/cartridges/ef34ba97a06049c34820506e2c283746284ae5f0/docs/training.md",
+    "retrieved_at": "2026-09-16T09:46:16.795045+00:00",
+    "sha256": "67575dd335546d49370c01c050d85cd9fbf51496b7049e3b7fb320e744a31d95",
+    "local_cache": "/private/tmp/construct2-method-preparation/cartridges/docs/training.md"
+  },
+  {
+    "repo": "HazyResearch/cartridges",
+    "revision": "ef34ba97a06049c34820506e2c283746284ae5f0",
+    "path": "examples/arxiv/arxiv_train.py",
+    "url": "https://raw.githubusercontent.com/HazyResearch/cartridges/ef34ba97a06049c34820506e2c283746284ae5f0/examples/arxiv/arxiv_train.py",
+    "retrieved_at": "2026-09-16T09:46:17.003739+00:00",
+    "sha256": "f46d6ab39ef3407b23a4829d150dbab7e12c941333e6243b5595935926d05da8",
+    "local_cache": "/private/tmp/construct2-method-preparation/cartridges/examples/arxiv/arxiv_train.py"
+  },
+  {
+    "repo": "HazyResearch/cartridges",
+    "revision": "ef34ba97a06049c34820506e2c283746284ae5f0",
+    "path": "cartridges/models/attention.py",
+    "url": "https://raw.githubusercontent.com/HazyResearch/cartridges/ef34ba97a06049c34820506e2c283746284ae5f0/cartridges/models/attention.py",
+    "retrieved_at": "2026-09-16T09:46:17.241781+00:00",
+    "sha256": "06c54150cc8e791f165a1e342555125a150f56af48b8718bcd26beeb102a28f4",
+    "local_cache": "/private/tmp/construct2-method-preparation/cartridges/cartridges/models/attention.py"
+  },
+  {
+    "repo": "SakanaAI/doc-to-lora",
+    "revision": "baa85db4d5df9b29d618af432d6ebf28b3ad5a29",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/SakanaAI/doc-to-lora/baa85db4d5df9b29d618af432d6ebf28b3ad5a29/README.md",
+    "retrieved_at": "2026-09-16T09:46:17.459313+00:00",
+    "sha256": "35f23604334000f95d4dbb96d58a11c1ea60554deaa3114a9a47eb98be8ab715",
+    "local_cache": "/private/tmp/construct2-method-preparation/doc-to-lora/README.md"
+  },
+  {
+    "repo": "SakanaAI/doc-to-lora",
+    "revision": "baa85db4d5df9b29d618af432d6ebf28b3ad5a29",
+    "path": "pyproject.toml",
+    "url": "https://raw.githubusercontent.com/SakanaAI/doc-to-lora/baa85db4d5df9b29d618af432d6ebf28b3ad5a29/pyproject.toml",
+    "retrieved_at": "2026-09-16T09:46:17.672239+00:00",
+    "sha256": "df71c03bda3e5e7cf93722253de47e2c7f97d69ffc2bf76ad7c314b26fdd3226",
+    "local_cache": "/private/tmp/construct2-method-preparation/doc-to-lora/pyproject.toml"
+  },
+  {
+    "repo": "SakanaAI/doc-to-lora",
+    "revision": "baa85db4d5df9b29d618af432d6ebf28b3ad5a29",
+    "path": "examples/python_api.py",
+    "url": "https://raw.githubusercontent.com/SakanaAI/doc-to-lora/baa85db4d5df9b29d618af432d6ebf28b3ad5a29/examples/python_api.py",
+    "retrieved_at": "2026-09-16T09:46:17.959991+00:00",
+    "sha256": "64815125a071a8b23231f17d5cf1279f2656262ff2da8534b9afde32b7123e01",
+    "local_cache": "/private/tmp/construct2-method-preparation/doc-to-lora/examples/python_api.py"
+  },
+  {
+    "repo": "SakanaAI/doc-to-lora",
+    "revision": "baa85db4d5df9b29d618af432d6ebf28b3ad5a29",
+    "path": "src/ctx_to_lora/model_loading.py",
+    "url": "https://raw.githubusercontent.com/SakanaAI/doc-to-lora/baa85db4d5df9b29d618af432d6ebf28b3ad5a29/src/ctx_to_lora/model_loading.py",
+    "retrieved_at": "2026-09-16T09:46:18.149034+00:00",
+    "sha256": "19b401f3d1234156f4748f3479ae92047080ddf56a760f8a6fbf7429bae5d2d9",
+    "local_cache": "/private/tmp/construct2-method-preparation/doc-to-lora/src/ctx_to_lora/model_loading.py"
+  },
+  {
+    "repo": "SakanaAI/doc-to-lora",
+    "revision": "baa85db4d5df9b29d618af432d6ebf28b3ad5a29",
+    "path": "src/ctx_to_lora/modeling/generative_adapter.py",
+    "url": "https://raw.githubusercontent.com/SakanaAI/doc-to-lora/baa85db4d5df9b29d618af432d6ebf28b3ad5a29/src/ctx_to_lora/modeling/generative_adapter.py",
+    "retrieved_at": "2026-09-16T09:46:18.344883+00:00",
+    "sha256": "bddf667bd0a9cdaff3e15637ecfb7d41334b68dd755f9fa5dd6502acdc9788a8",
+    "local_cache": "/private/tmp/construct2-method-preparation/doc-to-lora/src/ctx_to_lora/modeling/generative_adapter.py"
+  },
+  {
+    "repo": "SakanaAI/doc-to-lora",
+    "revision": "baa85db4d5df9b29d618af432d6ebf28b3ad5a29",
+    "path": "scripts/main_exp/README.md",
+    "url": "https://raw.githubusercontent.com/SakanaAI/doc-to-lora/baa85db4d5df9b29d618af432d6ebf28b3ad5a29/scripts/main_exp/README.md",
+    "retrieved_at": "2026-09-16T09:46:18.560776+00:00",
+    "sha256": "af14f9061247cd9f1157d0a8b16b164d285b9d73f492f504474e27a135d1bcbb",
+    "local_cache": "/private/tmp/construct2-method-preparation/doc-to-lora/scripts/main_exp/README.md"
+  },
+  {
+    "repo": "SakanaAI/doc-to-lora",
+    "revision": "baa85db4d5df9b29d618af432d6ebf28b3ad5a29",
+    "path": "configs/main_exp/qwen/self_gen_lv1_closed_qa_1_l2l.yaml",
+    "url": "https://raw.githubusercontent.com/SakanaAI/doc-to-lora/baa85db4d5df9b29d618af432d6ebf28b3ad5a29/configs/main_exp/qwen/self_gen_lv1_closed_qa_1_l2l.yaml",
+    "retrieved_at": "2026-09-16T09:46:18.766808+00:00",
+    "sha256": "236ed753e2ed21e33f360ad6b83095b568531133f41b17a68b45c279e35388b0",
+    "local_cache": "/private/tmp/construct2-method-preparation/doc-to-lora/configs/main_exp/qwen/self_gen_lv1_closed_qa_1_l2l.yaml"
+  },
+  {
+    "repo": "FengQi-HITSZ/earm",
+    "revision": "ea06cb9059e9ebf7ebd9bf036ff08e188c18f6e0",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/FengQi-HITSZ/earm/ea06cb9059e9ebf7ebd9bf036ff08e188c18f6e0/README.md",
+    "retrieved_at": "2026-09-16T09:46:18.996551+00:00",
+    "sha256": "13e7bb2aecc59195d21e703b4d2a53e5ec49e542ec1660bc043e78abc3a7aa8c",
+    "local_cache": "/private/tmp/construct2-method-preparation/earm/README.md"
+  },
+  {
+    "repo": "FengQi-HITSZ/earm",
+    "revision": "ea06cb9059e9ebf7ebd9bf036ff08e188c18f6e0",
+    "path": "pyproject.toml",
+    "url": "https://raw.githubusercontent.com/FengQi-HITSZ/earm/ea06cb9059e9ebf7ebd9bf036ff08e188c18f6e0/pyproject.toml",
+    "retrieved_at": "2026-09-16T09:46:19.216043+00:00",
+    "sha256": "7fca4fdeaec0b8387119ad4229ade6654b0b19ad37a89d697511d976fd4f9fdd",
+    "local_cache": "/private/tmp/construct2-method-preparation/earm/pyproject.toml"
+  },
+  {
+    "repo": "FengQi-HITSZ/earm",
+    "revision": "ea06cb9059e9ebf7ebd9bf036ff08e188c18f6e0",
+    "path": "docs/reproducibility.md",
+    "url": "https://raw.githubusercontent.com/FengQi-HITSZ/earm/ea06cb9059e9ebf7ebd9bf036ff08e188c18f6e0/docs/reproducibility.md",
+    "retrieved_at": "2026-09-16T09:46:19.405144+00:00",
+    "sha256": "1d05f0b9bdfb9b2e7b908bdd33c99221dfb721dab074ee3d40fe6547c3cc7df3",
+    "local_cache": "/private/tmp/construct2-method-preparation/earm/docs/reproducibility.md"
+  },
+  {
+    "repo": "FengQi-HITSZ/earm",
+    "revision": "ea06cb9059e9ebf7ebd9bf036ff08e188c18f6e0",
+    "path": "src/earm/matrix_completion.py",
+    "url": "https://raw.githubusercontent.com/FengQi-HITSZ/earm/ea06cb9059e9ebf7ebd9bf036ff08e188c18f6e0/src/earm/matrix_completion.py",
+    "retrieved_at": "2026-09-16T09:46:19.625671+00:00",
+    "sha256": "6113b42c89517a358d39344969414ead4eb407881041c150f7a36fc1b09c2f84",
+    "local_cache": "/private/tmp/construct2-method-preparation/earm/src/earm/matrix_completion.py"
+  },
+  {
+    "repo": "FengQi-HITSZ/earm",
+    "revision": "ea06cb9059e9ebf7ebd9bf036ff08e188c18f6e0",
+    "path": "src/earm/online.py",
+    "url": "https://raw.githubusercontent.com/FengQi-HITSZ/earm/ea06cb9059e9ebf7ebd9bf036ff08e188c18f6e0/src/earm/online.py",
+    "retrieved_at": "2026-09-16T09:46:19.812928+00:00",
+    "sha256": "600d212e3481f2dea384c8604f232cd083ddf1719c8ca79638d6931c73cb817e",
+    "local_cache": "/private/tmp/construct2-method-preparation/earm/src/earm/online.py"
+  },
+  {
+    "repo": "FengQi-HITSZ/earm",
+    "revision": "ea06cb9059e9ebf7ebd9bf036ff08e188c18f6e0",
+    "path": "configs/locomo_paper.yaml",
+    "url": "https://raw.githubusercontent.com/FengQi-HITSZ/earm/ea06cb9059e9ebf7ebd9bf036ff08e188c18f6e0/configs/locomo_paper.yaml",
+    "retrieved_at": "2026-09-16T09:46:19.993959+00:00",
+    "sha256": "663a0696421981fb51418e39bc2ae4eff5927443af3b934d5ce1b3df785267c9",
+    "local_cache": "/private/tmp/construct2-method-preparation/earm/configs/locomo_paper.yaml"
+  },
+  {
+    "repo": "INK-USC/lm-forgetting-prediction-code",
+    "revision": "1a16c989b65142507b864277bccb4a6f3f2ca74f",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/INK-USC/lm-forgetting-prediction-code/1a16c989b65142507b864277bccb4a6f3f2ca74f/README.md",
+    "retrieved_at": "2026-09-16T09:46:20.251206+00:00",
+    "sha256": "11eabe1b2bce8f2bb41b5dc926be1a4004d681bb7034bacbef0a8aa8a3a6629e",
+    "local_cache": "/private/tmp/construct2-method-preparation/lm-forgetting-prediction-code/README.md"
+  },
+  {
+    "repo": "INK-USC/lm-forgetting-prediction-code",
+    "revision": "1a16c989b65142507b864277bccb4a6f3f2ca74f",
+    "path": "data/README.md",
+    "url": "https://raw.githubusercontent.com/INK-USC/lm-forgetting-prediction-code/1a16c989b65142507b864277bccb4a6f3f2ca74f/data/README.md",
+    "retrieved_at": "2026-09-16T09:46:20.442189+00:00",
+    "sha256": "5606d248be3f53d99af4993ebb267c048cca954db7647067b765517a893f0e47",
+    "local_cache": "/private/tmp/construct2-method-preparation/lm-forgetting-prediction-code/data/README.md"
+  },
+  {
+    "repo": "INK-USC/lm-forgetting-prediction-code",
+    "revision": "1a16c989b65142507b864277bccb4a6f3f2ca74f",
+    "path": "src/run_matrix_completion.py",
+    "url": "https://raw.githubusercontent.com/INK-USC/lm-forgetting-prediction-code/1a16c989b65142507b864277bccb4a6f3f2ca74f/src/run_matrix_completion.py",
+    "retrieved_at": "2026-09-16T09:46:20.646359+00:00",
+    "sha256": "447268441a64ceb3ce0f3e75f5b70db181b5d721760f94d961e84f0869ca0010",
+    "local_cache": "/private/tmp/construct2-method-preparation/lm-forgetting-prediction-code/src/run_matrix_completion.py"
+  },
+  {
+    "repo": "INK-USC/lm-forgetting-prediction-code",
+    "revision": "1a16c989b65142507b864277bccb4a6f3f2ca74f",
+    "path": "scripts/mat_completion/olmo_7b.sh",
+    "url": "https://raw.githubusercontent.com/INK-USC/lm-forgetting-prediction-code/1a16c989b65142507b864277bccb4a6f3f2ca74f/scripts/mat_completion/olmo_7b.sh",
+    "retrieved_at": "2026-09-16T09:46:20.843563+00:00",
+    "sha256": "f54dd8fe505ad993c200b93c7223c96751fd2b00c55b7722ed66e7e33060b774",
+    "local_cache": "/private/tmp/construct2-method-preparation/lm-forgetting-prediction-code/scripts/mat_completion/olmo_7b.sh"
+  },
+  {
+    "repo": "sierra-research/tau2-bench",
+    "revision": "2174a603f6d014ef94473ffa95957f6ce27100db",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/2174a603f6d014ef94473ffa95957f6ce27100db/README.md",
+    "retrieved_at": "2026-09-16T09:48:50.414093+00:00",
+    "sha256": "ed39688aa5d40bd73007355df65f4e41a6c250960642e56764c3ad44da1df8d2",
+    "local_cache": "/private/tmp/construct2-method-preparation/tau2-bench/README.md"
+  },
+  {
+    "repo": "sierra-research/tau2-bench",
+    "revision": "2174a603f6d014ef94473ffa95957f6ce27100db",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/2174a603f6d014ef94473ffa95957f6ce27100db/LICENSE",
+    "retrieved_at": "2026-09-16T09:48:50.684346+00:00",
+    "sha256": "e67c5aa0074dfcaefd3c3a1aedb94cb539234aecd15d5a972574e3200e6252fe",
+    "local_cache": "/private/tmp/construct2-method-preparation/tau2-bench/LICENSE"
+  },
+  {
+    "repo": "sierra-research/tau2-bench",
+    "revision": "2174a603f6d014ef94473ffa95957f6ce27100db",
+    "path": "RELEASE_NOTES.md",
+    "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/2174a603f6d014ef94473ffa95957f6ce27100db/RELEASE_NOTES.md",
+    "retrieved_at": "2026-09-16T09:48:50.986957+00:00",
+    "sha256": "9867c4a59442c75d16658f9c7a08f96033876a81f3914cb5731f8c557ce3c564",
+    "local_cache": "/private/tmp/construct2-method-preparation/tau2-bench/RELEASE_NOTES.md"
+  },
+  {
+    "repo": "sierra-research/tau2-bench",
+    "revision": "2174a603f6d014ef94473ffa95957f6ce27100db",
+    "path": "data/tau2/domains/banking_knowledge/tasks.json",
+    "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/2174a603f6d014ef94473ffa95957f6ce27100db/data/tau2/domains/banking_knowledge/tasks.json",
+    "retrieved_at": "2026-09-16T09:48:52.099091+00:00",
+    "sha256": "213c7f3e6dc0420b1184ee271e39e38c6ece3c43edfa362db49a560828ebd543",
+    "local_cache": "/private/tmp/construct2-method-preparation/tau2-bench/data/tau2/domains/banking_knowledge/tasks.json"
+  },
+  {
+    "repo": "sierra-research/tau2-bench",
+    "revision": "2174a603f6d014ef94473ffa95957f6ce27100db",
+    "path": "data/tau2/domains/banking_knowledge/documents/doc_business_checking_accounts_cobalt_blue_001.json",
+    "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/2174a603f6d014ef94473ffa95957f6ce27100db/data/tau2/domains/banking_knowledge/documents/doc_business_checking_accounts_cobalt_blue_001.json",
+    "retrieved_at": "2026-09-16T09:48:52.300013+00:00",
+    "sha256": "a6cb1d9ccc07283fae0a290a2f447678ac973933e77f7780f28b37aa4682b12b",
+    "local_cache": "/private/tmp/construct2-method-preparation/tau2-bench/data/tau2/domains/banking_knowledge/documents/doc_business_checking_accounts_cobalt_blue_001.json"
+  },
+  {
+    "repo": "OpenDataBox/MemoryData",
+    "revision": "bdbe698f776d921ac791d1b07c0a7fc65a8bb4bb",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/OpenDataBox/MemoryData/bdbe698f776d921ac791d1b07c0a7fc65a8bb4bb/README.md",
+    "retrieved_at": "2026-09-16T09:48:52.529436+00:00",
+    "sha256": "8f662a413ca3cc9a1cca4f2c6a5335c639ae75873d043165bf782a84270bd95c",
+    "local_cache": "/private/tmp/construct2-method-preparation/MemoryData/README.md"
+  }
+]

@@ -21,6 +21,14 @@ implementation problem in one study does not block the others. The root keeps
 the larger question in focus through theory, predictions and synthesis; each
 study owns its experimental work and coordinates use of shared resources.
 
+During ancillary execution, the root continues public-research discovery, theory
+and selection of independent questions. As local findings sharpen a question,
+check the closest public results and complementary methods before selecting
+further work. Record whether they answer, narrow or redirect it. Review local
+publications to judge their claims and implications; deepen evidence checks when
+a material uncertainty warrants it. A study's latest follow-up receives priority
+through its scientific value to the program, not merely its recency.
+
 A negative result alone is not a stop condition. When a learning treatment has
 not acquired even its development cases, pursue bounded diagnostic development
 to distinguish plausible causes or establish a functioning learning regime.

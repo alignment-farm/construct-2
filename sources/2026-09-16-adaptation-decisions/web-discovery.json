@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-16",
+  "tool": "web search",
+  "role": "Supplementary discovery; primary versioned papers supply the claims.",
+  "queries": [
+    {
+      "q": "agent learning memory management policy AgeMem Memory R1 MemGen",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "q": "agent learning when to update model weights external memory harness adaptation policy",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "q": "self improving coding agent Darwin Godel Machine harness evaluation frozen model",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "q": "\"Memory-R1\" reinforcement learning memory manager",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "q": "\"MemGen\" generative latent memory",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "q": "\"agent\" \"weights\" \"harness\" \"co-evolution\"",
+      "domains": [
+        "arxiv.org"
+      ]
+    }
+  ]
+}

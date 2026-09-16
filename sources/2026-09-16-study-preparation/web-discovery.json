@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-16",
+  "queries": [
+    {
+      "query": "\"memory\" \"revision\" \"amortized\" benchmark language model",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "query": "\"policy updates\" \"benchmark\" agents memory",
+      "domains": [
+        "arxiv.org",
+        "github.com"
+      ]
+    },
+    {
+      "query": "\"continual\" \"forgetting prediction\" \"history\" language models",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "query": "agent memory benchmark conflicting updates cost retrieval learned memory versioned corpus",
+      "domains": [
+        "arxiv.org"
+      ]
+    },
+    {
+      "query": "tau2 bench retail policy github official",
+      "domains": [
+        "github.com"
+      ]
+    },
+    {
+      "query": "MemoryAgentBench github official conflict resolution",
+      "domains": null
+    }
+  ],
+  "note": "Selected primary follow-up: P36-P38, official method and workload repositories. Search rankings/snippets not archived; broad search also returned irrelevant results."
+}

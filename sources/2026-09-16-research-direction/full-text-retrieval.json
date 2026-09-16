@@ -1,0 +1,82 @@
+[
+  {
+    "id": "2402.01865v3",
+    "url": "https://arxiv.org/html/2402.01865v3",
+    "time": "2026-09-16T09:27:54.277331+00:00",
+    "status": 200,
+    "sha256": "accc453fa226c0dc48dfa1f30a3c3440fbcfa55b5651b4ef7083af029875f7f8",
+    "cache": "/private/tmp/construct2-2026-09-16-primary-texts/2402.01865v3.html"
+  },
+  {
+    "id": "2406.14026v8",
+    "url": "https://arxiv.org/html/2406.14026v8",
+    "time": "2026-09-16T09:27:57.851648+00:00",
+    "status": 200,
+    "sha256": "b60d0c4252cedb83b057803e0e06b1a4f2d6788b0c9602b8fd8491335fcf4960",
+    "cache": "/private/tmp/construct2-2026-09-16-primary-texts/2406.14026v8.html"
+  },
+  {
+    "id": "2506.06266v3",
+    "url": "https://arxiv.org/html/2506.06266v3",
+    "time": "2026-09-16T09:28:01.356994+00:00",
+    "status": 200,
+    "sha256": "da99fcbfa9a48db91a8c8b0dd767d1c24cb95657ccce974e7473c7436f8ff27d",
+    "cache": "/private/tmp/construct2-2026-09-16-primary-texts/2506.06266v3.html"
+  },
+  {
+    "id": "2602.15902v1",
+    "url": "https://arxiv.org/html/2602.15902v1",
+    "time": "2026-09-16T09:28:04.881003+00:00",
+    "status": 200,
+    "sha256": "391deb3adff63cef76b886eba837920e407fcd17a4ad855c79d885cb31f9d0f3",
+    "cache": "/private/tmp/construct2-2026-09-16-primary-texts/2602.15902v1.html"
+  },
+  {
+    "id": "2603.03796v1",
+    "url": "https://arxiv.org/html/2603.03796v1",
+    "time": "2026-09-16T09:28:08.539659+00:00",
+    "status": 200,
+    "sha256": "5172982d61c14c30b87689c9f296f2e42131d2d3226963f4e1a66d0a4d0d5d4c",
+    "cache": "/private/tmp/construct2-2026-09-16-primary-texts/2603.03796v1.html"
+  },
+  {
+    "id": "2608.15008v1",
+    "url": "https://arxiv.org/html/2608.15008v1",
+    "time": "2026-09-16T09:28:12.115644+00:00",
+    "status": 200,
+    "sha256": "cebd5e71067082044ae0dac57eb7004d75b98d313fd15745f46d46b97ca0f933",
+    "cache": "/private/tmp/construct2-2026-09-16-primary-texts/2608.15008v1.html"
+  },
+  {
+    "id": "2608.22215v2",
+    "url": "https://arxiv.org/html/2608.22215v2",
+    "time": "2026-09-16T09:28:16.098712+00:00",
+    "status": 200,
+    "sha256": "3acfb854371a6b36f98edb93bab530c1c8121fccae8400719f7e1147901cd590",
+    "cache": "/private/tmp/construct2-2026-09-16-primary-texts/2608.22215v2.html"
+  },
+  {
+    "id": "2608.22767v1",
+    "url": "https://arxiv.org/html/2608.22767v1",
+    "time": "2026-09-16T09:28:19.583844+00:00",
+    "status": 200,
+    "sha256": "506dd5dc56525c4a9d8fb96cce9bc20c29ef4773e257d70e690fcf496d9cb580",
+    "cache": "/private/tmp/construct2-2026-09-16-primary-texts/2608.22767v1.html"
+  },
+  {
+    "id": "2608.18066v2",
+    "url": "https://arxiv.org/html/2608.18066v2",
+    "time": "2026-09-16T09:28:23.035206+00:00",
+    "status": 200,
+    "sha256": "bf0a1f128f435f03eb06f53c126f940bad98c1f7f7d845522fe3382978222a8d",
+    "cache": "/private/tmp/construct2-2026-09-16-primary-texts/2608.18066v2.html"
+  },
+  {
+    "id": "2609.08067v1",
+    "url": "https://arxiv.org/html/2609.08067v1",
+    "time": "2026-09-16T09:28:26.519225+00:00",
+    "status": 200,
+    "sha256": "f2a098b359b1e7290c6059bd96cd82a338340a8106379ff47578387c4b04f890",
+    "cache": "/private/tmp/construct2-2026-09-16-primary-texts/2609.08067v1.html"
+  }
+]

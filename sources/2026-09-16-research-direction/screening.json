@@ -1,0 +1,377 @@
+{
+  "cutoff_utc": "2026-09-16T09:24:46Z",
+  "discovery_entries": [
+    {
+      "query_file": "forgetting.xml",
+      "id": "2609.08067v1",
+      "title": "Popular Knowledge Propagates More Errors in LLM Knowledge Updating",
+      "published": "2026-09-08T00:23:27Z",
+      "updated": "2026-09-08T00:23:27Z",
+      "decision": "selected for targeted methods reading"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2609.07344v1",
+      "title": "Staying on the Attack Path: Structured State for Long-Horizon Automated Penetration Testing",
+      "published": "2026-09-07T11:09:01Z",
+      "updated": "2026-09-07T11:09:01Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2609.06786v1",
+      "title": "When Retain Constraints Conflict: Mitigating Forget-Retain Interference in Tabular Data",
+      "published": "2026-09-06T19:08:32Z",
+      "updated": "2026-09-06T19:08:32Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2608.27763v1",
+      "title": "Fast Weight Attention for Continual Learning",
+      "published": "2026-08-27T22:55:11Z",
+      "updated": "2026-08-27T22:55:11Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2608.26982v1",
+      "title": "JudgeStealer: Extracting LLM Judging Capabilities across Evaluation Protocols",
+      "published": "2026-08-27T11:28:32Z",
+      "updated": "2026-08-27T11:28:32Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2608.19491v2",
+      "title": "Activation-Keyed Momentum: An Anisotropic Momentum Update via the Delta Rule",
+      "published": "2026-08-19T23:04:12Z",
+      "updated": "2026-09-03T02:10:55Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2608.04604v1",
+      "title": "COSMO: Consensus-Driven Shift Modulation for Source-Free Domain Adaptation",
+      "published": "2026-08-05T09:10:30Z",
+      "updated": "2026-08-05T09:10:30Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2608.03855v2",
+      "title": "Bi-semantic Chemical Embedder for Joint Representation Learning of SMILES and Natural Language",
+      "published": "2026-08-04T15:57:38Z",
+      "updated": "2026-08-06T12:23:11Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2608.03660v1",
+      "title": "Taming the Implicit: Dual-Channel Risk-Aware Reinforcement Fine-Tuning for Continual Multimodal Post-Training",
+      "published": "2026-08-04T13:40:03Z",
+      "updated": "2026-08-04T13:40:03Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2608.00419v1",
+      "title": "Unleashing the Potential of Large Language Models: A Blueprint for Real-Time, Enterprise-Ready Deployments",
+      "published": "2026-08-01T03:40:22Z",
+      "updated": "2026-08-01T03:40:22Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2607.15587v1",
+      "title": "Rethinking Transfer in Continual Learning: A Replay-Based Realisation",
+      "published": "2026-07-17T03:18:17Z",
+      "updated": "2026-07-17T03:18:17Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2607.02020v1",
+      "title": "Hidden Forgetting in Continual Multimodal Learning: When Accuracy Survives but Grounding Fails",
+      "published": "2026-07-02T10:50:37Z",
+      "updated": "2026-07-02T10:50:37Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2607.00434v1",
+      "title": "Information-Regularized Attention for Visual-Centric Reasoning",
+      "published": "2026-07-01T04:45:41Z",
+      "updated": "2026-07-01T04:45:41Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2606.31845v1",
+      "title": "Explicit Fuzzy Logic in the Feed-Forward Layer: Self-Forgetting Quantifiers Discover Legible Grammatical-Licensing Detectors",
+      "published": "2026-06-30T15:46:27Z",
+      "updated": "2026-06-30T15:46:27Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "forgetting.xml",
+      "id": "2606.26050v1",
+      "title": "Natural Ungrokking: Asymmetric Control of Which Rules Survive Pretraining",
+      "published": "2026-06-24T17:27:13Z",
+      "updated": "2026-06-24T17:27:13Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2609.16927v1",
+      "title": "Verbalizing Subliminal Learning Effects Using Text Optimization",
+      "published": "2026-09-15T10:03:31Z",
+      "updated": "2026-09-15T10:03:31Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2609.13478v1",
+      "title": "BadEngram: Backdoor Attack on Gated Memory Components in LLMs",
+      "published": "2026-09-11T19:48:59Z",
+      "updated": "2026-09-11T19:48:59Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2609.01182v1",
+      "title": "LLMPEDIA: Browsing, Verifying, and Comparing the Parametric Encyclopedic Knowledge of LLMs",
+      "published": "2026-09-01T12:56:02Z",
+      "updated": "2026-09-01T12:56:02Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2608.30676v1",
+      "title": "MedAgent-R1: Faithfulness-Aware Reinforcement Learning for Evidence-Grounded Medical Reasoning",
+      "published": "2026-08-31T12:19:41Z",
+      "updated": "2026-08-31T12:19:41Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2608.28478v1",
+      "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
+      "published": "2026-08-28T16:06:01Z",
+      "updated": "2026-08-28T16:06:01Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2608.26385v1",
+      "title": "Why RAGs Hallucinate: Penalty-Aware Evaluation of Retrieval-Augmented Generation Systems with Knowledge-Gap Canaries",
+      "published": "2026-08-26T20:17:01Z",
+      "updated": "2026-08-26T20:17:01Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2608.25610v1",
+      "title": "Advantage-Driven Explicit Memory for Social Navigation",
+      "published": "2026-08-26T10:27:08Z",
+      "updated": "2026-08-26T10:27:08Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2608.23329v2",
+      "title": "Thinking Beyond Videos: Unifying Video Reasoning and Deep Research for Open-World Video Agents",
+      "published": "2026-08-24T14:42:23Z",
+      "updated": "2026-08-25T13:58:46Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2608.22228v1",
+      "title": "Prompt-Based Abstention Fails Under Misleading Context: A Controlled Study of Small Frozen RAG Models",
+      "published": "2026-08-23T05:43:27Z",
+      "updated": "2026-08-23T05:43:27Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2608.19621v2",
+      "title": "Mitigating Identity Essentialism in LLM Agents with Longitudinal Life Trajectories",
+      "published": "2026-08-20T04:13:11Z",
+      "updated": "2026-08-21T09:45:31Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2608.16630v1",
+      "title": "The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks",
+      "published": "2026-08-17T14:30:41Z",
+      "updated": "2026-08-17T14:30:41Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2608.16515v1",
+      "title": "When Context Misleads: Intent-Guided Decoding for Robust Retrieval-Augmented Generation",
+      "published": "2026-08-17T12:56:43Z",
+      "updated": "2026-08-17T12:56:43Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2608.14221v1",
+      "title": "MathForm: Scaling Mathematical Autoformalization with Knowledge Retrieval and Verification-Guided Refinement",
+      "published": "2026-08-14T11:51:12Z",
+      "updated": "2026-08-14T11:51:12Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2608.09227v1",
+      "title": "Omni2LoRA: Coherence-Preserving Parametric Memory for Efficient Omni Language Models",
+      "published": "2026-08-10T07:49:10Z",
+      "updated": "2026-08-10T07:49:10Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "placement.xml",
+      "id": "2608.06128v3",
+      "title": "Contextual Information Policy Optimization for Search Agents",
+      "published": "2026-08-06T15:01:29Z",
+      "updated": "2026-08-11T02:08:54Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2609.12320v1",
+      "title": "AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems",
+      "published": "2026-09-11T01:00:09Z",
+      "updated": "2026-09-11T01:00:09Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2609.11060v1",
+      "title": "Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents",
+      "published": "2026-09-10T04:06:16Z",
+      "updated": "2026-09-10T04:06:16Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2609.08279v1",
+      "title": "What Eviction Destroys: A Restore-Counterfactual Audit of Forgetting in Agent Memory",
+      "published": "2026-09-08T05:48:10Z",
+      "updated": "2026-09-08T05:48:10Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2609.08273v1",
+      "title": "MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging",
+      "published": "2026-09-08T05:30:30Z",
+      "updated": "2026-09-08T05:30:30Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2609.08258v1",
+      "title": "Revoked but Still Authoritative: An Empirical Study of Revocation Enforcement in Agent-Memory Systems",
+      "published": "2026-09-08T05:03:09Z",
+      "updated": "2026-09-08T05:03:09Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2608.30177v1",
+      "title": "Understanding Stage-Wise Utility-Risk Trade-offs in LLM Agent Memory",
+      "published": "2026-08-31T02:57:08Z",
+      "updated": "2026-08-31T02:57:08Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2608.29528v1",
+      "title": "MedCache: Efficient and Temporally Valid Memory for Longitudinal Clinical Agents",
+      "published": "2026-08-30T03:28:56Z",
+      "updated": "2026-08-30T03:28:56Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2608.23471v1",
+      "title": "InjecMEM: Memory Injection Attack on LLM Agent Memory Systems",
+      "published": "2026-08-24T16:37:50Z",
+      "updated": "2026-08-24T16:37:50Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2608.23268v1",
+      "title": "Dual-Grained Agent Memory and Shapley Context Attribution for Multimodal Agentic Learner",
+      "published": "2026-08-24T13:56:01Z",
+      "updated": "2026-08-24T13:56:01Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2608.22767v1",
+      "title": "The Retriever Should Remember: Experience-Amortized Reranking for Long-Term Agent Memory",
+      "published": "2026-08-24T03:42:03Z",
+      "updated": "2026-08-24T03:42:03Z",
+      "decision": "selected for targeted methods reading"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2608.22310v1",
+      "title": "HERO: Human-profile Enhanced Retrieval Optimization Framework for Long-term Agent Memory",
+      "published": "2026-08-23T09:19:34Z",
+      "updated": "2026-08-23T09:19:34Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2608.22215v2",
+      "title": "Dual-Layer Agentic Memory with Fast Write Routing and Slow Consolidation",
+      "published": "2026-08-23T04:40:13Z",
+      "updated": "2026-08-31T00:06:25Z",
+      "decision": "selected for targeted methods reading"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2608.21810v1",
+      "title": "MSM-Mem: A Universal Medical Structured Multimodal Memory Framework for Medical AI Agents",
+      "published": "2026-08-22T07:17:10Z",
+      "updated": "2026-08-22T07:17:10Z",
+      "decision": "title/date screen only; not used as supporting evidence"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2608.18066v2",
+      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+      "published": "2026-08-18T17:55:07Z",
+      "updated": "2026-09-06T01:12:37Z",
+      "decision": "selected for targeted methods reading"
+    },
+    {
+      "query_file": "memory-policy.xml",
+      "id": "2608.15008v1",
+      "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+      "published": "2026-08-15T03:29:48Z",
+      "updated": "2026-08-15T03:29:48Z",
+      "decision": "selected for targeted methods reading"
+    }
+  ],
+  "selected_versions": [
+    "2402.01865v3",
+    "2406.14026v8",
+    "2603.03796v1",
+    "2506.06266v3",
+    "2602.15902v1",
+    "2608.15008v1",
+    "2608.22215v2",
+    "2608.22767v1",
+    "2608.18066v2",
+    "2609.08067v1"
+  ]
+}

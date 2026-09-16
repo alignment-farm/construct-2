@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8u7vx7VS+h2LXt1YMV3MNMHk3p4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.01885,2605.22166,2607.01120,2505.22954&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-16T12:23:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2601.01885,2605.22166,2607.01120,2505.22954" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.01885v3</id>
+    <title>Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents</title>
+    <updated>2026-07-23T06:23:36Z</updated>
+    <link href="https://arxiv.org/abs/2601.01885v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.01885v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents face fundamental limitations in long-horizon reasoning due to finite context windows, making effective memory management critical. Existing methods typically handle long-term memory (LTM) and short-term memory (STM) as separate components, relying on heuristics or auxiliary controllers, which limits adaptability and end-to-end optimization. In this paper, we propose Agentic Memory (AgeMem), a unified framework that integrates LTM and STM management directly into the agent's policy. AgeMem exposes memory operations as tool-based actions, enabling the LLM agent to autonomously decide what and when to store, retrieve, update, summarize, or discard information. To train such unified behaviors, we propose a three-stage progressive reinforcement learning strategy and design a step-wise GRPO to address sparse and discontinuous rewards induced by memory operations. Experiments on five long-horizon benchmarks demonstrate that AgeMem consistently outperforms strong memory-augmented baselines across multiple LLM backbones, achieving improved task performance, higher-quality long-term memory, and more efficient context usage.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-05T08:24:16Z</published>
+    <arxiv:comment>ACL'26 SAC Highlight. The code is available at https://github.com/y1y5/AgeMem</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yi Yu</name>
+    </author>
+    <author>
+      <name>Liuyi Yao</name>
+    </author>
+    <author>
+      <name>Yuexiang Xie</name>
+    </author>
+    <author>
+      <name>Qingquan Tan</name>
+    </author>
+    <author>
+      <name>Jiaqi Feng</name>
+    </author>
+    <author>
+      <name>Yaliang Li</name>
+    </author>
+    <author>
+      <name>Libing Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.22954v3</id>
+    <title>Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents</title>
+    <updated>2026-03-12T23:47:40Z</updated>
+    <link href="https://arxiv.org/abs/2505.22954v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.22954v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Today's AI systems have human-designed, fixed architectures and cannot autonomously and continuously improve themselves. The advance of AI could itself be automated. If done safely, that would accelerate AI development and allow us to reap its benefits much sooner. Meta-learning can automate the discovery of novel algorithms, but is limited by first-order improvements and the human design of a suitable search space. The Gödel machine proposed a theoretical alternative: a self-improving AI that repeatedly modifies itself in a provably beneficial manner. Unfortunately, proving that most changes are net beneficial is impossible in practice. We introduce the Darwin Gödel Machine (DGM), a self-improving system that iteratively modifies its own code (thereby also improving its ability to modify its own codebase) and empirically validates each change using coding benchmarks. Inspired by Darwinian evolution and open-endedness research, the DGM maintains an archive of generated coding agents. It grows the archive by sampling an agent from it and using a foundation model to create a new, interesting, version of the sampled agent. This open-ended exploration forms a growing tree of diverse, high-quality agents and allows the parallel exploration of many different paths through the search space. Empirically, the DGM automatically improves its coding capabilities (e.g., better code editing tools, long-context window management, peer-review mechanisms), increasing performance on SWE-bench from 20.0% to 50.0%, and on Polyglot from 14.2% to 30.7%. Furthermore, the DGM significantly outperforms baselines without self-improvement or open-ended exploration. All experiments were done with safety precautions (e.g., sandboxing, human oversight). The DGM is a significant step toward self-improving AI, capable of gathering its own stepping stones along paths that unfold into endless innovation.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-29T00:26:15Z</published>
+    <arxiv:comment>Code at https://github.com/jennyzzt/dgm</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jenny Zhang</name>
+    </author>
+    <author>
+      <name>Shengran Hu</name>
+    </author>
+    <author>
+      <name>Cong Lu</name>
+    </author>
+    <author>
+      <name>Robert Lange</name>
+    </author>
+    <author>
+      <name>Jeff Clune</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.22166v2</id>
+    <title>Adapting the Interface, Not the Model: Runtime Harness Adaptation for Deterministic LLM Agents</title>
+    <updated>2026-05-27T04:34:36Z</updated>
+    <link href="https://arxiv.org/abs/2605.22166v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.22166v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents are shaped not only by their language models, but also by the runtime harness that mediates observation, tool use, action execution, feedback interpretation, and trajectory control. While existing agent adaptation methods mainly update model parameters, many failures in deterministic, rule-governed domains stem from mismatches at the model--environment interface. We propose Life-Harness, a lifecycle-aware runtime harness that improves frozen LLM agents without changing model weights or evaluation environments. Life-Harness evolves from training trajectories by converting recurring interaction failures into reusable interventions across environment contracts, procedural skills, action realization, and trajectory regulation, and remains fixed for evaluation on unseen tasks. On seven deterministic environments from $τ$-bench, $τ^2$-bench, and AgentBench, Life-Harness improves 116 out of 126 model--environment settings across 18 model backbones, with an average relative improvement of 88.5%. Harnesses evolved only from Qwen3-4B-Instruct trajectories transfer to 17 other models, showing that Life-Harness captures reusable environment-side structure rather than model-specific behavior. These results position runtime interface adaptation as a complementary alternative to model-centric agent training. Code is available at https://github.com/Tianshi-Xu/Life-Harness.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-21T08:36:49Z</published>
+    <arxiv:comment>Work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tianshi Xu</name>
+    </author>
+    <author>
+      <name>Huifeng Wen</name>
+    </author>
+    <author>
+      <name>Meng Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.01120v2</id>
+    <title>Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents</title>
+    <updated>2026-07-02T14:02:28Z</updated>
+    <link href="https://arxiv.org/abs/2607.01120v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.01120v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents are rapidly being deployed in production, including coding assistants, customer-support chatbots, and scientific research assistants, yet they remain fundamentally static in enterprise deployment. The LLM weights, system prompts, tool repertoires, and in-context harnesses are frozen at deployment time, and any improvement requires a manual loop of human-curated data collection, offline fine-tuning, modification of the agentic paradigm, and re-deployment. Recent work on self-evolving agents, such as OpenClaw for individual users, indicates that the next leap in agent capability will come from agents that continually learn from their own experience. In this paper, we argue that this vision for self-evolving agent deployment is being held back for enterprise-level large-scale agentic service not by reinforcement learning (RL) algorithms but by agentic online RL systems. Specifically, current agentic RL systems and the surrounding observability software stack are inadequate along three essential aspects: (i) there is no standardized agent trajectory data protocol capable of carrying RL learning signals at step granularity across heterogeneous agent paradigms; (ii) there is no enterprise-grade comprehensive data proxy that converts real workloads into governed learning substrates; and (iii) there is no unified agent evolution control plane that automatically decides, based on trajectory statistics, when to update policy weights or evolve the in-context harness. The next generation of agentic RL systems must be co-designed around these three pillars, and we sketch concrete architectures, case studies, and counter-arguments. We instantiate one branch through AReaL2.0, reorganizing existing RL infrastructure into an agent-oriented online RL loop for policy weight updates from deployed workloads.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T16:08:02Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Ran Yan</name>
+    </author>
+    <author>
+      <name>Wei Fu</name>
+    </author>
+    <author>
+      <name>Jiale Li</name>
+    </author>
+    <author>
+      <name>Shusheng Xu</name>
+    </author>
+    <author>
+      <name>Zhiyu Mei</name>
+    </author>
+    <author>
+      <name>Jiaxuan Gao</name>
+    </author>
+    <author>
+      <name>Jiarui Zhang</name>
+    </author>
+    <author>
+      <name>Wentai Zhang</name>
+    </author>
+    <author>
+      <name>Hao Dai</name>
+    </author>
+    <author>
+      <name>Xujie Shen</name>
+    </author>
+    <author>
+      <name>Chuyi He</name>
+    </author>
+    <author>
+      <name>Zhen Pu</name>
+    </author>
+    <author>
+      <name>Jun Mei</name>
+    </author>
+    <author>
+      <name>Zhiyao Lin</name>
+    </author>
+    <author>
+      <name>Haitao Wang</name>
+    </author>
+    <author>
+      <name>Zhiqiang Ding</name>
+    </author>
+    <author>
+      <name>Jiawei Zhang</name>
+    </author>
+    <author>
+      <name>Huaijie Wang</name>
+    </author>
+    <author>
+      <name>Ruida Xu</name>
+    </author>
+    <author>
+      <name>Honghua Dong</name>
+    </author>
+    <author>
+      <name>Youhe Jiang</name>
+    </author>
+    <author>
+      <name>Yi Wu</name>
+    </author>
+    <author>
+      <name>Tongkai Yang</name>
+    </author>
+    <author>
+      <name>Binhang Yuan</name>
+    </author>
+  </entry>
+</feed>
