@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qYOguBIrrMSAgq495F4HckfCkVM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2606.16285,2607.21106,2608.19760&amp;start=0&amp;max_results=3</title>
+  <updated>2026-09-16T18:20:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=3&amp;id_list=2606.16285,2607.21106,2608.19760" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.21106v3</id>
+    <title>AttriMem: Attribution-Guided Process Feedback for Agent Memory Construction</title>
+    <updated>2026-08-11T02:51:06Z</updated>
+    <link href="https://arxiv.org/abs/2607.21106v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.21106v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective memory is crucial for LLM agents, yet constructing it effectively remains challenging. A memory-construction policy decides what information to extract, store, update, compress, or discard as interactions accumulate. Heuristic memory methods rely on subjective, task-specific rules, which can misalign with downstream objectives and limit cross-task adaptability. RL-based methods, by contrast, learn from task feedback but mainly use outcome- or module-level rewards. These coarse signals indicate task success but cannot identify which intermediate memory contents support the final answer, creating a fine-grained credit-assignment bottleneck. However, constructing such process feedback is prohibitively difficult because intermediate memory decisions lack unique ground-truth targets, while the appropriate credit varies with the agent's uncertain reasoning trajectory and therefore cannot be specified in advance. We propose AttriMem, an attribution-guided process-feedback framework for learning memory-construction policies with RL. AttriMem augments the global outcome reward with local rewards derived from token-level contributions to the final answer. Experiments on long-horizon dialogue question answering show that AttriMem outperforms retrieval-based, heuristic, and RL-based baselines, generalizes across benchmarks and answer models, stabilizes RL optimization.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-23T09:35:34Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qinfeng Li</name>
+    </author>
+    <author>
+      <name>Yuntai Bao</name>
+    </author>
+    <author>
+      <name>Xinyan Yu</name>
+    </author>
+    <author>
+      <name>Hongze Chen</name>
+    </author>
+    <author>
+      <name>Yanming Liu</name>
+    </author>
+    <author>
+      <name>Huifeng Zhu</name>
+    </author>
+    <author>
+      <name>Yier Jin</name>
+    </author>
+    <author>
+      <name>Jintao Chen</name>
+    </author>
+    <author>
+      <name>Wenqi Zhang</name>
+    </author>
+    <author>
+      <name>Xuhong Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.19760v2</id>
+    <title>Credit Without Ground Truth: Auditing Step-Level Credit Assignment in LLM Agents Against Executed Replay</title>
+    <updated>2026-08-25T17:45:26Z</updated>
+    <link href="https://arxiv.org/abs/2608.19760v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.19760v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Audited against policy-conditional ground truth from executed replay in a single-agent tool environment (ALFWorld), none of the step-level credit signals we audit -- LLM-judge scores, outcome-conditioned logprob ratios, or the policy's own confidence -- shows reliable incremental fidelity beyond its own marginal-matched shuffled control. Correcting for replay-target reliability leaves implicit fidelity bounded near zero and judge fidelity inconclusive at the achieved target reliability. Existing evaluations grade these signals against annotated step *correctness*; we audit them against step *contribution* -- what re-sampling the policy's own alternatives at each decision point and rolling forward changes about the outcome -- and they come apart. The ground truth is structured: 30.5% of decision points where it is defined exhibit a nonzero replay contrast at the achieved sampling resolution, and measurability is model-dependent -- the fraction of points with no policy-supported counterfactual differs twofold (13.1% vs. 26.8%) between two similar-scale policies. The failure mode is identifiable: implicit credit echoes the policy's fluency (median rank correlation +0.75, replicating at +0.70 in a second family under a corrected instrument), while outcome conditioning adds no causal information (partial correlation -0.004, Qwen). A confidence-only router recovers pivotal steps at chance level, but cuts judge cost by 13.1% per turn (14.0% per trajectory). In a seven-arm pre-registered training experiment, no arm reliably outperforms the untrained policy, and the checkpoints' apparent instrument signature is statistically consistent with mediation by effective training dose in this design -- sparser credit retains fewer examples, an order-of-magnitude spread in optimizer steps -- not credit content. Comparisons of credit rules must match effective sample size, or they measure dose, not credit.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-20T08:04:00Z</published>
+    <arxiv:comment>52 pages, 6 figures. Pre-registered; frozen analysis plans and prompts included in the appendices</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Haiyue Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.16285v2</id>
+    <title>HiMPO: Hindsight-Informed Memory Policy Optimization for Less-Entangled Credit in Long-Horizon Agents</title>
+    <updated>2026-09-01T03:33:12Z</updated>
+    <link href="https://arxiv.org/abs/2606.16285v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.16285v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon agents rely on memory mechanisms to compress interaction history, but optimizing memory writing faces a distinct credit assignment challenge: a memory update may be rewarded or penalized due to downstream tool failures, noisy observations, or reasoning errors rather than its own contribution. We propose HiMPO, a Hindsight-Informed Memory Policy Optimization framework for assigning less-entangled credit to memory-writing actions in long-horizon agents. HiMPO first estimates the local utility of a memory update by comparing the task-relevant information recoverable from the previous and updated memories under the same pre-write state. It then uses hindsight relevance as a bounded retrospective filter that attenuates memory credit when local utility is not supported by the target outcome. The resulting memory-specific advantage is applied only to memory tokens, while trajectory-level rewards optimize the rest of the agent's behavior. Across judge-based open-domain tasks and objective compressive-memory QA, HiMPO improves over strong memory-based and RL-based baselines while preserving compressed-context efficiency. Controlled interventions and live replay studies further show that HiMPO reduces blame leakage from tool-induced errors, assigns memory credit that aligns with the functional impact of memory writes, and remains robust to noisy training targets.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-15T06:49:18Z</published>
+    <arxiv:comment>Preprint. 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jiangze Yan</name>
+    </author>
+    <author>
+      <name>Yi Shen</name>
+    </author>
+    <author>
+      <name>Wenjing Zhang</name>
+    </author>
+    <author>
+      <name>Jieyun Huang</name>
+    </author>
+    <author>
+      <name>Zhaoxiang Liu</name>
+    </author>
+    <author>
+      <name>Ning Wang</name>
+    </author>
+    <author>
+      <name>Kai Wang</name>
+    </author>
+    <author>
+      <name>Shiguo Lian</name>
+    </author>
+  </entry>
+</feed>

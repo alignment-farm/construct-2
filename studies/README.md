@@ -1,6 +1,6 @@
 **Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/PREVIOUS_RESEARCH.md) and [research perspective](../notes/RESEARCH_PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. Executable skill libraries remain background; see the [research preference](../sources/README.md#research-preference-to-date).
 
-**Current work — 16 September 2026:** Eight ancillary projects have published bounded contributions. The user has now approved the independent [maintenance-decision transfer study](https://github.com/alignment-farm/maintenance-decision-transfer) ([local brief](../../ancillary-studies/maintenance-decision-transfer/README.md)). Its first phase is commissioned and prepared for independent execution; preparation has not launched a model run or ancillary session. It tests transfer of the simple known-history rule and whether affordable observations improve useful choices beyond it. The prior S1/S2/S4 and placement phases remain complete. The fixed research directive and original AD1–AD3 expectations are unchanged.
+**Current work — 16 September 2026:** Eight ancillary projects have published bounded contributions. The user has now approved the independent [maintenance-decision transfer study](https://github.com/alignment-farm/maintenance-decision-transfer) ([local brief](../../ancillary-studies/maintenance-decision-transfer/README.md)). Its first phase is underway, as reported by the user; the root has not inspected unpublished results. It tests transfer of the simple known-history rule and whether affordable observations improve useful choices beyond it. The prior S1/S2/S4 and placement phases remain complete. The fixed research directive and original AD1–AD3 expectations are unchanged.
 
 This map connects the root's questions, ancillary publications and current research directions. Eight projects have published bounded contributions. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
 
@@ -196,6 +196,12 @@ For S1, we should distinguish three outcomes: **the chosen text becomes easier t
 | **P45. [Next-Generation Agentic RL, 2607.01120v2](https://arxiv.org/html/2607.01120v2)** — §§5–7 | Proposes selection across memory, harness and weights; prototypes the weight-update branch. | Conceptual overlap does not establish the full proposed selector's effectiveness. |
 | **P46. [Smart “Predict, then Optimize”, 1710.08005v5](https://arxiv.org/html/1710.08005v5)** — §2, §3 through §3.1 | Defines prediction-induced decision loss; distinguishes prediction fit from useful action ordering. | Prior theory for action-value comparison; its supplied training cost vectors do not solve missing counterfactual outcomes. |
 | **P47. [Selecting Computations, 1207.5879v1](https://arxiv.org/html/1207.5879v1)** — §§1–2 through Definition 6 and discussion | Formalizes costly observation before action and explains a limitation of one-step observation selection. | Prior theory for pricing learner probes; an informative signal need not change a maintenance decision. |
+| **P48. [Grounding Agent Memory, 2609.11060v1](https://arxiv.org/html/2609.11060v1)** — §3 and Appendix D | Environment-probing curation of explicit records. | Concrete feedback precedent; see the memory-feedback ledger for limits. |
+| **P49. [HiMPO, 2606.16285v2](https://arxiv.org/html/2606.16285v2)** — targeted methods and Appendices E–F | Memory credit with live behavioral validation. | Generic memory-credit validation already has direct precedent. |
+| **P50. [AttriMem, 2607.21106v3](https://arxiv.org/html/2607.21106v3)** — methods, selected results, Appendices A–B | Attribution trains memory construction. | Distinguish fixed-answer influence from complete-task effect. |
+| **P51. [Credit Without Ground Truth, 2608.19760v2](https://arxiv.org/html/2608.19760v2)** — targeted methods and limitations | Executed-replay audit of step credit. | Limited fidelity and training evidence do not establish general uselessness. |
+| **P52. [CRAG, 2401.15884v3](https://arxiv.org/html/2401.15884v3)** — selected methods, ablations and costs | Relevance-based corrective action routing. | A concrete developed rule for AD1 comparisons. |
+| **P53. [Adaptive-RAG, 2403.14403v2](https://arxiv.org/html/2403.14403v2)** — §3, selected results and pinned author code | Outcome-derived strategy classification. | Direct precedent for learning which retrieval strategy to use; not isolated reading repair. |
 
 The [13 September methods review](../sources/2026-09-13/README.md) records the added reading and the selection rationale for procedure transfer. P17/P18 are additions to the original paper map; this is not a claim of comprehensive or latest-version coverage.
 
@@ -452,6 +458,16 @@ Where experience lives is part of a larger decision about what to change and pre
 <a id="6-suggested-order-for-discussion"></a>
 
 ## 6. Research selection
+
+**Root work during execution:** The user reports maintenance-decision-transfer
+underway. The root's next independent [research question](../notes/RESEARCH_DIRECTION.md#root-work-while-maintenance-decision-transfer-runs)
+concerns feedback for learning useful retention and intervention choices (AD1).
+The [feedback comparison](../notes/FEEDBACK_DECISIONS.md) and subsequent
+[bounded feasibility assessment](2026-09-16-remedy-feasibility.md) do not select
+a new experiment from S4 or the inspected public artifacts. S4 lacks the proposed
+retrieval remedy; P53 already learns retrieval strategy from outcomes. The
+specific AD1 comparison remains open, while this feasibility phase is complete.
+No unpublished study results were read and no additional experiment is commissioned.
 
 **Latest commissioning decision — 16 September:** The user approved proceeding
 with the recommended bounded comparison. The independent

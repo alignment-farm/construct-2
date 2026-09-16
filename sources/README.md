@@ -3,6 +3,25 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [bounded remedy review](2026-09-16-remedy-feasibility/README.md) checks S4's
+published access and per-seed evidence, inspects pinned CRAG and Adaptive-RAG author
+code, and adds P53. Re-scoring a released 500-query slice confirms competing
+retrieval strategies, but not the proposed AD1 failure diagnosis. The
+[assessment](../studies/2026-09-16-remedy-feasibility.md) closes this feasibility
+phase without selecting a new experiment.
+
+The [feedback comparison](2026-09-16-feedback-comparison/README.md) adds P49–P52:
+memory credit, behavioral replay and retrieval correction. Existing methods
+substantially answer the broad proposal. The
+[root comparison](../notes/FEEDBACK_DECISIONS.md) selects a narrower feasibility
+question: whether experience and affordable diagnostics improve the choice
+between retrieving missing evidence and using evidence already available.
+
+The [memory-feedback reading](2026-09-16-memory-feedback/README.md) follows an
+existing curation lead into its methods (P48) and revisits P44's delayed reward.
+It supports independent AD1 development while maintenance-decision transfer runs:
+what feedback teaches useful retention or intervention choices?
+
 The [maintenance preparation review](2026-09-16-maintenance-preparation/README.md)
 checks S2 at its unchanged review boundary and inspects P27's actual linked code
 release. Retrospective calculation identifies a known-history rule matching the

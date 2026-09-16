@@ -1,0 +1,23 @@
+{
+  "url": "https://export.arxiv.org/api/query?id_list=2403.14403&max_results=1",
+  "time_utc": "2026-09-16T18:44:56.451304+00:00",
+  "user_agent": "Construct-2 bounded remedy feasibility literature review",
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "3301",
+    "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "x-cloud-trace-context": "33c91be4f4d31492328a09f2a231ed24",
+    "content-type": "application/atom+xml; charset=utf-8",
+    "server": "Google Frontend",
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Date": "Wed, 16 Sep 2026 18:44:56 GMT",
+    "X-Served-By": "cache-lga21986-LGA, cache-lga21986-LGA, cache-lga21932-LGA, cache-mia-kmia1760094-MIA",
+    "X-Cache": "MISS, MISS, MISS",
+    "X-Cache-Hits": "0, 0, 0",
+    "X-Timer": "S1789584296.233501,VS0,VE202",
+    "Strict-Transport-Security": "max-age=300"
+  },
+  "sha256": "b2f619a30a6d88e2eaaa7320b9f252b31bd60aaf613bfa357689f804f00c88ce"
+}

@@ -287,3 +287,68 @@ the root prepared and published the independent
 The bounded comparison is authorized for ancillary execution. Preparation has not
 started the investigator or model runs. This is a new independent question, not
 an S2 renewal or a change to the program's directive.
+
+## Root work while maintenance-decision transfer runs
+
+The user reports the ancillary study underway. The root has not inspected its
+unpublished results or altered its assignment. The next independent root question
+is how useful decision experience is obtained in the first place:
+
+> When does ordinary outcome feedback teach which experience to retain or which
+> remedy to use, and when does that require additional evidence?
+
+This develops AD1 alongside the active AD2 comparison. The active study examines
+decisions across learned histories with checked task specifications. This root
+question concerns the feedback from which an agent could learn those decisions.
+The broader directive still permits records, contextual lessons, tools, weights
+and runtime rules to develop together.
+
+Local S4 distinguishes missing information from unsuccessful reading; S5 shows
+that learned score predictions can fail to improve complete answers. These
+motivate distinguishing a supported proposition, useful access to it, and benefit
+attributable to retaining or applying it. They do not demonstrate an agent that
+can diagnose these distinctions from its own feedback.
+
+The [focused primary-method reading](../sources/2026-09-16-memory-feedback/README.md)
+supplies two concrete precedents: environment-probing memory curation (P48) and
+delayed response-quality credit for learned memory policies (P44). Thus the root
+should not propose generic memory verification or delayed reward as a new method.
+
+The next deliverable is a comparison of feedback sources: terminal task outcomes,
+fixed verification rules, targeted environmental observations and paid memory
+removal/replacement comparisons. Determine what each can teach, what it costs,
+and whether it improves fresh choices beyond a developed fixed policy. Keep
+functioning remedies and competent explicit access. A useful policy need not
+estimate causal credit exactly; conversely, a passing task does not validate
+every retained inference. Outcome shuffling or memory removal are possible
+diagnostics, not mandatory new infrastructure.
+
+Before proposing an experiment, inspect the closest learned retrieval/repair
+and credit-assignment methods, identify a consequential comparison, and record
+whether public results answer, narrow or redirect it. This is independent theory
+and literature development, not another commissioned study or a requirement to
+wait for the active investigation. AD1 remains untested.
+
+**Subsequent assessment:** The
+[feedback comparison](FEEDBACK_DECISIONS.md) and
+[new primary-method review](../sources/2026-09-16-feedback-comparison/README.md)
+complete this deliverable. P49–P52 supply direct memory-credit, replay-audit and
+retrieval-correction precedents. A generic credit comparison would overlap this
+work. The selected next step is a bounded feasibility review of remedy choice:
+can existing evidence support functioning retrieval and reading remedies whose
+relative value differs, with useful decision experience beyond a developed rule
+and competent explicit access? Additional feedback must repay its cost. The
+review may resolve the candidate without new runs. No additional ancillary study
+is commissioned, and the original AD1 expectation remains untested locally.
+
+**Bounded review completed:** The
+[remedy feasibility assessment](../studies/2026-09-16-remedy-feasibility.md)
+inspects S4 at its unchanged accepted revision and two pinned author releases.
+It does not select a new experiment. S4 does not supply the proposed retrieval
+action; P53 Adaptive-RAG already learns strategy choice from outcome-derived
+labels. Recalculated released outputs confirm competing useful actions, but
+their evidence and computation vary together. The specific AD1 distinction
+remains unresolved, without warrant for relabeling these existing comparisons or
+extending S4. Close this feasibility phase and retain the candidate as an open
+question, not the default next experiment. The active maintenance assignment and
+original AD1–AD3 predictions are unchanged.

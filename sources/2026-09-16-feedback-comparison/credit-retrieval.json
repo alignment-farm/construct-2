@@ -1,0 +1,23 @@
+{
+  "url": "https://export.arxiv.org/api/query?id_list=2606.16285%2C2607.21106%2C2608.19760&max_results=3",
+  "time_utc": "2026-09-16T18:20:43.565466+00:00",
+  "user_agent": "Construct-2 feedback-comparison primary research cache",
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "8712",
+    "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "x-cloud-trace-context": "e37063bed5dfaeee22a624543a7fc906",
+    "content-type": "application/atom+xml; charset=utf-8",
+    "server": "Google Frontend",
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Date": "Wed, 16 Sep 2026 18:20:43 GMT",
+    "X-Served-By": "cache-lga21993-LGA, cache-lga21993-LGA, cache-lga21922-LGA, cache-mia-kmia1760101-MIA",
+    "X-Cache": "MISS, MISS, MISS",
+    "X-Cache-Hits": "0, 0, 0",
+    "X-Timer": "S1789582844.714810,VS0,VE159",
+    "Strict-Transport-Security": "max-age=300"
+  },
+  "sha256": "f586f6e90580a686f7ae0c33a86dd77bd4822fd918e8d28194cbbea4eb9d27b4"
+}
