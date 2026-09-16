@@ -1,7 +1,7 @@
 # Revision support has different value in different learned states
 
 15 September 2026. Root assessment of S2's completed
-[state/support investigation](../../ancillary-studies/procedure-retention-and-revision/FINDINGS-STATE-SUPPORT.md),
+[state/support investigation](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/FINDINGS-STATE-SUPPORT.md) ([local](../../ancillary-studies/procedure-retention-and-revision/FINDINGS-STATE-SUPPORT.md)),
 following the [third-phase synthesis](2026-09-15-maintenance-findings.md) and
 [MR1–MR3 expectations](../notes/MAINTENANCE_RELIABILITY.md#prospective-expectations-for-a-future-comparison).
 

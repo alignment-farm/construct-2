@@ -23,9 +23,9 @@ accepted; none establishes a general memory-placement ranking.
 
 | Study | Follow-up publication | Synced publication commit |
 |---|---|---|
-| S1: experience selection | [FOLLOWUP_FINDINGS.md](../../ancillary-studies/experience-selection/FOLLOWUP_FINDINGS.md) | `dee1e3159ed0105f6a090c65b72f57cbc386fb10` |
-| S2: retention and revision | [FINDINGS-SCOPE.md](../../ancillary-studies/procedure-retention-and-revision/FINDINGS-SCOPE.md) | `6e7049458732c4f3e37e5b8a3d1993129c2bdcfa` |
-| S4: memory under goal shift | [followup/FINDINGS.md](../../ancillary-studies/memory-under-goal-shift/followup/FINDINGS.md) | `0d516aaa82d30d07e239b44e88ac43b5fdbfddef` |
+| S1: experience selection | [FOLLOWUP_FINDINGS.md](https://github.com/alignment-farm/experience-selection/blob/main/FOLLOWUP_FINDINGS.md) ([local](../../ancillary-studies/experience-selection/FOLLOWUP_FINDINGS.md)) | `dee1e3159ed0105f6a090c65b72f57cbc386fb10` |
+| S2: retention and revision | [FINDINGS-SCOPE.md](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/FINDINGS-SCOPE.md) ([local](../../ancillary-studies/procedure-retention-and-revision/FINDINGS-SCOPE.md)) | `6e7049458732c4f3e37e5b8a3d1993129c2bdcfa` |
+| S4: memory under goal shift | [followup/FINDINGS.md](https://github.com/alignment-farm/memory-under-goal-shift/blob/main/followup/FINDINGS.md) ([local](../../ancillary-studies/memory-under-goal-shift/followup/FINDINGS.md)) | `0d516aaa82d30d07e239b44e88ac43b5fdbfddef` |
 
 These follow-ups were published on 14 September and reviewed at the root on
 15 September. The [first-round assessment](2026-09-14-concurrent-findings.md)
@@ -90,7 +90,7 @@ phase; including known material while learning competing experience is useful
 here. Training value therefore depends on the other planned updates and the
 later workload, as well as current accuracy and source truthfulness. Rehearsal
 and interference-aware selection are established approaches: the study's
-[CLEAR/MIR reading](../../ancillary-studies/experience-selection/sources/followup-rehearsal/README.md)
+[CLEAR/MIR reading](https://github.com/alignment-farm/experience-selection/blob/main/sources/followup-rehearsal/README.md) ([local](../../ancillary-studies/experience-selection/sources/followup-rehearsal/README.md))
 prevents us from presenting this as a new replay principle or treating failure
 of current-error targeting as failure of those methods.
 

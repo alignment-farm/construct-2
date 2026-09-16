@@ -21,9 +21,9 @@ Their local and tracking heads were verified against the remote branch.
 
 | Study | Publication | Reviewed commit |
 |---|---|---|
-| S1: experience selection | [MAINTENANCE_FINDINGS.md](../../ancillary-studies/experience-selection/MAINTENANCE_FINDINGS.md) | `6179d8d0d8bcbaa236e42f53470eddc39199d502` |
-| S2: procedure retention and revision | [FINDINGS-MAINTENANCE.md](../../ancillary-studies/procedure-retention-and-revision/FINDINGS-MAINTENANCE.md) | `28aa881833ac2f9cf478b0d2f8a0f233ecc90023` |
-| S4: memory under goal shift | [future-use/FINDINGS.md](../../ancillary-studies/memory-under-goal-shift/future-use/FINDINGS.md) | `981719ffcda62fed0913461b50c0e97dbb4c10c8` |
+| S1: experience selection | [MAINTENANCE_FINDINGS.md](https://github.com/alignment-farm/experience-selection/blob/main/MAINTENANCE_FINDINGS.md) ([local](../../ancillary-studies/experience-selection/MAINTENANCE_FINDINGS.md)) | `6179d8d0d8bcbaa236e42f53470eddc39199d502` |
+| S2: procedure retention and revision | [FINDINGS-MAINTENANCE.md](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/FINDINGS-MAINTENANCE.md) ([local](../../ancillary-studies/procedure-retention-and-revision/FINDINGS-MAINTENANCE.md)) | `28aa881833ac2f9cf478b0d2f8a0f233ecc90023` |
+| S4: memory under goal shift | [future-use/FINDINGS.md](https://github.com/alignment-farm/memory-under-goal-shift/blob/main/future-use/FINDINGS.md) ([local](../../ancillary-studies/memory-under-goal-shift/future-use/FINDINGS.md)) | `981719ffcda62fed0913461b50c0e97dbb4c10c8` |
 
 We read the publications, frozen comparisons, consequential development decisions,
 implementations, costs and retained evidence. Review checks and their limits are

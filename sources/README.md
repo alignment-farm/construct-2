@@ -19,7 +19,7 @@ records its failed distillation acquisition and partial transfer through imitati
 The subsequent [diagnosis assessment](../studies/README.md#procedure-transfer-acquisition-diagnosis)
 records functioning acquisition, a controlled routing rescue and remaining
 identifier-production failures. The
-study's [14 September reading](../../ancillary-studies/procedure-transfer/sources/README.md)
+study's [14 September reading](https://github.com/alignment-farm/procedure-transfer/blob/main/sources/README.md) ([local](../../ancillary-studies/procedure-transfer/sources/README.md))
 adds primary-method and author-code provenance for its implementation.
 
 The root's [14 September procedural-learning reading](2026-09-14/README.md)

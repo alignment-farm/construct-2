@@ -63,7 +63,7 @@ The next root synthesis should revisit R1–R3 explicitly, preserving their orig
 
 ## Assessment after reading diagnosis
 
-14 September 2026, after the original note. [DIAGNOSIS.md](../../ancillary-studies/procedure-transfer/DIAGNOSIS.md), publication `dcdc0d6f54dde235549f8abfba407598b6635667`, provides new development and intervention evidence. The [root assessment](../studies/README.md#procedure-transfer-acquisition-diagnosis) records its scope and independent checks. The predictions above remain unchanged.
+14 September 2026, after the original note. [DIAGNOSIS.md](https://github.com/alignment-farm/procedure-transfer/blob/main/DIAGNOSIS.md) ([local](../../ancillary-studies/procedure-transfer/DIAGNOSIS.md)), publication `dcdc0d6f54dde235549f8abfba407598b6635667`, provides new development and intervention evidence. The [root assessment](../studies/README.md#procedure-transfer-acquisition-diagnosis) records its scope and independent checks. The predictions above remain unchanged.
 
 | Original prediction | Assessment against the diagnosis |
 |---|---|
@@ -74,14 +74,15 @@ The next root synthesis should revisit R1–R3 explicitly, preserving their orig
 
 The strongest new explanation concerns the interaction between the objective and the learner's starting policy. From identical failed parameters, a loss-orientation intervention repairs routing; reverse KL also preserves training recall when started from an acquired imitation policy. The saved first-position distributions identify weak reverse correction signals for strongly suppressed correct tokens, including in the original failed adapters. This explains part of a local learning failure without making the same claim about every reverse-KL learner or identifying a shared cause with S3.
 
-Our behavioral account becomes more specific. The learners acquired routing that works on unfamiliar arguments, and suffix use is available conditional on a correct preceding answer. Most identifier mistakes observed in the root's additional descriptive inspection already used uppercase letters: 18 of imitation's 20 wrong identifiers and all 31 of forward's wrong identifiers contained no lowercase letters. For example, both produced `NOD` for `noud` in some calls. This inspection of the saved [component responses](../../ancillary-studies/procedure-transfer/evidence/diagnosis-v2-components/responses.jsonl) is post hoc; it motivates separating faithful string production from case conversion rather than asserting a newly learned uppercase algorithm.
+Our behavioral account becomes more specific. The learners acquired routing that works on unfamiliar arguments, and suffix use is available conditional on a correct preceding answer. Most identifier mistakes observed in the root's additional descriptive inspection already used uppercase letters: 18 of imitation's 20 wrong identifiers and all 31 of forward's wrong identifiers contained no lowercase letters. For example, both produced `NOD` for `noud` in some calls. This inspection of the saved [component responses](https://github.com/alignment-farm/procedure-transfer/blob/main/evidence/diagnosis-v2-components/responses.jsonl) ([local](../../ancillary-studies/procedure-transfer/evidence/diagnosis-v2-components/responses.jsonl)) is post hoc; it motivates separating faithful string production from case conversion rather than asserting a newly learned uppercase algorithm.
 
 The next empirical directions are concurrent. S2 studies maintenance and revision of acquired behavior; S4 tests how anticipated future use shapes memory; S1 investigates useful source selection and abstention. Their [independent briefs](../studies/README.md#6-research-selection) carry the questions forward without making the remaining identifier problem a prerequisite for all research on accumulated experience.
 
 ## Assessment after retention and revision
 
 14 September 2026, after the first concurrent round. [Procedure retention and
-revision](../../ancillary-studies/procedure-retention-and-revision/FINDINGS.md),
+revision](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/FINDINGS.md)
+([local](../../ancillary-studies/procedure-retention-and-revision/FINDINGS.md)),
 publication `9696af5ef32a86571b66bcedec3b3cd241aef9a0`, now tests R4. The
 [root assessment](../studies/2026-09-14-concurrent-findings.md) records the
 cross-study implications and review scope. The original prediction and the
@@ -117,14 +118,14 @@ The revised working account is **a reusable routing relation can be maintained
 and corrected with supporting evidence, while other computations remain
 vulnerable to the same updates**. This supports studying learned behavior
 together with an evidence archive; it does not establish that replay or such an
-archive is universally necessary. The [S2 follow-up](../../ancillary-studies/procedure-retention-and-revision/FOLLOWUP.md)
+archive is universally necessary. The [S2 follow-up](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/FOLLOWUP.md) ([local](../../ancillary-studies/procedure-retention-and-revision/FOLLOWUP.md))
 separates scope information from broader rehearsal. The
 [prospective expectations](../studies/2026-09-14-concurrent-findings.md#prospective-expectations-and-independent-continuations)
 state what would change this explanation before the root reads follow-up results.
 
 ## Assessment after scope and rehearsal
 
-15 September 2026. [FINDINGS-SCOPE.md](../../ancillary-studies/procedure-retention-and-revision/FINDINGS-SCOPE.md),
+15 September 2026. [FINDINGS-SCOPE.md](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/FINDINGS-SCOPE.md) ([local](../../ancillary-studies/procedure-retention-and-revision/FINDINGS-SCOPE.md)),
 publication `6e7049458732c4f3e37e5b8a3d1993129c2bdcfa`, completes the commissioned
 follow-up. The [root synthesis](../studies/2026-09-15-followup-findings.md)
 records its evidence boundary and relationship to S1 and S4. Earlier predictions
@@ -178,7 +179,7 @@ experimental assignment issued by this assessment.
 
 **Subsequent decision, 15 September 2026.** The user approved the
 [learning-maintenance phase](LEARNING_MAINTENANCE.md). Its prospective M2
-expectation and [S2 brief](../../ancillary-studies/procedure-retention-and-revision/MAINTENANCE.md)
+expectation and [S2 brief](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/MAINTENANCE.md) ([local](../../ancillary-studies/procedure-retention-and-revision/MAINTENANCE.md))
 carry the familiar/unfamiliar correction question into a broader complete
 procedure with recurring use and measured maintenance costs. The assessments
 above remain the record of the preceding evidence.

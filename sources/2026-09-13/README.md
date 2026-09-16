@@ -23,13 +23,13 @@ The decision and prospective language below preserve the 13 September rationale.
 
 These are author-described methods; no implementation or published result was
 reproduced in this preparation. P18 was already identified in the acquisition
-study's [literature note](../../../ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-literature.md).
+study's [literature note](https://github.com/alignment-farm/procedure-acquisition-and-reuse/blob/main/notes/2026-09-11-literature.md) ([local](../../../ancillary-studies/procedure-acquisition-and-reuse/notes/2026-09-11-literature.md)).
 P17 was followed from P18's reference 47. Exact versions above are the ones
 read; they are not asserted to be the latest versions.
 
 ## Root decision
 
-Prepare [procedure transfer](../../../ancillary-studies/procedure-transfer/README.md)
+Prepare [procedure transfer](https://github.com/alignment-farm/procedure-transfer/blob/main/README.md) ([local](../../../ancillary-studies/procedure-transfer/README.md))
 as a focused investigation of whether an evidence-informed acquisition method
 improves new-input behavior beyond the earlier direct-imitation recipe.
 Context distillation supplies an existing method to examine. The ancillary

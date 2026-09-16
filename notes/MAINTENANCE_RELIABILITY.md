@@ -1,7 +1,7 @@
 # Predicting whether learned behavior will survive an update
 
 **Current assessment — 15 September 2026:** S2's
-[state/support publication](../../ancillary-studies/procedure-retention-and-revision/FINDINGS-STATE-SUPPORT.md)
+[state/support publication](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/FINDINGS-STATE-SUPPORT.md) ([local](../../ancillary-studies/procedure-retention-and-revision/FINDINGS-STATE-SUPPORT.md))
 is complete and accepted in the [root synthesis](../studies/2026-09-15-state-support-findings.md).
 Inherited state and current support interact; the developed directional prediction
 holds in both fresh acquisitions. Equal-accuracy hidden susceptibility remains a
@@ -45,7 +45,7 @@ at each revision, so retained optimizer moments across revisions do not explain
 this particular difference. The weights and subsequent examples can still interact.
 
 **Post hoc inspection of existing evidence, not a new experiment.** In S2's
-[final events](../../ancillary-studies/procedure-retention-and-revision/evidence/maintenance-final-v1/events.jsonl),
+[final events](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/evidence/maintenance-final-v1/events.jsonl) ([local](../../ancillary-studies/procedure-retention-and-revision/evidence/maintenance-final-v1/events.jsonl)),
 each revision-2 trajectory has 64 historical updates, of which ten rehearse the
 first waiver. The last two such seed-401 updates, indices 183 and 186, concern
 the same familiar entity and stock conditions. Their pre-step teacher-forced
@@ -166,8 +166,8 @@ workload refinement and numerical budgets once a question is commissioned.
 Historical commission, now completed and assessed below.
 
 The next bounded investigation remains in
-[procedure-retention-and-revision](../../ancillary-studies/procedure-retention-and-revision/README.md).
-The local [STATE_SUPPORT.md](../../ancillary-studies/procedure-retention-and-revision/STATE_SUPPORT.md)
+[procedure-retention-and-revision](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/README.md) ([local](../../ancillary-studies/procedure-retention-and-revision/README.md)).
+The local [STATE_SUPPORT.md](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/STATE_SUPPORT.md) ([local](../../ancillary-studies/procedure-retention-and-revision/STATE_SUPPORT.md))
 brief contains the question, artifact provenance, identifying contrast, resources
 and publication expectation independently of this root checkout.
 

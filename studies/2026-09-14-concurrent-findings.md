@@ -18,9 +18,9 @@ the follow-up briefs does not itself launch experimental runs.
 
 | Study | Accepted publication | Git revision reviewed |
 |---|---|---|
-| Experience selection, S1 | [FINDINGS.md](../../ancillary-studies/experience-selection/FINDINGS.md) | `dca27dd46b634616e8895e0a137f23225c5dc7cc` |
-| Memory under goal shift, S4 | [FINDINGS.md](../../ancillary-studies/memory-under-goal-shift/FINDINGS.md) | `968c4d89960ef54849dc3625b2a9991cde128cae` |
-| Procedure retention and revision, S2 | [FINDINGS.md](../../ancillary-studies/procedure-retention-and-revision/FINDINGS.md) | `9696af5ef32a86571b66bcedec3b3cd241aef9a0` |
+| Experience selection, S1 | [FINDINGS.md](https://github.com/alignment-farm/experience-selection/blob/main/FINDINGS.md) ([local](../../ancillary-studies/experience-selection/FINDINGS.md)) | `dca27dd46b634616e8895e0a137f23225c5dc7cc` |
+| Memory under goal shift, S4 | [FINDINGS.md](https://github.com/alignment-farm/memory-under-goal-shift/blob/main/FINDINGS.md) ([local](../../ancillary-studies/memory-under-goal-shift/FINDINGS.md)) | `968c4d89960ef54849dc3625b2a9991cde128cae` |
+| Procedure retention and revision, S2 | [FINDINGS.md](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/FINDINGS.md) ([local](../../ancillary-studies/procedure-retention-and-revision/FINDINGS.md)) | `9696af5ef32a86571b66bcedec3b3cd241aef9a0` |
 
 The review covered findings, protocols, development decisions, implementations,
 supporting evidence and Git chronology. Independent checks rescored 2,432 S1
@@ -170,9 +170,9 @@ and tests developed claims on fresh material.
 | **S2: correction scope versus rehearsal** | Minimal evidence identifying what did and did not change will reduce overgeneralized correction; broader rehearsal may additionally preserve unaffected computation. | Boundary evidence alone preserves the relevant behavior as well as broader replay, or replay's advantage disappears once scope information is equal. Either would narrow the retention explanation of the first result. |
 | **S4: beyond the linear construction** | Under constrained capacity and adequate expected-goal acquisition, a broader-use objective will preserve more useful changed-goal information than a narrow one when one consequential linear-study simplification is relaxed. | No objective-dependent tradeoff appears under adequate acquisition, or the difference disappears with a suitable reader. These weaken the information-selection explanation. Separately, a matching competent explicit representation narrows any learned-format advantage. |
 
-The study-owned handoffs are [experience selection](../../ancillary-studies/experience-selection/FOLLOWUP.md),
-[procedure retention and revision](../../ancillary-studies/procedure-retention-and-revision/FOLLOWUP.md),
-and [memory under goal shift](../../ancillary-studies/memory-under-goal-shift/FOLLOWUP.md).
+The study-owned handoffs are [experience selection](https://github.com/alignment-farm/experience-selection/blob/main/FOLLOWUP.md) ([local](../../ancillary-studies/experience-selection/FOLLOWUP.md)),
+[procedure retention and revision](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/FOLLOWUP.md) ([local](../../ancillary-studies/procedure-retention-and-revision/FOLLOWUP.md)),
+and [memory under goal shift](https://github.com/alignment-farm/memory-under-goal-shift/blob/main/FOLLOWUP.md) ([local](../../ancillary-studies/memory-under-goal-shift/FOLLOWUP.md)).
 They authorize independent bounded experimental continuation, with shared-device
 coordination where needed. S2 need not solve identifier production before testing
 revision, and S4 need not adopt the routing workload. Failure to acquire calls for

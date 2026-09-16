@@ -55,9 +55,9 @@ different boundaries.
 
 | Project and current brief | Scientific question | Boundary against the other work |
 |---|---|---|
-| [S1: experience selection](../../ancillary-studies/experience-selection/MAINTENANCE.md) | Can anticipating update damage improve maintenance of complete behavior beyond a strong fixed mixture, under consequential recurrence or replay constraints? | Experience remains valid; the main uncertainty is selection and rehearsal during further learning. MIR/P22 is an existing method lead, not a method already tested here. |
-| [S2: procedure retention and revision](../../ancillary-studies/procedure-retention-and-revision/MAINTENANCE.md) | Can supported corrections reach familiar acquired instances and unfamiliar applications while preserving complete unaffected behavior? | Some earlier behavior becomes obsolete. Scope identification, revision and consequences are central; the study does not wait for a new S1 selector. |
-| [S4: memory under goal shift](../../ancillary-studies/memory-under-goal-shift/FUTURE_USE.md) | When does learned memory support later uses beyond directly covered training targets, and which deficits can be repaired by reading the same state differently? | The history need not change or contain false records. The uncertainty concerns future-use assumptions, information retention and read computation. |
+| [S1: experience selection](https://github.com/alignment-farm/experience-selection/blob/main/MAINTENANCE.md) ([local](../../ancillary-studies/experience-selection/MAINTENANCE.md)) | Can anticipating update damage improve maintenance of complete behavior beyond a strong fixed mixture, under consequential recurrence or replay constraints? | Experience remains valid; the main uncertainty is selection and rehearsal during further learning. MIR/P22 is an existing method lead, not a method already tested here. |
+| [S2: procedure retention and revision](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/MAINTENANCE.md) ([local](../../ancillary-studies/procedure-retention-and-revision/MAINTENANCE.md)) | Can supported corrections reach familiar acquired instances and unfamiliar applications while preserving complete unaffected behavior? | Some earlier behavior becomes obsolete. Scope identification, revision and consequences are central; the study does not wait for a new S1 selector. |
+| [S4: memory under goal shift](https://github.com/alignment-farm/memory-under-goal-shift/blob/main/FUTURE_USE.md) ([local](../../ancillary-studies/memory-under-goal-shift/FUTURE_USE.md)) | When does learned memory support later uses beyond directly covered training targets, and which deficits can be repaired by reading the same state differently? | The history need not change or contain false records. The uncertainty concerns future-use assumptions, information retention and read computation. |
 
 The S1/S2 connection is theoretical. They do not require a shared benchmark,
 checkpoint pipeline or an operational dependency on one another. Each can
@@ -170,7 +170,7 @@ and prospective expectations; it does not renew the local commissions.
 
 **Later commissioning decision, 15 September 2026.** Following that note, the
 user approved the next step. S2 now has a bounded
-[state/support follow-up](../../ancillary-studies/procedure-retention-and-revision/STATE_SUPPORT.md)
+[state/support follow-up](https://github.com/alignment-farm/procedure-retention-and-revision/blob/main/STATE_SUPPORT.md) ([local](../../ancillary-studies/procedure-retention-and-revision/STATE_SUPPORT.md))
 addressing MR1. Its investigator owns methods and execution. S1/S4 remain
 complete; preparation of the follow-up ran no experiments.
 
