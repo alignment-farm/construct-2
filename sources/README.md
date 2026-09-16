@@ -3,6 +3,20 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [maintenance preparation review](2026-09-16-maintenance-preparation/README.md)
+checks S2 at its unchanged review boundary and inspects P27's actual linked code
+release. Retrospective calculation identifies a known-history rule matching the
+published state oracle. The [concrete comparison](../notes/MAINTENANCE_COMPARISON.md)
+therefore recommends testing history-rule transfer against paid observations,
+direct validation and explicit evidence before a larger selector investment.
+
+The [16 September decision-value reading](2026-09-16-decision-value/README.md)
+adds decision-focused learning and costly observation selection (P46/P47), and
+revisits P26/P27. It narrows the independent maintenance comparison to observable
+differences between available actions across learner histories. The
+[theory extension](../notes/MAINTENANCE_DECISIONS.md#when-observation-can-change-the-decision)
+derives conditions and worked examples; it reports no new model results.
+
 The [16 September adaptation-decision review](2026-09-16-adaptation-decisions/README.md)
 adds P39–P45: learned memory operations, online policy adaptation, harness
 optimization, component interactions and a proposed broader intervention selector.

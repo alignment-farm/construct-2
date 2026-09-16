@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/AuCson/low-rank-forgetting/1128e1fdc83752f7a7f30a0dbd237afac3b97fc0/README.md",
+    "revision": "1128e1fdc83752f7a7f30a0dbd237afac3b97fc0",
+    "sha256": "bd92695ac8b56910c12b33ed4fe8386a2642aeb38b7973d9bf3f1474ce4a4493",
+    "retrieval_date": "2026-09-16",
+    "scope": "static inspection"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/AuCson/low-rank-forgetting/1128e1fdc83752f7a7f30a0dbd237afac3b97fc0/run_matrix_completion.py",
+    "revision": "1128e1fdc83752f7a7f30a0dbd237afac3b97fc0",
+    "sha256": "c072a48d0112c1ade13d61332de60600d5be8ff5afd9ce8ddb566e14b444aa02",
+    "retrieval_date": "2026-09-16",
+    "scope": "static inspection"
+  }
+]

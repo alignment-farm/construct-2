@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/c53uDnC6o0qGnKSrLUGB+nVm4b8</id>
+  <title>arXiv Query: search_query=abs:"forgetting prediction" AND (abs:sequential OR abs:continual)&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-16T17:38:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22forgetting+prediction%22+AND+(abs:sequential+OR+abs:continual)&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.14365v1</id>
+    <title>Continually Learned Pavlovian Signalling Without Forgetting for Human-in-the-Loop Robotic Control</title>
+    <updated>2023-05-16T15:37:16Z</updated>
+    <link href="https://arxiv.org/abs/2305.14365v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.14365v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial limbs are sophisticated devices to assist people with tasks of daily living. Despite advanced robotic prostheses demonstrating similar motion capabilities to biological limbs, users report them difficult and non-intuitive to use. Providing more effective feedback from the device to the user has therefore become a topic of increased interest. In particular, prediction learning methods from the field of reinforcement learning -- specifically, an approach termed Pavlovian signalling -- have been proposed as one approach for better modulating feedback in prostheses since they can adapt during continuous use. One challenge identified in these learning methods is that they can forget previously learned predictions when a user begins to successfully act upon delivered feedback. The present work directly addresses this challenge, contributing new evidence on the impact of algorithmic choices, such as on- or off-policy methods and representation choices, on the Pavlovian signalling from a machine to a user during their control of a robotic arm. Two conditions of algorithmic differences were studied using different scenarios of controlling a robotic arm: an automated motion system and human participant piloting. Contrary to expectations, off-policy learning did not provide the expected solution to the forgetting problem. We instead identified beneficial properties of a look-ahead state representation that made existing approaches able to learn (and not forget) predictions in support of Pavlovian signalling. This work therefore contributes new insight into the challenges of providing learned predictive feedback from a prosthetic device, and demonstrates avenues for more dynamic signalling in future human-machine interactions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-16T15:37:16Z</published>
+    <arxiv:comment>12 pages inc. supplementary, 7 figures, 3 algorithms, Published the NeurIPS Workshop on Human in the Loop Learning, Nov 28 - Dec 8 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Adam S. R. Parker</name>
+    </author>
+    <author>
+      <name>Michael R. Dawson</name>
+    </author>
+    <author>
+      <name>Patrick M. Pilarski</name>
+    </author>
+  </entry>
+</feed>

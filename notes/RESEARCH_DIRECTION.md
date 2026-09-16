@@ -256,3 +256,34 @@ does not establish useful repayment. Reuse lengths are confounded with seeds,
 and the combined branches contain no answer-changing targets. The prospective
 expectations above remain unchanged. The broader placement question remains open,
 A remains independent, and this assessment commissions no further experiment.
+
+## Independent development after placement
+
+The [decision-value reading](../sources/2026-09-16-decision-value/README.md)
+adds established decision-focused and metareasoning theory (P46/P47). The
+[maintenance extension](MAINTENANCE_DECISIONS.md#when-observation-can-change-the-decision)
+uses it to narrow A: a history change may alter absolute damage forecasts while
+leaving the best action unchanged. Useful observation must resolve consequential
+action differences relative to competent fixed choices, explicit fallback and
+direct validation. Its constructed examples separate information about a learner
+from information worth acquiring for a decision.
+
+This selects further root development of action-value transfer, not generic
+forecasting or a renewed placement run. AD1–AD3 and their empirical status remain
+unchanged. No new ancillary phase or model experiment is commissioned.
+
+**Concrete preparation:** The [maintenance comparison](MAINTENANCE_COMPARISON.md)
+now specifies the workload, functioning support choices, observation alternatives
+and illustrative resource scope. The [targeted review](../sources/2026-09-16-maintenance-preparation/README.md)
+finds that a simple known-history rule matches the aggregate state oracle on
+published S2 endpoints. This is retrospective, but redirects the first investment
+toward testing history-rule transfer before a larger learned-selector campaign.
+An independent bounded comparison is recommended; no new phase is commissioned.
+
+**Subsequent commissioning decision:** Following the user's direction to continue,
+the root prepared and published the independent
+[maintenance-decision-transfer study](https://github.com/alignment-farm/maintenance-decision-transfer)
+([local brief](../../ancillary-studies/maintenance-decision-transfer/README.md)).
+The bounded comparison is authorized for ancillary execution. Preparation has not
+started the investigator or model runs. This is a new independent question, not
+an S2 renewal or a change to the program's directive.

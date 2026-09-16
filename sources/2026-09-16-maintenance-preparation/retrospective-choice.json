@@ -1,0 +1,66 @@
+{
+  "scope": "Retrospective, equally weighted six published states; not independent trials or a held-out policy test",
+  "study_revision": "3e71eb5f146e6493c60cef26d15d86dedd2249fb",
+  "inputs": [
+    {
+      "path": "evidence/state-support-development-v1/responses.jsonl",
+      "sha256": "bcee432dec1bb2b3e72715b9038a16d46cc9709a328ce50509b80d0bb6aa3070"
+    },
+    {
+      "path": "evidence/state-support-final-seed501-v1/responses.jsonl",
+      "sha256": "11e44ba542a0dad6160bcb788c7e6c75d23f44f5e905288216b4c04925996bcf"
+    },
+    {
+      "path": "evidence/state-support-final-seed502-v1/responses.jsonl",
+      "sha256": "16610f352fc11321e482ba8d83c9ebff36e852f8886c61c54d5e6476e0536da7"
+    }
+  ],
+  "endpoint_responses_checked": 2304,
+  "cells": [
+    {
+      "seed": 401,
+      "history": "novel",
+      "novel": 192,
+      "bridged": 122
+    },
+    {
+      "seed": 401,
+      "history": "bridged",
+      "novel": 120,
+      "bridged": 120
+    },
+    {
+      "seed": 501,
+      "history": "novel",
+      "novel": 192,
+      "bridged": 185
+    },
+    {
+      "seed": 501,
+      "history": "bridged",
+      "novel": 120,
+      "bridged": 120
+    },
+    {
+      "seed": 502,
+      "history": "novel",
+      "novel": 143,
+      "bridged": 133
+    },
+    {
+      "seed": 502,
+      "history": "bridged",
+      "novel": 121,
+      "bridged": 145
+    }
+  ],
+  "policy_denominator": 1152,
+  "fixed_support_totals": {
+    "novel": 888,
+    "bridged": 825
+  },
+  "state_oracle_total": 912,
+  "history_matching_total": 912,
+  "oracle_gain_over_best_fixed": 24,
+  "oracle_gain_over_history_matching": 0
+}

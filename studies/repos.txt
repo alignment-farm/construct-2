@@ -6,3 +6,4 @@ alignment-farm/procedure-retention-and-revision
 alignment-farm/memory-under-goal-shift
 alignment-farm/experience-selection
 alignment-farm/memory-placement-under-revision
+alignment-farm/maintenance-decision-transfer

@@ -1,0 +1,22 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=abs%3A%22forgetting+prediction%22+AND+%28abs%3Asequential+OR+abs%3Acontinual%29&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending",
+  "time_utc": "2026-09-16T17:38:01.411370+00:00",
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "3666",
+    "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "x-cloud-trace-context": "f2f645c3f267a5ba9ffca5fe30130c14",
+    "server": "Google Frontend",
+    "content-type": "application/atom+xml; charset=utf-8",
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Date": "Wed, 16 Sep 2026 17:38:02 GMT",
+    "X-Served-By": "cache-lga21988-LGA, cache-lga21988-LGA, cache-lga21974-LGA, cache-mia-kmia1760084-MIA",
+    "X-Cache": "MISS, MISS, MISS",
+    "X-Cache-Hits": "0, 0, 0",
+    "X-Timer": "S1789580282.079064,VS0,VE159",
+    "Strict-Transport-Security": "max-age=300"
+  },
+  "sha256": "36f86d7d2c0c224596e862d168eaa4ffdc57e78ce9b085d0739ac3498674ce1a"
+}
