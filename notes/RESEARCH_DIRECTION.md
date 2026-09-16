@@ -352,3 +352,26 @@ remains unresolved, without warrant for relabeling these existing comparisons or
 extending S4. Close this feasibility phase and retain the candidate as an open
 question, not the default next experiment. The active maintenance assignment and
 original AD1–AD3 predictions are unchanged.
+
+## Assessment after the independent maintenance publication
+
+The [maintenance-transfer assessment](../studies/2026-09-16-maintenance-transfer-findings.md)
+accepts the completed phase. All nine ancillary projects now have bounded
+publications. Matching known history reaches the fresh two-support aggregate bound
+(524/768), while every candidate fails substantial obligations. Paid validation
+does not improve that total; the fitted observation controls were constant before
+assessment, so they do not establish the absence of useful information.
+
+This narrows AD2: its aggregate observation-rescue prediction is unsupported in
+this comparison, with weak calibration coverage. The demonstrated limit is not
+just inaccurate forecasting. Available actions are inadequate, and equal totals
+can conceal different new-obligation and preservation failures. The retained-example
+table completes the finite task under explicit addressing and authority assumptions.
+
+No new experiment is selected through acceptance of this publication. Another
+selector round or an obligation-prioritizing tie-break alone would not resolve
+maintenance. If further work is selected, first specify the consequential
+uncertainty about adequate actions, task structure or obligation tradeoffs and
+check its closest public evidence. AD1's bounded feasibility review remains closed
+without a selected experiment; the broader AD1 question stays open. The fixed
+directive, hybrid working hypothesis and original predictions remain intact.

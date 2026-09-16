@@ -180,3 +180,22 @@ receiving answerer's budget without isolating a universal failure mechanism.
 The result strengthens the distinction between learnable regularity and useful
 intervention value; it does not establish a learned intervention selector or
 change the root directive. No follow-up commission accompanies this assessment.
+
+## Assessment after maintenance-decision transfer
+
+The [publication assessment](../studies/2026-09-16-maintenance-transfer-findings.md)
+accepts the independent bounded phase. AD2 now has a local test: matching known
+history selects 524/768 complete orders, equal to the two-support aggregate bound
+across two newly acquired learners. Paid endpoint validation adds no aggregate
+gain. This weakens the predicted loss-and-observation-rescue pattern in this
+setting. The pre-observation and prefix controls were already constant before
+assessment, so their results cannot establish that observations lack information.
+
+All candidate endpoints remain incomplete. A validation-visible tie exchanges
+new/earlier waiver failures for still-ineligible-order failures, showing why zero
+aggregate regret does not certify maintenance. A 16-key retained-example table
+completes 192/192 under supplied addressing, entity invariance and correction
+authority. The result narrows selector investment without resolving general
+maintenance or choosing a universal substrate. AD1 remains untested locally;
+AD3's assessment and the original wording of all three predictions are preserved.
+No further experiment is commissioned.

@@ -1,15 +1,15 @@
 **Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/PREVIOUS_RESEARCH.md) and [research perspective](../notes/RESEARCH_PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. Executable skill libraries remain background; see the [research preference](../sources/README.md#research-preference-to-date).
 
-**Current work — 16 September 2026:** Eight ancillary projects have published bounded contributions. The user has now approved the independent [maintenance-decision transfer study](https://github.com/alignment-farm/maintenance-decision-transfer) ([local brief](../../ancillary-studies/maintenance-decision-transfer/README.md)). Its first phase is underway, as reported by the user; the root has not inspected unpublished results. It tests transfer of the simple known-history rule and whether affordable observations improve useful choices beyond it. The prior S1/S2/S4 and placement phases remain complete. The fixed research directive and original AD1–AD3 expectations are unchanged.
+**Current work — 16 September 2026:** Nine ancillary projects have published bounded contributions. The [maintenance-decision transfer assessment](2026-09-16-maintenance-transfer-findings.md) accepts the completed phase: match-history reaches the two-support aggregate bound at 524/768, but every endpoint remains incomplete. Constant fitted observation controls limit inference about information value; a retained-example table completes 192/192. AD2 now has a bounded local assessment. Prior phases remain complete, and no follow-up experiment is commissioned. The fixed directive and original AD1–AD3 predictions are preserved.
 
-This map connects the root's questions, ancillary publications and current research directions. Eight projects have published bounded contributions. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
+This map connects the root's questions, ancillary publications and current research directions. Nine projects have published bounded contributions. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
 
 ## Cloning the studies
 
 [repos.txt](repos.txt) is the maintained list of Construct-2 ancillary repositories,
 one `organization/repository` per line, including completed studies. It contains
 all nine studies currently in this program, including the completed placement
-study and the newly commissioned maintenance-decision study; the root and other lab projects are
+study and the completed maintenance-decision study; the root and other lab projects are
 outside its scope. Contributors need Git, an authenticated GitHub CLI (`gh auth
 login`), and access to these private repositories.
 
@@ -447,6 +447,7 @@ The investigations examine different mechanisms and tasks. Together they sharpen
 | Experience selection (S1) | Damage-aware replay improves acquisition uses but not recurrence or preservation over a developed mixture; fixed stopping can freeze incomplete acquisition. | Evaluate the sequence of useful behavior and selection costs, not just final accuracy or exposure to all rules. |
 | Procedure retention and revision (S2) | Controlled crossings identify an interaction between inherited state and current support; the predicted direction holds in fresh acquisitions, and one support preference reverses between histories. | Current evidence has training value relative to the state receiving it. Present competence and correct rehearsal do not determine maintainability. |
 | Memory under goal shift (S4) | Later compositions expose query-relative omissions and avoidable reader error; broad retention and explicit records support all tested queries. | A representation can lose raw details yet remain sufficient for a particular later use; supplied read operations are part of the capability. |
+| Maintenance-decision transfer | Match-history reaches the two-support aggregate bound on fresh acquisitions, while all endpoints remain incomplete and explicit examples solve the task. | A transferable chooser cannot compensate for inadequate actions; aggregate ties can hide consequential obligation failures. |
 | Memory placement under revision (S5) | Learned relevance-score prediction survives some content edits without improving complete quality over direct account-aware access; context selection also affects answer completion within budget. | Persistent structure can be learnable without being worth learning for the task and its available alternatives. |
 
 This is a synthesis of distinct local findings, not evidence that the adapter's transfer deficit and the deeper memory's partial retrieval share a cause. The experiments also concern different persistence boundaries: training a fast-memory system to learn within sequences does not demonstrate accumulation of experience across agent sessions. S3's successful synthetic recalls supply no placement or acquisition-cost comparison against accessible explicit evidence.
@@ -459,8 +460,18 @@ Where experience lives is part of a larger decision about what to change and pre
 
 ## 6. Research selection
 
-**Root work during execution:** The user reports maintenance-decision-transfer
-underway. The root's next independent [research question](../notes/RESEARCH_DIRECTION.md#root-work-while-maintenance-decision-transfer-runs)
+**Latest publication assessment — 16 September:**
+[Maintenance-decision transfer](2026-09-16-maintenance-transfer-findings.md) is
+accepted and its bounded phase complete at `be7a508bfea002baceec72f32f7f9d6f73f7861a`.
+Known history selects the best aggregate support on two fresh acquisitions, but
+neither support maintains the complete task. Observation controls were constant;
+paid validation reveals obligation differences even when aggregate scores tie.
+The explicit example table supplies a working alternative. AD2's predicted
+aggregate observation rescue is not supported here, with important calibration
+limits. No follow-up experiment or automatic selector expansion is commissioned.
+
+**Root work developed during execution:** While maintenance-decision-transfer
+ran, the root developed an independent [research question](../notes/RESEARCH_DIRECTION.md#root-work-while-maintenance-decision-transfer-runs)
 concerns feedback for learning useful retention and intervention choices (AD1).
 The [feedback comparison](../notes/FEEDBACK_DECISIONS.md) and subsequent
 [bounded feasibility assessment](2026-09-16-remedy-feasibility.md) do not select
@@ -469,11 +480,11 @@ retrieval remedy; P53 already learns retrieval strategy from outcomes. The
 specific AD1 comparison remains open, while this feasibility phase is complete.
 No unpublished study results were read and no additional experiment is commissioned.
 
-**Latest commissioning decision — 16 September:** The user approved proceeding
+**Historical commissioning decision — 16 September:** The user approved proceeding
 with the recommended bounded comparison. The independent
 [maintenance-decision-transfer repository](https://github.com/alignment-farm/maintenance-decision-transfer)
 ([local brief](../../ancillary-studies/maintenance-decision-transfer/README.md))
-is prepared and its first phase commissioned. It tests known-history rule transfer
+was prepared and its first phase commissioned. It tested known-history rule transfer
 and the added value of paid observations on separately acquired learners, with
 direct-validation and explicit-evidence controls. The investigator owns methods,
 resource sizing and execution. Preparation launched no model run or ancillary

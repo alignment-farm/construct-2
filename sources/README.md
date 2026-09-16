@@ -3,6 +3,13 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [maintenance-transfer publication review](2026-09-16-maintenance-transfer-review/README.md)
+records first acceptance at `be7a508`, reproduction of the recorded analysis and
+cost audit, and independent rescoring of 5,856 saved responses. It adds no new
+public source. The [assessment](../studies/2026-09-16-maintenance-transfer-findings.md)
+distinguishes transferred aggregate choice, obligation failures and the limits
+of constant observation controls.
+
 The [bounded remedy review](2026-09-16-remedy-feasibility/README.md) checks S4's
 published access and per-seed evidence, inspects pinned CRAG and Adaptive-RAG author
 code, and adds P53. Re-scoring a released 500-query slice confirms competing

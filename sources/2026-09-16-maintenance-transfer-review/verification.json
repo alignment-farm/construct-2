@@ -1,0 +1,172 @@
+{
+  "reviewed_revision": "be7a508bfea002baceec72f32f7f9d6f73f7861a",
+  "source_sha256": {
+    "evidence/final-analysis.json": "33adc3dbf33542b22edd5efb1afc4c1f3007e14f96fe651c2420017f1fb57ad0",
+    "evidence/dev-acquisition-601/responses.jsonl": "a67e817672683f0f3a069f093d93a54606f3048795963cdc7bf210de0390cf23",
+    "evidence/assessment-acquisitions/responses.jsonl": "43d131d57e4d803dd94f2cd4fb6f559cb4bdd870c22f6d163cf02b6d28057e3a",
+    "evidence/dev-crossing-601/responses.jsonl": "d52eb751d133959dbf8e1a95d5069d7ac3633b842381ca8772e4bdb721db7c7e",
+    "evidence/assessment-crossing-701/responses.jsonl": "16e89af1d7319f2f7c7ae43f9b98abe51212b7269141ac66c3410ec914e5066c",
+    "evidence/assessment-crossing-702/responses.jsonl": "8e909910b4f01883e55294023042b1d0a3ba27fd4665a938cf3fe87aa842a6c5",
+    "evidence/frozen-predictors-v1.json": "560082fa3bc855d233950d7d6f9f5c1622eebc503019ffce88cd07da3591b781",
+    "evidence/explicit-v1/evidence.json": "0dd06d0ab58b40e71c5cca4139b2a480639fb5083f2399b35fc8e898a4d6decf",
+    "evidence/explicit-v1/table.json": "18d7d643d01309be5eb4c881ddac67b2adab97f8915ce9ae58207631b3eb973c",
+    "evidence/explicit-v1/responses.json": "5e50c5d524902005f9b65150b5f6537c69bc44044c2cfc9d15d029d1ddc998c7"
+  },
+  "rescored_model_responses": 5856,
+  "assessment_endpoints": [
+    {
+      "seed": 701,
+      "history": "novel",
+      "support": "none",
+      "complete": 168
+    },
+    {
+      "seed": 701,
+      "history": "novel",
+      "support": "novel",
+      "complete": 144
+    },
+    {
+      "seed": 701,
+      "history": "novel",
+      "support": "bridged",
+      "complete": 144
+    },
+    {
+      "seed": 701,
+      "history": "bridged",
+      "support": "none",
+      "complete": 168
+    },
+    {
+      "seed": 701,
+      "history": "bridged",
+      "support": "novel",
+      "complete": 120
+    },
+    {
+      "seed": 701,
+      "history": "bridged",
+      "support": "bridged",
+      "complete": 120
+    },
+    {
+      "seed": 702,
+      "history": "novel",
+      "support": "none",
+      "complete": 157
+    },
+    {
+      "seed": 702,
+      "history": "novel",
+      "support": "novel",
+      "complete": 137
+    },
+    {
+      "seed": 702,
+      "history": "novel",
+      "support": "bridged",
+      "complete": 121
+    },
+    {
+      "seed": 702,
+      "history": "bridged",
+      "support": "none",
+      "complete": 168
+    },
+    {
+      "seed": 702,
+      "history": "bridged",
+      "support": "novel",
+      "complete": 120
+    },
+    {
+      "seed": 702,
+      "history": "bridged",
+      "support": "bridged",
+      "complete": 123
+    }
+  ],
+  "701_novel_history_tie": {
+    "novel": {
+      "final": {
+        "new": {
+          "correct": 0,
+          "n": 24
+        },
+        "earlier": {
+          "correct": 0,
+          "n": 24
+        },
+        "ineligible": {
+          "correct": 48,
+          "n": 48
+        },
+        "complete": 144
+      },
+      "validation": {
+        "new": {
+          "correct": 0,
+          "n": 4
+        },
+        "earlier": {
+          "correct": 0,
+          "n": 4
+        },
+        "ineligible": {
+          "correct": 8,
+          "n": 8
+        },
+        "complete": 24
+      }
+    },
+    "bridged": {
+      "final": {
+        "new": {
+          "correct": 24,
+          "n": 24
+        },
+        "earlier": {
+          "correct": 24,
+          "n": 24
+        },
+        "ineligible": {
+          "correct": 0,
+          "n": 48
+        },
+        "complete": 144
+      },
+      "validation": {
+        "new": {
+          "correct": 4,
+          "n": 4
+        },
+        "earlier": {
+          "correct": 4,
+          "n": 4
+        },
+        "ineligible": {
+          "correct": 0,
+          "n": 8
+        },
+        "complete": 24
+      }
+    }
+  },
+  "prefix_prediction_ranges": {
+    "novel": [
+      0.6752793296089385,
+      0.693901303538175
+    ],
+    "bridged": [
+      0.7613636363636362,
+      0.7657828282828282
+    ]
+  },
+  "prefix_always_bridged": true,
+  "frozen_predictors_match_preassessment_commit": true,
+  "explicit_evidence_labels_checked": 192,
+  "explicit_keys": 16,
+  "explicit_complete": 192,
+  "limits": "Checks saved text and data, not model generation, tokenizer, gradients or optimizer restoration."
+}

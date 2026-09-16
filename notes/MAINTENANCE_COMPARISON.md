@@ -1,5 +1,11 @@
 # Is observing the learner worth more than knowing its history?
 
+**Current status:** The commissioned independent comparison is complete and
+[assessed](../studies/2026-09-16-maintenance-transfer-findings.md). The preparation
+and original expectations below are historical; they do not authorize restarting
+the completed phase. Match-history transfers on aggregate choice, while inadequate
+actions and constant observation controls limit stronger conclusions.
+
 16 September 2026. Root preparation requested after the
 [maintenance-decision development](MAINTENANCE_DECISIONS.md). This is a concrete
 research choice and proposed bounded scope, not a frozen experimental protocol

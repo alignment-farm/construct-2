@@ -233,3 +233,23 @@ independent investigation; it does not commission or run it.
 ([local](../../ancillary-studies/maintenance-decision-transfer/README.md)) now
 owns the commissioned bounded comparison. Its preparation has not launched model
 runs. The expectations and earlier preparation history above remain preserved.
+
+## Assessment of the completed independent comparison
+
+The [first publication](../studies/2026-09-16-maintenance-transfer-findings.md)
+is accepted at `be7a508bfea002baceec72f32f7f9d6f73f7861a`. Match-history reaches
+the two-support aggregate bound on two fresh acquisitions (524/768); sparse and
+full validation add no aggregate gain. Every available endpoint remains
+incomplete. The calibrated history/pre-observation/prefix controls all reduce to
+constant Bridged, a diagnosed limit of their one-acquisition development set.
+The broad value of current-state information remains unresolved by those controls.
+
+The study adds an objective distinction to this note's action-value distinction:
+equal totals can conceal different violations of new and still-valid obligations.
+Paid validation sees such a difference even when its aggregate tie-break ignores
+it. Information value therefore depends on the obligations used to judge the
+decision as well as the available actions and their costs. This observation does
+not retroactively change the frozen primary comparison or confirm AD2's rescue
+prediction. The example-table alternative completes the finite task under
+disclosed privileges. Close the bounded phase; do not automatically expand the
+selector or reopen S2.
