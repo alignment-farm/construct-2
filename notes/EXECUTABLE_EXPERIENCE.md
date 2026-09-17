@@ -11,7 +11,7 @@ not replace the neural-learning emphasis or the evidence-use question.
 retaining experience sufficient to regenerate executable behavior.** The next
 step selected at that point was a bounded artifact feasibility review. The
 sections through EX1–EX3 preserve that selection; the later sections record the
-completed reviews and subsequent commission.
+completed reviews, subsequent commission and publication assessment.
 
 ## What is already answered
 
@@ -185,3 +185,37 @@ the independent [executable-experience-retention study](https://github.com/align
 The [comparison note](EXECUTABLE_COMPARISON.md#commissioning-after-preparation)
 records its preparation boundary. Bounded investigation is commissioned; workload
 and execution belong to its investigator, and preparation has launched no runs.
+
+## Assessment after publication — 17 September
+
+The [root assessment](../studies/2026-09-17-executable-retention-findings.md)
+accepts `baf4d764cb4e571551a2b69d45751bb7f3281eaf` and closes the bounded
+stable-use phase. All four policies complete 8/8 fresh reconciliation requests.
+Ready and archived source need zero future model calls; lessons with source
+discarded need eight; caching the first reconstruction needs one. All policies
+make the same 698 API reads, including development checks.
+
+**EX1 receives bounded support:** source availability avoids reconstruction, with
+no observed quality advantage. **EX2 remains untested:** interfaces and obligations
+do not change. **EX3 is addressed in part:** equal observations and checks leave
+a residual avoided-generation effect, but the study does not directly test the
+predicted shrinkage from a confounded to a controlled comparison. Archive recovery
+and first-use caching narrow the persistence explanation further. Original
+predictions above remain unchanged.
+
+The result adds an acquired executable to local evidence, under a supplied full
+contract and dispatch. It does not price the earlier evidence-use study's supplied
+interpreter or establish that retained lessons improve reconstruction beyond the
+contract and examples. Lesson construction introduces one audited error, repaired
+before fresh evaluation; construction, checking and provenance remain part of
+the retained capability. Instrumented setup-plus-use totals favor source retention
+in this sequence, but omitted engineering costs and unknown timeout usage preclude
+a complete economic claim.
+
+The theoretical refinement is to compare **persistence policies over time**:
+source can live in a library or archive, and a lessons-first policy can retain its
+first reconstruction. A permanent discard condition cannot represent all competent
+contextual alternatives. This supports the program's existing mixed-mechanism
+hypothesis without establishing a learned allocation policy. EX2 and general
+maintenance remain open without an automatic continuation; the two independent
+migration and correction-lineage commissions remain separate.

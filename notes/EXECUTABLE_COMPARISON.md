@@ -144,3 +144,21 @@ public starting points, resources and local research instructions. The repositor
 is private, with `main` pushed and tracking its remote. No investigator or model
 run was launched. Workload selection, methods and execution belong to the study;
 the comparison above is its scientific motivation, not a fixed protocol.
+
+## Resolution of the stable-use comparison — 17 September
+
+The [publication assessment](../studies/2026-09-17-executable-retention-findings.md)
+advances the boundary to `baf4d764cb4e571551a2b69d45751bb7f3281eaf` and accepts
+the bounded phase. On eight fresh requests, all policies are complete. Direct
+source recovery matches ready source with no generation; retaining the first
+reconstruction removes later generation. Repeated reconstruction is costly under
+the disclosed source-discard policy, not an unavoidable property of contextual
+experience. The complete contract remains available and the marginal value of
+the acquired prose is untested.
+
+Shared checks and API reads, preserved timeouts and paid lesson repair support
+the specified cost comparison. Full engineering costs and general reliability
+remain unmeasured. The root [check ledger](../sources/2026-09-17-executable-retention-review/README.md)
+records independent rescoring and accounting. This resolves stable reuse enough
+for closure; interface repair, autonomous applicability and learned retention
+decisions are broader questions rather than a commissioned second phase.

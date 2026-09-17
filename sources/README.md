@@ -3,6 +3,33 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [17 September runtime-study selection](2026-09-17-runtime-study-selection/README.md)
+adds AgentOdyssey and AgentCL (P87–P88), revisits P42 and checks the runtime's
+investigator interface at `9ffb10a`. Existing work narrows the
+[weight-consolidation comparison](../notes/WEIGHT_CONSOLIDATION.md) to added value
+over competent external reuse on comparable experience. Workload and acquisition
+feasibility remain open. The review launched no experiments; the subsequent
+user-authorized [study](https://github.com/alignment-farm/weight-consolidation)
+is now prepared for an independent ancillary session.
+
+The [17 September migration/lineage review](2026-09-17-migration-lineage-review/README.md)
+accepts publications `5a670d3` and `f8ad1e1`, checks raw costs and saved outcomes,
+replays all 108 SQL submissions and independently scores repaired state and later
+orders. It revisits P83/P84 and adds P86, MemLineage, with exact-version metadata
+and methods reading. The [root assessment](../studies/2026-09-17-migration-lineage-findings.md)
+distinguishes useful inherited guidance, correct repair, later-use failures and
+the cost of additional selection/lineage work. Both bounded phases close without
+new model calls or a further commission.
+
+The [17 September executable-retention review](2026-09-17-executable-retention-review/README.md)
+accepts publication `baf4d76`, independently checks all 32 saved outcomes and raw
+costs, and verifies source identity and reconstruction access. It revisits P64
+and deepens the ReCache lead as P85. The
+[root assessment](../studies/2026-09-17-executable-retention-findings.md) distinguishes
+source availability, first-use caching and schema KV caching; it closes stable
+reuse without commissioning a revision phase. No model calls or source execution
+were performed by the root.
+
 The [17 September independent-study selection](2026-09-17-independent-study-selection/README.md)
 adds P77–P84 and deepens P37. Cross-model sharing, factual-store migration and
 dependency-based repair already have close precedents. The review narrows two

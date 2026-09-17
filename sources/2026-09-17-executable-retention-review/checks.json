@@ -1,0 +1,119 @@
+{
+  "arms": {
+    "archive": {
+      "all_api_reads": 698,
+      "cached_tokens": 0,
+      "candidate_check_api_calls": 0,
+      "completion_tokens": 0,
+      "current_api_calls": 258,
+      "execution_api_calls": 698,
+      "model_calls": 0,
+      "model_wall_seconds": 0,
+      "prompt_tokens": 0,
+      "requests": 8,
+      "successes": 8,
+      "transport_attempts": 0,
+      "unknown_usage_attempts": 0,
+      "wall_seconds": 1.9252964580009575
+    },
+    "cache": {
+      "all_api_reads": 698,
+      "cached_tokens": 38,
+      "candidate_check_api_calls": 55,
+      "completion_tokens": 795,
+      "current_api_calls": 258,
+      "execution_api_calls": 643,
+      "model_calls": 1,
+      "model_wall_seconds": 84.62015183299991,
+      "prompt_tokens": 7150,
+      "requests": 8,
+      "successes": 8,
+      "transport_attempts": 1,
+      "unknown_usage_attempts": 0,
+      "wall_seconds": 86.87081675099944
+    },
+    "lessons": {
+      "all_api_reads": 698,
+      "cached_tokens": 304,
+      "candidate_check_api_calls": 440,
+      "completion_tokens": 6476,
+      "current_api_calls": 258,
+      "execution_api_calls": 258,
+      "model_calls": 8,
+      "model_wall_seconds": 663.8905123740024,
+      "prompt_tokens": 57216,
+      "requests": 8,
+      "successes": 8,
+      "transport_attempts": 8,
+      "unknown_usage_attempts": 0,
+      "wall_seconds": 668.0838581230018
+    },
+    "ready": {
+      "all_api_reads": 698,
+      "cached_tokens": 0,
+      "candidate_check_api_calls": 0,
+      "completion_tokens": 0,
+      "current_api_calls": 258,
+      "execution_api_calls": 698,
+      "model_calls": 0,
+      "model_wall_seconds": 0,
+      "prompt_tokens": 0,
+      "requests": 8,
+      "successes": 8,
+      "transport_attempts": 0,
+      "unknown_usage_attempts": 0,
+      "wall_seconds": 1.9091443759989488
+    }
+  },
+  "backend_fingerprints": {
+    "b1-72874f5": 12
+  },
+  "candidate_check_batches": 10,
+  "finish_reasons": {
+    "stop": 12
+  },
+  "generated_sources_matched_to_raw_responses": 10,
+  "independently_scored_fresh_requests": 8,
+  "limits": "Saved-evidence rescore and accounting only; no model calls, source execution or timing replication. Capability probes and uninstrumented overhead excluded from structured ledger.",
+  "manifest_files_checked": 122,
+  "manifest_sha256": "5766a136a6b5afab9c8dadc014a62ccff3de2b403ec0552b6eea5cda5e8bf03f",
+  "nonempty_fresh_requests": 6,
+  "reconstruction_prompts_checked": 9,
+  "recorded_current_outcomes_checked": 32,
+  "reviewed_revision": "baf4d764cb4e571551a2b69d45751bb7f3281eaf",
+  "selected_deployment": {
+    "archive": {
+      "api_calls": 753,
+      "instrumented_wall_seconds": 83.40647795800123,
+      "known_completion_tokens": 848,
+      "known_prompt_tokens": 6467
+    },
+    "cache": {
+      "api_calls": 753,
+      "instrumented_wall_seconds": 282.18336104300033,
+      "known_completion_tokens": 2893,
+      "known_prompt_tokens": 22029
+    },
+    "lessons": {
+      "api_calls": 753,
+      "instrumented_wall_seconds": 863.3964024150027,
+      "known_completion_tokens": 8574,
+      "known_prompt_tokens": 72095
+    },
+    "ready": {
+      "api_calls": 753,
+      "instrumented_wall_seconds": 83.39032587599922,
+      "known_completion_tokens": 848,
+      "known_prompt_tokens": 6467
+    }
+  },
+  "structured_model_ledger": {
+    "cached_tokens": 342,
+    "completion_tokens": 9369,
+    "model_calls": 13,
+    "model_wall_seconds": 1303.6455240410032,
+    "prompt_tokens": 79245,
+    "transport_attempts": 14,
+    "unknown_usage_attempts": 2
+  }
+}

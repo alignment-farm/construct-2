@@ -1,0 +1,213 @@
+{
+  "migration": {
+    "revision": "5a670d355491a853e32779260bfe73ea09f02f45",
+    "manifest_files_verified": 370,
+    "raw_calls": 216,
+    "tokens": 269509,
+    "outcomes": 108,
+    "successes": 89,
+    "recipient": {
+      "none": {
+        "tasks": 12,
+        "successes": 1,
+        "use_tokens": 49590,
+        "incremental_setup_tokens": 0,
+        "setup_plus_use_tokens": 49590
+      },
+      "inherit": {
+        "tasks": 12,
+        "successes": 12,
+        "use_tokens": 28153,
+        "incremental_setup_tokens": 0,
+        "setup_plus_use_tokens": 28153
+      },
+      "reconstruct": {
+        "tasks": 12,
+        "successes": 10,
+        "use_tokens": 23925,
+        "incremental_setup_tokens": 11086,
+        "setup_plus_use_tokens": 35011
+      },
+      "policy": {
+        "tasks": 12,
+        "successes": 12,
+        "use_tokens": 23281,
+        "incremental_setup_tokens": 60214,
+        "setup_plus_use_tokens": 83495
+      }
+    },
+    "phase_tokens": {
+      "acquisition-v1": 22662,
+      "acquisition-v2": 18145,
+      "bank-v1": 12561,
+      "bank-v2": 11217,
+      "calibration-v2": 49128,
+      "evaluation-recipient-v2": 101668,
+      "evaluation-source-v2": 33871,
+      "recipient-probe": 26,
+      "reconstruction-v2": 11086,
+      "source-probe": 19,
+      "source-v1": 9126
+    }
+  },
+  "lineage": {
+    "revision": "f8ad1e1ce8b9842efa90305c1206b8690578a204",
+    "pilot-v1": {
+      "arms": {
+        "exposure": {
+          "episodes": 2,
+          "state_complete": 2,
+          "complete": 2,
+          "calls": 5,
+          "tokens": 3196,
+          "fields": 16,
+          "tokens_at_horizons_0_1_2": [
+            393,
+            1772,
+            3196
+          ]
+        },
+        "rebuild": {
+          "episodes": 2,
+          "state_complete": 2,
+          "complete": 2,
+          "calls": 5,
+          "tokens": 3243,
+          "fields": 16,
+          "tokens_at_horizons_0_1_2": [
+            393,
+            1864,
+            3243
+          ]
+        },
+        "reconstruct": {
+          "episodes": 2,
+          "state_complete": 2,
+          "complete": 2,
+          "calls": 7,
+          "tokens": 4628,
+          "fields": 16,
+          "tokens_at_horizons_0_1_2": [
+            393,
+            2533,
+            4628
+          ]
+        },
+        "selective": {
+          "episodes": 2,
+          "state_complete": 2,
+          "complete": 2,
+          "calls": 8,
+          "tokens": 4526,
+          "fields": 6,
+          "tokens_at_horizons_0_1_2": [
+            854,
+            2751,
+            4526
+          ]
+        },
+        "acquisition_links": {
+          "true": 11,
+          "spurious": 0,
+          "missing": 0,
+          "route_s6_after_first_correction": [
+            101
+          ]
+        }
+      },
+      "calls": 22,
+      "tokens": 14414
+    },
+    "fresh-v1": {
+      "arms": {
+        "exposure": {
+          "episodes": 6,
+          "state_complete": 6,
+          "complete": 4,
+          "calls": 15,
+          "tokens": 10017,
+          "fields": 48,
+          "tokens_at_horizons_0_1_2": [
+            1181,
+            5735,
+            10017
+          ]
+        },
+        "rebuild": {
+          "episodes": 6,
+          "state_complete": 6,
+          "complete": 4,
+          "calls": 15,
+          "tokens": 9789,
+          "fields": 48,
+          "tokens_at_horizons_0_1_2": [
+            1181,
+            5603,
+            9789
+          ]
+        },
+        "reconstruct": {
+          "episodes": 6,
+          "state_complete": 6,
+          "complete": 4,
+          "calls": 21,
+          "tokens": 14037,
+          "fields": 48,
+          "tokens_at_horizons_0_1_2": [
+            1181,
+            7736,
+            14037
+          ]
+        },
+        "selective": {
+          "episodes": 6,
+          "state_complete": 6,
+          "complete": 4,
+          "calls": 24,
+          "tokens": 13613,
+          "fields": 18,
+          "tokens_at_horizons_0_1_2": [
+            2566,
+            8276,
+            13613
+          ]
+        },
+        "acquisition_links": {
+          "true": 33,
+          "spurious": 0,
+          "missing": 0,
+          "route_s6_after_first_correction": [
+            211
+          ]
+        }
+      },
+      "calls": 66,
+      "tokens": 43913
+    },
+    "read-diagnostic-v1": {
+      "arms": {
+        "explicit": {
+          "episodes": 2,
+          "state_complete": 2,
+          "complete": 2
+        },
+        "original": {
+          "episodes": 2,
+          "state_complete": 2,
+          "complete": 1
+        }
+      },
+      "calls": 8,
+      "tokens": 5221
+    },
+    "recorded_requests_verified": 96,
+    "identities": [
+      [
+        "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+        "b1-72874f5"
+      ]
+    ],
+    "research_calls_including_probe": 97,
+    "research_tokens_including_probe": 63575
+  }
+}

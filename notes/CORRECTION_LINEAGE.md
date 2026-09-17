@@ -81,3 +81,38 @@ is mandated. If usable lineage cannot be acquired, bounded diagnosis should
 explain the limitation before closing. A strong simple alternative is an
 acceptable outcome. The [study map](../studies/README.md#correction-lineage)
 records the preparation revision; preparation starts no experiments.
+
+## Assessment after publication — 17 September
+
+The [root assessment](../studies/2026-09-17-migration-lineage-findings.md#correction-lineage-fewer-repaired-fields-need-not-mean-less-work)
+accepts publication `f8ad1e1ce8b9842efa90305c1206b8690578a204` and closes the
+bounded commission. The original CL1–CL3 and its rationale above remain intact.
+
+**CL1 is partly informed, without a demonstrated failure threshold.** Initial
+acquisition recovers all 33 fresh support candidates. Selective lineage repairs
+18 fields versus 48 under the other methods, preserving complete state in all
+six episodes. One false support link appears during maintenance but causes no
+scheduled correction failure. Acquiring links can work; maintaining them remains
+fallible. Fewer repaired fields alone do not establish useful savings.
+
+**CL2 receives bounded cost evidence.** Selective lineage is more expensive than
+dependency reconstruction after one correction, then narrowly cheaper after two
+(13,613 versus 14,037 tokens across three histories). Whole-state rebuilding is
+cheaper at both horizons and ends at 9,789 tokens. At this archive size, separate
+link acquisition and maintenance calls cost more than they save. Joint writes,
+larger archives and longer histories remain untested.
+
+**CL3's preservation requirement succeeds in every arm.** All retain the site
+escort requirement after the account requirement is removed and withdraw escort
+only after the site correction. There is no selective advantage or direct
+aggressive-invalidation contrast. All four methods repair 6/6 states yet complete
+only 4/6 later task episodes because of shared arithmetic errors. A separately
+frozen two-instance wording diagnostic improves 1/2 to 2/2 without changing
+evidence or state; it narrows the explanation but does not replace primary scores.
+
+The [review ledger](../sources/2026-09-17-migration-lineage-review/README.md)
+records independent state/order scoring, cost reconstruction and public follow-up.
+Correct state, reliable acquired support, correct later use and total-cost value
+are separate claims. Functioning repair, the small-archive cost limitation and
+fresh read-time diagnosis justify phase closure. The broader value of lineage
+remains open; no continuation is commissioned.

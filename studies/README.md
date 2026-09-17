@@ -1,27 +1,28 @@
 **Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/PREVIOUS_RESEARCH.md) and [research perspective](../notes/RESEARCH_PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. The [17 September executable-experience selection](../notes/EXECUTABLE_EXPERIENCE.md) opens a focused allocation comparison alongside the neural-learning emphasis; the [historical preference](../sources/README.md#research-preference-to-date) remains recorded.
 
-**Independent commission — 17 September:**
-[Executable experience retention](https://github.com/alignment-farm/executable-experience-retention)
-([local brief](../../ancillary-studies/executable-experience-retention/README.md))
-is underway with an ancillary agent, as reported by the user. It follows the
-[persistence comparison](../notes/EXECUTABLE_COMPARISON.md) and completed
-[artifact review](2026-09-17-executable-feasibility.md). The investigator owns
-workload development and execution; unpublished evidence has not been inspected.
-[EX1–EX3](../notes/EXECUTABLE_EXPERIENCE.md) remain prospective.
+**Latest accepted publications — 17 September:**
+[Procedural migration and correction lineage](2026-09-17-migration-lineage-findings.md)
+complete their bounded phases at `5a670d3` and `f8ad1e1`. Unchanged guidance
+matches paid selection at 12/12 with much lower total token cost. Acquired lineage
+reduces repaired fields, but rebuilding is cheaper at identical tested quality.
+Correct state does not guarantee correct later orders. PM1–PM3 and CL1–CL3 now
+have bounded assessments; their original wording is preserved.
 
-**Two further commissions prepared — 17 September:**
-[Procedural memory migration](#procedural-memory-migration) concerns paid
-adaptation or retirement of guidance for an unseen recipient;
-[correction lineage](#correction-lineage) concerns acquiring useful dependency
-information rather than reconstructing it when a correction arrives. The
-[methods review](../sources/2026-09-17-independent-study-selection/README.md)
-narrows both against direct public precedents. Their private repositories are
-ready for independent sessions; preparation launched no experiments.
+**Current work — 17 September 2026:** Fourteen studies are registered. Thirteen have
+accepted bounded contributions and completed commissioned phases;
+[weight-consolidation](#weight-consolidation) is newly prepared for the user to
+assign an ancillary agent. Preparation launched no experiments.
+The root continues theory, public research and
+selection toward useful capability across repeated realistic work and change.
+The [applied derivative registry](../derivatives/README.md) separately records
+Construct Runtime, whose initial build now implements an owned machine-facing
+execution and adapter-learning environment. The registry records its bounded
+build review; its development is independent of these studies.
+The preceding [executable-retention assessment](2026-09-17-executable-retention-findings.md)
+remains accepted: source availability avoids generation, and caching the first
+reconstruction changes the recurring cost comparison.
 
-**Current work — 17 September 2026:** Ten ancillary projects have published
-accepted bounded contributions; an eleventh is underway without reviewed findings,
-and two further studies are prepared. There are thirteen registered repositories.
-The [latest assessment](2026-09-17-evidence-use-findings.md)
+The [preceding assessment](2026-09-17-evidence-use-findings.md)
 accepts evidence-use-under-revision at `da1233fdfb26fe6c5daa337a3dbf9f784f34f9f7`:
 one checkpoint's modest transfer survives two corrections and has a favorable
 measured cost against an uncached lesson. Further acquisition regresses; the
@@ -31,14 +32,14 @@ No continuation is commissioned. The independent executable-experience review
 is complete; the fixed directive and AD1–AD3 remain intact.
 
 
-This map connects the root's questions, ancillary publications and current research directions. Ten projects have published bounded contributions. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
+This map connects the root's questions, ancillary publications and current research directions. Thirteen projects have published accepted bounded contributions. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
 
 ## Cloning the studies
 
 [repos.txt](repos.txt) is the maintained list of Construct-2 ancillary repositories,
 one `organization/repository` per line, including completed studies. It contains
-all thirteen studies currently in this program: the ten completed projects,
-executable-experience-retention, procedural-memory-migration and correction-lineage. The root
+all fourteen studies currently in this program: thirteen with accepted bounded
+contributions and the newly prepared weight-consolidation study. The root
 and other lab projects are outside its scope. Contributors need Git, an
 authenticated GitHub CLI (`gh auth login`), and access to these private repositories.
 
@@ -262,6 +263,18 @@ For S1, we should distinguish three outcomes: **the chosen text becomes easier t
 | **P82. [Dependency-Guided Rollback, 2608.10502v1](https://arxiv.org/html/2608.10502v1)** — §§3–4, appendix schema/metrics | Selective recovery from runtime dependencies. | Acquiring semantic links is distinct from traversing supplied edges. |
 | **P83. [StateAuditor, 2608.01619v1](https://arxiv.org/html/2608.01619v1)** — §§3–4, 6.1/6.3/7 | Source-grounded correction and draft auditing. | Supplies a competent alternative to retained dependency repair. |
 | **P84. [Does Your Agent's Memory Survive a Model Upgrade?, 2609.05339v1](https://arxiv.org/html/2609.05339v1)** — §§2–3.2, Appendices C–E | Factual migration, repair and probe forecasting. | Procedural adaptation decisions must add value beyond predicting migration quality. |
+| **P85. [ReCache, 2608.19662v1](https://arxiv.org/html/2608.19662v1)** — §§3–4, §6/Tables 2–4 | Reusable schema KV representations and invocation evaluation. | Different from executable retention; cache-hit timing excludes construction. |
+| **P86. [MemLineage, 2605.14421v1](https://arxiv.org/html/2605.14421v1)** — §§3.5/6.4/8 | Exposure versus semantic attribution; enforcement versus recovery. | Primitive timing is not lifetime attribution cost; refusal is not complete task success. |
+| **P87. [AgentOdyssey, 2606.24893v1](https://arxiv.org/html/2606.24893v1)** — §4, §6, Appendix 10 | Continuing games with LoRA updates and external-memory mechanisms. | Combined learning already has positive evidence; matched experience, competent code reuse and requirement changes need a narrower comparison. |
+| **P88. [AgentCL, 2606.02461v1](https://arxiv.org/html/2606.02461v1)** — §§3.1–3.3 | Controlled reuse streams and separate transfer metrics. | Compositional reuse differs from repetition; its feedback boundary differs from corrected-trajectory training. |
+
+The [migration/lineage review](../sources/2026-09-17-migration-lineage-review/README.md)
+adds P86 and revisits P83/P84 as the local findings sharpen cost and behavior
+questions. It accepts both bounded phases without selecting further experiments.
+
+The [executable-retention review](../sources/2026-09-17-executable-retention-review/README.md)
+revisits P64 and follows P85 from discovery into methods. It separates source
+availability, generation and model-context caching without selecting a new phase.
 
 The [independent-selection ledger](../sources/2026-09-17-independent-study-selection/README.md)
 records P77–P84, deeper P37 reading, exact evidence limits and pinned Agent-KB
@@ -507,69 +520,110 @@ The theoretical update is that **architectural memory capacity and the capacity 
 
 ### Executable experience retention
 
-**Status — 17 September 2026:** The user reports the independent bounded
-investigation underway in
-[executable-experience-retention](https://github.com/alignment-farm/executable-experience-retention)
-([local brief](../../ancillary-studies/executable-experience-retention/README.md)).
-Preparation commit `34a902fedf99a22fff3c9429d49146809af8a86a` is the root's current
-review boundary; it contains no findings. This execution update does not inspect
-unpublished evidence or advance that boundary. Ten earlier projects retain their
-completed phases.
+**Status — 17 September 2026:** Publication accepted; bounded stable-use phase
+complete. The [report](https://github.com/alignment-farm/executable-experience-retention/blob/baf4d764cb4e571551a2b69d45751bb7f3281eaf/REPORT.md)
+([local](../../ancillary-studies/executable-experience-retention/REPORT.md)) is at
+`baf4d764cb4e571551a2b69d45751bb7f3281eaf`, advancing the root boundary from
+preparation `34a902fedf99a22fff3c9429d49146809af8a86a`. The
+[detailed assessment](2026-09-17-executable-retention-findings.md) records the
+independent evidence checks and interpretation.
 
-**Question:** What does retaining acquired implementation add to competent
-reconstruction from shared procedural experience, in complete future behavior
-and actual work? The [comparison](../notes/EXECUTABLE_COMPARISON.md) distinguishes
-execution, preserved information and avoided reconstruction. Existing source
-may be loaded directly; code hidden in logs remains available implementation.
+All four policies complete 8/8 fresh invoice-reconciliation requests. Ready source
+and directly recovered archive source require zero future model calls, lessons
+with source discarded require eight, and retaining the first reconstruction
+requires one. All make 698 page reads with equal development checking. Measured
+future times are 1.91, 1.93, 668.08 and 86.87 seconds respectively. Instrumented
+setup adds successful acquisition to all arms and audited lesson construction
+to the latter two; unknown timeout tokens and unpriced engineering work remain.
 
-SkillCraft and SkillWeaver are possible method donors, with pinned limits in
-the [reading ledger](../sources/2026-09-17-persistence-controls/README.md).
-The investigator owns workload discovery, development and diagnosis. Equal
-checking, competent contextual alternatives and full-sequence costs support
-the allocation claim. Stable reuse comes first; consequential revision is a
-conditional extension. EX1–EX3 are preserved verbatim in the brief and remain
-untested locally. An explanatory tie or explicit alternative is useful progress.
+**Assessment:** EX1 has bounded support; EX2 remains untested; EX3's attribution
+concern is partly addressed without a direct confounded-versus-controlled test.
+Available source avoids generation regardless of registration, and caching limits
+the recurring cost of a lessons-first policy. The full contract, examples and
+known dispatch are supplied. The marginal value of acquired lessons, general
+reliability, changing requirements and neural allocation are untested.
+
+The [original comparison](../notes/EXECUTABLE_COMPARISON.md) and
+[EX1–EX3](../notes/EXECUTABLE_EXPERIENCE.md) remain intact, followed by their
+assessment. Stable reuse has an explanatory result sufficient for closure;
+no revision phase or other continuation is commissioned.
 
 ### Procedural memory migration
 
-**Status — 17 September 2026:** Independent bounded investigation commissioned;
-private [repository](https://github.com/alignment-farm/procedural-memory-migration)
-([local brief](../../ancillary-studies/procedural-memory-migration/README.md))
-prepared at `f7ca4fc9c07f2d531802caf2ae46ea58d7a375b1`. This is the initial
-review boundary, containing no findings. Main and origin/main match and the
-working tree is clean. Preparation starts no investigator or model runs.
+**Status — 17 September 2026:** Publication accepted; bounded phase complete at
+[`5a670d355491a853e32779260bfe73ea09f02f45`](https://github.com/alignment-farm/procedural-memory-migration/blob/5a670d355491a853e32779260bfe73ea09f02f45/reports/PILOT_REPORT.md)
+([local report](../../ancillary-studies/procedural-memory-migration/reports/PILOT_REPORT.md)).
+This advances preparation `f7ca4fc9c07f2d531802caf2ae46ea58d7a375b1`.
+The [root assessment](2026-09-17-migration-lineage-findings.md#procedural-migration-unchanged-guidance-is-a-strong-alternative)
+records acquisition development, controls, raw-cost checks and SQL replay.
 
-**Question:** Does paid experience with an unseen recipient improve retaining,
-adapting or retiring procedural guidance enough to justify its costs? Fix the
-source bank and evidence when isolating the recipient effect, and assess fresh
-complete tasks against unchanged inheritance, the recipient's own baseline and
-competent reconstruction. Public transfer, model-aware sharing and factual
-migration precedents narrow this choice; no generic portability claim is needed.
-The [root note](../notes/EXPERIENCE_PORTABILITY.md#selection-after-the-methods-review)
-records the rationale and prospective PM1–PM3, copied unchanged into the brief.
-Workload discovery, methods and execution belong to the investigator.
+Unchanged compact guidance improves the recipient from 1/12 to 12/12 fresh tasks;
+reconstruction from the same archive completes 10/12, and a policy frozen after
+paid calibration completes 12/12. Setup plus use tokens are respectively 49,590,
+28,153, 35,011 and 83,495. The policy saves use tokens but does not repay setup
+against inheritance. Matched source controls both complete 12/12, with guidance
+reducing tokens. The first acquisition gate failed and remains charged; a compact
+revision established functioning guidance before migration.
+
+**PM assessment:** Recipient-dependent value is observed; harmful or redundant
+inheritance is not. A strong unchanged bank removes paid selection's quality and
+net-cost advantage. Shared-archive reconstruction is evaluated, but its advantage
+over archive-deprived or artifact-only adaptation is untested. The
+[selection note](../notes/EXPERIENCE_PORTABILITY.md#assessment-after-publication--17-september)
+preserves PM1–PM3 and appends their assessment. Supplied family retrieval, one
+model pair and twelve final tasks limit generality; longer-run repayment remains
+an extrapolation. No continuation is commissioned.
 
 ### Correction lineage
 
-**Status — 17 September 2026:** Independent bounded investigation commissioned;
-private [repository](https://github.com/alignment-farm/correction-lineage)
-([local brief](../../ancillary-studies/correction-lineage/README.md)) prepared
-at `b5853b747cfa1cca44fbce3a4aad287f5b3888fb`. This is the initial review
-boundary, containing no findings. Main and origin/main match and the working
-tree is clean. Preparation starts no investigator or model runs.
+**Status — 17 September 2026:** Publication accepted; bounded phase complete at
+[`f8ad1e1ce8b9842efa90305c1206b8690578a204`](https://github.com/alignment-farm/correction-lineage/blob/f8ad1e1ce8b9842efa90305c1206b8690578a204/RESULTS.md)
+([local report](../../ancillary-studies/correction-lineage/RESULTS.md)). This advances
+preparation `b5853b747cfa1cca44fbce3a4aad287f5b3888fb`. The
+[root assessment](2026-09-17-migration-lineage-findings.md#correction-lineage-fewer-repaired-fields-need-not-mean-less-work)
+records independent scoring and complete cost accounting.
 
-**Question:** Does acquired dependency information repay its write and checking
-costs in complete correction and future behavior, against reconstruction from
-the same source archive? Hold the recipient fixed and begin with authoritative
-corrections. Distinguish exposure traces from acquired semantic support; include
-conservative provenance, rebuilding or source-grounded auditing as competent
-alternatives. The [root note](../notes/CORRECTION_LINEAGE.md) records the public
-overlap, selected uncertainty and prospective CL1–CL3, copied unchanged into the
-brief. Workload discovery, methods and execution belong to the investigator.
+Three fresh histories each undergo two corrections. Acquired selective lineage,
+exposure tracing, dependency reconstruction and whole-state rebuilding all repair
+6/6 states and complete 4/6 subsequent task episodes. Selective lineage recomputes
+18 fields versus 48, but costs 13,613 tokens against rebuilding's 9,789. It narrowly
+passes dependency reconstruction after the second correction, while rebuilding
+remains cheaper. Initial links match all 33 support candidates; one maintained
+false link recurs without causing a scheduled repair failure. All methods preserve
+independent support. Shared arithmetic errors occur after correct repairs; a
+separate two-instance wording diagnostic gives 1/2 versus 2/2 success and leaves
+the primary results intact.
 
-These two questions and executable-experience-retention can proceed independently.
-They change recipient, source validity and implementation retention respectively;
-none relies on another's unpublished evidence.
+**CL assessment:** Functioning selective repair does not establish useful cost
+savings or a reliability threshold. Cheap rebuilding is the strongest tested
+alternative. Independent-support preservation succeeds in every arm, so no
+selective advantage is demonstrated. The
+[selection note](../notes/CORRECTION_LINEAGE.md#assessment-after-publication--17-september)
+preserves CL1–CL3 and appends their assessment. Short fully visible archives,
+separate paid link calls and supplied authority limit broader inference. No
+continuation is commissioned.
+
+### Weight consolidation
+
+**Status — 17 September 2026:** Commissioned by the user and prepared for an
+independent ancillary session. The private
+[repository](https://github.com/alignment-farm/weight-consolidation)
+([local brief](../../ancillary-studies/weight-consolidation/README.md)) is at
+`a9e609a892fb8e34507e20b5fdf9b504c7c93170`; remote `main` matches, tracking is
+configured and the working tree is clean. The user will task its investigator;
+preparation started no agent or experiment.
+
+The study asks what adapter learning adds when the same accumulated examples
+and executable artifacts remain available to a competent external-reuse agent.
+The [selection note](../notes/WEIGHT_CONSOLIDATION.md) preserves WC1–WC3 and the
+[methods ledger](../sources/2026-09-17-runtime-study-selection/README.md) narrows
+the claim against P87/P88/P42. Construct Runtime at
+`9ffb10a66180626b80127fb1892b2cf71e39d946` supplies a starting instrument, with
+training restarts rather than optimizer continuation. The investigator owns
+workload discovery, acquisition diagnosis, fresh evaluation and full cost
+accounting. A useful baseline and functioning learning treatment precede transfer
+claims; a treatment win is not required. This is independent of completed phases
+and of the derivative's operational work.
 
 <a id="what-the-three-completed-investigations-change"></a>
 
@@ -589,6 +643,9 @@ The investigations examine different mechanisms and tasks. Together they sharpen
 | Maintenance-decision transfer | Match-history reaches the two-support aggregate bound on fresh acquisitions, while all endpoints remain incomplete and explicit examples solve the task. | A transferable chooser cannot compensate for inadequate actions; aggregate ties can hide consequential obligation failures. |
 | Evidence use under revision | One checkpoint improves complete evidence use through corrections; longer acquisition reverses the benefit. Its measured training/use time beats an uncached lesson, with substantial limits. | Learned behavior can outlive changed values; acquisition duration, contextual efficiency and checkpoint selection remain part of allocation cost. Supplied execution is a different acquisition claim. |
 | Memory placement under revision (S5) | Learned relevance-score prediction survives some content edits without improving complete quality over direct account-aware access; context selection also affects answer completion within budget. | Persistent structure can be learnable without being worth learning for the task and its available alternatives. |
+| Executable experience retention | Ready and archived source avoid generation at 8/8 complete requests; retaining the first reconstruction removes its later generation cost. | Compare availability and persistence policy over time; library registration alone does not explain saved work. |
+| Procedural memory migration | Useful unchanged guidance matches paid selection; recipient-dependent marginal value coexists with failed selection-cost repayment. | An agent change warrants comparing inheritance and adaptation, not assuming adaptation is needed. |
+| Correction lineage | Accurate initial links and fewer repaired fields coexist with higher cost than rebuilding; correct repaired state coexists with later task errors. | Maintaining reasons to revise is another paid, fallible capability, and must be assessed through subsequent behavior. |
 
 This is a synthesis of distinct local findings, not evidence that the adapter's transfer deficit and the deeper memory's partial retrieval share a cause. The experiments also concern different persistence boundaries: training a fast-memory system to learn within sequences does not demonstrate accumulation of experience across agent sessions. S3's successful synthetic recalls supply no placement or acquisition-cost comparison against accessible explicit evidence.
 
@@ -600,15 +657,43 @@ Where experience lives is part of a larger decision about what to change and pre
 
 ## 6. Research selection
 
-**Latest selection — 17 September:** The user's request for at least two further
-studies led to [procedural memory migration](#procedural-memory-migration) and
-[correction lineage](#correction-lineage), now prepared and pushed. The
-[completed reading](../sources/2026-09-17-independent-study-selection/README.md)
-rules out generic transfer, migration forecasting and dependency propagation as
-adequate new contributions. The selected comparisons concern the useful value
-of paid recipient experience and acquired support information against competent
-reconstruction. Their methods remain local, all earlier predictions retain their
-status, and executable-experience-retention's assignment is unchanged.
+**New independent commission — 17 September:**
+[What do weights add when experience remains available?](../notes/WEIGHT_CONSOLIDATION.md)
+selects bounded feasibility for external reuse versus the same retained experience
+plus an adapter, evaluated across fresh compositions and changed requirements.
+The [methods review](../sources/2026-09-17-runtime-study-selection/README.md) narrows
+the claim against P87/P88/P42 and checks Construct Runtime's investigator interface
+at `9ffb10a`. A useful workload, competent baseline, acquisition path and resource
+estimate precede a main comparison. The user authorized the new
+[weight-consolidation study](#weight-consolidation), now prepared for an ancillary
+agent they will assign. Preparation launched no experiments and reopens no
+completed phase.
+
+**Latest publication assessment — 17 September:**
+[Migration and correction lineage](2026-09-17-migration-lineage-findings.md) are
+accepted and their bounded phases closed. Useful inheritance and functioning
+repair coexist with unsuccessful cost repayment against simple alternatives.
+At that acceptance boundary, thirteen studies had accepted bounded contributions
+and no commission remained in execution. The new preparation is recorded above.
+Original predictions and failed runs remain
+part of the record. AD1 is still untested; these studies do not select remedies
+for missing evidence versus failed use.
+
+The next evidential milestone is a continuing practical capability across repeated
+use and consequential change, including acquisition, checking, failures and repair.
+Root theory and public-method comparison should identify a consequential allocation
+decision beyond supplied family labels, short archives and fixed routines before
+commissioning more runs. The [focused reading](../sources/2026-09-17-migration-lineage-review/README.md)
+narrows migration observation and acquired-lineage value claims; it does not
+justify automatically extending either experiment.
+
+**Earlier selection — 17 September:** The user's request for two further studies
+led to migration and correction lineage. The
+[methods review](../sources/2026-09-17-independent-study-selection/README.md)
+ruled out generic transfer, migration forecasting and dependency propagation as
+adequate contributions. Those independent commissions are now fulfilled by the
+publications above. [Executable retention](2026-09-17-executable-retention-findings.md)
+also remains complete; its stable-use result does not reopen maintenance work.
 
 **Earlier root selection — 17 September:** The
 [initial portability review](../sources/2026-09-17-experience-portability/README.md)

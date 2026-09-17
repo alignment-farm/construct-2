@@ -1,0 +1,17 @@
+{
+  "user_agent": "Construct-2 root research review (alignment-farm; bounded metadata and methods inspection)",
+  "requests": [
+    {
+      "url": "https://export.arxiv.org/api/query?id_list=2605.14421",
+      "retrieved_utc": "2026-09-17T14:05:11.347018+00:00",
+      "path": "memlineage-metadata.xml",
+      "sha256": "5fc2bc2f8b04243efde4994dc479edd0f0eaadb61d3fc24fe60b08a18d56ca85"
+    },
+    {
+      "url": "https://arxiv.org/html/2605.14421v1",
+      "retrieved_utc": "2026-09-17T14:05:11.622828+00:00",
+      "path": "2605.14421v1.html",
+      "sha256": "7d3a0af653d298cec6268e0043d2db72c253d540666d3d5fc3cc15faf218f9f8"
+    }
+  ]
+}

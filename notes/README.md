@@ -23,7 +23,10 @@ explains current research selection within that directive.
 - [EVIDENCE_USE.md](EVIDENCE_USE.md) — Original EU1–EU3 expectations and their assessment after the completed evidence-use phase.
 - [Evidence-use assessment, 17 September](../studies/2026-09-17-evidence-use-findings.md) — Limited transfer and correction durability, a favorable measured candidate cost and the later-acquisition reversal.
 - [EXECUTABLE_EXPERIENCE.md](EXECUTABLE_EXPERIENCE.md) — Allocation theory and selection of retained implementation versus regeneration from procedural experience.
-- [EXPERIENCE_PORTABILITY.md](EXPERIENCE_PORTABILITY.md) — Initial portability question, public-method narrowing and the procedural-memory migration commission with prospective PM1–PM3.
-- [CORRECTION_LINEAGE.md](CORRECTION_LINEAGE.md) — Acquired support information versus reconstruction at correction time; independent commission and prospective CL1–CL3.
+- [Executable-retention assessment, 17 September](../studies/2026-09-17-executable-retention-findings.md) — Complete stable reuse under four policies; avoided reconstruction, archive recovery and caching; EX1–EX3 assessment and bounded closure.
+- [EXPERIENCE_PORTABILITY.md](EXPERIENCE_PORTABILITY.md) — Portability selection, preserved PM1–PM3 and assessment after useful unchanged inheritance and unsuccessful selection-cost repayment.
+- [CORRECTION_LINEAGE.md](CORRECTION_LINEAGE.md) — Acquired support versus reconstruction; preserved CL1–CL3 and assessment after functioning repair, maintenance overhead and later-use failures.
+- [Migration/lineage assessment, 17 September](../studies/2026-09-17-migration-lineage-findings.md) — Both bounded phases accepted; useful inheritance, paid decision costs, acquired support, cheap rebuilding and correct state versus complete behavior.
 - [ANCILLARY_STUDY.md](ANCILLARY_STUDY.md) — Proposed organization for independent ancillary studies and how their publications inform the shared research program.
 - [Cold-read diagnostic, 13 September 2026](cold-read/2026-09-13/README.md) — One fresh Codex session's assessment of the project, with its prompt, response, and limits. This is a documentation check; exclude prior diagnostic responses from future independent cold-read probes.
+- [WEIGHT_CONSOLIDATION.md](WEIGHT_CONSOLIDATION.md) — Commissioned comparison of what adapter learning adds when the same accumulated examples and code remain available; prepared repository, runtime boundary and preserved WC1–WC3 expectations.

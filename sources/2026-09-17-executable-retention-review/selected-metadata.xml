@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jsiS/mtnpI6yl1EMeKPEhYEgMYo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2608.19662,2507.22069&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-17T13:11:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2608.19662,2507.22069" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2608.19662v1</id>
+    <title>ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents</title>
+    <updated>2026-08-20T05:57:24Z</updated>
+    <link href="https://arxiv.org/abs/2608.19662v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.19662v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic language models repeatedly encode tool and skill schemas that recur across requests in different combinations and orders, preventing standard prefix caching from reusing their key--value (KV) states. We introduce \textbf{ReCache}, a framework for independently caching resource representations while reducing their inference-time computational and memory overhead. Resource-wise attention removes cross-resource interactions and assigns resource-local positions, producing composition-invariant KV blocks. ReCache then restricts resource visibility to contribution-selected layer--KV-head-group routes and retains only invocation-critical fields through structural and semantic pruning. We evaluate ReCache on a benchmark assembled from seven public tool- and skill-use datasets, including resource-disjoint tests. Resource-wise attention matches dense invocation performance (82.3\% versus 82.4\% Inv-F1) while providing a 3.655$\times$ time-to-first-token speedup. The complete framework reduces allocated KV-tensor memory by 92.43\% and accelerates attention by 1.423$\times$. These results show that separating reusable schema encoding from selective resource access substantially reduces agentic inference costs with limited effectiveness loss. The code is available at https://github.com/EIT-NLP/ReCache.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-20T05:57:24Z</published>
+    <arxiv:comment>17 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yichu Fang</name>
+    </author>
+    <author>
+      <name>Sitong Wei</name>
+    </author>
+    <author>
+      <name>Haozhe Hu</name>
+    </author>
+    <author>
+      <name>Xiaoyu Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.22069v2</id>
+    <title>A Compute-Matched Re-Evaluation of TroVE on MATH</title>
+    <updated>2025-07-31T07:33:11Z</updated>
+    <link href="https://arxiv.org/abs/2507.22069v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.22069v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reusing established theorems and formulas is central to mathematical problem solving, serving as essential building blocks for tackling increasingly complex challenges. Recent work, TroVE, argues that code-generating Large Language Models (LLMs) can benefit similarly on the MATH benchmark by inducing and reusing higher-level toolboxes. By allocating computational budget across an ensemble of three modes -- directly generating code, creating tools, and reusing tools -- TroVE claims to outperform a PRIMITIVE baseline that only performs direct generation. However, recent analysis (Berlot-Attwell et al., 2024) casts doubt on these gains, noting that the tools created are often trivial or rarely reused, suggesting that improvements may stem from self-consistency or self-correction. In this work, we re-evaluate TroVE on MATH, analyze the impact of each of its modes, and show that its benefit does not come from these mechanisms, but simply from a higher computational budget spent for TroVE compared to PRIMITIVE. To this end, we also perform a small correction in the original implementation of TroVE's selection mechanism, boosting TroVE's performance on MATH by 3\% in accuracy. After matching for compute, the benefit of TroVE reduces to a marginal improvement of 1\%, suggesting that this toolbox approach does not provide a significant benefit on MATH.</summary>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-16T03:11:43Z</published>
+    <arxiv:primary_category term="cs.PL"/>
+    <arxiv:journal_ref>2nd AI for Math Workshop at ICML 2025</arxiv:journal_ref>
+    <author>
+      <name>Tobias Sesterhenn</name>
+    </author>
+    <author>
+      <name>Ian Berlot-Attwell</name>
+    </author>
+    <author>
+      <name>Janis Zenkner</name>
+    </author>
+    <author>
+      <name>Christian Bartelt</name>
+    </author>
+  </entry>
+</feed>

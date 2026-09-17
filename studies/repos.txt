@@ -11,3 +11,4 @@ alignment-farm/evidence-use-under-revision
 alignment-farm/executable-experience-retention
 alignment-farm/procedural-memory-migration
 alignment-farm/correction-lineage
+alignment-farm/weight-consolidation

@@ -1,0 +1,12 @@
+{
+  "url": "https://export.arxiv.org/api/query?id_list=2608.19662,2507.22069",
+  "retrieved_at": "2026-09-17T13:11:36.653618+00:00",
+  "user_agent": "Construct-2 executable retention synthesis (https://github.com/alignment-farm/construct-2)",
+  "headers": {
+    "Date": "Thu, 17 Sep 2026 13:11:36 GMT",
+    "Content-Type": "application/atom+xml; charset=utf-8"
+  },
+  "sha256": "4f1afc67ac4f205566a9b857255a726feae90d677d082ef4635cc0f7fe406ea6",
+  "filename": "selected-metadata.xml",
+  "scope": "One selected-ID request following focused web discovery; no exhaustive novelty search."
+}

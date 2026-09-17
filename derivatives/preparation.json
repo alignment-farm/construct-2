@@ -1,0 +1,15 @@
+{
+  "project": "construct-runtime",
+  "repository": "https://github.com/alignment-farm/construct-runtime",
+  "private": true,
+  "branch": "main",
+  "preparation_revision": "eb21303afe9fafe841ebfdaf08431f29cf401390",
+  "remote_main_revision": "eb21303afe9fafe841ebfdaf08431f29cf401390",
+  "local_tracking_matches": true,
+  "working_tree_clean_at_verification": true,
+  "verified_utc": "2026-09-17T20:38:56.164391+00:00",
+  "local_path": "../../derivatives/construct-runtime",
+  "status": "prepared for independent development",
+  "implementation_or_model_runs_started_by_preparation": false,
+  "relationship": "Applied derivative; separate from the thirteen ancillary studies."
+}

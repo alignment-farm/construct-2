@@ -121,3 +121,35 @@ workload discovery, methods, execution, diagnosis and publication. The
 revision. Preparation launches no investigator or model run. It can proceed
 alongside [correction lineage](CORRECTION_LINEAGE.md) and the active implementation
 comparison without using their unpublished evidence.
+
+## Assessment after publication — 17 September
+
+The [root assessment](../studies/2026-09-17-migration-lineage-findings.md#procedural-migration-unchanged-guidance-is-a-strong-alternative)
+accepts publication `5a670d355491a853e32779260bfe73ea09f02f45` and closes this
+bounded commission. The preparation and prospective PM1–PM3 above are preserved.
+After a failed first acquisition gate and one compact revision, functioning
+guidance transfers unchanged to the previously unseen recipient.
+
+**PM1 receives mixed evidence.** On matched final tasks, source behavior is 12/12
+with or without guidance, but inheritance saves tokens; recipient behavior rises
+from 1/12 to 12/12. Marginal value depends on the recipient. No tested family
+becomes harmful or redundant overall, weakening that part of the expectation.
+
+**PM2's limiting condition occurs.** A calibration-selected family policy,
+frozen before evaluation, reaches 12/12 and avoids reconstruction's two failures.
+Unchanged inheritance also reaches 12/12. Policy use costs less, but setup plus
+use costs 83,495 tokens versus 28,153. The observed twelve-use horizon does not
+repay selection, and the approximately 149-use projection is unvalidated.
+
+**PM3 remains partly untested.** Reconstruction has the complete common source
+archive and reaches 10/12 at 35,011 setup-plus-use tokens. It is a substantive
+alternative, but there is no archive-deprived or artifact-only adaptation contrast
+to identify the causal value of access. Selective adaptation repayment is absent.
+
+Historical source development costs 73,711 tokens, including failed acquisition
+and qualification; the migration comparison treats that already acquired bank
+as sunk. All 108 submitted queries replay against their recorded generators.
+One model pair, three supplied families, bounded checking and twelve final tasks
+limit generality. The publication explains a successful inheritance regime and
+a costly selector; neither general migration nor the broader directive is closed.
+No continuation is commissioned.

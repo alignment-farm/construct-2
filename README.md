@@ -2,40 +2,52 @@ The research direction is:
 
 > how agents can accumulate useful experience across sessions, and where that experience should live: explicit memory, contextual lessons, executable tools, model weights, or runtime rules.
 
+Read the [executive summary](EXECUTIVE_SUMMARY.md) for the program's main findings,
+their practical implications and the limits of the evidence to date.
+
 The task is to read the [previous research](notes/PREVIOUS_RESEARCH.md), [perspectives](notes/RESEARCH_PERSPECTIVES.md) and then put concepts from those files into contact through comparable tests.
 
 The [source guide](sources/README.md) links the literature review, and the [study map](studies/README.md) connects mechanisms, evidence, and candidate questions. Its [worked examples](studies/README.md#b0-a-worked-explanation-of-neural-writes-reads-and-resets) explain neural writes, reads, and resets. The [ancillary-study approach](notes/ANCILLARY_STUDY.md) describes how independent studies inform the root's theory and synthesis.
 
 Contributors can use the [repository list](studies/repos.txt) and [clone instructions](studies/README.md#cloning-the-studies) to retrieve all ancillary studies or select them by name.
 
-**Current commission — 17 September:** The independent
-[executable-experience-retention study](https://github.com/alignment-farm/executable-experience-retention)
-([local brief](../ancillary-studies/executable-experience-retention/README.md)) is
-underway with an ancillary agent, as reported by the user. It asks what retained
-implementation adds to shared acquired experience under competent reconstruction,
-equal checking and complete cost accounting. The [comparison](notes/EXECUTABLE_COMPARISON.md)
-and completed [artifact review](studies/2026-09-17-executable-feasibility.md) supply
-the rationale and public method donors. Its investigator owns workload development
-and execution; this status update does not inspect unpublished evidence.
+**Applied prototype available — 17 September:**
+[Construct Runtime](derivatives/README.md#investigator-interface-review--17-september-2026)
+now has a working local task runtime, a machine-facing HTTP interface and real
+LoRA training and reloading, plus investigator-defined environments and portable
+state forks. Its first diagnostic comparison demonstrates source
+acquisition but does not establish an adapter advantage over retained examples.
+The derivative owns its software and experiments outside this root; the registry
+records the reviewed revision, checks and limits. Root research continues independently.
 
-**Two further studies prepared — 17 September:** The
-[methods review](sources/2026-09-17-independent-study-selection/README.md) selects
-two independent questions, now commissioned in private ancillary repositories:
+**New study prepared — 17 September:**
+[Weight consolidation](https://github.com/alignment-farm/weight-consolidation)
+([local brief](../ancillary-studies/weight-consolidation/README.md)) asks what
+adapter learning adds when the same accumulated examples and code remain
+accessible. The user will assign its ancillary agent. The
+[selection note](notes/WEIGHT_CONSOLIDATION.md) preserves WC1–WC3 and the runtime
+pin; workload and acquisition development belong to the investigator.
+Preparation launched no experiments.
 
-- [Procedural memory migration](https://github.com/alignment-farm/procedural-memory-migration):
-  whether paid recipient experience improves the choice to retain, adapt or retire
-  procedural guidance enough to justify its cost. The
-  [selection note](notes/EXPERIENCE_PORTABILITY.md#selection-after-the-methods-review)
-  explains the narrowing beyond existing transfer and migration results.
-- [Correction lineage](https://github.com/alignment-farm/correction-lineage):
-  whether acquired dependency information repays its maintenance cost when
-  correcting memory, compared with reconstruction from the same archive. The
-  [selection note](notes/CORRECTION_LINEAGE.md) distinguishes acquired support
-  claims from supplied dependency graphs.
+**Latest accepted publications — 17 September:**
+[Procedural migration and correction lineage](studies/2026-09-17-migration-lineage-findings.md)
+complete their bounded phases. Unchanged procedural guidance and paid recipient
+selection both complete 12/12 fresh tasks; selection uses 83,495 tokens including
+setup versus 28,153 for inheritance. Guidance is useful to both tested models,
+but extra selection does not repay its cost at this horizon. Acquired lineage
+reduces recomputed fields from 48 to 18, yet whole-state rebuilding is cheaper.
+All four correction methods repair 6/6 states and complete 4/6 later task episodes;
+the shared arithmetic failures occur after correct repair. The
+[PM1–PM3](notes/EXPERIENCE_PORTABILITY.md#assessment-after-publication--17-september)
+and [CL1–CL3](notes/CORRECTION_LINEAGE.md#assessment-after-publication--17-september)
+assessments preserve the original expectations and distinguish measured results
+from unresolved generalizations. No continuation is commissioned.
 
-Both are ready for independent ancillary sessions; preparation started no
-experiments. Their methods and workloads belong to the investigators. Root
-theory and public discovery continue across the three independent commissions.
+The preceding [executable-retention assessment](studies/2026-09-17-executable-retention-findings.md)
+finds all four policies complete 8/8 fresh requests. Ready and archived source
+need zero future model calls, lessons-only reconstruction eight, and retaining
+the first reconstruction one. Source availability and persistence policy explain
+avoided work; acquired-lesson value and changed requirements remain untested.
 
 The [evidence-use assessment](studies/2026-09-17-evidence-use-findings.md) accepts
 its completed bounded phase. A varied-history adapter improves complete outcomes
@@ -47,7 +59,7 @@ remain untested; the supplied executable completes 96/96. Original
 [EU1–EU3 predictions and assessments](notes/EVIDENCE_USE.md) remain identifiable.
 No follow-up experiment is commissioned.
 
-Current work prioritizes neural memory, live weight updates, and learned memory policies. Ten ancillary projects have published bounded contributions. Update-source selection established reproducible local adapter updates without a task-success advantage in its final full-context comparison. Procedure acquisition and reuse found that its tested adapter transferred less reliably than retained examples and did not demonstrate acquisition-cost repayment at comparable useful accuracy. [Neural memory depth](https://github.com/alignment-farm/neural-memory-depth/blob/main/FINDINGS.md) ([local](../ancillary-studies/neural-memory-depth/FINDINGS.md)) found that interactions among initial representations and training streams strongly affect whether a tiny deeper memory learns full or partial recall. Correcting a verified derivative omission and increasing gradient-refresh frequency did not provide a uniform remedy; the differing published depth trends in Titans and Modular TTT remain unexplained.
+Current work prioritizes neural memory, live weight updates, and learned memory policies. Thirteen ancillary projects have published accepted bounded contributions. Update-source selection established reproducible local adapter updates without a task-success advantage in its final full-context comparison. Procedure acquisition and reuse found that its tested adapter transferred less reliably than retained examples and did not demonstrate acquisition-cost repayment at comparable useful accuracy. [Neural memory depth](https://github.com/alignment-farm/neural-memory-depth/blob/main/FINDINGS.md) ([local](../ancillary-studies/neural-memory-depth/FINDINGS.md)) found that interactions among initial representations and training streams strongly affect whether a tiny deeper memory learns full or partial recall. Correcting a verified derivative omission and increasing gradient-refresh frequency did not provide a uniform remedy; the differing published depth trends in Titans and Modular TTT remain unexplained.
 
 [Procedure transfer](https://github.com/alignment-farm/procedure-transfer/blob/main/FINDINGS.md) ([local](../ancillary-studies/procedure-transfer/FINDINGS.md)) first found poor distillation acquisition and partial transfer through imitation. Its subsequent [diagnosis](https://github.com/alignment-farm/procedure-transfer/blob/main/DIAGNOSIS.md) ([local](../ancillary-studies/procedure-transfer/DIAGNOSIS.md)) establishes a working forward-KL acquisition checkpoint and a controlled repair of failed routing from identical weights. Both selected learners route all 48 new development calls correctly, while identifier production remains unreliable. These diagnostic results explain part of the original failure without establishing a forward-KL transfer advantage. The [root assessment](studies/README.md#procedure-transfer-acquisition-diagnosis) records the evidence, checks and limits.
 
@@ -55,6 +67,9 @@ The [third-phase root assessment, 15 September](studies/2026-09-15-maintenance-f
 
 | Latest publication | What we learned |
 |---|---|
+| [Procedural memory migration](studies/2026-09-17-migration-lineage-findings.md#procedural-migration-unchanged-guidance-is-a-strong-alternative) | Useful unchanged guidance matches paid selection at 12/12 with much lower total token cost. Recipient-dependent value is observed; harmful inheritance and paid adaptation repayment are not. |
+| [Correction lineage](studies/2026-09-17-migration-lineage-findings.md#correction-lineage-fewer-repaired-fields-need-not-mean-less-work) | Selective repair touches fewer fields but costs more than rebuilding. Every arm repairs all states; later arithmetic failures leave complete behavior at 4/6. |
+| [Executable experience retention](studies/2026-09-17-executable-retention-findings.md) | All four policies complete 8/8. Ready and archived source avoid generation; caching the first reconstruction removes later generation. The result concerns source availability, with acquired-lesson value and changed requirements untested. |
 | [Evidence use under revision](studies/2026-09-17-evidence-use-findings.md) | One prespecified checkpoint transfers modestly and stays above base through corrections, with a favorable measured cost against an uncached lesson. Longer acquisition regresses; a supplied executable is complete. |
 | [Maintenance-decision transfer](https://github.com/alignment-farm/maintenance-decision-transfer/blob/be7a508bfea002baceec72f32f7f9d6f73f7861a/FINDINGS.md) ([assessment](studies/2026-09-16-maintenance-transfer-findings.md)) | Known history selects the two-support aggregate bound at 524/768 on fresh acquisitions, but every endpoint remains incomplete. Observation controls are constant; validation sees obligation differences despite aggregate ties. A retained-example table completes 192/192. |
 | [Experience selection — S1](https://github.com/alignment-farm/experience-selection/blob/main/MAINTENANCE_FINDINGS.md) ([local](../ancillary-studies/experience-selection/MAINTENANCE_FINDINGS.md)) | Damage-aware replay completes more uses overall than a developed fixed mixture, but fewer during recurrence, with more paired losses and substantial prediction cost. Both finish with complete acquisition; stopping at a fixed time can freeze incomplete learning. |
@@ -64,17 +79,18 @@ The [third-phase root assessment, 15 September](studies/2026-09-15-maintenance-f
 
 S5 now includes an [accepted placement comparison](studies/2026-09-16-placement-findings.md) alongside the earlier [acquisition, use and maintenance measurements](studies/2026-09-15-maintenance-findings.md#assessment-of-the-prospective-expectations). None demonstrates learning-cost repayment against competent explicit alternatives at comparable complete quality. The placement study shares visible evidence across methods; earlier references have different supplied structures and privileges. The later evidence-use result adds a favorable measured comparison against an uncached lesson, qualified above. These results do not establish a universal ranking of weights, records and executable rules.
 
-**Current work — 17 September 2026:** Ten ancillary projects have published
-accepted bounded contributions. Of thirteen registered studies,
-executable-experience-retention is underway by user report, and procedural-memory-migration
-and correction-lineage are newly prepared. None has findings reviewed here.
-The completed phases remain closed; the root continues theory, public research
-and synthesis independently of ancillary execution. The executable study follows the completed
-[public-method comparison](notes/EXECUTABLE_COMPARISON.md).
-AD1 remains untested locally, AD2 has a bounded maintenance-choice
-assessment, and AD3 has limited prediction-level support with adverse placement
-quality/cost evidence. EU1–EU3 add the evidence-use findings above without
-replacing those predictions or the enduring directive.
+**Current work — 17 September 2026:** Fourteen studies are registered: thirteen
+have accepted bounded contributions and completed commissioned phases;
+weight-consolidation is prepared for an independent ancillary session. The root
+continues theory, public research and selection within the fixed directive.
+The separate [applied derivative](derivatives/README.md) owns its
+prototype development and does not change those ancillary phase boundaries.
+The next evidential milestone is useful capability across repeated realistic work
+and consequential change, with complete outcomes and total costs. The new study
+does not reopen completed phases. AD1 remains untested locally, AD2
+has its bounded maintenance-choice assessment, and AD3 retains limited
+prediction-level support with adverse placement quality/cost evidence. EU, EX,
+PM and CL assessments supplement those predictions without replacing them.
 
 **S2's state/support phase is complete and accepted.** MR1 has direct support in the selected equal-accuracy diagnostic; fresh acquisitions support the interaction but begin at different accuracies. MR2 and MR3 remain untested locally, with closer public precedents now identified. The [reliability note](notes/MAINTENANCE_RELIABILITY.md#assessment-after-the-state-support-crossing) preserves those expectations. S1, S2 and S4's completed phases remain stood down.
 

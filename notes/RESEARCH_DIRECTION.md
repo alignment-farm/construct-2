@@ -571,3 +571,111 @@ by user report, and these two newly prepared commissions. Preparation launched
 no investigator or model run. No ancillary review boundary advances beyond its
 recorded preparation or accepted publication, and no completed phase reopens.
 Earlier AD, EU and EX predictions are unchanged.
+
+## Executable-retention publication assessment — 17 September
+
+The [root assessment](../studies/2026-09-17-executable-retention-findings.md)
+accepts publication `baf4d764cb4e571551a2b69d45751bb7f3281eaf` and closes the
+stable-use phase. Ready source, archived source, lessons-only reconstruction
+and reconstruction with caching all complete 8/8 fresh requests. Their future
+model-call counts are 0, 0, 8 and 1. Source availability explains avoided work;
+the ability to retain the first reconstruction limits the ongoing advantage.
+The [review ledger](../sources/2026-09-17-executable-retention-review/README.md)
+records independent output/cost checks and targeted public follow-up on sampling
+controls and resource KV caching.
+
+EX1 has bounded support, EX2 is untested, and EX3's attribution concern is partly
+addressed without a direct test of predicted shrinkage. A supplied full contract,
+known dispatch and no lesson-free reconstruction control limit acquisition claims.
+There is explanatory progress sufficient for phase closure; neither new model
+calls nor a repair phase follows automatically from the untested broader cases.
+
+Eleven of thirteen registered studies now have accepted bounded contributions.
+Procedural-memory-migration and correction-lineage retain their independent
+commissions and recorded preparation boundaries. Their methods and execution
+remain ancillary responsibilities; no review of their unpublished work occurred.
+The root continues theory, public discovery and synthesis within the fixed
+directive. Original AD, EU, EX, PM and CL predictions remain identifiable.
+
+## Migration and lineage publication assessment — 17 September
+
+The [joint root assessment](../studies/2026-09-17-migration-lineage-findings.md)
+accepts procedural-memory-migration at `5a670d355491a853e32779260bfe73ea09f02f45`
+and correction-lineage at `f8ad1e1ce8b9842efa90305c1206b8690578a204`, advancing
+both preparation boundaries. Thirteen of thirteen registered studies now have
+accepted bounded contributions; no current commission remains in execution.
+The chronological preparation/execution statements above are historical.
+
+The first study establishes useful unchanged guidance for a changed model and
+finds that paid selection does not repay its costs at the tested horizon. The
+second acquires usable support information and repairs every tested state, but
+cheap rebuilding matches quality at lower cost. Correct state still fails some
+later orders; fresh diagnostic work narrows that failure to the use procedure.
+These explanations justify closing the bounded phases. The
+[PM](EXPERIENCE_PORTABILITY.md#assessment-after-publication--17-september) and
+[CL](CORRECTION_LINEAGE.md#assessment-after-publication--17-september) assessments
+preserve original expectations, failed acquisition and untested predictions.
+
+The [public follow-up](../sources/2026-09-17-migration-lineage-review/README.md)
+revisits migration forecasting and source-grounded auditing, and adds MemLineage
+as P86. It narrows further work toward complete behavior and the full cost of
+acquiring decision information; generic migration, propagation or enforcement
+remain weak contributions. No public implementation was replicated.
+
+The next evidential milestone is a capability that remains useful across repeated
+realistic work and consequential change. This requires selecting a setting where
+reuse, acquisition or correction changes the best feasible action beyond known
+family labels, a fully visible tiny archive and supplied routines. Root theory
+and public research should develop that selection before commissioning more
+runs. Longer reuse, larger archives or more difficult recipients are possible
+conditions to explain, not instructions to extend an experiment until it wins.
+AD1 remains untested; prior AD2/AD3 assessments stand. This synthesis commissions
+no new study and does not close the enduring question.
+
+## Applied derivative preparation — 17 September
+
+Following discussion of practical prototypes and Hermes, the user chose an owned
+execution environment for direct control of experimental instruments. Its public
+surface serves other agents and machine clients; an end-user harness is outside
+the initial scope. The user also challenged a skills-first direction: model-side
+adapters belong in the prototype's actual learning lifecycle.
+
+The [derivative registry](../derivatives/README.md) records **Construct Runtime**
+at `alignment-farm/construct-runtime`, outside this root under the sibling
+`derivatives/` directory. One initial repository keeps execution, instrumentation
+and learning development together. The first milestone includes an actual
+train/save/reload/evaluate adapter path, continuing tasks, consequential change
+and complete outcomes against competent alternatives. Workload and implementation
+choices belong to its development agent. No service or model run starts merely
+by preparing the repository.
+
+Selected Hermes code at `5b80838ea2520339f91c532b0e33d3a198c17ffc` supplied
+ideas about recoverable artifacts and mutation records; the user prefers control
+over the execution environment to adopting that harness. Public model/harness
+co-evolution already includes LoRA, so this derivative does not claim to invent
+neural adaptation. A2A 1.0.0 supplies a transport reference, with conformance left
+for implementation and testing. The derivative keeps its own starting design,
+reading provenance and first assignment.
+
+This is applied development, not another ancillary commission or the root's new
+research direction. The thirteen accepted contributions and their predictions
+retain their boundaries. Root theory, public discovery and independent scientific
+selection continue while the derivative develops and publishes useful milestones.
+
+## Weight-consolidation commission — 17 September
+
+After the [targeted methods and runtime review](../sources/2026-09-17-runtime-study-selection/README.md),
+the user approved an independent study of what learned weights add when competent
+external reuse remains available. The [selection note](WEIGHT_CONSOLIDATION.md)
+preserves WC1–WC3 and the identifying comparison through fresh compositions and
+changed requirements. The private
+[weight-consolidation repository](https://github.com/alignment-farm/weight-consolidation)
+is prepared at `a9e609a892fb8e34507e20b5fdf9b504c7c93170`, with `main` pushed
+and verified. The user will task its ancillary agent; preparation launched no runs.
+
+The investigator owns workload development, acquisition diagnosis, methods,
+resource estimates and publication. Construct Runtime `9ffb10a` is a pinned
+starting instrument, with no dependency on its next development milestone.
+There are now fourteen registered studies, thirteen with accepted bounded
+contributions. Completed phases stay closed; root theory, literature and
+independent question selection continue.

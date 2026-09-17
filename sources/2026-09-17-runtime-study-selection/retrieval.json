@@ -1,0 +1,8 @@
+{
+  "url": "https://export.arxiv.org/api/query?id_list=2606.24893v1,2606.02461v1,2609.09134v1",
+  "retrieved_utc": "2026-09-17T23:00:02.826715+00:00",
+  "request_count": 1,
+  "status": 200,
+  "content_type": "application/atom+xml; charset=utf-8",
+  "sha256": "9e90e9f92b6d8ddcc98d920fc54d5320bd437e16b4348730a381c776205a25ed"
+}

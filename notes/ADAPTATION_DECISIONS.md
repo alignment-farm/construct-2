@@ -219,3 +219,57 @@ established. EU1–EU3 have their own bounded assessment. This study does not te
 AD1's remedy choice, AD2's observation value or AD3's learned access policy, so
 those original predictions and assessments remain unchanged. No continuation is
 commissioned; independent executable-experience work continues.
+
+## Assessment after executable-experience retention
+
+The [17 September assessment](../studies/2026-09-17-executable-retention-findings.md)
+adds a bounded example of changing persistence policy. Source recovery and ready
+source each complete 8/8 requests with no future model calls. A policy beginning
+with lessons retains its first reconstruction, then needs no later generation.
+Keeping the alternatives in fixed representation categories would miss that
+transition and overstate recurring reconstruction costs.
+
+This sharpens the existing combination hypothesis: the relevant comparison is
+what information and usable capability remain available at each decision, and
+what it costs to change that availability. Library registration itself adds no
+observed value over archive recovery here. The transition is supplied by the
+harness, not learned from feedback, so AD1 remains untested; AD2/AD3 and EU1–EU3
+retain their previous assessments. The full contract and known dispatch also
+limit claims about experience acquisition and autonomous applicability.
+
+One paid lesson correction illustrates that moving experience into prose can
+create a new maintenance obligation, even when the original implementation works.
+It does not demonstrate a general representation disadvantage or the value of
+dependency tracking. The independent migration and correction-lineage questions
+retain their own predictions. This completed phase supplies an explanation, not
+a standing instruction to extend the most recent experiment.
+
+## Assessment after procedural migration and correction lineage
+
+The [17 September assessment](../studies/2026-09-17-migration-lineage-findings.md)
+adds two functioning capabilities and two limits on additional investment.
+Unchanged acquired guidance improves a new recipient from 1/12 to 12/12 fresh
+tasks. Paid family selection matches 12/12 and reduces use tokens, but nearly
+triples setup-plus-use tokens relative to inheritance. The receiving model
+changes the guidance's marginal value without making adaptation necessary here.
+
+Acquired semantic lineage supports correct selective repair through two
+corrections, yet rebuilding the small state is cheaper. Maintenance introduces
+a false support link despite perfect initial acquisition. That link causes no
+observed repair failure; later arithmetic fails after correct state repair and
+identical use prompts across methods. The separate wording diagnostic narrows
+this read-time problem without establishing general reliability.
+
+Thus the ability to act and the machinery that chooses or maintains it each need
+their own value assessment. Reduced inference work or a smaller repair set may
+not repay acquiring and maintaining the decision information. Source archives
+enable competent alternatives, but these comparisons do not isolate archive
+retention's causal benefit. Their different mechanisms do not establish a common
+failure cause or a general preference for one substrate.
+
+PM1–PM3 and CL1–CL3 have separate assessments in their original notes. AD1 remains
+untested: the selector chooses among guidance banks, not remedies for missing
+evidence versus unsuccessful use. AD2/AD3 retain their previous assessments.
+Both bounded commissions are complete. Further selection should target useful
+capability across continuing realistic work, with consequential changes and
+strong alternatives, rather than assume another adaptation layer is beneficial.
