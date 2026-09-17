@@ -1,6 +1,17 @@
 **Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/PREVIOUS_RESEARCH.md) and [research perspective](../notes/RESEARCH_PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. Executable skill libraries remain background; see the [research preference](../sources/README.md#research-preference-to-date).
 
-**Current work — 16 September 2026:** Nine ancillary projects have published bounded contributions. The [maintenance-decision transfer assessment](2026-09-16-maintenance-transfer-findings.md) accepts the completed phase: match-history reaches the two-support aggregate bound at 524/768, but every endpoint remains incomplete. Constant fitted observation controls limit inference about information value; a retained-example table completes 192/192. AD2 now has a bounded local assessment. Prior phases remain complete, and no follow-up experiment is commissioned. The fixed directive and original AD1–AD3 predictions are preserved.
+**Current work — 16 September 2026:** Nine ancillary projects have published bounded contributions. The [maintenance-decision transfer assessment](2026-09-16-maintenance-transfer-findings.md) accepts the completed phase: match-history reaches the two-support aggregate bound at 524/768, but every endpoint remains incomplete. Constant fitted observation controls limit inference about information value; a retained-example table completes 192/192. AD2 now has a bounded local assessment. Prior phases remain complete. The independent evidence-use study below is now commissioned; it renews none of those phases. The fixed directive and original AD1–AD3 predictions are preserved.
+
+**Latest root selection:** [Reusable evidence use under revision](../notes/EVIDENCE_USE.md)
+is the commissioned independent question: durable benefit and cumulative cost
+against contextual lessons through successive authoritative corrections.
+[New primary reading](../sources/2026-09-16-evidence-use/README.md) adds P54–P59
+and substantially answers the generic learned-reading proposal. The
+[evidence-use-under-revision repository](https://github.com/alignment-farm/evidence-use-under-revision)
+([local brief](../../ancillary-studies/evidence-use-under-revision/README.md))
+is underway with an ancillary agent, as reported by the user. The root continues
+independent theory, literature and synthesis.
+
 
 This map connects the root's questions, ancillary publications and current research directions. Nine projects have published bounded contributions. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
 
@@ -202,6 +213,12 @@ For S1, we should distinguish three outcomes: **the chosen text becomes easier t
 | **P51. [Credit Without Ground Truth, 2608.19760v2](https://arxiv.org/html/2608.19760v2)** — targeted methods and limitations | Executed-replay audit of step credit. | Limited fidelity and training evidence do not establish general uselessness. |
 | **P52. [CRAG, 2401.15884v3](https://arxiv.org/html/2401.15884v3)** — selected methods, ablations and costs | Relevance-based corrective action routing. | A concrete developed rule for AD1 comparisons. |
 | **P53. [Adaptive-RAG, 2403.14403v2](https://arxiv.org/html/2403.14403v2)** — §3, selected results and pinned author code | Outcome-derived strategy classification. | Direct precedent for learning which retrieval strategy to use; not isolated reading repair. |
+| **P54. [RAFT, 2403.10131v2](https://arxiv.org/html/2403.10131v2)** — §§3–5 | Learned in-domain reading mixed with memorization. | Positive precedent; correction durability is a separate claim. |
+| **P55. [RA-DIT, 2310.01352v4](https://arxiv.org/html/2310.01352v4)** — §§2–3, 5.1–5.2 | Separate reader and retriever adaptation. | Isolate reader benefit and retain developed few-shot controls. |
+| **P56. [Controlled ICL/finetuning study, 2505.00661v3](https://arxiv.org/html/2505.00661v3)** — methods and selected experiments | Different generalization; inference-augmented training. | Distinguish acquired information, computation and complete-task transfer. |
+| **P57. [Context-Parametric Inversion, 2410.10796v3](https://arxiv.org/html/2410.10796v3)** — §§3–5 | Context reliance can decline during successful training. | Training inputs containing evidence need not require using it. |
+| **P58. [Context-faithful Prompting, 2303.11315v2](https://arxiv.org/html/2303.11315v2)** — §§3–4 | Instructions and counterfactual demonstrations. | Serious contextual alternative; authority is assumed. |
+| **P59. [CARE, 2509.13683v1](https://arxiv.org/html/2509.13683v1)** — §§3–5 | Learned evidence-integrated reasoning, including counterfactual QA. | Generic learning possibility substantially answered; lifetime comparison remains selected. |
 
 The [13 September methods review](../sources/2026-09-13/README.md) records the added reading and the selection rationale for procedure transfer. P17/P18 are additions to the original paper map; this is not a claim of comprehensive or latest-version coverage.
 
@@ -460,6 +477,19 @@ Where experience lives is part of a larger decision about what to change and pre
 
 ## 6. Research selection
 
+**Latest selection after all nine publications — 16 September:**
+[Reusable evidence use under revision](../notes/EVIDENCE_USE.md) compares the
+useful lifetime of learned behavior with retained contextual lessons while
+current evidence receives successive authoritative corrections. The note audits
+what local explicit alternatives receive, assesses six public precedents,
+compares candidates and records new EU1–EU3 expectations. The user subsequently commissioned a bounded independent investigation in
+[evidence-use-under-revision](https://github.com/alignment-farm/evidence-use-under-revision).
+Preparation is published and the user reports the study underway; execution
+belongs to the ancillary session. S2/S4/S5
+remain complete.
+The [reading ledger](../sources/2026-09-16-evidence-use/README.md) distinguishes
+inspected methods, author results and uninspected leads. AD1–AD3 are preserved.
+
 **Latest publication assessment — 16 September:**
 [Maintenance-decision transfer](2026-09-16-maintenance-transfer-findings.md) is
 accepted and its bounded phase complete at `be7a508bfea002baceec72f32f7f9d6f73f7861a`.
@@ -518,7 +548,7 @@ result, ancillary review or experimental commission.
 
 **State/support assessment — 15 September 2026:** The [state/support phase](2026-09-15-state-support-findings.md) is complete and accepted. Its diagnostic supports MR1, while fresh acquisitions extend the interaction without replicating equal starting accuracy. MR2/MR3 remain untested locally. That assessment recommended prediction and decision work without commissioning another phase.
 
-**Current research selection — 16 September 2026:** The [placement publication](2026-09-16-placement-findings.md) is accepted and its bounded phase complete. The [maintenance-decision note](../notes/MAINTENANCE_DECISIONS.md) develops the independent comparison across learner histories. The [research-selection note](../notes/RESEARCH_DIRECTION.md#assessment-after-publication) records the placement outcome, and the [adaptation synthesis](../notes/ADAPTATION_DECISIONS.md#assessment-after-the-placement-publication) assesses it against preserved expectations. Its limitations alone do not confer priority on another round; no completed study receives a new phase through this work.
+**Earlier research selection — 16 September 2026:** The [placement publication](2026-09-16-placement-findings.md) is accepted and its bounded phase complete. The [maintenance-decision note](../notes/MAINTENANCE_DECISIONS.md) develops the independent comparison across learner histories. The [research-selection note](../notes/RESEARCH_DIRECTION.md#assessment-after-publication) records the placement outcome, and the [adaptation synthesis](../notes/ADAPTATION_DECISIONS.md#assessment-after-the-placement-publication) assesses it against preserved expectations. Its limitations alone do not confer priority on another round; no completed study receives a new phase through this work.
 
 | Question | What the completed phase changes | Recommended research direction |
 |---|---|---|

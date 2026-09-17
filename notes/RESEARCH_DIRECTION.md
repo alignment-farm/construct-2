@@ -375,3 +375,46 @@ uncertainty about adequate actions, task structure or obligation tradeoffs and
 check its closest public evidence. AD1's bounded feasibility review remains closed
 without a selected experiment; the broader AD1 question stays open. The fixed
 directive, hybrid working hypothesis and original predictions remain intact.
+
+
+## Selection after the maintenance-transfer assessment
+
+The [evidence-use synthesis](EVIDENCE_USE.md) completes another root selection
+round. The local explicit controls differ in supplied addressing, operations and
+authority; their success does not establish that every useful operation should
+remain fixed or that learning cannot help. Public reading adds positive learned
+reading and counterfactual reasoning results, a contextual alternative and a
+training-dynamics explanation. Generic learned evidence use is already answered
+well enough that another possibility demonstration has little selection value.
+
+Select the useful lifetime of evidence-use behavior across successive
+authoritative corrections, compared with developed contextual lessons from
+matched available experience. This is an allocation and maintenance comparison
+within the enduring directive. It asks whether learning reusable use, while
+keeping current evidence explicit, actually earns its acquisition and repair cost.
+The new EU1–EU3 expectations remain prospective and do not replace AD1–AD3.
+
+A bounded independent investigation is recommended, with workload development,
+methods and acquisition diagnosis owned by its investigator. The selection note
+states the consequential contrasts and closure criteria without prescribing an
+experimental grid. Another observation selector, a reopened AD1 feasibility phase
+and deliberately weakened explicit access are not selected. No repository or
+experiment is commissioned in this root selection round.
+
+
+**Subsequent commissioning decision — 16 September:** The user asked to create
+this ancillary study. The independent
+[evidence-use-under-revision repository](https://github.com/alignment-farm/evidence-use-under-revision)
+([local brief](../../ancillary-studies/evidence-use-under-revision/README.md))
+contains the question, EU1–EU3 expectations, versioned primary-source starting
+points, resources and local research instructions. Its bounded exploration and
+execution are commissioned. Preparation launches no investigator or model run;
+workload development and operational decisions belong to the ancillary session.
+Nine earlier projects retain their completed contributions; this is the tenth
+ancillary project and has no findings yet. The root continues independent theory,
+public discovery and synthesis while it runs.
+
+
+**Execution update — 16 September:** The user reports the study underway with an
+ancillary agent. This records user-reported execution status, not an inspection
+of unpublished evidence. Methods and operational ownership remain with the study.

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GETp4KUSQN5bF3xlmdqkJpBxDsg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2403.10131,2310.01352,2505.00661&amp;start=0&amp;max_results=3</title>
+  <updated>2026-09-16T22:20:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=3&amp;id_list=2403.10131,2310.01352,2505.00661" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.01352v4</id>
+    <title>RA-DIT: Retrieval-Augmented Dual Instruction Tuning</title>
+    <updated>2024-05-06T07:50:35Z</updated>
+    <link href="https://arxiv.org/abs/2310.01352v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.01352v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-augmented language models (RALMs) improve performance by accessing long-tail and up-to-date knowledge from external data stores, but are challenging to build. Existing approaches require either expensive retrieval-specific modifications to LM pre-training or use post-hoc integration of the data store that leads to suboptimal performance. We introduce Retrieval-Augmented Dual Instruction Tuning (RA-DIT), a lightweight fine-tuning methodology that provides a third option by retrofitting any LLM with retrieval capabilities. Our approach operates in two distinct fine-tuning steps: (1) one updates a pre-trained LM to better use retrieved information, while (2) the other updates the retriever to return more relevant results, as preferred by the LM. By fine-tuning over tasks that require both knowledge utilization and contextual awareness, we demonstrate that each stage yields significant performance improvements, and using both leads to additional gains. Our best model, RA-DIT 65B, achieves state-of-the-art performance across a range of knowledge-intensive zero- and few-shot learning benchmarks, significantly outperforming existing in-context RALM approaches by up to +8.9% in 0-shot setting and +1.4% in 5-shot setting on average.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-02T17:16:26Z</published>
+    <arxiv:comment>v4: ICLR 2024 camera-ready version</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xi Victoria Lin</name>
+    </author>
+    <author>
+      <name>Xilun Chen</name>
+    </author>
+    <author>
+      <name>Mingda Chen</name>
+    </author>
+    <author>
+      <name>Weijia Shi</name>
+    </author>
+    <author>
+      <name>Maria Lomeli</name>
+    </author>
+    <author>
+      <name>Rich James</name>
+    </author>
+    <author>
+      <name>Pedro Rodriguez</name>
+    </author>
+    <author>
+      <name>Jacob Kahn</name>
+    </author>
+    <author>
+      <name>Gergely Szilvasy</name>
+    </author>
+    <author>
+      <name>Mike Lewis</name>
+    </author>
+    <author>
+      <name>Luke Zettlemoyer</name>
+    </author>
+    <author>
+      <name>Scott Yih</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.00661v3</id>
+    <title>On the generalization of language models from in-context learning and finetuning: a controlled study</title>
+    <updated>2025-11-10T19:08:51Z</updated>
+    <link href="https://arxiv.org/abs/2505.00661v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.00661v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models exhibit exciting capabilities, yet can show surprisingly narrow generalization from finetuning. E.g. they can fail to generalize to simple reversals of relations they are trained on, or fail to make simple logical deductions based on trained information. These failures to generalize factual information from fine-tuning can significantly hinder the reasoning capabilities of these models. On the other hand, language models' in-context learning (ICL) shows different inductive biases and deductive reasoning capabilities. Here, we explore these differences in generalization and deductive reasoning between in-context- and fine-tuning-based learning. To do so, we constructed several novel datasets to evaluate and improve models' abilities to make generalizations over factual information from novel data. These datasets are designed to create clean tests of generalization, by isolating the knowledge in the dataset from that in pretraining. We expose pretrained large models to controlled subsets of the information in these datasets -- either through ICL or fine-tuning -- and evaluate their performance on test sets that require various types of generalization. We find overall that in data-matched settings, ICL can generalize several types of inferences more flexibly than fine-tuning (though we also find some qualifications of prior findings, such as cases when fine-tuning can generalize to reversals embedded in a larger structure of knowledge). We build on these findings to propose a method to enable improved generalization from fine-tuning: adding in-context reasoning traces to finetuning data. We show that this method improves generalization across various splits of our datasets and other benchmarks. Our results have implications for understanding the generalization afforded by different modes of learning in language models, and practically improving their performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-01T17:02:27Z</published>
+    <arxiv:comment>FoRLM workshop, NeurIPS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Andrew K. Lampinen</name>
+    </author>
+    <author>
+      <name>Arslan Chaudhry</name>
+    </author>
+    <author>
+      <name>Stephanie C. Y. Chan</name>
+    </author>
+    <author>
+      <name>Cody Wild</name>
+    </author>
+    <author>
+      <name>Diane Wan</name>
+    </author>
+    <author>
+      <name>Alex Ku</name>
+    </author>
+    <author>
+      <name>Jörg Bornschein</name>
+    </author>
+    <author>
+      <name>Razvan Pascanu</name>
+    </author>
+    <author>
+      <name>Murray Shanahan</name>
+    </author>
+    <author>
+      <name>James L. McClelland</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.10131v2</id>
+    <title>RAFT: Adapting Language Model to Domain Specific RAG</title>
+    <updated>2024-06-05T17:27:51Z</updated>
+    <link href="https://arxiv.org/abs/2403.10131v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.10131v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pretraining Large Language Models (LLMs) on large corpora of textual data is now a standard paradigm. When using these LLMs for many downstream applications, it is common to additionally bake in new knowledge (e.g., time-critical news, or private domain knowledge) into the pretrained model either through RAG-based-prompting, or fine-tuning. However, the optimal methodology for the model to gain such new knowledge remains an open question. In this paper, we present Retrieval Augmented FineTuning (RAFT), a training recipe that improves the model's ability to answer questions in a "open-book" in-domain settings. In RAFT, given a question, and a set of retrieved documents, we train the model to ignore those documents that don't help in answering the question, which we call, distractor documents. RAFT accomplishes this by citing verbatim the right sequence from the relevant document that would help answer the question. This coupled with RAFT's chain-of-thought-style response helps improve the model's ability to reason. In domain-specific RAG, RAFT consistently improves the model's performance across PubMed, HotpotQA, and Gorilla datasets, presenting a post-training recipe to improve pre-trained LLMs to in-domain RAG. RAFT's code and demo are open-sourced at github.com/ShishirPatil/gorilla.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-15T09:26:02Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tianjun Zhang</name>
+    </author>
+    <author>
+      <name>Shishir G. Patil</name>
+    </author>
+    <author>
+      <name>Naman Jain</name>
+    </author>
+    <author>
+      <name>Sheng Shen</name>
+    </author>
+    <author>
+      <name>Matei Zaharia</name>
+    </author>
+    <author>
+      <name>Ion Stoica</name>
+    </author>
+    <author>
+      <name>Joseph E. Gonzalez</name>
+    </author>
+  </entry>
+</feed>

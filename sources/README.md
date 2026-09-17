@@ -3,6 +3,14 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [evidence-use selection reading](2026-09-16-evidence-use/README.md) adds
+P54–P59: RAFT, RA-DIT, controlled ICL/finetuning generalization,
+context-parametric inversion, context-faithful prompting and CARE. Positive
+public evidence answers generic learned-reading proposals and narrows the
+[selected comparison](../notes/EVIDENCE_USE.md) to durability through corrections
+and repayment against contextual lessons. Exact versions and API metadata are
+recorded; results are author-reported, not locally reproduced.
+
 The [maintenance-transfer publication review](2026-09-16-maintenance-transfer-review/README.md)
 records first acceptance at `be7a508`, reproduction of the recorded analysis and
 cost audit, and independent rescoring of 5,856 saved responses. It adds no new
