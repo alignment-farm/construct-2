@@ -1,15 +1,17 @@
 **Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/PREVIOUS_RESEARCH.md) and [research perspective](../notes/RESEARCH_PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. The [17 September executable-experience selection](../notes/EXECUTABLE_EXPERIENCE.md) opens a focused allocation comparison alongside the neural-learning emphasis; the [historical preference](../sources/README.md#research-preference-to-date) remains recorded.
 
-**Independent root selection — 17 September:**
-The [executable artifact review](2026-09-17-executable-feasibility.md) is complete.
-AWM's relevant release path is unfinished; SkillWeaver supplies a closer method
-with a reference-only route and consequential access, verification and accounting
-limits. Recommend bounded independent development of acquired implementation
-versus reconstruction from shared experience. No experiment is commissioned.
-[EX1–EX3](../notes/EXECUTABLE_EXPERIENCE.md) remain prospective.
+**Independent commission — 17 September:**
+[Executable experience retention](https://github.com/alignment-farm/executable-experience-retention)
+([local brief](../../ancillary-studies/executable-experience-retention/README.md))
+is prepared and commissioned for bounded investigation. It follows the
+[persistence comparison](../notes/EXECUTABLE_COMPARISON.md) and completed
+[artifact review](2026-09-17-executable-feasibility.md). The investigator owns
+workload development and execution; preparation starts neither a session nor
+model runs. [EX1–EX3](../notes/EXECUTABLE_EXPERIENCE.md) remain prospective.
 
 **Current work — 17 September 2026:** Ten ancillary projects have published
-accepted bounded contributions. The [latest assessment](2026-09-17-evidence-use-findings.md)
+accepted bounded contributions; the eleventh is prepared without findings.
+The [latest assessment](2026-09-17-evidence-use-findings.md)
 accepts evidence-use-under-revision at `da1233fdfb26fe6c5daa337a3dbf9f784f34f9f7`:
 one checkpoint's modest transfer survives two corrections and has a favorable
 measured cost against an uncached lesson. Further acquisition regresses; the
@@ -25,10 +27,10 @@ This map connects the root's questions, ancillary publications and current resea
 
 [repos.txt](repos.txt) is the maintained list of Construct-2 ancillary repositories,
 one `organization/repository` per line, including completed studies. It contains
-all ten studies currently in this program, including the completed placement,
-maintenance-decision and evidence-use studies; the root and other lab projects are
-outside its scope. Contributors need Git, an authenticated GitHub CLI (`gh auth
-login`), and access to these private repositories.
+all eleven studies currently in this program, including the newly prepared
+executable-experience-retention study and the ten completed projects. The root
+and other lab projects are outside its scope. Contributors need Git, an
+authenticated GitHub CLI (`gh auth login`), and access to these private repositories.
 
 From a `construct-2` checkout:
 
@@ -236,10 +238,18 @@ For S1, we should distinguish three outcomes: **the chosen text becomes easier t
 | **P68. [Harness Continual Learning, 2608.19013v1](https://arxiv.org/html/2608.19013v1)** — selected methods/results | Anchor-tested harness revision. | Regression-gated updates already have direct precedent. |
 | **P69. [Agent Workflow Memory, 2409.07429v1](https://arxiv.org/html/2409.07429v1)** — selected methods/results | Contextual versus callable workflows. | Observation access matters; Table 9 and prose conflict. |
 | **P70. [SPELL, 2602.01107v1](https://arxiv.org/html/2602.01107v1)** — selected methods/results | Reusable programmatic migration. | Repair itself can be acquired and amortized. |
+| **P71. [SkillCraft, 2603.00718v2](https://arxiv.org/html/2603.00718v2)** — targeted §§2–4, 5.1, Appendices B/D.2; pinned code | Acquired compositions and a direct-script comparison. | Existing reconstruction precedent; descriptions, feedback and conditional cost denominators require care. |
+| **P72. [CodeMem, 2512.15813v1](https://arxiv.org/html/2512.15813v1)** — §§4–7 | Retained-function architecture with reported executions and model comparisons. | Reconstruction avoidance is an explicit prior proposal; matched retention effects are not isolated. |
+| **P73. [PANDO, 2605.24785v2](https://arxiv.org/html/2605.24785v2)** — §§3–6, limitations and skill dynamics | Online rules/routines, checking, demotion and cost accounting. | Whole-system evidence does not isolate implementation retention; seed capability matters. |
+| **P74. [Skill Blocks, 2608.14943v1](https://arxiv.org/html/2608.14943v1)** — §§1, 3–7, Appendix C | Conditional delivery of retained procedural text. | Contextual alternatives can reduce delivery work; cache sensitivities are not measured billing. |
 
 The subsequent [pinned artifact review](../sources/2026-09-17-executable-artifacts/README.md)
 adds static implementation inspection for P65/P69, distinguishing code availability
 and comparison defaults from reproduced experimental evidence.
+
+The [persistence-control ledger](../sources/2026-09-17-persistence-controls/README.md)
+records P71–P74 and a separate SkillCraft code boundary. It changes the recommended
+comparison without changing any local publication's accepted revision.
 
 The [13 September methods review](../sources/2026-09-13/README.md) records the added reading and the selection rationale for procedure transfer. P17/P18 are additions to the original paper map; this is not a claim of comprehensive or latest-version coverage.
 
@@ -470,6 +480,30 @@ The theoretical update is that **architectural memory capacity and the capacity 
 
 **Reading/implementation needed:** P10's lifecycle and compression details; P7's routing/merging; P16's separate adaptation/evaluation accounting. The existing compute-allocation paper supplies an alternative investment, not a universal cost conversion.
 
+### Executable experience retention
+
+**Status — 17 September 2026:** Prepared and commissioned as an independent
+bounded investigation in
+[executable-experience-retention](https://github.com/alignment-farm/executable-experience-retention)
+([local brief](../../ancillary-studies/executable-experience-retention/README.md)).
+Preparation commit `34a902fedf99a22fff3c9429d49146809af8a86a` is the root's current
+boundary; it contains no findings. No investigator session or model run was
+launched during preparation. Ten earlier projects retain their completed phases.
+
+**Question:** What does retaining acquired implementation add to competent
+reconstruction from shared procedural experience, in complete future behavior
+and actual work? The [comparison](../notes/EXECUTABLE_COMPARISON.md) distinguishes
+execution, preserved information and avoided reconstruction. Existing source
+may be loaded directly; code hidden in logs remains available implementation.
+
+SkillCraft and SkillWeaver are possible method donors, with pinned limits in
+the [reading ledger](../sources/2026-09-17-persistence-controls/README.md).
+The investigator owns workload discovery, development and diagnosis. Equal
+checking, competent contextual alternatives and full-sequence costs support
+the allocation claim. Stable reuse comes first; consequential revision is a
+conditional extension. EX1–EX3 are preserved verbatim in the brief and remain
+untested locally. An explanatory tie or explicit alternative is useful progress.
+
 <a id="what-the-three-completed-investigations-change"></a>
 
 ### What the completed investigations change
@@ -499,15 +533,25 @@ Where experience lives is part of a larger decision about what to change and pre
 
 ## 6. Research selection
 
+**Commissioning decision — 17 September:** Following the user's direction to
+continue, the root prepared and published the private
+[executable-experience-retention repository](https://github.com/alignment-farm/executable-experience-retention).
+Its bounded investigation is commissioned; preparation has not launched an
+investigator or experiments. Workload discovery and operational decisions belong
+to that study. This advances the recommendation below without reopening any
+completed phase or changing the enduring directive.
+
 **Latest independent selection — 17 September:** The
-[completed artifact review](2026-09-17-executable-feasibility.md) recommends bounded
-independent development of acquired implementation versus reconstruction from
-shared experience. It identifies SkillWeaver's existing reference-only route and
-limits in released verification, evidence access and primitive permissions.
-It also separates invocation-versus-regeneration with source available from the
-choice to retain code or contextual lessons. Public artifacts narrow the method
-but do not settle cumulative acquisition/repair value. No new study or experiment
-is commissioned, and no completed phase is reopened.
+[persistence comparison](../notes/EXECUTABLE_COMPARISON.md) retains bounded independent
+development of implementation versus reconstruction from shared experience. New
+primary reading and pinned SkillCraft inspection establish closer overlap than
+the [earlier artifact review](2026-09-17-executable-feasibility.md) captured.
+Separate execution benefits, retained information and avoided reconstruction;
+permit direct loading when source is available. Efficient contextual delivery,
+equal acquired feedback and costs on the full request sequence strengthen the
+comparison. Generic donor search is complete. That preparation itself commissioned
+no experiment; the subsequent decision above hands workload development to the
+independent investigator. No completed phase is reopened.
 
 **Latest publication assessment — 17 September:**
 [Evidence use under revision](2026-09-17-evidence-use-findings.md) is accepted at

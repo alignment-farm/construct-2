@@ -478,3 +478,33 @@ competent reconstruction alternative, then assess complete outcomes and actual
 work. The new evidence-use result strengthens the supplied-versus-acquired
 operation distinction without selecting another adapter round. EX1–EX3 remain
 prospective. No repository or model experiment is commissioned in this selection.
+
+## Persistence comparison sharpened — 17 September
+
+The [additional primary reading and pinned SkillCraft inspection](../sources/2026-09-17-persistence-controls/README.md)
+find closer overlap: ephemeral code execution is already a public comparator,
+online routine maintenance is implemented, and contextual lesson delivery has
+serious efficiency alternatives. These findings narrow the selected contribution;
+they do not supply a matched acquired-experience lifetime result.
+
+The [comparison note](EXECUTABLE_COMPARISON.md) separates execution, preservation
+of procedural information and avoided reconstruction. When source is available,
+ordinary loading or copying is an eligible alternative; forced model rewriting
+would manufacture cost. Equal checking and full-sequence accounting matter to
+the remaining allocation claim. Keep bounded independent development recommended,
+with SkillCraft and SkillWeaver as donors and workload choice owned by its
+investigator. This completes the preparatory comparison, commissions no study,
+and preserves all existing predictions and completed phases.
+
+## Executable-experience commission — 17 September
+
+The user's direction to continue advances the completed preparation into an
+independent commission. The private
+[executable-experience-retention repository](https://github.com/alignment-farm/executable-experience-retention)
+([local brief](../../ancillary-studies/executable-experience-retention/README.md))
+is prepared at `34a902fedf99a22fff3c9429d49146809af8a86a`. The investigator owns
+the bounded workload development, functioning acquisition, competent alternatives
+and evidence needed to resolve the comparison. EX1–EX3 are copied unchanged.
+This is the eleventh ancillary study; the preceding ten contributions remain
+complete. Preparation starts no investigator or model runs. Root theory, public
+discovery and synthesis continue independently of its execution.

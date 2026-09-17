@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/35dif0gGS+w7ZsLPCwojJCpocJw</id>
+  <title>arXiv Query: search_query=ti:SkillCraft OR ti:CodeMem OR ti:PANDO OR ti:"Skill Blocks"&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-09-17T11:45:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:SkillCraft+OR+(ti:CodeMem+OR+(ti:PANDO+OR+ti:%22Skill+Blocks%22))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1803.08426v3</id>
+    <title>Pando: Personal Volunteer Computing in Browsers</title>
+    <updated>2019-09-06T12:31:57Z</updated>
+    <link href="https://arxiv.org/abs/1803.08426v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.08426v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The large penetration and continued growth in ownership of personal electronic devices represents a freely available and largely untapped source of computing power. To leverage those, we present Pando, a new volunteer computing tool based on a declarative concurrent programming model and implemented using JavaScript, WebRTC, and WebSockets. This tool enables a dynamically varying number of failure-prone personal devices contributed by volunteers to parallelize the application of a function on a stream of values, by using the devices' browsers. We show that Pando can provide throughput improvements compared to a single personal device, on a variety of compute-bound applications including animation rendering and image processing. We also show the flexibility of our approach by deploying Pando on personal devices connected over a local network, on Grid5000, a French-wide computing grid in a virtual private network, and seven PlanetLab nodes distributed in a wide area network over Europe.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-22T16:05:10Z</published>
+    <arxiv:comment>14 pages, 12 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Erick Lavoie</name>
+    </author>
+    <author>
+      <name>Laurie Hendren</name>
+    </author>
+    <author>
+      <name>Frederic Desprez</name>
+    </author>
+    <author>
+      <name>Miguel Correia</name>
+    </author>
+    <arxiv:doi>10.1145/3361525.3361539</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3361525.3361539" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.00718v2</id>
+    <title>SkillCraft: Can LLM Agents Learn to Use Tools Skillfully?</title>
+    <updated>2026-03-10T08:57:18Z</updated>
+    <link href="https://arxiv.org/abs/2603.00718v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.00718v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Real-world tool-using agents operate over long-horizon workflows with recurring structure and diverse demands, where effective behavior requires not only invoking atomic tools but also abstracting, and reusing higher-level tool compositions. However, existing benchmarks mainly measure instance-level success under static tool sets, offering limited insight into agents' ability to acquire such reusable skills. We address this gap by introducing SkillCraft, a benchmark explicitly stress-test agent ability to form and reuse higher-level tool compositions, where we call Skills. SkillCraft features realistic, highly compositional tool-use scenarios with difficulty scaled along both quantitative and structural dimensions, designed to elicit skill abstraction and cross-task reuse. We further propose a lightweight evaluation protocol that enables agents to auto-compose atomic tools into executable Skills, cache and reuse them inside and across tasks, thereby improving efficiency while accumulating a persistent library of reusable skills. Evaluating state-of-the-art agents on SkillCraft, we observe substantial efficiency gains, with token usage reduced by up to 80% by skill saving and reuse. Moreover, success rate strongly correlates with tool composition ability at test time, underscoring compositional skill acquisition as a core capability.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-28T15:44:31Z</published>
+    <arxiv:comment>21 pages. Code: https://github.com/shiqichen17/SkillCraft ; Project page: https://skillcraft-website.github.io/page</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shiqi Chen</name>
+    </author>
+    <author>
+      <name>Jingze Gai</name>
+    </author>
+    <author>
+      <name>Ruochen Zhou</name>
+    </author>
+    <author>
+      <name>Jinghan Zhang</name>
+    </author>
+    <author>
+      <name>Tongyao Zhu</name>
+    </author>
+    <author>
+      <name>Junlong Li</name>
+    </author>
+    <author>
+      <name>Kangrui Wang</name>
+    </author>
+    <author>
+      <name>Zihan Wang</name>
+    </author>
+    <author>
+      <name>Zhengyu Chen</name>
+    </author>
+    <author>
+      <name>Klara Kaleb</name>
+    </author>
+    <author>
+      <name>Ning Miao</name>
+    </author>
+    <author>
+      <name>Siyang Gao</name>
+    </author>
+    <author>
+      <name>Cong Lu</name>
+    </author>
+    <author>
+      <name>Manling Li</name>
+    </author>
+    <author>
+      <name>Junxian He</name>
+    </author>
+    <author>
+      <name>Yee Whye Teh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.24785v2</id>
+    <title>PANDO: Efficient Multimodal AI Agents via Online Skill Distillation</title>
+    <updated>2026-05-26T04:25:32Z</updated>
+    <link href="https://arxiv.org/abs/2605.24785v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.24785v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in multimodal web agents often rely on increased inference-time computation, including rollout search, verifier passes, offline skill discovery, and specialist model stacks. This raises a central question: can a web agent become more efficient as it accumulates experience, rather than more expensive? We first analyze trajectories from VisualWebArena and identify three recurring sources of inefficiency: repeat-action loops, hidden discovery costs, and low prompt-cache reuse. We then introduce PANDO, a single-rollout online skill-distillation framework that maintains a structured Skill Library and combines progress reflection, confidence-based skill demotion, hierarchical routing, visual compression, and cache-aware prompting. On the full set of 910 VisualWebArena tasks, PANDO achieves a 58.3% success rate, outperforming SGV (54.0%) and our WALT reproduction (45.2%), while using 58% fewer tokens than SGV and 61% fewer tokens than WALT, without any pre-evaluation discovery budget. A 300-task ablation further shows that rules and routines provide most of the success gains, while routing, compression, and cache-aware prompting convert the larger skill library into lower marginal token cost. Finally, we introduce three trajectory-level efficiency metrics -- Action Repetition Rate, Step Overhead Ratio, and Prompt Cache Utilization -- to make efficiency visible beyond terminal success.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-24T00:07:25Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yubo Li</name>
+    </author>
+    <author>
+      <name>Yidi Miao</name>
+    </author>
+    <author>
+      <name>Yuntian Shen</name>
+    </author>
+    <author>
+      <name>Yuxin Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.15813v1</id>
+    <title>CodeMem: Architecting Reproducible Agents via Dynamic MCP and Procedural Memory</title>
+    <updated>2025-12-17T11:28:25Z</updated>
+    <link href="https://arxiv.org/abs/2512.15813v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.15813v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current tool-using AI agents suffer from limited action space, context inefficiency, and probabilistic instability that makes them unsuitable for handling repetitive tasks which are otherwise reliably and efficiently tackled by agentic workflows built on platforms like n8n and Zapier. Earlier works like CodeAct, DynaSaur, Code Mode have tried to tackle the first two issues by using the whole Python language as its action space: The number of tools that the agent can call becomes infinite. Python code blocks can execute complex actions into a single step and print only relevant results which helps in keeping the context lean. However, the probabilistic instability issue still remains, as for the same task in the same environment, the agent can follow different trajectories due to the probabilistic nature of LLMs. Therefore, we need procedural memory for consistency and reliability. This paper proposes CodeMem, an architecture to implement procedural memory via code which can be used to build and run reusable agentic workflows with deterministic reliability.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-17T11:28:25Z</published>
+    <arxiv:comment>11 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Nishant Gaurav</name>
+    </author>
+    <author>
+      <name>Adit Akarsh</name>
+    </author>
+    <author>
+      <name>Tejas Ravishankar</name>
+    </author>
+    <author>
+      <name>Manoj Bajaj</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.02868v1</id>
+    <title>CodeMEM: AST-Guided Adaptive Memory for Repository-Level Iterative Code Generation</title>
+    <updated>2026-01-06T09:57:19Z</updated>
+    <link href="https://arxiv.org/abs/2601.02868v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.02868v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) substantially enhance developer productivity in repository-level code generation through interactive collaboration. However, as interactions progress, repository context must be continuously preserved and updated to integrate newly validated information. Meanwhile, the expanding session history increases cognitive burden, often leading to forgetting and the reintroduction of previously resolved errors. Existing memory management approaches show promise but remain limited by natural language-centric representations. To overcome these limitations, we propose CodeMEM, an AST-guided dynamic memory management system tailored for repository-level iterative code generation. Specifically, CodeMEM introduces the Code Context Memory component that dynamically maintains and updates repository context through AST-guided LLM operations, along with the Code Session Memory that constructs a code-centric representation of interaction history and explicitly detects and mitigates forgetting through AST-based analysis. Experimental results on the instruction-following benchmark CodeIF-Bench and the code generation benchmark CoderEval demonstrate that CodeMEM achieves state-of-the-art performance, improving instruction following by 12.2% for the current turn and 11.5% for the session level, and reducing interaction rounds by 2-3, while maintaining competitive inference latency and token efficiency.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-06T09:57:19Z</published>
+    <arxiv:comment>preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Peiding Wang</name>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+    <author>
+      <name>Fang Liu</name>
+    </author>
+    <author>
+      <name>Chongyang Tao</name>
+    </author>
+    <author>
+      <name>Yinghao Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.11061v1</id>
+    <title>Pando: Do Interpretability Methods Work When Models Won't Explain Themselves?</title>
+    <updated>2026-04-13T06:42:24Z</updated>
+    <link href="https://arxiv.org/abs/2604.11061v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.11061v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mechanistic interpretability is often motivated for alignment auditing, where a model's verbal explanations can be absent, incomplete, or misleading. Yet many evaluations do not control whether black-box prompting alone can recover the target behavior, so apparent gains from white-box tools may reflect elicitation rather than internal signal; we call this the elicitation confounder. We introduce Pando, a model-organism benchmark that breaks this confound via an explanation axis: models are trained to produce either faithful explanations of the true rule, no explanation, or confident but unfaithful explanations of a disjoint distractor rule.
+  Across 720 finetuned models implementing hidden decision-tree rules, agents predict held-out model decisions from $10$ labeled query-response pairs, optionally augmented with one interpretability tool output. When explanations are faithful, black-box elicitation matches or exceeds all white-box methods; when explanations are absent or misleading, gradient-based attribution improves accuracy by 3-5 percentage points, and relevance patching, RelP, gives the largest gains, while logit lens, sparse autoencoders, and circuit tracing provide no reliable benefit. Variance decomposition suggests gradients track decision computation, which fields causally drive the output, whereas other readouts are dominated by task representation, biases toward field identity and value.
+  We release all models, code, and evaluation infrastructure.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-13T06:42:24Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ziqian Zhong</name>
+    </author>
+    <author>
+      <name>Aashiq Muhamed</name>
+    </author>
+    <author>
+      <name>Mona T. Diab</name>
+    </author>
+    <author>
+      <name>Virginia Smith</name>
+    </author>
+    <author>
+      <name>Aditi Raghunathan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.14943v1</id>
+    <title>Skill Blocks: How Should an Agent Load Its Skill? A Caching-Correct Comparison of Pre-load, On-Demand Tool-Loading, Progressive Disclosure, and Hybrid</title>
+    <updated>2026-08-14T23:48:09Z</updated>
+    <link href="https://arxiv.org/abs/2608.14943v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.14943v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agent skills are often injected in full on every request, increasing token cost. We compare four content-preserving loading methods: Full, Skill Block, Reference, and Hybrid. Across SearchQA, SpreadsheetBench, ALFWorld, ScienceWorld, and SynthProc, we measure token usage using raw input for single-turn tasks and cache-correct effective input for multi-turn tasks. Results show no universal winner. Hybrid reduces input by 27.4% on SearchQA and 39.8% on SpreadsheetBench. On large multi-turn skills, Skill Block and Hybrid achieve substantial reductions, reaching 62.5% and 52.8% on ScienceWorld and 73.0% and 66.6% on SynthProc. ALFWorld shows smaller gains because procedures are short and repeatedly needed. Paired outcome tests detect no quality differences, though they do not establish equivalence. Overall, conditional loading is most beneficial when large portions of a skill are not needed on every turn.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-14T23:48:09Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hironobu Nakasuji</name>
+    </author>
+  </entry>
+</feed>

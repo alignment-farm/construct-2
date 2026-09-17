@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3ASkillCraft+OR+ti%3ACodeMem+OR+ti%3APANDO+OR+ti%3A%22Skill+Blocks%22&start=0&max_results=15&sortBy=relevance&sortOrder=descending",
+    "retrieved_utc": "2026-09-17T11:45:15.085745+00:00",
+    "status": 200,
+    "sha256": "c7d58d50edd15c9be96f7b86142a7f1349e29c82e4a101a4da3028e619c183bd"
+  },
+  {
+    "url": "https://arxiv.org/html/2603.00718v2",
+    "retrieved_utc": "2026-09-17T11:46:47.458454+00:00",
+    "sha256": "679237cf718fe46c53238f638acd85b886a9d91737aa5e0b587868cbc0bf2cd7",
+    "cache": ".cache/persistence-controls/papers/2603.00718v2.html"
+  },
+  {
+    "url": "https://arxiv.org/html/2512.15813v1",
+    "retrieved_utc": "2026-09-17T11:46:47.741413+00:00",
+    "sha256": "d858b59a9c543b5b4d5298b1f928a5ed176b60d956ff6c1ffd244a806ee7686a",
+    "cache": ".cache/persistence-controls/papers/2512.15813v1.html"
+  },
+  {
+    "url": "https://arxiv.org/html/2605.24785v2",
+    "retrieved_utc": "2026-09-17T11:46:48.134516+00:00",
+    "sha256": "b6950694c19ed3d77be1b2e1fb54aac4ca30f3f7880a3204e9ca428268bfb37d",
+    "cache": ".cache/persistence-controls/papers/2605.24785v2.html"
+  },
+  {
+    "url": "https://arxiv.org/html/2608.14943v1",
+    "retrieved_utc": "2026-09-17T11:46:48.414593+00:00",
+    "sha256": "99a8ed2750211f0bd3994b05198ee16f4f0d18131e079ca7c71eebb34696f8e0",
+    "cache": ".cache/persistence-controls/papers/2608.14943v1.html"
+  }
+]

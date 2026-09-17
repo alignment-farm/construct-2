@@ -8,3 +8,4 @@ alignment-farm/experience-selection
 alignment-farm/memory-placement-under-revision
 alignment-farm/maintenance-decision-transfer
 alignment-farm/evidence-use-under-revision
+alignment-farm/executable-experience-retention

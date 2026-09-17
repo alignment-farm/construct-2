@@ -10,8 +10,8 @@ not replace the neural-learning emphasis or the evidence-use question.
 **Select the marginal value of retaining an implementation, compared with
 retaining experience sufficient to regenerate executable behavior.** The next
 step selected at that point was a bounded artifact feasibility review. The
-sections through EX1–EX3 preserve that selection; the final section records the
-completed review and current recommendation.
+sections through EX1–EX3 preserve that selection; the later sections record the
+completed reviews and subsequent commission.
 
 ## What is already answered
 
@@ -167,3 +167,21 @@ The investigator should own workload discovery and the smallest identifying
 comparison. This review does not commission a repository or experiment.
 The evidence-use publication does not reopen its own phase: supplied perfect
 execution motivates the acquisition distinction without answering it.
+
+## Additional public comparison — 17 September
+
+The [persistence-control reading](../sources/2026-09-17-persistence-controls/README.md)
+adds a closer ephemeral-script precedent and a pinned SkillCraft route, alongside
+online maintenance and efficient contextual delivery. The
+[comparison note](EXECUTABLE_COMPARISON.md) sharpens the recommendation: distinguish
+retained information from execution and avoid forced reconstruction when source
+can simply be loaded. Shared acquisition, equal checking and costs on all requests
+define the useful remaining comparison. This is a refinement of EX1–EX3's
+interpretation, not confirmation or rewritten predictions. No new experiment or
+ancillary repository is commissioned.
+
+**Subsequent commissioning decision:** The user's direction to continue led to
+the independent [executable-experience-retention study](https://github.com/alignment-farm/executable-experience-retention).
+The [comparison note](EXECUTABLE_COMPARISON.md#commissioning-after-preparation)
+records its preparation boundary. Bounded investigation is commissioned; workload
+and execution belong to its investigator, and preparation has launched no runs.

@@ -8,13 +8,15 @@ The [source guide](sources/README.md) links the literature review, and the [stud
 
 Contributors can use the [repository list](studies/repos.txt) and [clone instructions](studies/README.md#cloning-the-studies) to retrieve all ancillary studies or select them by name.
 
-**Current root selection — 17 September:** The
-[executable artifact review](studies/2026-09-17-executable-feasibility.md) is complete.
-Public work already substantially answers tool creation and repair. SkillWeaver
-provides a closer starting method for comparing acquired implementation with
-reconstruction from retained experience, but its released defaults do not isolate
-that comparison. A bounded independent investigation is recommended; no new
-experiment or ancillary repository is commissioned.
+**Current commission — 17 September:** The independent
+[executable-experience-retention study](https://github.com/alignment-farm/executable-experience-retention)
+([local brief](../ancillary-studies/executable-experience-retention/README.md)) is
+prepared and commissioned for bounded investigation. It asks what retained
+implementation adds to shared acquired experience under competent reconstruction,
+equal checking and complete cost accounting. The [comparison](notes/EXECUTABLE_COMPARISON.md)
+and completed [artifact review](studies/2026-09-17-executable-feasibility.md) supply
+the rationale and public method donors. Its investigator owns workload development
+and execution. Preparation has launched no investigator session or model run.
 
 The [evidence-use assessment](studies/2026-09-17-evidence-use-findings.md) accepts
 its completed bounded phase. A varied-history adapter improves complete outcomes
@@ -44,9 +46,11 @@ The [third-phase root assessment, 15 September](studies/2026-09-15-maintenance-f
 S5 now includes an [accepted placement comparison](studies/2026-09-16-placement-findings.md) alongside the earlier [acquisition, use and maintenance measurements](studies/2026-09-15-maintenance-findings.md#assessment-of-the-prospective-expectations). None demonstrates learning-cost repayment against competent explicit alternatives at comparable complete quality. The placement study shares visible evidence across methods; earlier references have different supplied structures and privileges. The later evidence-use result adds a favorable measured comparison against an uncached lesson, qualified above. These results do not establish a universal ranking of weights, records and executable rules.
 
 **Current work — 17 September 2026:** Ten ancillary projects have published
-accepted bounded contributions; no ancillary phase is currently commissioned to
-continue. The root has completed the independent executable-experience artifact
-review and selected the bounded acquisition/persistence question described above.
+accepted bounded contributions. An eleventh, executable-experience-retention,
+is prepared and commissioned, with no findings yet. The completed phases remain
+closed; the root continues theory, public research and synthesis independently
+of the new study's execution. Its preparation follows the completed
+[public-method comparison](notes/EXECUTABLE_COMPARISON.md).
 AD1 remains untested locally, AD2 has a bounded maintenance-choice
 assessment, and AD3 has limited prediction-level support with adverse placement
 quality/cost evidence. EU1–EU3 add the evidence-use findings above without

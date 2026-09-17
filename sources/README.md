@@ -3,6 +3,15 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [17 September persistence-control reading](2026-09-17-persistence-controls/README.md)
+adds P71–P74: SkillCraft, CodeMem, PANDO and Skill Blocks. A pinned SkillCraft
+inspection establishes a generated-script route with debugging feedback, retained
+logs and a checking asymmetry. The [comparison note](../notes/EXECUTABLE_COMPARISON.md)
+narrows the selected question to value beyond competent reconstruction from shared
+experience. Paper results remain author-reported; static checks do not reproduce
+them. The [study map](../studies/README.md#executable-experience-retention) records
+the subsequent independent commission.
+
 The [17 September evidence-use publication review](2026-09-17-evidence-use-review/README.md)
 records first acceptance at `da1233f`, independent saved-response scoring and
 cost checks, and a targeted revisit of P57. The
