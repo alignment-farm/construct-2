@@ -4,8 +4,9 @@ Root research selection, 16 September 2026. The original selection below precede
 commissioning. The user subsequently commissioned the independent
 [evidence-use-under-revision study](https://github.com/alignment-farm/evidence-use-under-revision)
 ([local brief](../../ancillary-studies/evidence-use-under-revision/README.md)).
-The user reports it underway with an ancillary agent; the root launched no model run. Completed
-ancillary phases remain complete.
+The [17 September assessment](../studies/2026-09-17-evidence-use-findings.md)
+accepts its publication and completed bounded phase. The original selection and
+predictions below are preserved; their assessment follows at the end.
 
 > When experience improves an agent's use of explicit evidence, does the acquired
 > behavior remain useful across successive authoritative corrections, and does
@@ -127,3 +128,38 @@ failure, or a concrete resource limit. Preserve failed development and use fresh
 assessment material for claims developed through it. The subsequent commission prepares this question for independent ancillary
 exploration. It does not restart S2/S4/S5. Methods and execution remain with the
 new study; the root continues theory, literature and synthesis.
+
+
+## Assessment after publication — 17 September
+
+The [root assessment](../studies/2026-09-17-evidence-use-findings.md) accepts
+`da1233fdfb26fe6c5daa337a3dbf9f784f34f9f7` and closes the bounded phase.
+EU1 receives limited support: varied-history 128 improves initial complete
+responses from 18/32 to 21/32, with a one-case gain on new entities and the
+independently rebound subset. Both base and adapter already produce valid JSON.
+The 256-update varied endpoint regresses to 15/32; it remains part of the result.
+
+EU2 has a functioning durability example: varied 128 stays above base through
+both authoritative corrections. Its stronger relative-history explanation remains
+unresolved because acquisition quality and policy-value exposure differ. The
+adapter loses previously correct unchanged cases; durable aggregate benefit
+is not complete preservation.
+
+EU3 receives a narrow measured-cost example: 65/96 complete uses and 108.58
+seconds including training, versus the stronger lesson's 61/96 and 121.16 seconds
+of use. Neither cached contextual controls, compact-output controls nor an
+independent winning-checkpoint selection rule was tested. Construction and repair
+are unpriced, and the supplied executable completes 96/96 cheaply. Thus this
+qualifies the earlier absence-of-repayment summary without establishing reliable
+full-cost superiority. These are 32 cases reused across three versions and one
+fresh acquisition seed, not 96 independent examples.
+
+The phase closes on limited transfer, durability and explanatory boundaries,
+not a resource failure or a universal negative result. Further learning diagnosis
+is not selected automatically. Continue the independently selected
+[executable-experience review](EXECUTABLE_EXPERIENCE.md), where acquisition of
+supplied operations is a distinct remaining question. AD1–AD3 are unchanged.
+
+That [artifact review](../studies/2026-09-17-executable-feasibility.md) subsequently
+completed and recommends bounded independent acquisition/persistence research.
+No additional study has been commissioned.

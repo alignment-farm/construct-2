@@ -1,26 +1,32 @@
-**Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/PREVIOUS_RESEARCH.md) and [research perspective](../notes/RESEARCH_PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. Executable skill libraries remain background; see the [research preference](../sources/README.md#research-preference-to-date).
+**Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/PREVIOUS_RESEARCH.md) and [research perspective](../notes/RESEARCH_PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. The [17 September executable-experience selection](../notes/EXECUTABLE_EXPERIENCE.md) opens a focused allocation comparison alongside the neural-learning emphasis; the [historical preference](../sources/README.md#research-preference-to-date) remains recorded.
 
-**Current work — 16 September 2026:** Nine ancillary projects have published bounded contributions. The [maintenance-decision transfer assessment](2026-09-16-maintenance-transfer-findings.md) accepts the completed phase: match-history reaches the two-support aggregate bound at 524/768, but every endpoint remains incomplete. Constant fitted observation controls limit inference about information value; a retained-example table completes 192/192. AD2 now has a bounded local assessment. Prior phases remain complete. The independent evidence-use study below is now commissioned; it renews none of those phases. The fixed directive and original AD1–AD3 predictions are preserved.
+**Independent root selection — 17 September:**
+The [executable artifact review](2026-09-17-executable-feasibility.md) is complete.
+AWM's relevant release path is unfinished; SkillWeaver supplies a closer method
+with a reference-only route and consequential access, verification and accounting
+limits. Recommend bounded independent development of acquired implementation
+versus reconstruction from shared experience. No experiment is commissioned.
+[EX1–EX3](../notes/EXECUTABLE_EXPERIENCE.md) remain prospective.
 
-**Latest root selection:** [Reusable evidence use under revision](../notes/EVIDENCE_USE.md)
-is the commissioned independent question: durable benefit and cumulative cost
-against contextual lessons through successive authoritative corrections.
-[New primary reading](../sources/2026-09-16-evidence-use/README.md) adds P54–P59
-and substantially answers the generic learned-reading proposal. The
-[evidence-use-under-revision repository](https://github.com/alignment-farm/evidence-use-under-revision)
-([local brief](../../ancillary-studies/evidence-use-under-revision/README.md))
-is underway with an ancillary agent, as reported by the user. The root continues
-independent theory, literature and synthesis.
+**Current work — 17 September 2026:** Ten ancillary projects have published
+accepted bounded contributions. The [latest assessment](2026-09-17-evidence-use-findings.md)
+accepts evidence-use-under-revision at `da1233fdfb26fe6c5daa337a3dbf9f784f34f9f7`:
+one checkpoint's modest transfer survives two corrections and has a favorable
+measured cost against an uncached lesson. Further acquisition regresses; the
+supplied executable is complete. EU1–EU3 are assessed in the
+[selection note](../notes/EVIDENCE_USE.md#assessment-after-publication--17-september).
+No continuation is commissioned. The independent executable-experience review
+is complete; the fixed directive and AD1–AD3 remain intact.
 
 
-This map connects the root's questions, ancillary publications and current research directions. Nine projects have published bounded contributions. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
+This map connects the root's questions, ancillary publications and current research directions. Ten projects have published bounded contributions. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
 
 ## Cloning the studies
 
 [repos.txt](repos.txt) is the maintained list of Construct-2 ancillary repositories,
 one `organization/repository` per line, including completed studies. It contains
-all nine studies currently in this program, including the completed placement
-study and the completed maintenance-decision study; the root and other lab projects are
+all ten studies currently in this program, including the completed placement,
+maintenance-decision and evidence-use studies; the root and other lab projects are
 outside its scope. Contributors need Git, an authenticated GitHub CLI (`gh auth
 login`), and access to these private repositories.
 
@@ -219,6 +225,21 @@ For S1, we should distinguish three outcomes: **the chosen text becomes easier t
 | **P57. [Context-Parametric Inversion, 2410.10796v3](https://arxiv.org/html/2410.10796v3)** — §§3–5 | Context reliance can decline during successful training. | Training inputs containing evidence need not require using it. |
 | **P58. [Context-faithful Prompting, 2303.11315v2](https://arxiv.org/html/2303.11315v2)** — §§3–4 | Instructions and counterfactual demonstrations. | Serious contextual alternative; authority is assumed. |
 | **P59. [CARE, 2509.13683v1](https://arxiv.org/html/2509.13683v1)** — §§3–5 | Learned evidence-integrated reasoning, including counterfactual QA. | Generic learning possibility substantially answered; lifetime comparison remains selected. |
+| **P60. [Voyager, 2305.16291v2](https://arxiv.org/html/2305.16291v2)** — selected methods/results | Executable experience and new-world reuse. | Possibility answered; persistence and contextual code access coexist. |
+| **P61. [LATM, 2305.17126v2](https://arxiv.org/html/2305.17126v2)** — selected methods/results | Tool synthesis, verification and amortization. | Compare against competent regeneration with execution. |
+| **P62. [LILO, 2310.19791v4](https://arxiv.org/html/2310.19791v4)** — selected methods/results | Acquired abstractions and documentation. | Code and contextual descriptions can be complementary. |
+| **P63. [TroVE, 2401.12869v1](https://arxiv.org/html/2401.12869v1)** — selected methods/results | Online toolbox induction and pruning. | Read performance claims alongside P64. |
+| **P64. [TroVE re-evaluation, 2507.22069v2](https://arxiv.org/html/2507.22069v2)** — selected methods/results | Compute-matched reproduction. | Much of the MATH gain is explained by generation budget. |
+| **P65. [SkillWeaver, 2504.07079v1](https://arxiv.org/html/2504.07079v1)** — selected methods/results | Interaction-derived APIs and honing. | Outcome checking remains necessary for executable memory. |
+| **P66. [PolySkill, 2510.15863v2](https://arxiv.org/html/2510.15863v2)** — selected methods/results | Abstract interfaces and site implementations. | Portable modular code is an established alternative. |
+| **P67. [LLM Agents Making Agent Tools, 2502.11705v2](https://arxiv.org/html/2502.11705v2)** — selected methods/results | Repository integration and self-correction. | Acquisition cost and imported capability must be disclosed. |
+| **P68. [Harness Continual Learning, 2608.19013v1](https://arxiv.org/html/2608.19013v1)** — selected methods/results | Anchor-tested harness revision. | Regression-gated updates already have direct precedent. |
+| **P69. [Agent Workflow Memory, 2409.07429v1](https://arxiv.org/html/2409.07429v1)** — selected methods/results | Contextual versus callable workflows. | Observation access matters; Table 9 and prose conflict. |
+| **P70. [SPELL, 2602.01107v1](https://arxiv.org/html/2602.01107v1)** — selected methods/results | Reusable programmatic migration. | Repair itself can be acquired and amortized. |
+
+The subsequent [pinned artifact review](../sources/2026-09-17-executable-artifacts/README.md)
+adds static implementation inspection for P65/P69, distinguishing code availability
+and comparison defaults from reproduced experimental evidence.
 
 The [13 September methods review](../sources/2026-09-13/README.md) records the added reading and the selection rationale for procedure transfer. P17/P18 are additions to the original paper map; this is not a claim of comprehensive or latest-version coverage.
 
@@ -234,7 +255,7 @@ The subsequent [preparation review](../sources/2026-09-16-study-preparation/READ
 
 Additional existing background: [Reflexion v4](https://arxiv.org/html/2303.11366v4) §§3–4 explains bounded reflection buffers and repeated trials; [TT-SI v1](https://arxiv.org/html/2510.07841v1) Algorithm 1 restores the original parameters after instance-specific adaptation. [DeepSeek-R1 v2](https://arxiv.org/html/2501.12948v2), including Appendix F, provides training/distillation background. [Composer's developer report](https://cursor.com/blog/self-summarization) describes training summaries within rewarded trajectories. These establish useful mechanisms, with different evidence and reset boundaries.
 
-The original SWE-agent, Voyager, compute-allocation, small-model, production, AgentDojo, and methods references remain background in [Perspectives](../notes/RESEARCH_PERSPECTIVES.md). They received abstract/source-summary review in the earlier pass; they are not newly audited in full here. Executable skills are not a proposed study priority.
+The original SWE-agent, compute-allocation, small-model, production, AgentDojo and methods references remain background in [Perspectives](../notes/RESEARCH_PERSPECTIVES.md), with earlier abstract/source-summary review. Voyager now has selected method reading as P60. The [17 September review](../sources/2026-09-17-executable-experience/README.md) motivates a bounded executable-experience artifact review, not a newly commissioned study.
 
 ## 4. What Construct and Formation already answered
 
@@ -465,32 +486,53 @@ The investigations examine different mechanisms and tasks. Together they sharpen
 | Procedure retention and revision (S2) | Controlled crossings identify an interaction between inherited state and current support; the predicted direction holds in fresh acquisitions, and one support preference reverses between histories. | Current evidence has training value relative to the state receiving it. Present competence and correct rehearsal do not determine maintainability. |
 | Memory under goal shift (S4) | Later compositions expose query-relative omissions and avoidable reader error; broad retention and explicit records support all tested queries. | A representation can lose raw details yet remain sufficient for a particular later use; supplied read operations are part of the capability. |
 | Maintenance-decision transfer | Match-history reaches the two-support aggregate bound on fresh acquisitions, while all endpoints remain incomplete and explicit examples solve the task. | A transferable chooser cannot compensate for inadequate actions; aggregate ties can hide consequential obligation failures. |
+| Evidence use under revision | One checkpoint improves complete evidence use through corrections; longer acquisition reverses the benefit. Its measured training/use time beats an uncached lesson, with substantial limits. | Learned behavior can outlive changed values; acquisition duration, contextual efficiency and checkpoint selection remain part of allocation cost. Supplied execution is a different acquisition claim. |
 | Memory placement under revision (S5) | Learned relevance-score prediction survives some content edits without improving complete quality over direct account-aware access; context selection also affects answer completion within budget. | Persistent structure can be learnable without being worth learning for the task and its available alternatives. |
 
 This is a synthesis of distinct local findings, not evidence that the adapter's transfer deficit and the deeper memory's partial retrieval share a cause. The experiments also concern different persistence boundaries: training a fast-memory system to learn within sequences does not demonstrate accumulation of experience across agent sessions. S3's successful synthetic recalls supply no placement or acquisition-cost comparison against accessible explicit evidence.
 
 The [first concurrent round](2026-09-14-concurrent-findings.md), [follow-ups](2026-09-15-followup-findings.md) and [third phases](2026-09-15-maintenance-findings.md) provide functioning acquisition, complete procedural maintenance and later compositional use. The [fourth S2 phase](2026-09-15-state-support-findings.md) identifies an interaction underlying some maintenance divergence. The [placement study](2026-09-16-placement-findings.md) adds a bounded case of useful statistical prediction without competitive deployment value. These are substantive results after purposeful diagnosis. No generally superior memory format or common internal failure cause follows. The procedural tasks still share a model family and remove identifier copying, while S4 uses familiar independent records and supplied operations.
 
-Where experience lives is part of a larger decision about what to change and preserve. The relevant system includes learned behavior, supporting evidence, update decisions and the read or execution procedure. S5 now has measurements, but no demonstrated useful-cost crossover. The root's working question remains conditional: **which mechanisms produce useful, transferable and maintainable behavior on a specified workload, and when is maintaining that behavior preferable to retaining and reasoning over explicit evidence?**
+Where experience lives is part of a larger decision about what to change and preserve. The relevant system includes learned behavior, supporting evidence, update decisions and the read or execution procedure. S5 has no demonstrated useful-cost crossover; the later [evidence-use comparison](2026-09-17-evidence-use-findings.md) adds a favorable measured candidate result against an uncached lesson, without full-cost repayment over supplied execution. The root's working question remains conditional: **which mechanisms produce useful, transferable and maintainable behavior on a specified workload, and when is maintaining that behavior preferable to retaining and reasoning over explicit evidence?**
 
 <a id="6-suggested-order-for-discussion"></a>
 
 ## 6. Research selection
 
-**Latest selection after all nine publications — 16 September:**
+**Latest independent selection — 17 September:** The
+[completed artifact review](2026-09-17-executable-feasibility.md) recommends bounded
+independent development of acquired implementation versus reconstruction from
+shared experience. It identifies SkillWeaver's existing reference-only route and
+limits in released verification, evidence access and primitive permissions.
+It also separates invocation-versus-regeneration with source available from the
+choice to retain code or contextual lessons. Public artifacts narrow the method
+but do not settle cumulative acquisition/repair value. No new study or experiment
+is commissioned, and no completed phase is reopened.
+
+**Latest publication assessment — 17 September:**
+[Evidence use under revision](2026-09-17-evidence-use-findings.md) is accepted at
+`da1233fdfb26fe6c5daa337a3dbf9f784f34f9f7`. Varied 128 scores 65/96 through
+corrections versus the stronger lesson's 61/96; measured training plus use is
+108.58 seconds versus 121.16 seconds. Later acquisition regresses to 45/96.
+Limited transfer and durability support EU1 and part of EU2; EU2's history
+mechanism remains unresolved. EU3 has a narrow measured candidate example, with
+cache, output-length, checkpoint-selection and construction/repair limits.
+Supplied execution completes 96/96. The phase is complete; no follow-up is
+commissioned.
+
+**Historical selection after nine publications — 16 September:**
 [Reusable evidence use under revision](../notes/EVIDENCE_USE.md) compares the
 useful lifetime of learned behavior with retained contextual lessons while
 current evidence receives successive authoritative corrections. The note audits
 what local explicit alternatives receive, assesses six public precedents,
 compares candidates and records new EU1–EU3 expectations. The user subsequently commissioned a bounded independent investigation in
 [evidence-use-under-revision](https://github.com/alignment-farm/evidence-use-under-revision).
-Preparation is published and the user reports the study underway; execution
-belongs to the ancillary session. S2/S4/S5
-remain complete.
+Its [17 September publication assessment](2026-09-17-evidence-use-findings.md)
+now accepts the bounded phase. S2/S4/S5 remain complete.
 The [reading ledger](../sources/2026-09-16-evidence-use/README.md) distinguishes
 inspected methods, author results and uninspected leads. AD1–AD3 are preserved.
 
-**Latest publication assessment — 16 September:**
+**Preceding publication assessment — 16 September:**
 [Maintenance-decision transfer](2026-09-16-maintenance-transfer-findings.md) is
 accepted and its bounded phase complete at `be7a508bfea002baceec72f32f7f9d6f73f7861a`.
 Known history selects the best aggregate support on two fresh acquisitions, but
@@ -561,7 +603,7 @@ The complete-task milestone has been met within small controlled workloads. Both
 
 The root develops theory and predictions while each ancillary investigator owns methods, workload development, diagnosis, resources and publication. Independent questions can proceed concurrently; an acquisition or implementation problem in one does not block another. Prospective expectations remain identifiable even when contradicted. The [M1–M3 assessment](2026-09-15-maintenance-findings.md#assessment-of-the-prospective-expectations) records mixed or adverse evidence for the procedural hypotheses and bounded support for the future-use account. The [procedural update](../notes/PROCEDURAL_LEARNING.md#assessment-after-complete-procedural-maintenance) distinguishes a new complete-preservation example from confirmation of R4's stronger original claim.
 
-**S5 remains an open research question; its placement phase is complete.** The completed local comparisons do not demonstrate repayment of learning cost against competent explicit alternatives at comparable complete quality. Further placement claims need consequential evidence-access or maintenance costs, competent explicit controls, and disclosed privileges. Retain acquisition, prediction, rehearsal, verification, reading, repair and inference in their native units; separate executing a selected method from the full experimental search. Neither a separate consolidation repository nor a neural advantage is required. S3's bounded contribution remains complete.
+**S5 remains an open research question; its placement phase is complete.** Its completed comparisons do not demonstrate repayment against competent explicit alternatives at comparable complete quality. The later evidence-use phase has a narrow favorable measured cost against an uncached contextual lesson; full-cost advantage over supplied execution remains absent. Further placement claims need consequential evidence-access or maintenance costs, competent explicit controls, and disclosed privileges. Retain acquisition, prediction, rehearsal, verification, reading, repair and inference in their native units; separate executing a selected method from the full experimental search. Neither a separate consolidation repository nor a neural advantage is required. S3's bounded contribution remains complete.
 
 Shared-machine coordination remains local: independent reading and analysis can proceed while investigators avoid conflicting heavyweight jobs. The [resource notes](../AGENTS.md#model-resources) identify the preferred serving machine; serving alone is not gradient access. S1/S2 used the demonstrated native MLX route, while S4 reused trained donors for CPU analysis. Those routes do not establish feasibility or budgets for every future mechanism.
 

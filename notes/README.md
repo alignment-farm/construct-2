@@ -20,5 +20,8 @@ explains current research selection within that directive.
 - [LEARNING_MAINTENANCE.md](LEARNING_MAINTENANCE.md) — Preserved third-phase commissions and prospective expectations, followed by their assessment and the next research questions.
 - [MAINTENANCE_RELIABILITY.md](MAINTENANCE_RELIABILITY.md) — Maintenance question, preserved prospective MR1–MR3 expectations, completed S2 assessment and later public-research update.
 - [MAINTENANCE_DECISIONS.md](MAINTENANCE_DECISIONS.md) — Independent comparison of forecast transfer across learner histories, paid observations and the value of maintenance actions; no new S2 phase.
+- [EVIDENCE_USE.md](EVIDENCE_USE.md) — Original EU1–EU3 expectations and their assessment after the completed evidence-use phase.
+- [Evidence-use assessment, 17 September](../studies/2026-09-17-evidence-use-findings.md) — Limited transfer and correction durability, a favorable measured candidate cost and the later-acquisition reversal.
+- [EXECUTABLE_EXPERIENCE.md](EXECUTABLE_EXPERIENCE.md) — Allocation theory and selection of retained implementation versus regeneration from procedural experience.
 - [ANCILLARY_STUDY.md](ANCILLARY_STUDY.md) — Proposed organization for independent ancillary studies and how their publications inform the shared research program.
 - [Cold-read diagnostic, 13 September 2026](cold-read/2026-09-13/README.md) — One fresh Codex session's assessment of the project, with its prompt, response, and limits. This is a documentation check; exclude prior diagnostic responses from future independent cold-read probes.

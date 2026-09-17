@@ -199,3 +199,23 @@ authority. The result narrows selector investment without resolving general
 maintenance or choosing a universal substrate. AD1 remains untested locally;
 AD3's assessment and the original wording of all three predictions are preserved.
 No further experiment is commissioned.
+
+
+## Assessment after evidence-use-under-revision
+
+The [17 September assessment](../studies/2026-09-17-evidence-use-findings.md)
+adds limited positive evidence for reusable behavior over changing explicit
+values. Varied-history 128 remains above base through two corrections and has
+lower measured training-plus-use time than a stronger uncached contextual lesson
+at higher aggregate complete accuracy. Further training reverses the benefit;
+paired losses, missing cache controls and assessment-based checkpoint selection
+qualify deployment value. A supplied interpreter completes the task cheaply.
+
+This distinguishes the useful lifetime of an acquired behavior from both document
+revision frequency and further acquisition. Keeping authoritative values explicit
+can avoid weight repair for these changes; it does not ensure the inherited
+reader remains reliable. The mixed-substrate hypothesis is sharpened, not newly
+established. EU1–EU3 have their own bounded assessment. This study does not test
+AD1's remedy choice, AD2's observation value or AD3's learned access policy, so
+those original predictions and assessments remain unchanged. No continuation is
+commissioned; independent executable-experience work continues.

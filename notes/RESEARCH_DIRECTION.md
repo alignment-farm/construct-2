@@ -418,3 +418,63 @@ public discovery and synthesis while it runs.
 **Execution update — 16 September:** The user reports the study underway with an
 ancillary agent. This records user-reported execution status, not an inspection
 of unpublished evidence. Methods and operational ownership remain with the study.
+
+
+## Executable experience selection — 17 September
+
+While the evidence-use study runs, the user authorized another allocation review.
+The [executable-experience synthesis](EXECUTABLE_EXPERIENCE.md) and
+[primary reading ledger](../sources/2026-09-17-executable-experience/README.md)
+complete this selection round. Public work substantially answers generic tool
+acquisition, abstraction, portability and repair; its evidence also identifies
+compute confounds and a distinction between contextual guidance and invocation.
+
+Select a bounded artifact review of whether retained implementation adds useful
+value over regeneration from retained procedural experience under comparable
+execution, observations and compute. This is a question about where experience
+lives, not a proposal to rediscover automated programming or require a library
+win. Modular repair and competent contextual reconstruction remain alternatives.
+EX1–EX3 are prospective conjectures; AD1–AD3 and EU1–EU3 are unchanged.
+
+The next deliverable should assess exact public artifacts for an identifying
+comparison and may resolve the candidate without new runs. No experiment or
+additional ancillary repository is commissioned. The active study retains methods
+and execution ownership, and its unpublished evidence was not consulted.
+
+
+## Assessment after evidence-use publication — 17 September
+
+The [root assessment](../studies/2026-09-17-evidence-use-findings.md) accepts the
+tenth bounded ancillary contribution. One prespecified checkpoint transfers
+modestly and retains an advantage through two corrections. Its measured
+training-plus-use time repays against an uncached contextual lesson over the
+observed sequence, while a later checkpoint regresses. This is a narrower claim
+than reliable full-cost repayment: a winning-checkpoint selection rule, cached
+and compact contextual controls, construction and repair remain untested. The
+supplied executable solves the finite task completely.
+
+This qualifies the earlier program-wide absence-of-repayment summary and closes
+the phase on explanatory progress. It does not select another training round.
+Continue the already-selected executable artifact review: whether an acquired
+implementation saves reconstruction beyond what retained procedural experience
+can supply, with both alternatives able to execute, observe and repair. The
+perfect supplied interpreter makes the acquisition distinction salient but does
+not itself establish an acquired-code advantage. Preserve EU1–EU3 and AD1–AD3.
+
+
+## Executable artifact review completed — 17 September
+
+The [feasibility assessment](../studies/2026-09-17-executable-feasibility.md)
+closes the selected review. AWM's release does not implement its relevant action
+branch. SkillWeaver supplies a closer code-generating and reference-only method,
+but bundled verification metadata, reference serialization, primitive permissions
+and full acquisition/cost traces limit an off-the-shelf comparison.
+
+This redirects the next investment toward a bounded independent investigation
+using public methods as donors, with workload discovery owned by its investigator.
+Separate avoiding reconstruction with source retained from choosing between code
+and lessons as the retained object. Establish functioning acquisition and a
+competent reconstruction alternative, then assess complete outcomes and actual
+work. The new evidence-use result strengthens the supplied-versus-acquired
+operation distinction without selecting another adapter round. EX1–EX3 remain
+prospective. No repository or model experiment is commissioned in this selection.

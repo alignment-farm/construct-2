@@ -1,0 +1,1129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jpflevaUbS6XPtl/XIPsVMjhX4c</id>
+  <title>arXiv Query: search_query=ti:SkillWeaver OR ti:"Large Language Models as Tool Makers" OR ti:LILO OR ti:CRAFT OR ti:Voyager&amp;id_list=&amp;start=0&amp;max_results=35</title>
+  <updated>2026-09-17T05:41:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:SkillWeaver+OR+(ti:%22Large+Language+Models+as+Tool+Makers%22+OR+(ti:LILO+OR+(ti:CRAFT+OR+ti:Voyager)))&amp;start=0&amp;max_results=35&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>35</opensearch:itemsPerPage>
+  <opensearch:totalResults>512</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.17126v2</id>
+    <title>Large Language Models as Tool Makers</title>
+    <updated>2024-03-11T01:15:09Z</updated>
+    <link href="https://arxiv.org/abs/2305.17126v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.17126v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research has highlighted the potential of large language models (LLMs) to improve their problem-solving capabilities with the aid of suitable external tools. In our work, we further advance this concept by introducing a closed-loop framework, referred to as LLMs A s Tool Makers (LATM), where LLMs create their own reusable tools for problem-solving. Our approach consists of two phases: 1) tool making: an LLM acts as the tool maker that crafts tools for a set of tasks. 2) tool using: another LLM acts as the tool user, which applies the tool built by the tool maker for problem-solving. On the problem-solving server side, tool-making enables continual tool generation and caching as new requests emerge. This framework enables subsequent requests to access cached tools via their corresponding APIs, enhancing the efficiency of task resolution. Recognizing that tool-making requires more sophisticated capabilities, we assign this task to a powerful, albeit resource-intensive, model. Conversely, the simpler tool-using phase is delegated to a lightweight model. This strategic division of labor allows the once-off cost of tool-making to be spread over multiple instances of tool-using, significantly reducing average costs while maintaining strong performance. Furthermore, our method offers a functional cache through the caching and reuse of tools, which stores the functionality of a class of requests instead of the natural language responses from LLMs, thus extending the applicability of the conventional cache mechanism. We evaluate our approach across various complex reasoning tasks, including Big-Bench tasks. With GPT-4 as the tool maker and GPT-3.5 as the tool user, LATM demonstrates performance equivalent to using GPT-4 for both roles, but with a significantly reduced inference cost.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-26T17:50:11Z</published>
+    <arxiv:comment>Code available at https://github.com/ctlllll/LLM-ToolMaker</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tianle Cai</name>
+    </author>
+    <author>
+      <name>Xuezhi Wang</name>
+    </author>
+    <author>
+      <name>Tengyu Ma</name>
+    </author>
+    <author>
+      <name>Xinyun Chen</name>
+    </author>
+    <author>
+      <name>Denny Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.17671v2</id>
+    <title>LILO: Bayesian Optimization with Natural Language Feedback</title>
+    <updated>2026-05-10T13:10:40Z</updated>
+    <link href="https://arxiv.org/abs/2510.17671v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.17671v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many real-world optimization problems are guided by complex, subjective preferences that are difficult to express as explicit closed-form objectives. In response, we introduce Language-in-the-Loop Optimization (LILO), a Bayesian optimization (BO) framework that employs a large language model (LLM) to translate free-form natural language feedback and prior knowledge from a decision maker into structured preference signals, going beyond the restrictive scalar or pairwise feedback formats typically assumed in preferential BO. The LLM-derived preferences are integrated by a Gaussian process proxy model, enabling principled acquisition-driven exploration with calibrated uncertainty. By placing the LLM in a supporting role rather than as the optimizer itself, LILO preserves the sample efficiency and stability of BO while providing a flexible and expressive feedback interface. Across synthetic and real-world benchmarks, LILO consistently outperforms both conventional preference-based BO methods and LLM-only optimizers, with particularly strong gains in feedback-limited regimes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-20T15:41:56Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Proceedings of the 43rd International Conference on Machine Learning, Seoul, South Korea. PMLR 306, 2026</arxiv:journal_ref>
+    <author>
+      <name>Katarzyna Kobalczyk</name>
+    </author>
+    <author>
+      <name>Zhiyuan Jerry Lin</name>
+    </author>
+    <author>
+      <name>Benjamin Letham</name>
+    </author>
+    <author>
+      <name>Zhuokai Zhao</name>
+    </author>
+    <author>
+      <name>Maximilian Balandat</name>
+    </author>
+    <author>
+      <name>Eytan Bakshy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.00471v1</id>
+    <title>Analysis of Voyager 1 and Voyager 2 in situ CME observations</title>
+    <updated>2022-07-01T14:51:00Z</updated>
+    <link href="https://arxiv.org/abs/2207.00471v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.00471v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies ICMEs detected by both Voyager spacecraft during propagation from 1 to 10 AU, with observations from 1977 to 1980. ICMEs are detected by using several signatures in the in-situ data, the primary one being the low measured to expected proton temperature ratio. We found 21 events common to both spacecraft and study their internal structure in terms of plasma and magnetic field properties. We find that ICMEs are expanding as they propagate outwards, with decreasing density and magnetic field intensities, in agreement with previous studies. We first carry out a statistical study and then a detailed analysis of each case. Furthermore, we analyse one case in which a shock can be clearly detected by both spacecraft. The methods described here can be interesting for other studies combining data sets from heliospheric missions. Furthermore, they highlight the importance of exploiting useful data from past missions.</summary>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-01T14:51:00Z</published>
+    <arxiv:comment>38 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.space-ph"/>
+    <author>
+      <name>Skralan Hosteaux</name>
+    </author>
+    <author>
+      <name>Luciano Rodiguez</name>
+    </author>
+    <author>
+      <name>Stefaan Poedts</name>
+    </author>
+    <arxiv:doi>10.1016/j.asr.2022.03.005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.asr.2022.03.005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.00676v1</id>
+    <title>Heliosheath Properties Measured from a Voyager 2 to Voyager 1 Transient</title>
+    <updated>2019-10-01T21:24:06Z</updated>
+    <link href="https://arxiv.org/abs/1910.00676v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.00676v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In mid-2012, a GMIR observed by Voyager 2 crossed through the heliosheath and collided with the heliopause, generating a pressure pulse that propagated into the very local interstellar medium. The effects of the transmitted wave were seen by Voyager 1 just 93 days after its own heliopause crossing. The passage of the transient was accompanied by long-lasting decreases in galactic cosmic ray intensities that occurred from ~2012.55 to ~2013.35 and ~2012.91 to ~2013.70 at Voyager 2 and Voyager 1, respectively. Omnidirectional (&gt;20 MeV) proton-dominated measurements from each spacecraft's Cosmic Ray Subsystem reveal a remarkable similarity between these causally-related events, with a correlation coefficient of 91.2% and a time-lag of 130 days. Knowing the locations of the two spacecraft, we use the observed time-delay to calculate the GMIR's average speed through the heliosheath (inside the heliopause) as a function of temperature in the very local interstellar medium. This, combined with particle, field, and plasma observations enables us to infer previously unmeasured properties of the heliosheath, including a range of sound speeds and total effective pressures. For a nominal temperature of ~20,000 K just outside the heliopause, we find a sound speed of 314 (+/-) 32 km/s and total effective pressure of 267 (+/-) 55 fPa inside the heliopause. We compare these results with the Interstellar Boundary Explorer's data-driven models of heliosheath pressures derived from energetic neutral atom fluxes (the globally distributed flux) and present them as additional evidence that the heliosheath's dynamics are driven by suprathermal energetic processes.</summary>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-01T21:24:06Z</published>
+    <arxiv:primary_category term="physics.space-ph"/>
+    <arxiv:journal_ref>The Astrophysical Journal, 883:101, 2019</arxiv:journal_ref>
+    <author>
+      <name>Jamie S. Rankin</name>
+    </author>
+    <author>
+      <name>David J. McComas</name>
+    </author>
+    <author>
+      <name>John D. Richardson</name>
+    </author>
+    <author>
+      <name>Nathan A. Schwadron</name>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/ab3d9d</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/ab3d9d" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.19791v4</id>
+    <title>LILO: Learning Interpretable Libraries by Compressing and Documenting Code</title>
+    <updated>2024-03-15T16:55:47Z</updated>
+    <link href="https://arxiv.org/abs/2310.19791v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.19791v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While large language models (LLMs) now excel at code generation, a key aspect of software development is the art of refactoring: consolidating code into libraries of reusable and readable programs. In this paper, we introduce LILO, a neurosymbolic framework that iteratively synthesizes, compresses, and documents code to build libraries tailored to particular problem domains. LILO combines LLM-guided program synthesis with recent algorithmic advances in automated refactoring from Stitch: a symbolic compression system that efficiently identifies optimal lambda abstractions across large code corpora. To make these abstractions interpretable, we introduce an auto-documentation (AutoDoc) procedure that infers natural language names and docstrings based on contextual examples of usage. In addition to improving human readability, we find that AutoDoc boosts performance by helping LILO's synthesizer to interpret and deploy learned abstractions. We evaluate LILO on three inductive program synthesis benchmarks for string editing, scene reasoning, and graphics composition. Compared to existing neural and symbolic methods - including the state-of-the-art library learning algorithm DreamCoder - LILO solves more complex tasks and learns richer libraries that are grounded in linguistic knowledge.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-30T17:55:02Z</published>
+    <arxiv:comment>ICLR 2024 camera-ready</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Gabriel Grand</name>
+    </author>
+    <author>
+      <name>Lionel Wong</name>
+    </author>
+    <author>
+      <name>Maddy Bowers</name>
+    </author>
+    <author>
+      <name>Theo X. Olausson</name>
+    </author>
+    <author>
+      <name>Muxin Liu</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+    <author>
+      <name>Jacob Andreas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.07079v1</id>
+    <title>SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills</title>
+    <updated>2025-04-09T17:51:50Z</updated>
+    <link href="https://arxiv.org/abs/2504.07079v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.07079v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To survive and thrive in complex environments, humans have evolved sophisticated self-improvement mechanisms through environment exploration, hierarchical abstraction of experiences into reuseable skills, and collaborative construction of an ever-growing skill repertoire. Despite recent advancements, autonomous web agents still lack crucial self-improvement capabilities, struggling with procedural knowledge abstraction, refining skills, and skill composition. In this work, we introduce SkillWeaver, a skill-centric framework enabling agents to self-improve by autonomously synthesizing reusable skills as APIs. Given a new website, the agent autonomously discovers skills, executes them for practice, and distills practice experiences into robust APIs. Iterative exploration continually expands a library of lightweight, plug-and-play APIs, significantly enhancing the agent's capabilities. Experiments on WebArena and real-world websites demonstrate the efficacy of SkillWeaver, achieving relative success rate improvements of 31.8% and 39.8%, respectively. Additionally, APIs synthesized by strong agents substantially enhance weaker agents through transferable skills, yielding improvements of up to 54.3% on WebArena. These results demonstrate the effectiveness of honing diverse website interactions into APIs, which can be seamlessly shared among various web agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-09T17:51:50Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Boyuan Zheng</name>
+    </author>
+    <author>
+      <name>Michael Y. Fatemi</name>
+    </author>
+    <author>
+      <name>Xiaolong Jin</name>
+    </author>
+    <author>
+      <name>Zora Zhiruo Wang</name>
+    </author>
+    <author>
+      <name>Apurva Gandhi</name>
+    </author>
+    <author>
+      <name>Yueqi Song</name>
+    </author>
+    <author>
+      <name>Yu Gu</name>
+    </author>
+    <author>
+      <name>Jayanth Srinivasa</name>
+    </author>
+    <author>
+      <name>Gaowen Liu</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+    <author>
+      <name>Yu Su</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.12926v1</id>
+    <title>No Stagnation Region Before the Heliopause at Voyager 1? Inferences From New Voyager 2 Results</title>
+    <updated>2020-11-25T18:18:21Z</updated>
+    <link href="https://arxiv.org/abs/2011.12926v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.12926v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present anisotropy results for anomalous cosmic-ray (ACR) protons in the energy range $\sim$0.5-35 MeV from Cosmic Ray Subsytem (CRS) data collected during calibration roll maneuvers for the magnetometer instrument when Voyager 2 (V2) was in the inner heliosheath. We use a new technique to derive for the first time the radial component of the anisotropy vector from CRS data. We find that the CRS-derived radial solar wind speeds, when converted from the radial components of the anisotropy vectors via the Compton-Getting (C-G) effect, generally agree with those similarly-derived speeds from the Low-Energy Charged Particle experiment using 28-43 keV data. However, they often differ significantly from the radial solar wind speeds measured directly by the Plasma Science (PLS) instrument. There are both periods when the C-G-derived radial solar wind speeds are significantly higher than those measured by PLS and times when they are significantly lower. The differences are not expected nor explained, but it appears that after a few years in the heliosheath the V2 radial solar wind speeds derived from the C-G method underestimate the true speeds as the spacecraft approaches the heliopause. We discuss the implications of this observation for the stagnation region reported along the Voyager 1 trajectory as it approached the heliopause inferred using the C-G method.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-25T18:18:21Z</published>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>A. C. Cummings</name>
+    </author>
+    <author>
+      <name>E. C. Stone</name>
+    </author>
+    <author>
+      <name>J. D. Richardson</name>
+    </author>
+    <author>
+      <name>B. C. Heikkila</name>
+    </author>
+    <author>
+      <name>N. Lal</name>
+    </author>
+    <author>
+      <name>J. Kóta</name>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/abc5c0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/abc5c0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.10891v2</id>
+    <title>(De)composing Craft: An Elementary Grammar for Sharing Expertise in Craft Workflows</title>
+    <updated>2026-03-12T09:24:45Z</updated>
+    <link href="https://arxiv.org/abs/2506.10891v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.10891v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Craft practices rely on evolving archives of skill and knowledge developed through generations of craftspeople experimenting with designs, materials, and techniques. Better documentation of these practices enables the sharing of knowledge and expertise between sites and generations. However, most documentation focuses on the linear steps leading to final artifacts, neglecting the distinct tacit knowledge, improvisational actions, and situated adaptations needed to meet the unique demands of each craft project. This omission limits knowledge sharing and reduces craft to a mechanical endeavor, rather than a sophisticated and contextual way of seeing, thinking, and doing. Drawing on expert interviews and literature from HCI, CSCW and the social sciences, we develop an elementary grammar to document improvisational actions of real-world craft practices. We demonstrate the utility of this grammar with a MLLM-powered interface called CraftLink that can be used to analyze expert videos and generate documentation to share material and contextual variations of practices with other knowledgeable but non-master craftspeople. Our user study with expert crocheters (N=7) evaluates our grammar's effectiveness in capturing and sharing expert knowledge with other craftspeople, offering new pathways for computational systems to support collaborative archives of knowledge and practice across time, space, and skill levels. We conclude by showing how our grammar address four key tensions of the craft learning environment: personal and shareable documentation, fragmented and discoverable expertise, linear and iterative practices, and data privacy and ownership.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-12T16:54:39Z</published>
+    <arxiv:comment>31 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Ritik Batra</name>
+    </author>
+    <author>
+      <name>Lydia Kim</name>
+    </author>
+    <author>
+      <name>Ilan Mandel</name>
+    </author>
+    <author>
+      <name>Amritansh Kwatra</name>
+    </author>
+    <author>
+      <name>Jane L. E</name>
+    </author>
+    <author>
+      <name>Steven J. Jackson</name>
+    </author>
+    <author>
+      <name>Thijs Roumen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.02476v1</id>
+    <title>Voyager 2 enters interstellar space</title>
+    <updated>2019-12-05T10:14:27Z</updated>
+    <link href="https://arxiv.org/abs/1912.02476v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.02476v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>After 41 years of travel, the Voyager 2 spacecraft joins its twin in interstellar space. A suite of papers report Voyager 2's experience of its transition through the heliosheath and heliopause to what lies beyond.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-05T10:14:27Z</published>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Nature Astronomy volume 3, pages 963-964(2019)</arxiv:journal_ref>
+    <author>
+      <name>R. Du Toit Strauss</name>
+    </author>
+    <arxiv:doi>10.1038/s41550-019-0942-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41550-019-0942-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.11632v1</id>
+    <title>QS-Craft: Learning to Quantize, Scrabble and Craft for Conditional Human Motion Animation</title>
+    <updated>2022-03-22T11:34:40Z</updated>
+    <link href="https://arxiv.org/abs/2203.11632v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.11632v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies the task of conditional Human Motion Animation (cHMA). Given a source image and a driving video, the model should animate the new frame sequence, in which the person in the source image should perform a similar motion as the pose sequence from the driving video. Despite the success of Generative Adversarial Network (GANs) methods in image and video synthesis, it is still very challenging to conduct cHMA due to the difficulty in efficiently utilizing the conditional guided information such as images or poses, and generating images of good visual quality. To this end, this paper proposes a novel model of learning to Quantize, Scrabble, and Craft (QS-Craft) for conditional human motion animation. The key novelties come from the newly introduced three key steps: quantize, scrabble and craft. Particularly, our QS-Craft employs transformer in its structure to utilize the attention architectures. The guided information is represented as a pose coordinate sequence extracted from the driving videos. Extensive experiments on human motion datasets validate the efficacy of our model.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-22T11:34:40Z</published>
+    <arxiv:comment>15 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yuxin Hong</name>
+    </author>
+    <author>
+      <name>Xuelin Qian</name>
+    </author>
+    <author>
+      <name>Simian Luo</name>
+    </author>
+    <author>
+      <name>Xiangyang Xue</name>
+    </author>
+    <author>
+      <name>Yanwei Fu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.08648v3</id>
+    <title>LLM-Craft: Robotic Crafting of Elasto-Plastic Objects with Large Language Models</title>
+    <updated>2025-06-09T18:58:52Z</updated>
+    <link href="https://arxiv.org/abs/2406.08648v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.08648v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When humans create sculptures, we are able to reason about how geometrically we need to alter the clay state to reach our target goal. We are not computing point-wise similarity metrics, or reasoning about low-level positioning of our tools, but instead determining the higher-level changes that need to be made. In this work, we propose LLM-Craft, a novel pipeline that leverages large language models (LLMs) to iteratively reason about and generate deformation-based crafting action sequences. We simplify and couple the state and action representations to further encourage shape-based reasoning. To the best of our knowledge, LLM-Craft is the first system successfully leveraging LLMs for complex deformable object interactions. Through our experiments, we demonstrate that with the LLM-Craft framework, LLMs are able to successfully create a set of simple letter shapes. We explore a variety of rollout strategies, and compare performances of LLM-Craft variants with and without an explicit goal shape images. For videos and prompting details, please visit our project website: https://sites.google.com/andrew.cmu.edu/llmcraft/home</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-12T21:17:02Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Alison Bartsch</name>
+    </author>
+    <author>
+      <name>Amir Barati Farimani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.04263v3</id>
+    <title>The Challenge of Crafting Intelligible Intelligence</title>
+    <updated>2018-10-15T06:10:30Z</updated>
+    <link href="https://arxiv.org/abs/1803.04263v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.04263v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Since Artificial Intelligence (AI) software uses techniques like deep lookahead search and stochastic optimization of huge neural networks to fit mammoth datasets, it often results in complex behavior that is difficult for people to understand. Yet organizations are deploying AI algorithms in many mission-critical settings. To trust their behavior, we must make AI intelligible, either by using inherently interpretable models or by developing new methods for explaining and controlling otherwise overwhelmingly complex decisions using local approximation, vocabulary alignment, and interactive explanation. This paper argues that intelligibility is essential, surveys recent work on building such systems, and highlights key directions for research.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-09T06:38:55Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1603.08507 by other authors</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Daniel S. Weld</name>
+    </author>
+    <author>
+      <name>Gagan Bansal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.06496v1</id>
+    <title>Towards Holistic Prompt Craft</title>
+    <updated>2025-04-08T23:51:04Z</updated>
+    <link href="https://arxiv.org/abs/2504.06496v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.06496v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an account of an ongoing practice-based Design Research programme that explores the interaction affordances of real-time AI image generators. Based on our experiences from three installations, we reflect on the design of PromptJ, a user interface built around the concept of a prompt mixer. Our first contribution is a series of strong concepts based on our reflections of designing and deploying PromptJ. We cohere and abstract our strong concepts into the notion of Holistic Prompt Craft, which describes the importance of considering all relevant parameters concurrently. Finally, we present PromptTank, a prototype design which exemplifies the principles of Holistic Prompt Craft. Our contributions are articulated as strong concepts or intermediate knowledge that are intended to inform and inspire practitioners and researchers who are designing with image generation models or developing novel interaction paradigms for generative AI systems more generally.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-08T23:51:04Z</published>
+    <arxiv:comment>Accepted to ACM Designing Interactive Systems 2025 subject to some amendments</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Joseph Lindley</name>
+    </author>
+    <author>
+      <name>Roger Whitham</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.03239v1</id>
+    <title>CRAFT Objects from Images</title>
+    <updated>2016-04-12T03:57:48Z</updated>
+    <link href="https://arxiv.org/abs/1604.03239v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.03239v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Object detection is a fundamental problem in image understanding. One popular solution is the R-CNN framework and its fast versions. They decompose the object detection problem into two cascaded easier tasks: 1) generating object proposals from images, 2) classifying proposals into various object categories. Despite that we are handling with two relatively easier tasks, they are not solved perfectly and there's still room for improvement. In this paper, we push the "divide and conquer" solution even further by dividing each task into two sub-tasks. We call the proposed method "CRAFT" (Cascade Region-proposal-network And FasT-rcnn), which tackles each task with a carefully designed network cascade. We show that the cascade structure helps in both tasks: in proposal generation, it provides more compact and better localized object proposals; in object classification, it reduces false positives (mainly between ambiguous categories) by capturing both inter- and intra-category variances. CRAFT achieves consistent and considerable improvement over the state-of-the-art on object detection benchmarks like PASCAL VOC 07/12 and ILSVRC.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-12T03:57:48Z</published>
+    <arxiv:comment>CVPR2016</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bin Yang</name>
+    </author>
+    <author>
+      <name>Junjie Yan</name>
+    </author>
+    <author>
+      <name>Zhen Lei</name>
+    </author>
+    <author>
+      <name>Stan Z. Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.07313v2</id>
+    <title>Voyage Across the 2HDM Type-II with Magellan</title>
+    <updated>2022-03-27T11:46:44Z</updated>
+    <link href="https://arxiv.org/abs/1905.07313v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.07313v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We review the status of the 2-Higgs Doublet Model (2HDM) Type-II, in the light of the current experimental results and various theoretical consistency conditions. In doing so, we adopt a new numerical framework, called Magellan, to explore the full parameter space of the model. Magellan uses a simple, Markov Chain Monte Carlo technique for the exploration and leverages the use of modern tools, allowing the user to perform inference on the model in an efficient way. The framework exploits the output of well-known Higgs production and decay programs, together with that of packages implementing the current results of both direct and indirect Higgs boson searches. We further illustrate how future measurements can be incorporated in such a framework, through the example of neutral heavy Higgs boson production and decay via the gluon-gluon fusion mode in a variety of final states.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-17T15:08:42Z</published>
+    <arxiv:comment>22 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Elena Accomando</name>
+    </author>
+    <author>
+      <name>David Englert</name>
+    </author>
+    <author>
+      <name>Ciara Byers</name>
+    </author>
+    <author>
+      <name>Jonathan Hays</name>
+    </author>
+    <author>
+      <name>Stefano Moretti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.03425v1</id>
+    <title>Plasma pressures in the heliosheath from Cassini ENA and Voyager 2 measurements: Validation by the Voyager 2 heliopause crossing</title>
+    <updated>2019-07-08T07:10:18Z</updated>
+    <link href="https://arxiv.org/abs/1907.03425v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.03425v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report "ground truth", 28-3500 keV in-situ ion and 5.2-55 keV remotely sensed ENA measurements from Voyager 2/Low Energy Charged Particle (LECP) detector and Cassini/Ion and Neutral Camera (INCA), respectively, that assess the components of the ion pressure in the heliosheath. In this process, we predict an interstellar neutral hydrogen density of ~0.12 cm-3 and an interstellar magnetic field strength of ~0.5 nT upstream of the heliopause in the direction of V2, i.e. consistent with the measured magnetic field and neutral density measurements at Voyager 1 from August 2012, when the spacecraft entered interstellar space, to date. Further, this analysis results in an estimated heliopause crossing by V2 of ~119 AU, as observed, suggesting that the parameters deduced from the pressure analysis are valid. The shape of the &gt;5.2 keV ion energy spectra play a critical role towards determining the pressure balance and acceleration mechanisms inside the heliosheath.</summary>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-08T07:10:18Z</published>
+    <arxiv:primary_category term="physics.space-ph"/>
+    <author>
+      <name>K. Dialynas</name>
+    </author>
+    <author>
+      <name>S. M. Krimigis</name>
+    </author>
+    <author>
+      <name>R. B. Decker</name>
+    </author>
+    <author>
+      <name>D. G. Mitchell</name>
+    </author>
+    <arxiv:doi>10.1029/2019GL083924</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1029/2019GL083924" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.3533v1</id>
+    <title>Voyagers 1 and 2 in a Shrunken and Squashed Heliosphere</title>
+    <updated>2011-01-18T20:02:13Z</updated>
+    <link href="https://arxiv.org/abs/1101.3533v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.3533v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have extended our earlier calculations of the distance to the Heliospheric Termination Shock (HTS) - which covered the period from the launch of V1 and V2 in 1977 to 2005 - to the period from 2006 to 2011. During this latter period the solar wind speed, ram pressure and magnetic field decreased to the lowest levels in recent history, related to the sunspot minimum in 2008-2009. The HTS distance has decreased correspondingly so that V1, which was crossed by the HTS at 94 AU in late 2004, would now, in early 2011, be expected to reach the HTS at a distance ~80 AU, when the HTS distance would be expected to be at its minimum. Similarly V2, which was crossed by the HTS at 84 AU in mid 2007, would, in early 2011, reach the HTS at a distance of only 74 AU. These distances, in early 2011, are ~15% less than those at which V1 and V2 initially reached the HTS. The distance to the Heliopause (HP) is more uncertain but recent calculations place its equilibrium distance at between 1.4-1.6 times the HTS distance. Allowing for an additional 1 year for the HP to reach its equilibrium minimum distance relative to the HTS would mean that, assuming this distance remains a constant fraction larger than the HTS distance, the HP distance would be at its minimum distance of (1.4-1.6) x 80 AU = 112-128 AU at V1 in early 2012. At this time V1 will be at a distance of ~120 AU so that there is a possibility that V1 could cross the HP and enter interstellar space at the time 2012.0 \pm 1 year. If the crossing does not happen during this time period, then it is unlikely that V1 will reach this defining boundary before about 2016 because of the expected outward motion of the HTS and the HP towards their more normal distances of 85-96 and ~120 -140 AU coincident with the maximum of the new sunspot cycle.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-18T20:02:13Z</published>
+    <arxiv:comment>23 pages including 7 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>W. R. Webber</name>
+    </author>
+    <author>
+      <name>D. S. Intriligator</name>
+    </author>
+    <arxiv:doi>10.1029/2011JA016478</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1029/2011JA016478" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.03503v1</id>
+    <title>Future stellar flybys of the Voyager and Pioneer spacecraft</title>
+    <updated>2019-12-07T13:28:00Z</updated>
+    <link href="https://arxiv.org/abs/1912.03503v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.03503v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Pioneer 10 and 11 and Voyager 1 and 2 spacecraft, launched in the 1970s, are heading out of the solar system. Using the astrometric and radial velocity data from the second Gaia data release, we integrate the trajectories of 7.4 million stars, and the spacecraft, through a Galactic potential in order to identify those stars the spacecraft will pass closest to. The closest encounters for all spacecraft take place at separations between 0.2 and 0.5 pc within the next million years. The closest encounter will be by Pioneer 10 with the K8 dwarf HIP 117795, at 0.23 pc in 90 kyr at a high relative velocity of 291 km/s.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-07T13:28:00Z</published>
+    <arxiv:comment>Extended version of our article published on 3 April 2019 in RNAAS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <arxiv:journal_ref>Research Notes of the American Astronomical Society, 3, 59 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Coryn A. L. Bailer-Jones</name>
+      <arxiv:affiliation>MPIA Heidelberg</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Davide Farnocchia</name>
+      <arxiv:affiliation>JPL Pasadena</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.3847/2515-5172/ab158e</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2515-5172/ab158e" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.01778v2</id>
+    <title>Voyage through the Hidden Physics of the Cosmic Web</title>
+    <updated>2021-04-26T14:16:03Z</updated>
+    <link href="https://arxiv.org/abs/1908.01778v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.01778v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The majority of the ordinary matter in the local Universe has been heated by strong structure formation shocks and resides in a largely unexplored hot, diffuse, X-ray emitting plasma that permeates the halos of galaxies, galaxy groups and clusters, and the cosmic web. We propose a next-generation "Cosmic Web Explorer" that will permit a complete and exhaustive understanding of these unseen baryons. This will be the first mission capable to reach the accretion shocks located several times farther than the virial radii of galaxy clusters, and reveal the out-of-equilibrium parts of the intra-cluster medium which are live witnesses to the physics of cosmic accretion. It will also enable a view of the thermodynamics, kinematics, and chemical composition of the circumgalactic medium in galaxies with masses similar to the Milky Way, at the same level of detail that $Athena$ will unravel for the virialized regions of massive galaxy clusters, delivering a transformative understanding of the evolution of those galaxies in which most of the stars and metals in the Universe were formed. Finally, the proposed X-ray satellite will connect the dots of the large-scale structure by mapping, at high spectral resolution, as much as 100% of the diffuse gas hotter than $10^6$ K that fills the filaments of the cosmic web at low redshifts, down to an over-density of 1, both in emission and in absorption against the ubiquitous cosmic X-ray background, surveying at least 1600 square degrees over 5 years in orbit. This requires a large effective area (~10 m$^2$ at 1 keV) over a large field of view ($\sim1$ deg$^2$), a megapixel cryogenic microcalorimeter array providing integral field spectroscopy with a resolving power $E/ΔE$ = 2000 at 0.6 keV and a spatial resolution of 5 arcsec in the soft X-ray band, and a low and stable instrumental background ensuring high sensitivity to faint, extended emission.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-05T18:00:12Z</published>
+    <arxiv:comment>White paper submitted in response to ESA's Voyage 2050 Call. Accepted for publication in Experimental Astronomy</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>A. Simionescu</name>
+    </author>
+    <author>
+      <name>S. Ettori</name>
+    </author>
+    <author>
+      <name>N. Werner</name>
+    </author>
+    <author>
+      <name>D. Nagai</name>
+    </author>
+    <author>
+      <name>F. Vazza</name>
+    </author>
+    <author>
+      <name>H. Akamatsu</name>
+    </author>
+    <author>
+      <name>C. Pinto</name>
+    </author>
+    <author>
+      <name>J. de Plaa</name>
+    </author>
+    <author>
+      <name>N. Wijers</name>
+    </author>
+    <author>
+      <name>D. Nelson</name>
+    </author>
+    <author>
+      <name>E. Pointecouteau</name>
+    </author>
+    <author>
+      <name>G. W. Pratt</name>
+    </author>
+    <author>
+      <name>D. Spiga</name>
+    </author>
+    <author>
+      <name>G. Vacanti</name>
+    </author>
+    <author>
+      <name>E. Lau</name>
+    </author>
+    <author>
+      <name>M. Rossetti</name>
+    </author>
+    <author>
+      <name>F. Gastaldello</name>
+    </author>
+    <author>
+      <name>V. Biffi</name>
+    </author>
+    <author>
+      <name>E. Bulbul</name>
+    </author>
+    <author>
+      <name>M. J. Collon</name>
+    </author>
+    <author>
+      <name>J. W. den Herder</name>
+    </author>
+    <author>
+      <name>D. Eckert</name>
+    </author>
+    <author>
+      <name>F. Fraternali</name>
+    </author>
+    <author>
+      <name>B. Mingo</name>
+    </author>
+    <author>
+      <name>G. Pareschi</name>
+    </author>
+    <author>
+      <name>G. Pezzulli</name>
+    </author>
+    <author>
+      <name>T. H. Reiprich</name>
+    </author>
+    <author>
+      <name>J. Schaye</name>
+    </author>
+    <author>
+      <name>S. A. Walker</name>
+    </author>
+    <author>
+      <name>J. Werk</name>
+    </author>
+    <arxiv:doi>10.1007/s10686-021-09720-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10686-021-09720-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.07678v2</id>
+    <title>3I/ATLAS: In Search of the Witnesses to Its Voyage</title>
+    <updated>2026-04-27T12:27:10Z</updated>
+    <link href="https://arxiv.org/abs/2509.07678v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.07678v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>3I/ATLAS is the third interstellar object discovered to date, following 1I/'Oumuamua and 2I/Borisov. Its unusually high excess velocity and active cometary nature make it a key probe of the Galactic population of icy planetesimals. Understanding its origin requires tracing its past trajectory through the Galaxy and assessing the possible role of stellar encounters, both as a potential origin and a perturber to its orbit. We integrated the orbit of 3I/ATLAS backward in time for 10 Myr, together with a sample of Gaia DR3 stars with high-quality astrometry and radial velocities, to identify close passages within 2 pc. We identify 93 nominal encounters, 62 of which are significant at the $2σ$ level. However, none of these encounters produced any meaningful perturbation. The strongest perturber Gaia DR3 6863591389529611264 at 0.30 pc and with a relative velocity of 35 km s$^{-1}$, imparted only a velocity change of $|Δv| \simeq 5\times10^{-4}$ km s$^{-1}$ to the orbit of 3I/ATLAS. Our results indicate that no stellar flybys within the past 10 Myr and 500 pc contained in Gaia DR3 can account for the present trajectory of 3I/ATLAS or be associated with its origin. We further show that 3I/ATLAS is kinematically consistent with a thin-disk population, despite its large peculiar velocity.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-09T12:44:21Z</published>
+    <arxiv:comment>Published in ApJ, 12 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <arxiv:journal_ref>ApJ 1001 146 (2026)</arxiv:journal_ref>
+    <author>
+      <name>X. Pérez-Couto</name>
+    </author>
+    <author>
+      <name>S. Torres</name>
+    </author>
+    <author>
+      <name>E. Villaver</name>
+    </author>
+    <author>
+      <name>A. J. Mustill</name>
+    </author>
+    <author>
+      <name>M. Manteiga</name>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/ae56ff</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/ae56ff" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04047v1</id>
+    <title>From Crafting Text to Crafting Thought: Grounding AI Writing Support to Writing Center Pedagogy</title>
+    <updated>2026-02-03T22:30:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.04047v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04047v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As AI writing tools evolve from fixing surface errors to creating language with writers, new capabilities raise concerns about negative impacts on student writers, such as replacing their voices and undermining critical thinking skills. To address these challenges, we look at a parallel transition in university writing centers from focusing on fixing errors to preserving student voices. We develop design guidelines informed by writing center literature and interviews with 10 writing tutors. We illustrate these guidelines in a prototype AI tool, Writor. Writor helps writers revise text by setting goals, providing balanced feedback, and engaging in conversations without generating text verbatim. We conducted an expert review with 30 writing instructors, tutors, and AI researchers on Writor to assess the pedagogical soundness, alignment with writing center pedagogy, and integration contexts. We distill our findings into design implications for future AI writing feedback systems, including designing for trust among AI-skeptical educators.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T22:30:45Z</published>
+    <arxiv:comment>Conditionally accepted to CHI 26</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Yijun Liu</name>
+    </author>
+    <author>
+      <name>John Gallagher</name>
+    </author>
+    <author>
+      <name>Sarah Sterman</name>
+    </author>
+    <author>
+      <name>Tal August</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.01877v1</id>
+    <title>Voyager 3: A Concept Mission to Interstellar Medium</title>
+    <updated>2022-06-04T02:14:45Z</updated>
+    <link href="https://arxiv.org/abs/2206.01877v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.01877v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Voyager 3 is a concept mission that sends a space telescope to the interstellar medium in a reasonable amount of time. Voyager 3 would take a direct image of an exoplanet using the solar gravitational lensing at the distance of 550 astronomical unit (AU). The spacecraft would use its suite of scientific instruments to study the environment of the local solar system and interstellar medium and finalize its primary mission by imaging an exoplanet. Two potential architectures are proposed to meet this mission directive, using multiple gravitational assists and sizable electric propulsion burns to achieve the high escape speeds necessary to reach 550 AU. This paper expands on the science mission objectives, trajectory, and the preliminary design of the baseline spacecraft.</summary>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-04T02:14:45Z</published>
+    <arxiv:comment>13 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.space-ph"/>
+    <arxiv:journal_ref>Journal of Spacecraft and Rockets, Vol. 59, No. 3, May-June 2022</arxiv:journal_ref>
+    <author>
+      <name>Shohreh Abdolrahimi</name>
+    </author>
+    <author>
+      <name>Burton Yale</name>
+    </author>
+    <author>
+      <name>Christos C. Tzounis</name>
+    </author>
+    <author>
+      <name>Joshua Fofrich</name>
+    </author>
+    <author>
+      <name>Rohan Patel</name>
+    </author>
+    <author>
+      <name>Jehosafat Cabrera-Guzman</name>
+    </author>
+    <author>
+      <name>Jonathan C. Welsher</name>
+    </author>
+    <author>
+      <name>Navid Nakhjiri</name>
+    </author>
+    <arxiv:doi>10.2514/1.A35075</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2514/1.A35075" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.10378v1</id>
+    <title>Intermittency in Voyager Magnetic Field Beyond the Heliosphere</title>
+    <updated>2025-07-14T15:18:20Z</updated>
+    <link href="https://arxiv.org/abs/2507.10378v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.10378v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the two Voyager spacecraft traveled beyond the heliosphere, they encountered a magnetic field environment that had never been observed before. Studies have attempted to characterize this new regime by examining the magnetic field intermittency. This is typically done by fitting the optimal kappa distribution function and interpreting its so-called q-statistics to characterize the magnetic field increments. Using this approach, recent findings concluded that beyond a certain distance, the magnetic field increments in the very local interstellar medium (VLISM) follow Gaussian statistics, unlike those both inside the heliosphere and in the region just beyond the widely accepted heliopause location, raising questions about the heliopause identification. This study explores this issue in detail by (1) optimizing the derivation of the distribution function, (2) examining whether and how the results depend on increment windows and time periods, and (3) determining the statistical behavior of the examined time series. Using magnetic field measurements from Voyager 1, we present two independent techniques and introduce a statistical framework to systematically analyze the distributions of magnetic field increments. Contrary to previous findings, we find that magnetic field increments in the VLISM do not follow a Gaussian distribution (k to infinity) and instead are in the non-Gaussian range of kappa values (3-7, when analyzed on a 30-day statistical period). We further demonstrate how erroneous, statistically induced results can arise that mimic Gaussian-like results when mixing different structures in such analyses. Our results show that Voyager 1 still travels in the intermittent magnetic field environment of the VLISM.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-14T15:18:20Z</published>
+    <arxiv:comment>Accepted for ApJ. 17 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>L. Y. Khoo</name>
+    </author>
+    <author>
+      <name>G. Livadiotis</name>
+    </author>
+    <author>
+      <name>D. J. McComas</name>
+    </author>
+    <author>
+      <name>M. E. Cuesta</name>
+    </author>
+    <author>
+      <name>J. S. Rankin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.21531v1</id>
+    <title>LiLo-VLA: Compositional Long-Horizon Manipulation via Linked Object-Centric Policies</title>
+    <updated>2026-02-25T03:33:39Z</updated>
+    <link href="https://arxiv.org/abs/2602.21531v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.21531v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>General-purpose robots must master long-horizon manipulation, defined as tasks involving multiple kinematic structure changes (e.g., attaching or detaching objects) in unstructured environments. While Vision-Language-Action (VLA) models offer the potential to master diverse atomic skills, they struggle with the combinatorial complexity of sequencing them and are prone to cascading failures due to environmental sensitivity. To address these challenges, we propose LiLo-VLA (Linked Local VLA), a modular framework capable of zero-shot generalization to novel long-horizon tasks without ever being trained on them. Our approach decouples transport from interaction: a Reaching Module handles global motion, while an Interaction Module employs an object-centric VLA to process isolated objects of interest, ensuring robustness against irrelevant visual features and invariance to spatial configurations. Crucially, this modularity facilitates robust failure recovery through dynamic replanning and skill reuse, effectively mitigating the cascading errors common in end-to-end approaches. We introduce a 21-task simulation benchmark consisting of two challenging suites: LIBERO-Long++ and Ultra-Long. In these simulations, LiLo-VLA achieves a 69% average success rate, outperforming Pi0.5 by 41% and OpenVLA-OFT by 67%. Furthermore, real-world evaluations across 8 long-horizon tasks demonstrate an average success rate of 85%. Project page: https://yy-gx.github.io/LiLo-VLA/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-25T03:33:39Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yue Yang</name>
+    </author>
+    <author>
+      <name>Shuo Cheng</name>
+    </author>
+    <author>
+      <name>Yu Fang</name>
+    </author>
+    <author>
+      <name>Homanga Bharadhwaj</name>
+    </author>
+    <author>
+      <name>Mingyu Ding</name>
+    </author>
+    <author>
+      <name>Gedas Bertasius</name>
+    </author>
+    <author>
+      <name>Daniel Szafir</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.11477v2</id>
+    <title>Two-Screen Scattering in CRAFT FRBs</title>
+    <updated>2023-08-25T07:05:45Z</updated>
+    <link href="https://arxiv.org/abs/2305.11477v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.11477v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal broadening is a commonly observed property of fast radio bursts (FRBs), associated with turbulent media which cause radiowave scattering. Similarly to dispersion, scattering is an important probe of the media along the line of sight to an FRB source, such as the circum-burst or circum-galactic mediums (CGM). Measurements of characteristic scattering times alone are insufficient to constrain the position of the dominant scattering media along the line of sight. However, where more than one scattering screen exists, Galactic scintillation can be leveraged to form strong constraints. We quantify the scattering and scintillation in 10 FRBs with 1) known host galaxies and redshifts and 2) captured voltage data enabling high-time resolution analysis. We find strong evidence for two screens in three cases. For FRBs 20190608B and 20210320C, we find evidence for scattering screens less than approximately 16.7 and 3000 kpc respectively, from their sources, consistent with the scattering occurring in the circum-burst environment, the host ISM (inter-stellar medium) or the CGM. For FRB 20201124A we find a low modulation index that evolves over the burst's scattering tail, indicating the presence of a scattering screen $\approx9$ kpc from the host, and excluding the circum-burst environment from potential scattering sites. By assuming that pulse broadening is contributed by the host galaxy ISM or circum-burst environment, the lack of observed scintillation in four FRBs in our sample suggests that existing models may be poor estimators of scattering times associated with the Milky Way's ISM, similar to the anomalously low scattering observed for FRB 20201124A.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-19T07:03:42Z</published>
+    <arxiv:comment>13 pages, 9 figures, 1 table. Accepted in MNRAS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Mawson W. Sammons</name>
+    </author>
+    <author>
+      <name>Adam T. Deller</name>
+    </author>
+    <author>
+      <name>Marcin Glowacki</name>
+    </author>
+    <author>
+      <name>Kelly Gourdji</name>
+    </author>
+    <author>
+      <name>C. W. James</name>
+    </author>
+    <author>
+      <name>J. Xavier Prochaska</name>
+    </author>
+    <author>
+      <name>Hao Qiu</name>
+    </author>
+    <author>
+      <name>Danica R. Scott</name>
+    </author>
+    <author>
+      <name>R. M. Shannon</name>
+    </author>
+    <author>
+      <name>C. M. Trott</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.02812v1</id>
+    <title>Towards Crafting Text Adversarial Samples</title>
+    <updated>2017-07-10T11:58:08Z</updated>
+    <link href="https://arxiv.org/abs/1707.02812v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.02812v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adversarial samples are strategically modified samples, which are crafted with the purpose of fooling a classifier at hand. An attacker introduces specially crafted adversarial samples to a deployed classifier, which are being mis-classified by the classifier. However, the samples are perceived to be drawn from entirely different classes and thus it becomes hard to detect the adversarial samples. Most of the prior works have been focused on synthesizing adversarial samples in the image domain. In this paper, we propose a new method of crafting adversarial text samples by modification of the original samples. Modifications of the original text samples are done by deleting or replacing the important or salient words in the text or by introducing new words in the text sample. Our algorithm works best for the datasets which have sub-categories within each of the classes of examples. While crafting adversarial samples, one of the key constraint is to generate meaningful sentences which can at pass off as legitimate from language (English) viewpoint. Experimental results on IMDB movie review dataset for sentiment analysis and Twitter dataset for gender detection show the efficiency of our proposed method.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-10T11:58:08Z</published>
+    <arxiv:comment>11 pages, 5 figues</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Suranjana Samanta</name>
+    </author>
+    <author>
+      <name>Sameep Mehta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.00424v2</id>
+    <title>Crafting polarisations for top, $W$ and $Z$</title>
+    <updated>2022-12-20T17:09:07Z</updated>
+    <link href="https://arxiv.org/abs/2208.00424v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.00424v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We put forward a method to tune the polarisation state of decaying heavy particles (top quarks and $W/Z$ bosons) in a pre-existing Monte Carlo sample. With this technique, dubbed as `custom angle replacement', the decay angular distributions are modified in such a way that the desired polarisation state is reproduced, while all the production kinematics are unchanged. A non-trivial test of this approach is presented for the top quark semileptonic decay $t \to W b \to \ell νb$, with $\ell = e,μ$, in which the decay distribution is four-dimensional and involves three different Lorentz frames. The proposed method is ideally suited to obtain event samples with polarised heavy particles, as required by experimental measurements of polarisation and spin correlations.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-31T12:17:14Z</published>
+    <arxiv:comment>LaTeX 9 pages. Added several discussions, matches version published in PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>J. A. Aguilar-Saavedra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.08972v1</id>
+    <title>On the Importance of Engaging Students in Crafting Definitions</title>
+    <updated>2017-10-24T20:08:01Z</updated>
+    <link href="https://arxiv.org/abs/1710.08972v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.08972v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we describe an activity for engaging students in crafting definitions. We explore the strengths of this particular activity as well as the broader implications of engaging students in crafting definitions more generally.</summary>
+    <category term="physics.ed-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-24T20:08:01Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.ed-ph"/>
+    <author>
+      <name>Angela Little</name>
+    </author>
+    <author>
+      <name>Leslie Atkins Elliott</name>
+    </author>
+    <arxiv:doi>10.1119/1.5051144</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1119/1.5051144" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.6546v2</id>
+    <title>Is Voyager 1 Inside an Interstellar Flux Transfer Event?</title>
+    <updated>2013-10-28T00:32:01Z</updated>
+    <link href="https://arxiv.org/abs/1309.6546v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.6546v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Plasma wave observations from Voyager 1 have recently shown large increases in plasma density, to about 0.1 cm^{-3}, consistent with the density of the local interstellar medium. However, corresponding magnetic field observations continue to show the spiral magnetic field direction observed throughout the inner heliosheath. These apparently contradictory observations may be reconciled if Voyager 1 is inside an interstellar flux transfer event - similar to flux transfer events routinely seen at the Earth's magnetopause. If this were the case, Voyager 1 remains inside the heliopause and based on the Voyager 1 observations we can determine the polarity of the interstellar magnetic field for the first time.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-25T15:34:27Z</published>
+    <arxiv:comment>10 pages, 1 figures, in press Astrophysical Journal Letters</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>N. A. Schwadron</name>
+    </author>
+    <author>
+      <name>D. J. McComas</name>
+    </author>
+    <arxiv:doi>10.1088/2041-8205/778/2/L33</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/2041-8205/778/2/L33" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.04604v2</id>
+    <title>PartCraft: Crafting Creative Objects by Parts</title>
+    <updated>2024-07-08T13:38:49Z</updated>
+    <link href="https://arxiv.org/abs/2407.04604v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.04604v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper propels creative control in generative visual AI by allowing users to "select". Departing from traditional text or sketch-based methods, we for the first time allow users to choose visual concepts by parts for their creative endeavors. The outcome is fine-grained generation that precisely captures selected visual concepts, ensuring a holistically faithful and plausible result. To achieve this, we first parse objects into parts through unsupervised feature clustering. Then, we encode parts into text tokens and introduce an entropy-based normalized attention loss that operates on them. This loss design enables our model to learn generic prior topology knowledge about object's part composition, and further generalize to novel part compositions to ensure the generation looks holistically faithful. Lastly, we employ a bottleneck encoder to project the part tokens. This not only enhances fidelity but also accelerates learning, by leveraging shared knowledge and facilitating information exchange among instances. Visual results in the paper and supplementary material showcase the compelling power of PartCraft in crafting highly customized, innovative creations, exemplified by the "charming" and creative birds. Code is released at https://github.com/kamwoh/partcraft.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-05T15:53:04Z</published>
+    <arxiv:comment>ECCV 2024. arXiv admin note: substantial text overlap with arXiv:2311.15477</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kam Woh Ng</name>
+    </author>
+    <author>
+      <name>Xiatian Zhu</name>
+    </author>
+    <author>
+      <name>Yi-Zhe Song</name>
+    </author>
+    <author>
+      <name>Tao Xiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.22642v1</id>
+    <title>CRAFT: Learn the Schema, Execute the Plan</title>
+    <updated>2026-06-24T00:12:03Z</updated>
+    <link href="https://arxiv.org/abs/2607.22642v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.22642v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Enterprise coding agents translate natural-language analytical requests into executable code over proprietary APIs, schemas, and metric definitions. Yet the prevailing deployment pattern injecting exhaustive schema and tool documentation into each prompt increases inference overhead, complicates schema evolution, and undermines reliability in multi-turn analysis. We investigate whether stable schema knowledge and tool-use behavior can instead be acquired through post-training while preserving the consistency required for production-facing analytics. We present CRAFT, a two-stage post-training recipe for schema-grounded coding agents. First, schema-stripped PLAN supervised fine-tuning learns domain-structured plans and executable behaviors from validated trajectories without exhaustive prompt-time schema injection. Second, execution-shaped reinforcement learning aligns the policy for tool selection, code quality, plan-code consistency, and recovery from failed executions. Training trajectories are curated through a Tri-Gate filter combining execution validation, data-integrity checks, and LLM-judge reasoning audit. We evaluate CRAFT for planned rollout in advertising analytics, covering campaign performance analysis, metric drill-downs, entity-level performance analysis, and multi-turn analytical refinement. The enterprise evaluation environment incorporates beta APIs as the agent-facing tool surface and spans 25 schema-linked core entities and 30 agentic workflows. Relative to a schema-stuffed baseline, CRAFT improves composite Agent Score by +9.6 pp, consistency by +4.1 pp, and multi-turn coherence by +4.2 pp, while reducing input-token burden by approximately 9x and schema-discovery loops by up to 5x. We further report deployment tradeoffs, reward-shaping limitations, and training-infrastructure extensions required for multi-turn tool-use reinforcement learning in enterprise settings.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-24T00:12:03Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Aakash Kolekar</name>
+    </author>
+    <author>
+      <name>Sahika Genc</name>
+    </author>
+    <author>
+      <name>Shahriar Shariat</name>
+    </author>
+    <author>
+      <name>Bunyamin Sisman</name>
+    </author>
+    <author>
+      <name>Tibor Mezi</name>
+    </author>
+    <author>
+      <name>Barbara Poblete</name>
+    </author>
+    <author>
+      <name>Shree Vandana Kachroo</name>
+    </author>
+    <author>
+      <name>Calvin Chi</name>
+    </author>
+    <author>
+      <name>Parth Parmar</name>
+    </author>
+    <author>
+      <name>Ari Singer</name>
+    </author>
+    <author>
+      <name>Prayaas Jain</name>
+    </author>
+    <author>
+      <name>Cindy Barker</name>
+    </author>
+    <author>
+      <name>Benoit Dumoulin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.02579v1</id>
+    <title>Crafting GBD-Net for Object Detection</title>
+    <updated>2016-10-08T20:36:20Z</updated>
+    <link href="https://arxiv.org/abs/1610.02579v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.02579v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The visual cues from multiple support regions of different sizes and resolutions are complementary in classifying a candidate box in object detection. Effective integration of local and contextual visual cues from these regions has become a fundamental problem in object detection.
+  In this paper, we propose a gated bi-directional CNN (GBD-Net) to pass messages among features from different support regions during both feature learning and feature extraction. Such message passing can be implemented through convolution between neighboring support regions in two directions and can be conducted in various layers. Therefore, local and contextual visual patterns can validate the existence of each other by learning their nonlinear relationships and their close interactions are modeled in a more complex way. It is also shown that message passing is not always helpful but dependent on individual samples. Gated functions are therefore needed to control message transmission, whose on-or-offs are controlled by extra visual evidence from the input sample. The effectiveness of GBD-Net is shown through experiments on three object detection datasets, ImageNet, Pascal VOC2007 and Microsoft COCO. This paper also shows the details of our approach in wining the ImageNet object detection challenge of 2016, with source code provided on \url{https://github.com/craftGBD/craftGBD}.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-08T20:36:20Z</published>
+    <arxiv:comment>This paper shows the details of our approach in wining the ImageNet object detection challenge of 2016, with source code provided on \url{https://github.com/craftGBD/craftGBD}. The preliminary version of this paper is presented at the ECCV. Xingyu Zeng and Wanli Ouyang contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xingyu Zeng</name>
+    </author>
+    <author>
+      <name>Wanli Ouyang</name>
+    </author>
+    <author>
+      <name>Junjie Yan</name>
+    </author>
+    <author>
+      <name>Hongsheng Li</name>
+    </author>
+    <author>
+      <name>Tong Xiao</name>
+    </author>
+    <author>
+      <name>Kun Wang</name>
+    </author>
+    <author>
+      <name>Yu Liu</name>
+    </author>
+    <author>
+      <name>Yucong Zhou</name>
+    </author>
+    <author>
+      <name>Bin Yang</name>
+    </author>
+    <author>
+      <name>Zhe Wang</name>
+    </author>
+    <author>
+      <name>Hui Zhou</name>
+    </author>
+    <author>
+      <name>Xiaogang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.14001v2</id>
+    <title>Component Selection for Craft Assembly Tasks</title>
+    <updated>2024-08-16T01:27:59Z</updated>
+    <link href="https://arxiv.org/abs/2407.14001v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.14001v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inspired by traditional handmade crafts, where a person improvises assemblies based on the available objects, we formally introduce the Craft Assembly Task. It is a robotic assembly task that involves building an accurate representation of a given target object using the available objects, which do not directly correspond to its parts. In this work, we focus on selecting the subset of available objects for the final craft, when the given input is an RGB image of the target in the wild. We use a mask segmentation neural network to identify visible parts, followed by retrieving labelled template meshes. These meshes undergo pose optimization to determine the most suitable template. Then, we propose to simplify the parts of the transformed template mesh to primitive shapes like cuboids or cylinders. Finally, we design a search algorithm to find correspondences in the scene based on local and global proportions. We develop baselines for comparison that consider all possible combinations, and choose the highest scoring combination for common metrics used in foreground maps and mask accuracy. Our approach achieves comparable results to the baselines for two different scenes, and we show qualitative results for an implementation in a real-world scenario.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-19T03:22:04Z</published>
+    <arxiv:comment>Published on IEEE RA-L</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>IEEE Robotics and Automation Letters, Volume 9, Issue 9, 2024, p.8122-8129</arxiv:journal_ref>
+    <author>
+      <name>Vitor Hideyo Isume</name>
+      <arxiv:affiliation>Osaka University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Takuya Kiyokawa</name>
+      <arxiv:affiliation>Osaka University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Natsuki Yamanobe</name>
+      <arxiv:affiliation>AIST</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yukiyasu Domae</name>
+      <arxiv:affiliation>AIST</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Weiwei Wan</name>
+      <arxiv:affiliation>Osaka University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kensuke Harada</name>
+      <arxiv:affiliation>Osaka University</arxiv:affiliation>
+      <arxiv:affiliation>AIST</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1109/LRA.2024.3440847</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/LRA.2024.3440847" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.00005v3</id>
+    <title>Mastering the Craft of Data Synthesis for CodeLLMs</title>
+    <updated>2025-02-07T08:49:48Z</updated>
+    <link href="https://arxiv.org/abs/2411.00005v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.00005v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have shown impressive performance in \emph{code} understanding and generation, making coding tasks a key focus for researchers due to their practical applications and value as a testbed for LLM evaluation. Data synthesis and filtering techniques have been widely adopted and shown to be highly effective in this context. In this paper, we present a focused survey and taxonomy of these techniques, emphasizing recent advancements. We highlight key challenges, explore future research directions, and offer practical guidance for new researchers entering the field.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-16T11:57:14Z</published>
+    <arxiv:comment>Accepted at NAACL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Meng Chen</name>
+    </author>
+    <author>
+      <name>Philip Arthur</name>
+    </author>
+    <author>
+      <name>Qianyu Feng</name>
+    </author>
+    <author>
+      <name>Cong Duy Vu Hoang</name>
+    </author>
+    <author>
+      <name>Yu-Heng Hong</name>
+    </author>
+    <author>
+      <name>Mahdi Kazemi Moghaddam</name>
+    </author>
+    <author>
+      <name>Omid Nezami</name>
+    </author>
+    <author>
+      <name>Thien Nguyen</name>
+    </author>
+    <author>
+      <name>Gioacchino Tangari</name>
+    </author>
+    <author>
+      <name>Duy Vu</name>
+    </author>
+    <author>
+      <name>Thanh Vu</name>
+    </author>
+    <author>
+      <name>Mark Johnson</name>
+    </author>
+    <author>
+      <name>Krishnaram Kenthapadi</name>
+    </author>
+    <author>
+      <name>Don Dharmasiri</name>
+    </author>
+    <author>
+      <name>Long Duong</name>
+    </author>
+    <author>
+      <name>Yuan-Fang Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.13422v1</id>
+    <title>From Prompt Engineering to Prompt Craft</title>
+    <updated>2024-11-20T16:08:20Z</updated>
+    <link href="https://arxiv.org/abs/2411.13422v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.13422v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This pictorial presents an ongoing research programme comprising three practice-based Design Research projects conducted through 2024, exploring the affordances of diffusion-based AI image generation systems, specifically Stable Diffusion. The research employs tangible and embodied interactions to investigate emerging qualitative aspects of generative AI, including uncertainty and materiality. Our approach leverages the flexibility and adaptability of Design Research to navigate the rapidly evolving field of generative AI. The pictorial proposes the notion of prompt craft as a productive reframing of prompt engineering. This is comprised of two contributions: (1) reflections on the notion of materiality for diffusion-based generative AI and a proposed method for a craft-like navigation of the latent space within generative AI models and (2) discussing interaction design strategies for designing user interfaces informed by these affordances. The outcomes are presented as strong concepts or intermediate knowledge, applicable to various situations and domains.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-20T16:08:20Z</published>
+    <arxiv:comment>Pictorial paper, 12 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Joseph Lindley</name>
+    </author>
+    <author>
+      <name>Roger Whitham</name>
+    </author>
+    <arxiv:doi>10.1145/3689050.3704424</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3689050.3704424" title="doi"/>
+  </entry>
+</feed>

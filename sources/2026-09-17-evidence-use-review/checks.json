@@ -1,0 +1,764 @@
+{
+  "reviewed_revision": "da1233fdfb26fe6c5daa337a3dbf9f784f34f9f7",
+  "runs": [
+    {
+      "run": "development-v2",
+      "checked": {
+        "executable": 96,
+        "generation": 672,
+        "update": 512,
+        "checkpoint": 4,
+        "recall": 32
+      },
+      "trajectories": [
+        {
+          "arm": "base",
+          "step": 0,
+          "correct": 55,
+          "uses": 96,
+          "acquisition_updates": 0,
+          "acquisition_seconds": 0,
+          "use_seconds": 63.44998574999045,
+          "total_active_seconds": 63.44998574999045,
+          "prompt_tokens": 27620,
+          "completion_tokens": 1909,
+          "training_input_tokens": 0,
+          "training_loss_tokens": 0,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "lesson-stable",
+          "step": 0,
+          "correct": 68,
+          "uses": 96,
+          "acquisition_updates": 0,
+          "acquisition_seconds": 0,
+          "use_seconds": 121.29490870889276,
+          "total_active_seconds": 121.29490870889276,
+          "prompt_tokens": 111716,
+          "completion_tokens": 1909,
+          "training_input_tokens": 0,
+          "training_loss_tokens": 0,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "lesson-varied",
+          "step": 0,
+          "correct": 67,
+          "uses": 96,
+          "acquisition_updates": 0,
+          "acquisition_seconds": 0,
+          "use_seconds": 120.45084171000053,
+          "total_active_seconds": 120.45084171000053,
+          "prompt_tokens": 112388,
+          "completion_tokens": 1907,
+          "training_input_tokens": 0,
+          "training_loss_tokens": 0,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "stable",
+          "step": 128,
+          "correct": 38,
+          "uses": 96,
+          "acquisition_updates": 128,
+          "acquisition_seconds": 56.35865457318141,
+          "use_seconds": 52.661655041825725,
+          "total_active_seconds": 109.02030961500714,
+          "prompt_tokens": 27620,
+          "completion_tokens": 1308,
+          "training_input_tokens": 38248,
+          "training_loss_tokens": 1704,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "stable",
+          "step": 256,
+          "correct": 58,
+          "uses": 96,
+          "acquisition_updates": 256,
+          "acquisition_seconds": 112.60540682042483,
+          "use_seconds": 53.40793682393269,
+          "total_active_seconds": 166.01334364435752,
+          "prompt_tokens": 27620,
+          "completion_tokens": 1349,
+          "training_input_tokens": 76496,
+          "training_loss_tokens": 3408,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "varied",
+          "step": 128,
+          "correct": 36,
+          "uses": 96,
+          "acquisition_updates": 128,
+          "acquisition_seconds": 56.348647173144855,
+          "use_seconds": 52.77319575185538,
+          "total_active_seconds": 109.12184292500024,
+          "prompt_tokens": 27620,
+          "completion_tokens": 1316,
+          "training_input_tokens": 38360,
+          "training_loss_tokens": 1752,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "varied",
+          "step": 256,
+          "correct": 58,
+          "uses": 96,
+          "acquisition_updates": 256,
+          "acquisition_seconds": 112.68427409123979,
+          "use_seconds": 53.11017945790081,
+          "total_active_seconds": 165.7944535491406,
+          "prompt_tokens": 27620,
+          "completion_tokens": 1335,
+          "training_input_tokens": 76819,
+          "training_loss_tokens": 3539,
+          "maintenance_updates": 0
+        }
+      ]
+    },
+    {
+      "run": "order-diagnostic-v1",
+      "checked": {
+        "executable": 96,
+        "generation": 384,
+        "update": 256,
+        "checkpoint": 2,
+        "recall": 16
+      },
+      "trajectories": [
+        {
+          "arm": "base",
+          "step": 0,
+          "correct": 55,
+          "uses": 96,
+          "acquisition_updates": 0,
+          "acquisition_seconds": 0,
+          "use_seconds": 62.93650303405593,
+          "total_active_seconds": 62.93650303405593,
+          "prompt_tokens": 27620,
+          "completion_tokens": 1909,
+          "training_input_tokens": 0,
+          "training_loss_tokens": 0,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "lesson-varied",
+          "step": 0,
+          "correct": 67,
+          "uses": 96,
+          "acquisition_updates": 0,
+          "acquisition_seconds": 0,
+          "use_seconds": 120.51464186809608,
+          "total_active_seconds": 120.51464186809608,
+          "prompt_tokens": 112388,
+          "completion_tokens": 1907,
+          "training_input_tokens": 0,
+          "training_loss_tokens": 0,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "varied",
+          "step": 128,
+          "correct": 42,
+          "uses": 96,
+          "acquisition_updates": 128,
+          "acquisition_seconds": 56.10423954189173,
+          "use_seconds": 53.01619995798683,
+          "total_active_seconds": 109.12043949987856,
+          "prompt_tokens": 27620,
+          "completion_tokens": 1353,
+          "training_input_tokens": 38416,
+          "training_loss_tokens": 1775,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "varied",
+          "step": 256,
+          "correct": 65,
+          "uses": 96,
+          "acquisition_updates": 256,
+          "acquisition_seconds": 112.17582408504677,
+          "use_seconds": 52.663289752730634,
+          "total_active_seconds": 164.8391138377774,
+          "prompt_tokens": 27620,
+          "completion_tokens": 1333,
+          "training_input_tokens": 76819,
+          "training_loss_tokens": 3539,
+          "maintenance_updates": 0
+        }
+      ]
+    },
+    {
+      "run": "fresh-v1",
+      "checked": {
+        "executable": 96,
+        "generation": 672,
+        "update": 512,
+        "checkpoint": 4,
+        "recall": 32
+      },
+      "trajectories": [
+        {
+          "arm": "base",
+          "step": 0,
+          "correct": 52,
+          "uses": 96,
+          "acquisition_updates": 0,
+          "acquisition_seconds": 0,
+          "use_seconds": 62.903100617957534,
+          "total_active_seconds": 62.903100617957534,
+          "prompt_tokens": 27626,
+          "completion_tokens": 1907,
+          "training_input_tokens": 0,
+          "training_loss_tokens": 0,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "lesson-stable",
+          "step": 0,
+          "correct": 61,
+          "uses": 96,
+          "acquisition_updates": 0,
+          "acquisition_seconds": 0,
+          "use_seconds": 121.15547308407258,
+          "total_active_seconds": 121.15547308407258,
+          "prompt_tokens": 111626,
+          "completion_tokens": 1942,
+          "training_input_tokens": 0,
+          "training_loss_tokens": 0,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "lesson-varied",
+          "step": 0,
+          "correct": 55,
+          "uses": 96,
+          "acquisition_updates": 0,
+          "acquisition_seconds": 0,
+          "use_seconds": 120.73681921593379,
+          "total_active_seconds": 120.73681921593379,
+          "prompt_tokens": 111818,
+          "completion_tokens": 1918,
+          "training_input_tokens": 0,
+          "training_loss_tokens": 0,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "stable",
+          "step": 128,
+          "correct": 51,
+          "uses": 96,
+          "acquisition_updates": 128,
+          "acquisition_seconds": 56.096082128118724,
+          "use_seconds": 52.741340334905544,
+          "total_active_seconds": 108.83742246302427,
+          "prompt_tokens": 27626,
+          "completion_tokens": 1338,
+          "training_input_tokens": 38242,
+          "training_loss_tokens": 1706,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "stable",
+          "step": 256,
+          "correct": 58,
+          "uses": 96,
+          "acquisition_updates": 256,
+          "acquisition_seconds": 112.1039497081947,
+          "use_seconds": 52.68345054311794,
+          "total_active_seconds": 164.78740025131265,
+          "prompt_tokens": 27626,
+          "completion_tokens": 1335,
+          "training_input_tokens": 76480,
+          "training_loss_tokens": 3404,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "varied",
+          "step": 128,
+          "correct": 65,
+          "uses": 96,
+          "acquisition_updates": 128,
+          "acquisition_seconds": 56.0159750438761,
+          "use_seconds": 52.56612715811934,
+          "total_active_seconds": 108.58210220199544,
+          "prompt_tokens": 27626,
+          "completion_tokens": 1327,
+          "training_input_tokens": 38310,
+          "training_loss_tokens": 1741,
+          "maintenance_updates": 0
+        },
+        {
+          "arm": "varied",
+          "step": 256,
+          "correct": 45,
+          "uses": 96,
+          "acquisition_updates": 256,
+          "acquisition_seconds": 112.05692120388267,
+          "use_seconds": 52.73482616702677,
+          "total_active_seconds": 164.79174737090943,
+          "prompt_tokens": 27626,
+          "completion_tokens": 1338,
+          "training_input_tokens": 76624,
+          "training_loss_tokens": 3484,
+          "maintenance_updates": 0
+        }
+      ]
+    }
+  ],
+  "fresh_endpoints": [
+    {
+      "arm": "base",
+      "step": 0,
+      "version": 0,
+      "complete": 18,
+      "fresh": 11,
+      "rebound": 7
+    },
+    {
+      "arm": "base",
+      "step": 0,
+      "version": 1,
+      "complete": 17,
+      "fresh": 8,
+      "rebound": 5
+    },
+    {
+      "arm": "base",
+      "step": 0,
+      "version": 2,
+      "complete": 17,
+      "fresh": 8,
+      "rebound": 4
+    },
+    {
+      "arm": "lesson-stable",
+      "step": 0,
+      "version": 0,
+      "complete": 20,
+      "fresh": 9,
+      "rebound": 5
+    },
+    {
+      "arm": "lesson-stable",
+      "step": 0,
+      "version": 1,
+      "complete": 21,
+      "fresh": 9,
+      "rebound": 5
+    },
+    {
+      "arm": "lesson-stable",
+      "step": 0,
+      "version": 2,
+      "complete": 20,
+      "fresh": 9,
+      "rebound": 5
+    },
+    {
+      "arm": "lesson-varied",
+      "step": 0,
+      "version": 0,
+      "complete": 13,
+      "fresh": 6,
+      "rebound": 3
+    },
+    {
+      "arm": "lesson-varied",
+      "step": 0,
+      "version": 1,
+      "complete": 21,
+      "fresh": 10,
+      "rebound": 7
+    },
+    {
+      "arm": "lesson-varied",
+      "step": 0,
+      "version": 2,
+      "complete": 21,
+      "fresh": 11,
+      "rebound": 7
+    },
+    {
+      "arm": "stable",
+      "step": 128,
+      "version": 0,
+      "complete": 14,
+      "fresh": 7,
+      "rebound": 4
+    },
+    {
+      "arm": "stable",
+      "step": 128,
+      "version": 1,
+      "complete": 19,
+      "fresh": 9,
+      "rebound": 5
+    },
+    {
+      "arm": "stable",
+      "step": 128,
+      "version": 2,
+      "complete": 18,
+      "fresh": 9,
+      "rebound": 5
+    },
+    {
+      "arm": "stable",
+      "step": 256,
+      "version": 0,
+      "complete": 23,
+      "fresh": 11,
+      "rebound": 7
+    },
+    {
+      "arm": "stable",
+      "step": 256,
+      "version": 1,
+      "complete": 20,
+      "fresh": 9,
+      "rebound": 5
+    },
+    {
+      "arm": "stable",
+      "step": 256,
+      "version": 2,
+      "complete": 15,
+      "fresh": 7,
+      "rebound": 4
+    },
+    {
+      "arm": "varied",
+      "step": 128,
+      "version": 0,
+      "complete": 21,
+      "fresh": 12,
+      "rebound": 8
+    },
+    {
+      "arm": "varied",
+      "step": 128,
+      "version": 1,
+      "complete": 24,
+      "fresh": 12,
+      "rebound": 6
+    },
+    {
+      "arm": "varied",
+      "step": 128,
+      "version": 2,
+      "complete": 20,
+      "fresh": 10,
+      "rebound": 5
+    },
+    {
+      "arm": "varied",
+      "step": 256,
+      "version": 0,
+      "complete": 15,
+      "fresh": 9,
+      "rebound": 5
+    },
+    {
+      "arm": "varied",
+      "step": 256,
+      "version": 1,
+      "complete": 15,
+      "fresh": 7,
+      "rebound": 3
+    },
+    {
+      "arm": "varied",
+      "step": 256,
+      "version": 2,
+      "complete": 15,
+      "fresh": 8,
+      "rebound": 4
+    }
+  ],
+  "fresh_retention": [
+    {
+      "arm": "base",
+      "step": 0,
+      "version": 1,
+      "previously_correct_unchanged": 12,
+      "retained": 11,
+      "changed": 11,
+      "changed_correct": 4
+    },
+    {
+      "arm": "base",
+      "step": 0,
+      "version": 2,
+      "previously_correct_unchanged": 12,
+      "retained": 11,
+      "changed": 13,
+      "changed_correct": 5
+    },
+    {
+      "arm": "lesson-stable",
+      "step": 0,
+      "version": 1,
+      "previously_correct_unchanged": 11,
+      "retained": 11,
+      "changed": 11,
+      "changed_correct": 6
+    },
+    {
+      "arm": "lesson-stable",
+      "step": 0,
+      "version": 2,
+      "previously_correct_unchanged": 14,
+      "retained": 14,
+      "changed": 13,
+      "changed_correct": 6
+    },
+    {
+      "arm": "lesson-varied",
+      "step": 0,
+      "version": 1,
+      "previously_correct_unchanged": 10,
+      "retained": 10,
+      "changed": 11,
+      "changed_correct": 7
+    },
+    {
+      "arm": "lesson-varied",
+      "step": 0,
+      "version": 2,
+      "previously_correct_unchanged": 15,
+      "retained": 14,
+      "changed": 13,
+      "changed_correct": 7
+    },
+    {
+      "arm": "stable",
+      "step": 128,
+      "version": 1,
+      "previously_correct_unchanged": 14,
+      "retained": 13,
+      "changed": 11,
+      "changed_correct": 4
+    },
+    {
+      "arm": "stable",
+      "step": 128,
+      "version": 2,
+      "previously_correct_unchanged": 12,
+      "retained": 12,
+      "changed": 13,
+      "changed_correct": 5
+    },
+    {
+      "arm": "stable",
+      "step": 256,
+      "version": 1,
+      "previously_correct_unchanged": 16,
+      "retained": 16,
+      "changed": 11,
+      "changed_correct": 3
+    },
+    {
+      "arm": "stable",
+      "step": 256,
+      "version": 2,
+      "previously_correct_unchanged": 11,
+      "retained": 9,
+      "changed": 13,
+      "changed_correct": 6
+    },
+    {
+      "arm": "varied",
+      "step": 128,
+      "version": 1,
+      "previously_correct_unchanged": 16,
+      "retained": 15,
+      "changed": 11,
+      "changed_correct": 7
+    },
+    {
+      "arm": "varied",
+      "step": 128,
+      "version": 2,
+      "previously_correct_unchanged": 15,
+      "retained": 14,
+      "changed": 13,
+      "changed_correct": 6
+    },
+    {
+      "arm": "varied",
+      "step": 256,
+      "version": 1,
+      "previously_correct_unchanged": 11,
+      "retained": 11,
+      "changed": 11,
+      "changed_correct": 4
+    },
+    {
+      "arm": "varied",
+      "step": 256,
+      "version": 2,
+      "previously_correct_unchanged": 12,
+      "retained": 11,
+      "changed": 13,
+      "changed_correct": 4
+    }
+  ],
+  "varied128_paired": [
+    {
+      "version": 0,
+      "reference": "base",
+      "gained": 5,
+      "lost": 2
+    },
+    {
+      "version": 0,
+      "reference": "lesson-stable",
+      "gained": 8,
+      "lost": 7
+    },
+    {
+      "version": 0,
+      "reference": "lesson-varied",
+      "gained": 9,
+      "lost": 1
+    },
+    {
+      "version": 1,
+      "reference": "base",
+      "gained": 8,
+      "lost": 1
+    },
+    {
+      "version": 1,
+      "reference": "lesson-stable",
+      "gained": 7,
+      "lost": 4
+    },
+    {
+      "version": 1,
+      "reference": "lesson-varied",
+      "gained": 6,
+      "lost": 3
+    },
+    {
+      "version": 2,
+      "reference": "base",
+      "gained": 5,
+      "lost": 2
+    },
+    {
+      "version": 2,
+      "reference": "lesson-stable",
+      "gained": 3,
+      "lost": 3
+    },
+    {
+      "version": 2,
+      "reference": "lesson-varied",
+      "gained": 3,
+      "lost": 4
+    }
+  ],
+  "development_order_controls_equal": true,
+  "protocols_precede_fresh_run": true,
+  "fresh_initialization_differs": true,
+  "source_sha256": {
+    "evidence/development-v2/hashes.json": "d95404461f10a9143e34f01d198aab9ad95769391ea585d64eeb7ca2e3f43480",
+    "evidence/development-v2/model.json": "61c51a3c3690f35272a21f5090cc17abd4508a9288205b0d0319b99587f3d958",
+    "evidence/development-v2/stable-256.safetensors": "d721d341dd6b77647f0ecaa8fd3d661969c94cdeb57ec3cb8b75a02695d57a9d",
+    "evidence/development-v2/varied-128.safetensors": "a66cd9567c8a5b7915e196e33b74ae5451ba85e35539e0c5d8d7292216881257",
+    "evidence/development-v2/workload.json": "9d6952022e8e6f67722bf26f83f23a193b54db009bbaff532fe91ae810350b19",
+    "evidence/development-v2/invariants.json": "b40701f293755c4ba0db5d8f0711e3cbf84fa20a0c86c8b71a5cd21cd3b964a0",
+    "evidence/development-v2/varied-256.safetensors": "4b54c06cd66aecdfe35e3c5a1cf04590418c0ab89ec1a2a6718d6506e59aff96",
+    "evidence/development-v2/stable-128.safetensors": "7e8eac44454feeeb7ccfe9d615bc1a8aaeb82dd85240314f250da57711f194ea",
+    "evidence/development-v2/events.jsonl": "206f28d52e9830542d0577d88b712686966627c25e206c524cfb3cb190151ed8",
+    "evidence/development-v2/processes-before.txt": "1f84230e38e3f4e5b3805cfa94e486aa9f7837a1fea4fe9fe479bd290fd0b29d",
+    "evidence/development-v2/manifest.json": "47863651e33446ecac9b91ac0e9698ca934da198c3334c2c27533e4112d26ca5",
+    "evidence/development-v2/initial.json": "199a125e366fd13f57a5599b577a18dd4fddef9e3ba99b3e033ffff924d3dd48",
+    "evidence/development-v2/status.json": "2697aa72083de628e4e8613a7ab56f37413a0d2623912d38ffb2f505f40b9578",
+    "evidence/development-v2/source/uv.lock": "fa263fcb535fcfe0f09f3cd549f331a9f56c2e1fcd9c241ef1a337c0638de448",
+    "evidence/development-v2/source/protocol/development-v1.md": "64a7aa8d62887b3fb11eac4b3365b7a4f16aa8810d8cb4070eff84d1e82a7ad3",
+    "evidence/development-v2/source/notes/methods.md": "f69bc350fb5b29f9f274f3cf6a3ab6e30bbbc61dc6a812ad674c2cebcf3b185b",
+    "evidence/development-v2/source/notes/resource-reservation.md": "1adf92747dd14fc48471f745b49f1617f74a4ea29f18163f1dd3ebe18386fa4e",
+    "evidence/development-v2/source/notes/launch-repair.md": "8e742b5a90fe33abde1e24ea7f45bc37ba3f7d7be3c4185f217c5f3ecfc10947",
+    "evidence/development-v2/source/scripts/cache_sources.py": "4822824096f3b9164c9b3bbc6d3e2f2d3dbf3000a1b58aecc49ef56fdd1ffc97",
+    "evidence/development-v2/source/scripts/workload.py": "bedff25ff5b87b3162a00d1d618ef5765d1a25e63deedfd0360b47d5c87f9a65",
+    "evidence/development-v2/source/scripts/runtime.py": "4f0c6c8fc3f71abdee2306ea3546274a028944ee8ba1be66c5762b1c141a18cc",
+    "evidence/development-v2/source/scripts/experiment.py": "1c8abd2eec2ce860e931993c6a2dbb7f5b5c37ac387415247d3019c373841417",
+    "evidence/development-v2-analysis-v2/report.json": "9a88fe0cc42f812fbc4a5f3e843d0682c737788c0388ac5928066cea539254fb",
+    "evidence/order-diagnostic-v1/hashes.json": "1508083cbaf8bc94572bc40495cc5003b9233ab62338b02f9fcd62738cd3b6b6",
+    "evidence/order-diagnostic-v1/model.json": "61c51a3c3690f35272a21f5090cc17abd4508a9288205b0d0319b99587f3d958",
+    "evidence/order-diagnostic-v1/varied-order.json": "d3d30b67b04e4940f1a426ca5797ece718ff881bc717a83b987af6f502a665b2",
+    "evidence/order-diagnostic-v1/varied-128.safetensors": "ddb7a35380fb5762f7d75abf4d26f1e6583ba18f4966cabef19db477697418c7",
+    "evidence/order-diagnostic-v1/workload.json": "d531e3dabc3bb9a6d50c994311d97b4300a6ca07e0fe93f75d180dc3f65a48af",
+    "evidence/order-diagnostic-v1/invariants.json": "b40701f293755c4ba0db5d8f0711e3cbf84fa20a0c86c8b71a5cd21cd3b964a0",
+    "evidence/order-diagnostic-v1/varied-256.safetensors": "9fcfc9a821f00d2bf376f751869ccd05b8b0fb7e54cfd9bff5e1f588c43d6ccb",
+    "evidence/order-diagnostic-v1/events.jsonl": "110daad5a51f9fdb675b95ab2a12851dc8ff4430ca9f5e8856ab619b975af99a",
+    "evidence/order-diagnostic-v1/processes-before.txt": "0bdccaa132445f848c66f06f0e6e4ccc67a71f9d098bb45f7b2e2e5db73d1915",
+    "evidence/order-diagnostic-v1/manifest.json": "b0d6a8c4a1680d02fb88a7c7c81f2dbe43e4df9895c617e6c49ad94573cbba33",
+    "evidence/order-diagnostic-v1/initial.json": "199a125e366fd13f57a5599b577a18dd4fddef9e3ba99b3e033ffff924d3dd48",
+    "evidence/order-diagnostic-v1/status.json": "e3e59d042ca4e561caecb0a128788b32c0b6e8eca04d5bfcd8fb53b578db1cec",
+    "evidence/order-diagnostic-v1/source/uv.lock": "fa263fcb535fcfe0f09f3cd549f331a9f56c2e1fcd9c241ef1a337c0638de448",
+    "evidence/order-diagnostic-v1/source/protocol/development-v1.md": "64a7aa8d62887b3fb11eac4b3365b7a4f16aa8810d8cb4070eff84d1e82a7ad3",
+    "evidence/order-diagnostic-v1/source/protocol/order-diagnostic-v1.md": "2a352c38d47531774c04f9e710d28e29534ef5e086670c209912871584ed4335",
+    "evidence/order-diagnostic-v1/source/notes/development-observations.md": "eae7251f2e9dabc21f34896e7f2b322071f25fb12b4cb2ef0498f510a081fa3c",
+    "evidence/order-diagnostic-v1/source/notes/workload-check.json": "04d4956b9f964e283ceb881af33bcdfb4e56a422066ff97dde64fda84ece4804",
+    "evidence/order-diagnostic-v1/source/notes/analysis-repair.md": "7cde103cafd73b1cd9cd71d67c6a0f5527d36caee6867b4cf72ef090a9439889",
+    "evidence/order-diagnostic-v1/source/notes/methods.md": "f69bc350fb5b29f9f274f3cf6a3ab6e30bbbc61dc6a812ad674c2cebcf3b185b",
+    "evidence/order-diagnostic-v1/source/notes/resource-reservation.md": "1adf92747dd14fc48471f745b49f1617f74a4ea29f18163f1dd3ebe18386fa4e",
+    "evidence/order-diagnostic-v1/source/notes/launch-repair.md": "8e742b5a90fe33abde1e24ea7f45bc37ba3f7d7be3c4185f217c5f3ecfc10947",
+    "evidence/order-diagnostic-v1/source/notes/reproduction.md": "347c639d9a4a390f98750ac041a928f07085400502691b1f30ad3eb98192f5d7",
+    "evidence/order-diagnostic-v1/source/scripts/audit.py": "06efe1a2597248505b4516253dfa39fa327591527733830ad5ba2864179fb3af",
+    "evidence/order-diagnostic-v1/source/scripts/cache_sources.py": "4822824096f3b9164c9b3bbc6d3e2f2d3dbf3000a1b58aecc49ef56fdd1ffc97",
+    "evidence/order-diagnostic-v1/source/scripts/workload.py": "10472d8a5dc5fdd5af3ff3b05ca1dd1ea5762b629d0087c960ada7e36c51c0ea",
+    "evidence/order-diagnostic-v1/source/scripts/runtime.py": "4f0c6c8fc3f71abdee2306ea3546274a028944ee8ba1be66c5762b1c141a18cc",
+    "evidence/order-diagnostic-v1/source/scripts/experiment.py": "561d4b9ee3f08235dfa3873f813c92c158ed5421ae21a04c47541a71344f5101",
+    "evidence/order-diagnostic-v1/source/scripts/analyze.py": "eb9a34c857b0b86563fd5d452c6b7726eaa2819249cac55803f5307f50f78f9b",
+    "evidence/order-diagnostic-v1-analysis/report.json": "6b32da261f2099186ecec7acfa00c8748b1bbbcb063c050aac7d4a031386fc3a",
+    "evidence/fresh-v1/hashes.json": "87f0e9afb0a5a9918e542a95c7b4de3ccd616b9ec8558577a2ef8437654166ec",
+    "evidence/fresh-v1/model.json": "61c51a3c3690f35272a21f5090cc17abd4508a9288205b0d0319b99587f3d958",
+    "evidence/fresh-v1/varied-order.json": "28e72e91dcad2888afd507edb53935584b42f0312a5e75024a2fc76b2f0844cb",
+    "evidence/fresh-v1/stable-order.json": "28e72e91dcad2888afd507edb53935584b42f0312a5e75024a2fc76b2f0844cb",
+    "evidence/fresh-v1/stable-256.safetensors": "539c2c1bcb25668d94ad4ac3ec9928615eb733e691ab8863a1f6c57469c5a066",
+    "evidence/fresh-v1/varied-128.safetensors": "fe02f6fbd0b640520dc368b1387eb71a53cd0135fdf5c18232899741763f75f4",
+    "evidence/fresh-v1/workload.json": "24d142ad78cb1e88bd11cef877ee08fcb14027cc8870297196cbf1634dd04c2f",
+    "evidence/fresh-v1/invariants.json": "b40701f293755c4ba0db5d8f0711e3cbf84fa20a0c86c8b71a5cd21cd3b964a0",
+    "evidence/fresh-v1/varied-256.safetensors": "1fac056b1f600afb9b9b8b5dcacedecd5898ced874506d80dcf08e56e5d7ff76",
+    "evidence/fresh-v1/stable-128.safetensors": "eb847d543000bbf60da787df1658756b800a18c3df893e0f78c785d0a68987e6",
+    "evidence/fresh-v1/events.jsonl": "8b11ba36fd1e423b0852deba83d8a70e671d7210f1c4988358b9f9a6772e0f45",
+    "evidence/fresh-v1/processes-before.txt": "9ae9b19fc230cd6db2fff5231c9673f16485355d07dc0f123badf1b05a030092",
+    "evidence/fresh-v1/manifest.json": "998c5a1b527c5f393d923441f5506a0a0910a6d869923f3320cc24736316e0ca",
+    "evidence/fresh-v1/initial.json": "a02fb555da2a026ac2110cf9c4e8db7f4f0ec8399fa9bff953c2395f68a254b6",
+    "evidence/fresh-v1/status.json": "feac0be76f8bd7dbb8d758cfd41e77d70c610744090a29fd2bab3291fed4c1c5",
+    "evidence/fresh-v1/source/uv.lock": "fa263fcb535fcfe0f09f3cd549f331a9f56c2e1fcd9c241ef1a337c0638de448",
+    "evidence/fresh-v1/source/protocol/development-v1.md": "64a7aa8d62887b3fb11eac4b3365b7a4f16aa8810d8cb4070eff84d1e82a7ad3",
+    "evidence/fresh-v1/source/protocol/order-diagnostic-v1.md": "2a352c38d47531774c04f9e710d28e29534ef5e086670c209912871584ed4335",
+    "evidence/fresh-v1/source/protocol/final-v1.md": "aabeffd2899ff0255edd1325272c6211a8fa48e83f68dab3b9709a03aa18d0e6",
+    "evidence/fresh-v1/source/notes/development-observations.md": "eae7251f2e9dabc21f34896e7f2b322071f25fb12b4cb2ef0498f510a081fa3c",
+    "evidence/fresh-v1/source/notes/order-comparison-check.json": "ddbe51e87a2f87be5a04c68e317644dbf4b9223313201df5e104d382a63e3390",
+    "evidence/fresh-v1/source/notes/workload-check.json": "04d4956b9f964e283ceb881af33bcdfb4e56a422066ff97dde64fda84ece4804",
+    "evidence/fresh-v1/source/notes/analysis-repair.md": "7cde103cafd73b1cd9cd71d67c6a0f5527d36caee6867b4cf72ef090a9439889",
+    "evidence/fresh-v1/source/notes/final-decision.md": "8215d738d80630ef7834734d04b92a0556cd04604bfe87b6d418349eacc5fea9",
+    "evidence/fresh-v1/source/notes/methods.md": "f69bc350fb5b29f9f274f3cf6a3ab6e30bbbc61dc6a812ad674c2cebcf3b185b",
+    "evidence/fresh-v1/source/notes/fresh-binding-review.md": "f47c055a9aae3445065e1ea97fbda41660c90738ae0330db4051f28014689f6c",
+    "evidence/fresh-v1/source/notes/resource-reservation.md": "1adf92747dd14fc48471f745b49f1617f74a4ea29f18163f1dd3ebe18386fa4e",
+    "evidence/fresh-v1/source/notes/launch-repair.md": "8e742b5a90fe33abde1e24ea7f45bc37ba3f7d7be3c4185f217c5f3ecfc10947",
+    "evidence/fresh-v1/source/notes/reproduction.md": "347c639d9a4a390f98750ac041a928f07085400502691b1f30ad3eb98192f5d7",
+    "evidence/fresh-v1/source/scripts/audit.py": "06efe1a2597248505b4516253dfa39fa327591527733830ad5ba2864179fb3af",
+    "evidence/fresh-v1/source/scripts/cache_sources.py": "4822824096f3b9164c9b3bbc6d3e2f2d3dbf3000a1b58aecc49ef56fdd1ffc97",
+    "evidence/fresh-v1/source/scripts/workload.py": "4c02812e0b2e575cfde4ee85cd8517e2f63c12c76eb0a19599ae932e65ca917f",
+    "evidence/fresh-v1/source/scripts/runtime.py": "4f0c6c8fc3f71abdee2306ea3546274a028944ee8ba1be66c5762b1c141a18cc",
+    "evidence/fresh-v1/source/scripts/experiment.py": "0a2912a7291cb9448dc63b5085d360780fd3c149ac690096103c37b58af319e8",
+    "evidence/fresh-v1/source/scripts/analyze.py": "a03e123f349435207c10d1fa30010a242803f7a331c99f0e4a1fa87d8b1e5dc8",
+    "evidence/fresh-v1/source/scripts/publish.py": "e1ab770259e3d5014d9a51c81cc0900ab985db3a9e3125aa3291afaca2103493",
+    "evidence/fresh-v1-analysis/report.json": "237849a67b9094f5ef59d43894c4889d6c21fc1d7f75dbe2a8167fe96872df5c",
+    "protocol/development-v1.md": "64a7aa8d62887b3fb11eac4b3365b7a4f16aa8810d8cb4070eff84d1e82a7ad3",
+    "protocol/order-diagnostic-v1.md": "2a352c38d47531774c04f9e710d28e29534ef5e086670c209912871584ed4335",
+    "protocol/final-v1.md": "aabeffd2899ff0255edd1325272c6211a8fa48e83f68dab3b9709a03aa18d0e6",
+    "notes/final-decision.md": "8215d738d80630ef7834734d04b92a0556cd04604bfe87b6d418349eacc5fea9"
+  },
+  "limits": "Independent saved-text scoring and accounting; no model, tokenizer, gradient, reload or causal mechanism reproduction."
+}

@@ -3,6 +3,27 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [17 September evidence-use publication review](2026-09-17-evidence-use-review/README.md)
+records first acceptance at `da1233f`, independent saved-response scoring and
+cost checks, and a targeted revisit of P57. The
+[root assessment](../studies/2026-09-17-evidence-use-findings.md) distinguishes
+limited transfer and durability, favorable measured candidate cost, and the
+unresolved selection/construction costs. It closes the bounded phase.
+
+The [executable artifact ledger](2026-09-17-executable-artifacts/README.md) pins
+AWM and SkillWeaver code, checks released libraries and follows execution,
+reference content, verification and cost paths. The
+[completed review](../studies/2026-09-17-executable-feasibility.md) selects bounded
+independent development of acquired implementation versus reconstruction; it
+neither reproduces public outcomes nor commissions an experiment.
+
+The [17 September executable-experience reading](2026-09-17-executable-experience/README.md)
+adds P60–P70, deepens the existing Voyager background and follows library learning,
+workflow representation, cost-matched re-evaluation and programmatic migration.
+The [selection](../notes/EXECUTABLE_EXPERIENCE.md) narrows the question to the
+marginal benefit of retaining code over regenerating executable behavior from
+experience. Generic tool creation and repair are already substantially answered.
+
 The [evidence-use selection reading](2026-09-16-evidence-use/README.md) adds
 P54–P59: RAFT, RA-DIT, controlled ICL/finetuning generalization,
 context-parametric inversion, context-faithful prompting and CARE. Positive
@@ -137,3 +158,10 @@ Voyager remains relevant background on system-level persistence, but executable
 skill libraries are a lower-interest direction for this program. The question map
 reflects this preference without treating it as an empirical verdict about
 executable skills.
+
+
+**17 September clarification:** The user authorized focused research selection on
+executable experience while the evidence-use study runs. The historical preference
+above remains part of the record, not a prohibition on examining this allocation.
+The selected artifact review tests a consequential comparison; it does not replace
+the neural-learning emphasis or commission a general tool-building program.

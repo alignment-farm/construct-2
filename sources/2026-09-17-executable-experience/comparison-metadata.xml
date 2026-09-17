@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T3DDzB9Cnkpd73jGsF1rUFIJJGo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2409.07429,2408.16151,2602.01107&amp;start=0&amp;max_results=3</title>
+  <updated>2026-09-17T05:43:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=3&amp;id_list=2409.07429,2408.16151,2602.01107" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.07429v1</id>
+    <title>Agent Workflow Memory</title>
+    <updated>2024-09-11T17:21:00Z</updated>
+    <link href="https://arxiv.org/abs/2409.07429v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.07429v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite the potential of language model-based agents to solve real-world tasks such as web navigation, current methods still struggle with long-horizon tasks with complex action trajectories. In contrast, humans can flexibly solve complex tasks by learning reusable task workflows from past experiences and using them to guide future actions. To build agents that can similarly benefit from this process, we introduce Agent Workflow Memory (AWM), a method for inducing commonly reused routines, i.e., workflows, and selectively providing workflows to the agent to guide subsequent generations. AWM flexibly applies to both offline and online scenarios, where agents induce workflows from training examples beforehand or from test queries on the fly. We experiment on two major web navigation benchmarks -- Mind2Web and WebArena -- that collectively cover 1000+ tasks from 200+ domains across travel, shopping, and social media, among others. AWM substantially improves the baseline results by 24.6% and 51.1% relative success rate on Mind2Web and WebArena while reducing the number of steps taken to solve WebArena tasks successfully. Furthermore, online AWM robustly generalizes in cross-task, website, and domain evaluations, surpassing baselines from 8.9 to 14.0 absolute points as train-test task distribution gaps widen.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-11T17:21:00Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zora Zhiruo Wang</name>
+    </author>
+    <author>
+      <name>Jiayuan Mao</name>
+    </author>
+    <author>
+      <name>Daniel Fried</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.16151v3</id>
+    <title>Automatic Library Migration Using Large Language Models: First Results</title>
+    <updated>2024-09-25T18:17:06Z</updated>
+    <link href="https://arxiv.org/abs/2408.16151v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.16151v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite being introduced only a few years ago, Large Language Models (LLMs) are already widely used by developers for code generation. However, their application in automating other Software Engineering activities remains largely unexplored. Thus, in this paper, we report the first results of a study in which we are exploring the use of ChatGPT to support API migration tasks, an important problem that demands manual effort and attention from developers. Specifically, in the paper, we share our initial results involving the use of ChatGPT to migrate a client application to use a newer version of SQLAlchemy, an ORM (Object Relational Mapping) library widely used in Python. We evaluate the use of three types of prompts (Zero-Shot, One-Shot, and Chain Of Thoughts) and show that the best results are achieved by the One-Shot prompt, followed by the Chain Of Thoughts. Particularly, with the One-Shot prompt we were able to successfully migrate all columns of our target application and upgrade its code to use new functionalities enabled by SQLAlchemy's latest version, such as Python's asyncio and typing modules, while preserving the original code behavior.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-28T22:03:54Z</published>
+    <arxiv:comment>Accepted at 18th International Symposium on Empirical Software Engineering and Measurement (ESEM), pages 1-7, 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Aylton Almeida</name>
+    </author>
+    <author>
+      <name>Laerte Xavier</name>
+    </author>
+    <author>
+      <name>Marco Tulio Valente</name>
+    </author>
+    <arxiv:doi>10.1145/3674805.3690746</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3674805.3690746" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01107v1</id>
+    <title>SPELL: Synthesis of Programmatic Edits using LLMs</title>
+    <updated>2026-02-01T09:03:56Z</updated>
+    <link href="https://arxiv.org/abs/2602.01107v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01107v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Library migration is a common but error-prone task in software development. Developers may need to replace one library with another due to reasons like changing requirements or licensing changes. Migration typically entails updating and rewriting source code manually. While automated migration tools exist, most rely on mining examples from real-world projects that have already undergone similar migrations. However, these data are scarce, and collecting them for arbitrary pairs of libraries is difficult. Moreover, these migration tools often miss out on leveraging modern code transformation infrastructure.
+  In this paper, we present a new approach to automated API migration that sidesteps the limitations described above. Instead of relying on existing migration data or using LLMs directly for transformation, we use LLMs to extract migration examples. Next, we use an Agent to generalize those examples to reusable transformation scripts in PolyglotPiranha, a modern code transformation tool. Our method distills latent migration knowledge from LLMs into structured, testable, and repeatable migration logic, without requiring preexisting corpora or manual engineering effort. Experimental results across Python libraries show that our system can generate diverse migration examples and synthesize transformation scripts that generalize to real-world codebases.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T09:03:56Z</published>
+    <arxiv:comment>pre-print</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Daniel Ramos</name>
+    </author>
+    <author>
+      <name>Catarina Gamboa</name>
+    </author>
+    <author>
+      <name>Inês Lynce</name>
+    </author>
+    <author>
+      <name>Vasco Manquinho</name>
+    </author>
+    <author>
+      <name>Ruben Martins</name>
+    </author>
+    <author>
+      <name>Claire Le Goues</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sqd6Q7goC+skSJWx/gT7VtuRKR8</id>
+  <title>arXiv Query: search_query=ti:TroVE OR ti:PolySkill OR ti:"LLM Agents Making Agent Tools" OR ti:"Harness Continual Learning" OR ti:"DreamCoder"&amp;id_list=&amp;start=0&amp;max_results=15</title>
+  <updated>2026-09-17T05:41:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:TroVE+OR+(ti:PolySkill+OR+(ti:%22LLM+Agents+Making+Agent+Tools%22+OR+(ti:%22Harness+Continual+Learning%22+OR+ti:%22DreamCoder%22)))&amp;start=0&amp;max_results=15&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>15</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.11705v2</id>
+    <title>LLM Agents Making Agent Tools</title>
+    <updated>2025-05-29T18:47:41Z</updated>
+    <link href="https://arxiv.org/abs/2502.11705v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.11705v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool use has turned large language models (LLMs) into powerful agents that can perform complex multi-step tasks by dynamically utilising external software components. However, these tools must be implemented in advance by human developers, hindering the applicability of LLM agents in domains demanding large numbers of highly specialised tools, like in life sciences and medicine. Motivated by the growing trend of scientific studies accompanied by public code repositories, we propose ToolMaker, an agentic framework that autonomously transforms papers with code into LLM-compatible tools. Given a GitHub URL and short task description, ToolMaker autonomously installs dependencies and generates code to perform the task, using a closed-loop self-correction mechanism for debugging. To evaluate our approach, we introduce a benchmark comprising 15 complex computational tasks spanning various domains with over 100 unit tests to assess correctness and robustness. Our method correctly implements 80% of the tasks, substantially outperforming current state-of-the-art software engineering agents. ToolMaker therefore is a step towards fully autonomous agent-based scientific workflows. Our code and benchmark are publicly available at https://github.com/KatherLab/ToolMaker.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-17T11:44:11Z</published>
+    <arxiv:comment>Accepted at ACL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Georg Wölflein</name>
+    </author>
+    <author>
+      <name>Dyke Ferber</name>
+    </author>
+    <author>
+      <name>Daniel Truhn</name>
+    </author>
+    <author>
+      <name>Ognjen Arandjelović</name>
+    </author>
+    <author>
+      <name>Jakob Nikolas Kather</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.19013v1</id>
+    <title>Harness Continual Learning: Continual Adaptation Beyond Model Parameters</title>
+    <updated>2026-08-19T15:12:31Z</updated>
+    <link href="https://arxiv.org/abs/2608.19013v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.19013v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continual learning has largely been model-centric, treating model parameters as the state that changes with sequential experience. Modern agents can also adapt through a harness of prompts, memories, tools, skills, and routing rules. Because these contents jointly shape later execution, a harness update can disrupt previously reliable behavior even when the model is frozen. This raises a new question: how can an agent continually improve its state outside the model while retaining behavior acquired earlier? We formulate Harness Continual Learning (HCL), a new continual learning paradigm in which the harness evolves around a frozen foundation model, and define the resulting loss of earlier behavior as harness-level forgetting. We instantiate HCL with four execution-facing components: the Task Interface, Experience Memory, Capability Map, and Adaptive Router. We further introduce guarded harness evolution to separate update generation from state commitment. A Continual Optimizer proposes candidate harnesses from post-execution feedback, and a Continual Evaluator commits the resulting candidate harness only after checking current improvement, historical retention, and validity. Experiments on textual reasoning, multimodal perception, and open-world interaction demonstrate capability accumulation and failure recovery, with relative gains exceeding 10% over corresponding baselines in multiple settings. Component ablations assess the contribution of each harness component, while controlled retention sweeps reveal measurable harness-level forgetting and show that the stability--plasticity trade-off can be explicitly adjusted.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-19T15:12:31Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Borui Kang</name>
+    </author>
+    <author>
+      <name>Jinrui Gu</name>
+    </author>
+    <author>
+      <name>Junhan Lv</name>
+    </author>
+    <author>
+      <name>Wenbin Li</name>
+    </author>
+    <author>
+      <name>Lei Wang</name>
+    </author>
+    <author>
+      <name>Yang Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.15863v2</id>
+    <title>PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction</title>
+    <updated>2026-03-02T03:34:00Z</updated>
+    <link href="https://arxiv.org/abs/2510.15863v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.15863v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are moving beyond static uses and are now powering agents that learn continually during their interaction with external environments. For example, agents can learn reusable skills while navigating web pages or toggling new tools. However, existing methods for skill learning often create skills that are over-specialized to a single website and fail to generalize. We introduce PolySkill, a new framework that enables agents to learn generalizable and compositional skills. The core idea, inspired by polymorphism in software engineering, is to decouple a skill's abstract goal (what it accomplishes) and its concrete implementation (how it is executed). Experiments show that our method (1) improves skill reuse by 1.7x on seen websites and (2) boosts success rates by up to 9.4% on Mind2Web and 13.9% on unseen websites, while reducing steps by over 20%. (3) In self-exploration settings without specified tasks, our framework improves the quality of proposed tasks and enables agents to learn generalizable skills that work across different sites. By enabling the agent to identify and refine its own goals, the PolySkill enhances the agent's ability to learn a better curriculum, leading to the acquisition of more generalizable skills compared to baseline methods. This work provides a practical path toward building agents capable of continual learning in adaptive environments. Our findings show that separating a skill's goal from its execution is a crucial step toward developing autonomous agents that can learn and generalize across the open web continuously. Our code can be found in https://github.com/simonucl/PolySkill.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-17T17:56:00Z</published>
+    <arxiv:comment>29 pages, 6 figures, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Simon Yu</name>
+    </author>
+    <author>
+      <name>Gang Li</name>
+    </author>
+    <author>
+      <name>Weiyan Shi</name>
+    </author>
+    <author>
+      <name>Peng Qi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.01857v1</id>
+    <title>Trove: A Flexible Toolkit for Dense Retrieval</title>
+    <updated>2025-11-03T18:59:57Z</updated>
+    <link href="https://arxiv.org/abs/2511.01857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.01857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Trove, an easy-to-use open-source retrieval toolkit that simplifies research experiments without sacrificing flexibility or speed. For the first time, we introduce efficient data management features that load and process (filter, select, transform, and combine) retrieval datasets on the fly, with just a few lines of code. This gives users the flexibility to easily experiment with different dataset configurations without the need to compute and store multiple copies of large datasets. Trove is highly customizable: in addition to many built-in options, it allows users to freely modify existing components or replace them entirely with user-defined objects. It also provides a low-code and unified pipeline for evaluation and hard negative mining, which supports multi-node execution without any code changes. Trove's data management features reduce memory consumption by a factor of 2.6. Moreover, Trove's easy-to-use inference pipeline incurs no overhead, and inference times decrease linearly with the number of available nodes. Most importantly, we demonstrate how Trove simplifies retrieval experiments and allows for arbitrary customizations, thus facilitating exploratory research.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-03T18:59:57Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Reza Esfandiarpoor</name>
+    </author>
+    <author>
+      <name>Max Zuo</name>
+    </author>
+    <author>
+      <name>Stephen H. Bach</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.07473v1</id>
+    <title>The Unexplored Treasure Trove of Phabricator Code Review</title>
+    <updated>2022-03-14T20:14:49Z</updated>
+    <link href="https://arxiv.org/abs/2203.07473v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.07473v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Phabricator is a modern code collaboration tool used by popular projects like FreeBSD and Mozilla. However, unlike the other well-known code review environments, such as Gerrit or GitHub, there is no readily accessible public code review dataset for Phabricator. This paper describes our experience mining code reviews from five different projects that use Phabricator (Blender, FreeBSD, KDE, LLVM, and Mozilla). We discuss the challenges associated with the data retrieval process and our solutions, resulting in a dataset with details regarding 317,476 Phabricator code reviews. Our dataset is available in both JSON and MySQL database dump formats. The dataset enables analyses of the history of code reviews at a more granular level than other platforms. In addition, given that the projects we mined are publicly accessible via the Conduit API, our dataset can be used as a foundation to fetch additional details and insights.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-14T20:14:49Z</published>
+    <arxiv:comment>5 pages. To be published in Proceedings of MSR '22: Proceedings of the 19th International Conference on Mining Software Repositories (MSR 2022). ACM, New York, NY, USA</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Gunnar Kudrjavets</name>
+      <arxiv:affiliation>University of Groningen</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nachiappan Nagappan</name>
+      <arxiv:affiliation>Microsoft Research</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ayushi Rastogi</name>
+      <arxiv:affiliation>University of Groningen</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1145/3524842.3528005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3524842.3528005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.22069v2</id>
+    <title>A Compute-Matched Re-Evaluation of TroVE on MATH</title>
+    <updated>2025-07-31T07:33:11Z</updated>
+    <link href="https://arxiv.org/abs/2507.22069v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.22069v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reusing established theorems and formulas is central to mathematical problem solving, serving as essential building blocks for tackling increasingly complex challenges. Recent work, TroVE, argues that code-generating Large Language Models (LLMs) can benefit similarly on the MATH benchmark by inducing and reusing higher-level toolboxes. By allocating computational budget across an ensemble of three modes -- directly generating code, creating tools, and reusing tools -- TroVE claims to outperform a PRIMITIVE baseline that only performs direct generation. However, recent analysis (Berlot-Attwell et al., 2024) casts doubt on these gains, noting that the tools created are often trivial or rarely reused, suggesting that improvements may stem from self-consistency or self-correction. In this work, we re-evaluate TroVE on MATH, analyze the impact of each of its modes, and show that its benefit does not come from these mechanisms, but simply from a higher computational budget spent for TroVE compared to PRIMITIVE. To this end, we also perform a small correction in the original implementation of TroVE's selection mechanism, boosting TroVE's performance on MATH by 3\% in accuracy. After matching for compute, the benefit of TroVE reduces to a marginal improvement of 1\%, suggesting that this toolbox approach does not provide a significant benefit on MATH.</summary>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-16T03:11:43Z</published>
+    <arxiv:primary_category term="cs.PL"/>
+    <arxiv:journal_ref>2nd AI for Math Workshop at ICML 2025</arxiv:journal_ref>
+    <author>
+      <name>Tobias Sesterhenn</name>
+    </author>
+    <author>
+      <name>Ian Berlot-Attwell</name>
+    </author>
+    <author>
+      <name>Janis Zenkner</name>
+    </author>
+    <author>
+      <name>Christian Bartelt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.08381v1</id>
+    <title>DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep Bayesian program learning</title>
+    <updated>2020-06-15T13:06:29Z</updated>
+    <link href="https://arxiv.org/abs/2006.08381v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.08381v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Expert problem-solving is driven by powerful languages for thinking about problems and their solutions. Acquiring expertise means learning these languages -- systems of concepts, alongside the skills to use them. We present DreamCoder, a system that learns to solve problems by writing programs. It builds expertise by creating programming languages for expressing domain concepts, together with neural networks to guide the search for programs within these languages. A ``wake-sleep'' learning algorithm alternately extends the language with new symbolic abstractions and trains the neural network on imagined and replayed problems. DreamCoder solves both classic inductive programming tasks and creative tasks such as drawing pictures and building scenes. It rediscovers the basics of modern functional programming, vector algebra and classical physics, including Newton's and Coulomb's laws. Concepts are built compositionally from those learned earlier, yielding multi-layered symbolic representations that are interpretable and transferrable to new tasks, while still growing scalably and flexibly with experience.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-15T13:06:29Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kevin Ellis</name>
+    </author>
+    <author>
+      <name>Catherine Wong</name>
+    </author>
+    <author>
+      <name>Maxwell Nye</name>
+    </author>
+    <author>
+      <name>Mathias Sable-Meyer</name>
+    </author>
+    <author>
+      <name>Luc Cary</name>
+    </author>
+    <author>
+      <name>Lucas Morales</name>
+    </author>
+    <author>
+      <name>Luke Hewitt</name>
+    </author>
+    <author>
+      <name>Armando Solar-Lezama</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.12869v1</id>
+    <title>TroVE: Inducing Verifiable and Efficient Toolboxes for Solving Programmatic Tasks</title>
+    <updated>2024-01-23T16:03:17Z</updated>
+    <link href="https://arxiv.org/abs/2401.12869v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.12869v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language models (LMs) can solve tasks such as answering questions about tables or images by writing programs. However, using primitive functions often leads to verbose and error-prone programs, and higher-level functions require expert design. To enable better solutions without human labor, we ask code LMs to curate reusable high-level functions, and use them to write solutions. We present TROVE, a training-free method of inducing a verifiable and efficient toolbox of functions, by generating via using, growing, and periodically trimming the toolbox. On 11 datasets from math, table question answering, and image reasoning tasks, TROVE consistently yields simpler solutions with higher accuracy than baselines using CODELLAMA and previous methods using GPT, while using 79-98% smaller toolboxes. TROVE further enables 31% faster and 13% more accurate human verification than baselines. With the same pipeline, it creates diverse functions for varied tasks and datasets, providing insights into their individual characteristics.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-23T16:03:17Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhiruo Wang</name>
+    </author>
+    <author>
+      <name>Daniel Fried</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.02194v1</id>
+    <title>A Treasure Trove of Performance: Analyzing the IO500 Submission Data</title>
+    <updated>2026-05-04T03:47:16Z</updated>
+    <link href="https://arxiv.org/abs/2605.02194v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.02194v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The IO500 benchmark has become the community standard for evaluating HPC storage system performance, yet the detailed data contained in its submission packages remains largely unexplored beyond aggregate leaderboard rankings. We present a statistical characterization of 61 IO500 submissions from four competition lists (ISC21 through SC22), examining score distributions, inter-phase correlations, and insights derived from detailed log files that accompany each submission. Our analysis reveals that IO500 scores span four orders of magnitude. Spearman correlation analysis shows strong within-domain clustering for both bandwidth (rs = 0.78 to 0.96) and metadata (rs = 0.89 to 0.98) phases, with the composite sub-scores exhibiting rs = 0.92 at per-node level (Pearson r = 0.53). Log-level analysis uncovers file-system-specific patterns in IOR close-time overhead, straggler behavior during the stonewall wear-down phase, and parallel-find load imbalance that are invisible in aggregate scores. These findings demonstrate that IO500 submission packages constitute a valuable research resource for understanding storage system behavior. The full submission dataset is publicly available at https://github.com/IO500/submission-data, and analysis scripts at https://gitlab-ce.gwdg.de/hpc-team/io500-analysis.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-04T03:47:16Z</published>
+    <arxiv:comment>Accepted at IXPUG Workshop at ISC High Performance 2026 (Springer LNCS). \c{opyright} The Author(s), under exclusive license to Springer Nature Switzerland AG 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Julian Kunkel</name>
+    </author>
+    <author>
+      <name>Aasish Kumar Sharma</name>
+    </author>
+    <author>
+      <name>Anila Ghazanfar</name>
+    </author>
+    <author>
+      <name>Sepehr Mahmoodianhamedani</name>
+    </author>
+    <author>
+      <name>Sascha Safenreider</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.10967v1</id>
+    <title>TROVE Feature Detection for Online Pose Recovery by Binocular Cameras</title>
+    <updated>2018-12-28T12:07:37Z</updated>
+    <link href="https://arxiv.org/abs/1812.10967v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.10967v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes a new and efficient method to estimate 6-DoF ego-states: attitudes and positions in real time. The proposed method extract information of ego-states by observing a feature called "TROVE" (Three Rays and One VErtex). TROVE features are projected from structures that are ubiquitous on man-made constructions and objects. The proposed method does not search for conventional corner-type features nor use Perspective-n-Point (PnP) methods, and it achieves a real-time estimation of attitudes and positions up to 60 Hz. The accuracy of attitude estimates can reach 0.3 degrees and that of position estimates can reach 2 cm in an indoor environment. The result shows a promising approach for unmanned robots to localize in an environment that is rich in man-made structures.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-28T12:07:37Z</published>
+    <arxiv:comment>18 pages, 21 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yuance Liu</name>
+    </author>
+    <author>
+      <name>Michael Z. Q. Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.07943v1</id>
+    <title>TRoVE: Transforming Road Scene Datasets into Photorealistic Virtual Environments</title>
+    <updated>2022-08-16T20:46:08Z</updated>
+    <link href="https://arxiv.org/abs/2208.07943v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.07943v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-quality structured data with rich annotations are critical components in intelligent vehicle systems dealing with road scenes. However, data curation and annotation require intensive investments and yield low-diversity scenarios. The recently growing interest in synthetic data raises questions about the scope of improvement in such systems and the amount of manual work still required to produce high volumes and variations of simulated data. This work proposes a synthetic data generation pipeline that utilizes existing datasets, like nuScenes, to address the difficulties and domain-gaps present in simulated datasets. We show that using annotations and visual cues from existing datasets, we can facilitate automated multi-modal data generation, mimicking real scene properties with high-fidelity, along with mechanisms to diversify samples in a physically meaningful way. We demonstrate improvements in mIoU metrics by presenting qualitative and quantitative experiments with real and synthetic data for semantic segmentation on the Cityscapes and KITTI-STEP datasets. All relevant code and data is released on github (https://github.com/shubham1810/trove_toolkit).</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-16T20:46:08Z</published>
+    <arxiv:comment>18 pages, 5 figures, Accepted in European Conference on Computer Vision (ECCV 2022)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shubham Dokania</name>
+    </author>
+    <author>
+      <name>Anbumani Subramanian</name>
+    </author>
+    <author>
+      <name>Manmohan Chandraker</name>
+    </author>
+    <author>
+      <name>C. V. Jawahar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.05019v1</id>
+    <title>TROVE: Adaptive Agent Skill Orchestration via Trace-Grounded Route Validation and Editing</title>
+    <updated>2026-09-04T11:38:13Z</updated>
+    <link href="https://arxiv.org/abs/2609.05019v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.05019v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agents tend to optimize, select, or constrain execution structures before decisive runtime outcomes are observed. However, such pre-execution commitment creates an orchestration bottleneck: when intermediate evidence invalidates the pending continuation, agents must either execute stale steps or replan broadly, compounding errors, wasting computation, and discarding progress. We thus propose Trace-grounded Route Orchestration via Validation and Editing (TROVE), which revises only what runtime evidence invalidates. Offline, TROVE distills evaluated workflow-search traces into atomic and composite skills and an outcome-conditioned transition graph, preserving stable fragments while exposing outcome-dependent decisions. Online, it treats a planned route as provisional: after committing one top-level skill, the controller retains a valid continuation, inserts a trace-supported local response, or replaces only the invalid suffix. Evaluation across code-generation, question-answering, and math reasoning benchmarks with different LLM backbones show that TROVE delivers a stronger quality-efficiency trade-off than existing baselines of dataset-level optimization, query-level architecture selection, and graph-constrained scheduling. Quality gains are largest when outcomes change the appropriate continuation, whereas early termination yields substantial efficiency gains on near-saturated tasks. Ablations further show that composite skills capture most offline benefits, insertion enables local correction, and suffix replacement primarily improves efficiency. These findings establish selective route editing as a general principle for adaptive agent orchestration.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-04T11:38:13Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tianxing Wang</name>
+    </author>
+    <author>
+      <name>Mingming Zhao</name>
+    </author>
+    <author>
+      <name>Shuai Huang</name>
+    </author>
+    <author>
+      <name>Huiyang Xu</name>
+    </author>
+    <author>
+      <name>Chaoyue Niu</name>
+    </author>
+    <author>
+      <name>Shengzhong Liu</name>
+    </author>
+    <author>
+      <name>Fan Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.22124v1</id>
+    <title>Deep insights into Abell 2163: unveiling the treasure trove of ICM plasma physics</title>
+    <updated>2025-11-27T05:35:37Z</updated>
+    <link href="https://arxiv.org/abs/2511.22124v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.22124v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nonthermal emission observed in galaxy clusters provides a direct probe into the plasma physics of the intra-cluster medium (ICM) under extreme conditions. We report the first detailed analysis of the giant radio halo in the merging galaxy cluster Abell 2163, using upgraded Giant Metrewave Radio Telescope (uGMRT) and Very Large Array (VLA) observations. Combining radio data (300-1400 MHz) with archival X-ray data offers a unique opportunity to study the complex ICM physics of the cluster. The sensitive uGMRT observations map the halo emission for the first time out to an extent of ~3.3 Mpc, up to $r_{500}$, and also effectively recover other diffuse sources. The radio surface brightness profile is well fitted with an exponential function up to r$_{500}$, with an evolution of e-folding radius over frequencies (larger at low frequencies). The spatially resolved spectral index map reveals fluctuations and outward radial steepening of the average spectral index. Radio and X-ray surface brightness are well correlated, with a correlation slope of $\sim$0.70 for the halo, and $\sim$0.40 for the ridge. The correlation slope varies from cluster centre to outskirts, suggesting the magnetic field and thermal gas density scaling relation (B $\propto n_{e}^{0.5}$) should be reassessed, provided that the re-acceleration efficiency is constant. We propose that diffuse lobes at the periphery could serve as a reservoir for seed electrons, behind the radio halo emission, with an estimated acceleration efficiency reaching $\sim$0.1% in the external regions. Additionally, a major E-W merger is suggested, leading to turbulence in the ICM and generating the halo.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-27T05:35:37Z</published>
+    <arxiv:comment>26 pages (total), 33 figures, 8 tables, 3 appendix (6 figures). Accepted for publication in MNRAS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Ramananda Santra</name>
+      <arxiv:affiliation>National Centre for Radio Astrophysics, Tata Institute of Fundamental Research, Pune, India</arxiv:affiliation>
+      <arxiv:affiliation>INAF - IRA, Bologna, Italy</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ruta Kale</name>
+      <arxiv:affiliation>National Centre for Radio Astrophysics, Tata Institute of Fundamental Research, Pune, India</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Simona Giacintucci</name>
+      <arxiv:affiliation>Naval Research Laboratory, Washington, DC, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Herve Bourdin</name>
+      <arxiv:affiliation>Dipartimento di Fisica, Università di Roma Tor Vergata, Roma, Italy</arxiv:affiliation>
+      <arxiv:affiliation>INFN, Sezione di Roma 2, Università di Roma Tor Vergata, Roma, Italy</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rashi Jain</name>
+      <arxiv:affiliation>National Centre for Radio Astrophysics, Tata Institute of Fundamental Research, Pune, India</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrea Botteon</name>
+      <arxiv:affiliation>INAF - IRA, Bologna, Italy</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gianfranco Brunetti</name>
+      <arxiv:affiliation>INAF - IRA, Bologna, Italy</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.08994v3</id>
+    <title>REFUGE2 Challenge: A Treasure Trove for Multi-Dimension Analysis and Evaluation in Glaucoma Screening</title>
+    <updated>2022-12-29T07:48:59Z</updated>
+    <link href="https://arxiv.org/abs/2202.08994v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.08994v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid development of artificial intelligence (AI) in medical image processing, deep learning in color fundus photography (CFP) analysis is also evolving. Although there are some open-source, labeled datasets of CFPs in the ophthalmology community, large-scale datasets for screening only have labels of disease categories, and datasets with annotations of fundus structures are usually small in size. In addition, labeling standards are not uniform across datasets, and there is no clear information on the acquisition device. Here we release a multi-annotation, multi-quality, and multi-device color fundus image dataset for glaucoma analysis on an original challenge -- Retinal Fundus Glaucoma Challenge 2nd Edition (REFUGE2). The REFUGE2 dataset contains 2000 color fundus images with annotations of glaucoma classification, optic disc/cup segmentation, as well as fovea localization. Meanwhile, the REFUGE2 challenge sets three sub-tasks of automatic glaucoma diagnosis and fundus structure analysis and provides an online evaluation framework. Based on the characteristics of multi-device and multi-quality data, some methods with strong generalizations are provided in the challenge to make the predictions more robust. This shows that REFUGE2 brings attention to the characteristics of real-world multi-domain data, bridging the gap between scientific research and clinical application.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-18T02:56:21Z</published>
+    <arxiv:comment>29 pages, 21 figures</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Huihui Fang</name>
+    </author>
+    <author>
+      <name>Fei Li</name>
+    </author>
+    <author>
+      <name>Junde Wu</name>
+    </author>
+    <author>
+      <name>Huazhu Fu</name>
+    </author>
+    <author>
+      <name>Xu Sun</name>
+    </author>
+    <author>
+      <name>Jaemin Son</name>
+    </author>
+    <author>
+      <name>Shuang Yu</name>
+    </author>
+    <author>
+      <name>Menglu Zhang</name>
+    </author>
+    <author>
+      <name>Chenglang Yuan</name>
+    </author>
+    <author>
+      <name>Cheng Bian</name>
+    </author>
+    <author>
+      <name>Baiying Lei</name>
+    </author>
+    <author>
+      <name>Benjian Zhao</name>
+    </author>
+    <author>
+      <name>Xinxing Xu</name>
+    </author>
+    <author>
+      <name>Shaohua Li</name>
+    </author>
+    <author>
+      <name>Francisco Fumero</name>
+    </author>
+    <author>
+      <name>José Sigut</name>
+    </author>
+    <author>
+      <name>Haidar Almubarak</name>
+    </author>
+    <author>
+      <name>Yakoub Bazi</name>
+    </author>
+    <author>
+      <name>Yuanhao Guo</name>
+    </author>
+    <author>
+      <name>Yating Zhou</name>
+    </author>
+    <author>
+      <name>Ujjwal Baid</name>
+    </author>
+    <author>
+      <name>Shubham Innani</name>
+    </author>
+    <author>
+      <name>Tianjiao Guo</name>
+    </author>
+    <author>
+      <name>Jie Yang</name>
+    </author>
+    <author>
+      <name>José Ignacio Orlando</name>
+    </author>
+    <author>
+      <name>Hrvoje Bogunović</name>
+    </author>
+    <author>
+      <name>Xiulan Zhang</name>
+    </author>
+    <author>
+      <name>Yanwu Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.01048v1</id>
+    <title>TRoVe: Discovering Error-Inducing Static Feature Biases in Temporal Vision-Language Models</title>
+    <updated>2025-11-30T19:36:46Z</updated>
+    <link href="https://arxiv.org/abs/2512.01048v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.01048v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models (VLMs) have made great strides in addressing temporal understanding tasks, which involve characterizing visual changes across a sequence of images. However, recent works have suggested that when making predictions, VLMs may rely on static feature biases, such as background or object features, rather than dynamic visual changes. Static feature biases are a type of shortcut and can contribute to systematic prediction errors on downstream tasks; as a result, identifying and characterizing error-inducing static feature biases is critical prior to real-world model deployment. In this work, we introduce TRoVe, an automated approach for discovering error-inducing static feature biases learned by temporal VLMs. Given a trained VLM and an annotated validation dataset associated with a downstream classification task, TRoVe extracts candidate static features from the dataset and scores each feature by (i) the effect of the feature on classification errors as well as (ii) the extent to which the VLM relies on the feature when making predictions. In order to quantitatively evaluate TRoVe, we introduce an evaluation framework consisting of 101 trained temporal VLMs paired with ground-truth annotations for learned static feature biases. We use this framework to demonstrate that TRoVe can accurately identify error-inducing static feature biases in VLMs, achieving a 28.6% improvement over the closest baseline. Finally, we apply TRoVe to 7 off-the-shelf VLMs and 2 temporal understanding tasks, surfacing previously-unknown static feature biases and demonstrating that knowledge of learned biases can aid in improving model performance at test time. Our code is available at https://github.com/Stanford-AIMI/TRoVe.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-30T19:36:46Z</published>
+    <arxiv:comment>NeurIPS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Maya Varma</name>
+    </author>
+    <author>
+      <name>Jean-Benoit Delbrouck</name>
+    </author>
+    <author>
+      <name>Sophie Ostmeier</name>
+    </author>
+    <author>
+      <name>Akshay Chaudhari</name>
+    </author>
+    <author>
+      <name>Curtis Langlotz</name>
+    </author>
+  </entry>
+</feed>

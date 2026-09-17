@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ky8bDrXrC7LY3qTRZ9MWOMrGRbo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2305.16291,2305.17126,2310.19791,2504.07079,2401.12869,2507.22069,2510.15863,2502.11705,2608.19013,2309.17428&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-17T05:42:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2305.16291,2305.17126,2310.19791,2504.07079,2401.12869,2507.22069,2510.15863,2502.11705,2608.19013,2309.17428" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.12869v1</id>
+    <title>TroVE: Inducing Verifiable and Efficient Toolboxes for Solving Programmatic Tasks</title>
+    <updated>2024-01-23T16:03:17Z</updated>
+    <link href="https://arxiv.org/abs/2401.12869v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.12869v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language models (LMs) can solve tasks such as answering questions about tables or images by writing programs. However, using primitive functions often leads to verbose and error-prone programs, and higher-level functions require expert design. To enable better solutions without human labor, we ask code LMs to curate reusable high-level functions, and use them to write solutions. We present TROVE, a training-free method of inducing a verifiable and efficient toolbox of functions, by generating via using, growing, and periodically trimming the toolbox. On 11 datasets from math, table question answering, and image reasoning tasks, TROVE consistently yields simpler solutions with higher accuracy than baselines using CODELLAMA and previous methods using GPT, while using 79-98% smaller toolboxes. TROVE further enables 31% faster and 13% more accurate human verification than baselines. With the same pipeline, it creates diverse functions for varied tasks and datasets, providing insights into their individual characteristics.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-23T16:03:17Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhiruo Wang</name>
+    </author>
+    <author>
+      <name>Daniel Fried</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.17428v2</id>
+    <title>CRAFT: Customizing LLMs by Creating and Retrieving from Specialized Toolsets</title>
+    <updated>2024-03-13T05:39:25Z</updated>
+    <link href="https://arxiv.org/abs/2309.17428v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.17428v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are often augmented with tools to solve complex tasks. By generating code snippets and executing them through task-specific Application Programming Interfaces (APIs), they can offload certain functions to dedicated external modules, such as image encoding and performing calculations. However, most existing approaches to augment LLMs with tools are constrained by general-purpose APIs and lack the flexibility for tailoring them to specific tasks. In this work, we present CRAFT, a general tool creation and retrieval framework for LLMs. It creates toolsets specifically curated for the tasks and equips LLMs with a component that retrieves tools from these sets to enhance their capability to solve complex tasks. For each task, we collect specific code solutions by prompting GPT-4 to solve the training examples. Following a validation step ensuring the correctness, these solutions are abstracted into code snippets to enhance reusability, and deduplicated for higher quality. At inference time, the language model retrieves snippets from the toolsets and then executes them or generates the output conditioning on the retrieved snippets. Our method is designed to be flexible and offers a plug-and-play approach to adapt off-the-shelf LLMs to unseen domains and modalities, without any finetuning. Experiments on vision-language, tabular processing, and mathematical reasoning tasks show that our approach achieves substantial improvements compared to strong baselines. In addition, our in-depth analysis reveals that: (1) consistent performance improvement can be achieved by scaling up the number of tools and the capability of the backbone models; (2) each component of our approach contributes to the performance gains; (3) the created tools are well-structured and reliable with low complexity and atomicity. The code is available at https://github.com/lifan-yuan/CRAFT.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-29T17:40:26Z</published>
+    <arxiv:comment>Accepted to ICLR 2024. Code is available at https://github.com/lifan-yuan/CRAFT</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Lifan Yuan</name>
+    </author>
+    <author>
+      <name>Yangyi Chen</name>
+    </author>
+    <author>
+      <name>Xingyao Wang</name>
+    </author>
+    <author>
+      <name>Yi R. Fung</name>
+    </author>
+    <author>
+      <name>Hao Peng</name>
+    </author>
+    <author>
+      <name>Heng Ji</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.16291v2</id>
+    <title>Voyager: An Open-Ended Embodied Agent with Large Language Models</title>
+    <updated>2023-10-19T16:27:03Z</updated>
+    <link href="https://arxiv.org/abs/2305.16291v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.16291v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Voyager, the first LLM-powered embodied lifelong learning agent in Minecraft that continuously explores the world, acquires diverse skills, and makes novel discoveries without human intervention. Voyager consists of three key components: 1) an automatic curriculum that maximizes exploration, 2) an ever-growing skill library of executable code for storing and retrieving complex behaviors, and 3) a new iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification for program improvement. Voyager interacts with GPT-4 via blackbox queries, which bypasses the need for model parameter fine-tuning. The skills developed by Voyager are temporally extended, interpretable, and compositional, which compounds the agent's abilities rapidly and alleviates catastrophic forgetting. Empirically, Voyager shows strong in-context lifelong learning capability and exhibits exceptional proficiency in playing Minecraft. It obtains 3.3x more unique items, travels 2.3x longer distances, and unlocks key tech tree milestones up to 15.3x faster than prior SOTA. Voyager is able to utilize the learned skill library in a new Minecraft world to solve novel tasks from scratch, while other techniques struggle to generalize. We open-source our full codebase and prompts at https://voyager.minedojo.org/.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-25T17:46:38Z</published>
+    <arxiv:comment>Project website and open-source codebase: https://voyager.minedojo.org/</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Guanzhi Wang</name>
+    </author>
+    <author>
+      <name>Yuqi Xie</name>
+    </author>
+    <author>
+      <name>Yunfan Jiang</name>
+    </author>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+    <author>
+      <name>Chaowei Xiao</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Linxi Fan</name>
+    </author>
+    <author>
+      <name>Anima Anandkumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.19013v1</id>
+    <title>Harness Continual Learning: Continual Adaptation Beyond Model Parameters</title>
+    <updated>2026-08-19T15:12:31Z</updated>
+    <link href="https://arxiv.org/abs/2608.19013v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.19013v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continual learning has largely been model-centric, treating model parameters as the state that changes with sequential experience. Modern agents can also adapt through a harness of prompts, memories, tools, skills, and routing rules. Because these contents jointly shape later execution, a harness update can disrupt previously reliable behavior even when the model is frozen. This raises a new question: how can an agent continually improve its state outside the model while retaining behavior acquired earlier? We formulate Harness Continual Learning (HCL), a new continual learning paradigm in which the harness evolves around a frozen foundation model, and define the resulting loss of earlier behavior as harness-level forgetting. We instantiate HCL with four execution-facing components: the Task Interface, Experience Memory, Capability Map, and Adaptive Router. We further introduce guarded harness evolution to separate update generation from state commitment. A Continual Optimizer proposes candidate harnesses from post-execution feedback, and a Continual Evaluator commits the resulting candidate harness only after checking current improvement, historical retention, and validity. Experiments on textual reasoning, multimodal perception, and open-world interaction demonstrate capability accumulation and failure recovery, with relative gains exceeding 10% over corresponding baselines in multiple settings. Component ablations assess the contribution of each harness component, while controlled retention sweeps reveal measurable harness-level forgetting and show that the stability--plasticity trade-off can be explicitly adjusted.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-19T15:12:31Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Borui Kang</name>
+    </author>
+    <author>
+      <name>Jinrui Gu</name>
+    </author>
+    <author>
+      <name>Junhan Lv</name>
+    </author>
+    <author>
+      <name>Wenbin Li</name>
+    </author>
+    <author>
+      <name>Lei Wang</name>
+    </author>
+    <author>
+      <name>Yang Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.22069v2</id>
+    <title>A Compute-Matched Re-Evaluation of TroVE on MATH</title>
+    <updated>2025-07-31T07:33:11Z</updated>
+    <link href="https://arxiv.org/abs/2507.22069v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.22069v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reusing established theorems and formulas is central to mathematical problem solving, serving as essential building blocks for tackling increasingly complex challenges. Recent work, TroVE, argues that code-generating Large Language Models (LLMs) can benefit similarly on the MATH benchmark by inducing and reusing higher-level toolboxes. By allocating computational budget across an ensemble of three modes -- directly generating code, creating tools, and reusing tools -- TroVE claims to outperform a PRIMITIVE baseline that only performs direct generation. However, recent analysis (Berlot-Attwell et al., 2024) casts doubt on these gains, noting that the tools created are often trivial or rarely reused, suggesting that improvements may stem from self-consistency or self-correction. In this work, we re-evaluate TroVE on MATH, analyze the impact of each of its modes, and show that its benefit does not come from these mechanisms, but simply from a higher computational budget spent for TroVE compared to PRIMITIVE. To this end, we also perform a small correction in the original implementation of TroVE's selection mechanism, boosting TroVE's performance on MATH by 3\% in accuracy. After matching for compute, the benefit of TroVE reduces to a marginal improvement of 1\%, suggesting that this toolbox approach does not provide a significant benefit on MATH.</summary>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-16T03:11:43Z</published>
+    <arxiv:primary_category term="cs.PL"/>
+    <arxiv:journal_ref>2nd AI for Math Workshop at ICML 2025</arxiv:journal_ref>
+    <author>
+      <name>Tobias Sesterhenn</name>
+    </author>
+    <author>
+      <name>Ian Berlot-Attwell</name>
+    </author>
+    <author>
+      <name>Janis Zenkner</name>
+    </author>
+    <author>
+      <name>Christian Bartelt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.17126v2</id>
+    <title>Large Language Models as Tool Makers</title>
+    <updated>2024-03-11T01:15:09Z</updated>
+    <link href="https://arxiv.org/abs/2305.17126v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.17126v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research has highlighted the potential of large language models (LLMs) to improve their problem-solving capabilities with the aid of suitable external tools. In our work, we further advance this concept by introducing a closed-loop framework, referred to as LLMs A s Tool Makers (LATM), where LLMs create their own reusable tools for problem-solving. Our approach consists of two phases: 1) tool making: an LLM acts as the tool maker that crafts tools for a set of tasks. 2) tool using: another LLM acts as the tool user, which applies the tool built by the tool maker for problem-solving. On the problem-solving server side, tool-making enables continual tool generation and caching as new requests emerge. This framework enables subsequent requests to access cached tools via their corresponding APIs, enhancing the efficiency of task resolution. Recognizing that tool-making requires more sophisticated capabilities, we assign this task to a powerful, albeit resource-intensive, model. Conversely, the simpler tool-using phase is delegated to a lightweight model. This strategic division of labor allows the once-off cost of tool-making to be spread over multiple instances of tool-using, significantly reducing average costs while maintaining strong performance. Furthermore, our method offers a functional cache through the caching and reuse of tools, which stores the functionality of a class of requests instead of the natural language responses from LLMs, thus extending the applicability of the conventional cache mechanism. We evaluate our approach across various complex reasoning tasks, including Big-Bench tasks. With GPT-4 as the tool maker and GPT-3.5 as the tool user, LATM demonstrates performance equivalent to using GPT-4 for both roles, but with a significantly reduced inference cost.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-26T17:50:11Z</published>
+    <arxiv:comment>Code available at https://github.com/ctlllll/LLM-ToolMaker</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tianle Cai</name>
+    </author>
+    <author>
+      <name>Xuezhi Wang</name>
+    </author>
+    <author>
+      <name>Tengyu Ma</name>
+    </author>
+    <author>
+      <name>Xinyun Chen</name>
+    </author>
+    <author>
+      <name>Denny Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.15863v2</id>
+    <title>PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction</title>
+    <updated>2026-03-02T03:34:00Z</updated>
+    <link href="https://arxiv.org/abs/2510.15863v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.15863v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are moving beyond static uses and are now powering agents that learn continually during their interaction with external environments. For example, agents can learn reusable skills while navigating web pages or toggling new tools. However, existing methods for skill learning often create skills that are over-specialized to a single website and fail to generalize. We introduce PolySkill, a new framework that enables agents to learn generalizable and compositional skills. The core idea, inspired by polymorphism in software engineering, is to decouple a skill's abstract goal (what it accomplishes) and its concrete implementation (how it is executed). Experiments show that our method (1) improves skill reuse by 1.7x on seen websites and (2) boosts success rates by up to 9.4% on Mind2Web and 13.9% on unseen websites, while reducing steps by over 20%. (3) In self-exploration settings without specified tasks, our framework improves the quality of proposed tasks and enables agents to learn generalizable skills that work across different sites. By enabling the agent to identify and refine its own goals, the PolySkill enhances the agent's ability to learn a better curriculum, leading to the acquisition of more generalizable skills compared to baseline methods. This work provides a practical path toward building agents capable of continual learning in adaptive environments. Our findings show that separating a skill's goal from its execution is a crucial step toward developing autonomous agents that can learn and generalize across the open web continuously. Our code can be found in https://github.com/simonucl/PolySkill.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-17T17:56:00Z</published>
+    <arxiv:comment>29 pages, 6 figures, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Simon Yu</name>
+    </author>
+    <author>
+      <name>Gang Li</name>
+    </author>
+    <author>
+      <name>Weiyan Shi</name>
+    </author>
+    <author>
+      <name>Peng Qi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.11705v2</id>
+    <title>LLM Agents Making Agent Tools</title>
+    <updated>2025-05-29T18:47:41Z</updated>
+    <link href="https://arxiv.org/abs/2502.11705v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.11705v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool use has turned large language models (LLMs) into powerful agents that can perform complex multi-step tasks by dynamically utilising external software components. However, these tools must be implemented in advance by human developers, hindering the applicability of LLM agents in domains demanding large numbers of highly specialised tools, like in life sciences and medicine. Motivated by the growing trend of scientific studies accompanied by public code repositories, we propose ToolMaker, an agentic framework that autonomously transforms papers with code into LLM-compatible tools. Given a GitHub URL and short task description, ToolMaker autonomously installs dependencies and generates code to perform the task, using a closed-loop self-correction mechanism for debugging. To evaluate our approach, we introduce a benchmark comprising 15 complex computational tasks spanning various domains with over 100 unit tests to assess correctness and robustness. Our method correctly implements 80% of the tasks, substantially outperforming current state-of-the-art software engineering agents. ToolMaker therefore is a step towards fully autonomous agent-based scientific workflows. Our code and benchmark are publicly available at https://github.com/KatherLab/ToolMaker.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-17T11:44:11Z</published>
+    <arxiv:comment>Accepted at ACL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Georg Wölflein</name>
+    </author>
+    <author>
+      <name>Dyke Ferber</name>
+    </author>
+    <author>
+      <name>Daniel Truhn</name>
+    </author>
+    <author>
+      <name>Ognjen Arandjelović</name>
+    </author>
+    <author>
+      <name>Jakob Nikolas Kather</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.07079v1</id>
+    <title>SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills</title>
+    <updated>2025-04-09T17:51:50Z</updated>
+    <link href="https://arxiv.org/abs/2504.07079v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.07079v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To survive and thrive in complex environments, humans have evolved sophisticated self-improvement mechanisms through environment exploration, hierarchical abstraction of experiences into reuseable skills, and collaborative construction of an ever-growing skill repertoire. Despite recent advancements, autonomous web agents still lack crucial self-improvement capabilities, struggling with procedural knowledge abstraction, refining skills, and skill composition. In this work, we introduce SkillWeaver, a skill-centric framework enabling agents to self-improve by autonomously synthesizing reusable skills as APIs. Given a new website, the agent autonomously discovers skills, executes them for practice, and distills practice experiences into robust APIs. Iterative exploration continually expands a library of lightweight, plug-and-play APIs, significantly enhancing the agent's capabilities. Experiments on WebArena and real-world websites demonstrate the efficacy of SkillWeaver, achieving relative success rate improvements of 31.8% and 39.8%, respectively. Additionally, APIs synthesized by strong agents substantially enhance weaker agents through transferable skills, yielding improvements of up to 54.3% on WebArena. These results demonstrate the effectiveness of honing diverse website interactions into APIs, which can be seamlessly shared among various web agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-09T17:51:50Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Boyuan Zheng</name>
+    </author>
+    <author>
+      <name>Michael Y. Fatemi</name>
+    </author>
+    <author>
+      <name>Xiaolong Jin</name>
+    </author>
+    <author>
+      <name>Zora Zhiruo Wang</name>
+    </author>
+    <author>
+      <name>Apurva Gandhi</name>
+    </author>
+    <author>
+      <name>Yueqi Song</name>
+    </author>
+    <author>
+      <name>Yu Gu</name>
+    </author>
+    <author>
+      <name>Jayanth Srinivasa</name>
+    </author>
+    <author>
+      <name>Gaowen Liu</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+    <author>
+      <name>Yu Su</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.19791v4</id>
+    <title>LILO: Learning Interpretable Libraries by Compressing and Documenting Code</title>
+    <updated>2024-03-15T16:55:47Z</updated>
+    <link href="https://arxiv.org/abs/2310.19791v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.19791v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While large language models (LLMs) now excel at code generation, a key aspect of software development is the art of refactoring: consolidating code into libraries of reusable and readable programs. In this paper, we introduce LILO, a neurosymbolic framework that iteratively synthesizes, compresses, and documents code to build libraries tailored to particular problem domains. LILO combines LLM-guided program synthesis with recent algorithmic advances in automated refactoring from Stitch: a symbolic compression system that efficiently identifies optimal lambda abstractions across large code corpora. To make these abstractions interpretable, we introduce an auto-documentation (AutoDoc) procedure that infers natural language names and docstrings based on contextual examples of usage. In addition to improving human readability, we find that AutoDoc boosts performance by helping LILO's synthesizer to interpret and deploy learned abstractions. We evaluate LILO on three inductive program synthesis benchmarks for string editing, scene reasoning, and graphics composition. Compared to existing neural and symbolic methods - including the state-of-the-art library learning algorithm DreamCoder - LILO solves more complex tasks and learns richer libraries that are grounded in linguistic knowledge.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-30T17:55:02Z</published>
+    <arxiv:comment>ICLR 2024 camera-ready</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Gabriel Grand</name>
+    </author>
+    <author>
+      <name>Lionel Wong</name>
+    </author>
+    <author>
+      <name>Maddy Bowers</name>
+    </author>
+    <author>
+      <name>Theo X. Olausson</name>
+    </author>
+    <author>
+      <name>Muxin Liu</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+    <author>
+      <name>Jacob Andreas</name>
+    </author>
+  </entry>
+</feed>
