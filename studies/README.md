@@ -3,14 +3,24 @@
 **Independent commission — 17 September:**
 [Executable experience retention](https://github.com/alignment-farm/executable-experience-retention)
 ([local brief](../../ancillary-studies/executable-experience-retention/README.md))
-is prepared and commissioned for bounded investigation. It follows the
+is underway with an ancillary agent, as reported by the user. It follows the
 [persistence comparison](../notes/EXECUTABLE_COMPARISON.md) and completed
 [artifact review](2026-09-17-executable-feasibility.md). The investigator owns
-workload development and execution; preparation starts neither a session nor
-model runs. [EX1–EX3](../notes/EXECUTABLE_EXPERIENCE.md) remain prospective.
+workload development and execution; unpublished evidence has not been inspected.
+[EX1–EX3](../notes/EXECUTABLE_EXPERIENCE.md) remain prospective.
+
+**Two further commissions prepared — 17 September:**
+[Procedural memory migration](#procedural-memory-migration) concerns paid
+adaptation or retirement of guidance for an unseen recipient;
+[correction lineage](#correction-lineage) concerns acquiring useful dependency
+information rather than reconstructing it when a correction arrives. The
+[methods review](../sources/2026-09-17-independent-study-selection/README.md)
+narrows both against direct public precedents. Their private repositories are
+ready for independent sessions; preparation launched no experiments.
 
 **Current work — 17 September 2026:** Ten ancillary projects have published
-accepted bounded contributions; the eleventh is prepared without findings.
+accepted bounded contributions; an eleventh is underway without reviewed findings,
+and two further studies are prepared. There are thirteen registered repositories.
 The [latest assessment](2026-09-17-evidence-use-findings.md)
 accepts evidence-use-under-revision at `da1233fdfb26fe6c5daa337a3dbf9f784f34f9f7`:
 one checkpoint's modest transfer survives two corrections and has a favorable
@@ -27,8 +37,8 @@ This map connects the root's questions, ancillary publications and current resea
 
 [repos.txt](repos.txt) is the maintained list of Construct-2 ancillary repositories,
 one `organization/repository` per line, including completed studies. It contains
-all eleven studies currently in this program, including the newly prepared
-executable-experience-retention study and the ten completed projects. The root
+all thirteen studies currently in this program: the ten completed projects,
+executable-experience-retention, procedural-memory-migration and correction-lineage. The root
 and other lab projects are outside its scope. Contributors need Git, an
 authenticated GitHub CLI (`gh auth login`), and access to these private repositories.
 
@@ -242,6 +252,21 @@ For S1, we should distinguish three outcomes: **the chosen text becomes easier t
 | **P72. [CodeMem, 2512.15813v1](https://arxiv.org/html/2512.15813v1)** — §§4–7 | Retained-function architecture with reported executions and model comparisons. | Reconstruction avoidance is an explicit prior proposal; matched retention effects are not isolated. |
 | **P73. [PANDO, 2605.24785v2](https://arxiv.org/html/2605.24785v2)** — §§3–6, limitations and skill dynamics | Online rules/routines, checking, demotion and cost accounting. | Whole-system evidence does not isolate implementation retention; seed capability matters. |
 | **P74. [Skill Blocks, 2608.14943v1](https://arxiv.org/html/2608.14943v1)** — §§1, 3–7, Appendix C | Conditional delivery of retained procedural text. | Contextual alternatives can reduce delivery work; cache sensitivities are not measured billing. |
+| **P75. [Memory Transfer Learning, 2604.14004v1](https://arxiv.org/html/2604.14004v1)** — §§3.1–3.2, 4.4 | Cross-model memory and adaptation controls. | Useful inheritance has direct precedents; paid migration decisions need separate assessment. |
+| **P76. [Managing Procedural Memory, 2606.23127v1](https://arxiv.org/html/2606.23127v1)** — selected §§2–4 and Appendix B | Procedural transfer and revision. | Textual context adapters remain proposed; supplied skill selection limits the claim. |
+| **P77. [Agent KB, 2507.06229v5](https://arxiv.org/html/2507.06229v5)** — §§3.3/4.3, Appendices C/D; pinned code | Feedback-conditioned experience refinement. | Existing selective sharing; plan similarity is not correctness. |
+| **P78. [CONTRAMEM, 2608.22533v1](https://arxiv.org/html/2608.22533v1)** — Methodology, budget controls, Appendix A.7 | Unchanged memory tested on an unseen recipient. | Strong unchanged inheritance is a necessary comparator. |
+| **P79. [Agent Memory Distillation, 2608.07169v1](https://arxiv.org/html/2608.07169v1)** — §§3.2–3.3, Discussion | Hierarchical memories from teacher trajectories. | Teacher quality alone does not determine recipient value. |
+| **P80. [MemCollab, 2603.23234v2](https://arxiv.org/html/2603.23234v2)** — §§2–3.2, Appendices D.4/E | Model-aware shared-bank selection. | Unseen recipients need a competent fallback and paid acquisition accounting. |
+| **P81. [MemoRepair, 2605.07242v1](https://arxiv.org/html/2605.07242v1)** — §§2–3.4 | Dependency-based repair and edge-deletion tests. | Acquired provenance cost and complete behavior require separate assessment. |
+| **P82. [Dependency-Guided Rollback, 2608.10502v1](https://arxiv.org/html/2608.10502v1)** — §§3–4, appendix schema/metrics | Selective recovery from runtime dependencies. | Acquiring semantic links is distinct from traversing supplied edges. |
+| **P83. [StateAuditor, 2608.01619v1](https://arxiv.org/html/2608.01619v1)** — §§3–4, 6.1/6.3/7 | Source-grounded correction and draft auditing. | Supplies a competent alternative to retained dependency repair. |
+| **P84. [Does Your Agent's Memory Survive a Model Upgrade?, 2609.05339v1](https://arxiv.org/html/2609.05339v1)** — §§2–3.2, Appendices C–E | Factual migration, repair and probe forecasting. | Procedural adaptation decisions must add value beyond predicting migration quality. |
+
+The [independent-selection ledger](../sources/2026-09-17-independent-study-selection/README.md)
+records P77–P84, deeper P37 reading, exact evidence limits and pinned Agent-KB
+inspection. It redirects generic portability and repair proposals into the two
+new comparisons below; it does not establish comprehensive novelty.
 
 The subsequent [pinned artifact review](../sources/2026-09-17-executable-artifacts/README.md)
 adds static implementation inspection for P65/P69, distinguishing code availability
@@ -482,13 +507,14 @@ The theoretical update is that **architectural memory capacity and the capacity 
 
 ### Executable experience retention
 
-**Status — 17 September 2026:** Prepared and commissioned as an independent
-bounded investigation in
+**Status — 17 September 2026:** The user reports the independent bounded
+investigation underway in
 [executable-experience-retention](https://github.com/alignment-farm/executable-experience-retention)
 ([local brief](../../ancillary-studies/executable-experience-retention/README.md)).
 Preparation commit `34a902fedf99a22fff3c9429d49146809af8a86a` is the root's current
-boundary; it contains no findings. No investigator session or model run was
-launched during preparation. Ten earlier projects retain their completed phases.
+review boundary; it contains no findings. This execution update does not inspect
+unpublished evidence or advance that boundary. Ten earlier projects retain their
+completed phases.
 
 **Question:** What does retaining acquired implementation add to competent
 reconstruction from shared procedural experience, in complete future behavior
@@ -503,6 +529,47 @@ checking, competent contextual alternatives and full-sequence costs support
 the allocation claim. Stable reuse comes first; consequential revision is a
 conditional extension. EX1–EX3 are preserved verbatim in the brief and remain
 untested locally. An explanatory tie or explicit alternative is useful progress.
+
+### Procedural memory migration
+
+**Status — 17 September 2026:** Independent bounded investigation commissioned;
+private [repository](https://github.com/alignment-farm/procedural-memory-migration)
+([local brief](../../ancillary-studies/procedural-memory-migration/README.md))
+prepared at `f7ca4fc9c07f2d531802caf2ae46ea58d7a375b1`. This is the initial
+review boundary, containing no findings. Main and origin/main match and the
+working tree is clean. Preparation starts no investigator or model runs.
+
+**Question:** Does paid experience with an unseen recipient improve retaining,
+adapting or retiring procedural guidance enough to justify its costs? Fix the
+source bank and evidence when isolating the recipient effect, and assess fresh
+complete tasks against unchanged inheritance, the recipient's own baseline and
+competent reconstruction. Public transfer, model-aware sharing and factual
+migration precedents narrow this choice; no generic portability claim is needed.
+The [root note](../notes/EXPERIENCE_PORTABILITY.md#selection-after-the-methods-review)
+records the rationale and prospective PM1–PM3, copied unchanged into the brief.
+Workload discovery, methods and execution belong to the investigator.
+
+### Correction lineage
+
+**Status — 17 September 2026:** Independent bounded investigation commissioned;
+private [repository](https://github.com/alignment-farm/correction-lineage)
+([local brief](../../ancillary-studies/correction-lineage/README.md)) prepared
+at `b5853b747cfa1cca44fbce3a4aad287f5b3888fb`. This is the initial review
+boundary, containing no findings. Main and origin/main match and the working
+tree is clean. Preparation starts no investigator or model runs.
+
+**Question:** Does acquired dependency information repay its write and checking
+costs in complete correction and future behavior, against reconstruction from
+the same source archive? Hold the recipient fixed and begin with authoritative
+corrections. Distinguish exposure traces from acquired semantic support; include
+conservative provenance, rebuilding or source-grounded auditing as competent
+alternatives. The [root note](../notes/CORRECTION_LINEAGE.md) records the public
+overlap, selected uncertainty and prospective CL1–CL3, copied unchanged into the
+brief. Workload discovery, methods and execution belong to the investigator.
+
+These two questions and executable-experience-retention can proceed independently.
+They change recipient, source validity and implementation retention respectively;
+none relies on another's unpublished evidence.
 
 <a id="what-the-three-completed-investigations-change"></a>
 
@@ -533,6 +600,22 @@ Where experience lives is part of a larger decision about what to change and pre
 
 ## 6. Research selection
 
+**Latest selection — 17 September:** The user's request for at least two further
+studies led to [procedural memory migration](#procedural-memory-migration) and
+[correction lineage](#correction-lineage), now prepared and pushed. The
+[completed reading](../sources/2026-09-17-independent-study-selection/README.md)
+rules out generic transfer, migration forecasting and dependency propagation as
+adequate new contributions. The selected comparisons concern the useful value
+of paid recipient experience and acquired support information against competent
+reconstruction. Their methods remain local, all earlier predictions retain their
+status, and executable-experience-retention's assignment is unchanged.
+
+**Earlier root selection — 17 September:** The
+[initial portability review](../sources/2026-09-17-experience-portability/README.md)
+proposed comparing unchanged inheritance, adaptation, reconstruction and the
+recipient's own baseline before any further commission. The subsequent methods
+review above completes and narrows that preparation.
+
 **Commissioning decision — 17 September:** Following the user's direction to
 continue, the root prepared and published the private
 [executable-experience-retention repository](https://github.com/alignment-farm/executable-experience-retention).
@@ -541,7 +624,7 @@ investigator or experiments. Workload discovery and operational decisions belong
 to that study. This advances the recommendation below without reopening any
 completed phase or changing the enduring directive.
 
-**Latest independent selection — 17 September:** The
+**Earlier independent selection — 17 September:** The
 [persistence comparison](../notes/EXECUTABLE_COMPARISON.md) retains bounded independent
 development of implementation versus reconstruction from shared experience. New
 primary reading and pinned SkillCraft inspection establish closer overlap than

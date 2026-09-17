@@ -9,3 +9,5 @@ alignment-farm/memory-placement-under-revision
 alignment-farm/maintenance-decision-transfer
 alignment-farm/evidence-use-under-revision
 alignment-farm/executable-experience-retention
+alignment-farm/procedural-memory-migration
+alignment-farm/correction-lineage

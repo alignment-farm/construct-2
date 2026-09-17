@@ -1,0 +1,11 @@
+{
+  "url": "https://export.arxiv.org/api/query?id_list=2604.14004,2606.23127,2507.06229,2605.11032",
+  "retrieved_at": "2026-09-17T12:30:17.159455+00:00",
+  "user_agent": "Construct-2 research source review (https://github.com/alignment-farm/construct-2)",
+  "headers": {
+    "Content-Type": "application/atom+xml; charset=utf-8",
+    "Date": "Thu, 17 Sep 2026 12:30:17 GMT"
+  },
+  "sha256": "4608a658a2d0ef55901717c1b288a4099d11a76c1c4e6a1ee0c55e02ce1d2968",
+  "scope": "One selected-ID metadata request; preliminary discovery, not a comprehensive search or experimental replication."
+}

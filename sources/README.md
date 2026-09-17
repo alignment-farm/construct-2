@@ -3,6 +3,23 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [17 September independent-study selection](2026-09-17-independent-study-selection/README.md)
+adds P77–P84 and deepens P37. Cross-model sharing, factual-store migration and
+dependency-based repair already have close precedents. The review narrows two
+new commissions to paid adaptation/retirement of procedural guidance for an
+unseen recipient, and the lifetime value of acquired correction lineage against
+source reconstruction. It records a pinned Agent-KB static inspection, six
+cached API requests and the difference between inspected methods and leads.
+No public experiment was reproduced; the
+[study map](../studies/README.md#6-research-selection) records preparation.
+
+The [17 September experience-portability reading](2026-09-17-experience-portability/README.md)
+adds P75–P76 and two abstract-only leads. It narrows the
+[initial root review](../notes/EXPERIENCE_PORTABILITY.md) toward useful inheritance
+and adaptation when the receiving model or harness changes. This is an initial
+targeted pass, with no code inspection or experimental commission at that stage;
+the subsequent review above completes selection.
+
 The [17 September persistence-control reading](2026-09-17-persistence-controls/README.md)
 adds P71–P74: SkillCraft, CodeMem, PANDO and Skill Blocks. A pinned SkillCraft
 inspection establishes a generated-script route with debugging feedback, retained

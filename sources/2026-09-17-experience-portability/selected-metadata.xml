@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/n+kKNasobc69TaDWEIQ75RIPVgI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2604.14004,2606.23127,2507.06229,2605.11032&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-17T12:30:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2604.14004,2606.23127,2507.06229,2605.11032" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.14004v1</id>
+    <title>Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents</title>
+    <updated>2026-04-15T15:50:29Z</updated>
+    <link href="https://arxiv.org/abs/2604.14004v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.14004v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory-based self-evolution has emerged as a promising paradigm for coding agents. However, existing approaches typically restrict memory utilization to homogeneous task domains, failing to leverage the shared infrastructural foundations, such as runtime environments and programming languages, that exist across diverse real-world coding problems. To address this limitation, we investigate \textbf{Memory Transfer Learning} (MTL) by harnessing a unified memory pool from heterogeneous domains. We evaluate performance across 6 coding benchmarks using four memory representations, ranging from concrete traces to abstract insights. Our experiments demonstrate that cross-domain memory improves average performance by 3.7\%, primarily by transferring meta-knowledge, such as validation routines, rather than task-specific code. Importantly, we find that abstraction dictates transferability; high-level insights generalize well, whereas low-level traces often induce negative transfer due to excessive specificity. Furthermore, we show that transfer effectiveness scales with the size of the memory pool, and memory can be transferred even between different models. Our work establishes empirical design principles for expanding memory utilization beyond single-domain silos. Project page: https://memorytransfer.github.io/</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-15T15:50:29Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kangsan Kim</name>
+    </author>
+    <author>
+      <name>Minki Kang</name>
+    </author>
+    <author>
+      <name>Taeil Kim</name>
+    </author>
+    <author>
+      <name>Yanlai Yang</name>
+    </author>
+    <author>
+      <name>Mengye Ren</name>
+    </author>
+    <author>
+      <name>Sung Ju Hwang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.06229v5</id>
+    <title>Agent KB: Leveraging Cross-Domain Experience for Agentic Problem Solving</title>
+    <updated>2025-10-27T06:16:14Z</updated>
+    <link href="https://arxiv.org/abs/2507.06229v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.06229v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agent frameworks operate in isolation, forcing agents to rediscover solutions and repeat mistakes across different systems. Despite valuable problem-solving experiences accumulated by frameworks like smolagents, OpenHands, and OWL, this knowledge remains trapped within individual systems, preventing the emergence of collective intelligence. Current memory systems focus on individual agents or framework-specific demonstrations, failing to enable cross-architecture knowledge transfer. We introduce AGENT KB, a universal memory infrastructure enabling seamless experience sharing across heterogeneous agent frameworks without retraining. AGENT KB aggregates trajectories into a structured knowledge base and serves lightweight APIs. At inference time, hybrid retrieval operates through two stages: planning seeds agents with cross-domain workflows, while feedback applies targeted diagnostic fixes. A disagreement gate ensures retrieved knowledge enhances rather than disrupts reasoning, addressing knowledge interference in cross-framework transfer. We validate AGENT KB across major frameworks on GAIA, Humanity's Last Exam, GPQA, and SWE-bench. Results show substantial improvements across diverse model families: compared to baseline pass@1, smolagents with AGENT KB achieve up to 18.7pp gains at pass@3 (55.2% -&gt; 73.9%), while OpenHands improves 4.0pp on SWE-bench pass@1 (24.3% -&gt; 28.3%). Similar improvements are observed across all base model families. Ablations confirm that hybrid retrieval and feedback stages are essential, with automatically generated experiences matching manual curation. This establishes the foundation for collective agent intelligence through shared memory infrastructures.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-08T17:59:22Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiangru Tang</name>
+    </author>
+    <author>
+      <name>Tianrui Qin</name>
+    </author>
+    <author>
+      <name>Tianhao Peng</name>
+    </author>
+    <author>
+      <name>Ziyang Zhou</name>
+    </author>
+    <author>
+      <name>Daniel Shao</name>
+    </author>
+    <author>
+      <name>Tingting Du</name>
+    </author>
+    <author>
+      <name>Xinming Wei</name>
+    </author>
+    <author>
+      <name>Peng Xia</name>
+    </author>
+    <author>
+      <name>Fang Wu</name>
+    </author>
+    <author>
+      <name>He Zhu</name>
+    </author>
+    <author>
+      <name>Ge Zhang</name>
+    </author>
+    <author>
+      <name>Jiaheng Liu</name>
+    </author>
+    <author>
+      <name>Xingyao Wang</name>
+    </author>
+    <author>
+      <name>Sirui Hong</name>
+    </author>
+    <author>
+      <name>Chenglin Wu</name>
+    </author>
+    <author>
+      <name>Hao Cheng</name>
+    </author>
+    <author>
+      <name>Chi Wang</name>
+    </author>
+    <author>
+      <name>Wangchunshu Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.11032v1</id>
+    <title>Portable Agent Memory: A Protocol for Cryptographically-Verified Memory Transfer Across Heterogeneous AI Agents</title>
+    <updated>2026-05-10T23:24:06Z</updated>
+    <link href="https://arxiv.org/abs/2605.11032v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.11032v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Portable Agent Memory, an open protocol and reference implementation for transferring persistent memory state across heterogeneous AI agents. Modern AI agents accumulate rich context -- episodic events,semantic knowledge, procedural skills, working state, and identity preferences -- but this context remains locked within vendor-specific runtimes. Portable Agent Memory addresses this through: (1) a five-component structured memory model with content-addressable entries linked by a Merkle-DAG provenance graph providing tamper-evidence; (2) capability-based access control enabling selective, scoped disclosure of memory segments; (3) an injection-resistant rehydration protocol that adapts recalled content to heterogeneous target models while mitigating indirect prompt injection; and (4) a JSON-first serialization format with optional CBOR compaction for efficient transport. We provide a Python SDK with 54 passing tests, agent skills for multiple platforms, and demonstrate cross-model memory transfer between GPT-4, Claude, Gemini, and Llama architectures. The protocol is open-source under Apache 2.0.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-10T23:24:06Z</published>
+    <arxiv:comment>8 pages, 28 references</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Santhosh Kumar Ravindran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.23127v1</id>
+    <title>Managing Procedural Memory in LLM Agents: Control, Adaptation, and Evaluation</title>
+    <updated>2026-06-22T10:14:11Z</updated>
+    <link href="https://arxiv.org/abs/2606.23127v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.23127v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Procedural memory is increasingly used to improve LLM agents on recurring workplace tasks, yet its ability to produce reusable skills remains poorly understood. We introduce AFTER, a benchmark of 382 realistic enterprise tasks spanning six professional roles and 22 procedural skills, designed to evaluate how skills transfer across tasks, roles, and model backbones. The benchmark includes controlled evaluation settings for local improvement, cross-task transfer, cross-role transfer, and cross-model generalization. Experiments show that procedural memory delivers consistent gains in industrial workflows: a single refinement round improves aggregate performance by 3.7-6.7 points, while skills evolved from diverse multi-model execution traces achieve 73.1% cross-model test accuracy, outperforming all single-model trace sources. We further find that some skills generalize broadly across tasks and models, whereas others become specialized to role-specific workflows and lose effectiveness under transfer. These results provide practical guidance for building, evaluating, and deploying procedural memory systems in production agent platforms.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-22T10:14:11Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Julia Belikova</name>
+    </author>
+    <author>
+      <name>Rauf Parchiev</name>
+    </author>
+    <author>
+      <name>Evgeny Egorov</name>
+    </author>
+    <author>
+      <name>Grigorii Davydenko</name>
+    </author>
+    <author>
+      <name>Gleb Gusev</name>
+    </author>
+    <author>
+      <name>Andrey Savchenko</name>
+    </author>
+    <author>
+      <name>Maksim Makarenko</name>
+    </author>
+  </entry>
+</feed>

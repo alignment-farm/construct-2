@@ -11,12 +11,31 @@ Contributors can use the [repository list](studies/repos.txt) and [clone instruc
 **Current commission — 17 September:** The independent
 [executable-experience-retention study](https://github.com/alignment-farm/executable-experience-retention)
 ([local brief](../ancillary-studies/executable-experience-retention/README.md)) is
-prepared and commissioned for bounded investigation. It asks what retained
+underway with an ancillary agent, as reported by the user. It asks what retained
 implementation adds to shared acquired experience under competent reconstruction,
 equal checking and complete cost accounting. The [comparison](notes/EXECUTABLE_COMPARISON.md)
 and completed [artifact review](studies/2026-09-17-executable-feasibility.md) supply
 the rationale and public method donors. Its investigator owns workload development
-and execution. Preparation has launched no investigator session or model run.
+and execution; this status update does not inspect unpublished evidence.
+
+**Two further studies prepared — 17 September:** The
+[methods review](sources/2026-09-17-independent-study-selection/README.md) selects
+two independent questions, now commissioned in private ancillary repositories:
+
+- [Procedural memory migration](https://github.com/alignment-farm/procedural-memory-migration):
+  whether paid recipient experience improves the choice to retain, adapt or retire
+  procedural guidance enough to justify its cost. The
+  [selection note](notes/EXPERIENCE_PORTABILITY.md#selection-after-the-methods-review)
+  explains the narrowing beyond existing transfer and migration results.
+- [Correction lineage](https://github.com/alignment-farm/correction-lineage):
+  whether acquired dependency information repays its maintenance cost when
+  correcting memory, compared with reconstruction from the same archive. The
+  [selection note](notes/CORRECTION_LINEAGE.md) distinguishes acquired support
+  claims from supplied dependency graphs.
+
+Both are ready for independent ancillary sessions; preparation started no
+experiments. Their methods and workloads belong to the investigators. Root
+theory and public discovery continue across the three independent commissions.
 
 The [evidence-use assessment](studies/2026-09-17-evidence-use-findings.md) accepts
 its completed bounded phase. A varied-history adapter improves complete outcomes
@@ -46,10 +65,11 @@ The [third-phase root assessment, 15 September](studies/2026-09-15-maintenance-f
 S5 now includes an [accepted placement comparison](studies/2026-09-16-placement-findings.md) alongside the earlier [acquisition, use and maintenance measurements](studies/2026-09-15-maintenance-findings.md#assessment-of-the-prospective-expectations). None demonstrates learning-cost repayment against competent explicit alternatives at comparable complete quality. The placement study shares visible evidence across methods; earlier references have different supplied structures and privileges. The later evidence-use result adds a favorable measured comparison against an uncached lesson, qualified above. These results do not establish a universal ranking of weights, records and executable rules.
 
 **Current work — 17 September 2026:** Ten ancillary projects have published
-accepted bounded contributions. An eleventh, executable-experience-retention,
-is prepared and commissioned, with no findings yet. The completed phases remain
-closed; the root continues theory, public research and synthesis independently
-of the new study's execution. Its preparation follows the completed
+accepted bounded contributions. Of thirteen registered studies,
+executable-experience-retention is underway by user report, and procedural-memory-migration
+and correction-lineage are newly prepared. None has findings reviewed here.
+The completed phases remain closed; the root continues theory, public research
+and synthesis independently of ancillary execution. The executable study follows the completed
 [public-method comparison](notes/EXECUTABLE_COMPARISON.md).
 AD1 remains untested locally, AD2 has a bounded maintenance-choice
 assessment, and AD3 has limited prediction-level support with adverse placement

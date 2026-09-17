@@ -508,3 +508,66 @@ and evidence needed to resolve the comparison. EX1–EX3 are copied unchanged.
 This is the eleventh ancillary study; the preceding ten contributions remain
 complete. Preparation starts no investigator or model runs. Root theory, public
 discovery and synthesis continue independently of its execution.
+
+## Root work while executable-experience retention runs
+
+The user reports the ancillary agent underway. This is an execution-status update,
+not a review of unpublished findings; the preparation revision remains the root's
+review boundary. Its workload and methods remain with the investigator.
+
+The next root focus is [experience portability](EXPERIENCE_PORTABILITY.md): what
+should carry over unchanged, be adapted or be retired when the model or harness
+changes? It develops the existing compatibility hypothesis beyond the active
+implementation-versus-reconstruction comparison. Assess inherited experience
+relative to the new recipient's own competence, while distinguishing changes in
+the recipient from changes in required behavior.
+
+The [initial targeted reading](../sources/2026-09-17-experience-portability/README.md)
+finds direct transfer and revision precedents, so the next deliverable is a
+focused theory and methods comparison of useful inheritance and adaptation costs.
+At this initial stage it could resolve the candidate without new runs, and no
+additional study was commissioned;
+AD1–AD3, EU1–EU3, EX1–EX3 and the completed phases retain their existing status.
+
+## Two independent commissions after further discovery — 17 September
+
+The user then directed the root to continue until it found and created at least
+two further studies. The [new reading](../sources/2026-09-17-independent-study-selection/README.md)
+adds P77–P84, deepens P37 and inspects pinned Agent-KB code. It changes the
+selection rather than merely furnishing citations. Public work already covers
+unchanged transfer to unseen recipients, model-aware sharing, model-upgrade
+forecasting, dependency-guided repair and acquired dependency propagation.
+Generic demonstrations of those mechanisms are therefore weak investments.
+
+**Procedural-memory-migration** asks whether paid experience with a previously
+unseen recipient improves retaining, adapting or retiring procedural guidance
+enough to justify its cost against unchanged inheritance and reconstruction.
+The [selection note](EXPERIENCE_PORTABILITY.md#selection-after-the-methods-review)
+preserves the earlier theory and adds PM1–PM3. The private
+[repository](https://github.com/alignment-farm/procedural-memory-migration)
+([local](../../ancillary-studies/procedural-memory-migration/README.md)) is prepared
+at `f7ca4fc9c07f2d531802caf2ae46ea58d7a375b1`.
+
+**Correction-lineage** asks whether acquiring dependency information during
+memory construction repays its write/checking costs when correcting derived
+memory and future behavior, against reconstruction from the same source archive.
+The [selection note](CORRECTION_LINEAGE.md) records CL1–CL3 and distinguishes
+runtime exposure from acquired semantic support. The private
+[repository](https://github.com/alignment-farm/correction-lineage)
+([local](../../ancillary-studies/correction-lineage/README.md)) is prepared at
+`b5853b747cfa1cca44fbce3a4aad287f5b3888fb`.
+
+These comparisons change different parts of the system: the recipient with
+evidence held fixed, and evidence validity with the recipient held fixed. They
+also distinguish investment in useful behavior from investment in the ability
+to revise it. Neither requires the active implementation comparison's result.
+The studies own methods, workloads, development, resource use and publication;
+small controlled comparisons and strong simple alternatives are acceptable.
+
+Both initial commits are pushed to private repositories, with clean local main
+branches tracking matching origin/main revisions. The registry now contains
+thirteen studies: ten accepted bounded contributions, one investigation underway
+by user report, and these two newly prepared commissions. Preparation launched
+no investigator or model run. No ancillary review boundary advances beyond its
+recorded preparation or accepted publication, and no completed phase reopens.
+Earlier AD, EU and EX predictions are unchanged.
