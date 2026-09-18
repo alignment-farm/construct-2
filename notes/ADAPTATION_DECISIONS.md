@@ -273,3 +273,50 @@ evidence versus unsuccessful use. AD2/AD3 retain their previous assessments.
 Both bounded commissions are complete. Further selection should target useful
 capability across continuing realistic work, with consequential changes and
 strong alternatives, rather than assume another adaptation layer is beneficial.
+
+## Assessment after weight consolidation
+
+The [17 September assessment](../studies/2026-09-17-weight-consolidation-findings.md)
+adds a direct comparison of weights with source experience still accessible.
+Partial acquisition produces a manual retained-code gain, 3/12 to 5/12. A
+developed contract compiler brings both models to 12/12; the adapter adds repair
+calls. Manual adaptation also worsens a changed exclusion rule despite improving
+aggregate completion. An acquired behavior's value depends on the execution
+route and obligations, not only whether the source material was learned.
+
+The compiler and workflow guidance remove work previously delegated to the model.
+They are investigator-authored capabilities, not agent-acquired experience.
+This limits what the experiment says about autonomous improvement while explaining
+why further weight training is unnecessary to complete this finite workload.
+Equal external access is verified; none of the confirmation models retrieves the
+full training rows. The result does not establish optimal retrieval or identical
+lifetime exposure.
+
+The adapter predates the compiler and source-interface changes. Its extra
+malformed actions warrant checking learned behavior after an interface change,
+but do not isolate an internal interference mechanism. The [public review](../sources/2026-09-17-weight-consolidation-review/README.md)
+finds existing compatibility methods; generic harness/model co-evolution is not
+a new question. Learning a useful residual behavior under competent tools remains
+more informative than manufacturing headroom by withholding those tools.
+
+WC1–WC3 have bounded assessments in the original note. AD1 remains untested:
+the investigator, not an acquired controller, selects the compiler intervention.
+
+## Assessment after continuing consolidation
+
+The [18 September continuation](../studies/2026-09-18-continuing-consolidation-findings.md)
+adds two learning points on one database history. It reduces familiar execution
+work without an incremental fresh-completion advantage or quality-matched cost
+repayment. Shared external evidence remains accessible, but final-SQL teaching
+coexists with zero fresh adapter searches or saved-query executions. This sharpens
+the distinction between available experience and a policy that uses it; it does
+not identify retrieval avoidance as the causal failure mechanism.
+
+The sole scored stale-to-updated loss was an accidental output match from an
+incorrect ranking query. It therefore does not demonstrate loss of a correct
+procedure. Shared authored views already handle schema migration. These limits
+leave AD1–AD3's existing assessments unchanged and narrow the next learning-target
+and evaluation comparison. WC1–WC3 receive their separate updated assessment.
+Previous AD2/AD3 assessments stand. One source history and one adapter update do
+not establish continuing accumulation, and closing this explained workload limit
+does not close the broader allocation question.

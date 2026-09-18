@@ -679,3 +679,88 @@ starting instrument, with no dependency on its next development milestone.
 There are now fourteen registered studies, thirteen with accepted bounded
 contributions. Completed phases stay closed; root theory, literature and
 independent question selection continue.
+
+## Weight-consolidation assessment — 17 September
+
+The [root review](../studies/2026-09-17-weight-consolidation-findings.md) accepts
+`491c0f8a745f48327f6d095d2c3fa7f07d768b44` and closes bounded feasibility and
+confirmation. All fourteen registered studies now have accepted bounded
+contributions and completed commissioned phases. No continuation is commissioned.
+The original WC1–WC3 remain intact with separate assessments.
+
+The study demonstrates partial source acquisition and a small gain configuring
+retained code, then explains why a competent compiler eliminates that marginal
+quality gain. It corrects a source-access flaw before fresh confirmation, preserves
+failed runs, and charges one actual training run. The adapter's added repair work
+and worse revised exclusion handling matter alongside aggregate completion.
+This is explanatory progress, not a reason to tune indefinitely until weights win.
+
+The experiment also leaves the intended continuing-work milestone unmet: one
+authored history, one update and a finite contract language supply neither repeated
+consolidation nor independent realistic histories. The code and reference teaching
+are investigator-authored. The runtime proved usable as an unchanged independent
+instrument; its availability does not turn that workload into a realistic agent
+learning problem.
+
+The [public refresh](../sources/2026-09-17-weight-consolidation-review/README.md)
+adds P89 and revisits P42. Compatibility between changing harnesses and policies
+already has concrete methods. Those narrow a potential diagnosis; they do not
+establish why this adapter emits malformed calls or make another co-evolution
+loop the next contribution.
+
+Root selection should now describe a consequential decision that remains after
+competent explicit execution, and how recurring experience could improve it.
+Examples include interpreting ambiguous source contracts or recognizing when
+an established procedure applies, but neither is commissioned by this synthesis.
+Existing tools remain available wherever valid; natural ambiguity and changing
+work should supply the uncertainty, rather than artificial evidence restrictions.
+The provenance and cost of newly acquired capability must be distinguished from
+investigator engineering. This preserves neural learning as a serious option
+inside the hybrid hypothesis while making its useful contribution identifiable.
+
+## Continuing-work authorization — 18 September
+
+Following discussion of investigator autonomy and workload selection, the user
+authorized [a follow-up in weight-consolidation](../../ancillary-studies/weight-consolidation/CONTINUING_WORK.md).
+The same unresolved question makes continuation in that repository appropriate.
+Its prior publication remains accepted; the new instruction delegates bounded
+workload discovery, implementation, diagnostic development and fresh experiments.
+The investigator selects among existing artifacts and motivated constructed
+episodes, with public benchmark overviews as leads rather than adopted methods.
+The [selection note](WEIGHT_CONSOLIDATION.md#continuing-work-follow-up--18-september)
+records the discovery boundary and comparison.
+
+An agent that acquires a useful executable implementation has made progress even
+if later work becomes deterministic. Attribution must distinguish that acquisition
+from investigator engineering, with retained artifacts available to both weight
+conditions. There is no requirement to preserve neural headroom or demonstrate an
+adapter advantage. Publication does not require a routine return to root; the
+investigator should explain and act on the value of further bounded work. The
+instruction is prepared; root has launched no experiments or ancillary session.
+
+## Continuing-consolidation assessment — 18 September
+
+The [second publication](../studies/2026-09-18-continuing-consolidation-findings.md)
+at `80c17db` completes that follow-up. The investigator selected existing database
+artifacts, diagnosed several acquisition failures and pursued better source
+teaching before fresh evaluation. This is the intended bounded autonomy. Familiar
+source execution becomes shorter, but the periodic strategy completes 6/20 fresh
+jobs versus external reuse's 7/20. Both retain the same source material. Shared
+views handle schema changes; one constructed history limits generality.
+
+The teaching records contain final SQL and finish actions. Fresh adapters never
+search the history or execute its saved programs. Learning to use evidence is
+therefore the next promising comparison, subject to demonstrating useful
+development behavior and charging teacher acquisition. P42/P89 already identify
+nearby trajectory methods. P90's database methods clarify that supplied schema
+normalization changes the upstream learning target. This is not a new generic
+loop or a new commission, and the observed tool choices do not isolate the cause
+of poor transfer.
+
+Root also reproduced an accidental answer match: the stale adapter ranks by
+product count in a price-ranking task. Its loss after updating is not demonstrated
+forgetting of correct price reasoning. Further evaluation should test intended
+computations and unambiguous obligations, with fresh data/history variants where
+appropriate. Closing the present recipe after explanatory development is
+reasonable; neither phase closure nor this review revokes useful continuation
+within the investigator's remit. The broader allocation question remains open.

@@ -1,0 +1,490 @@
+{
+  "publication": "80c17dbfb63116cd35ab5faf23f527178fec3e5b",
+  "scope": "saved-record grading and usage; fresh/preserved SQL replay; no model inference or optimization",
+  "sqlite": "3.50.4",
+  "median": "Python statistics.median aggregate registered for portable replay",
+  "totals": {
+    "prompt_tokens": 1934115,
+    "completion_tokens": 57638,
+    "calls": 1207,
+    "model_seconds": 2498.6121348890156,
+    "tasks": 229
+  },
+  "groups": {
+    "db-01/smoke": {
+      "prompt_tokens": 11934,
+      "completion_tokens": 245,
+      "calls": 9,
+      "model_seconds": 14.045789001029334,
+      "tasks": 2,
+      "complete": 0,
+      "correct_artifact": 0
+    },
+    "db-02/capability-development": {
+      "prompt_tokens": 39453,
+      "completion_tokens": 1154,
+      "calls": 24,
+      "model_seconds": 49.62345475197071,
+      "tasks": 4,
+      "complete": 1,
+      "correct_artifact": 2
+    },
+    "db-02/capability-source": {
+      "prompt_tokens": 12064,
+      "completion_tokens": 175,
+      "calls": 9,
+      "model_seconds": 13.347427123982925,
+      "tasks": 2,
+      "complete": 2,
+      "correct_artifact": 2
+    },
+    "db-02/smoke": {
+      "prompt_tokens": 15023,
+      "completion_tokens": 256,
+      "calls": 10,
+      "model_seconds": 16.94104758198955,
+      "tasks": 2,
+      "complete": 0,
+      "correct_artifact": 0
+    },
+    "db-03/capability-development": {
+      "prompt_tokens": 62387,
+      "completion_tokens": 1752,
+      "calls": 37,
+      "model_seconds": 77.91962546300783,
+      "tasks": 6,
+      "complete": 2,
+      "correct_artifact": 2
+    },
+    "db-04/capability-development": {
+      "prompt_tokens": 40704,
+      "completion_tokens": 1056,
+      "calls": 32,
+      "model_seconds": 58.457239538940485,
+      "tasks": 6,
+      "complete": 1,
+      "correct_artifact": 1
+    },
+    "db-05/check-adapter0-48": {
+      "prompt_tokens": 24345,
+      "completion_tokens": 5347,
+      "calls": 14,
+      "model_seconds": 81.18584254101734,
+      "tasks": 2,
+      "complete": 0,
+      "correct_artifact": 0
+    },
+    "db-05/check-adapter0-96": {
+      "prompt_tokens": 80006,
+      "completion_tokens": 6185,
+      "calls": 66,
+      "model_seconds": 146.18749808400753,
+      "tasks": 18,
+      "complete": 10,
+      "correct_artifact": 10
+    },
+    "db-05/check-adapter0-96-retained": {
+      "prompt_tokens": 85430,
+      "completion_tokens": 6344,
+      "calls": 68,
+      "model_seconds": 153.25161725500948,
+      "tasks": 18,
+      "complete": 9,
+      "correct_artifact": 9
+    },
+    "db-05/check-base0": {
+      "prompt_tokens": 197078,
+      "completion_tokens": 3137,
+      "calls": 114,
+      "model_seconds": 223.07158307699137,
+      "tasks": 18,
+      "complete": 11,
+      "correct_artifact": 13
+    },
+    "db-05/check-base0-retained": {
+      "prompt_tokens": 237727,
+      "completion_tokens": 3745,
+      "calls": 126,
+      "model_seconds": 270.19966133197886,
+      "tasks": 18,
+      "complete": 11,
+      "correct_artifact": 11
+    },
+    "db-05/source0": {
+      "prompt_tokens": 119725,
+      "completion_tokens": 2364,
+      "calls": 75,
+      "model_seconds": 138.39076758007286,
+      "tasks": 12,
+      "complete": 7,
+      "correct_artifact": 7
+    },
+    "db-06/check-adapter0-144": {
+      "prompt_tokens": 42184,
+      "completion_tokens": 2252,
+      "calls": 50,
+      "model_seconds": 65.42556417407468,
+      "tasks": 18,
+      "complete": 14,
+      "correct_artifact": 14
+    },
+    "db-06/check-adapter1-228": {
+      "prompt_tokens": 36434,
+      "completion_tokens": 1955,
+      "calls": 39,
+      "model_seconds": 56.09879700196325,
+      "tasks": 11,
+      "complete": 6,
+      "correct_artifact": 6
+    },
+    "db-06/check-base0": {
+      "prompt_tokens": 248373,
+      "completion_tokens": 4030,
+      "calls": 130,
+      "model_seconds": 285.33416705006675,
+      "tasks": 18,
+      "complete": 14,
+      "correct_artifact": 14
+    },
+    "db-06/check-base1": {
+      "prompt_tokens": 154012,
+      "completion_tokens": 2791,
+      "calls": 76,
+      "model_seconds": 179.57574424991617,
+      "tasks": 11,
+      "complete": 6,
+      "correct_artifact": 6
+    },
+    "db-06/fresh-adapter0-144": {
+      "prompt_tokens": 30254,
+      "completion_tokens": 1927,
+      "calls": 33,
+      "model_seconds": 49.71962862703367,
+      "tasks": 10,
+      "complete": 4,
+      "correct_artifact": 4
+    },
+    "db-06/fresh-adapter1-228": {
+      "prompt_tokens": 42300,
+      "completion_tokens": 3224,
+      "calls": 42,
+      "model_seconds": 74.28425254300237,
+      "tasks": 10,
+      "complete": 2,
+      "correct_artifact": 2
+    },
+    "db-06/fresh-base0": {
+      "prompt_tokens": 138248,
+      "completion_tokens": 2066,
+      "calls": 71,
+      "model_seconds": 156.92939107802522,
+      "tasks": 10,
+      "complete": 4,
+      "correct_artifact": 6
+    },
+    "db-06/fresh-base1": {
+      "prompt_tokens": 149576,
+      "completion_tokens": 2839,
+      "calls": 73,
+      "model_seconds": 175.87449395899603,
+      "tasks": 10,
+      "complete": 3,
+      "correct_artifact": 3
+    },
+    "db-06/fresh-stale1": {
+      "prompt_tokens": 38320,
+      "completion_tokens": 2404,
+      "calls": 40,
+      "model_seconds": 61.908629460958764,
+      "tasks": 10,
+      "complete": 3,
+      "correct_artifact": 3
+    },
+    "db-06/preserved-adapter1-228": {
+      "prompt_tokens": 2966,
+      "completion_tokens": 107,
+      "calls": 4,
+      "model_seconds": 4.197492457999033,
+      "tasks": 2,
+      "complete": 2,
+      "correct_artifact": 2
+    },
+    "db-06/preserved-base1": {
+      "prompt_tokens": 28277,
+      "completion_tokens": 342,
+      "calls": 14,
+      "model_seconds": 31.28856125001039,
+      "tasks": 2,
+      "complete": 2,
+      "correct_artifact": 2
+    },
+    "db-06/preserved-stale1": {
+      "prompt_tokens": 2966,
+      "completion_tokens": 107,
+      "calls": 4,
+      "model_seconds": 4.205289334000554,
+      "tasks": 2,
+      "complete": 2,
+      "correct_artifact": 2
+    },
+    "db-06/source1": {
+      "prompt_tokens": 94329,
+      "completion_tokens": 1834,
+      "calls": 47,
+      "model_seconds": 111.14857037297043,
+      "tasks": 7,
+      "complete": 4,
+      "correct_artifact": 5
+    }
+  },
+  "tools": {
+    "db-01/smoke": {
+      "schema": 2,
+      "sql": 2,
+      "submit": 2,
+      "finish": 2,
+      "read": 1
+    },
+    "db-02/capability-development": {
+      "schema": 4,
+      "read": 4,
+      "search_history": 3,
+      "sql": 8,
+      "submit": 3,
+      "finish": 2
+    },
+    "db-02/capability-source": {
+      "schema": 2,
+      "read": 1,
+      "sql": 2,
+      "submit": 2,
+      "finish": 2
+    },
+    "db-02/smoke": {
+      "schema": 2,
+      "read": 2,
+      "sql": 2,
+      "submit": 2,
+      "finish": 2
+    },
+    "db-03/capability-development": {
+      "schema": 6,
+      "read": 6,
+      "sql": 12,
+      "submit": 5,
+      "finish": 5,
+      "search_history": 3
+    },
+    "db-04/capability-development": {
+      "search_history": 7,
+      "read": 8,
+      "sql": 7,
+      "submit": 5,
+      "finish": 5
+    },
+    "db-05/check-adapter0-48": {
+      "malformed-action": 10,
+      "submit": 4
+    },
+    "db-05/check-adapter0-96": {
+      "submit": 33,
+      "finish": 16,
+      "malformed-action": 10,
+      "schema": 4,
+      "read": 1,
+      "search_history": 2
+    },
+    "db-05/check-adapter0-96-retained": {
+      "submit": 35,
+      "finish": 15,
+      "malformed-action": 10,
+      "schema": 4,
+      "read": 1,
+      "search_history": 2,
+      "read_source": 1
+    },
+    "db-05/check-base0": {
+      "schema": 18,
+      "read": 18,
+      "search_history": 13,
+      "sql": 23,
+      "submit": 16,
+      "finish": 15,
+      "save_sql": 7,
+      "run_saved": 4
+    },
+    "db-05/check-base0-retained": {
+      "schema": 18,
+      "read": 18,
+      "search_history": 16,
+      "sql": 9,
+      "submit": 13,
+      "finish": 13,
+      "save_sql": 28,
+      "run_saved": 7,
+      "malformed-action": 1,
+      "read_source": 3
+    },
+    "db-05/source0": {
+      "schema": 12,
+      "read": 11,
+      "sql": 21,
+      "submit": 12,
+      "finish": 11,
+      "search_history": 8
+    },
+    "db-06/check-adapter0-144": {
+      "submit": 34,
+      "finish": 16
+    },
+    "db-06/check-adapter1-228": {
+      "submit": 29,
+      "finish": 9,
+      "schema": 1
+    },
+    "db-06/check-base0": {
+      "schema": 18,
+      "read": 18,
+      "search_history": 16,
+      "save_sql": 32,
+      "run_saved": 9,
+      "finish": 16,
+      "submit": 12,
+      "sql": 9
+    },
+    "db-06/check-base1": {
+      "schema": 11,
+      "sql": 9,
+      "submit": 10,
+      "finish": 10,
+      "read": 9,
+      "search_history": 10,
+      "save_sql": 15,
+      "run_saved": 2
+    },
+    "db-06/fresh-adapter0-144": {
+      "submit": 16,
+      "finish": 8,
+      "malformed-action": 9
+    },
+    "db-06/fresh-adapter1-228": {
+      "submit": 34,
+      "finish": 7,
+      "malformed-action": 1
+    },
+    "db-06/fresh-base0": {
+      "schema": 10,
+      "read": 10,
+      "search_history": 12,
+      "save_sql": 12,
+      "sql": 6,
+      "submit": 8,
+      "finish": 6,
+      "run_saved": 7
+    },
+    "db-06/fresh-base1": {
+      "schema": 10,
+      "read": 8,
+      "search_history": 8,
+      "save_sql": 22,
+      "malformed-action": 2,
+      "run_saved": 6,
+      "submit": 6,
+      "finish": 7,
+      "sql": 4
+    },
+    "db-06/fresh-stale1": {
+      "submit": 31,
+      "finish": 7,
+      "malformed-action": 2
+    },
+    "db-06/preserved-adapter1-228": {
+      "submit": 2,
+      "finish": 2
+    },
+    "db-06/preserved-base1": {
+      "schema": 2,
+      "read": 2,
+      "search_history": 2,
+      "save_sql": 4,
+      "run_saved": 2,
+      "finish": 2
+    },
+    "db-06/preserved-stale1": {
+      "submit": 2,
+      "finish": 2
+    },
+    "db-06/source1": {
+      "schema": 7,
+      "sql": 6,
+      "submit": 6,
+      "finish": 5,
+      "read": 6,
+      "search_history": 6,
+      "save_sql": 11
+    }
+  },
+  "independent_reference_queries": 22,
+  "submitted_query_replays": 46,
+  "state_assets_verified": 48,
+  "source_rows_in_matched_states": 162,
+  "teaching_action_counts_cumulative": {
+    "submit": 19,
+    "finish": 19
+  },
+  "training": [
+    {
+      "path": "continuation/evidence/db-05/adapter0-48/manifest.json",
+      "steps": 48,
+      "seconds": 59.659292083000764
+    },
+    {
+      "path": "continuation/evidence/db-05/adapter0-96/manifest.json",
+      "steps": 96,
+      "seconds": 114.36227783298818
+    },
+    {
+      "path": "continuation/evidence/db-06/adapter0-144/manifest.json",
+      "steps": 144,
+      "seconds": 170.25572675000876
+    },
+    {
+      "path": "continuation/evidence/db-06/adapter1-228/manifest.json",
+      "steps": 228,
+      "seconds": 267.9141198330035
+    }
+  ],
+  "q112_output_match_caveat": {
+    "question": "Among musical-instrument brands that sell at least fifty different products in the catalog, which brand has the highest average list price in dollars? If two brands tie, choose the one whose name sorts first alphabetically.",
+    "reference": "SELECT attr_val FROM (\n                    SELECT a.attr_val, AVG(i.prc) AS ap\n                    FROM product_attributes_g3 a\n                    JOIN items_g3 i ON a.ref_id = i.ref_id\n                    WHERE a.attr_key = 'Brand'\n                    AND i.prc IS NOT NULL AND i.prc > 0\n                    GROUP BY a.attr_val\n                    HAVING COUNT(DISTINCT a.ref_id) >= 50\n                    ORDER BY ap DESC, a.attr_val ASC\n                    LIMIT 1\n                )",
+    "reference_result": [
+      [
+        "Fender"
+      ]
+    ],
+    "stale1": {
+      "query": "SELECT attr_val FROM attributes WHERE category='musical instruments' AND attr_key='Brand' GROUP BY attr_val HAVING COUNT(DISTINCT ref_id)>=50 ORDER BY COUNT(DISTINCT ref_id) DESC, attr_val ASC LIMIT 1",
+      "result": [
+        [
+          "Fender"
+        ]
+      ]
+    },
+    "adapter1-228": {
+      "query": "SELECT a.attr_val FROM attributes a JOIN products p USING(category,ref_id) WHERE a.category='musical instruments' AND a.attr_key='Brand' GROUP BY a.attr_val HAVING COUNT(DISTINCT a.ref_id)>=50 ORDER BY AVG(p.price) DESC, a.attr_val ASC LIMIT 1",
+      "result": [
+        [
+          "Yamaha"
+        ]
+      ]
+    },
+    "updated_query_with_reference_positive_price_filter": {
+      "query": "SELECT a.attr_val FROM attributes a JOIN products p USING(category,ref_id) WHERE a.category='musical instruments' AND a.attr_key='Brand' AND p.price > 0 GROUP BY a.attr_val HAVING COUNT(DISTINCT a.ref_id)>=50 ORDER BY AVG(p.price) DESC, a.attr_val ASC LIMIT 1",
+      "result": [
+        [
+          "Fender"
+        ]
+      ]
+    }
+  }
+}

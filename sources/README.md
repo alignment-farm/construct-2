@@ -3,14 +3,44 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [18 September harness-component reading](2026-09-18-harness-components/README.md)
+adds P91 from the user's exact-version paper. It qualifies the next local
+learning-target preference: nonuse of a memory tool does not establish a retrieval
+defect. Establish the value of eligible experience delivery before investing in
+training to retrieve it. This is a research-selection refinement, not a new run.
+
+The [18 September continuing-consolidation review](2026-09-18-weight-continuation-review/README.md)
+accepts `80c17db`, regrades 229 saved executions and replays fresh/preserved SQL.
+It adds P90, CL-Bench, through exact-version methods reading and distinguishes
+the local supplied normalization from the upstream learning target. A wrong
+ranking query with the expected output qualifies the apparent update regression.
+No model inference or training was rerun.
+
+The [18 September workload selection note](../notes/WEIGHT_CONSOLIDATION.md#continuing-work-follow-up--18-september)
+records overview/documentation discovery of BIRD-INTERACT, Continual Learning
+Bench and STATE-Bench. These are environment and evaluation leads, with no code
+or task-instance inspection at that selection boundary. The subsequent review
+above records the selected workload and deeper inspection. The
+[study's source guide](../../ancillary-studies/weight-consolidation/sources/README.md#continuing-work-discovery-leads--18-september)
+keeps those limits explicit.
+
+The [17 September weight-consolidation review](2026-09-17-weight-consolidation-review/README.md)
+accepts publication `491c0f8`, independently regrades 172 saved executions,
+recomputes costs, replays the compiler and verifies exact-source access through
+all four interfaces. It adds HarnessForge (P89) and revisits P42 with exact-version
+methods reading. The [root assessment](../studies/2026-09-17-weight-consolidation-findings.md)
+distinguishes partial learning, a competent finite-language compiler, corrected
+source parity and the untested continuing-consolidation question. No model runs
+or further commission accompany this review.
+
 The [17 September runtime-study selection](2026-09-17-runtime-study-selection/README.md)
 adds AgentOdyssey and AgentCL (P87–P88), revisits P42 and checks the runtime's
 investigator interface at `9ffb10a`. Existing work narrows the
 [weight-consolidation comparison](../notes/WEIGHT_CONSOLIDATION.md) to added value
 over competent external reuse on comparable experience. Workload and acquisition
-feasibility remain open. The review launched no experiments; the subsequent
+feasibility were then open. That review launched no experiments; the subsequent
 user-authorized [study](https://github.com/alignment-farm/weight-consolidation)
-is now prepared for an independent ancillary session.
+has completed the bounded phase assessed above.
 
 The [17 September migration/lineage review](2026-09-17-migration-lineage-review/README.md)
 accepts publications `5a670d3` and `f8ad1e1`, checks raw costs and saved outcomes,

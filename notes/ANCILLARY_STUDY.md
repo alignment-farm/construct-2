@@ -100,6 +100,14 @@ repairs, and working documentation. The initial question gives it a direction.
 Discoveries may justify revising that question or pursuing another within the
 stated resources and expectation.
 
+Completing a phase or publishing findings does not revoke that authority. Before
+standing down, assess the most promising next step, its scientific value, existing
+evidence, feasibility and resource needs. Pursue useful bounded development within
+the remit without returning routine choices to root. A brief reason for stopping
+or recommending a substantially different undertaking is sufficient; this is
+scientific judgment, not an additional approval procedure. Root acceptance records
+what a publication establishes and does not by itself prohibit further inquiry.
+
 Workload discovery can be part of bounded exploration. For a claim about
 knowledge placement or repayment of learning cost, the investigator develops
 a motivated workload and compares useful behavior and costs under explicit

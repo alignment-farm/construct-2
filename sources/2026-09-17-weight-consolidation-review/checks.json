@@ -1,0 +1,260 @@
+{
+  "publication_revision": "491c0f8a745f48327f6d095d2c3fa7f07d768b44",
+  "previous_review_boundary": "a9e609a892fb8e34507e20b5fdf9b504c7c93170",
+  "runtime_revision": "9ffb10a66180626b80127fb1892b2cf71e39d946",
+  "scope": "saved-record analysis and deterministic tool execution; no model inference or training",
+  "author_audits_recomputed": 3,
+  "author_cost_ledger_recomputed": true,
+  "independent_task_totals": {
+    "prompt_tokens": 426743,
+    "completion_tokens": 10626,
+    "calls": 424,
+    "failed_calls": 84,
+    "tasks": 172,
+    "worker_seconds": 930.6926125849932
+  },
+  "stages": {
+    "pilot-01/smoke": {
+      "prompt_tokens": 5984,
+      "completion_tokens": 160,
+      "calls": 6,
+      "failed_calls": 5,
+      "tasks": 1,
+      "worker_seconds": 10.695009915994888,
+      "complete": 0
+    },
+    "pilot-02/baseline": {
+      "prompt_tokens": 26786,
+      "completion_tokens": 984,
+      "calls": 28,
+      "failed_calls": 6,
+      "tasks": 12,
+      "worker_seconds": 63.19722075100435,
+      "complete": 6
+    },
+    "pilot-02/check-32": {
+      "prompt_tokens": 32466,
+      "completion_tokens": 1588,
+      "calls": 32,
+      "failed_calls": 12,
+      "tasks": 12,
+      "worker_seconds": 76.53503137299413,
+      "complete": 8
+    },
+    "pilot-02/compiled-check-adapter-32": {
+      "prompt_tokens": 10257,
+      "completion_tokens": 226,
+      "calls": 12,
+      "failed_calls": 4,
+      "tasks": 4,
+      "worker_seconds": 21.860513542000263,
+      "complete": 4
+    },
+    "pilot-02/compiled-check-base": {
+      "prompt_tokens": 21714,
+      "completion_tokens": 309,
+      "calls": 18,
+      "failed_calls": 1,
+      "tasks": 4,
+      "worker_seconds": 33.55102612399787,
+      "complete": 1
+    },
+    "pilot-02/compiled-v2-check-adapter-32": {
+      "prompt_tokens": 10918,
+      "completion_tokens": 274,
+      "calls": 12,
+      "failed_calls": 4,
+      "tasks": 4,
+      "worker_seconds": 22.97386674999143,
+      "complete": 4
+    },
+    "pilot-02/compiled-v2-check-base": {
+      "prompt_tokens": 6932,
+      "completion_tokens": 54,
+      "calls": 8,
+      "failed_calls": 0,
+      "tasks": 4,
+      "worker_seconds": 16.76414837500488,
+      "complete": 4
+    },
+    "pilot-02/evaluation-adapter-32": {
+      "prompt_tokens": 26677,
+      "completion_tokens": 750,
+      "calls": 28,
+      "failed_calls": 6,
+      "tasks": 12,
+      "worker_seconds": 62.12892666600965,
+      "complete": 4,
+      "changed_complete": 2,
+      "changed_excluded": 6
+    },
+    "pilot-02/evaluation-base": {
+      "prompt_tokens": 22751,
+      "completion_tokens": 738,
+      "calls": 24,
+      "failed_calls": 0,
+      "tasks": 12,
+      "worker_seconds": 57.50964025100984,
+      "complete": 3,
+      "changed_complete": 1,
+      "changed_excluded": 6
+    },
+    "pilot-02/evaluation-compiled-v2-adapter-32": {
+      "prompt_tokens": 33205,
+      "completion_tokens": 839,
+      "calls": 36,
+      "failed_calls": 12,
+      "tasks": 12,
+      "worker_seconds": 69.43973425000877,
+      "complete": 12,
+      "changed_complete": 6,
+      "changed_excluded": 6
+    },
+    "pilot-02/evaluation-compiled-v2-base": {
+      "prompt_tokens": 23472,
+      "completion_tokens": 177,
+      "calls": 26,
+      "failed_calls": 0,
+      "tasks": 12,
+      "worker_seconds": 53.04746637599601,
+      "complete": 12,
+      "changed_complete": 6,
+      "changed_excluded": 6
+    },
+    "pilot-02/reset": {
+      "prompt_tokens": 1877,
+      "completion_tokens": 60,
+      "calls": 2,
+      "failed_calls": 0,
+      "tasks": 1,
+      "worker_seconds": 4.717803791994811,
+      "complete": 1
+    },
+    "pilot-02/smoke": {
+      "prompt_tokens": 1877,
+      "completion_tokens": 60,
+      "calls": 2,
+      "failed_calls": 0,
+      "tasks": 1,
+      "worker_seconds": 5.187620874996355,
+      "complete": 1
+    },
+    "confirmation-01/evaluation-adapter-32": {
+      "prompt_tokens": 30347,
+      "completion_tokens": 738,
+      "calls": 28,
+      "failed_calls": 6,
+      "tasks": 12,
+      "worker_seconds": 65.9877013759833,
+      "complete": 5,
+      "changed_complete": 2,
+      "changed_excluded": 2
+    },
+    "confirmation-01/evaluation-base": {
+      "prompt_tokens": 25959,
+      "completion_tokens": 738,
+      "calls": 24,
+      "failed_calls": 0,
+      "tasks": 12,
+      "worker_seconds": 60.69545649999782,
+      "complete": 3,
+      "changed_complete": 1,
+      "changed_excluded": 6
+    },
+    "confirmation-01/evaluation-compiled-adapter-32": {
+      "prompt_tokens": 38025,
+      "completion_tokens": 842,
+      "calls": 36,
+      "failed_calls": 12,
+      "tasks": 12,
+      "worker_seconds": 74.5279880020098,
+      "complete": 12,
+      "changed_complete": 6,
+      "changed_excluded": 6
+    },
+    "confirmation-01/evaluation-compiled-base": {
+      "prompt_tokens": 24329,
+      "completion_tokens": 164,
+      "calls": 24,
+      "failed_calls": 0,
+      "tasks": 12,
+      "worker_seconds": 53.82182808199286,
+      "complete": 12,
+      "changed_complete": 6,
+      "changed_excluded": 6
+    },
+    "confirmation-01/recheck-adapter-32": {
+      "prompt_tokens": 34818,
+      "completion_tokens": 811,
+      "calls": 32,
+      "failed_calls": 12,
+      "tasks": 12,
+      "worker_seconds": 70.46853454201482,
+      "complete": 9
+    },
+    "confirmation-01/recheck-base": {
+      "prompt_tokens": 25644,
+      "completion_tokens": 720,
+      "calls": 24,
+      "failed_calls": 0,
+      "tasks": 12,
+      "worker_seconds": 59.89710362399637,
+      "complete": 7
+    },
+    "confirmation-01/recheck-compiled-adapter-32": {
+      "prompt_tokens": 12544,
+      "completion_tokens": 276,
+      "calls": 12,
+      "failed_calls": 4,
+      "tasks": 4,
+      "worker_seconds": 24.680840792003437,
+      "complete": 4
+    },
+    "confirmation-01/recheck-compiled-base": {
+      "prompt_tokens": 8014,
+      "completion_tokens": 58,
+      "calls": 8,
+      "failed_calls": 0,
+      "tasks": 4,
+      "worker_seconds": 17.925460708989704,
+      "complete": 4
+    },
+    "confirmation-01/reset": {
+      "prompt_tokens": 2147,
+      "completion_tokens": 60,
+      "calls": 2,
+      "failed_calls": 0,
+      "tasks": 1,
+      "worker_seconds": 5.079689917001815,
+      "complete": 1
+    }
+  },
+  "manual_confirmation_paired_outcomes": {
+    "both_fail": 6,
+    "base_only": 1,
+    "adapter_only": 3,
+    "both_complete": 2
+  },
+  "direct_compiler_replays": 24,
+  "exact_source_training_rows": 16,
+  "public_source_tool_reads_verified": 64,
+  "freeze_snapshot_files_verified": 35,
+  "single_base_identity": [
+    "f4dd4012ffdd7ec8729e3dace93c15c5af589e5b15833524f1ea4df30aaf449e"
+  ],
+  "training_runs": [
+    {
+      "pilot": "pilot-02",
+      "candidate": "adapter-32",
+      "steps": 32,
+      "usage": {
+        "input_tokens": 30750,
+        "loss_tokens": 944,
+        "update_seconds": 45.510672456992324
+      },
+      "elapsed_seconds": 50.09703974999866,
+      "peak_mlx_bytes": 4853393492,
+      "trained_in_this_run": true
+    }
+  ]
+}

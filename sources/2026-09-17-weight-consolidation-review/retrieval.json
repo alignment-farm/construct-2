@@ -1,0 +1,8 @@
+{
+  "retrieved_at_utc": "2026-09-18T00:54:36.734742+00:00",
+  "url": "https://export.arxiv.org/api/query?id_list=2606.01779v1,2609.09134v1",
+  "status": 200,
+  "sha256": "96e1ef756b7e290bc138b12aeb22a7b68b071b4828fde9844dd7497f922e55a4",
+  "requests": 1,
+  "purpose": "Exact versions for weight-consolidation synthesis; HTML methods read through browser tools; no public implementation executed."
+}

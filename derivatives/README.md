@@ -89,15 +89,26 @@ The interface is useful infrastructure, while new-workload acquisition and utili
 remain to be established. Warm-start adapter training and optimizer continuation
 are still unsupported.
 
-The newly prepared [weight-consolidation study](../notes/WEIGHT_CONSOLIDATION.md)
-uses this revision as its starting instrument. Its workload and scientific
-protocol belong to a separate investigator; runtime development continues independently.
+The completed [weight-consolidation study](../studies/2026-09-17-weight-consolidation-findings.md)
+used this revision unchanged for an independent environment, real adapter training,
+fresh workers and corrected source-access confirmation. It found partial learning
+but no added completion over its finite-language compiler. This is evidence of
+useful instrument operation, not a runtime-wide quality or consolidation result.
+Its workload and protocol belong to the study; runtime development continues independently.
+
+The [database continuation](../studies/2026-09-18-continuing-consolidation-findings.md)
+also uses this pin, with study-owned generation and lower-rate training adaptations.
+Two cumulative updates produce shorter familiar execution without better fresh
+completion. Runtime operation, teaching quality and useful consolidation remain
+separate claims; the review does not change this derivative's implementation.
 
 ## Relationship and retrieval
 
 The [repository list](repos.txt) is separate from [ancillary studies](../studies/repos.txt).
-There are thirteen ancillary studies with accepted bounded contributions and
-one newly prepared study, weight-consolidation. This derivative remains outside
+There are fourteen ancillary studies with accepted bounded contributions;
+weight-consolidation's [continuing-work follow-up](../notes/WEIGHT_CONSOLIDATION.md#assessment-after-continuing-work--18-september)
+is now reviewed and complete.
+This derivative remains outside
 that registry and does not reopen any completed phase.
 Root theory, literature and independent research selection continue.
 

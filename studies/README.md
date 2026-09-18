@@ -1,6 +1,24 @@
 **Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/PREVIOUS_RESEARCH.md) and [research perspective](../notes/RESEARCH_PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. The [17 September executable-experience selection](../notes/EXECUTABLE_EXPERIENCE.md) opens a focused allocation comparison alongside the neural-learning emphasis; the [historical preference](../sources/README.md#research-preference-to-date) remains recorded.
 
-**Latest accepted publications — 17 September:**
+**Latest accepted publication — 18 September:**
+[Continuing consolidation](2026-09-18-continuing-consolidation-findings.md) accepts
+`80c17db`. Purposeful diagnosis yields shorter familiar SQL execution, but periodic
+updates complete 6/20 fresh jobs versus 7/20 with external reuse. Fresh adapter
+runs never search history or execute saved queries; teaching contains only
+submit/finish actions. An accidental output match qualifies the sole scored
+stale-to-updated loss. The bounded phase closes; useful continuing learning and
+independent-history generality remain open.
+
+**First weight-consolidation publication — 17 September:**
+[Weight consolidation](2026-09-17-weight-consolidation-findings.md) completes its
+bounded phase at `491c0f8`. Full-source-access confirmation finds a manual-route
+adapter gain, 3/12 to 5/12, but compiler reuse completes 12/12 with either model
+or direct execution. The adapter adds repair calls; the finite authored language
+explains closure without settling continuing consolidation. WC1–WC3 are assessed
+with original predictions and failed runs preserved. That acceptance did not
+commission further work; the later authorization is recorded below.
+
+**Preceding accepted publications — 17 September:**
 [Procedural migration and correction lineage](2026-09-17-migration-lineage-findings.md)
 complete their bounded phases at `5a670d3` and `f8ad1e1`. Unchanged guidance
 matches paid selection at 12/12 with much lower total token cost. Acquired lineage
@@ -8,10 +26,10 @@ reduces repaired fields, but rebuilding is cheaper at identical tested quality.
 Correct state does not guarantee correct later orders. PM1–PM3 and CL1–CL3 now
 have bounded assessments; their original wording is preserved.
 
-**Current work — 17 September 2026:** Fourteen studies are registered. Thirteen have
-accepted bounded contributions and completed commissioned phases;
-[weight-consolidation](#weight-consolidation) is newly prepared for the user to
-assign an ancillary agent. Preparation launched no experiments.
+**Current work — 18 September 2026:** All fourteen registered studies have
+accepted bounded contributions and completed reviewed phases. The
+[weight-consolidation follow-up](#weight-consolidation) is now reviewed, including
+its bounded diagnostic continuation. No new experiment is launched by this review.
 The root continues theory, public research and
 selection toward useful capability across repeated realistic work and change.
 The [applied derivative registry](../derivatives/README.md) separately records
@@ -32,14 +50,14 @@ No continuation is commissioned. The independent executable-experience review
 is complete; the fixed directive and AD1–AD3 remain intact.
 
 
-This map connects the root's questions, ancillary publications and current research directions. Thirteen projects have published accepted bounded contributions. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
+This map connects the root's questions, ancillary publications and current research directions. Fourteen projects have published accepted bounded contributions. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
 
 ## Cloning the studies
 
 [repos.txt](repos.txt) is the maintained list of Construct-2 ancillary repositories,
 one `organization/repository` per line, including completed studies. It contains
-all fourteen studies currently in this program: thirteen with accepted bounded
-contributions and the newly prepared weight-consolidation study. The root
+all fourteen studies currently in this program, each with accepted bounded
+contributions, including the completed weight-consolidation follow-up. The root
 and other lab projects are outside its scope. Contributors need Git, an
 authenticated GitHub CLI (`gh auth login`), and access to these private repositories.
 
@@ -267,6 +285,9 @@ For S1, we should distinguish three outcomes: **the chosen text becomes easier t
 | **P86. [MemLineage, 2605.14421v1](https://arxiv.org/html/2605.14421v1)** — §§3.5/6.4/8 | Exposure versus semantic attribution; enforcement versus recovery. | Primitive timing is not lifetime attribution cost; refusal is not complete task success. |
 | **P87. [AgentOdyssey, 2606.24893v1](https://arxiv.org/html/2606.24893v1)** — §4, §6, Appendix 10 | Continuing games with LoRA updates and external-memory mechanisms. | Combined learning already has positive evidence; matched experience, competent code reuse and requirement changes need a narrower comparison. |
 | **P88. [AgentCL, 2606.02461v1](https://arxiv.org/html/2606.02461v1)** — §§3.1–3.3 | Controlled reuse streams and separate transfer metrics. | Compositional reuse differs from repetition; its feedback boundary differs from corrected-trajectory training. |
+| **P89. [HarnessForge, 2606.01779v1](https://arxiv.org/html/2606.01779v1)** — §§3.4, 4.3–4.4, limitations, Appendix G.1 | Harness-specific policy alignment and crossed compatibility evaluation; author-reported results. | Narrows interface-change diagnosis; does not establish the cause of local adapter repair calls. [Reading ledger](../sources/2026-09-17-weight-consolidation-review/README.md). |
+| **P90. [Continual Learning Bench, 2606.05661v1](https://arxiv.org/html/2606.05661v1)** — §§3.1–3.2, Appendix A.4 | Continuing database work with learnable schema conventions and migration. | The local supplied normalization changes the learning target to report composition and evidence use. [Reading ledger](../sources/2026-09-18-weight-continuation-review/README.md). |
+| **P91. [An Empirical Study of Harness Design for Coding Agents, 2609.20804v1](https://arxiv.org/html/2609.20804v1)** — §§2–4, Limitations, selected trajectory appendices | Component comparisons and observed tool use. | Before training retrieval, establish whether delivering retained experience helps. [Reading ledger](../sources/2026-09-18-harness-components/README.md). |
 
 The [migration/lineage review](../sources/2026-09-17-migration-lineage-review/README.md)
 adds P86 and revisits P83/P84 as the local findings sharpen cost and behavior
@@ -605,25 +626,43 @@ continuation is commissioned.
 
 ### Weight consolidation
 
-**Status — 17 September 2026:** Commissioned by the user and prepared for an
-independent ancillary session. The private
-[repository](https://github.com/alignment-farm/weight-consolidation)
-([local brief](../../ancillary-studies/weight-consolidation/README.md)) is at
-`a9e609a892fb8e34507e20b5fdf9b504c7c93170`; remote `main` matches, tracking is
-configured and the working tree is clean. The user will task its investigator;
-preparation started no agent or experiment.
+**Follow-up accepted — 18 September:** Publication `80c17dbfb63116cd35ab5faf23f527178fec3e5b`
+completes the bounded [continuing-work follow-up](../../ancillary-studies/weight-consolidation/CONTINUING_WORK.md).
+The [root assessment](2026-09-18-continuing-consolidation-findings.md) records
+workload discovery, acquisition diagnosis and two updates on one database history.
+Source completion reaches 12/12 for both conditions with calls reduced from 87
+to 24 by the adapter. The periodic strategy completes 6/20 fresh jobs versus 7/20
+for external reuse; quality-matched repayment is absent. All fresh adapter runs
+avoid history search and saved-query execution. One accidental output match
+limits a forgetting interpretation of the scored update loss. WC1–WC3 receive
+[updated assessments](../notes/WEIGHT_CONSOLIDATION.md#assessment-after-continuing-work--18-september)
+without changing their predictions. [Review records](../sources/2026-09-18-weight-continuation-review/README.md)
+verify saved outcomes and SQL results without rerunning models. No candidate is
+promoted; no new experiment is launched by this review.
 
-The study asks what adapter learning adds when the same accumulated examples
-and executable artifacts remain available to a competent external-reuse agent.
-The [selection note](../notes/WEIGHT_CONSOLIDATION.md) preserves WC1–WC3 and the
-[methods ledger](../sources/2026-09-17-runtime-study-selection/README.md) narrows
-the claim against P87/P88/P42. Construct Runtime at
-`9ffb10a66180626b80127fb1892b2cf71e39d946` supplies a starting instrument, with
-training restarts rather than optimizer continuation. The investigator owns
-workload discovery, acquisition diagnosis, fresh evaluation and full cost
-accounting. A useful baseline and functioning learning treatment precede transfer
-claims; a treatment win is not required. This is independent of completed phases
-and of the derivative's operational work.
+**Status — 17 September 2026:** Publication accepted and bounded phase complete at
+`491c0f8a745f48327f6d095d2c3fa7f07d768b44`, advancing from preparation at
+`a9e609a892fb8e34507e20b5fdf9b504c7c93170`. The [root assessment](2026-09-17-weight-consolidation-findings.md)
+reviews corrected full-source-access confirmation, partial acquisition and the
+finite contract compiler. Manual retained-code use improves from 3/12 to 5/12
+with the adapter; developed compilation completes 12/12 with both models and
+direct execution. The adapter incurs twelve extra repair calls and worsens one
+revised obligation in the manual route. No candidate is promoted.
+
+The [selection note](../notes/WEIGHT_CONSOLIDATION.md#assessment-after-publication--17-september)
+preserves and assesses WC1–WC3. [Review records](../sources/2026-09-17-weight-consolidation-review/README.md)
+include independent grading of all 172 executions, raw costs, compiler replay
+and executable source-access checks. The exploratory evidence-access flaw and
+failed runs remain preserved. Construct Runtime is unchanged at
+`9ffb10a66180626b80127fb1892b2cf71e39d946`.
+
+The authored compiler and teaching, one history, one adapter update and correlated
+new payloads limit the first publication's claim. It did not test repeated
+consolidation; the later follow-up above extends that boundary. The first bounded
+phase closes on an explained workload limitation;
+it does not close the broader retained-experience question or commission another
+study. P89/P42 narrow possible compatibility diagnosis without identifying a
+local cause.
 
 <a id="what-the-three-completed-investigations-change"></a>
 
@@ -646,6 +685,7 @@ The investigations examine different mechanisms and tasks. Together they sharpen
 | Executable experience retention | Ready and archived source avoid generation at 8/8 complete requests; retaining the first reconstruction removes its later generation cost. | Compare availability and persistence policy over time; library registration alone does not explain saved work. |
 | Procedural memory migration | Useful unchanged guidance matches paid selection; recipient-dependent marginal value coexists with failed selection-cost repayment. | An agent change warrants comparing inheritance and adaptation, not assuming adaptation is needed. |
 | Correction lineage | Accurate initial links and fewer repaired fields coexist with higher cost than rebuilding; correct repaired state coexists with later task errors. | Maintaining reasons to revise is another paid, fallible capability, and must be assessed through subsequent behavior. |
+| Weight consolidation | The first compiler removes a manual-route learning benefit; the database continuation shortens familiar execution without better fresh completion. Identical source access coexists with different evidence use. | Marginal weight value depends on the remaining task and teaching target. Output equality alone cannot establish procedural acquisition or loss. |
 
 This is a synthesis of distinct local findings, not evidence that the adapter's transfer deficit and the deeper memory's partial retrieval share a cause. The experiments also concern different persistence boundaries: training a fast-memory system to learn within sequences does not demonstrate accumulation of experience across agent sessions. S3's successful synthetic recalls supply no placement or acquisition-cost comparison against accessible explicit evidence.
 
@@ -657,7 +697,37 @@ Where experience lives is part of a larger decision about what to change and pre
 
 ## 6. Research selection
 
-**New independent commission — 17 September:**
+**Current assessment — 18 September:** The
+[continuing-consolidation follow-up](2026-09-18-continuing-consolidation-findings.md)
+is complete and accepted with an output-matching qualification. The investigator
+autonomously selected a grounded workload and pursued bounded source-quality
+development. Original WC1–WC3 and the first publication remain intact. The next
+root preference for discussion is learning competent use of retained experience
+from search/execution/checking trajectories, with evaluation that distinguishes
+correct computation from a coincidentally correct result. P42/P89 already supply
+nearby methods; P90 clarifies how the adapted workload changes the learning target.
+This is not a new commission. Independent histories, development feasibility and
+fresh evaluation are needed before a stronger continuing-capability claim.
+
+The subsequent [P91 reading](../sources/2026-09-18-harness-components/README.md)
+qualifies that preference: zero memory-tool calls alone do not show a defect.
+First determine whether delivering relevant eligible source experience improves
+development completion. Then compare ordinary access/delivery against learned
+use. Preserve the distinction between a privileged diagnostic and an affordable
+deployment policy; more retrieval is not itself the objective.
+
+**Preceding publication assessment — 17 September:**
+[Weight consolidation](2026-09-17-weight-consolidation-findings.md) is accepted and
+its bounded phase closed. The cheap compiler explains a limit of the selected
+workload; one training run does not test continuing consolidation. All fourteen
+studies now have accepted bounded contributions and completed commissioned phases.
+The [public-method refresh](../sources/2026-09-17-weight-consolidation-review/README.md)
+adds P89 and revisits P42, narrowing compatibility questions before further
+experiments. Root selection should identify useful work remaining after competent
+tools, with independent histories and consequential change. That assessment
+commissioned no continuation; the later authorization is recorded above.
+
+**Earlier independent commission — 17 September:**
 [What do weights add when experience remains available?](../notes/WEIGHT_CONSOLIDATION.md)
 selects bounded feasibility for external reuse versus the same retained experience
 plus an adapter, evaluated across fresh compositions and changed requirements.
@@ -665,16 +735,17 @@ The [methods review](../sources/2026-09-17-runtime-study-selection/README.md) na
 the claim against P87/P88/P42 and checks Construct Runtime's investigator interface
 at `9ffb10a`. A useful workload, competent baseline, acquisition path and resource
 estimate precede a main comparison. The user authorized the new
-[weight-consolidation study](#weight-consolidation), now prepared for an ancillary
-agent they will assign. Preparation launched no experiments and reopens no
+[weight-consolidation study](#weight-consolidation), then prepared for an ancillary
+agent they would assign. Preparation launched no experiments and reopened no
 completed phase.
 
-**Latest publication assessment — 17 September:**
+**Preceding publication assessment — 17 September:**
 [Migration and correction lineage](2026-09-17-migration-lineage-findings.md) are
 accepted and their bounded phases closed. Useful inheritance and functioning
 repair coexist with unsuccessful cost repayment against simple alternatives.
 At that acceptance boundary, thirteen studies had accepted bounded contributions
-and no commission remained in execution. The new preparation is recorded above.
+and no commission remained in execution. The subsequent commission and its
+completed assessment are recorded above.
 Original predictions and failed runs remain
 part of the record. AD1 is still untested; these studies do not select remedies
 for missing evidence versus failed use.
