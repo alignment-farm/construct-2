@@ -26,16 +26,15 @@ reduces repaired fields, but rebuilding is cheaper at identical tested quality.
 Correct state does not guarantee correct later orders. PM1–PM3 and CL1–CL3 now
 have bounded assessments; their original wording is preserved.
 
-**Current work — 18 September 2026:** All fourteen registered studies have
-accepted bounded contributions and completed reviewed phases. The
-[weight-consolidation follow-up](#weight-consolidation) is now reviewed, including
-its bounded diagnostic continuation. No new experiment is launched by this review.
-The root continues theory, public research and
-selection toward useful capability across repeated realistic work and change.
+**Current work — 19 September 2026:** Fifteen studies are registered. Fourteen
+have accepted bounded contributions and completed reviewed phases, including the
+weight-consolidation continuation. The new [lesson-acceptance study](#lesson-acceptance)
+is prepared and its bounded investigation commissioned; preparation has launched
+no agent or experiment. The root continues theory, public research and selection
+toward useful capability across repeated realistic work and change.
 The [applied derivative registry](../derivatives/README.md) separately records
-Construct Runtime, whose initial build now implements an owned machine-facing
-execution and adapter-learning environment. The registry records its bounded
-build review; its development is independent of these studies.
+Construct Runtime, whose reviewed memory-worker build supplies separate primary
+and learned-memory roles. Its development is independent of these studies.
 The preceding [executable-retention assessment](2026-09-17-executable-retention-findings.md)
 remains accepted: source availability avoids generation, and caching the first
 reconstruction changes the recurring cost comparison.
@@ -56,8 +55,8 @@ This map connects the root's questions, ancillary publications and current resea
 
 [repos.txt](repos.txt) is the maintained list of Construct-2 ancillary repositories,
 one `organization/repository` per line, including completed studies. It contains
-all fourteen studies currently in this program, each with accepted bounded
-contributions, including the completed weight-consolidation follow-up. The root
+all fifteen studies currently in this program: fourteen with accepted bounded
+contributions and the prepared lesson-acceptance investigation. The root
 and other lab projects are outside its scope. Contributors need Git, an
 authenticated GitHub CLI (`gh auth login`), and access to these private repositories.
 
@@ -288,6 +287,9 @@ For S1, we should distinguish three outcomes: **the chosen text becomes easier t
 | **P89. [HarnessForge, 2606.01779v1](https://arxiv.org/html/2606.01779v1)** — §§3.4, 4.3–4.4, limitations, Appendix G.1 | Harness-specific policy alignment and crossed compatibility evaluation; author-reported results. | Narrows interface-change diagnosis; does not establish the cause of local adapter repair calls. [Reading ledger](../sources/2026-09-17-weight-consolidation-review/README.md). |
 | **P90. [Continual Learning Bench, 2606.05661v1](https://arxiv.org/html/2606.05661v1)** — §§3.1–3.2, Appendix A.4 | Continuing database work with learnable schema conventions and migration. | The local supplied normalization changes the learning target to report composition and evidence use. [Reading ledger](../sources/2026-09-18-weight-continuation-review/README.md). |
 | **P91. [An Empirical Study of Harness Design for Coding Agents, 2609.20804v1](https://arxiv.org/html/2609.20804v1)** — §§2–4, Limitations, selected trajectory appendices | Component comparisons and observed tool use. | Before training retrieval, establish whether delivering retained experience helps. [Reading ledger](../sources/2026-09-18-harness-components/README.md). |
+| **P92. [CHIME, 2609.02074v1](https://arxiv.org/html/2609.02074v1)** — §§3–6 | Reflective attribution and external memory selection; author-reported gains. | Narrows the question to additional paid verification. [Reading ledger](../sources/2026-09-19-experience-credit/README.md). |
+| **P93. [Causal Agent Replay, 2606.08275v1](https://arxiv.org/html/2606.08275v1)** — §§2–5, 7 | Intervention and continuation replay with synthetic validation. | Supplies a method, not evidence of transferable lessons or cost repayment. [Reading ledger](../sources/2026-09-19-experience-credit/README.md). |
+| **P94. [RSIAgent, 2609.15364v1](https://arxiv.org/html/2609.15364v1)** — §4.6, §7, §§8.1–8.3 | Independent artifact verification followed by actor-owned memory writing. | Narrows the distinction between a checked task and a validated lesson. [Reading ledger](../sources/2026-09-19-lesson-acceptance-selection/README.md). |
 
 The [migration/lineage review](../sources/2026-09-17-migration-lineage-review/README.md)
 adds P86 and revisits P83/P84 as the local findings sharpen cost and behavior
@@ -664,6 +666,30 @@ it does not close the broader retained-experience question or commission another
 study. P89/P42 narrow possible compatibility diagnosis without identifying a
 local cause.
 
+### Lesson acceptance
+
+**Prepared and commissioned — 19 September 2026:**
+[alignment-farm/lesson-acceptance](https://github.com/alignment-farm/lesson-acceptance)
+([local brief](../../ancillary-studies/lesson-acceptance/README.md)) is ready at
+preparation commit `6055228`. No agent or experiment has been launched by root.
+The [selection note](../notes/LESSON_ACCEPTANCE.md) preserves LA1–LA3; the
+[reading/preparation ledger](../sources/2026-09-19-lesson-acceptance-selection/README.md)
+records closer public overlap and the pinned runtime dependency.
+
+The question is whether additional evidence for accepting a reusable lesson
+improves later complete work enough to repay checking, compared with inexpensive
+grounded acceptance and competent raw-experience reuse. A shared candidate pool
+and stable reader separate acceptance from proposal quality and learned retrieval.
+Repeated data transformation/reporting is a workload lead; feasibility, methods
+and execution belong to the investigator. Original episodes and acquired code
+remain available, and an explained cheap solution can close the bounded phase.
+
+P48 already supplies environment-probing curation; its deeper accounting review
+and P94 narrow the contribution to acceptance evidence, scope and total cost.
+The study has an owned local runtime clone at reviewed `09f6683`; that pin was
+not available remotely at preparation. No derivative changes or waiting are
+required. The completed fourteen ancillary phases remain distinct.
+
 <a id="what-the-three-completed-investigations-change"></a>
 
 ### What the completed investigations change
@@ -697,7 +723,33 @@ Where experience lives is part of a larger decision about what to change and pre
 
 ## 6. Research selection
 
-**Current assessment — 18 September:** The
+**Current commission — 19 September:** The user authorized preparation of
+[lesson-acceptance](#lesson-acceptance), now committed and pushed as an independent
+private repository. It owns bounded workload discovery and experiments on the
+evidence worth acquiring before accepting a lesson. Root supplies
+[LA1–LA3 and the selection rationale](../notes/LESSON_ACCEPTANCE.md); the investigator
+owns protocol, budget and execution. Preparation starts no session or model run.
+The [public refresh](../sources/2026-09-19-lesson-acceptance-selection/README.md)
+deepens P48 and adds P94; the generic verification loop is already established
+prior art. Complete future work and full-cost comparison motivate this study.
+
+**Preceding root selection — 19 September:** Following the
+[memory-worker review](../derivatives/README.md#memory-worker-review--19-september-2026),
+root is developing [the value of checking a reusable lesson](../notes/FEEDBACK_DECISIONS.md#runtime-review-refinement--19-september).
+The candidate compares selective paid verification with competent raw-experience
+reuse and inexpensive checks/reflection, judged on later complete work and total
+cost. P92/P93 and the earlier feedback reading narrow the public-method overlap.
+At that review, workload feasibility was unestablished and no new study had yet
+been commissioned; the subsequent authorization is recorded above. AD1–AD3 and
+completed phase boundaries remain intact. The prior
+evidence-use preference and P91 qualification below still constrain selection.
+The derivative demonstrates learned evidence use on one authored history, while
+ordinary retrieval completes 28/28 versus learned memory's 26/28 at lower cost.
+Authority is controller-supplied and the learned reader is representation-sensitive.
+Use competent stable delivery to isolate lesson acceptance before attributing
+its value to neural selection. This derivative adds no ancillary publication count.
+
+**Preceding assessment — 18 September:** The
 [continuing-consolidation follow-up](2026-09-18-continuing-consolidation-findings.md)
 is complete and accepted with an output-matching qualification. The investigator
 autonomously selected a grounded workload and pursued bounded source-quality

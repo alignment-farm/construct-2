@@ -1,0 +1,9 @@
+{
+  "url": "https://export.arxiv.org/api/query?id_list=2609.02074,2607.21106,2606.08275",
+  "retrieved_at": "2026-09-19T21:13:40.348526+00:00",
+  "sha256": "bc2a670341c80519108d09620ee9e353bd84f1ff86b1ffd41d37ae57f090d5d8",
+  "discovery_queries": [
+    "site.arxiv.org agent memory counterfactual credit assignment experience lessons failures",
+    "site.arxiv.org agent experience reflection memory unreliable feedback causal learning lessons"
+  ]
+}

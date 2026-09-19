@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-09-19T23:32:48.518319+00:00",
+  "repository": "alignment-farm/lesson-acceptance",
+  "url": "https://github.com/alignment-farm/lesson-acceptance",
+  "visibility": "private",
+  "local_path": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/lesson-acceptance",
+  "branch": "main",
+  "preparation_commit": "60552288930555806cef042294ea27145753d1d8",
+  "remote_main": "60552288930555806cef042294ea27145753d1d8",
+  "tracking": "origin/main",
+  "working_tree_clean": true,
+  "runtime_revision": "09f66837ca76db1f674ee3372d734219ad0f3e27",
+  "runtime_source": "owned local clone in ignored .deps/construct-runtime; upstream commit unavailable at preparation",
+  "experiments_started": false,
+  "agent_session_started": false,
+  "preparation_files_sha256": {
+    "README.md": "be8caec0dec5e4cb91eaa9d5930908a337949b3beddbf61e6147112500a58a0e",
+    "AGENTS.md": "1e90fca82ed4333e347ff41dc4dd58280c969372770dd0095b6ea6c83594b876",
+    ".gitignore": "8a4d86067216cb88d0305686bfe3fe767c4c30ca94455ce5d7dcdd3cd741111f",
+    "sources/README.md": "49f387d942898e1442c5800f6ffa1c93ac335dc4b8b6beda5c7063f2e528b1e7",
+    "sources/preparation.json": "5d4a901a9117405a7fc6eb63d7a3dd53376e8dc758b56dbab733d1748f2aa136"
+  }
+}

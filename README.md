@@ -22,14 +22,15 @@ the apparent update regression. The bounded phase is complete; useful continuing
 learning remains open. The review records the next research preference without
 starting another experiment.
 
-**Applied prototype available — 17 September:**
-[Construct Runtime](derivatives/README.md#investigator-interface-review--17-september-2026)
-now has a working local task runtime, a machine-facing HTTP interface and real
-LoRA training and reloading, plus investigator-defined environments and portable
-state forks. Its first diagnostic comparison demonstrates source
-acquisition but does not establish an adapter advantage over retained examples.
-The derivative owns its software and experiments outside this root; the registry
-records the reviewed revision, checks and limits. Root research continues independently.
+**Applied prototype reviewed — 19 September:**
+[Construct Runtime](derivatives/README.md#memory-worker-review--19-september-2026)
+now includes a separate trainable memory model alongside its fixed primary,
+machine-facing task runtime and portable state. Two learning points improve
+original final completion from frozen memory's 9/28 to learned memory's 26/28;
+ordinary retrieval completes 28/28 at lower cost. Authority remains supplied,
+and changing record IDs/order breaks the learned reader. The reviewed local
+publication is `09f6683`; root regraded 176 saved tasks and ran software checks.
+The derivative owns its software and experiments outside this root.
 
 **First weight-consolidation publication — 17 September:**
 [Weight consolidation](studies/2026-09-17-weight-consolidation-findings.md)
@@ -93,12 +94,19 @@ The [third-phase root assessment, 15 September](studies/2026-09-15-maintenance-f
 
 S5 now includes an [accepted placement comparison](studies/2026-09-16-placement-findings.md) alongside the earlier [acquisition, use and maintenance measurements](studies/2026-09-15-maintenance-findings.md#assessment-of-the-prospective-expectations). None demonstrates learning-cost repayment against competent explicit alternatives at comparable complete quality. The placement study shares visible evidence across methods; earlier references have different supplied structures and privileges. The later evidence-use result adds a favorable measured comparison against an uncached lesson, qualified above. These results do not establish a universal ranking of weights, records and executable rules.
 
-**Current work — 18 September 2026:** All fourteen registered studies have
-accepted bounded contributions and completed reviewed phases, including the
-weight-consolidation continuation. The root
+**Current work — 19 September 2026:** Fifteen studies are registered. Fourteen
+have accepted bounded contributions and completed reviewed phases, including the
+weight-consolidation continuation. The new
+[lesson-acceptance study](studies/README.md#lesson-acceptance) is prepared for an
+independent investigator to develop and run a bounded comparison; no agent or
+experiment was launched during preparation. The root
 continues theory, public research and selection within the fixed directive.
 The separate [applied derivative](derivatives/README.md) owns its
 prototype development and does not change those ancillary phase boundaries.
+Its learning memory worker's first bounded phase is now reviewed. The
+[lesson-acceptance selection](notes/LESSON_ACCEPTANCE.md) uses that evidence and
+the public-method comparison to separate lesson acceptance from later reading.
+Workload discovery, methods and execution now belong to the ancillary study.
 The next evidential milestone is useful capability across repeated realistic work
 and consequential change, with complete outcomes and total costs. The follow-up
 establishes a narrower source-efficiency result, not that milestone. AD1 remains untested locally, AD2

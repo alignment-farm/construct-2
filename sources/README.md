@@ -3,6 +3,25 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [19 September lesson-acceptance selection](2026-09-19-lesson-acceptance-selection/README.md)
+deepens P48's setup and accounting and adds P94. It narrows the user-authorized
+[study](../notes/LESSON_ACCEPTANCE.md) to the decision value and full cost of
+acceptance evidence, with competent delivery and shared candidate lessons.
+The new independent repository is prepared; no experiments were launched.
+
+The [19 September runtime memory-worker review](2026-09-19-runtime-memory-review/README.md)
+accepts local derivative publication `09f6683`, independently regrades 176 saved
+tasks and reproduces cost totals. Learned evidence selection helps against the
+frozen worker but trails ordinary retrieval; declared authority remains supplied.
+This refines the lesson-checking candidate toward acceptance decisions with a
+competent stable reader. Software checks passed; no inference or training was run.
+
+The [19 September experience-credit reading](2026-09-19-experience-credit/README.md)
+adds P92–P93 and revisits the earlier feedback comparison. Existing reflective
+selection and intervention methods narrow the next root candidate to whether
+paying to check proposed lessons improves later complete work enough to repay
+the cost. Workload feasibility remains open; no experiment is commissioned.
+
 The [18 September harness-component reading](2026-09-18-harness-components/README.md)
 adds P91 from the user's exact-version paper. It qualifies the next local
 learning-target preference: nonuse of a memory tool does not establish a retrieval

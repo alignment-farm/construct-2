@@ -132,3 +132,119 @@ point. This closes feasibility work on these artifacts without refuting AD1 or
 changing its original expectation. No replacement experiment is automatically
 selected; future workload discovery must earn priority through the uncertainty
 it can resolve.
+
+## Checking a reusable lesson — 19 September
+
+The next root candidate concerns the passage from an observed episode to a
+reusable lesson: **when does paying to check a proposed lesson improve later work
+enough to justify that checking?** This develops the feedback question without
+reopening the completed S4 remedy-feasibility phase or changing AD1–AD3. It is a
+selection candidate, not a commissioned study.
+
+Three local findings motivate the distinction. The
+[continuing-consolidation review](../studies/2026-09-18-continuing-consolidation-findings.md)
+found a correct answer from the wrong ranking computation. The
+[lineage comparison](../studies/2026-09-17-migration-lineage-findings.md)
+found correct state repair followed by unsuccessful task execution. Successful
+acquisition has also depended on authored teaching and source-quality diagnosis.
+Thus task outcome, episode explanation, lesson validity and future usefulness
+are different objects. A successful retry can validate a repair on one episode
+without establishing when to reuse it.
+
+The [public-method reading](../sources/2026-09-19-experience-credit/README.md)
+adds P92 CHIME's reflective memory selection and P93 Causal Agent Replay's
+executed interventions. Together with P44/P48–P51, these narrow the contribution
+to the additional decision value of paid verification. Another generic
+reflection or memory-credit loop would overlap existing work.
+
+The clean initial comparison would hold source episodes and proposed lessons
+available across acceptance policies: retain raw experience for competent later
+reuse; accept lessons through inexpensive grounded checks and reflection; or
+selectively purchase an executed check before acceptance. Ordinary executable
+checks and retained programs remain available. Any additional examples acquired
+through checking are part of its treatment and cost, not free shared teaching.
+If checking also rewrites lessons, distinguish that generation benefit from
+better acceptance of the same candidates.
+
+Later fresh tasks must test the claimed lesson's scope, consequential changes
+and unchanged obligations. Measure complete outcomes alongside checking,
+storage/retrieval, training where used, later execution and repair costs in their
+native units. Improving attribution accuracy alone is insufficient. Different
+learner histories matter because the same lesson can be useful, redundant or
+misleading depending on what the recipient can already do.
+
+The prospective expectation is conditional: selective checks should help where
+recurring misleading lessons escape cheap checks and an affordable intervention
+predicts later usefulness. They should add little where ordinary validation
+already settles acceptance, source reuse is cheap, or the lesson rarely recurs.
+Even an accurate check can cost more than the failures it avoids. Neural
+consolidation could amplify either benefit or error; an adapter advantage is not
+required to answer the initial question.
+
+Next, assess workload feasibility: find naturally arising candidate lessons with
+different future value, a functioning and affordable check, and a competent raw
+experience baseline. Preserve P91's diagnostic that eligible experience delivery
+must first have useful potential; unused retrieval is not itself a defect. A
+workload already resolved by simple checks or reconstruction can close this
+candidate without new model runs. Root owns this selection and literature work;
+an eventual ancillary investigator would own methods and execution.
+
+The [runtime memory-worker build](../derivatives/README.md#memory-worker-development--19-september-2026)
+can later supply instruments for this comparison. Its completion is neither a
+prerequisite for root development nor evidence that lesson checking pays.
+
+## Runtime-review refinement — 19 September
+
+The [memory-worker review](../sources/2026-09-19-runtime-memory-review/README.md)
+at `09f6683` adds functioning learned evidence use: a separate trained memory
+model improves original final completion from 9/28 to 26/28, with the primary
+fixed. Ordinary retrieval completes 28/28 and is cheaper. The worker learns
+selection from authored read/deliver demonstrations. Correctness and authority
+of the archived rules are supplied, not inferred from the raw episodes.
+
+This sharpens the proposed comparison in three ways:
+
+1. **Hold later access competent while testing lesson acceptance.** The first
+   comparison can use ordinary delivery and the same primary across policies.
+   Otherwise, a weak or representation-sensitive reader can hide useful checks.
+   Independently vary what evidence supports accepting a candidate; distinguish
+   accepting a better subset from generating better candidates.
+2. **Separate supplied authority from learned empirical claims.** The runtime
+   correctly blocks delivery of records marked uncertain or superseded, but the
+   controller assigns those marks. A verified external correction differs from
+   a hypothesis that a behavior generalizes. Record a proposed lesson's scope,
+   supporting observations and paid checks in the investigator's controller;
+   do not treat model confidence or a declared `checked` flag as new evidence.
+   The existing archive/state interfaces provide a usable execution boundary.
+3. **Test the lesson and its use across representation and history changes.**
+   Renaming IDs and shuffling the catalog jointly breaks this learned reader
+   despite unchanged facts. Separate these changes when diagnosing dependence.
+   Fresh histories are needed before claiming a reusable selection relation.
+   Once accepted lessons have demonstrated downstream value, a distinct
+   comparison can ask what memory-model training adds to their construction or
+   use, with comparable acquired experience.
+
+The root feasibility deliverable is now a candidate source stream with naturally
+arising plausible lessons, a specific affordable check, and a competent reader
+that leaves a consequential acceptance decision unresolved. The runtime's current
+authoritative rule catalog is authored as correct and does not supply that uncertainty. Preserve its
+successful ordinary solution rather than restricting access to create headroom.
+No general-purpose verification subsystem or new adapter capacity is selected.
+
+The derivative's suggested independent-history and varied-address development is
+useful within its own remit. This review accepts the completed build and bounded
+phase, including failed acquisition and the later primary-contract repair. Root
+keeps the lesson-checking candidate independent of that development; original
+predictions and completed ancillary boundaries remain unchanged.
+
+## Lesson-acceptance commission — 19 September
+
+The user subsequently authorized preparation of an independent study. The
+[selection note](LESSON_ACCEPTANCE.md) records the question, workload lead and
+prospective LA1–LA3; [lesson-acceptance](../../ancillary-studies/lesson-acceptance/README.md)
+now owns bounded discovery, methods and experiments. P48's deeper cost-accounting
+review and P94 narrow the public overlap before preparation. The initial comparison
+holds candidate generation and competent delivery stable while varying acceptance
+evidence, with raw experience and acquired programs retained. Additional checking
+must earn its cost on later complete work. Preparing and publishing the repository
+starts no investigator or model run and reopens no completed ancillary phase.

@@ -1,0 +1,31 @@
+{
+  "review_date": "2026-09-19",
+  "previous_reviewed_revision": "9ffb10a66180626b80127fb1892b2cf71e39d946",
+  "reviewed_revision": "09f66837ca76db1f674ee3372d734219ad0f3e27",
+  "working_tree_porcelain": "",
+  "local_origin_main_at_review": "9ffb10a66180626b80127fb1892b2cf71e39d946",
+  "remote_fetch_performed": false,
+  "runtime_files_sha256": {
+    "reports/MILESTONE-3.md": "bbc4f02ad6a7afd9801b1371c6feb87b907c9c7da034e63dd37588a305677452",
+    "docs/MEMORY_WORKER.md": "bf937ecc1f6942709e7acd359de6efcdbc32049ed57c51165c366690581b65ae",
+    "docs/MEMORY_WORKER_PLAN.md": "1d63ba946880fcf41bdef7b31a08369454dc93b3b15a92464588a2dbcdd0b763",
+    "MEMORY_WORKER.md": "ced1e9b66fa2b36ad274edcf4ce399239fea7eb9fa201c641213b241d839c762",
+    "src/construct_runtime/memory.py": "d5d3c109d6d7a16e1e1026cd7c82d646905bad1cb06ab1cb5f5a57f03840d3cd",
+    "examples/memory_worker/workload.py": "7fc6ad43e3ed9ad2548993c3ab8fa194a87194efeb104e26e6f2cac904bad494",
+    "examples/memory_worker/analyze.py": "81729138342672a97b67834b4cac07eafe02b798eceeaf4682515dcf1f6f9d88",
+    "examples/memory_worker/summarize_costs.py": "6551bad059a032e956a7d75ca18d5b557fb19a7fd81bd214ca068a3fe064341e",
+    "examples/memory_worker/address_probe.py": "43fcbebcfb76fabf4c762bed75f0b82f4f091216ca7d676927618e0ee0a7bfd8"
+  },
+  "checks": {
+    "pytest": "33 passed in 1.65s",
+    "ruff": "All checks passed",
+    "independent_tasks_regraded": 176,
+    "fresh_model_inference": false,
+    "training": false
+  },
+  "evidence_files_sha256": {
+    "check_saved.py": "85928df71b3a103ea95ffe964fc0d3781372dd8f2c45969f35cfd8249e4f6c02",
+    "independent-check.json": "f0590acf23e6d04e554a6db34516a628d34b9105148aa82ec3ac268deece84f8",
+    "saved-audit.json": "91877bd50c10a607c2c427a7f5d78f1c589ab017023663406c9febf74c49c8ea"
+  }
+}

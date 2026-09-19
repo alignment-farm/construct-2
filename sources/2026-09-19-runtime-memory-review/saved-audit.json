@@ -1,0 +1,875 @@
+{
+  "kind": "all preserved development, learning, checking, final and diagnostic work",
+  "attempts": {
+    "attempt-01": {
+      "kind": "offline saved-record recomputation; no inference",
+      "verified": true,
+      "stages": {
+        "diagnostic-delivery": {
+          "tasks": 4,
+          "complete": 0,
+          "correct_plan": 0,
+          "privacy": 0,
+          "primary_calls": 20,
+          "memory_calls": 0,
+          "worker_wall_seconds": 22.561559333014884,
+          "memory_elapsed_seconds": 0.005009500004234724,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 0,
+              "total": 4
+            }
+          }
+        },
+        "diagnostic-no-history": {
+          "tasks": 4,
+          "complete": 0,
+          "correct_plan": 0,
+          "privacy": 0,
+          "primary_calls": 20,
+          "memory_calls": 0,
+          "worker_wall_seconds": 16.496510498989664,
+          "memory_elapsed_seconds": 0.0,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 0,
+              "total": 4
+            }
+          }
+        },
+        "source-p1": {
+          "tasks": 6,
+          "complete": 0,
+          "correct_plan": 0,
+          "privacy": 0,
+          "primary_calls": 30,
+          "memory_calls": 0,
+          "worker_wall_seconds": 24.528710500009765,
+          "memory_elapsed_seconds": 0.0,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 0,
+              "total": 6
+            }
+          }
+        }
+      },
+      "memory_checks": {
+        "frozen-p1": {
+          "source": {
+            "correct": 0,
+            "total": 6
+          },
+          "development": {
+            "correct": 0,
+            "total": 6
+          }
+        }
+      },
+      "primary_usage": {
+        "calls": 70,
+        "prompt_tokens": 32610,
+        "completion_tokens": 1475,
+        "model_seconds": 34.66657408296305,
+        "tool_errors": 70,
+        "partial_usage_unknown": false
+      },
+      "memory_usage_including_checks": {
+        "calls": 48,
+        "prompt_tokens": 38798,
+        "completion_tokens": 2516,
+        "model_seconds": 20.60611696197884,
+        "tool_errors": 26,
+        "partial_usage_unknown": false
+      },
+      "training": [],
+      "isolation_probes_separate_from_task_totals": [],
+      "primary_base_digests": [
+        "f4dd4012ffdd7ec8729e3dace93c15c5af589e5b15833524f1ea4df30aaf449e"
+      ],
+      "memory_base_digests": [],
+      "unknown_costs": [
+        "authoring/development-agent work",
+        "energy",
+        "FLOPs",
+        "instrumentation counterfactual overhead",
+        "untimed orchestration work"
+      ]
+    },
+    "attempt-02": {
+      "kind": "offline saved-record recomputation; no inference",
+      "verified": true,
+      "stages": {
+        "diagnostic-delivery": {
+          "tasks": 4,
+          "complete": 2,
+          "correct_plan": 2,
+          "privacy": 2,
+          "primary_calls": 14,
+          "memory_calls": 0,
+          "worker_wall_seconds": 22.776826876004634,
+          "memory_elapsed_seconds": 0.0051768749981420115,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 2,
+              "total": 4
+            }
+          }
+        },
+        "diagnostic-no-history": {
+          "tasks": 4,
+          "complete": 0,
+          "correct_plan": 0,
+          "privacy": 0,
+          "primary_calls": 20,
+          "memory_calls": 0,
+          "worker_wall_seconds": 20.77282675099559,
+          "memory_elapsed_seconds": 0.0,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 0,
+              "total": 4
+            }
+          }
+        },
+        "source-p1": {
+          "tasks": 6,
+          "complete": 0,
+          "correct_plan": 0,
+          "privacy": 3,
+          "primary_calls": 27,
+          "memory_calls": 0,
+          "worker_wall_seconds": 30.975764291019004,
+          "memory_elapsed_seconds": 0.0,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 0,
+              "total": 6
+            }
+          }
+        }
+      },
+      "memory_checks": {
+        "frozen-p1": {
+          "source": {
+            "correct": 0,
+            "total": 6
+          },
+          "development": {
+            "correct": 0,
+            "total": 6
+          }
+        }
+      },
+      "primary_usage": {
+        "calls": 61,
+        "prompt_tokens": 32755,
+        "completion_tokens": 2691,
+        "model_seconds": 45.03686333499354,
+        "tool_errors": 51,
+        "partial_usage_unknown": false
+      },
+      "memory_usage_including_checks": {
+        "calls": 48,
+        "prompt_tokens": 38806,
+        "completion_tokens": 2496,
+        "model_seconds": 20.345807539000816,
+        "tool_errors": 26,
+        "partial_usage_unknown": false
+      },
+      "training": [],
+      "isolation_probes_separate_from_task_totals": [],
+      "primary_base_digests": [
+        "f4dd4012ffdd7ec8729e3dace93c15c5af589e5b15833524f1ea4df30aaf449e"
+      ],
+      "memory_base_digests": [],
+      "unknown_costs": [
+        "authoring/development-agent work",
+        "energy",
+        "FLOPs",
+        "instrumentation counterfactual overhead",
+        "untimed orchestration work"
+      ]
+    },
+    "attempt-03": {
+      "kind": "offline saved-record recomputation; no inference",
+      "verified": true,
+      "stages": {
+        "address-frozen": {
+          "tasks": 4,
+          "complete": 0,
+          "correct_plan": 0,
+          "privacy": 4,
+          "primary_calls": 12,
+          "memory_calls": 16,
+          "worker_wall_seconds": 36.211868583006435,
+          "memory_elapsed_seconds": 19.64821516700613,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "unchanged": {
+              "complete": 0,
+              "total": 1
+            },
+            "corrected_rule": {
+              "complete": 0,
+              "total": 1
+            },
+            "new_account": {
+              "complete": 0,
+              "total": 2
+            }
+          }
+        },
+        "address-learned": {
+          "tasks": 4,
+          "complete": 0,
+          "correct_plan": 0,
+          "privacy": 4,
+          "primary_calls": 12,
+          "memory_calls": 16,
+          "worker_wall_seconds": 29.05400537400419,
+          "memory_elapsed_seconds": 12.422457583998039,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "unchanged": {
+              "complete": 0,
+              "total": 1
+            },
+            "corrected_rule": {
+              "complete": 0,
+              "total": 1
+            },
+            "new_account": {
+              "complete": 0,
+              "total": 2
+            }
+          }
+        },
+        "address-scope": {
+          "tasks": 4,
+          "complete": 4,
+          "correct_plan": 4,
+          "privacy": 4,
+          "primary_calls": 8,
+          "memory_calls": 0,
+          "worker_wall_seconds": 15.122267833998194,
+          "memory_elapsed_seconds": 0.005241708000539802,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "unchanged": {
+              "complete": 1,
+              "total": 1
+            },
+            "corrected_rule": {
+              "complete": 1,
+              "total": 1
+            },
+            "new_account": {
+              "complete": 2,
+              "total": 2
+            }
+          }
+        },
+        "diagnostic-delivery": {
+          "tasks": 4,
+          "complete": 2,
+          "correct_plan": 2,
+          "privacy": 2,
+          "primary_calls": 14,
+          "memory_calls": 0,
+          "worker_wall_seconds": 24.280913207003323,
+          "memory_elapsed_seconds": 0.005060625000623986,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 2,
+              "total": 4
+            }
+          }
+        },
+        "diagnostic-finish-feedback": {
+          "tasks": 6,
+          "complete": 6,
+          "correct_plan": 6,
+          "privacy": 6,
+          "primary_calls": 15,
+          "memory_calls": 0,
+          "worker_wall_seconds": 25.78934349901101,
+          "memory_elapsed_seconds": 0.008107041998300701,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 6,
+              "total": 6
+            }
+          }
+        },
+        "diagnostic-no-history": {
+          "tasks": 4,
+          "complete": 0,
+          "correct_plan": 0,
+          "privacy": 4,
+          "primary_calls": 20,
+          "memory_calls": 0,
+          "worker_wall_seconds": 23.62367033400369,
+          "memory_elapsed_seconds": 0.0,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 0,
+              "total": 4
+            }
+          }
+        },
+        "diagnostic-shape-feedback": {
+          "tasks": 4,
+          "complete": 2,
+          "correct_plan": 4,
+          "privacy": 4,
+          "primary_calls": 14,
+          "memory_calls": 0,
+          "worker_wall_seconds": 23.559015999999247,
+          "memory_elapsed_seconds": 0.005305416991177481,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 2,
+              "total": 4
+            }
+          }
+        },
+        "final-p1-frozen": {
+          "tasks": 12,
+          "complete": 5,
+          "correct_plan": 5,
+          "privacy": 12,
+          "primary_calls": 35,
+          "memory_calls": 48,
+          "worker_wall_seconds": 88.74480049999693,
+          "memory_elapsed_seconds": 33.41364845798671,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 5,
+              "total": 12
+            }
+          }
+        },
+        "final-p1-learned": {
+          "tasks": 12,
+          "complete": 12,
+          "correct_plan": 12,
+          "privacy": 12,
+          "primary_calls": 35,
+          "memory_calls": 24,
+          "worker_wall_seconds": 77.20024183202622,
+          "memory_elapsed_seconds": 22.75949728998239,
+          "memory_exact": 12,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 12,
+              "total": 12
+            }
+          }
+        },
+        "final-p1-scope": {
+          "tasks": 12,
+          "complete": 12,
+          "correct_plan": 12,
+          "privacy": 12,
+          "primary_calls": 28,
+          "memory_calls": 0,
+          "worker_wall_seconds": 49.20712312601245,
+          "memory_elapsed_seconds": 0.015279585997632239,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 12,
+              "total": 12
+            }
+          }
+        },
+        "final-p2-frozen": {
+          "tasks": 16,
+          "complete": 4,
+          "correct_plan": 4,
+          "privacy": 16,
+          "primary_calls": 39,
+          "memory_calls": 60,
+          "worker_wall_seconds": 113.21935821101215,
+          "memory_elapsed_seconds": 51.353654332997394,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "unchanged": {
+              "complete": 3,
+              "total": 10
+            },
+            "corrected_rule": {
+              "complete": 0,
+              "total": 2
+            },
+            "new_account": {
+              "complete": 1,
+              "total": 4
+            }
+          }
+        },
+        "final-p2-learned": {
+          "tasks": 16,
+          "complete": 14,
+          "correct_plan": 14,
+          "privacy": 15,
+          "primary_calls": 49,
+          "memory_calls": 32,
+          "worker_wall_seconds": 107.71576791599364,
+          "memory_elapsed_seconds": 32.43548466699576,
+          "memory_exact": 15,
+          "experience_reads": 0,
+          "responsibilities": {
+            "unchanged": {
+              "complete": 9,
+              "total": 10
+            },
+            "corrected_rule": {
+              "complete": 2,
+              "total": 2
+            },
+            "new_account": {
+              "complete": 3,
+              "total": 4
+            }
+          }
+        },
+        "final-p2-scope": {
+          "tasks": 16,
+          "complete": 16,
+          "correct_plan": 16,
+          "privacy": 16,
+          "primary_calls": 37,
+          "memory_calls": 0,
+          "worker_wall_seconds": 65.5559023340029,
+          "memory_elapsed_seconds": 0.021509083977434784,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "unchanged": {
+              "complete": 10,
+              "total": 10
+            },
+            "corrected_rule": {
+              "complete": 2,
+              "total": 2
+            },
+            "new_account": {
+              "complete": 4,
+              "total": 4
+            }
+          }
+        },
+        "restore": {
+          "tasks": 16,
+          "complete": 5,
+          "correct_plan": 5,
+          "privacy": 15,
+          "primary_calls": 45,
+          "memory_calls": 48,
+          "worker_wall_seconds": 106.22068987501552,
+          "memory_elapsed_seconds": 37.69220308300282,
+          "memory_exact": 6,
+          "experience_reads": 0,
+          "responsibilities": {
+            "unchanged": {
+              "complete": 1,
+              "total": 10
+            },
+            "corrected_rule": {
+              "complete": 2,
+              "total": 2
+            },
+            "new_account": {
+              "complete": 2,
+              "total": 4
+            }
+          }
+        },
+        "schema-learned": {
+          "tasks": 4,
+          "complete": 3,
+          "correct_plan": 3,
+          "privacy": 4,
+          "primary_calls": 8,
+          "memory_calls": 8,
+          "worker_wall_seconds": 22.298285291006323,
+          "memory_elapsed_seconds": 7.927469126007054,
+          "memory_exact": 3,
+          "experience_reads": 0,
+          "responsibilities": {
+            "unchanged": {
+              "complete": 1,
+              "total": 2
+            },
+            "new_account": {
+              "complete": 1,
+              "total": 1
+            },
+            "corrected_rule": {
+              "complete": 1,
+              "total": 1
+            }
+          }
+        },
+        "schema-scope": {
+          "tasks": 4,
+          "complete": 4,
+          "correct_plan": 4,
+          "privacy": 4,
+          "primary_calls": 8,
+          "memory_calls": 0,
+          "worker_wall_seconds": 14.809829874997376,
+          "memory_elapsed_seconds": 0.005582500001764856,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "unchanged": {
+              "complete": 2,
+              "total": 2
+            },
+            "new_account": {
+              "complete": 1,
+              "total": 1
+            },
+            "corrected_rule": {
+              "complete": 1,
+              "total": 1
+            }
+          }
+        },
+        "source-p1": {
+          "tasks": 6,
+          "complete": 0,
+          "correct_plan": 0,
+          "privacy": 6,
+          "primary_calls": 30,
+          "memory_calls": 0,
+          "worker_wall_seconds": 35.10610199999792,
+          "memory_elapsed_seconds": 0.0,
+          "memory_exact": 0,
+          "experience_reads": 0,
+          "responsibilities": {
+            "original": {
+              "complete": 0,
+              "total": 6
+            }
+          }
+        },
+        "source-p2": {
+          "tasks": 4,
+          "complete": 1,
+          "correct_plan": 1,
+          "privacy": 4,
+          "primary_calls": 12,
+          "memory_calls": 8,
+          "worker_wall_seconds": 26.10325849900255,
+          "memory_elapsed_seconds": 7.640264167006535,
+          "memory_exact": 1,
+          "experience_reads": 0,
+          "responsibilities": {
+            "unchanged": {
+              "complete": 1,
+              "total": 1
+            },
+            "corrected_rule": {
+              "complete": 0,
+              "total": 1
+            },
+            "new_account": {
+              "complete": 0,
+              "total": 2
+            }
+          }
+        }
+      },
+      "memory_checks": {
+        "frozen-p1": {
+          "source": {
+            "correct": 0,
+            "total": 6
+          },
+          "development": {
+            "correct": 0,
+            "total": 6
+          }
+        },
+        "p1-128": {
+          "source": {
+            "correct": 5,
+            "total": 6
+          },
+          "development": {
+            "correct": 6,
+            "total": 6
+          }
+        },
+        "p1-256": {
+          "source": {
+            "correct": 6,
+            "total": 6
+          },
+          "development": {
+            "correct": 6,
+            "total": 6
+          }
+        },
+        "p1-64": {
+          "source": {
+            "correct": 4,
+            "total": 6
+          },
+          "development": {
+            "correct": 3,
+            "total": 6
+          }
+        },
+        "p2-256": {
+          "source": {
+            "correct": 10,
+            "total": 10
+          },
+          "development": {
+            "correct": 8,
+            "total": 8
+          }
+        }
+      },
+      "primary_usage": {
+        "calls": 421,
+        "prompt_tokens": 296406,
+        "completion_tokens": 14842,
+        "model_seconds": 334.7580245239951,
+        "tool_errors": 111,
+        "partial_usage_unknown": false
+      },
+      "memory_usage_including_checks": {
+        "calls": 418,
+        "prompt_tokens": 397011,
+        "completion_tokens": 16226,
+        "model_seconds": 173.8394941630395,
+        "tool_errors": 155,
+        "partial_usage_unknown": false
+      },
+      "training": [
+        {
+          "candidate": "p1-128",
+          "steps": 128,
+          "elapsed_seconds": 54.96599329199671,
+          "usage": {
+            "input_tokens": 106530,
+            "loss_tokens": 2964,
+            "update_seconds": 53.46887267095008
+          },
+          "peak_mlx_bytes": 2839452930
+        },
+        {
+          "candidate": "p1-256",
+          "steps": 256,
+          "elapsed_seconds": 107.61821941700327,
+          "usage": {
+            "input_tokens": 213085,
+            "loss_tokens": 5932,
+            "update_seconds": 105.95127054392651
+          },
+          "peak_mlx_bytes": 2839452930
+        },
+        {
+          "candidate": "p1-64",
+          "steps": 64,
+          "elapsed_seconds": 28.432928583999455,
+          "usage": {
+            "input_tokens": 53275,
+            "loss_tokens": 1486,
+            "update_seconds": 26.93536820596637
+          },
+          "peak_mlx_bytes": 2839452894
+        },
+        {
+          "candidate": "p2-256",
+          "steps": 256,
+          "elapsed_seconds": 147.05472425000335,
+          "usage": {
+            "input_tokens": 279214,
+            "loss_tokens": 5962,
+            "update_seconds": 145.36616770404362
+          },
+          "peak_mlx_bytes": 3269279170
+        }
+      ],
+      "isolation_probes_separate_from_task_totals": [
+        {
+          "probe": "base-before",
+          "generation_prompt_tokens": 676,
+          "completion_tokens": 19,
+          "generation_seconds": 0.2520477910002228,
+          "additional_logit_probe_input_tokens": 676
+        },
+        {
+          "probe": "adapter",
+          "generation_prompt_tokens": 676,
+          "completion_tokens": 22,
+          "generation_seconds": 0.2755921250063693,
+          "additional_logit_probe_input_tokens": 676
+        },
+        {
+          "probe": "base-after",
+          "generation_prompt_tokens": 676,
+          "completion_tokens": 19,
+          "generation_seconds": 0.2542119999998249,
+          "additional_logit_probe_input_tokens": 676
+        }
+      ],
+      "primary_base_digests": [
+        "f4dd4012ffdd7ec8729e3dace93c15c5af589e5b15833524f1ea4df30aaf449e"
+      ],
+      "memory_base_digests": [
+        "513508f47d1e1fc60f813d1278133a0ab3d0d44529f36260a726e3aa62b10322"
+      ],
+      "unknown_costs": [
+        "authoring/development-agent work",
+        "energy",
+        "FLOPs",
+        "instrumentation counterfactual overhead",
+        "untimed orchestration work"
+      ]
+    }
+  },
+  "totals": {
+    "primary_tasks": 176,
+    "primary": {
+      "calls": 552,
+      "prompt_tokens": 361771,
+      "completion_tokens": 19008,
+      "model_seconds": 414.4614619419517,
+      "tool_errors": 232,
+      "partial_usage_unknown": false
+    },
+    "memory_including_checks": {
+      "calls": 514,
+      "prompt_tokens": 474615,
+      "completion_tokens": 21238,
+      "model_seconds": 214.79141866401915,
+      "tool_errors": 207,
+      "partial_usage_unknown": false
+    },
+    "worker_wall_seconds_including_memory": 1021.9346425401236,
+    "training_steps": 704,
+    "training_input_positions": 652104,
+    "training_loss_positions": 16344,
+    "training_elapsed_seconds": 338.0718655430028,
+    "peak_training_mlx_bytes": 3269279170
+  },
+  "authored_work": [
+    {
+      "attempt": "attempt-01",
+      "source_corrections_executed_and_checked": 6,
+      "memory_demonstration_trajectories_checked": 6,
+      "memory_reference_actions": 12,
+      "teacher_model_calls": 0,
+      "authoring_agent_tokens": null
+    },
+    {
+      "attempt": "attempt-02",
+      "source_corrections_executed_and_checked": 6,
+      "memory_demonstration_trajectories_checked": 6,
+      "memory_reference_actions": 12,
+      "teacher_model_calls": 0,
+      "authoring_agent_tokens": null
+    },
+    {
+      "attempt": "attempt-03",
+      "source_corrections_executed_and_checked": 10,
+      "memory_demonstration_trajectories_checked": 16,
+      "memory_reference_actions": 32,
+      "teacher_model_calls": 0,
+      "authoring_agent_tokens": null
+    }
+  ],
+  "storage": [
+    {
+      "attempt": "attempt-01",
+      "artifact_files": 229,
+      "artifact_bytes": 1309896,
+      "candidate_weight_bytes": 0,
+      "includes_copied_state_assets": true,
+      "includes_base_weights": false
+    },
+    {
+      "attempt": "attempt-02",
+      "artifact_files": 236,
+      "artifact_bytes": 1781880,
+      "candidate_weight_bytes": 0,
+      "includes_copied_state_assets": true,
+      "includes_base_weights": false
+    },
+    {
+      "attempt": "attempt-03",
+      "artifact_files": 2164,
+      "artifact_bytes": 24411384,
+      "candidate_weight_bytes": 4994380,
+      "includes_copied_state_assets": true,
+      "includes_base_weights": false
+    }
+  ],
+  "isolation_probes_not_in_task_totals": [
+    {
+      "probe": "base-before",
+      "generation_prompt_tokens": 676,
+      "completion_tokens": 19,
+      "generation_seconds": 0.2520477910002228,
+      "additional_logit_probe_input_tokens": 676
+    },
+    {
+      "probe": "adapter",
+      "generation_prompt_tokens": 676,
+      "completion_tokens": 22,
+      "generation_seconds": 0.2755921250063693,
+      "additional_logit_probe_input_tokens": 676
+    },
+    {
+      "probe": "base-after",
+      "generation_prompt_tokens": 676,
+      "completion_tokens": 19,
+      "generation_seconds": 0.2542119999998249,
+      "additional_logit_probe_input_tokens": 676
+    }
+  ],
+  "memory_download": 135.33351579200098,
+  "unknown_costs": [
+    "authoring and development-agent tokens/labor",
+    "energy",
+    "FLOPs",
+    "instrumentation counterfactual overhead",
+    "untimed orchestration/audit work"
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "kind": "independent root saved-artifact regrading; no inference or training",
+  "revision": "09f66837ca76db1f674ee3372d734219ad0f3e27",
+  "tasks_regraded": 176,
+  "all_saved_grades_match": true,
+  "address_probe_changes_only_ids_and_order": true,
+  "stages": {
+    "attempt-01/runs/diagnostic-delivery": {
+      "tasks": 4,
+      "complete": 0,
+      "exact_selection": 0,
+      "authority_rejections": 0
+    },
+    "attempt-01/runs/diagnostic-no-history": {
+      "tasks": 4,
+      "complete": 0
+    },
+    "attempt-01/runs/source-p1": {
+      "tasks": 6,
+      "complete": 0
+    },
+    "attempt-02/runs/diagnostic-delivery": {
+      "tasks": 4,
+      "complete": 2,
+      "exact_selection": 0,
+      "authority_rejections": 0
+    },
+    "attempt-02/runs/diagnostic-no-history": {
+      "tasks": 4,
+      "complete": 0
+    },
+    "attempt-02/runs/source-p1": {
+      "tasks": 6,
+      "complete": 0
+    },
+    "attempt-03/runs/address-frozen": {
+      "tasks": 4,
+      "complete": 0,
+      "exact_selection": 0,
+      "authority_rejections": 2
+    },
+    "attempt-03/runs/address-learned": {
+      "tasks": 4,
+      "complete": 0,
+      "exact_selection": 0,
+      "authority_rejections": 12
+    },
+    "attempt-03/runs/address-scope": {
+      "tasks": 4,
+      "complete": 4,
+      "exact_selection": 0,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/diagnostic-delivery": {
+      "tasks": 4,
+      "complete": 2,
+      "exact_selection": 0,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/diagnostic-finish-feedback": {
+      "tasks": 6,
+      "complete": 6,
+      "exact_selection": 0,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/diagnostic-no-history": {
+      "tasks": 4,
+      "complete": 0
+    },
+    "attempt-03/runs/diagnostic-shape-feedback": {
+      "tasks": 4,
+      "complete": 2,
+      "exact_selection": 0,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/final-p1-frozen": {
+      "tasks": 12,
+      "complete": 5,
+      "exact_selection": 0,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/final-p1-learned": {
+      "tasks": 12,
+      "complete": 12,
+      "exact_selection": 12,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/final-p1-scope": {
+      "tasks": 12,
+      "complete": 12,
+      "exact_selection": 0,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/final-p2-frozen": {
+      "tasks": 16,
+      "complete": 4,
+      "exact_selection": 0,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/final-p2-learned": {
+      "tasks": 16,
+      "complete": 14,
+      "exact_selection": 15,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/final-p2-scope": {
+      "tasks": 16,
+      "complete": 16,
+      "exact_selection": 0,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/restore": {
+      "tasks": 16,
+      "complete": 5,
+      "exact_selection": 6,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/schema-learned": {
+      "tasks": 4,
+      "complete": 3,
+      "exact_selection": 3,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/schema-scope": {
+      "tasks": 4,
+      "complete": 4,
+      "exact_selection": 0,
+      "authority_rejections": 0
+    },
+    "attempt-03/runs/source-p1": {
+      "tasks": 6,
+      "complete": 0
+    },
+    "attempt-03/runs/source-p2": {
+      "tasks": 4,
+      "complete": 1,
+      "exact_selection": 1,
+      "authority_rejections": 0
+    }
+  },
+  "selected_failures": [
+    {
+      "case": "final-p2-Harbor-return-0",
+      "stage": "final-p2-learned",
+      "exact_selection": false,
+      "artifact_present": true
+    },
+    {
+      "case": "final-p2-Cedar-return-1",
+      "stage": "final-p2-learned",
+      "exact_selection": true,
+      "artifact_present": false
+    },
+    {
+      "case": "confirmation-0",
+      "stage": "schema-learned",
+      "exact_selection": false,
+      "artifact_present": true
+    }
+  ],
+  "outcome_file_sha256": {
+    "evidence/milestone-3/attempt-01/runs/diagnostic-delivery/outcomes.json": "7aebb43d75d77c9b09fea4fcf2655c4987c393d2eefb42de76ff6c34c37fc4a0",
+    "evidence/milestone-3/attempt-01/runs/diagnostic-no-history/outcomes.json": "297fc013be1b3b9eabd18c4883a6db287b56b1a2c4a1793086ae45c67a7e8daf",
+    "evidence/milestone-3/attempt-01/runs/source-p1/outcomes.json": "ffe776b295ef6555be688860e83fe2f36e5d09c60d93d8e837368d93dcff15b1",
+    "evidence/milestone-3/attempt-02/runs/diagnostic-delivery/outcomes.json": "89d4e5c66adad9a744a088b65222d99aad51f1712d848dd9695f692f8e4e9bc1",
+    "evidence/milestone-3/attempt-02/runs/diagnostic-no-history/outcomes.json": "deaae63fedcb2c5481c850c6e89c83ec162c7b7d1db6a571caf567865b1f61ee",
+    "evidence/milestone-3/attempt-02/runs/source-p1/outcomes.json": "9b8385032928c96181b00e9756cc21d27e7e77a44e83d887363d05985636bd2c",
+    "evidence/milestone-3/attempt-03/runs/address-frozen/outcomes.json": "87467e2aa34712d6353ea62240afd9c5f70ba588e50b887cfca774a55f99716f",
+    "evidence/milestone-3/attempt-03/runs/address-learned/outcomes.json": "11a261b2ed4511119315fb66663c4bbc37afcd13d9d0cdde1295071bb27b089d",
+    "evidence/milestone-3/attempt-03/runs/address-scope/outcomes.json": "973a5b98a8677c41937c063893f4d28bb2f00be23a8d791684a67e51dfcf24e4",
+    "evidence/milestone-3/attempt-03/runs/diagnostic-delivery/outcomes.json": "c41e8371afa992e04e46a5b547e7bcdfabc9560aa64dc80da213df38fb39b30b",
+    "evidence/milestone-3/attempt-03/runs/diagnostic-finish-feedback/outcomes.json": "6f035e9a5b3ab5d6a7e9b0a7414b75c2ab614f85b71586cc3a259db5afb0c879",
+    "evidence/milestone-3/attempt-03/runs/diagnostic-no-history/outcomes.json": "dc46b1725e150aac82eb15e2e54781fb4d96ff0fa8b0b3c8b216e9bc428f72d1",
+    "evidence/milestone-3/attempt-03/runs/diagnostic-shape-feedback/outcomes.json": "b60a9cfaeedbe2d0681a485839f157d6a0cac2a41898fffe7b1d661070d312e9",
+    "evidence/milestone-3/attempt-03/runs/final-p1-frozen/outcomes.json": "4efc4922f0cfaab0c71a280586af0e67b9990cdecd4ede747a2f039a52392195",
+    "evidence/milestone-3/attempt-03/runs/final-p1-learned/outcomes.json": "e440ca92ce6b3aa6cfabe5ec8ba3697765c8fc281104d9b6c036f33a32232d97",
+    "evidence/milestone-3/attempt-03/runs/final-p1-scope/outcomes.json": "8336e99e2c2fe0a001ae9b8361b9fd59b6fdbbf7c2039288d17d515e18454b79",
+    "evidence/milestone-3/attempt-03/runs/final-p2-frozen/outcomes.json": "c100ea409d1232b8facdbe4db036f023191087a8586dfadc9d137d14deb8d1bc",
+    "evidence/milestone-3/attempt-03/runs/final-p2-learned/outcomes.json": "6b38e8acc44909f1f0860435230140ec36d907675e29602e8e421c42eebf55e8",
+    "evidence/milestone-3/attempt-03/runs/final-p2-scope/outcomes.json": "7819657c83e622e181a99060a5f765a87cfe7ddcc0aeee6a801d7da91fc0f4ba",
+    "evidence/milestone-3/attempt-03/runs/restore/outcomes.json": "40428f1ed091b9b82b0dc569f7134fa6b404e5eff8c42230579f9c61bf7e6662",
+    "evidence/milestone-3/attempt-03/runs/schema-learned/outcomes.json": "c1b26e85eca75020ea938a18dd310b897b18257119c090af042eef4cbbd93ec9",
+    "evidence/milestone-3/attempt-03/runs/schema-scope/outcomes.json": "b4a8b33493cbb497e9379f325d1fb304e5d3553cf325a10f35e7041c643b2884",
+    "evidence/milestone-3/attempt-03/runs/source-p1/outcomes.json": "edb94a56e6c3ceebf2c796155701761b85658bd96ddb0aecb1ea97ebf94fbc77",
+    "evidence/milestone-3/attempt-03/runs/source-p2/outcomes.json": "eea03b7c695fac80a9a091179b5cefb7a356bcb89fc3dd718c8c88c42fd7f06e"
+  }
+}

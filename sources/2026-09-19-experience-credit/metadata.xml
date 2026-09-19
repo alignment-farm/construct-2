@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Otx914cNpn9SFxWoBYwFeXUxH3A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2609.02074,2607.21106,2606.08275&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-19T21:13:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2609.02074,2607.21106,2606.08275" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.21106v3</id>
+    <title>AttriMem: Attribution-Guided Process Feedback for Agent Memory Construction</title>
+    <updated>2026-08-11T02:51:06Z</updated>
+    <link href="https://arxiv.org/abs/2607.21106v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.21106v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective memory is crucial for LLM agents, yet constructing it effectively remains challenging. A memory-construction policy decides what information to extract, store, update, compress, or discard as interactions accumulate. Heuristic memory methods rely on subjective, task-specific rules, which can misalign with downstream objectives and limit cross-task adaptability. RL-based methods, by contrast, learn from task feedback but mainly use outcome- or module-level rewards. These coarse signals indicate task success but cannot identify which intermediate memory contents support the final answer, creating a fine-grained credit-assignment bottleneck. However, constructing such process feedback is prohibitively difficult because intermediate memory decisions lack unique ground-truth targets, while the appropriate credit varies with the agent's uncertain reasoning trajectory and therefore cannot be specified in advance. We propose AttriMem, an attribution-guided process-feedback framework for learning memory-construction policies with RL. AttriMem augments the global outcome reward with local rewards derived from token-level contributions to the final answer. Experiments on long-horizon dialogue question answering show that AttriMem outperforms retrieval-based, heuristic, and RL-based baselines, generalizes across benchmarks and answer models, stabilizes RL optimization.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-23T09:35:34Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qinfeng Li</name>
+    </author>
+    <author>
+      <name>Yuntai Bao</name>
+    </author>
+    <author>
+      <name>Xinyan Yu</name>
+    </author>
+    <author>
+      <name>Hongze Chen</name>
+    </author>
+    <author>
+      <name>Yanming Liu</name>
+    </author>
+    <author>
+      <name>Huifeng Zhu</name>
+    </author>
+    <author>
+      <name>Yier Jin</name>
+    </author>
+    <author>
+      <name>Jintao Chen</name>
+    </author>
+    <author>
+      <name>Wenqi Zhang</name>
+    </author>
+    <author>
+      <name>Xuhong Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.02074v1</id>
+    <title>CHIME: Credit-Aware Hierarchical Memory Evolution for Long-Horizon Agentic Planning</title>
+    <updated>2026-09-02T03:59:21Z</updated>
+    <link href="https://arxiv.org/abs/2609.02074v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.02074v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Planning is a central capability that enables agents to decompose complex long-horizon tasks into manageable steps. Test-time search and training-based methods improve planning but incur high inference costs or require expensive training data. Self-evolving memory instead accumulates reusable experience from agent interaction outcomes into an external memory bank, so planning capability keeps improving at inference time without parameter updates. However, existing self-evolving memory methods share an inherent credit assignment problem: they rely on final task outcomes as feedback, but such outcomes conflate plan quality with execution errors and environmental factors, so the accumulated planning experience is often biased and noisy. To address this problem, we propose Credit-Aware Hierarchical Memory Evolution (CHIME), a self-evolving memory framework that maintains a separate planning bank and execution bank and follows an attribute-before-memorize principle: CHIME first attributes each task outcome to the plan, the execution, both, or neither, and then updates only the corresponding memory bank. Extensive experiments on four long-horizon agent benchmarks show that CHIME consistently outperforms state-of-the-art training-based and self-evolving memory baselines. Further analyses reveal several interesting findings. For example, CHIME accumulates effective memory with far fewer items. In addition, the learned memory values faithfully reflect downstream utility: high-quality planning memories are more valuable than execution memories. Finally, the accumulated memory effectively transfers across backbone models. Code will be released at https://github.com/ATH-MaaS/Marco-DeepResearch.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-02T03:59:21Z</published>
+    <arxiv:comment>7 figures, 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yongshi Ye</name>
+    </author>
+    <author>
+      <name>Tian Lan</name>
+    </author>
+    <author>
+      <name>Feihu Jiang</name>
+    </author>
+    <author>
+      <name>Muyang Ye</name>
+    </author>
+    <author>
+      <name>Bin Zhu</name>
+    </author>
+    <author>
+      <name>Qianghuai Jia</name>
+    </author>
+    <author>
+      <name>Longyue Wang</name>
+    </author>
+    <author>
+      <name>Zhao Xu</name>
+    </author>
+    <author>
+      <name>Weihua Luo</name>
+    </author>
+    <author>
+      <name>Xiaodong Shi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.08275v1</id>
+    <title>Causal Agent Replay: Counterfactual Attribution for LLM-Agent Failures</title>
+    <updated>2026-06-06T17:44:23Z</updated>
+    <link href="https://arxiv.org/abs/2606.08275v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.08275v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When an LLM agent fails -- issues a refund it should not have, calls the wrong tool, leaks data -- existing tooling answers what happened (observability) or whether it passed (evaluation), but not which step caused the failure. The obvious heuristics are wrong: the step that executes the harmful action is usually not the step that decided on it, and LLM-judge attribution is correlational and unreliable (state-of-the-art step-level accuracy on the Who&amp;When benchmark is about 14%). We present Causal Agent Replay (CAR), which answers the question by intervention: it models an agent run as a structural causal model, applies a do-operation to a step, and re-executes the trajectory forward under the same stochastic policy, measuring the shift in the outcome distribution. We define an intervention algebra over agent steps, a single-step contrastive estimator whose point-of-commitment rule resolves a confound specific to stochastic run-forward, and a budget-bounded Monte-Carlo Shapley estimator that splits credit across interacting steps. Every effect is reported with confidence intervals. We validate against synthetic structural causal models with planted ground truth: the contrastive estimator recovers the pivotal step, and Shapley recovers a two-step interaction (0.44, 0.45, ~0; efficiency sum 0.909 versus the analytic 0.91). CAR is open source and runs on hosted or free local models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-06T17:44:23Z</published>
+    <arxiv:comment>Open-source: https://github.com/jaineet17/causal-agent-replay</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jaineet Shah</name>
+    </author>
+  </entry>
+</feed>

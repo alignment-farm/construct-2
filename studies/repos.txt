@@ -12,3 +12,4 @@ alignment-farm/executable-experience-retention
 alignment-farm/procedural-memory-migration
 alignment-farm/correction-lineage
 alignment-farm/weight-consolidation
+alignment-farm/lesson-acceptance
