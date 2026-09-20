@@ -3,6 +3,30 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [20 September experience-comparison reading](2026-09-20-experience-comparison/README.md)
+adds P98–P100 and informs the [study commission](../notes/CONTINUING_EXPERIENCE_STUDY.md).
+It separates inherited-code quality, additional experience processing and the
+alternative use of extra resources. SWE-Milestone is a later real-history lead;
+the first pilot remains ETL. The subsequent
+[preparation record](2026-09-20-experience-comparison/README.md#subsequent-study-preparation)
+registers experience-guided investigation at `7717645`; no model experiments
+have started. Reading and reference checks remain distinct from learner results.
+
+The [20 September task-sequence inspection](2026-09-20-task-sequences/README.md)
+advances the methods pass to pinned ETL, code-search and database-migration assets.
+Published software implementations pass 373 test executions across overlapping
+checkpoint suites. Five selected database reference queries reproduce, while
+approximate grading accepts two selected stale computations. This supports the
+[workload recommendation](../notes/TASK_SEQUENCE_COMPARISON.md); learner acquisition,
+memory value and full runner integration remain untested.
+
+The [20 September continuing-capability reading](2026-09-20-continuing-capability/README.md)
+revisits AgentCL at v2 and adds P96–P97, SlopCodeBench and AgingBench. Their methods
+narrow the next root comparison toward the value of accumulated experience beyond
+competent work-product and source reuse during later change. This is methods
+reading and research selection; the subsequent artifact inspection above advances
+its original feasibility boundary.
+
 The [20 September lesson-acceptance review](2026-09-20-lesson-acceptance-review/README.md)
 accepts `cbe62b9`, independently replays 94 SQL executions and recomputes raw
 model costs. Paid probes add no benefit beyond competent cheap review; raw repair

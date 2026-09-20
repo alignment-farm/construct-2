@@ -105,13 +105,22 @@ The [third-phase root assessment, 15 September](studies/2026-09-15-maintenance-f
 
 S5 now includes an [accepted placement comparison](studies/2026-09-16-placement-findings.md) alongside the earlier [acquisition, use and maintenance measurements](studies/2026-09-15-maintenance-findings.md#assessment-of-the-prospective-expectations). None demonstrates learning-cost repayment against competent explicit alternatives at comparable complete quality. The placement study shares visible evidence across methods; earlier references have different supplied structures and privileges. The later evidence-use result adds a favorable measured comparison against an uncached lesson, qualified above. These results do not establish a universal ranking of weights, records and executable rules.
 
-**Current work — 20 September 2026:** All fifteen registered studies have
+**Current work — 20 September 2026:** Sixteen studies are registered. Fifteen have
 accepted bounded contributions and completed reviewed phases, including the
-[lesson-acceptance pilot](studies/README.md#lesson-acceptance). Its explained cheap
-solution narrows further selection toward consequential uncertainty that remains
-after competent ordinary review. No new experiment is commissioned. The root
-continues theory, public research and independent selection within the fixed
-directive. The separate [applied derivative](derivatives/README.md) owns prototype
+[lesson-acceptance pilot](studies/README.md#lesson-acceptance). The newly commissioned
+[experience-guided investigation](studies/README.md#experience-guided-investigation)
+is prepared and pushed, ready for an independent session; no experiments have
+started. It tests whether an adapter can acquire investigation behavior from
+earlier attempts and use it on later unfamiliar changes after fresh session resets,
+with competent artifact and source reuse available. The
+[task-sequence comparison](notes/TASK_SEQUENCE_COMPARISON.md) selects ETL maintenance
+first and code search as a second lead. Reference checks pass; learner acquisition
+and added memory value remain untested. Software maintenance is a test setting
+within the enduring directive. The [commission brief](notes/CONTINUING_EXPERIENCE_STUDY.md)
+preserves CC1–CC3 and compares learning with ordinary work, including a useful
+alternative allocation of extra resources. Complete acquisition and transfer are
+primary; costs qualify their practical value. Root continues theory, literature
+and independent acceptance/intervention questions. The separate [applied derivative](derivatives/README.md) owns prototype
 development; the lesson-acceptance pilot used its own SQLite/HTTP instrument and
 does not advance the runtime's review boundary.
 The next evidential milestone is useful capability across repeated realistic work

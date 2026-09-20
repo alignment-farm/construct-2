@@ -781,3 +781,63 @@ narrows the evaluation novelty without establishing such a workload. No successo
 is commissioned; this preference competes with independent questions through its
 scientific value. The fixed directive remains useful accumulated experience across
 sessions, with explicit memory, lessons, code, weights and runtime rules all eligible.
+
+## Continuing-capability selection — 20 September
+
+The [new root synthesis](CONTINUING_CAPABILITY.md) selects a bounded workload
+comparison for experience improving later unfamiliar change beyond competent
+artifact/source reuse. This develops the program-wide milestone; it does not
+replace the directive with lesson acceptance, a model choice or a controller.
+Existing artifacts themselves retain useful experience. A matched-workspace
+comparison isolates additional experience, while a continuing policy comparison
+also measures the consequences of different artifact histories.
+
+[Public methods](../sources/2026-09-20-continuing-capability/README.md) revisit P88
+at v2 and add P96–P97. They narrow the contribution and leave runnable workload
+and acquisition feasibility open. The subsequent [task-sequence preparation](TASK_SEQUENCE_COMPARISON.md)
+inspects pinned assets and recommends ETL maintenance first, with code search as
+a second setting. Reference suites pass; participant acquisition remains open.
+Database migration is a reserve requiring stronger computation checks. No new
+ancillary study, model run or derivative change is commissioned. Independent
+acceptance and intervention questions remain available. All original predictions
+and fifteen accepted contribution boundaries remain intact.
+
+The subsequent [prepared brief](CONTINUING_EXPERIENCE_STUDY.md) adds prospective
+CC1–CC3 expectations for extra experience processing. A central alternative is
+using the same additional resources for ordinary current-task inspection and
+testing. This keeps a benefit from greater effort distinct from the value of
+advance consolidation, without treating code as a memory-free baseline. Neural
+treatments remain eligible independently of a prose-memory result.
+[P98–P100](../sources/2026-09-20-experience-comparison/README.md) supply a later
+real-history candidate and clarify evaluator, state and cost boundaries. The
+brief is prepared; no ancillary repository, experiment or derivative change is
+launched by it.
+
+## Experience-guided investigation commission — 20 September
+
+Following the user's alignment discussion and instruction to execute, the root
+prepared [experience-guided investigation](https://github.com/alignment-farm/experience-guided-investigation)
+([local brief](../../ancillary-studies/experience-guided-investigation/README.md))
+at `7717645b318d3f3e94673c814fd4acb001869dd3`. The private repository's `main`
+is pushed and tracks `origin/main`; its remote commit and clean local tree were
+verified. Sixteen studies are registered: fifteen accepted bounded contributions
+and this new commission. Preparation starts no investigator session or model run.
+
+The alignment decision has three concrete consequences. Software maintenance is
+a test setting within the fixed directive. The initial neural target is an
+investigation procedure, acquired through a LoRA-adapted tool-using learner from
+its own earlier attempts and feedback. Useful acquisition, fresh transfer and
+complete behavior come before interpreting resource repayment. This replaces
+indefinite neural eligibility with a starting treatment without prescribing its
+model, optimizer or final protocol.
+
+The [commission brief](CONTINUING_EXPERIENCE_STUDY.md) requires fresh conversations
+and explicit inventories of retained artifacts, history and model state between
+episodes. Competent ordinary reuse remains available. Original CC1–CC3 are copied
+unchanged into the ancillary README; no result is inferred from root's reference
+checks. The study owns workload development, methods, diagnosis and publication,
+and may pursue useful bounded follow-up without routine return to root. Root
+continues theory, literature and independent questions. No completed commission
+is reopened and no derivative change is required. The
+[preparation record](../sources/2026-09-20-experience-comparison/study-preparation.json)
+preserves the repository boundary and file hashes.

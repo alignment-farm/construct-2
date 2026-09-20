@@ -1,0 +1,66 @@
+{
+  "recorded_at_utc": "2026-09-20T17:41:29.928771+00:00",
+  "user_agent": "Construct-2 research review (alignment-farm/construct-2)",
+  "arxiv_metadata": {
+    "url": "https://export.arxiv.org/api/query?id_list=2603.13428,2507.00014,2608.31057",
+    "request_count": 1,
+    "parallel_api_clients": false,
+    "retries": 0,
+    "versions": [
+      "2603.13428v4",
+      "2608.31057v1",
+      "2507.00014v1"
+    ],
+    "sha256": "bc31f45001eac3099ba41c5f1a7776401fbb2e0179816efc3a06bf040c427c4b"
+  },
+  "texts": [
+    {
+      "url": "https://arxiv.org/html/2603.13428v4",
+      "cache": ".cache/experience-comparison/2603.13428v4.html",
+      "sha256": "adc39f82052d3d70d1dcbdf4d21edd201502aa3924bd146175ccd882f6f3d7f9"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.31057v1",
+      "cache": ".cache/experience-comparison/2608.31057v1.html",
+      "sha256": "3409fd46934dcaf7f9a3c242309876e4c9a4d9d7ed352981574e8b1cb4acd695"
+    },
+    {
+      "url": "https://arxiv.org/html/2507.00014v1",
+      "cache": ".cache/experience-comparison/2507.00014v1.html",
+      "sha256": "86b3f8a23587e6d2035623526ba8e858d26841ff39112b764f6dcaa2bea0270f"
+    }
+  ],
+  "implementation_docs": {
+    "repository": "https://github.com/DeepCommit-ai/SWE-Milestone",
+    "revision": "17a8f1593e172e26b36cea15e2b30fb9536c93f5",
+    "benchmark_version_file": "v1.0.2",
+    "head_metadata_url": "https://api.github.com/repos/DeepCommit-ai/SWE-Milestone/commits/main",
+    "head_metadata_sha256": "5bf673c9b567d4e918bb36d7ff3d244d7ac2766e91145a2bec10b19c239ce8a7",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/DeepCommit-ai/SWE-Milestone/17a8f1593e172e26b36cea15e2b30fb9536c93f5/README.md",
+        "cache": ".cache/experience-comparison/swe-milestone-0.txt",
+        "sha256": "7de9e1a7d4e0ab63d2913320f6c46379f50ca969f0817f9b88a54356f34a11fd"
+      },
+      {
+        "path": "manifests/BENCHMARK_VERSION",
+        "url": "https://raw.githubusercontent.com/DeepCommit-ai/SWE-Milestone/17a8f1593e172e26b36cea15e2b30fb9536c93f5/manifests/BENCHMARK_VERSION",
+        "cache": ".cache/experience-comparison/swe-milestone-1.txt",
+        "sha256": "9362e356dc70deb5e30e3de8caca220d85d7034be0a1b708b9c9f1981de36135"
+      },
+      {
+        "path": "docs/setup.md",
+        "url": "https://raw.githubusercontent.com/DeepCommit-ai/SWE-Milestone/17a8f1593e172e26b36cea15e2b30fb9536c93f5/docs/setup.md",
+        "cache": ".cache/experience-comparison/swe-milestone-2.txt",
+        "sha256": "e154e622afda1bf324404c525247aba41295e74804d86633ccb0658f149640e9"
+      }
+    ]
+  },
+  "discovery_queries": [
+    "site.arxiv.org coding agents experience memory full trajectory retrieval continual software improvement baseline",
+    "site.arxiv.org \"EvoClaw\"",
+    "site.arxiv.org memory consolidation agent experience \"fine-tuning\" coding"
+  ],
+  "boundary": "Selected primary methods and pinned implementation documents; no individual SWE-Milestone dataset instances, containers, model runs, or public result reproduction."
+}

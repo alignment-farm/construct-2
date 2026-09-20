@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wMd98DPuG27YwpgDDuI0yifB1iI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2603.24755,2605.26302,2606.02461&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-20T14:02:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2603.24755,2605.26302,2606.02461" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2605.26302v1</id>
+    <title>Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems</title>
+    <updated>2026-05-25T19:55:12Z</updated>
+    <link href="https://arxiv.org/abs/2605.26302v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.26302v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-lived AI agents are increasingly deployed as persistent operational systems, yet they are still evaluated like freshly initialized models. Day-one benchmarks miss a basic systems question: how long does an agent remain reliable after deployment? Even when model weights are frozen, an agent's effective state keeps changing as it compresses interaction history, retrieves from a growing memory store, revises facts after updates, and undergoes routine maintenance. Reliability therefore becomes a lifespan property of the full agent harness, not only a snapshot property of the base model. We introduce AgingBench, a longitudinal reliability benchmark for agent lifespan engineering: measuring not only whether deployed agents degrade, but what form the degradation takes and where repair should target. AgingBench organizes agent aging into four mechanisms: compression aging, interference aging, revision aging, and maintenance aging. To diagnose these failures, AgingBench uses temporal dependency graphs and paired counterfactual probes that produce diagnostic profiles for the write, retrieval, and utilization stages of the memory pipeline. Across 7 scenarios, 14 models, multiple memory policies, and both runner-controlled and autonomous agents, over ~400 runs spanning 8 - 200 sessions show that agent aging is not one-dimensional: behavioral tests can remain clean while factual precision decays; derived-state tracking can collapse sharply within a single model; and the same wrong answer can require different repairs depending on what the diagnostic profile points to. These results suggest that reliable agent deployment requires lifespan evaluation, mechanism-level diagnosis, and stage-targeted repair, not only stronger day-one models.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-25T19:55:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jianing Zhu</name>
+    </author>
+    <author>
+      <name>Yeonju Ro</name>
+    </author>
+    <author>
+      <name>John Robertson</name>
+    </author>
+    <author>
+      <name>Kevin Wang</name>
+    </author>
+    <author>
+      <name>Junbo Li</name>
+    </author>
+    <author>
+      <name>Haris Vikalo</name>
+    </author>
+    <author>
+      <name>Aditya Akella</name>
+    </author>
+    <author>
+      <name>Zhangyang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.24755v2</id>
+    <title>SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks</title>
+    <updated>2026-05-07T20:39:58Z</updated>
+    <link href="https://arxiv.org/abs/2603.24755v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.24755v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Software development is iterative, yet agentic coding benchmarks hide design issues through their single-shot setup. Recent iterative benchmarks attempt to remedy this but heavily constrain an agent's design decision space, making it impossible to faithfully measure how their decisions shape future extensions. We introduce SlopCodeBench, a benchmark of 36 problems and 196 checkpoints where agents repeatedly extend their own solutions. Unlike prior iterative benchmarks, our evolving specifications demand architectural decisions but leave internal structure to the agent. We measure two forms of degradation: structural erosion (concentrated complexity) and verbosity (redundant code). Evaluating 15 coding agents across open and closed models, we find that no agent fully solves any problem end-to-end, and the best agent passes 14.8% of checkpoints. Quality degrades across checkpoints, with structural erosion rising in 77% of trajectories and verbosity in 75.5%. Compared to 473 open-source Python repositories, agent code is 2.3x more verbose and 2.0x more eroded, and the human repositories degrade less often and by smaller margins across their git histories. Explicit quality guidance reduces initial verbosity and erosion by up to a third, without affecting degradation rates. SlopCodeBench provides the first measurement of code degradation under iterative extension, revealing that agents pass checkpoints while producing code that erodes and bloats with each turn.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-25T19:26:44Z</published>
+    <arxiv:comment>Code and Leaderboards are located at https://www.scbench.ai</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Gabriel Orlanski</name>
+    </author>
+    <author>
+      <name>Devjeet Roy</name>
+    </author>
+    <author>
+      <name>Alexander Yun</name>
+    </author>
+    <author>
+      <name>Changho Shin</name>
+    </author>
+    <author>
+      <name>Alex Gu</name>
+    </author>
+    <author>
+      <name>Albert Ge</name>
+    </author>
+    <author>
+      <name>Dyah Adila</name>
+    </author>
+    <author>
+      <name>Nicholas Roberts</name>
+    </author>
+    <author>
+      <name>Frederic Sala</name>
+    </author>
+    <author>
+      <name>Aws Albarghouthi</name>
+    </author>
+    <arxiv:doi>10.5281/zenodo.18405900,</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5281/zenodo.18405900," title="doi"/>
+    <arxiv:doi>10.5281/zenodo.19257129</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5281/zenodo.19257129" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.02461v2</id>
+    <title>AgentCL: Toward Rigorous Evaluation of Continual Learning in Language Agents</title>
+    <updated>2026-06-02T03:07:54Z</updated>
+    <link href="https://arxiv.org/abs/2606.02461v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.02461v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language agents spend substantial inference time solving individual tasks, yet the experience acquired in one episode is often underutilized in future episodes. Continual learning expects an agent to accumulate reusable experience across a stream of tasks, improve over time, and avoid interference from irrelevant experiences. Unfortunately, existing benchmarks struggle to evaluate continual learning in language agents rigorously. Most efforts focus on retrieval and reasoning over long-context conversations or documents, while recent lifelong-adaptation benchmarks often rely on naive task streams with limited analysis of cross-task relationships, making it difficult to understand what an agent learns and reuses over time. This paper presents an evaluation framework AgentCL for continual learning in agents, centered on controlled task streams and metrics for transfer gains. AgentCL constructs compositional streams where earlier sub-solutions, evidence, or workflows are intentionally reusable in later tasks, and contrasts them with naive streams where such reusability is not guaranteed. We use the benchmark to evaluate non-parametric memory designs for continual learning. To diagnose how memory design choices affect continual learning, we develop MemProbe, a probing method that stores interactions, insights, and skills, while filtering unreliable experiences during consolidation. Empirical analysis across coding, deep research, and language understanding/reasoning tasks shows that naive streams offer limited ability to distinguish memory designs, whereas controlled streams more clearly distinguish their plasticity. Meanwhile, naive and held-out settings often yield limited gains and can expose memory-induced degradation. These results highlight the need for stronger memory designs that balance plasticity and stable reuse.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-01T16:32:59Z</published>
+    <arxiv:comment>10 pages in the main text, 26 pages in total</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yiheng Shu</name>
+    </author>
+    <author>
+      <name>Bernal Jiménez Gutiérrez</name>
+    </author>
+    <author>
+      <name>Saisri Padmaja Jonnalagedda</name>
+    </author>
+    <author>
+      <name>Yuguang Yao</name>
+    </author>
+    <author>
+      <name>Huan Sun</name>
+    </author>
+    <author>
+      <name>Yu Su</name>
+    </author>
+  </entry>
+</feed>

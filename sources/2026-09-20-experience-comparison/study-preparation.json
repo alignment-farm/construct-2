@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-20",
+  "purpose": "Prepared independent ancillary commission; no investigator session, model run or scientific finding produced",
+  "repository": "https://github.com/alignment-farm/experience-guided-investigation",
+  "local_directory": "../ancillary-studies/experience-guided-investigation",
+  "visibility": "private",
+  "branch": "main",
+  "upstream": "origin/main",
+  "local_commit": "7717645b318d3f3e94673c814fd4acb001869dd3",
+  "verified_remote_main": "7717645b318d3f3e94673c814fd4acb001869dd3",
+  "verified_clean_working_tree": true,
+  "starting_instruction": "PROMPT.md",
+  "predictions": "CC1–CC3 copied verbatim from notes/CONTINUING_EXPERIENCE_STUDY.md",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "8a4d86067216cb88d0305686bfe3fe767c4c30ca94455ce5d7dcdd3cd741111f"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "b980fa63ced75d138fa62df313d77c79065ef362bb59bbcddff796c8e86a857c"
+    },
+    {
+      "path": "PROMPT.md",
+      "sha256": "88024be28aa4c0b2bae7a864dfe7580a2a51e98daa93548f15b279a7a0616db8"
+    },
+    {
+      "path": "README.md",
+      "sha256": "be6383241dd06309b2f9df85652721c34a3588d916908365985488b74a852d7d"
+    },
+    {
+      "path": "sources/README.md",
+      "sha256": "5c0e0f8d759e8574dd013124210c1e53a1d20c315ba842e9da46a438eeb5781f"
+    },
+    {
+      "path": "sources/root-preparation/artifact-manifest.json",
+      "sha256": "e1d55f06ebc21106e371cda1aabb47f60353901b7fc9db0fe8c2383e54c3dc16"
+    },
+    {
+      "path": "sources/root-preparation/database-checks.json",
+      "sha256": "11ef1568d2132b36568aea5581217e1bfc9197888e359b9f2273a6a28f2f9f72"
+    },
+    {
+      "path": "sources/root-preparation/provenance.json",
+      "sha256": "e819a3adae1fee53cfd100a211ac738a1b964fcb37db1f68eed6b2524b8756ed"
+    },
+    {
+      "path": "sources/root-preparation/reference-checks.json",
+      "sha256": "792ce85a9ff9e7f6ac781d850658ce1cd456cf161908a7718d7fe3e1377d77d0"
+    }
+  ]
+}
