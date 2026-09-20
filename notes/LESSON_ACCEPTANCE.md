@@ -91,3 +91,35 @@ and binary authority labels are not a general lesson-acceptance implementation.
 Keep candidate proposals, checks, evidence and acceptance decisions in the study's
 controller. Empirical lessons remain conditional guidance, distinct from externally
 authoritative corrections. The derivative's active checkout remains untouched.
+
+## Assessment after publication — 20 September
+
+Root accepts [the bounded SQL pilot](../studies/2026-09-20-lesson-acceptance-findings.md)
+at `cbe62b976e5a9d179a88edbd1a5f573eb0f29254`. The preparation statement above is
+historical. Both competent cheap and paid curation complete 6/6 fresh outputs and
+produce six programs passing the extra checks. Raw experience with ordinary repair
+also reaches 6/6 current outputs, but one final program fails on independent data.
+Direct reuse of cheaply corrected SQL completes all six cases without later model
+calls. Two constructed histories share one relational failure mechanism.
+
+| Original expectation | Assessment |
+|---|---|
+| LA1: additional evidence can improve later work beyond cheap review | Narrowed here: competent schema review already finds the defect. Paid review adds no observed benefit. Preserved weak-reviewer failures distinguish informative evidence from competent interpretation. |
+| LA2: source replay does not establish scope | Bounded support: both source queries pass replay and fail multiplicity challenges. Cheap schema reasoning also identifies the flaw, so incremental challenge-probe value over competent review is unestablished. |
+| LA3: better checking need not repay its cost | Paid review adds 7,348 model tokens and 83.00 seconds with readers, or 947 tokens and 21.00 seconds with direct code reuse, at identical measured outcomes. Selective checking and longer reuse are untested; teacher/engineering costs remain unknown. |
+
+Original LA1–LA3 remain unchanged. Curation bundles acceptance, rewriting and
+corrected code, so the result does not isolate a binary acceptance decision or
+abstract-lesson benefit. No weights or learned selector changed; AD1 remains
+untested. The [review ledger](../sources/2026-09-20-lesson-acceptance-review/README.md)
+reproduces 94 SQL executions and raw model costs, and adds P95's established
+multiple-database evaluation method.
+
+The phase closes on an explained cheap solution after purposeful reviewer
+diagnosis and the useful bounded follow-up of direct program reuse. Further work
+needs consequential uncertainty that survives competent specifications/schema
+review, plus evidence that could change the decision. Contract or provenance
+uncertainty is a candidate direction, not an available validated workload or a
+new commission. The broader acceptance question remains open. The investigator
+reported the prepared runtime dependency absent and used a stdlib instrument;
+this publication does not assess runtime integration.

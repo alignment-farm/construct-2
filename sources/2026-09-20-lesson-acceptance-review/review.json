@@ -1,0 +1,35 @@
+{
+  "review_date": "2026-09-20",
+  "repository": "alignment-farm/lesson-acceptance",
+  "previous_reviewed_revision": "60552288930555806cef042294ea27145753d1d8",
+  "reviewed_revision": "cbe62b976e5a9d179a88edbd1a5f573eb0f29254",
+  "local_origin_main": "cbe62b976e5a9d179a88edbd1a5f573eb0f29254",
+  "remote_main_verified_with_ls_remote": "cbe62b976e5a9d179a88edbd1a5f573eb0f29254",
+  "working_tree_porcelain": "",
+  "root_initial_working_tree_porcelain": "",
+  "checks": {
+    "independent_sql_executions": 94,
+    "response_artifacts_costed": 53,
+    "final_requests_checked": 36,
+    "saved_request_hashes_checked": 40,
+    "early_requests_without_saved_hash": 13,
+    "protocol_hashes_checked": 5,
+    "fresh_model_inference": false,
+    "training": false,
+    "study_files_modified": false
+  },
+  "disposition": {
+    "publication": "accepted",
+    "bounded_phase": "complete",
+    "broader_question": "open",
+    "new_commission": false
+  },
+  "runtime_used_by_study": false,
+  "runtime_review_boundary_unchanged": "09f66837ca76db1f674ee3372d734219ad0f3e27",
+  "evidence_files_sha256": {
+    "README.md": "a6f71381a79a9dc6c4a97a2b2cd716eb2c1b7a5ff608444fa951502e9f5fcbf5",
+    "arxiv-2010.02840v1.xml": "757c2a814767b14f4a60dd900223fd000f5e0c79a397abdbab9cc984373149bb",
+    "check_saved.py": "f8f7c0e37a6f8ee70a38f0aa947dbeb24b3f0b225bc6548d604d142cf4969041",
+    "independent-check.json": "1f1266b26a8d44ea9534de31d91aabe74b458847c57a32d2a5335fd3eac10a44"
+  }
+}

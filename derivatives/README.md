@@ -160,12 +160,13 @@ This review commissions no new run and adds no ancillary study.
 ## Relationship and retrieval
 
 The [repository list](repos.txt) is separate from [ancillary studies](../studies/repos.txt).
-There are fourteen ancillary studies with accepted bounded contributions;
-weight-consolidation's [continuing-work follow-up](../notes/WEIGHT_CONSOLIDATION.md#assessment-after-continuing-work--18-september)
-is now reviewed and complete.
-The fifteenth, [lesson-acceptance](../studies/README.md#lesson-acceptance), is
-prepared with an owned runtime copy at `09f6683`. Its acceptance-evidence question,
-protocol and execution remain independent of derivative development.
+All fifteen ancillary studies have accepted bounded contributions and completed
+reviewed phases, including weight-consolidation's continuation and
+[lesson acceptance](../studies/2026-09-20-lesson-acceptance-findings.md). The latter
+was prepared with an owned runtime copy at `09f6683`, but its investigator reported
+that ignored dependency absent and used a stdlib SQLite/HTTP instrument. Its
+accepted findings concern lesson curation and direct acquired-code reuse; they
+do not validate runtime integration or advance the derivative's review boundary.
 This derivative remains outside
 that registry and does not reopen any completed phase.
 Root theory, literature and independent research selection continue.

@@ -3,11 +3,19 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [20 September lesson-acceptance review](2026-09-20-lesson-acceptance-review/README.md)
+accepts `cbe62b9`, independently replays 94 SQL executions and recomputes raw
+model costs. Paid probes add no benefit beyond competent cheap review; raw repair
+fixes every current output but leaves one latent program defect. Direct acquired
+code reuse explains phase closure. P95 adds an exact-version methods precedent
+for multiple-database evaluation. No model inference or new commission follows.
+
 The [19 September lesson-acceptance selection](2026-09-19-lesson-acceptance-selection/README.md)
 deepens P48's setup and accounting and adds P94. It narrows the user-authorized
 [study](../notes/LESSON_ACCEPTANCE.md) to the decision value and full cost of
 acceptance evidence, with competent delivery and shared candidate lessons.
-The new independent repository is prepared; no experiments were launched.
+That entry records preparation without experiments; the later publication is
+reviewed above.
 
 The [19 September runtime memory-worker review](2026-09-19-runtime-memory-review/README.md)
 accepts local derivative publication `09f6683`, independently regrades 176 saved

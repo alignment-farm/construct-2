@@ -11,7 +11,17 @@ The [source guide](sources/README.md) links the literature review, and the [stud
 
 Contributors can use the [repository list](studies/repos.txt) and [clone instructions](studies/README.md#cloning-the-studies) to retrieve all ancillary studies or select them by name.
 
-**Latest accepted publication — 18 September:**
+**Latest accepted publication — 20 September:**
+[Lesson acceptance](studies/2026-09-20-lesson-acceptance-findings.md) at `cbe62b9`
+finds no added benefit from paid probes once competent cheap review identifies
+visible SQL defects. Both curated policies complete 6/6 cases; ordinary raw reuse
+with repair also reaches 6/6 current outputs, while one returned program still
+fails on independent data. Cheaply corrected code handles all six cases without
+later model calls. The bounded phase closes on that explained solution; the value
+of evidence beyond competent ordinary review remains open. LA1–LA3 retain their
+original wording and now have bounded assessments. No follow-up is commissioned.
+
+**Preceding accepted publication — 18 September:**
 [Continuing consolidation](studies/2026-09-18-continuing-consolidation-findings.md)
 at `80c17db` establishes shorter familiar SQL execution after purposeful diagnosis,
 but its periodic adapter strategy completes 6/20 fresh jobs versus external
@@ -73,7 +83,7 @@ remain untested; the supplied executable completes 96/96. Original
 [EU1–EU3 predictions and assessments](notes/EVIDENCE_USE.md) remain identifiable.
 No follow-up experiment is commissioned.
 
-Current work prioritizes neural memory, live weight updates, and learned memory policies. Fourteen ancillary projects have published accepted bounded contributions. Update-source selection established reproducible local adapter updates without a task-success advantage in its final full-context comparison. Procedure acquisition and reuse found that its tested adapter transferred less reliably than retained examples and did not demonstrate acquisition-cost repayment at comparable useful accuracy. [Neural memory depth](https://github.com/alignment-farm/neural-memory-depth/blob/main/FINDINGS.md) ([local](../ancillary-studies/neural-memory-depth/FINDINGS.md)) found that interactions among initial representations and training streams strongly affect whether a tiny deeper memory learns full or partial recall. Correcting a verified derivative omission and increasing gradient-refresh frequency did not provide a uniform remedy; the differing published depth trends in Titans and Modular TTT remain unexplained.
+Current work prioritizes neural memory, live weight updates, and learned memory policies. Fifteen ancillary projects have published accepted bounded contributions. Update-source selection established reproducible local adapter updates without a task-success advantage in its final full-context comparison. Procedure acquisition and reuse found that its tested adapter transferred less reliably than retained examples and did not demonstrate acquisition-cost repayment at comparable useful accuracy. [Neural memory depth](https://github.com/alignment-farm/neural-memory-depth/blob/main/FINDINGS.md) ([local](../ancillary-studies/neural-memory-depth/FINDINGS.md)) found that interactions among initial representations and training streams strongly affect whether a tiny deeper memory learns full or partial recall. Correcting a verified derivative omission and increasing gradient-refresh frequency did not provide a uniform remedy; the differing published depth trends in Titans and Modular TTT remain unexplained.
 
 [Procedure transfer](https://github.com/alignment-farm/procedure-transfer/blob/main/FINDINGS.md) ([local](../ancillary-studies/procedure-transfer/FINDINGS.md)) first found poor distillation acquisition and partial transfer through imitation. Its subsequent [diagnosis](https://github.com/alignment-farm/procedure-transfer/blob/main/DIAGNOSIS.md) ([local](../ancillary-studies/procedure-transfer/DIAGNOSIS.md)) establishes a working forward-KL acquisition checkpoint and a controlled repair of failed routing from identical weights. Both selected learners route all 48 new development calls correctly, while identifier production remains unreliable. These diagnostic results explain part of the original failure without establishing a forward-KL transfer advantage. The [root assessment](studies/README.md#procedure-transfer-acquisition-diagnosis) records the evidence, checks and limits.
 
@@ -81,6 +91,7 @@ The [third-phase root assessment, 15 September](studies/2026-09-15-maintenance-f
 
 | Latest publication | What we learned |
 |---|---|
+| [Lesson acceptance](studies/2026-09-20-lesson-acceptance-findings.md) | Paid probes add cost without benefit over competent cheap review. Raw repair fixes every current output but leaves one latent program defect; cheaply corrected code supports direct reuse. |
 | [Weight consolidation](studies/2026-09-18-continuing-consolidation-findings.md) | Following the finite-compiler result, a database continuation reduces familiar execution calls but adds no fresh completion or demonstrated cost repayment. Access to retained experience differs from learning to use it. |
 | [Procedural memory migration](studies/2026-09-17-migration-lineage-findings.md#procedural-migration-unchanged-guidance-is-a-strong-alternative) | Useful unchanged guidance matches paid selection at 12/12 with much lower total token cost. Recipient-dependent value is observed; harmful inheritance and paid adaptation repayment are not. |
 | [Correction lineage](studies/2026-09-17-migration-lineage-findings.md#correction-lineage-fewer-repaired-fields-need-not-mean-less-work) | Selective repair touches fewer fields but costs more than rebuilding. Every arm repairs all states; later arithmetic failures leave complete behavior at 4/6. |
@@ -94,25 +105,21 @@ The [third-phase root assessment, 15 September](studies/2026-09-15-maintenance-f
 
 S5 now includes an [accepted placement comparison](studies/2026-09-16-placement-findings.md) alongside the earlier [acquisition, use and maintenance measurements](studies/2026-09-15-maintenance-findings.md#assessment-of-the-prospective-expectations). None demonstrates learning-cost repayment against competent explicit alternatives at comparable complete quality. The placement study shares visible evidence across methods; earlier references have different supplied structures and privileges. The later evidence-use result adds a favorable measured comparison against an uncached lesson, qualified above. These results do not establish a universal ranking of weights, records and executable rules.
 
-**Current work — 19 September 2026:** Fifteen studies are registered. Fourteen
-have accepted bounded contributions and completed reviewed phases, including the
-weight-consolidation continuation. The new
-[lesson-acceptance study](studies/README.md#lesson-acceptance) is prepared for an
-independent investigator to develop and run a bounded comparison; no agent or
-experiment was launched during preparation. The root
-continues theory, public research and selection within the fixed directive.
-The separate [applied derivative](derivatives/README.md) owns its
-prototype development and does not change those ancillary phase boundaries.
-Its learning memory worker's first bounded phase is now reviewed. The
-[lesson-acceptance selection](notes/LESSON_ACCEPTANCE.md) uses that evidence and
-the public-method comparison to separate lesson acceptance from later reading.
-Workload discovery, methods and execution now belong to the ancillary study.
+**Current work — 20 September 2026:** All fifteen registered studies have
+accepted bounded contributions and completed reviewed phases, including the
+[lesson-acceptance pilot](studies/README.md#lesson-acceptance). Its explained cheap
+solution narrows further selection toward consequential uncertainty that remains
+after competent ordinary review. No new experiment is commissioned. The root
+continues theory, public research and independent selection within the fixed
+directive. The separate [applied derivative](derivatives/README.md) owns prototype
+development; the lesson-acceptance pilot used its own SQLite/HTTP instrument and
+does not advance the runtime's review boundary.
 The next evidential milestone is useful capability across repeated realistic work
-and consequential change, with complete outcomes and total costs. The follow-up
+and consequential change, with complete outcomes and total costs. The database follow-up
 establishes a narrower source-efficiency result, not that milestone. AD1 remains untested locally, AD2
 has its bounded maintenance-choice assessment, and AD3 retains limited
 prediction-level support with adverse placement quality/cost evidence. EU, EX,
-PM, CL and WC assessments supplement those predictions without replacing them.
+PM, CL, WC and LA assessments supplement those predictions without replacing them.
 
 **S2's state/support phase is complete and accepted.** MR1 has direct support in the selected equal-accuracy diagnostic; fresh acquisitions support the interaction but begin at different accuracies. MR2 and MR3 remain untested locally, with closer public precedents now identified. The [reliability note](notes/MAINTENANCE_RELIABILITY.md#assessment-after-the-state-support-crossing) preserves those expectations. S1, S2 and S4's completed phases remain stood down.
 

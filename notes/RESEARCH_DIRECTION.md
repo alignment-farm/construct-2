@@ -764,3 +764,20 @@ computations and unambiguous obligations, with fresh data/history variants where
 appropriate. Closing the present recipe after explanatory development is
 reasonable; neither phase closure nor this review revokes useful continuation
 within the investigator's remit. The broader allocation question remains open.
+
+## Lesson-acceptance assessment — 20 September
+
+The [root assessment](../studies/2026-09-20-lesson-acceptance-findings.md) accepts
+`cbe62b9` and closes the bounded SQL phase. All fifteen registered studies now
+have accepted bounded contributions and completed reviewed phases. Paid evidence
+adds no value beyond competent schema review here; corrected acquired code
+supports direct reuse. A current correct answer can still come from a defective
+program. Original LA1–LA3 are preserved with assessments; AD1–AD3 are unchanged.
+
+Further acceptance work should identify consequential uncertainty remaining after
+competent ordinary review, with affordable observations that could change later
+complete behavior. The [P95 reading](../sources/2026-09-20-lesson-acceptance-review/README.md#public-method-refresh)
+narrows the evaluation novelty without establishing such a workload. No successor
+is commissioned; this preference competes with independent questions through its
+scientific value. The fixed directive remains useful accumulated experience across
+sessions, with explicit memory, lessons, code, weights and runtime rules all eligible.

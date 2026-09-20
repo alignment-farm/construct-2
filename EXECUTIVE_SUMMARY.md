@@ -1,8 +1,8 @@
 # Construct-2: what we have learned about accumulating useful experience
 
-Executive summary · Findings through 17 September 2026; work status updated 18 September
+Executive summary · Findings and work status through 20 September 2026
 
-Construct-2 asks how agents can accumulate useful experience across sessions, and where that experience should live: explicit memory, contextual lessons, executable tools, model weights or runtime rules. Fourteen ancillary investigations have produced accepted, bounded contributions, alongside a review of public research. Our starting hypothesis already allowed these mechanisms to work together. The studies have sharpened the conditions under which that combination helps, and exposed several ways apparently successful learning can fail to produce useful capability.
+Construct-2 asks how agents can accumulate useful experience across sessions, and where that experience should live: explicit memory, contextual lessons, executable tools, model weights or runtime rules. Fifteen ancillary investigations have produced accepted, bounded contributions, alongside a review of public research. Our starting hypothesis already allowed these mechanisms to work together. The studies have sharpened the conditions under which that combination helps, and exposed several ways apparently successful learning can fail to produce useful capability.
 
 **The clearest finding is that successful learning, durable usefulness and repayment of learning costs are separate achievements.** A system may acquire a pattern without completing the task, retain information without being able to use it, or improve predictions without outperforming a simpler alternative. Useful accumulated experience must improve complete future behavior or avoid work at comparable quality, while remaining accessible and correctable as the task and agent change.
 
@@ -15,6 +15,17 @@ Construct-2 asks how agents can accumulate useful experience across sessions, an
 **Competent alternatives change the allocation decision.** Cheap explicit access matched or exceeded learned retrieval on a directly addressable collection, even though the learned predictor improved. In the executable-retention study, all four policies completed eight fresh requests. Ready and archived source needed no future model calls; reconstructing each session needed eight; retaining the first reconstruction needed one. Usable source avoided repeated work, and the alternative could itself become a source-retaining policy. These results make availability, recovery and subsequent behavior central to the comparison. [Memory placement](studies/2026-09-16-placement-findings.md); [executable retention](studies/2026-09-17-executable-retention-findings.md).
 
 **Choosing and maintaining memory must justify its own cost.** Unchanged guidance improved a new model from 1/12 to 12/12 complete SQL tasks. Paid selection also reached 12/12 and reduced use tokens, but nearly tripled the total after migration setup was included. In a separate correction study, acquired support links reduced repaired fields from 48 to 18, yet rebuilding the small state cost less. Every method repaired all six states, while shared arithmetic failures left later task episodes at 4/6. Useful inheritance, selective repair, complete future behavior and net savings are distinct results. [Migration and correction lineage](studies/2026-09-17-migration-lineage-findings.md).
+
+**Evidence must be informative and competently interpreted.** In two constructed
+reporting histories, paid tests exposed defects that a weak reviewer still
+misread. A competent reviewer found those defects from the visible schema alone;
+extra tests then added cost without improving the six measured task outcomes.
+Ordinary raw-experience repair also recovered all six current answers, yet one
+returned program failed on new data. Cheaply corrected SQL handled every case
+without further model calls. A successful episode, a valid lesson and a reusable
+correct procedure require different evidence. This study compared curation and
+code repair together; it did not isolate lesson acceptance or test learned
+selection. [Lesson acceptance](studies/2026-09-20-lesson-acceptance-findings.md).
 
 **What remains for the model to do determines the value of learning.** With source
 experience externally accessible, an adapter improved manual configuration of
@@ -36,4 +47,4 @@ Together, the findings support evaluating memory as a maintained capability: ret
 
 The evidence is strongest within small, controlled workloads. Many supplied the task contract, identities, correction authority or routine selection. Positive cost comparisons omit some engineering work or leave stronger alternatives untested. Equal scores on small samples do not establish equal reliability, and the executable study does not isolate the value of its acquired lessons beyond the supplied contract and examples. We have not demonstrated an agent that independently recognizes recurring work, chooses what to learn and where to retain it, and reliably improves over an extended realistic job.
 
-The next evidential milestone is that continuing practical capability: better complete outcomes or less total work across repeated use and consequential change, including acquisition, checking, failures and repair. All reviewed ancillary phases, including the database follow-up, are complete; broader migration, correction and continuing-consolidation questions remain open. The next comparison should establish a useful development capability and evaluate fresh work on independent histories, with correct computation distinguished from accidental answer matches. The program's direction remains the original question of useful accumulated experience, with a clearer standard for demonstrating its value.
+The next evidential milestone is that continuing practical capability: better complete outcomes or less total work across repeated use and consequential change, including acquisition, checking, failures and repair. All fifteen reviewed ancillary contributions have completed bounded phases; broader migration, correction, consolidation and acceptance questions remain open. Further acceptance work needs consequential uncertainty that competent ordinary review cannot already settle. That is a criterion for selecting a workload, not a reason to repeat the latest small experiment. Any next comparison should establish useful development behavior and evaluate fresh work on independent histories, with correct computation distinguished from accidental answer matches. The program's direction remains the original question of useful accumulated experience, with a clearer standard for demonstrating its value.

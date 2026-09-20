@@ -1,0 +1,557 @@
+{
+  "study_revision": "cbe62b976e5a9d179a88edbd1a5f573eb0f29254",
+  "sqlite_version": "3.50.4",
+  "sql_executions": 94,
+  "outcomes": {
+    "raw": {
+      "initial": 2,
+      "final": 6,
+      "both_behavior_checks": 5,
+      "fixed_program": 2,
+      "initial_matches_source": 6,
+      "changed_in_revision": 5
+    },
+    "cheap": {
+      "initial": 6,
+      "final": 6,
+      "both_behavior_checks": 6,
+      "fixed_program": 6,
+      "initial_matches_source": 0,
+      "changed_in_revision": 0
+    },
+    "paid": {
+      "initial": 6,
+      "final": 6,
+      "both_behavior_checks": 6,
+      "fixed_program": 6,
+      "initial_matches_source": 0,
+      "changed_in_revision": 0
+    }
+  },
+  "source_probe": [
+    {
+      "history": "billing",
+      "split": "source",
+      "actual": [
+        [
+          1,
+          "Ada",
+          100,
+          40
+        ],
+        [
+          2,
+          "Ben",
+          0,
+          15
+        ],
+        [
+          3,
+          "Cy",
+          0,
+          0
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          "Ada",
+          100,
+          40
+        ],
+        [
+          2,
+          "Ben",
+          0,
+          15
+        ],
+        [
+          3,
+          "Cy",
+          0,
+          0
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "history": "billing",
+      "split": "probe",
+      "actual": [
+        [
+          11,
+          "Probe",
+          100,
+          42
+        ],
+        [
+          12,
+          "Empty",
+          0,
+          0
+        ]
+      ],
+      "expected": [
+        [
+          11,
+          "Probe",
+          50,
+          14
+        ],
+        [
+          12,
+          "Empty",
+          0,
+          0
+        ]
+      ],
+      "pass": false
+    },
+    {
+      "history": "attendance",
+      "split": "source",
+      "actual": [
+        [
+          1,
+          "Talk",
+          5,
+          1
+        ],
+        [
+          2,
+          "Lab",
+          0,
+          1
+        ],
+        [
+          3,
+          "Walk",
+          0,
+          0
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          "Talk",
+          5,
+          1
+        ],
+        [
+          2,
+          "Lab",
+          0,
+          1
+        ],
+        [
+          3,
+          "Walk",
+          0,
+          0
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "history": "attendance",
+      "split": "probe",
+      "actual": [
+        [
+          11,
+          "Probe",
+          18,
+          6
+        ],
+        [
+          12,
+          "Empty",
+          0,
+          0
+        ]
+      ],
+      "expected": [
+        [
+          11,
+          "Probe",
+          9,
+          2
+        ],
+        [
+          12,
+          "Empty",
+          0,
+          0
+        ]
+      ],
+      "pass": false
+    }
+  ],
+  "grades": [
+    {
+      "case": "attendance-801-cheap",
+      "arm": "cheap",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": false,
+      "changed_in_revision": false
+    },
+    {
+      "case": "attendance-801-paid",
+      "arm": "paid",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": false,
+      "changed_in_revision": false
+    },
+    {
+      "case": "attendance-801-raw",
+      "arm": "raw",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": true,
+      "changed_in_revision": true
+    },
+    {
+      "case": "attendance-802-cheap",
+      "arm": "cheap",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": false,
+      "changed_in_revision": false
+    },
+    {
+      "case": "attendance-802-paid",
+      "arm": "paid",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": false,
+      "changed_in_revision": false
+    },
+    {
+      "case": "attendance-802-raw",
+      "arm": "raw",
+      "initial": false,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": false,
+      "initial_matches_source": true,
+      "changed_in_revision": true
+    },
+    {
+      "case": "attendance-803-cheap",
+      "arm": "cheap",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": false,
+      "changed_in_revision": false
+    },
+    {
+      "case": "attendance-803-paid",
+      "arm": "paid",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": false,
+      "changed_in_revision": false
+    },
+    {
+      "case": "attendance-803-raw",
+      "arm": "raw",
+      "initial": false,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": false,
+      "initial_matches_source": true,
+      "changed_in_revision": true
+    },
+    {
+      "case": "billing-801-cheap",
+      "arm": "cheap",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": false,
+      "changed_in_revision": false
+    },
+    {
+      "case": "billing-801-paid",
+      "arm": "paid",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": false,
+      "changed_in_revision": false
+    },
+    {
+      "case": "billing-801-raw",
+      "arm": "raw",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": false,
+      "fixed_program": true,
+      "initial_matches_source": true,
+      "changed_in_revision": false
+    },
+    {
+      "case": "billing-802-cheap",
+      "arm": "cheap",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": false,
+      "changed_in_revision": false
+    },
+    {
+      "case": "billing-802-paid",
+      "arm": "paid",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": false,
+      "changed_in_revision": false
+    },
+    {
+      "case": "billing-802-raw",
+      "arm": "raw",
+      "initial": false,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": false,
+      "initial_matches_source": true,
+      "changed_in_revision": true
+    },
+    {
+      "case": "billing-803-cheap",
+      "arm": "cheap",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": false,
+      "changed_in_revision": false
+    },
+    {
+      "case": "billing-803-paid",
+      "arm": "paid",
+      "initial": true,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": true,
+      "initial_matches_source": false,
+      "changed_in_revision": false
+    },
+    {
+      "case": "billing-803-raw",
+      "arm": "raw",
+      "initial": false,
+      "final": true,
+      "both_behavior_checks": true,
+      "fixed_program": false,
+      "initial_matches_source": true,
+      "changed_in_revision": true
+    }
+  ],
+  "deployment_costs": {
+    "raw_reader": {
+      "calls": 14,
+      "prompt_tokens": 11833,
+      "completion_tokens": 5473,
+      "model_seconds": 346.911096
+    },
+    "raw_fixed": {
+      "calls": 2,
+      "prompt_tokens": 481,
+      "completion_tokens": 238,
+      "model_seconds": 7.159568
+    },
+    "cheap_reader": {
+      "calls": 18,
+      "prompt_tokens": 39269,
+      "completion_tokens": 8154,
+      "model_seconds": 613.550579
+    },
+    "cheap_fixed": {
+      "calls": 6,
+      "prompt_tokens": 3104,
+      "completion_tokens": 4243,
+      "model_seconds": 212.001243
+    },
+    "paid_reader": {
+      "calls": 18,
+      "prompt_tokens": 45745,
+      "completion_tokens": 9026,
+      "model_seconds": 696.553411
+    },
+    "paid_fixed": {
+      "calls": 6,
+      "prompt_tokens": 3731,
+      "completion_tokens": 4563,
+      "model_seconds": 232.998354
+    }
+  },
+  "actual_response_artifact_costs": {
+    "calls": 53,
+    "prompt_tokens": 103511,
+    "completion_tokens": 32207,
+    "model_seconds": 1978.487
+  },
+  "empty_content_responses": [
+    "billing-cheap-27b"
+  ],
+  "interruptions": {
+    "serving-interruption.json": {
+      "attempt": "billing-paid-27b",
+      "status": "client interrupted after prior call returned empty content at length limit",
+      "prior_call": "calls/billing-cheap-27b.json",
+      "request_reconstruction": "competence phase, billing base REVIEW plus saved billing probe, model docker.io/ai/qwen3.8:27b-q4_K_M, temperature 0, max_tokens 4096; no chat_template_kwargs",
+      "calls": 1,
+      "tokens": null,
+      "wall_seconds": null,
+      "money_usd": null,
+      "server_cancellation_confirmed": false
+    }
+  },
+  "chronology": {
+    "latest_curation_response_created": 1789862540,
+    "evaluation_start": 1789862545.8431208,
+    "earliest_final_response_created": 1789862556
+  },
+  "checks": {
+    "request_hashes": 40,
+    "early_requests_without_saved_hash": 13,
+    "final_requests_source_parity_and_controls": 36,
+    "protocol_hashes": 5,
+    "model_calls_launched": 0
+  },
+  "study_file_sha256": {
+    ".deps/construct-runtime/AGENTS.md": "c41d56c62c00ca08f9e94dfe66432f50c386017e8dc882cdf4dff647b987f5b1",
+    ".deps/construct-runtime/README.md": "f75c05e1ebd983949efa8f15bd9262b0e8cb33c9fc4eda0c092547c09c5612cd",
+    ".deps/construct-runtime/evidence/milestone-3/attempt-03/investigator/final-source/README.md": "441eae46ee34f970718f55b48f60161308804044cf7e720e3cdc12bd6e09ac8b",
+    ".deps/construct-runtime/examples/memory_worker/README.md": "0f421ae8a7c7feea42a54f885d8c89ea51c543c8da0b860361f69e88b438ea31",
+    ".deps/construct-runtime/examples/release_gate/README.md": "db4b12895e0ca4afcdf99c3ccadb1ab5b80d632cc48edd27c6e79ac6d9ebe5c0",
+    ".deps/construct-runtime/resources/memory-methods/README.md": "3c10857e202e62adce4d642fb67df4d8395a0b2445ecf9c2102fa75a3746056a",
+    "AGENTS.md": "1e90fca82ed4333e347ff41dc4dd58280c969372770dd0095b6ea6c83594b876",
+    "README.md": "4e44b0789c602d26229a7c7896d721d272741f1897c7637a0604eaf80bb1e5ac",
+    "evidence/pilot-v1/attendance-27b.json": "e9959ffcb8ddc8ea16b367ae39884a756c95bae3fee68afbfc409df750f644c9",
+    "evidence/pilot-v1/attendance-acceptance.json": "b29b735c37ac43b7c9dc57ead4024f29eb1a745ed632e2e34429684d1d048e7a",
+    "evidence/pilot-v1/attendance-developed.json": "90d642c3bd0543b4d052c7d14ec599eb43b34a95ad47d64cc77ef368f0ff5d69",
+    "evidence/pilot-v1/attendance-source.json": "6181f5539215b349c7a0c978d258b8b4ade9eb5eb65737e20daa7e0d5798010f",
+    "evidence/pilot-v1/billing-27b.json": "2e3002fdb4a5ec8303dd830b4a39f30b660e9dc118a2a91c019c4aa2463fd6ff",
+    "evidence/pilot-v1/billing-acceptance.json": "1c3c94adfaa0c3a64dd4501108827b36a7eaae72a9fa50d1a80569173f6d312c",
+    "evidence/pilot-v1/billing-developed.json": "1f23f4f4a1a441790b7e21357010994c205f7b8df67704d285d6bd63447e82fe",
+    "evidence/pilot-v1/billing-source.json": "9a3859ac3706b3d54e381acad4fc76025ad79e4d2b3eef198b79577e8e696440",
+    "evidence/pilot-v1/calls/attendance-cheap-27b-direct.json": "3690b20815598d823d00f3c0ce57fba059b4cadc7e10b2c1ff7631da6ed58462",
+    "evidence/pilot-v1/calls/attendance-cheap-developed.json": "5b2d45a641a3fba073eca74d5d767a57af900aa2f6547daaf4ea96813f8e7ba4",
+    "evidence/pilot-v1/calls/attendance-cheap.json": "260245ea42f867b0b980df8e14a309eaee228d64bac85d6981351e8bca574b13",
+    "evidence/pilot-v1/calls/attendance-paid-27b-direct.json": "68b3f6a7a2c03e28c2c94ed346ab2c3514ce5e7e6a61813ea73a3a7357ac1391",
+    "evidence/pilot-v1/calls/attendance-paid-developed.json": "d9fbef8e36add6da554a7ee7ab7ef326a4784c5f0b5b3affb6a7c0062bb9d6e9",
+    "evidence/pilot-v1/calls/attendance-paid.json": "ecc9b32ac553020663608990b16f89ce67da3d25923e6ded7b99d5f0de93d16a",
+    "evidence/pilot-v1/calls/attendance-proposal.json": "57d53e7979c87cf40184ad657e618275845b950955cb5c7fdcaf2d2430835f43",
+    "evidence/pilot-v1/calls/attendance-source.json": "9d4032ae708862623583b2035f78c3523da8c8cf3a657771c79836ae3d3662c6",
+    "evidence/pilot-v1/calls/billing-cheap-27b-direct.json": "9c550ba52b2d26d98f54fe30217ea429a26abf7bf32dc120b115498909e50a32",
+    "evidence/pilot-v1/calls/billing-cheap-27b.json": "f6646c73a8992468fc5371a7ca44608dc2390ac813703b78765d6d34ce111df4",
+    "evidence/pilot-v1/calls/billing-cheap-developed.json": "2ded17740a9e58b3a2028e804c70aac5d407e2b8a9597f7c740fa7d486bc24f6",
+    "evidence/pilot-v1/calls/billing-cheap.json": "73aa22bfb8c00c982c0e574c54f3d82332a6df67817912f43e295175f7a5bd0a",
+    "evidence/pilot-v1/calls/billing-paid-27b-direct.json": "627d3a546c551048d1f79dbb04ba13118fd99aba5ade52c3305f3ff4ef468c5c",
+    "evidence/pilot-v1/calls/billing-paid-developed.json": "4973a16e5679c76f1aaae19bf22e7de89420d5a0884dd5ee62d693fb09b2756b",
+    "evidence/pilot-v1/calls/billing-paid.json": "fefa8025f80e1843afec259c6e5cd3379b42786107a906db7344a428dd3a6e2e",
+    "evidence/pilot-v1/calls/billing-proposal.json": "686b37ed1be214a3e8ce9926a22665e375cd49f55cfea9ea91de4116f951ca95",
+    "evidence/pilot-v1/calls/billing-source.json": "965f467aa66e39e317d5a52960c7a04064e0e7b9dd4a0d583de88dba8967adad",
+    "evidence/pilot-v1/calls/final-attendance-801-cheap-initial.json": "3d3a59e13e9be5979a721135459354a879b26c90b306daeb342eeccabdabf158",
+    "evidence/pilot-v1/calls/final-attendance-801-cheap-revision.json": "4a6ad77f6a2ebe747d460062ea01132a1b32f9451d39a442b7fad56f0fd1f5b1",
+    "evidence/pilot-v1/calls/final-attendance-801-paid-initial.json": "a35b89ea51c3d5966cd18e4db855c638d0edb718ad7434dc15e22591a4d15063",
+    "evidence/pilot-v1/calls/final-attendance-801-paid-revision.json": "c4638ba6fdea92745e65fa675b4779c3312bd5548d461244f124a3e5df1626a5",
+    "evidence/pilot-v1/calls/final-attendance-801-raw-initial.json": "61e964290ca63d3972c81dc6ee276e0133b4164c8847dcb7190dbef5ba5b29b6",
+    "evidence/pilot-v1/calls/final-attendance-801-raw-revision.json": "c1e1c1e4b0569251ffdb1ed27df40ea73abec038368cae07ce55cb90c08168fc",
+    "evidence/pilot-v1/calls/final-attendance-802-cheap-initial.json": "a079b06564285eb2d56a53c49c6dd75d50aaeb6796448118582baf6cb849fe3a",
+    "evidence/pilot-v1/calls/final-attendance-802-cheap-revision.json": "18cc13161c0ea6512f08debc6c361797d32be1006fcceacf5b46bb45244ad6b8",
+    "evidence/pilot-v1/calls/final-attendance-802-paid-initial.json": "c96518996f703b7057915717255790695ef7fd6a80c3dc9599e447b66d1d3fc9",
+    "evidence/pilot-v1/calls/final-attendance-802-paid-revision.json": "0804f0e459a46b40dc3d44df6116dc29b329bbea6b96d12b1d1d0bd917cd1c97",
+    "evidence/pilot-v1/calls/final-attendance-802-raw-initial.json": "7036fcc9d30a51191048a4e2babf3b81bed0c5147176868d23b9bd2517dcfaf5",
+    "evidence/pilot-v1/calls/final-attendance-802-raw-revision.json": "99e4a0b78cc62fd5106174c5b0acc263ba9c38f1467b9615ee5cca75ab0ea580",
+    "evidence/pilot-v1/calls/final-attendance-803-cheap-initial.json": "0881d68a0e3983411c3d20100bafb6ae72fa70c20bf7a56e7124b742c0e117aa",
+    "evidence/pilot-v1/calls/final-attendance-803-cheap-revision.json": "66b35d0c61c9aa4c8cd444b24144af707e6161d1d9e25a4fb1dac042e26c3a6a",
+    "evidence/pilot-v1/calls/final-attendance-803-paid-initial.json": "2b0533e36560e34cf6c9e3f91bf805cc7cefe2bff2e2e4502f07b42a81e1260e",
+    "evidence/pilot-v1/calls/final-attendance-803-paid-revision.json": "475fbd97398996c4e98c26f5d30f9909ff8cbbd849b0b8036f83ce1d8898e2dd",
+    "evidence/pilot-v1/calls/final-attendance-803-raw-initial.json": "dc851b6d9f53799c8a7a2c0cabc4948e9982c67ccf7c83f704103339b4633171",
+    "evidence/pilot-v1/calls/final-attendance-803-raw-revision.json": "81859906cafef40f9aacb082af469e6dcac0255d3b6f6eb05d2a795c2605d2f8",
+    "evidence/pilot-v1/calls/final-billing-801-cheap-initial.json": "a6ec6436ddb644b8afce82d2270b42e2176087e0c2bdc84210d52ca750c0879c",
+    "evidence/pilot-v1/calls/final-billing-801-cheap-revision.json": "84f1728803418bf09372d3f1876a49392ffcd55df360b10f8234a16d9148066e",
+    "evidence/pilot-v1/calls/final-billing-801-paid-initial.json": "6c2e5927973562404e21c45a655d84ed96be8744c64de7414a52736707f0f1be",
+    "evidence/pilot-v1/calls/final-billing-801-paid-revision.json": "d4667994b51eddd47d4b4de3afa719592bd0a5e83daf68f74cf0c9ef25d54ae6",
+    "evidence/pilot-v1/calls/final-billing-801-raw-initial.json": "bad87e7adfd148afeb8d3e74dfd95611081562171f8634c3106666d232834038",
+    "evidence/pilot-v1/calls/final-billing-801-raw-revision.json": "cc54846f254fdc52b5d19fba0f1ffb46ee2a7baf921a082eb07bd4db390b3b54",
+    "evidence/pilot-v1/calls/final-billing-802-cheap-initial.json": "84cd8684d925abf08f73083358413ac483e7bca698bd1c3ab0a0621a740400b2",
+    "evidence/pilot-v1/calls/final-billing-802-cheap-revision.json": "32c0c1646d82162611e6e2b9df3f4b5d8363810d3e76d7d5925c74ba57c90613",
+    "evidence/pilot-v1/calls/final-billing-802-paid-initial.json": "27755f07b08601bb77caf62a0e8cb0c344208a59d735e2fd3b7ef744de6433f7",
+    "evidence/pilot-v1/calls/final-billing-802-paid-revision.json": "6f769fa5a95a21293a8c43771e7b6b61a325562e310bb3f5318a55733df13333",
+    "evidence/pilot-v1/calls/final-billing-802-raw-initial.json": "a3004fcf5ebcdda06244c73111ddd1d53effbd94afbd3818ec529d0546e65d3b",
+    "evidence/pilot-v1/calls/final-billing-802-raw-revision.json": "de5d1cae7de9b2ea8f9309e2b9b6dd86a19cd9befb0efb0790a1e54b95176fcf",
+    "evidence/pilot-v1/calls/final-billing-803-cheap-initial.json": "e2654eb505d537d7a0287d1e077e4183ee7ed2dec2917554018af904b78a3679",
+    "evidence/pilot-v1/calls/final-billing-803-cheap-revision.json": "212a1d48830553d698969529e2008f7e6ca2b0063c3744493b05c35ee6f02cad",
+    "evidence/pilot-v1/calls/final-billing-803-paid-initial.json": "d438eb6236da796fe3ec4015b368c75963b45a2bd289c9074628887c26b4ee5e",
+    "evidence/pilot-v1/calls/final-billing-803-paid-revision.json": "b5c813c21124fec29a185389578a29f5817234a66463655b1036160cab2cd7ac",
+    "evidence/pilot-v1/calls/final-billing-803-raw-initial.json": "7bfe68add212a7d39d90ea23ff8cc5d774aee2f98946da6960ac2b7ea7df20b2",
+    "evidence/pilot-v1/calls/final-billing-803-raw-revision.json": "118bed52aa16b33b573977ad2bf16e00f5697287aa4a8d683d115ccacb1747ea",
+    "evidence/pilot-v1/cheap-repair-diagnostic.json": "082f10ed99311d16f44a4b8d054c1f14c78c0c773a7e01b36828e3b41879aa8a",
+    "evidence/pilot-v1/cost-ledger.json": "38336a6dd4fda992ff216e8408fd71dd43f3fd9ff12f61d15a24438c4325c8bb",
+    "evidence/pilot-v1/grades/attendance-801-cheap.json": "c073ffb1ecffcaf0171e24cf7574ef4d688455f762e056ad67099f110d8e1124",
+    "evidence/pilot-v1/grades/attendance-801-paid.json": "c97b07e9e06c751dcb43c5ae2c59f7a9af4fad4b4ccf422ff70ee931e1ef135d",
+    "evidence/pilot-v1/grades/attendance-801-raw.json": "fff03044db907730174bcaaef75acb46499293fb1ff2f9bbf5af43e527b20138",
+    "evidence/pilot-v1/grades/attendance-802-cheap.json": "790419423084374744d3f407bca3c6839ac929976ccea858b8e1cf713e2ab747",
+    "evidence/pilot-v1/grades/attendance-802-paid.json": "f91ae52a3e38c0954f3d86b10a3902ff211c1a9c3d95664ddbd15ff82fa9f83b",
+    "evidence/pilot-v1/grades/attendance-802-raw.json": "68d05297860ded49b828a946d3d5194eb938ed59353e68254b9602136d03aed1",
+    "evidence/pilot-v1/grades/attendance-803-cheap.json": "1a5bde84a55d5d7e608d5d283faec662e5e93e1e7daf0140202b05067fae3447",
+    "evidence/pilot-v1/grades/attendance-803-paid.json": "328556048b7e09179aa43dd28cd95bbf49851f829af0bd08f4a74965b4522287",
+    "evidence/pilot-v1/grades/attendance-803-raw.json": "8daf3a8d99ce2ffeb91900e8e96f7eb69ec81be87d38cae71d320da8375121cf",
+    "evidence/pilot-v1/grades/billing-801-cheap.json": "e6b17422a13b0de0dc53d64bc98e397283aa7596e7c8c71174655b4abeb360d1",
+    "evidence/pilot-v1/grades/billing-801-paid.json": "a0471edb0280208d8c8f77ec992c7f295b11822c59bc91b2c895ded23cfd4134",
+    "evidence/pilot-v1/grades/billing-801-raw.json": "a52ac2efe3a55181d735c26d2da87de56baa36014d1d98fb5664ab5e56d27a57",
+    "evidence/pilot-v1/grades/billing-802-cheap.json": "495aad942f5b2710f35e79beb0d4c40eeceddd876c24996dc9e0b0527b5479b8",
+    "evidence/pilot-v1/grades/billing-802-paid.json": "fd534fd10daaf2f40826fd85fc7bfa180dab905ea77a4d938cfdbbbcb5aac916",
+    "evidence/pilot-v1/grades/billing-802-raw.json": "b814d71fdf73808a28f6c02d896a5955fcd04d279496d0de095d317e096bf1ea",
+    "evidence/pilot-v1/grades/billing-803-cheap.json": "954f253bb460c7c348c82076d346a9ef22ca56ead6198f7963a11ef7372ae117",
+    "evidence/pilot-v1/grades/billing-803-paid.json": "6435a8f89f2e39b59f199e20c034eaff207ffd33865438e719cbb48cd93dc479",
+    "evidence/pilot-v1/grades/billing-803-raw.json": "b211cc65920d07637c57a35bc79d348707cd3e9b500091065f649c18a5a6b078",
+    "evidence/pilot-v1/instrument-competence-1789862130815821000.json": "3146397d0a7a3797e27c1a1007922f0c24c38248d26c114500cfba1484c9bf03",
+    "evidence/pilot-v1/instrument-competence.json": "295e0d82a59a61ee3dc62b930d37bc5ea8378559eb38a08157d3ccbc48ca0147",
+    "evidence/pilot-v1/instrument-develop.json": "1414a2d4962ab5bc0ad8ea65c844431ebc31525e15f0296f86f89380e714785d",
+    "evidence/pilot-v1/instrument-evaluate-1789862545843012000.json": "1975ef1ffe0e77404b188340ba31222c9d3aae2a4d169800e3a75066e29ba2ed",
+    "evidence/pilot-v1/instrument-summarize-1789863758919379000.json": "e54b31571c99c626665a805a2b6efce8f056caba41bbbf6175b40fff1942214d",
+    "evidence/pilot-v1/instrument.json": "ee3202f06b91b1da7d50f2348929298d410a951c4c999702622b94932024f5bd",
+    "evidence/pilot-v1/offline-verification.json": "af1630bda7e5c102b57f8d6e764cf5fbfa18911a31ffc5bc8d3f1de8adf56720",
+    "evidence/pilot-v1/phase-status.json": "03b0349eeae0da352c0d6aa05993b360b14e6c6891dccb4d107b761cf8f1836d",
+    "evidence/pilot-v1/results.json": "58e65767fe78aa3c5c40a0a417330625ce2b6f04b1ee6a9ca1d8f770a48cdf4a",
+    "evidence/pilot-v1/serving-interruption.json": "da029cc2654d11446015a446f32b1785b4b854c3e9838c35c63dfcb410db4cff",
+    "evidence/pilot-v1/summary.json": "aa193e9ea5a2809ba7a460186b897386a1471ad52e50b922c21cedcef39c2ea8",
+    "evidence/pilot-v1/verification-history/1789863758850070000.json": "1b258683f608aa232653e83fa38bb62889250b7ccd0c33584562136e2656b43e",
+    "protocols/competence-v2.md": "1993a4749a275a3e696ac47f2e31855be77c42ac459dbb9afe0a22aeebea331f",
+    "protocols/fresh-v1.md": "addbff69eccfa512f2b42278c2f7c286f75f619f2385fb65bee5e300346d0aa7",
+    "protocols/fresh-v2.md": "6f0877bc309737932066a98f4c4a5ad6ed21292cb8fe1928f49e187c134fa9f8",
+    "protocols/pilot-v1.md": "96bb25a49e55b589a39b669f9667710941e41882747e2b727e1a9e0b3bc5ca6d",
+    "protocols/serving-repair.md": "c62eae2b7d319a707b5953ed134d0b2d613b2976bc549f1e9271abc169a707a9",
+    "reports/pilot-v1.md": "354746bc93d3f43bde7fc0182a513671b444da8eaca1bea1d5ebb1bca34b3785",
+    "scripts/costs.py": "df0553619dd94da3c08086b1e5d92644013fba1cbe3850fb9d7a6982c816653b",
+    "scripts/pilot.py": "692184741a27502c134871785c56d9e49b8f29b364ba7f82ca4a2d9df423a4fa",
+    "scripts/verify.py": "53d4d29cf5a5888774e6d857b58677ff7e03d41ea5fb96444159772d8300b60a",
+    "sources/README.md": "49f387d942898e1442c5800f6ffa1c93ac335dc4b8b6beda5c7063f2e528b1e7",
+    "sources/followup-2026-09-19/README.md": "22490024858c4339f8abeb3500b78e5469a6604705556adb4eb79e9059effcea"
+  }
+}

@@ -248,3 +248,28 @@ holds candidate generation and competent delivery stable while varying acceptanc
 evidence, with raw experience and acquired programs retained. Additional checking
 must earn its cost on later complete work. Preparing and publishing the repository
 starts no investigator or model run and reopens no completed ancillary phase.
+
+## Lesson-acceptance assessment — 20 September
+
+The [accepted pilot](../studies/2026-09-20-lesson-acceptance-findings.md) resolves
+a bounded feasibility question: competent cheap review already detects the
+schema-visible defect, and paid probing adds no measured benefit. Curation also
+produces corrected SQL that handles all later same-schema tasks without model
+calls. Raw reuse with ordinary repair reaches every current answer but leaves
+one final program with a latent defect. Interpretation, scope and later program
+behavior therefore remain distinct parts of an acceptance claim.
+
+The weak-reviewer failures are useful evidence: an executed check can be
+informative even when the model misreads its actual output. Competence development
+was necessary before comparing evidence policies. The eventual comparison bundles
+acceptance, rewriting and code supply; it does not identify a pure lesson-selection
+effect or show that more neural capacity should be added to the runtime.
+
+[LA1–LA3](LESSON_ACCEPTANCE.md#assessment-after-publication--20-september) now have
+bounded assessments, with original wording intact. P95 supplies an established
+method for checking SQL beyond one database; it narrows evaluation novelty while
+leaving uncertain real-world contracts unresolved. The phase closes after an
+explained cheap solution and direct-code comparison. A successor would need
+consequential uncertainty remaining after competent ordinary review and an
+observation capable of changing useful behavior. This is a research preference,
+not a validated workload, new commission or request to extend the runtime.
