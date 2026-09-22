@@ -7,6 +7,15 @@ following preparation `7717645b318d3f3e94673c814fd4acb001869dd3`. Remote `main`
 matched that publication when reviewed. The sibling checkout remains clean at
 preparation; root cloned a separate ignored review copy rather than modifying it.
 
+**22 September provenance annotation:** the user identifies this investigator as
+`gpt-5.6-luna` with `max` reasoning and previous ancillary investigators as
+`gpt-6-astra` with `medium`. This is user-reported investigator provenance,
+separate from the artifact-recorded Qwen learner; no configuration logs were
+verified and no cross-investigator comparison is established. Root clarifies the
+review disposition as **revision required**, retaining reproduced observations
+while rejecting complete-repair and commission-completion interpretations.
+The publication boundary, original outcomes and review replay remain unchanged.
+
 ## Local evidence boundary
 
 Read instructions, README, starting prompt, protocol and both commits' history.

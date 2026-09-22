@@ -7,7 +7,9 @@ code unchanged and fail all three new cases. Both smaller repairs pass their
 original check but fail root's additional boolean-contract checks. The teaching
 is authored, rather than acquired from learner attempts; ordinary history lacks
 the full teaching record. The development evidence is accepted with qualifications;
-the original commission remains open. CC1 is unresolved and CC2/CC3 are untested.
+revision is required to complete the original commission. CC1 is unresolved
+and CC2/CC3 are untested. The 22 September clarification records investigator
+identity as user-reported provenance, without attributing these failures to it.
 
 **Preceding accepted publication — 20 September:**
 [Lesson acceptance](2026-09-20-lesson-acceptance-findings.md) at `cbe62b9`

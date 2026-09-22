@@ -151,3 +151,44 @@ The project README provides an abstract or short overview and points to its
 supporting evidence. Code, data, saved outputs, and reproduction
 instructions remain in the same directory, referenced from the README.
 Revisions remain identifiable through version control.
+
+## Investigator provenance and review — clarified 22 September 2026
+
+The investigator is part of the experimental provenance. Distinguish the model
+conducting the research from the participant/learner, any teacher, and the reviewer.
+For each experiment, record their exact available model identifiers, reasoning
+settings, harness/tool versions, instructions and starting context, resource
+allowances, consequential interventions and actual known costs. A shared study
+record can supply unchanged fields; record changes where they occur. Mark unknown
+or user-reported identities explicitly rather than inferring them from outputs.
+Preserve the investigator's decisions, unsuccessful attempts and stopping reason.
+
+Review scientific quality as well as participant scores: whether the comparison
+answers its question, whether implementation and evaluation are valid, whether
+claims survive replay, how acquisition failures were diagnosed, and what correction
+or reviewer work was needed. Negative findings can be excellent research; a
+positive score or polished report can be inadequate research. Record observed
+defects and repair work without turning one study into a model-family ranking.
+
+Root may accept a claim, require specific revision, or reject an unsupported or
+invalid claim. Retaining a useful failure record is separate from accepting its
+interpretation or completion claim. A request to try again must identify the
+unresolved explanation or validity problem and an informative bounded next step;
+it must not mean repeating a treatment until it wins. Preserve the rejected claim
+and evidence, and require fresh confirmation after outcome-informed development.
+
+**Current investigator policy — 22 September:** the user selected `gpt-6-astra`
+for root and ancillary research agents, including reviewers, to maintain
+consistency. Record the actual reasoning settings; investigator-family expansion
+is deferred until the user revisits it. Include this policy in new study
+instructions and subsequent handoffs. Experimental participant, learner and
+teacher model choices remain governed by the scientific question.
+
+If investigator-family comparisons are later selected, routine provenance does
+not require duplicating every experiment with every model. Comparative claims
+need matched assignments with the same starting evidence and stated resources,
+accounting for harness differences, interventions and review costs. Effort labels
+across models are not an equal-work control. Independent review can expose
+different errors, but disagreement or majority agreement alone does not settle
+a scientific claim. Methods and evidence remain decisive; shared process should
+stay proportional to the research.

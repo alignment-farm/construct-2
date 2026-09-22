@@ -16,6 +16,13 @@ following the [ancillary-study approach](notes/ANCILLARY_STUDY.md). Workload
 discovery can be part of their bounded exploration; useful progress includes
 negative results and explanations that resolve a question without new runs.
 
+Use `gpt-6-astra` for root and ancillary research agents, including research
+reviewers, until the user changes this policy. This 22 September 2026 decision
+prioritizes consistency; record the actual reasoning setting and model provenance.
+Models used as experimental participants, learners or teachers remain scientific
+choices within each study. Include this investigator policy when preparing studies
+or handing off further work; comparisons with other investigator families are deferred.
+
 Independent ancillary questions proceed concurrently. A local acquisition or
 implementation problem in one study does not block the others. The root keeps
 the larger question in focus through theory, predictions and synthesis; each

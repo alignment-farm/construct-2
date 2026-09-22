@@ -7,6 +7,13 @@ with the qualifications below. The investigator reports the pilot complete;
 the commissioned acquisition-and-transfer work remains open. This review does
 not establish a functioning learned investigator or justify closing that work.
 
+**Review disposition clarified 22 September:** revision required for completion
+of the commissioned work. Retain the reproducible pilot observations; reject the
+interpretation that the smaller repair is complete and the implication that this
+pilot establishes a developed acquisition limit. The concrete revision needs are
+identified below. This judgment follows the evidence, independently of which
+model conducted the investigation.
+
 The [review ledger](../sources/2026-09-21-experience-investigation-review/README.md)
 records source inspection, frozen-action replay, additional checks of submitted
 code and a focused public-method refresh. No inference, training or new ancillary
@@ -113,6 +120,14 @@ behavioral reference. Root therefore records these as inspected mechanics and
 reported reset checks, not independent proof of exact behavioral restoration.
 The environment's study revision is the pre-experiment `7717645`; the complete
 reviewed implementation and evidence are identified by publication `47e5b28`.
+
+**Investigator provenance supplied 22 September:** the user reports that this
+study's investigator was `gpt-5.6-luna` at `max`, whereas previous ancillary
+investigators used `gpt-6-astra` at `medium`. The publication records the Qwen
+participant but does not independently establish these investigator configurations.
+Treat the user's report as provenance, not a measured explanation of quality:
+study difficulty, starting context, harness, interventions and resources were
+not controlled across those assignments. No investigator-model comparison has run.
 
 ## Predictions and research implications
 
