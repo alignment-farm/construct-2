@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-21",
+  "scope": "Targeted primary-method refresh; no reproduced public experiments",
+  "arxiv_api_requests": 1,
+  "user_agent": "Construct-2-research/0.1 (versioned methods review; alignment-farm)",
+  "files": [
+    {
+      "url": "https://export.arxiv.org/api/query?id_list=2405.15793v3,2609.09134v1",
+      "path": "sources/2026-09-21-experience-investigation-review/metadata.xml",
+      "sha256": "b245680ea608e63f2f1c6deb8220a59a4f4af88eac53df1b09b2e551b703da01"
+    },
+    {
+      "url": "https://arxiv.org/html/2405.15793v3",
+      "path": ".cache/experience-investigation-review/papers/2405.15793v3.html",
+      "sha256": "62e6b7d2bfc59a833629beeb8b5bf5d4793329b7794ff26fe7e073119c6b701f"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.09134v1",
+      "path": ".cache/experience-investigation-review/papers/2609.09134v1.html",
+      "sha256": "a3b687cc4a3accaac573e8bfd823895a055f2f33aebebcfb886c1b88c000bc53"
+    }
+  ]
+}

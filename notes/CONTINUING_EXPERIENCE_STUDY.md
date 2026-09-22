@@ -6,9 +6,11 @@ experience beyond inherited work products and competent access to the source
 archive. Following the user's alignment decision, this is commissioned as
 [experience-guided investigation](https://github.com/alignment-farm/experience-guided-investigation)
 ([local brief](../../ancillary-studies/experience-guided-investigation/README.md)),
-prepared and pushed at `7717645b318d3f3e94673c814fd4acb001869dd3`. No ancillary
-session or experiment has started. The study owns execution; it does not replace
-the enduring directive or reopen a completed study.
+prepared and pushed at `7717645b318d3f3e94673c814fd4acb001869dd3`. Its subsequent
+[pilot review](../studies/2026-09-21-experience-investigation-findings.md) accepts
+`47e5b28` as development evidence with qualifications; useful acquisition and
+transfer remain unresolved. The study owns execution; it does not replace the
+enduring directive or reopen a completed study.
 
 ## Question and starting point
 
@@ -189,5 +191,39 @@ download or new general harness is needed for this preparation.
 Construct Runtime remains an optional instrument for portable state and separated
 learning/execution. The available Mac model service supplies serving access;
 training access and learner suitability must be checked for the selected treatment.
-This brief gives no new model budget and reports no model runs. Independent
-acceptance and intervention-choice questions remain available to the root.
+The preparation gave no new model budget and ran no models; the subsequent
+pilot is assessed below. Independent acceptance and intervention-choice questions
+remain available to the root.
+
+## Assessment after the first pilot — 21 September
+
+Root reviews [publication `47e5b28`](../studies/2026-09-21-experience-investigation-findings.md)
+with original CC1–CC3 unchanged. The pilot implements LoRA training and changes
+action choices, but establishes neither complete acquisition nor transfer.
+Both branch outputs remain unedited, pass six existing checks and fail all three
+new cases. Both later filter repairs pass the original diagnostic but fail root's
+numeric/string checks of the explicit boolean-only requirement. Their claimed
+successful probes actually return schema errors.
+
+The teaching comprises two researcher-authored trajectories, not the learner's
+own attempts. The shared program is supplied. Ordinary history contains summaries
+and a generic lesson rather than the complete demonstration records used for
+training. The selected comparison of accumulated experience is therefore still
+ahead; lower loss, early search and visible-test success do not supply it.
+
+| Original expectation | Root assessment |
+|---|---|
+| CC1 — Residual experience value | **Unresolved.** No complete branch benefit or informative history retrieval is demonstrated; residual need for earlier experience is not established. |
+| CC2 — Opportunity cost | **Untested.** More measured adapter work without success is observed; comparable extra-resource allocation and later repayment were not tested. |
+| CC3 — Artifact mediation | **Untested.** Matched supplied code is not a comparison of different acquired work products; no such mediation effect is identified. |
+
+Accept the recorded pilot as development evidence, with the
+[replay qualifications](../sources/2026-09-21-experience-investigation-review/README.md).
+Its described stopping point does not establish completion of the commissioned
+acquisition work or a concrete study-level resource constraint. Useful bounded
+diagnosis remains within the original remit: usable editing and completion
+feedback, complete development behavior, and learner-grounded teaching with full
+source access for ordinary reuse. P101 and the P42 refresh provide established
+methods to consider, not a prescribed remedy. Preserve the failed branch and
+diagnostic cases as development evidence and use fresh confirmation for any
+new transfer claim. This assessment launches no follow-up or duplicate study.

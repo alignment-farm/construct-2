@@ -841,3 +841,32 @@ continues theory, literature and independent questions. No completed commission
 is reopened and no derivative change is required. The
 [preparation record](../sources/2026-09-20-experience-comparison/study-preparation.json)
 preserves the repository boundary and file hashes.
+
+## Experience-guided pilot assessment — 21 September
+
+The [root review](../studies/2026-09-21-experience-investigation-findings.md) accepts
+`47e5b284cf520bc89b0411ae2f0bf40e8cef046a` as development evidence with explicit
+qualifications, advancing the study's preparation boundary. Both branch arms
+make no edits and fail all three new cases. Both later filter repairs pass the
+original diagnostic, but frozen-code replay exposes violations of the stated
+boolean-only contract. Their targeted probes fail despite completion claims.
+Training and changed action sequences therefore do not establish the selected
+investigation capability.
+
+The actual acquisition data are two authored demonstrations on a supplied
+program, not learner-generated attempts. Ordinary reuse receives summary history
+rather than the full demonstrations available to learning. CC1 remains unresolved;
+CC2 and CC3 are untested. The pilot's report of completion is accepted as a
+publication milestone, not completion of the commissioned acquisition-and-transfer
+work. No demonstrated learning limit or study-level resource exhaustion warrants
+closing that remit.
+
+The [P101/P42 methods refresh](../sources/2026-09-21-experience-investigation-review/README.md#public-method-refresh)
+narrows useful continuation to a functioning interface/learner combination and
+teaching grounded in actual learner failures. Compact edits and targeted
+corrections are established approaches, not new architectural claims or proven
+repairs for this pilot. Bounded diagnosis belongs in the existing study; fresh
+confirmation must follow changes developed from these failures. No new repository,
+derivative change or experimental run is launched by this assessment. Root keeps
+independent acceptance and intervention questions moving rather than inheriting
+the study's implementation work. The directive and AD1–AD3 assessments stand.

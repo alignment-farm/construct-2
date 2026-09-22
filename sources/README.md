@@ -3,14 +3,23 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [21 September experience-investigation review](2026-09-21-experience-investigation-review/README.md)
+accepts `47e5b28` as pilot evidence with qualifications. Frozen-action replay
+reproduces failed branch transfer and exposes incomplete boolean-filter repairs
+despite passing original diagnostics. Two authored demonstrations and summary-only
+ordinary history do not establish learning from matched participant experience.
+The review adds selected SWE-agent methods as P101 and revisits P42; it runs no
+models and leaves the original acquisition commission open.
+
 The [20 September experience-comparison reading](2026-09-20-experience-comparison/README.md)
 adds P98–P100 and informs the [study commission](../notes/CONTINUING_EXPERIENCE_STUDY.md).
 It separates inherited-code quality, additional experience processing and the
 alternative use of extra resources. SWE-Milestone is a later real-history lead;
 the first pilot remains ETL. The subsequent
 [preparation record](2026-09-20-experience-comparison/README.md#subsequent-study-preparation)
-registers experience-guided investigation at `7717645`; no model experiments
-have started. Reading and reference checks remain distinct from learner results.
+registers experience-guided investigation at `7717645`; that preparation started
+no model experiments. Its subsequent pilot is reviewed above. Reading and
+reference checks remain distinct from learner results.
 
 The [20 September task-sequence inspection](2026-09-20-task-sequences/README.md)
 advances the methods pass to pinned ETL, code-search and database-migration assets.

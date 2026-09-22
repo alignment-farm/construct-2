@@ -1,0 +1,721 @@
+{
+  "date": "2026-09-21",
+  "study_revision": "47e5b284cf520bc89b0411ae2f0bf40e8cef046a",
+  "scope": "Frozen-action/source replay; no model inference or training",
+  "runs": {
+    "ordinary-agent": {
+      "source_hash": "c7bf6eed08f60c513d94e8be7c1d3851d7a3e3f1b93ac2784b8dcd1caa22b2ed",
+      "matches_recorded_final_hash": true,
+      "public_passed": true,
+      "public_detail": "test_executes_map_filter_limit (test_public.Checkpoint12Visible.test_executes_map_filter_limit) ... ok\ntest_limit_zero_is_empty (test_public.Checkpoint12Visible.test_limit_zero_is_empty) ... ok\ntest_missing_select_column_is_reported (test_public.Checkpoint12Visible.test_missing_select_column_is_reported) ... ok\ntest_normalizes_and_drops_unknown_fields (test_public.Checkpoint12Visible.test_normalizes_and_drops_unknown_fields) ... ok\ntest_normalizes_trimmed_rename (test_public.Checkpoint12Visible.test_normalizes_trimmed_rename) ... ok\ntest_rejects_unknown_operation (test_public.Checkpoint12Visible.test_rejects_unknown_operation) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.139s\n\nOK\n",
+      "model_calls": 6,
+      "prompt_tokens": 16242,
+      "reported_completion_tokens": 596,
+      "reported_episode_seconds": 24.88284045801265,
+      "invalid_actions": 3,
+      "responses_at_384_chunk_cap": 0,
+      "successful_edits": 0,
+      "history_results": [],
+      "probe_results": [],
+      "hidden": [
+        {
+          "name": "first_match_and_otherwise",
+          "passed": false,
+          "returncode": 1,
+          "actual": {
+            "status": "error",
+            "error_code": "UNKNOWN_OP",
+            "message": "ETL_ERROR: unsupported op 'branch'",
+            "path": "pipeline.steps[0].op"
+          },
+          "expected": {
+            "status": "ok",
+            "data": [
+              {
+                "id": 1,
+                "price": 10,
+                "tag": "cheap"
+              },
+              {
+                "id": 3,
+                "price": 5,
+                "tag": "cheap"
+              },
+              {
+                "id": 2,
+                "price": 25,
+                "tag": "premium"
+              }
+            ],
+            "metrics": {
+              "rows_in": 3,
+              "rows_out": 3
+            }
+          },
+          "stderr": ""
+        },
+        {
+          "name": "first_match_wins_and_unmatched_drop",
+          "passed": false,
+          "returncode": 1,
+          "actual": {
+            "status": "error",
+            "error_code": "UNKNOWN_OP",
+            "message": "ETL_ERROR: unsupported op 'branch'",
+            "path": "pipeline.steps[0].op"
+          },
+          "expected": {
+            "status": "ok",
+            "data": [
+              {
+                "id": 1,
+                "price": 25,
+                "tag": "high"
+              },
+              {
+                "id": 2,
+                "price": 15,
+                "tag": "mid"
+              }
+            ],
+            "metrics": {
+              "rows_in": 3,
+              "rows_out": 2
+            }
+          },
+          "stderr": ""
+        },
+        {
+          "name": "branch_nested_filter_and_limit",
+          "passed": false,
+          "returncode": 1,
+          "actual": {
+            "status": "error",
+            "error_code": "UNKNOWN_OP",
+            "message": "ETL_ERROR: unsupported op 'branch'",
+            "path": "pipeline.steps[0].op"
+          },
+          "expected": {
+            "status": "ok",
+            "data": [
+              {
+                "id": 1,
+                "kind": "a",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "kind": "b",
+                "value": 3
+              }
+            ],
+            "metrics": {
+              "rows_in": 3,
+              "rows_out": 2
+            }
+          },
+          "stderr": ""
+        }
+      ],
+      "hidden_passed": 0,
+      "last_response_actions": [
+        "edit",
+        "done"
+      ],
+      "parser_selected": "done",
+      "ignored_edit_old_text_occurrences": 0
+    },
+    "learned-agent": {
+      "source_hash": "c7bf6eed08f60c513d94e8be7c1d3851d7a3e3f1b93ac2784b8dcd1caa22b2ed",
+      "matches_recorded_final_hash": true,
+      "public_passed": true,
+      "public_detail": "test_executes_map_filter_limit (test_public.Checkpoint12Visible.test_executes_map_filter_limit) ... ok\ntest_limit_zero_is_empty (test_public.Checkpoint12Visible.test_limit_zero_is_empty) ... ok\ntest_missing_select_column_is_reported (test_public.Checkpoint12Visible.test_missing_select_column_is_reported) ... ok\ntest_normalizes_and_drops_unknown_fields (test_public.Checkpoint12Visible.test_normalizes_and_drops_unknown_fields) ... ok\ntest_normalizes_trimmed_rename (test_public.Checkpoint12Visible.test_normalizes_trimmed_rename) ... ok\ntest_rejects_unknown_operation (test_public.Checkpoint12Visible.test_rejects_unknown_operation) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.136s\n\nOK\n",
+      "model_calls": 16,
+      "prompt_tokens": 108981,
+      "reported_completion_tokens": 4286,
+      "reported_episode_seconds": 193.84664937498746,
+      "invalid_actions": 11,
+      "responses_at_384_chunk_cap": 11,
+      "successful_edits": 0,
+      "history_results": [
+        {
+          "ok": true,
+          "matches": [],
+          "truncated": false
+        }
+      ],
+      "probe_results": [],
+      "hidden": [
+        {
+          "name": "first_match_and_otherwise",
+          "passed": false,
+          "returncode": 1,
+          "actual": {
+            "status": "error",
+            "error_code": "UNKNOWN_OP",
+            "message": "ETL_ERROR: unsupported op 'branch'",
+            "path": "pipeline.steps[0].op"
+          },
+          "expected": {
+            "status": "ok",
+            "data": [
+              {
+                "id": 1,
+                "price": 10,
+                "tag": "cheap"
+              },
+              {
+                "id": 3,
+                "price": 5,
+                "tag": "cheap"
+              },
+              {
+                "id": 2,
+                "price": 25,
+                "tag": "premium"
+              }
+            ],
+            "metrics": {
+              "rows_in": 3,
+              "rows_out": 3
+            }
+          },
+          "stderr": ""
+        },
+        {
+          "name": "first_match_wins_and_unmatched_drop",
+          "passed": false,
+          "returncode": 1,
+          "actual": {
+            "status": "error",
+            "error_code": "UNKNOWN_OP",
+            "message": "ETL_ERROR: unsupported op 'branch'",
+            "path": "pipeline.steps[0].op"
+          },
+          "expected": {
+            "status": "ok",
+            "data": [
+              {
+                "id": 1,
+                "price": 25,
+                "tag": "high"
+              },
+              {
+                "id": 2,
+                "price": 15,
+                "tag": "mid"
+              }
+            ],
+            "metrics": {
+              "rows_in": 3,
+              "rows_out": 2
+            }
+          },
+          "stderr": ""
+        },
+        {
+          "name": "branch_nested_filter_and_limit",
+          "passed": false,
+          "returncode": 1,
+          "actual": {
+            "status": "error",
+            "error_code": "UNKNOWN_OP",
+            "message": "ETL_ERROR: unsupported op 'branch'",
+            "path": "pipeline.steps[0].op"
+          },
+          "expected": {
+            "status": "ok",
+            "data": [
+              {
+                "id": 1,
+                "kind": "a",
+                "value": 1
+              },
+              {
+                "id": 3,
+                "kind": "b",
+                "value": 3
+              }
+            ],
+            "metrics": {
+              "rows_in": 3,
+              "rows_out": 2
+            }
+          },
+          "stderr": ""
+        }
+      ],
+      "hidden_passed": 0
+    },
+    "diagnostic-base-agent": {
+      "source_hash": "4a13ad5fbe65726091223de7ef46aa714601ca6d458d9ae26f91bbfa755569a8",
+      "matches_recorded_final_hash": true,
+      "public_passed": true,
+      "public_detail": "test_executes_map_filter_limit (test_public.Checkpoint12Visible.test_executes_map_filter_limit) ... ok\ntest_limit_zero_is_empty (test_public.Checkpoint12Visible.test_limit_zero_is_empty) ... ok\ntest_missing_select_column_is_reported (test_public.Checkpoint12Visible.test_missing_select_column_is_reported) ... ok\ntest_normalizes_and_drops_unknown_fields (test_public.Checkpoint12Visible.test_normalizes_and_drops_unknown_fields) ... ok\ntest_normalizes_trimmed_rename (test_public.Checkpoint12Visible.test_normalizes_trimmed_rename) ... ok\ntest_rejects_unknown_operation (test_public.Checkpoint12Visible.test_rejects_unknown_operation) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.137s\n\nOK\n",
+      "model_calls": 5,
+      "prompt_tokens": 12797,
+      "reported_completion_tokens": 301,
+      "reported_episode_seconds": 17.87404070905177,
+      "invalid_actions": 0,
+      "responses_at_384_chunk_cap": 0,
+      "successful_edits": 1,
+      "history_results": [],
+      "probe_results": [
+        {
+          "ok": false,
+          "returncode": 1,
+          "stdout": "{\"status\":\"error\",\"error_code\":\"SCHEMA_VALIDATION_FAILED\",\"message\":\"ETL_ERROR: pipeline must be an object\",\"path\":\"pipeline\"}",
+          "stderr": "",
+          "seconds": 0.04451354203047231
+        }
+      ],
+      "original_diagnostic": {
+        "passed": true,
+        "returncode": 0,
+        "actual": {
+          "status": "ok",
+          "data": [
+            {
+              "id": 2,
+              "age": 35
+            }
+          ],
+          "metrics": {
+            "rows_in": 2,
+            "rows_out": 1
+          }
+        },
+        "expected": {
+          "status": "ok",
+          "data": [
+            {
+              "id": 2,
+              "age": 35
+            }
+          ],
+          "metrics": {
+            "rows_in": 2,
+            "rows_out": 1
+          }
+        },
+        "stderr": ""
+      },
+      "root_boolean_contract_checks": [
+        {
+          "expression": "1",
+          "returncode": 0,
+          "actual": {
+            "status": "ok",
+            "data": [
+              {
+                "id": 1
+              }
+            ],
+            "metrics": {
+              "rows_in": 1,
+              "rows_out": 1
+            }
+          },
+          "expected": {
+            "status": "ok",
+            "data": [],
+            "metrics": {
+              "rows_in": 1,
+              "rows_out": 0
+            }
+          },
+          "passed": false
+        },
+        {
+          "expression": "\"nonempty\"",
+          "returncode": 0,
+          "actual": {
+            "status": "ok",
+            "data": [
+              {
+                "id": 1
+              }
+            ],
+            "metrics": {
+              "rows_in": 1,
+              "rows_out": 1
+            }
+          },
+          "expected": {
+            "status": "ok",
+            "data": [],
+            "metrics": {
+              "rows_in": 1,
+              "rows_out": 0
+            }
+          },
+          "passed": false
+        }
+      ]
+    },
+    "diagnostic-adapter-agent": {
+      "source_hash": "4a13ad5fbe65726091223de7ef46aa714601ca6d458d9ae26f91bbfa755569a8",
+      "matches_recorded_final_hash": true,
+      "public_passed": true,
+      "public_detail": "test_executes_map_filter_limit (test_public.Checkpoint12Visible.test_executes_map_filter_limit) ... ok\ntest_limit_zero_is_empty (test_public.Checkpoint12Visible.test_limit_zero_is_empty) ... ok\ntest_missing_select_column_is_reported (test_public.Checkpoint12Visible.test_missing_select_column_is_reported) ... ok\ntest_normalizes_and_drops_unknown_fields (test_public.Checkpoint12Visible.test_normalizes_and_drops_unknown_fields) ... ok\ntest_normalizes_trimmed_rename (test_public.Checkpoint12Visible.test_normalizes_trimmed_rename) ... ok\ntest_rejects_unknown_operation (test_public.Checkpoint12Visible.test_rejects_unknown_operation) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.137s\n\nOK\n",
+      "model_calls": 7,
+      "prompt_tokens": 16869,
+      "reported_completion_tokens": 167,
+      "reported_episode_seconds": 21.221802834013943,
+      "invalid_actions": 0,
+      "responses_at_384_chunk_cap": 0,
+      "successful_edits": 1,
+      "history_results": [
+        {
+          "ok": true,
+          "matches": [],
+          "truncated": false
+        }
+      ],
+      "probe_results": [
+        {
+          "ok": false,
+          "returncode": 1,
+          "stdout": "{\"status\":\"error\",\"error_code\":\"SCHEMA_VALIDATION_FAILED\",\"message\":\"ETL_ERROR: pipeline must be an object\",\"path\":\"pipeline\"}",
+          "stderr": "",
+          "seconds": 0.0425309999845922
+        }
+      ],
+      "original_diagnostic": {
+        "passed": true,
+        "returncode": 0,
+        "actual": {
+          "status": "ok",
+          "data": [
+            {
+              "id": 2,
+              "age": 35
+            }
+          ],
+          "metrics": {
+            "rows_in": 2,
+            "rows_out": 1
+          }
+        },
+        "expected": {
+          "status": "ok",
+          "data": [
+            {
+              "id": 2,
+              "age": 35
+            }
+          ],
+          "metrics": {
+            "rows_in": 2,
+            "rows_out": 1
+          }
+        },
+        "stderr": ""
+      },
+      "root_boolean_contract_checks": [
+        {
+          "expression": "1",
+          "returncode": 0,
+          "actual": {
+            "status": "ok",
+            "data": [
+              {
+                "id": 1
+              }
+            ],
+            "metrics": {
+              "rows_in": 1,
+              "rows_out": 1
+            }
+          },
+          "expected": {
+            "status": "ok",
+            "data": [],
+            "metrics": {
+              "rows_in": 1,
+              "rows_out": 0
+            }
+          },
+          "passed": false
+        },
+        {
+          "expression": "\"nonempty\"",
+          "returncode": 0,
+          "actual": {
+            "status": "ok",
+            "data": [
+              {
+                "id": 1
+              }
+            ],
+            "metrics": {
+              "rows_in": 1,
+              "rows_out": 1
+            }
+          },
+          "expected": {
+            "status": "ok",
+            "data": [],
+            "metrics": {
+              "rows_in": 1,
+              "rows_out": 0
+            }
+          },
+          "passed": false
+        }
+      ]
+    }
+  },
+  "teacher": {
+    "source_hash": "db6b4f475ab0a2e3b66fd65854abd94e3a70b01d5e3d625d73a2b2fdc212e911",
+    "public_passed": true,
+    "hidden_passed": 3,
+    "hidden": [
+      {
+        "name": "first_match_and_otherwise",
+        "passed": true,
+        "returncode": 0,
+        "actual": {
+          "status": "ok",
+          "data": [
+            {
+              "id": 1,
+              "price": 10,
+              "tag": "cheap"
+            },
+            {
+              "id": 3,
+              "price": 5,
+              "tag": "cheap"
+            },
+            {
+              "id": 2,
+              "price": 25,
+              "tag": "premium"
+            }
+          ],
+          "metrics": {
+            "rows_in": 3,
+            "rows_out": 3
+          }
+        },
+        "expected": {
+          "status": "ok",
+          "data": [
+            {
+              "id": 1,
+              "price": 10,
+              "tag": "cheap"
+            },
+            {
+              "id": 3,
+              "price": 5,
+              "tag": "cheap"
+            },
+            {
+              "id": 2,
+              "price": 25,
+              "tag": "premium"
+            }
+          ],
+          "metrics": {
+            "rows_in": 3,
+            "rows_out": 3
+          }
+        },
+        "stderr": ""
+      },
+      {
+        "name": "first_match_wins_and_unmatched_drop",
+        "passed": true,
+        "returncode": 0,
+        "actual": {
+          "status": "ok",
+          "data": [
+            {
+              "id": 1,
+              "price": 25,
+              "tag": "high"
+            },
+            {
+              "id": 2,
+              "price": 15,
+              "tag": "mid"
+            }
+          ],
+          "metrics": {
+            "rows_in": 3,
+            "rows_out": 2
+          }
+        },
+        "expected": {
+          "status": "ok",
+          "data": [
+            {
+              "id": 1,
+              "price": 25,
+              "tag": "high"
+            },
+            {
+              "id": 2,
+              "price": 15,
+              "tag": "mid"
+            }
+          ],
+          "metrics": {
+            "rows_in": 3,
+            "rows_out": 2
+          }
+        },
+        "stderr": ""
+      },
+      {
+        "name": "branch_nested_filter_and_limit",
+        "passed": true,
+        "returncode": 0,
+        "actual": {
+          "status": "ok",
+          "data": [
+            {
+              "id": 1,
+              "kind": "a",
+              "value": 1
+            },
+            {
+              "id": 3,
+              "kind": "b",
+              "value": 3
+            }
+          ],
+          "metrics": {
+            "rows_in": 3,
+            "rows_out": 2
+          }
+        },
+        "expected": {
+          "status": "ok",
+          "data": [
+            {
+              "id": 1,
+              "kind": "a",
+              "value": 1
+            },
+            {
+              "id": 3,
+              "kind": "b",
+              "value": 3
+            }
+          ],
+          "metrics": {
+            "rows_in": 3,
+            "rows_out": 2
+          }
+        },
+        "stderr": ""
+      }
+    ]
+  },
+  "reference_boolean_contract_checks": [
+    {
+      "returncode": 0,
+      "actual": {
+        "status": "ok",
+        "data": [],
+        "metrics": {
+          "rows_in": 1,
+          "rows_out": 0
+        }
+      }
+    },
+    {
+      "returncode": 0,
+      "actual": {
+        "status": "ok",
+        "data": [],
+        "metrics": {
+          "rows_in": 1,
+          "rows_out": 0
+        }
+      }
+    }
+  ],
+  "training": {
+    "rows": 14,
+    "trajectories": [
+      "dev-execution",
+      "dev-normalization"
+    ],
+    "origin": "scripted researcher-authored actions, not learner rollouts",
+    "history_files": [
+      "dev-execution.json",
+      "dev-normalization.json"
+    ]
+  },
+  "known_four_episode_totals": {
+    "model_calls": 34,
+    "prompt_tokens": 154889,
+    "reported_completion_tokens": 5350,
+    "reported_episode_seconds": 257.8253333760658
+  },
+  "artifact_sha256": {
+    "AGENTS.md": "b980fa63ced75d138fa62df313d77c79065ef362bb59bbcddff796c8e86a857c",
+    "README.md": "815e48947422339b59ccb6dd8427cacd4fe33ce3b1921ed5a17b5e500a78008f",
+    "PROMPT.md": "88024be28aa4c0b2bae7a864dfe7580a2a51e98daa93548f15b279a7a0616db8",
+    "protocol/pilot-v1.md": "a68244c4cf1939f2143238f2c877f45861aecfcc559d0a72e0d14e98831df1bb",
+    "pyproject.toml": "e4fca91fb2de5bbe8c929606321ab9871e3f7cc079193bd8fecbc4a570eef00b",
+    "uv.lock": "5886fc1933546ed8f7e2384faaf088de9b70f654433350cc90209222d3fa7779",
+    "scripts/agent.py": "72e075a3a351f689b694de5312815fefd603c58171d0adc644a37faea103338b",
+    "scripts/analyze_pilot.py": "360e31b06318e3b13fd39c18a2d5e65b9c5d4ff8c966fa3377f3528304814a7a",
+    "scripts/build_pilot.py": "900870d9fe56e6ae48f94695fd86310da7f3ec5b4043dbbff7733b39c12dd2c2",
+    "scripts/evaluate.py": "f5cdcf31aea06a72c9a53ff18198463a4f6d6475367bc6bd96e8bcb5d4687460",
+    "scripts/evaluate_diagnostic.py": "eff062abb730354030c402e66f5754c7824e548b04d2dec321d1f90fbb8730e8",
+    "scripts/isolation_check.py": "701201365a14ec71d01ba37d5f247062a75c754b8b48dcaebfa2deb901ca4e14",
+    "scripts/record_environment.py": "e4d99c949ec0156bd3e059ca937d6f30f4cddd11e227bd084da04a7964804df6",
+    "scripts/runtime.py": "2acaf4e1855e58e5d6e0f0ba0333abe709b6fae71dc28bd06c98fedfdbc1ccf9",
+    "scripts/teacher_transfer.py": "62719b9eaf60386ce15b0cd4dd5338f6070320e84744b15511e7cc8832bcbeb0",
+    "scripts/train_adapter.py": "4a51b3fdf82ff35c7298afd2f3830122a7d872afd1a025021efb3ab758bc8551",
+    "scripts/workload.py": "93210c0b97bcd100fd018b8de5d63884237c5cab8c084f7d6d9601dc20b5a2e7",
+    "evidence/pilot-01/acquisition/dev-execution/events.jsonl": "0af1c993585a831f631608b3b4ba62dd88c638cb260e6ffccd0b90bd468e9d3c",
+    "evidence/pilot-01/acquisition/dev-execution/summary.json": "f41800a7eb08c2d9f9ad316662d33084d2dc8fc59e80460f8ec0103507141e76",
+    "evidence/pilot-01/acquisition/dev-execution/transcript.txt": "71563d42c4a3ce32e67c0d616e4bfe348306aba69c55a86d6a25836347cf8703",
+    "evidence/pilot-01/acquisition/dev-normalization/events.jsonl": "d09f4413ffd99f3fa3aeee1272825ab099c7eb02ef451c354879e9cc6c0f16a2",
+    "evidence/pilot-01/acquisition/dev-normalization/summary.json": "6bf0ea109a8f5ed7b576922f025773808b3504648ed33ee737635a6aded4c6f0",
+    "evidence/pilot-01/acquisition/dev-normalization/transcript.txt": "400319baf9aee42ac0e7054d0fcb6cc898b811cb5603fc78b6c23431fca12cec",
+    "evidence/pilot-01/acquisition/eligible-history/dev-execution.json": "c0c1bfe5d58ec14c4cf28c2a5338a0ca61d8866899a2a11623c16d0b94254c33",
+    "evidence/pilot-01/acquisition/eligible-history/dev-normalization.json": "45bc6201a0529ba78414abf0cbbe66ea93c5fb8e4803c321e8eb0b64b29e5720",
+    "evidence/pilot-01/acquisition/teacher-rows.jsonl": "09023078418c646b1817668130d2639f1f9c91c140f80cb00b2da4f2e97a6cc7",
+    "evidence/pilot-01/acquisition/training.jsonl": "6e92b6d7efa5dfb380f24c4dfedf7f01b31d4a387ab5d099ee7e40038c0e7000",
+    "evidence/pilot-01/adapter/events.jsonl": "09d1bd85a47967300bdd3f8155d370ccc3b98b5d4bcbccd879645c13454fa1c3",
+    "evidence/pilot-01/adapter/summary.json": "bc1730258b4cc3fa934087c58a9a8ade5525be190d7d1cf12376ce745e77a73e",
+    "evidence/pilot-01/adapter-retry-01/adapter.safetensors": "7445070cb4c563d8a0d042a049d7bde6b5c7ce1f570ba176448ec33373e425f4",
+    "evidence/pilot-01/adapter-retry-01/events.jsonl": "2149fa83d23e7903a6d52f819628ed3daf9ee8b7219dfddc93d00f34c7737cdd",
+    "evidence/pilot-01/adapter-retry-01/summary.json": "d3e6c1f63fe0d39c5c56a53f56f16669a289471200340d8529f31213f6ac9d33",
+    "evidence/pilot-01/adapter-retry-01/training_manifest.json": "586f23e295f29cfcdf67996e10eb62915d68ea092b77505b3635ca0cb910c552",
+    "evidence/pilot-01/analysis.json": "f682c51c25b681f8b299e065f09bf893d1ad625a22c28922332d86ff30285368",
+    "evidence/pilot-01/design.json": "4502ffe94ae6ab32aaa0d5989e8eb37daa52cfdf20ec930762ce28e7077635e7",
+    "evidence/pilot-01/diagnostic-adapter-agent/events.jsonl": "4be62e866aba6caad0a10a9b0de45cdebb6fa5ade4f143844ab4dfcbda4e2888",
+    "evidence/pilot-01/diagnostic-adapter-agent/summary.json": "6257ec1e59d49acf80a73060d824f943ae7c39d65fee5c4dfb5420d0a8150c59",
+    "evidence/pilot-01/diagnostic-adapter-agent/transcript.txt": "38add78234ef36f2d0db8b0a017ff883c2468911b3606afab75bdcfef71c25da",
+    "evidence/pilot-01/diagnostic-base-agent/events.jsonl": "dcd0b76878972794148e26cfd30666aa5d0c58fab4de4d77edd45ce75366b2e7",
+    "evidence/pilot-01/diagnostic-base-agent/summary.json": "78539e85043714b2ebbd37f54367da53e0d606025899a2b66ecc1af3b81d6e6a",
+    "evidence/pilot-01/diagnostic-base-agent/transcript.txt": "cdabd0f02717650799a0ba237bc0854abf996da2c4ac60340a7a23d127819196",
+    "evidence/pilot-01/diagnostic-evaluation.json": "4cd5b735cce5a7f6fe0ee4427e5588c480efc8a096f00aea32f09caeed202936",
+    "evidence/pilot-01/environment.json": "533a7d689af36ebdecfa03847dd5e343024d8ceb5f7831068ae3928bf173aec1",
+    "evidence/pilot-01/examiner/hidden_cases.json": "8d987e6ae9f0b1f42d99d7e2482e252f8baea839aa64d7b21801b8b813f80579",
+    "evidence/pilot-01/initial-transfer-workspace/TASK.md": "e7770f7f5bed77b4d67ba6586220a4996fea7edbf18dfe1d6c914213cde651cc",
+    "evidence/pilot-01/initial-transfer-workspace/etl_pipeline.py": "c7bf6eed08f60c513d94e8be7c1d3851d7a3e3f1b93ac2784b8dcd1caa22b2ed",
+    "evidence/pilot-01/initial-transfer-workspace/history/dev-execution.json": "c0c1bfe5d58ec14c4cf28c2a5338a0ca61d8866899a2a11623c16d0b94254c33",
+    "evidence/pilot-01/initial-transfer-workspace/history/dev-normalization.json": "45bc6201a0529ba78414abf0cbbe66ea93c5fb8e4803c321e8eb0b64b29e5720",
+    "evidence/pilot-01/initial-transfer-workspace/tests/test_public.py": "cbf787edb791b13ae6b7c69ef64e7c800379a8a0f1c8369414e22dbfdc197e77",
+    "evidence/pilot-01/isolation.json": "599f54ce2ed75cbc000d603709514c5e66809e05f3f3d46c884df9919380f3a2",
+    "evidence/pilot-01/learned-agent/events.jsonl": "a67ea72d729d11f2c72cbf7a76fdfa772cfc817ce1f6046887b4e8475f691497",
+    "evidence/pilot-01/learned-agent/summary.json": "73e93cdd8ffa36fd586d0251a014ab3112879f5314d8f999dfce82a8743dd830",
+    "evidence/pilot-01/learned-agent/transcript.txt": "8754667d6e446d3bb867e912d632164e80a4cfaa5969aa31f0c2bd7a8690ebd8",
+    "evidence/pilot-01/learned-evaluation.json": "5eb68b4680762767ee334ba2d0d403ecd57c93756f994d2ca15a592d69646e19",
+    "evidence/pilot-01/ordinary-agent/events.jsonl": "da3d5553c15e3c8e4f3d4abcec60c7ccf9366ff2b878d3b1a97ac1d4f73a3852",
+    "evidence/pilot-01/ordinary-agent/summary.json": "49e627beba14513e53b01e6f58b78b14f94242b4f9efb7769086c645ec09c4c2",
+    "evidence/pilot-01/ordinary-agent/transcript.txt": "4584c6d701ed25680159a3f24b92db149806886e425efc582d2ddaaa84e713c3",
+    "evidence/pilot-01/ordinary-evaluation.json": "97123ccee4c873755ecc40ccf7b1d4e2fd39137cd20b660b684f4f3e7b464eb6",
+    "evidence/pilot-01/teacher-transfer/report.json": "1d9ee8aa72575ba56365021dd957b4d59ee3b95e083fd4377c3c1f8eefb0dcd3"
+  }
+}

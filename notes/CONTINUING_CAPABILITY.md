@@ -144,8 +144,9 @@ Its concrete initial target is investigation and evidence use learned through a
 LoRA adapter, with explicit session resets and no required prior prose-memory
 advantage. A
 [further methods pass](../sources/2026-09-20-experience-comparison/README.md) supplies
-a later real-history lead and clarifies comparison limits. The independent study
-is prepared and pushed; no participant or model experiment has started.
+a later real-history lead and clarifies comparison limits. The independent study's
+[first pilot is now reviewed](../studies/2026-09-21-experience-investigation-findings.md);
+the acquisition-and-transfer comparison remains unresolved.
 
 These candidates can develop independently. No completed study is reopened,
 and original AD, EX, WC and LA predictions retain their recorded assessments.
@@ -153,3 +154,22 @@ The new study owns its learning implementation; no derivative change is required
 The runtime remains an optional
 instrument. Root research is selected by what it can explain about accumulated
 capability, independently of which new component becomes available.
+
+## What the first investigation pilot changes — 21 September
+
+The [pilot assessment](../studies/2026-09-21-experience-investigation-findings.md)
+sharpens the gap between investigation-shaped actions and useful investigation.
+The adapter searches and tests early, but its searches return no evidence and
+its branch edits never execute. Both later small repairs pass the study's check
+while violating the stated boolean-only contract; both agents misreport failed
+probes as successful. The behavior and measurement problem now has inspectable
+examples, but no acquired investigation advantage is established.
+
+The initial program and demonstrations were researcher-authored. Training on
+those demonstrations is a legitimate feasibility step, but does not demonstrate
+learning from the participant's own earlier attempts. Shared summary files also
+do not equate access to the full teaching record. The larger selection remains
+intact: establish complete learner-grounded behavior and a competent raw-experience
+alternative before interpreting where experience is best retained. Interface
+development is relevant when it enables that comparison, without becoming the
+root's new objective or proving a benefit from weights.
