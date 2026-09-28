@@ -1,0 +1,38 @@
+[
+  {
+    "file": "mplus-v2.html",
+    "url": "https://arxiv.org/html/2502.00592v2",
+    "final_url": "https://arxiv.org/html/2502.00592v2",
+    "status": 200,
+    "bytes": 232351,
+    "sha256": "6ae9fa2ed159b4dd4a6f4f2548d12d6bc0f07895c4202ef07623441758d2cf6b",
+    "retrieved_utc": "2026-09-28T12:59:14.578705+00:00"
+  },
+  {
+    "file": "r3mem-published.pdf",
+    "url": "https://aclanthology.org/2025.findings-acl.235.pdf",
+    "final_url": "https://aclanthology.org/2025.findings-acl.235.pdf",
+    "status": 200,
+    "bytes": 571045,
+    "sha256": "e1ae03adfc762bc6fa559de7077851314d1f307b93c6177aa9e9c0e6e0b03312",
+    "retrieved_utc": "2026-09-28T12:59:18.329005+00:00"
+  },
+  {
+    "file": "lazymem-v2.html",
+    "url": "https://arxiv.org/html/2607.22690v2",
+    "final_url": "https://arxiv.org/html/2607.22690v2",
+    "status": 200,
+    "bytes": 663936,
+    "sha256": "65724aa79783159cbd36fd27f9d4e24b58e427d9ba6369c1b5610a3cd10a832e",
+    "retrieved_utc": "2026-09-28T12:59:21.758011+00:00"
+  },
+  {
+    "file": "rd-forget-v1.html",
+    "url": "https://arxiv.org/html/2609.10263v1",
+    "final_url": "https://arxiv.org/html/2609.10263v1",
+    "status": 200,
+    "bytes": 178539,
+    "sha256": "e56b54d11a0737eafba60b4f990166c5e03bd7137c895662257899e651041fd5",
+    "retrieved_utc": "2026-09-28T12:59:25.068143+00:00"
+  }
+]

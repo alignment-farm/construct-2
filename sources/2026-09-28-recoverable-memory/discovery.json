@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-28",
+  "api": {
+    "url": "https://export.arxiv.org/api/query?search_query=ti:%22M%2B%22+OR+ti:%22R3Mem%22+OR+%28abs:%22memory%22+AND+abs:%22reversible%22%29&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+    "status": 406,
+    "retrieved_utc": "2026-09-28T12:57:48.738259+00:00",
+    "bytes": 0,
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "retry_after": null,
+    "attempts": 1
+  },
+  "supplemental_web_queries": [
+    "\"M+\" \"memory\" \"2502.00592\"",
+    "\"R3Mem\" reversible memory",
+    "language model memory compression reversible recovery archive future queries 2026",
+    "\"LazyMem\" arxiv"
+  ],
+  "primary_readings": [
+    "2502.00592v2",
+    "2025.findings-acl.235 (published PDF)",
+    "2607.22690v2",
+    "2609.10263v1"
+  ],
+  "coverage": "Bounded discovery and targeted primary sections; not exhaustive or a novelty certification."
+}

@@ -1,0 +1,74 @@
+{
+  "scope": "Descriptive artifact audit, not agent outcomes or a causal action comparison",
+  "inscit_revision": "2319fb85932b9528a13417223ffc6fc629ae8087",
+  "verified_immutable_files": 18,
+  "conversations": 86,
+  "counts": {
+    "turns": 502,
+    "references_2": 333,
+    "recorded_continuations": 416,
+    "references_1": 169
+  },
+  "reference_type_counts": {
+    "directAnswer": 578,
+    "noAnswerButRelevantInfo": 115,
+    "clarification": 116,
+    "noAnswerNoRelevantInfo": 26
+  },
+  "mixed_response_type_turns": 77,
+  "selected_records": [
+    {
+      "conversation": "food_level1_dial28",
+      "turn": 4,
+      "record_sha256": "94749b2ac2955e724fe7021abd6171a31acc0edcdc23b6ef1b85e0c5eae5dfc2",
+      "reference_types": [
+        "clarification",
+        "clarification"
+      ],
+      "reference_evidence_ids": [
+        [
+          "Egg substitutes:2",
+          "Egg substitutes:4"
+        ],
+        [
+          "Egg substitutes:2",
+          "Egg substitutes:4"
+        ]
+      ]
+    },
+    {
+      "conversation": "food_level1_dial28",
+      "turn": 5,
+      "record_sha256": "cdeaa67885f532ab84d4975e851202b0377b04f7b39fd23228554d053312c442",
+      "reference_types": [
+        "clarification",
+        "directAnswer"
+      ],
+      "reference_evidence_ids": [
+        [
+          "Egg substitutes:4",
+          "Egg substitutes:4",
+          "Egg substitutes:1"
+        ],
+        [
+          "Egg substitutes:4"
+        ]
+      ]
+    },
+    {
+      "conversation": "food_level1_dial33",
+      "turn": 2,
+      "record_sha256": "39d038d99c80258f9dafc80d63224808a2a069e2dca577f264a5a83ae3d31693",
+      "reference_types": [
+        "clarification"
+      ],
+      "reference_evidence_ids": [
+        [
+          "Sausage:9",
+          "Sausage:10",
+          "Sausage:11"
+        ]
+      ]
+    }
+  ]
+}

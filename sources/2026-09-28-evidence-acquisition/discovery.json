@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-28",
+  "exhaustive": false,
+  "queries": [
+    {
+      "phase": "recommendation screening",
+      "query": "agent memory learning when to seek information clarification tool selection value information",
+      "domains": [
+        "arxiv.org",
+        "aclanthology.org",
+        "openreview.net"
+      ]
+    },
+    {
+      "phase": "recommendation screening",
+      "query": "agent evidence acquisition clarification memory reuse information gain learning",
+      "domains": [
+        "arxiv.org",
+        "aclanthology.org"
+      ]
+    },
+    {
+      "phase": "case discovery",
+      "query": "site.github.com/psf/requests/issues \"5794\"",
+      "note": "Imprecise site syntax produced unrelated hits; only the primary Requests result and its linked history were followed."
+    },
+    {
+      "phase": "case discovery",
+      "query": "site:github.com/pandas-dev/pandas/issues \"expected behavior\" \"clarify\" \"duplicate\"",
+      "disposition": "No selected case; no pandas artifacts inspected."
+    }
+  ],
+  "selected_primary_methods": [
+    {
+      "paper": "InSCIt",
+      "version": "TACL 2023, 2023.tacl-1.27, published PDF",
+      "url": "https://aclanthology.org/2023.tacl-1.27.pdf"
+    },
+    {
+      "paper": "Smart-Searcher",
+      "version": "Findings of EMNLP 2025, 2025.findings-emnlp.731, published PDF",
+      "url": "https://aclanthology.org/2025.findings-emnlp.731.pdf"
+    },
+    {
+      "paper": "Active Inference as Context Acquisition for AI Agents",
+      "version": "2608.19202v1",
+      "url": "https://arxiv.org/html/2608.19202v1"
+    },
+    {
+      "paper": "Remember, Verify, or Ask?",
+      "version": "2608.19564v1",
+      "url": "https://arxiv.org/html/2608.19564v1"
+    }
+  ],
+  "inspection_boundary": "Methods and artifacts explicitly listed in README.md and CASES.md; other search results and cited works remain leads."
+}

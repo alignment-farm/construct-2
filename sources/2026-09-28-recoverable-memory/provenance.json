@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-28",
+  "starting_root_commit": "f570b2de989434df5027f99c5b5fe965b98ec0c4",
+  "branch": "main",
+  "starting_state": "Prior evidence-acquisition phase and EBM scope amendment uncommitted; preserved.",
+  "investigator": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "provider": "openai",
+    "harness": "Codex Desktop",
+    "cli_version": "0.158.0-alpha.2.1",
+    "source": "Current session_meta and latest turn_context in session 01a0e7b0-fe8a-7c53-a0a8-23dde8a9c170"
+  },
+  "delegation": false,
+  "participant_runs": 0,
+  "author_code_execution": false,
+  "ancillary_inspection": false,
+  "researcher_cost": "unmeasured",
+  "scope": "Theory and selected public methods; downloaded documents are not full-reading claims.",
+  "stopping_reason": "Explanatory distinction and research selection complete; no experiment needed for this bounded conclusion."
+}

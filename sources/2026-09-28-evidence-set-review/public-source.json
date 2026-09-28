@@ -1,0 +1,10 @@
+{
+  "paper_id": "P118",
+  "title": "End-to-End Learning for Structured Prediction Energy Networks",
+  "publication": "ICML 2017, PMLR 70:429\u2013439",
+  "url": "https://proceedings.mlr.press/v70/belanger17a/belanger17a.pdf",
+  "retrieved_utc": "2026-09-28",
+  "sha256": "04e44cdce0a1ab3b878158833e441ada1272f9b2436ab770e3e20b9631fcfe26",
+  "bytes": 375416,
+  "read": "Introduction; sections 2.3, 3, 4.1\u20134.3, 5; no experimental replication"
+}

@@ -1,0 +1,200 @@
+{
+  "interpretation_limit": "Reproduced annotation scores do not certify source-grounded answers. No new reader inference or new experimental samples.",
+  "phase2_all_saved_physical_calls": {
+    "completion_tokens": 64888,
+    "prompt_tokens": 258920,
+    "requests": 262
+  },
+  "phase2_original_qa": {
+    "all": {
+      "after_fallback": 6,
+      "complete": 6,
+      "em": 9,
+      "n": 24,
+      "retrieved": 24
+    },
+    "exact": {
+      "after_fallback": 3,
+      "complete": 2,
+      "em": 4,
+      "n": 24,
+      "retrieved": 10
+    },
+    "learned_unary": {
+      "after_fallback": 2,
+      "complete": 1,
+      "em": 3,
+      "n": 24,
+      "retrieved": 4
+    },
+    "no_context": {
+      "after_fallback": 0,
+      "complete": 0,
+      "em": 0,
+      "n": 24,
+      "retrieved": 0
+    },
+    "oracle_support": {
+      "after_fallback": 9,
+      "complete": 9,
+      "em": 11,
+      "n": 24,
+      "retrieved": 24
+    },
+    "ordinary_1.0": {
+      "after_fallback": 1,
+      "complete": 0,
+      "em": 3,
+      "n": 24,
+      "retrieved": 4
+    },
+    "relaxed_swap": {
+      "after_fallback": 3,
+      "complete": 2,
+      "em": 4,
+      "n": 24,
+      "retrieved": 10
+    },
+    "support_removed": {
+      "after_fallback": 2,
+      "complete": 0,
+      "em": 3,
+      "n": 24,
+      "retrieved": 0
+    }
+  },
+  "phase2_original_qa_mapped_rows": 192,
+  "phase2_original_qa_unique_calls": 166,
+  "phase2_original_qa_usage": {
+    "completion_tokens": 26529,
+    "prompt_tokens": 165890
+  },
+  "phase2_partition_hashes_verified": 6,
+  "phase2_selection": {
+    "beam": {
+      "annotated_support_complete": 26,
+      "energy_optimal": 64,
+      "n": 64
+    },
+    "exact": {
+      "annotated_support_complete": 26,
+      "energy_optimal": 64,
+      "n": 64
+    },
+    "learned_unary": {
+      "annotated_support_complete": 15,
+      "energy_optimal": 3,
+      "n": 64
+    },
+    "ordinary_1.0": {
+      "annotated_support_complete": 15,
+      "energy_optimal": 2,
+      "n": 64
+    },
+    "relaxed": {
+      "annotated_support_complete": 29,
+      "energy_optimal": 32,
+      "n": 64
+    },
+    "relaxed_swap": {
+      "annotated_support_complete": 26,
+      "energy_optimal": 64,
+      "n": 64
+    }
+  },
+  "phase5_confirmation_aggregation": {
+    "all": {
+      "after": 72,
+      "before": 72,
+      "bytes": 80240,
+      "cache_hits": 24,
+      "episodes": 72,
+      "native_executions": 48,
+      "repairs": 0,
+      "same_templates_complete": 24,
+      "two_extra_chain_sections_complete": 24,
+      "uncached": 48,
+      "uncached_complete": 48
+    },
+    "constraint_exact": {
+      "after": 72,
+      "before": 53,
+      "bytes": 41316,
+      "cache_hits": 24,
+      "episodes": 72,
+      "native_executions": 67,
+      "repairs": 19,
+      "same_templates_complete": 20,
+      "two_extra_chain_sections_complete": 9,
+      "uncached": 48,
+      "uncached_complete": 29
+    },
+    "exact": {
+      "after": 72,
+      "before": 72,
+      "bytes": 35111,
+      "cache_hits": 24,
+      "episodes": 72,
+      "native_executions": 48,
+      "repairs": 0,
+      "same_templates_complete": 24,
+      "two_extra_chain_sections_complete": 24,
+      "uncached": 48,
+      "uncached_complete": 48
+    },
+    "hard": {
+      "after": 72,
+      "before": 72,
+      "bytes": 34442,
+      "cache_hits": 24,
+      "episodes": 72,
+      "native_executions": 48,
+      "repairs": 0,
+      "same_templates_complete": 24,
+      "two_extra_chain_sections_complete": 24,
+      "uncached": 48,
+      "uncached_complete": 48
+    },
+    "ordinary": {
+      "after": 72,
+      "before": 72,
+      "bytes": 34442,
+      "cache_hits": 24,
+      "episodes": 72,
+      "native_executions": 48,
+      "repairs": 0,
+      "same_templates_complete": 24,
+      "two_extra_chain_sections_complete": 24,
+      "uncached": 48,
+      "uncached_complete": 48
+    },
+    "relax": {
+      "after": 72,
+      "before": 58,
+      "bytes": 39476,
+      "cache_hits": 24,
+      "episodes": 72,
+      "native_executions": 62,
+      "repairs": 14,
+      "same_templates_complete": 24,
+      "two_extra_chain_sections_complete": 10,
+      "uncached": 48,
+      "uncached_complete": 34
+    },
+    "untrained": {
+      "after": 72,
+      "before": 72,
+      "bytes": 73082,
+      "cache_hits": 24,
+      "episodes": 72,
+      "native_executions": 48,
+      "repairs": 0,
+      "same_templates_complete": 24,
+      "two_extra_chain_sections_complete": 24,
+      "uncached": 48,
+      "uncached_complete": 48
+    }
+  },
+  "phase5_manifest_files_verified": 52,
+  "reviewed_revision": "8ac9b694a32e53e5941912b65e2c8881ce0d7c4b"
+}

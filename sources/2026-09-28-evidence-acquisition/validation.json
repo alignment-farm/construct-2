@@ -1,0 +1,22 @@
+{
+  "verified_utc": "2026-09-28T12:21:37.780158+00:00",
+  "scope": "Documentation, source hashes, descriptive artifact checks and saved deterministic component results; no model outcomes",
+  "retrieval_records_verified": 37,
+  "retrieved_payload_bytes": 7534294,
+  "json_parse": "passed",
+  "python_syntax": "passed",
+  "new_local_file_links": 16,
+  "P110_P113_unique": true,
+  "original_predictions_and_repository_inventory_preserved": true,
+  "observation_note_original_body_preserved": true,
+  "requests_cases_per_revision": 7,
+  "requests_before_contract_failures": 2,
+  "requests_after_contract_failures": 0,
+  "valid_control_results_unchanged": true,
+  "source_method_AST_verified_in_saved_replays": true,
+  "git_diff_check": "passed",
+  "new_study_commission": false,
+  "model_runs": 0,
+  "root_commit_created": false,
+  "limits": "File targets checked; not a complete external-link or Markdown-anchor crawler. Old source-ledger URLs and unavailable ancillary checkouts were not revalidated."
+}

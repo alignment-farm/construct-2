@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-28",
+  "root_start_revision": "f570b2d",
+  "root_start_tree": "clean",
+  "scope": "Root methods comparison, public artifact inspection, deterministic component replay and research selection",
+  "session_id": "01a0e7b0-fe8a-7c53-a0a8-23dde8a9c170",
+  "investigator": {
+    "model": "gpt-6-astra",
+    "reasoning": "xhigh",
+    "provider": "openai",
+    "originator": "Codex Desktop",
+    "cli_version": "0.158.0-alpha.2.1",
+    "basis": "Current local session_meta and turn_context"
+  },
+  "delegated_agents": 0,
+  "participant_or_teacher_model_runs": 0,
+  "training_runs": 0,
+  "software_component_executions": 14,
+  "investigator_cost": "unmeasured",
+  "active_ancillary_status": {
+    "evidence-set-memory": "user-reported active; no new publication inspected"
+  },
+  "separate_repositories_modified": false,
+  "new_commission": false,
+  "inscit_revision": "2319fb85932b9528a13417223ffc6fc629ae8087",
+  "smart_searcher_repository_revision": "3040f2591b7b7d962359ed9ca9b6116f4833db77",
+  "requests_revisions": {
+    "original_merge": "db575eeedcfdb03bf31285afd3033e301df8b685",
+    "followup_base": "8bce583b9547c7b82d44c8e97f37cf9a16cbe758",
+    "followup_merge": "2d5517682b3b38547634d153cea43d48fbc8cdb5"
+  }
+}

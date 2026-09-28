@@ -1,16 +1,48 @@
 **Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/PREVIOUS_RESEARCH.md) and [research perspective](../notes/RESEARCH_PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. The [17 September executable-experience selection](../notes/EXECUTABLE_EXPERIENCE.md) opens a focused allocation comparison alongside the neural-learning emphasis; the [historical preference](../sources/README.md#research-preference-to-date) remains recorded.
 
-**New commission — 28 September:**
+**Latest reviewed publication — 28 September:**
+[Evidence-set memory](2026-09-28-evidence-set-findings.md) accepts five bounded
+phases through `8ac9b69`. Learning acquires useful rankings and compactness;
+ordinary dependency access matches the best native completion at lower selection
+cost. Discrete ranking, fractional inference and complete use are separate
+targets. Natural-text score arithmetic reproduces, with source/label defects
+limiting its meaning. P118 supplies a complementary method lead. The broader
+user-authorized EBM exploration remains open; no new commission follows.
+
+**Earlier root conclusion — 28 September:**
+[Recoverable memory](../notes/RECOVERABLE_MEMORY.md) completes an independent
+theory-and-reading phase. P114–P117 distinguish latent archives, reconstruction
+and context construction from preserved sources. The synthesis separates
+retention, access and reading failures and prices recovery across repeated use.
+It narrows further work toward changed evidence needs at comparable complete
+quality; no new experiment or ancillary commission follows.
+
+**Earlier root conclusion — 28 September:**
+[Evidence acquisition](../notes/EVIDENCE_ACQUISITION.md) completes the independent
+methods-and-artifact phase. P110–P113 and inspected public decisions distinguish
+retaining an answer from learning how to obtain useful evidence on later work.
+Deprioritize a standalone ask/search/test classifier; retain construction and
+use of distinguishing observations as an open investigation target. No new
+ancillary study or learned-treatment result follows from the component replay.
+
+**Initial commission — 28 September:**
 [Evidence-set memory](../notes/EVIDENCE_SET_MEMORY.md) selects learned assembly of
 useful evidence from accumulated experience, with an energy-based candidate.
 P105–P109 distinguish energy prediction, associative memory, joint scoring and
 state-conditioned assembly. Close prior methods require a developed set-aware
 alternative. The independent [study](#evidence-set-memory) owns workload discovery,
-acquisition and execution; its public-asset reconnaissance is complete, with no
-specialist or downstream model result. Continuing experience and correction
-workload development remains open. This does not reopen another study.
+acquisition and execution. Its initial public-asset reconnaissance at `5a0e8f7`
+was preparation only; the later review above advances through five experimental
+phases. Continuing useful capability remains open. This does not reopen another
+study.
 
-**Latest root conclusion — 23 September:**
+**Subsequent user direction — 28 September:** The investigator may diverge into
+broader EBM exploration and publish findings as it proceeds. The
+[scope amendment](../notes/EVIDENCE_SET_MEMORY.md#subsequent-user-direction--28-september)
+keeps the original brief and ES1–ES3 identifiable; the user will bring publications
+to root for assessment. Broad LLM improvement is a motivating hypothesis.
+
+**Preceding root conclusion — 23 September:**
 [Observation boundaries](../notes/OBSERVATION_BOUNDARIES.md) separates testing
 behavior from identifying the intended contract. P102–P104 narrow generic
 clarification proposals to experience-informed choice of evidence source, with
@@ -18,7 +50,7 @@ competent ordinary review and retained source answers. This analytical phase is
 complete; the candidate still lacks a validated workload and is not commissioned.
 It advances an independent question without changing ancillary review boundaries.
 
-**Latest reviewed publication — 21 September:**
+**Preceding reviewed publication — 21 September:**
 [Experience-guided investigation](2026-09-21-experience-investigation-findings.md) at `47e5b28` supplies a reviewed
 pilot, with acquisition and transfer still unresolved. Both branch arms leave
 code unchanged and fail all three new cases. Both smaller repairs pass their
@@ -66,8 +98,9 @@ Correct state does not guarantee correct later orders. PM1–PM3 and CL1–CL3 n
 have bounded assessments; their original wording is preserved.
 
 **Current work — 28 September 2026:** Seventeen studies are registered.
-[Evidence-set memory](#evidence-set-memory) is newly commissioned and prepared for
-bounded development. Fifteen have completed reviewed phases; [experience-guided investigation](#experience-guided-investigation)
+[Evidence-set memory](#evidence-set-memory) has five accepted bounded phases at
+`8ac9b69`, with broader EBM exploration authorized and open. Sixteen have completed
+reviewed phases; [experience-guided investigation](#experience-guided-investigation)
 has a reviewed development pilot. The record does not establish useful acquisition
 or transfer, and its original commission remains open. Bounded development of
 usable editing, complete repair and learner-grounded teaching belongs to that
@@ -92,16 +125,16 @@ No continuation is commissioned. The independent executable-experience review
 is complete; the fixed directive and AD1–AD3 remain intact.
 
 
-This map connects the root's questions, ancillary publications and current research directions. Fifteen projects have completed reviewed phases; experience-guided investigation has a qualified development pilot, and evidence-set memory is newly commissioned for bounded development. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
+This map connects the root's questions, ancillary publications and current research directions. Sixteen projects have completed reviewed phases, including evidence-set memory, whose broader exploration remains open; experience-guided investigation has a qualified development pilot. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
 
 ## Cloning the studies
 
 [repos.txt](repos.txt) is the maintained list of Construct-2 ancillary repositories,
 one `organization/repository` per line, including completed studies. It contains
-all seventeen studies currently in this program: fifteen with accepted bounded
-contributions and completed reviewed phases, experience-guided investigation with
-a reviewed pilot and open acquisition commission, and the newly commissioned
-evidence-set-memory study. The root
+all seventeen studies currently in this program: sixteen with accepted bounded
+contributions and completed reviewed phases (including the still-open EBM
+exploration), and experience-guided investigation with a reviewed pilot and open
+acquisition commission. The root
 and other lab projects are outside its scope. Contributors need Git, an
 authenticated GitHub CLI (`gh auth login`), and access to these private repositories.
 
@@ -350,6 +383,15 @@ For S1, we should distinguish three outcomes: **the chosen text becomes easier t
 | **P107. [Energy-Based Transformers, 2507.02092v1](https://arxiv.org/html/2507.02092v1)** — §3, §7, A.4/B.2 | Optimization-based prediction with gradient cost and stability limits. | Inference refinement differs from learning across sessions. [Ledger](../sources/2026-09-28-evidence-set-selection/README.md). |
 | **P108. [Retrieving a Set, 2607.05712v1](https://arxiv.org/html/2607.05712v1)** — §§3–4.3, F/G | Direct small-model set-selection precedent. | Requires a serious set-aware comparator and disclosed supervision. [Ledger](../sources/2026-09-28-evidence-set-selection/README.md). |
 | **P109. [The Missing Complement, 2609.20050v1](https://arxiv.org/html/2609.20050v1)** — §§3–6, selected F.4–H | State-conditioned assembly with downstream evaluations. | Public recovery assets differ from full continuing-work experiments. [Ledger](../sources/2026-09-28-evidence-set-selection/README.md). |
+| **P110. [InSCIt, TACL 2023](https://aclanthology.org/2023.tacl-1.27.pdf)** — §§3–5.2; pinned development assets | Human source-seeking conversations with alternative responses. | Fixed continuations do not identify every action's value. [Ledger](../sources/2026-09-28-evidence-acquisition/README.md). |
+| **P111. [Smart-Searcher, EMNLP 2025](https://aclanthology.org/2025.findings-emnlp.731.pdf)** — §§4–6.4 | Learned retrieval and knowledge internalization. | Generic acquisition precedent; source-answer reuse and strategy transfer need separation. [Ledger](../sources/2026-09-28-evidence-acquisition/README.md). |
+| **P112. [Active Inference as Context Acquisition, 2608.19202v1](https://arxiv.org/html/2608.19202v1)** — §§3–5, 7, 9; selected §8/B | Costly information gathering with a decision-loss criterion. | Supplied observation models leave experience acquisition open. [Ledger](../sources/2026-09-28-evidence-acquisition/README.md). |
+| **P113. [Remember, Verify, or Ask?, 2608.19564v1](https://arxiv.org/html/2608.19564v1)** — §§III–VI | Memory-commitment and source-choice benchmark. | Label/tool selection is distinct from executed downstream utility. [Ledger](../sources/2026-09-28-evidence-acquisition/README.md). |
+| **P114. [M+, 2502.00592v2](https://arxiv.org/html/2502.00592v2)** — selected §§3–4, E | Archived latent retrieval. | Active-pool capacity differs from total retained state. [Ledger](../sources/2026-09-28-recoverable-memory/README.md). |
+| **P115. [R³Mem, ACL 2025](https://aclanthology.org/2025.findings-acl.235.pdf)** — §§2–3.3, C | Trained compression and reconstruction. | Internal reversibility alone does not validate source recovery. [Ledger](../sources/2026-09-28-recoverable-memory/README.md). |
+| **P116. [LazyMem, 2607.22690v2](https://arxiv.org/html/2607.22690v2)** — §§3–4.5, C, D.1 | Small learned context constructor. | Strong direct precedent; lifetime repayment remains a separate question. [Ledger](../sources/2026-09-28-recoverable-memory/README.md). |
+| **P117. [RD-Forget, 2609.10263v1](https://arxiv.org/html/2609.10263v1)** — §§3–6 | Source-preserving evidence views. | Trace all recovery paths when interpreting an ablation. [Ledger](../sources/2026-09-28-recoverable-memory/README.md). |
+| **P118. [End-to-End SPENs, ICML 2017](https://proceedings.mlr.press/v70/belanger17a.html)** — introduction, §§2.3–5 | Learning through finite inference. | Complementary method, not a local remedy already demonstrated. [Ledger](../sources/2026-09-28-evidence-set-review/README.md). |
 
 The [migration/lineage review](../sources/2026-09-17-migration-lineage-review/README.md)
 adds P86 and revisits P83/P84 as the local findings sharpen cost and behavior
@@ -573,7 +615,14 @@ The theoretical update is that **architectural memory capacity and the capacity 
 
 **Evidence to collect:** Expected-goal and changed-goal accuracy, exact evidence availability, latency, and retained-state size. For TTCD-like methods, charge the teacher computation and history it needs. Full-context success checks that the task is answerable. If both neural and explicit compression fail similarly at matched constraints, the limiting factor may be capacity or task uncertainty.
 
-**Reading/implementation needed:** P11's teacher windows and causal update timing; P8's held-out query construction; P13's query access. P10's results and [M+, 2502.00592v2](https://arxiv.org/abs/2502.00592v2), currently abstract-reviewed, are relevant alternatives before inventing recovery machinery.
+**Reading/implementation needed:** P11's teacher windows and causal update timing; P8's held-out query construction; P13's query access. P10's results remain a relevant alternative before inventing recovery machinery. M+ has now received selected method reading as P114, superseding its earlier abstract-only boundary.
+
+**Root recovery assessment — 28 September:** [The completed synthesis](../notes/RECOVERABLE_MEMORY.md)
+extends the account from a frozen memory state to the full retained system and
+its access path. P114–P117 narrow generic proposals for archives, reconstruction
+and small context constructors. Useful recovery after changed demands, including
+total cost, remains an independent candidate. S4's accepted phases and original
+predictions remain unchanged; this reading does not restart its experiments.
 
 ### S5. When should a useful temporary update be retained or consolidated?
 
@@ -814,10 +863,36 @@ are recorded at [`5a0e8f7`](https://github.com/alignment-farm/evidence-set-memor
 pushed to private `origin/main` with a clean study working tree. The reconnaissance
 checks obtainable SERBench and MuSiQue assets. They support bounded selection/QA
 development; neither inspected release supplies a continuing experience and
-correction sequence. Preparing the repository and checking its assets establishes
-no learner acquisition, transfer or EBM benefit. The study owns that next work.
+correction sequence. That preparation established no learner acquisition,
+transfer or EBM benefit; the later publication advances this boundary below.
 The original experience-guided investigation remains separately commissioned;
 no other completed phase is reopened.
+
+**Five phases accepted — 28 September:** The
+[root assessment](2026-09-28-evidence-set-findings.md) reviews `8ac9b69`, with
+functioning acquisition, source-label qualifications and explained inference
+failures. Exact learned and ordinary native selection both complete all tested
+uncached requests; learning improves compactness over initialization, while the
+ordinary policy is slightly more compact still. Gradient inference misses some
+good sets and improves under a post-hoc budget increase on seen material. A
+binary-ranking objective alone does not identify useful fractional behavior.
+
+Root replayed native outcomes and five tiny fits, independently regraded 192 QA
+outcomes, verified manifests and checked selected source defects. The
+[review ledger](../sources/2026-09-28-evidence-set-review/README.md) records runtime
+differences and limits. [ES1–ES3](../notes/EVIDENCE_SET_MEMORY.md#assessment-after-publication--28-september)
+now have bounded assessments. No complete LLM-work advantage or general EBM
+verdict follows; accepting these phases does not close the investigation.
+
+The user subsequently authorized continued exploration with latitude to diverge
+from the initial evidence-set comparison. Publications may develop broader EBM
+questions; root will assess their claims and relation to Construct's directive
+as the user brings them here. The original predictions remain preserved in the
+[amended brief](../notes/EVIDENCE_SET_MEMORY.md#subsequent-user-direction--28-september).
+
+The independent [recovery reading](../sources/2026-09-28-recoverable-memory/README.md)
+adds P116 as a direct small-specialist precedent. It informs root's comparison
+of learned infrastructure without redirecting the ongoing EBM exploration.
 
 <a id="what-the-three-completed-investigations-change"></a>
 
@@ -827,6 +902,7 @@ The investigations examine different mechanisms and tasks. Together they sharpen
 
 | Investigation | Distinction supported by the bounded evidence | Implication for the root question |
 |---|---|---|
+| Evidence-set memory | Learned compactness, discrete ranking, fractional inference and valid complete use are distinct. Ordinary dependency access solves the native workloads; natural-text labels qualify downstream scores. | Include the practical inference procedure and evidence validity in the learned capability; establish remaining task headroom before claiming useful allocation to a specialist. |
 | Update-source selection (S1) | Source reliability differs from its value as training material; changing loss or generation need not change task success. | A trustworthy record alone does not tell us whether training on it is useful. |
 | Procedure acquisition and reuse (relevant to S2/S5) | Recall of demonstrations differs from transfer to new inputs; cheaper repeated inference need not repay acquisition at comparable useful accuracy. | Retaining a parameter update is valuable only to the extent that its learned behavior serves the later workload. |
 | Procedure transfer and acquisition diagnosis (relevant to S1/S2) | Loss orientation and starting policy affect acquisition; a controlled objective switch repairs failed routing. Acquired routing transfers more reliably than identifier production. | Useful learning depends on the update and learner state as well as the evidence. A learned relation supplies a subject for retention and correction even while complete actions remain imperfect. |
@@ -854,7 +930,39 @@ Where experience lives is part of a larger decision about what to change and pre
 
 ## 6. Research selection
 
-**New selection and commission — 28 September:** The user authorized
+**Evidence-set review — 28 September:** Five phases at `8ac9b69` close on
+functioning acquisition and explanatory limits, while expanded user-authorized
+exploration continues. Further sweeps of the solved explicit dependency workload
+are low priority. Preserve the question of useful learned inference where ordinary
+access leaves consequential work unresolved, with valid grounding and complete
+outcomes. P118 narrows interpretation of the ranking-trained energies. The
+study's suggested configuration/code-edit pilot is an ancillary proposal within
+its existing remit, not a new root commission; distinguish its EBM contribution
+from the independent experience-guided investigation question. See the
+[assessment](2026-09-28-evidence-set-findings.md).
+
+**Independent recovery phase complete — 28 September:**
+[Recoverable memory when the task changes](../notes/RECOVERABLE_MEMORY.md) develops
+an analytical distinction among loss from retained state, failure of access and
+failure of reading. The new literature makes a generic archive or compact-context
+demonstration a low-priority addition. Retain the narrower question of whether
+experience reduces useful recovery work after requirements change, beyond
+ordinary search and retained results, at comparable complete quality. This is
+a justified research preference with no new workload or commission. It preserves
+the active investigators' remits and all prior publication boundaries.
+
+**Independent root phase complete — 28 September:**
+[Learning what evidence to obtain next](../notes/EVIDENCE_ACQUISITION.md) closes
+the inspection proposed by the observation-boundaries note. Close public methods
+and grounded cases deprioritize another standalone ask/search/test classifier.
+The narrower open target is whether experience helps construct and use a
+distinguishing observation on fresh work beyond ordinary investigation and
+retained source answers. This fits the existing experience-guided remit when
+useful; it does not redirect its investigator or commission a third active study.
+P110–P113 and the Requests/InSCIt inspection refine selection without changing
+AD, LA, CC or ES predictions or ancillary acceptance boundaries.
+
+**Initial selection and commission — 28 September:** The user authorized
 [evidence-set memory](../notes/EVIDENCE_SET_MEMORY.md) as the next experimental
 area. Select bounded acquisition and useful-lifetime work on a small evidence
 specialist with an energy-based candidate. P108/P109 narrow the generic proposal:
@@ -1152,6 +1260,12 @@ The root develops theory and predictions while each ancillary investigator owns 
 Shared-machine coordination remains local: independent reading and analysis can proceed while investigators avoid conflicting heavyweight jobs. The [resource notes](../AGENTS.md#model-resources) identify the preferred serving machine; serving alone is not gradient access. S1/S2 used the demonstrated native MLX route, while S4 reused trained donors for CPU analysis. Those routes do not establish feasibility or budgets for every future mechanism.
 
 ## 7. Search scope and remaining uncertainty
+
+The [28 September recovery ledger](../sources/2026-09-28-recoverable-memory/README.md)
+adds P114–P117 through bounded web discovery and selected primary full text.
+One arXiv API attempt returned HTTP 406 and supplied no results. Exact versions
+and retrieval hashes are recorded; no public implementation was audited and
+no model result was reproduced. Earlier inspection limits below remain historical.
 
 This is a focused map, not an exhaustive novelty review. On 10 September 2026, we followed the original bibliography, inspected the primary full-text sections identified above, and used the arXiv query API for adjacent discovery and version metadata. API requests used one connection at a time, were spaced by more than three seconds, and used the descriptive User-Agent `Construct-2 literature mapping (local research metadata cache)`. Temporary responses were cached outside the notes directory; the durable review is this file and its versioned citations.
 

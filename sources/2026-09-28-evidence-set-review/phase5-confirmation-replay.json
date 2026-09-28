@@ -1,0 +1,11 @@
+{
+  "all_non_timing_fields_equal": true,
+  "policy_episode_rows": 504,
+  "native_executions": 369,
+  "cache_hits": 168,
+  "repairs": 33,
+  "inference_gradient_steps": 11520,
+  "discrete_evaluations": 246144,
+  "python": "3.12.12",
+  "new_samples": false
+}

@@ -1,0 +1,83 @@
+{
+  "checked_utc": "2026-09-28T13:05:16.313588+00:00",
+  "primary_payload_hashes": 4,
+  "version_markers": 3,
+  "published_pdf_signature": true,
+  "json_syntax": "all JSON files in this source directory parsed",
+  "paper_map_ids": "P1-P117 unique and contiguous",
+  "new_local_links": [
+    {
+      "file": "sources/README.md",
+      "link": "2026-09-28-recoverable-memory/README.md"
+    },
+    {
+      "file": "sources/README.md",
+      "link": "../notes/RECOVERABLE_MEMORY.md"
+    },
+    {
+      "file": "README.md",
+      "link": "notes/RECOVERABLE_MEMORY.md"
+    },
+    {
+      "file": "studies/README.md",
+      "link": "../sources/2026-09-28-recoverable-memory/README.md"
+    },
+    {
+      "file": "studies/README.md",
+      "link": "../notes/RECOVERABLE_MEMORY.md"
+    },
+    {
+      "file": "EXECUTIVE_SUMMARY.md",
+      "link": "notes/RECOVERABLE_MEMORY.md"
+    },
+    {
+      "file": "notes/RECOVERABLE_MEMORY.md",
+      "link": "PREVIOUS_RESEARCH.md#4-forgetting-can-mean-eviction-with-recovery"
+    },
+    {
+      "file": "notes/RECOVERABLE_MEMORY.md",
+      "link": "EVIDENCE_ACQUISITION.md"
+    },
+    {
+      "file": "notes/RECOVERABLE_MEMORY.md",
+      "link": "../studies/README.md#s4-what-does-learned-memory-lose-when-the-future-goal-changes"
+    },
+    {
+      "file": "notes/RECOVERABLE_MEMORY.md",
+      "link": "../sources/2026-09-28-recoverable-memory/README.md"
+    },
+    {
+      "file": "sources/2026-09-28-recoverable-memory/README.md",
+      "link": "discovery.json"
+    },
+    {
+      "file": "sources/2026-09-28-recoverable-memory/README.md",
+      "link": "../../notes/RECOVERABLE_MEMORY.md"
+    },
+    {
+      "file": "sources/2026-09-28-recoverable-memory/README.md",
+      "link": "retrieval.json"
+    },
+    {
+      "file": "sources/2026-09-28-recoverable-memory/README.md",
+      "link": "provenance.json"
+    },
+    {
+      "file": "sources/2026-09-28-recoverable-memory/README.md",
+      "link": "validation.json"
+    }
+  ],
+  "changed_preexisting_files": [
+    "EXECUTIVE_SUMMARY.md",
+    "README.md",
+    "sources/README.md",
+    "studies/README.md"
+  ],
+  "other_preexisting_tracked_files_and_evidence_acquisition_note": "sha256 unchanged from pre-edit snapshot",
+  "earlier_root_conclusion_paragraphs": "preserved",
+  "illustration_arithmetic": "two-bit equality/mismatch proportions checked; no learned participants",
+  "git_diff_check": "passed",
+  "new_commission": false,
+  "model_runs": 0,
+  "commit_created": false
+}

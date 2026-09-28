@@ -3,6 +3,29 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [28 September evidence-set review](2026-09-28-evidence-set-review/README.md)
+advances the study boundary to `8ac9b69`, accepting five bounded phases with
+qualifications. Root reproduces native outcomes and five tiny fits, regrades
+192 saved QA outcomes, and checks disclosed source defects. Useful ranking,
+practical inference and complete use remain distinct. P118 supplies a complementary
+public method; the [assessment](../studies/2026-09-28-evidence-set-findings.md)
+leaves broader EBM exploration open without a new commission.
+
+The [28 September recoverable-memory reading](2026-09-28-recoverable-memory/README.md)
+adds P114–P117 and develops the [root recovery account](../notes/RECOVERABLE_MEMORY.md).
+It promotes M+ from an abstract lead and compares latent archives, learned
+reconstruction and context construction from preserved sources. The completed
+phase narrows further work toward recovery under changed demands at a useful
+total cost; it contains no new model runs or ancillary review.
+
+The [28 September evidence-acquisition assessment](2026-09-28-evidence-acquisition/README.md)
+adds P110–P113 and inspects pinned InSCIt development data plus a public Requests
+maintenance history. Fourteen offline component executions confirm a missed
+exception path and its fix. The [root conclusion](../notes/EVIDENCE_ACQUISITION.md)
+separates source-answer reuse from transferable construction of useful checks,
+deprioritizing a standalone action classifier. This completes the bounded root
+phase without a model run, new ancillary commission or changed review boundary.
+
 The [28 September evidence-set selection](2026-09-28-evidence-set-selection/README.md)
 adds P105–P109: structured energies, associative memory, EBTs and direct set-level
 retrieval/agent-evidence methods. It narrows the user-authorized new study to useful

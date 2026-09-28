@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-28",
+  "failed_attempt": {
+    "operation": "Initial before-followup Response.json probe",
+    "exit_code": 1,
+    "error": "AssertionError: Installed method differs from pinned source",
+    "component_cases_executed": 0
+  },
+  "diagnosis": "ast.dump differed only in raw docstring indentation after textwrap.dedent; cleaned docstrings matched and the executable AST was identical.",
+  "repair": "Assert equality of cleaned docstrings, normalize those literals only, then compare the complete method AST.",
+  "confirmation": "Corrected guard passed for both commit-pinned installations; seven offline cases ran at each revision.",
+  "other_acquisition_limit": "One arXiv API selected-ID request returned HTTP 406 with an empty body. No retries; exact-version primary HTML was inspected.",
+  "limits": "No original Python 2 environment, no full Requests test suite, and no learning/agent behavior reproduced."
+}

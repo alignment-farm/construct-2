@@ -136,3 +136,14 @@ remains open under its existing remit; no new result or operational status is
 inferred for that study. Lesson acceptance remains a completed bounded phase with
 an open broader question. The next program milestone remains useful capability
 across repeated realistic work and consequential change.
+
+## Grounded follow-up — 28 September
+
+[Learning what evidence to obtain next](EVIDENCE_ACQUISITION.md) completes the
+bounded methods-and-artifact inspection proposed above. A public maintenance
+lineage and selected human dialogues distinguish source-answer reuse, useful
+new observations and merely matching an action label. P110–P113 supply direct
+method precedents; a component replay confirms a missed implementation path.
+The root deprioritizes a standalone source-choice classifier while retaining
+transferable investigation as an open question within the existing remit.
+No new study is commissioned, and the original predictions remain unchanged.

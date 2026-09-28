@@ -1,0 +1,71 @@
+{
+  "scope": "Deterministic offline Response.json component probe; no agent results",
+  "source_label": "fixed",
+  "python": "3.13.12",
+  "dependencies": {
+    "urllib3": "1.26.20",
+    "simplejson": "3.20.1",
+    "certifi": "2026.7.22",
+    "requests": "2.27.1",
+    "charset-normalizer": "2.0.12",
+    "idna": "3.20",
+    "pip": "26.0.1"
+  },
+  "requests_direct_url": {
+    "url": "https://github.com/psf/requests/archive/2d5517682b3b38547634d153cea43d48fbc8cdb5.tar.gz",
+    "archive_info": {}
+  },
+  "method_ast_matches_pinned_source": true,
+  "reference_sha256": "97e2643e03b1c1910c4c63885a1c9aedf18816d11eaea3ce70c65db43e567d8e",
+  "outcomes": [
+    {
+      "case": "invalid-explicit-utf8",
+      "exception": "requests.exceptions.JSONDecodeError",
+      "contract_met": true,
+      "catchable_as_request_exception": true,
+      "catchable_as_backend_json_error": true
+    },
+    {
+      "case": "invalid-inferred-utf8",
+      "exception": "requests.exceptions.JSONDecodeError",
+      "contract_met": true,
+      "catchable_as_request_exception": true,
+      "catchable_as_backend_json_error": true
+    },
+    {
+      "case": "invalid-inferred-utf16",
+      "exception": "requests.exceptions.JSONDecodeError",
+      "contract_met": true,
+      "catchable_as_request_exception": true,
+      "catchable_as_backend_json_error": true
+    },
+    {
+      "case": "invalid-short",
+      "exception": "requests.exceptions.JSONDecodeError",
+      "contract_met": true,
+      "catchable_as_request_exception": true,
+      "catchable_as_backend_json_error": true
+    },
+    {
+      "case": "valid-explicit-utf8",
+      "result": {
+        "a": 1
+      },
+      "contract_met": true
+    },
+    {
+      "case": "valid-inferred-utf8",
+      "result": {
+        "a": 1
+      },
+      "contract_met": true
+    },
+    {
+      "case": "valid-inferred-utf16",
+      "result": {
+        "a": 1
+      },
+      "contract_met": true
+    }
+  ]
+}

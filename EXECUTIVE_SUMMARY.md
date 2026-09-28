@@ -1,12 +1,31 @@
 # Construct-2: what we have learned about accumulating useful experience
 
-Executive summary · Ancillary findings through 21 September; root synthesis and selection through 28 September 2026
+Executive summary · Ancillary findings, root synthesis and selection through 28 September 2026
 
-Construct-2 asks how agents can accumulate useful experience across sessions, and where that experience should live: explicit memory, contextual lessons, executable tools, model weights or runtime rules. Fifteen ancillary investigations have completed reviewed phases, a sixteenth has produced a qualified development pilot, and a seventeenth is newly commissioned, alongside a review of public research. Our starting hypothesis already allowed these mechanisms to work together. The studies have sharpened the conditions under which that combination helps, and exposed several ways apparently successful learning can fail to produce useful capability.
+Construct-2 asks how agents can accumulate useful experience across sessions, and where that experience should live: explicit memory, contextual lessons, executable tools, model weights or runtime rules. Sixteen ancillary investigations have completed reviewed phases and a seventeenth has produced a qualified development pilot, alongside a review of public research. Completed phases do not close the broader investigations. Our starting hypothesis already allowed these mechanisms to work together. The studies have sharpened the conditions under which that combination helps, and exposed several ways apparently successful learning can fail to produce useful capability.
 
 **The clearest finding is that successful learning, durable usefulness and repayment of learning costs are separate achievements.** A system may acquire a pattern without completing the task, retain information without being able to use it, or improve predictions without outperforming a simpler alternative. Useful accumulated experience must improve complete future behavior or avoid work at comparable quality, while remaining accessible and correctable as the task and agent change.
 
+The [evidence-set review](studies/2026-09-28-evidence-set-findings.md) adds another
+distinction: **a useful learned ranking need not be usable by the deployed search
+procedure**. On native configuration tasks, exact search with learned coefficients
+completes 48/48 uncached attempts, while its initial gradient recipe completes
+34/48. Ordinary dependency-following completes 48/48 with slightly less evidence
+and no acquisition cost. Learning substantially improves compactness over the
+untrained initialization, which already completes every task. Separate diagnostics
+show that even identical scores for every discrete evidence set can yield different
+gradient-search behavior. Natural-text selection also improves, but defective
+source chains and grading labels prevent a clean downstream success claim.
+
 **Access can matter as much as storage.** In controlled memory experiments, changing the reader recovered useful answers from an unchanged stored state. Other failures reflected information that was actually absent. Losing detail also did not necessarily prevent a particular later use. These distinctions matter operationally: better access, retaining more evidence and learning again address different problems. A failed answer alone does not identify which one is needed. [Memory and later use](studies/2026-09-15-maintenance-findings.md).
+
+The [28 September recovery assessment](notes/RECOVERABLE_MEMORY.md) extends this
+account to the full retained system. Compact context can coexist with recoverable
+sources, but preservation alone does not make evidence affordable to find and
+use. New public-method reading narrows generic compression proposals toward
+reliable recovery under changing demands, with acquisition, access and maintenance
+included in cost. This is theory and literature synthesis, not another local
+learning result.
 
 **Learned behavior can become useful, but improvement is conditional.** Purposeful diagnosis turned some failed acquisition attempts into functioning learners, and later studies demonstrated complete procedural behavior and bounded preservation through revision. One study found a learned behavior that remained useful while authoritative values changed, with a modest measured advantage over an uncached contextual lesson. Longer training reversed that benefit. Across the program, lower loss and better intermediate predictions were insufficient evidence of better complete behavior or a worthwhile investment. [Evidence use under revision](studies/2026-09-17-evidence-use-findings.md).
 
@@ -34,6 +53,13 @@ settle which applies. Existing clarification methods narrow the next independent
 candidate to learning which evidence source to consult, beyond competent review
 and retained source answers. This is an analytical conclusion; its proposed
 comparison has no validated workload or new commission.
+
+The [28 September follow-up](notes/EVIDENCE_ACQUISITION.md) grounds that distinction
+in public maintenance and dialogue records. It separates retaining a resolved
+answer from learning to construct an observation that helps on new work. Existing
+public methods narrow the value of another generic source-choice classifier;
+complete investigation transfer remains open. A targeted software replay confirms
+an implementation defect and repair, without establishing an agent-learning result.
 
 **What remains for the model to do determines the value of learning.** With source
 experience externally accessible, an adapter improved manual configuration of
@@ -66,10 +92,10 @@ The evidence is strongest within small, controlled workloads. Many supplied the 
 The next evidential milestone is continuing practical capability: better complete outcomes or less total work across repeated use and consequential change, including acquisition, checking, failures and repair. The [experience-guided investigation](notes/CONTINUING_EXPERIENCE_STUDY.md) remains responsible for bounded acquisition diagnosis and fresh transfer; accepting its pilot does not complete that commission. Useful editing, complete repair and learning from actual attempts are the next evidential needs, with costs interpreted after capability. Broader migration, correction, consolidation and acceptance questions remain open. Root continues synthesis, literature and independent questions. The program's direction remains useful accumulated experience across sessions.
 
 On 28 September the user selected [evidence-set memory](notes/EVIDENCE_SET_MEMORY.md)
-as a new independent experimental area: can a small specialist learn to assemble
-compact evidence that improves later complete work and remains useful through
-change? Energy-based selection is one candidate. Close public precedents make
-competent set selection an essential alternative. Public assets support bounded
-retrieval/QA development, while the continuing-experience workload and learner
-acquisition remain to establish. This selection adds no experimental finding and
-does not change the existing investigation commission.
+and subsequently authorized broader EBM exploration. Five phases are now reviewed
+at `8ac9b69`, with functioning acquisition and explained limits. The broader
+question remains whether learning improves complete later work beyond competent
+access at a useful total cost. Native dependency success does not yet establish
+useful LLM infrastructure or broad task improvement. Further exploration belongs
+to the existing investigator; this review adds no commission and preserves the
+independent experience-guided investigation remit.

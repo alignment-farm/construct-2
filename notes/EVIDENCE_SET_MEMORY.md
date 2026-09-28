@@ -7,7 +7,31 @@ root develops the question and public-method comparison; the study owns workload
 development, acquisition, protocols, execution and publication. The enduring
 directive and the open experience-guided investigation commission are unchanged.
 
-## Question
+**Publication assessment — 28 September:** Root now accepts five bounded phases
+through `8ac9b69`, advancing the preparation boundary recorded below. The
+[assessment](../studies/2026-09-28-evidence-set-findings.md) establishes functioning
+acquisition and distinguishes learned ranking, practical inference and complete
+use. The broader user-authorized exploration remains open. Original ES1–ES3 and
+their subsequent assessments are separate.
+
+## Subsequent user direction — 28 September
+
+The user will direct the ancillary investigator to continue and allow the study
+to diverge beyond its initial evidence-set focus, publishing findings as it
+explores. The user will bring those publications to the root group. This expands
+the study's exploratory latitude: the initial scope below remains its starting
+brief, while subsequent user direction governs further work. Root will assess
+each publication on its actual question, methods and evidence, without requiring
+every result to fit the original selection comparison.
+
+The user's motivating hypothesis is that EBMs may improve LLM capability broadly
+in the near term. Cross-task generality remains an empirical question. Original
+ES1–ES3 are preserved for the initial comparison; later hypotheses and revisions
+belong in the study's publications. Construct-2's enduring directive remains
+unchanged, and root will identify which findings bear on accumulated experience
+and which support broader model or infrastructure research.
+
+## Initial question
 
 > Can a small specialist learn from earlier experience to assemble compact,
 > sufficient evidence for later complete work, and remain useful as that evidence
@@ -16,8 +40,9 @@ directive and the open experience-guided investigation commission are unchanged.
 An energy-based model is a selected candidate mechanism, not the desired verdict.
 The retained archive, learned access policy and primary model can develop together.
 Begin by holding the primary model fixed where this isolates the specialist's
-contribution. Full reasoning-model development and reproducing a proprietary
-general reasoner are outside this commission.
+contribution. The initial commission excluded full reasoning-model development
+and reproducing a proprietary general reasoner; the subsequent user direction
+above permits broader EBM exploration.
 
 The earlier [discussion](RESEARCH_PERSPECTIVES.md) already allowed smaller
 specialists. The [placement assessment](../studies/2026-09-16-placement-findings.md)
@@ -176,3 +201,36 @@ boundary covers preparation and asset/scorer checks, not a treatment publication
 No EBM acquisition, downstream advantage or cost repayment is claimed by this
 root selection. Root continues public research and synthesis independently of
 the study's local implementation progress.
+
+## Assessment after publication — 28 September
+
+The [five-phase review](../studies/2026-09-28-evidence-set-findings.md) at
+`8ac9b694a32e53e5941912b65e2c8881ce0d7c4b` advances the preparation-only boundary.
+The original predictions above are unchanged.
+
+- **ES1: bounded support for the access condition; learned deployment advantage
+  unestablished.** Ordinary dependency closure matches the learned exact policy's
+  complete quote/configuration outcomes with less selection work. Neural joint
+  selection improves MuSiQue annotated-support coverage, but defective evidence
+  chains/labels prevent interpreting its downstream score as validated complete
+  QA benefit. A serious ordinary set comparator changes the conclusion.
+- **ES2: limited support with explicit maintenance.** Frozen learned coefficients
+  remain useful across authored source revisions and, with exact search, longer
+  native dependency chains. Scope, authority and cache invalidation are supplied.
+  The study does not establish online learning, acquired authority or preservation
+  of a previously mastered same-item obligation. Benchmark supervision in phase 2
+  is distinct from the executed, authored feedback in phases 1 and 5.
+- **ES3: supported as a local allocation constraint, not a general ranking of
+  methods.** Practical gradient inference adds work and misses some good sets;
+  ordinary closure or discrete beam is stronger in the tested comparisons.
+  Larger search budgets repair phase-5 failures on seen material, without fresh
+  confirmation. Equivalent binary rankings can have different fractional search
+  behavior. Acquisition, inference and downstream correctness need separate tests.
+
+The complementary [P118 reading](../sources/2026-09-28-evidence-set-review/README.md#complementary-public-method-p118)
+narrows what these results establish about energy learning. Further sweeps of the
+solved explicit graph are low priority; useful next evidence requires real remaining
+task headroom and valid grounding. The study's proposed source-native edit pilot
+fits its expanded authorization, subject to its own workload discovery. This
+assessment neither prescribes that method nor commissions another study. Broad
+LLM improvement remains open, and accepting these phases does not end exploration.
