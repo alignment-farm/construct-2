@@ -12,6 +12,14 @@ prepared and pushed at `7717645b318d3f3e94673c814fd4acb001869dd3`. Its subsequen
 transfer remain unresolved. The study owns execution; it does not replace the
 enduring directive or reopen a completed study.
 
+**Continuation prepared — 28 September:** The user selected bounded experimental
+continuation and requested an instruction on the study's remote `main` for a new
+ancillary agent. The [handoff](https://github.com/alignment-farm/experience-guided-investigation/blob/121242ca597c607f06d9f9084d88b1fa90a458ff/CONTINUE.md)
+is committed and verified pushed at `121242c`. It carries the pilot qualifications,
+Astra investigator policy, complete acquisition, learner-grounded teaching, full
+source parity and fresh evaluation expectations. Methods remain study-owned.
+Preparation starts no experiment; the reviewed evidence boundary remains `47e5b28`.
+
 ## Question and starting point
 
 > When an agent already retains its working program, tests and source history,

@@ -837,7 +837,18 @@ qualified development record, while the original acquisition-and-transfer work
 remains open. The investigator's proposed interface and teaching diagnosis fits
 that remit; no new project or follow-up run is launched by root's review.
 The [local checkout](../../ancillary-studies/experience-guided-investigation/README.md)
-was still at preparation; a separate pinned clone supplied this review.
+was still at preparation at the September review; a separate pinned clone supplied
+that review.
+
+**Continuation prepared — 28 September:** The user selected the existing study
+for bounded continuation. Its [current instruction](https://github.com/alignment-farm/experience-guided-investigation/blob/121242ca597c607f06d9f9084d88b1fa90a458ff/CONTINUE.md)
+is verified on remote `main` at `121242c`, with a clean local clone. The handoff
+prioritizes functioning acquisition, actual learner experience with full ordinary
+source access, and fresh complete-task evaluation. It adds the Astra investigator
+policy and carries root's qualifications without rewriting pilot evidence or
+CC1–CC3. The user will assign the ancillary agent. No experiment was launched by
+this preparation, and `47e5b28` remains the experimental review boundary. EBM
+exploration proceeds independently.
 
 ### Evidence-set memory
 
