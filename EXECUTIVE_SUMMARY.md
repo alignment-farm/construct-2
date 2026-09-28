@@ -1,8 +1,8 @@
 # Construct-2: what we have learned about accumulating useful experience
 
-Executive summary · Findings and work status through 21 September 2026
+Executive summary · Ancillary findings through 21 September; root synthesis and selection through 28 September 2026
 
-Construct-2 asks how agents can accumulate useful experience across sessions, and where that experience should live: explicit memory, contextual lessons, executable tools, model weights or runtime rules. Fifteen ancillary investigations have completed reviewed phases, and a sixteenth has produced a qualified development pilot, alongside a review of public research. Our starting hypothesis already allowed these mechanisms to work together. The studies have sharpened the conditions under which that combination helps, and exposed several ways apparently successful learning can fail to produce useful capability.
+Construct-2 asks how agents can accumulate useful experience across sessions, and where that experience should live: explicit memory, contextual lessons, executable tools, model weights or runtime rules. Fifteen ancillary investigations have completed reviewed phases, a sixteenth has produced a qualified development pilot, and a seventeenth is newly commissioned, alongside a review of public research. Our starting hypothesis already allowed these mechanisms to work together. The studies have sharpened the conditions under which that combination helps, and exposed several ways apparently successful learning can fail to produce useful capability.
 
 **The clearest finding is that successful learning, durable usefulness and repayment of learning costs are separate achievements.** A system may acquire a pattern without completing the task, retain information without being able to use it, or improve predictions without outperforming a simpler alternative. Useful accumulated experience must improve complete future behavior or avoid work at comparable quality, while remaining accessible and correctable as the task and agent change.
 
@@ -26,6 +26,14 @@ without further model calls. A successful episode, a valid lesson and a reusable
 correct procedure require different evidence. This study compared curation and
 code repair together; it did not isolate lesson acceptance or test learned
 selection. [Lesson acceptance](studies/2026-09-20-lesson-acceptance-findings.md).
+
+The subsequent [root analysis](notes/OBSERVATION_BOUNDARIES.md) distinguishes
+testing an implementation from identifying its intended contract. If conflicting
+requirements produce identical available observations, more execution cannot
+settle which applies. Existing clarification methods narrow the next independent
+candidate to learning which evidence source to consult, beyond competent review
+and retained source answers. This is an analytical conclusion; its proposed
+comparison has no validated workload or new commission.
 
 **What remains for the model to do determines the value of learning.** With source
 experience externally accessible, an adapter improved manual configuration of
@@ -56,3 +64,12 @@ Together, the findings support evaluating memory as a maintained capability: ret
 The evidence is strongest within small, controlled workloads. Many supplied the task contract, identities, correction authority or routine selection. Positive cost comparisons omit some engineering work or leave stronger alternatives untested. Equal scores on small samples do not establish equal reliability, and the executable study does not isolate the value of its acquired lessons beyond the supplied contract and examples. We have not demonstrated an agent that independently recognizes recurring work, chooses what to learn and where to retain it, and reliably improves over an extended realistic job.
 
 The next evidential milestone is continuing practical capability: better complete outcomes or less total work across repeated use and consequential change, including acquisition, checking, failures and repair. The [experience-guided investigation](notes/CONTINUING_EXPERIENCE_STUDY.md) remains responsible for bounded acquisition diagnosis and fresh transfer; accepting its pilot does not complete that commission. Useful editing, complete repair and learning from actual attempts are the next evidential needs, with costs interpreted after capability. Broader migration, correction, consolidation and acceptance questions remain open. Root continues synthesis, literature and independent questions. The program's direction remains useful accumulated experience across sessions.
+
+On 28 September the user selected [evidence-set memory](notes/EVIDENCE_SET_MEMORY.md)
+as a new independent experimental area: can a small specialist learn to assemble
+compact evidence that improves later complete work and remains useful through
+change? Energy-based selection is one candidate. Close public precedents make
+competent set selection an essential alternative. Public assets support bounded
+retrieval/QA development, while the continuing-experience workload and learner
+acquisition remain to establish. This selection adds no experimental finding and
+does not change the existing investigation commission.

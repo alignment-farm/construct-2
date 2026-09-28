@@ -1,0 +1,27 @@
+{
+  "verified_utc": "2026-09-28T11:44:10.830423+00:00",
+  "scope": "Preparation and public-asset/scorer checks only; not treatment evidence",
+  "study_repository": "https://github.com/alignment-farm/evidence-set-memory",
+  "study_revision": "5a0e8f78ab9ee570dd69b80928f39aae4b72f481",
+  "remote_main_matches": true,
+  "study_tree_clean": true,
+  "repository_private": true,
+  "root_retrieval_hashes_verified": 8,
+  "root_replayed_study_asset_checks": {
+    "reconstructible_files_verified": 56,
+    "calibration_states": 500,
+    "inference_only_test_states": 500,
+    "musique_samples": 3,
+    "certificate_enumeration_and_scorer_self_checks": "passed",
+    "record": "../../../ancillary-studies/evidence-set-memory/sources/reconnaissance/check-results.json"
+  },
+  "new_record_local_file_links_verified": 20,
+  "registered_studies": 17,
+  "P105_through_P109_unique": true,
+  "unrelated_feedback_and_acceptance_edits_unchanged": true,
+  "root_prior_edits_preserved_with_overview_updates": true,
+  "root_diff_check": "passed",
+  "root_commit_created": false,
+  "participant_model_runs": 0,
+  "specialist_training_runs": 0
+}

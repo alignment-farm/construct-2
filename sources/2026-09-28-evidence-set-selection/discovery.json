@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-28",
+  "queries": [
+    "\"Energy-Based Transformers\" paper reasoning 2025",
+    "\"Structured Prediction Energy Networks\" Belanger McCallum",
+    "\"Hopfield Networks is All You Need\" memory attention",
+    "\"set\" \"reranking\" \"evidence\" multi hop retrieval set level arxiv",
+    "\"energy based\" \"retrieval\" \"multi-hop\" evidence",
+    "\"MuSiQue\" \"GitHub\" dataset official",
+    "\"BRIGHT\" reasoning intensive retrieval benchmark github",
+    "\"Retrieving a Set, Not Independent Passages\"",
+    "\"SERBench\" \"MSS-Complement\""
+  ],
+  "inspected_primary_sources": [
+    "https://logicalintelligence.com/blog/energy-based-models-for-reasoning",
+    "https://logicalintelligence.com/kona",
+    "https://logicalintelligence.com/aleph",
+    "https://proceedings.mlr.press/v48/belanger16.pdf",
+    "https://arxiv.org/html/2008.02217v3",
+    "https://arxiv.org/html/2507.02092v1",
+    "https://arxiv.org/html/2607.05712v1",
+    "https://arxiv.org/html/2609.20050v1"
+  ],
+  "screened_only": [
+    "https://github.com/xlang-ai/BRIGHT",
+    "https://brightbenchmark.github.io/"
+  ],
+  "limitations": "Targeted search, no comprehensive novelty claim. Secondary summaries and social posts supplied no supporting evidence. See README for section-level inspection and the ancillary report for artifact checks."
+}

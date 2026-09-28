@@ -3,6 +3,26 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [28 September evidence-set selection](2026-09-28-evidence-set-selection/README.md)
+adds P105–P109: structured energies, associative memory, EBTs and direct set-level
+retrieval/agent-evidence methods. It narrows the user-authorized new study to useful
+selection experience across later work, with a serious set-aware alternative.
+Pinned public-asset reconnaissance supports retrieval/QA development but supplies
+no validated continuing workload or model result. The
+[root commission](../notes/EVIDENCE_SET_MEMORY.md) records ES1–ES3 and independent
+ancillary ownership. Two API requests returned 406; exact-version primary HTML
+and published ICML text support the methods reading.
+
+The [23 September observation-boundaries reading](2026-09-23-observation-boundaries/README.md)
+adds SAGE-Agent, ClarEval and DiscoBench as P102–P104. Their clarification methods
+narrow the independent acceptance candidate to experience-informed evidence-source
+choice. The [root analysis](../notes/OBSERVATION_BOUNDARIES.md) explains an
+information limit: execution cannot identify an intended contract when all
+available execution observations are identical under conflicting requirements.
+Two API requests returned HTTP 406; exact-version primary HTML supplied the
+reading. This is theory and selection, with no new artifact validation, ancillary
+review boundary or experimental commission.
+
 The [21 September experience-investigation review](2026-09-21-experience-investigation-review/README.md)
 accepts `47e5b28` as pilot evidence with qualifications. Frozen-action replay
 reproduces failed branch transfer and exposes incomplete boolean-filter repairs

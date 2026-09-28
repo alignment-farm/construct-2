@@ -123,3 +123,12 @@ uncertainty is a candidate direction, not an available validated workload or a
 new commission. The broader acceptance question remains open. The investigator
 reported the prepared runtime dependency absent and used a stdlib instrument;
 this publication does not assess runtime integration.
+
+## Root refinement — 23 September
+
+The [observation-boundaries analysis](OBSERVATION_BOUNDARIES.md) explains when
+execution cannot resolve the remaining contract uncertainty, and adds three
+clarification-method precedents. This narrows a possible successor toward learned
+evidence-source choice beyond competent review and reuse of sourced answers.
+It is a completed root theory phase, not a validated workload or renewed study
+commission. Original LA1–LA3 and the bounded publication assessment remain intact.

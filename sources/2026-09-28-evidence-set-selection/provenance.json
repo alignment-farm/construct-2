@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-28",
+  "scope": "Root research selection, exact-version reading, and ancillary preparation",
+  "root_revision_at_start": "f68f34c",
+  "preexisting_work_preserved": true,
+  "session_id": "01a0e7b0-fe8a-7c53-a0a8-23dde8a9c170",
+  "investigator": {
+    "model": "gpt-6-astra",
+    "reasoning": "xhigh",
+    "provider": "openai",
+    "originator": "Codex Desktop",
+    "cli_version": "0.158.0-alpha.2.1",
+    "basis": "Current local session_meta and turn_context fields"
+  },
+  "asset_investigator": {
+    "model": "gpt-6-astra",
+    "reasoning": "medium",
+    "basis": "Explicit collaboration spawn configuration; fresh context",
+    "scope": "Bounded public artifact inspection; no model experiments"
+  },
+  "participant_runs": 0,
+  "specialist_training_runs": 0,
+  "investigator_cost": "not measured"
+}

@@ -273,3 +273,13 @@ explained cheap solution and direct-code comparison. A successor would need
 consequential uncertainty remaining after competent ordinary review and an
 observation capable of changing useful behavior. This is a research preference,
 not a validated workload, new commission or request to extend the runtime.
+
+## Observation boundary — 23 September
+
+[Which observation can justify reusing a lesson?](OBSERVATION_BOUNDARIES.md)
+separates a weak implementation check from missing evidence about which contract
+applies. An analytical limit and new clarification-method reading narrow the next
+independent candidate to learned choice of evidence source, including competent
+ordinary review and reuse of already sourced answers. AD1 remains empirically
+untested. This root conclusion neither reopens the remedy-feasibility/acceptance
+phases nor commissions a selector or another experiment.

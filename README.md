@@ -11,6 +11,26 @@ The [source guide](sources/README.md) links the literature review, and the [stud
 
 Contributors can use the [repository list](studies/repos.txt) and [clone instructions](studies/README.md#cloning-the-studies) to retrieve all ancillary studies or select them by name.
 
+**New experimental commission — 28 September:**
+[Evidence-set memory](notes/EVIDENCE_SET_MEMORY.md) asks whether a small specialist
+can learn from earlier experience to assemble compact, sufficient evidence for
+later complete work, including consequential change. Energy-based selection is
+one candidate. New public methods require a competent set-aware alternative;
+ordinary ranking alone is insufficient. The independent
+[study](https://github.com/alignment-farm/evidence-set-memory) owns bounded workload
+and acquisition development. Public-asset reconnaissance supplies feasible
+retrieval/QA diagnostics, not a validated continuing workload or model result.
+The existing experience-guided investigation commission remains open.
+
+**Latest root conclusion — 23 September:**
+[Observation boundaries](notes/OBSERVATION_BOUNDARIES.md) distinguishes testing
+an implementation from resolving its intended contract. When available probes
+cannot distinguish conflicting requirements, more execution cannot settle which
+one applies. New clarification-method reading narrows the independent candidate
+to learning which evidence source to consult, beyond competent review and reuse
+of sourced answers. This is theory and research selection; workload feasibility
+remains open and no experiment is commissioned.
+
 **Latest reviewed publication — 21 September:**
 [Experience-guided investigation](studies/2026-09-21-experience-investigation-findings.md) at `47e5b28` supplies a reviewed
 pilot, with acquisition and transfer still unresolved. Both branch arms leave
@@ -94,7 +114,7 @@ remain untested; the supplied executable completes 96/96. Original
 [EU1–EU3 predictions and assessments](notes/EVIDENCE_USE.md) remain identifiable.
 No follow-up experiment is commissioned.
 
-Current work prioritizes neural memory, live weight updates, and learned memory policies. Fifteen ancillary projects have completed reviewed phases; a sixteenth has published a qualified development pilot. Update-source selection established reproducible local adapter updates without a task-success advantage in its final full-context comparison. Procedure acquisition and reuse found that its tested adapter transferred less reliably than retained examples and did not demonstrate acquisition-cost repayment at comparable useful accuracy. [Neural memory depth](https://github.com/alignment-farm/neural-memory-depth/blob/main/FINDINGS.md) ([local](../ancillary-studies/neural-memory-depth/FINDINGS.md)) found that interactions among initial representations and training streams strongly affect whether a tiny deeper memory learns full or partial recall. Correcting a verified derivative omission and increasing gradient-refresh frequency did not provide a uniform remedy; the differing published depth trends in Titans and Modular TTT remain unexplained.
+Current work prioritizes neural memory, live weight updates, and learned memory policies. Fifteen ancillary projects have completed reviewed phases; experience-guided investigation has published a qualified development pilot, and evidence-set memory is newly commissioned for bounded development. Update-source selection established reproducible local adapter updates without a task-success advantage in its final full-context comparison. Procedure acquisition and reuse found that its tested adapter transferred less reliably than retained examples and did not demonstrate acquisition-cost repayment at comparable useful accuracy. [Neural memory depth](https://github.com/alignment-farm/neural-memory-depth/blob/main/FINDINGS.md) ([local](../ancillary-studies/neural-memory-depth/FINDINGS.md)) found that interactions among initial representations and training streams strongly affect whether a tiny deeper memory learns full or partial recall. Correcting a verified derivative omission and increasing gradient-refresh frequency did not provide a uniform remedy; the differing published depth trends in Titans and Modular TTT remain unexplained.
 
 [Procedure transfer](https://github.com/alignment-farm/procedure-transfer/blob/main/FINDINGS.md) ([local](../ancillary-studies/procedure-transfer/FINDINGS.md)) first found poor distillation acquisition and partial transfer through imitation. Its subsequent [diagnosis](https://github.com/alignment-farm/procedure-transfer/blob/main/DIAGNOSIS.md) ([local](../ancillary-studies/procedure-transfer/DIAGNOSIS.md)) establishes a working forward-KL acquisition checkpoint and a controlled repair of failed routing from identical weights. Both selected learners route all 48 new development calls correctly, while identifier production remains unreliable. These diagnostic results explain part of the original failure without establishing a forward-KL transfer advantage. The [root assessment](studies/README.md#procedure-transfer-acquisition-diagnosis) records the evidence, checks and limits.
 
@@ -117,8 +137,10 @@ The [third-phase root assessment, 15 September](studies/2026-09-15-maintenance-f
 
 S5 now includes an [accepted placement comparison](studies/2026-09-16-placement-findings.md) alongside the earlier [acquisition, use and maintenance measurements](studies/2026-09-15-maintenance-findings.md#assessment-of-the-prospective-expectations). None demonstrates learning-cost repayment against competent explicit alternatives at comparable complete quality. The placement study shares visible evidence across methods; earlier references have different supplied structures and privileges. The later evidence-use result adds a favorable measured comparison against an uncached lesson, qualified above. These results do not establish a universal ranking of weights, records and executable rules.
 
-**Current work — 21 September 2026:** Sixteen studies are registered. Fifteen have
-completed reviewed phases; [experience-guided investigation](studies/README.md#experience-guided-investigation)
+**Current work — 28 September 2026:** Seventeen studies are registered.
+[Evidence-set memory](notes/EVIDENCE_SET_MEMORY.md) is newly commissioned and
+prepared, with artifact reconnaissance complete and model acquisition untested.
+Fifteen have completed reviewed phases; [experience-guided investigation](studies/README.md#experience-guided-investigation)
 has published a development pilot, reviewed with qualifications. Its original
 acquisition-and-transfer commission remains open. The next useful work within
 that remit is bounded diagnosis of editing, complete repair, and teaching from

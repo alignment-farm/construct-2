@@ -1,0 +1,21 @@
+{
+  "retrieved_utc": "2026-09-23T19:09:41.070719+00:00",
+  "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Structured+Uncertainty%22+OR+ti%3AClarEval+OR+ti%3A%22Oracle+Problem%22+OR+ti%3ADiscoBench&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+  "user_agent": "Construct-2 research (lesson observation boundaries; cached metadata)",
+  "request_policy": "Single connection; at least 3 seconds between arXiv API requests; stop on rate limit.",
+  "status": 406,
+  "headers": {
+    "Connection": "close",
+    "cache-control": "private, no-store",
+    "Accept-Ranges": "bytes",
+    "Via": "1.1 varnish, 1.1 varnish",
+    "Date": "Wed, 23 Sep 2026 19:09:41 GMT",
+    "X-Served-By": "cache-lga-kjfk8660079-LGA, cache-lga-kjfk8660046-LGA, cache-mia-kfll1870066-MIA",
+    "X-Cache": "MISS, MISS",
+    "X-Cache-Hits": "0, 0",
+    "X-Timer": "S1790190581.310368,VS0,VE45",
+    "Strict-Transport-Security": "max-age=300",
+    "transfer-encoding": "chunked"
+  },
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

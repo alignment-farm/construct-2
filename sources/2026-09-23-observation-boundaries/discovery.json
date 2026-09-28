@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-23",
+  "web_discovery_queries": [
+    "agent memory lesson validation uncertainty specification clarification test oracle",
+    "\"arxiv\" \"Clarification\" \"agents\" benchmark",
+    "\"The Oracle Problem in Software Testing\" survey arxiv",
+    "site:arxiv.org \"ClarEval\"",
+    "site:arxiv.org \"Structured Uncertainty Guided Clarification\"",
+    "\"Learning regular sets from queries and counterexamples\" author pdf",
+    "\"ClarEval\" \"arxiv.org/abs\"",
+    "\"DiscoBench\" \"arxiv.org\""
+  ],
+  "inspected_primary_versions": [
+    "2511.08798v1",
+    "2603.00187v1",
+    "2606.27669v1"
+  ],
+  "discovery_leads_only": [
+    {
+      "title": "The Oracle Problem in Software Testing: A Survey",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/1471263/",
+      "scope": "Repository metadata and abstract; no PDF inspection."
+    },
+    {
+      "title": "Learning regular sets from queries and counterexamples",
+      "url": "https://www.sciencedirect.com/science/article/pii/0890540187900526",
+      "scope": "Search-result metadata/abstract only; no full methods or proof inspection."
+    }
+  ],
+  "scope": "Targeted lead-following, not a systematic literature review. Third-party discovery pages were not used as methods evidence. Exact versions read are not asserted to be the latest."
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://arxiv.org/html/2511.08798v1",
+    "version": "2511.08798v1",
+    "retrieved_utc": "2026-09-23T19:11:20.516663+00:00",
+    "status": 200,
+    "headers": {
+      "Connection": "close",
+      "Content-Length": "878528",
+      "etag": "\"CJHNwNqAupYDEAE=\"",
+      "x-robots-tag": "nofollow",
+      "access-control-allow-origin": "*",
+      "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+      "content-type": "text/html; charset=utf-8",
+      "last-modified": "Mon, 24 Aug 2026 19:32:18 GMT",
+      "server": "Google Frontend",
+      "link": "<https://arxiv.org/html/2511.08798>; rel='canonical'",
+      "Accept-Ranges": "bytes",
+      "Age": "512094",
+      "Date": "Wed, 23 Sep 2026 19:11:20 GMT",
+      "X-Served-By": "cache-lga21989-LGA, cache-lga21989-LGA, cache-lga21959-LGA, cache-mia-kfll1870024-MIA",
+      "X-Cache": "MISS, HIT, HIT",
+      "X-Timer": "S1790190681.701667,VS0,VE37"
+    },
+    "cache_path": ".cache/2026-09-23-observation-boundaries/2511.08798v1.html",
+    "sha256": "6b5966efdcca4d17c34f3551086e77be78a3403de863d4bf67ba20ae0fe6c78a",
+    "bytes": 878528
+  },
+  {
+    "url": "https://arxiv.org/html/2603.00187v1",
+    "version": "2603.00187v1",
+    "retrieved_utc": "2026-09-23T19:11:20.988170+00:00",
+    "status": 200,
+    "headers": {
+      "Connection": "close",
+      "Content-Length": "314810",
+      "access-control-allow-origin": "*",
+      "content-type": "text/html; charset=utf-8",
+      "link": "<https://arxiv.org/html/2603.00187>; rel='canonical'",
+      "server": "Google Frontend",
+      "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+      "last-modified": "Mon, 24 Aug 2026 20:51:13 GMT",
+      "etag": "\"CKG1r6ySupYDEAE=\"",
+      "x-robots-tag": "nofollow",
+      "Accept-Ranges": "bytes",
+      "Age": "181438",
+      "Date": "Wed, 23 Sep 2026 19:11:21 GMT",
+      "X-Served-By": "cache-lga-kjfk8660033-LGA, cache-lga-kjfk8660033-LGA, cache-lga-kjfk8660033-LGA, cache-mia-kfll1870024-MIA",
+      "X-Cache": "MISS, HIT, HIT",
+      "X-Timer": "S1790190681.093212,VS0,VE1"
+    },
+    "cache_path": ".cache/2026-09-23-observation-boundaries/2603.00187v1.html",
+    "sha256": "5bf70711102d84c92a3fadd874b66ce335177ef6769f16e5085635f18f6352a5",
+    "bytes": 314810
+  },
+  {
+    "url": "https://arxiv.org/html/2606.27669v1",
+    "version": "2606.27669v1",
+    "retrieved_utc": "2026-09-23T19:11:21.240171+00:00",
+    "status": 200,
+    "headers": {
+      "Connection": "close",
+      "Content-Length": "511305",
+      "last-modified": "Mon, 24 Aug 2026 19:50:37 GMT",
+      "content-type": "text/html; charset=utf-8",
+      "link": "<https://arxiv.org/html/2606.27669>; rel='canonical'",
+      "x-robots-tag": "nofollow",
+      "etag": "\"CIL03uaEupYDEAE=\"",
+      "access-control-allow-origin": "*",
+      "server": "Google Frontend",
+      "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+      "Accept-Ranges": "bytes",
+      "Age": "532605",
+      "Date": "Wed, 23 Sep 2026 19:11:21 GMT",
+      "X-Served-By": "cache-lga-kjfk8660073-LGA, cache-lga-kjfk8660073-LGA, cache-lga-kjfk8660046-LGA, cache-mia-kmia1760055-MIA",
+      "X-Cache": "MISS, HIT, MISS",
+      "X-Timer": "S1790190681.384018,VS0,VE37"
+    },
+    "cache_path": ".cache/2026-09-23-observation-boundaries/2606.27669v1.html",
+    "sha256": "50e1b5196fd354693ed73946b9cc53be23c7654c0165fafde6a44d0f464edb23",
+    "bytes": 511305
+  }
+]

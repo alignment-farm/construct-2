@@ -14,3 +14,4 @@ alignment-farm/correction-lineage
 alignment-farm/weight-consolidation
 alignment-farm/lesson-acceptance
 alignment-farm/experience-guided-investigation
+alignment-farm/evidence-set-memory
