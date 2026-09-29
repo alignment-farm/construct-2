@@ -1,0 +1,39 @@
+{
+  "utc": "2026-09-29T00:51:15.472043+00:00",
+  "authorization": "User: good selection, continue. Following approval of bounded intervention-choice feasibility recommendation.",
+  "root_starting_head": "275de307ad4d61479df60dfee4c93246f54083b3",
+  "root_source_links_pinned_to_published_commit": "c6aebb4422134b4529d4226aa3a6788367fb5973",
+  "root_current_head_not_on_remote": "Verified GitHub commit lookup returned HTTP 422; preserved local root work and used byte-identical historical assessments at published commit.",
+  "study": {
+    "defaultBranchRef": {
+      "name": "main"
+    },
+    "isPrivate": true,
+    "nameWithOwner": "alignment-farm/intervention-choice-transfer",
+    "url": "https://github.com/alignment-farm/intervention-choice-transfer"
+  },
+  "local_directory": "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/intervention-choice-transfer",
+  "prepared_commit": "3cabc29aa1b784ec8a9129c568224d90badb9cd6",
+  "remote_main": "3cabc29aa1b784ec8a9129c568224d90badb9cd6",
+  "upstream": "origin/main",
+  "worktree_clean": true,
+  "files_sha256": {
+    "README.md": "44cacef2bdbad1f229c0351fd958e545a3d2f4f6b1f23ce5e3bc59062ca36c1f",
+    ".gitignore": "3678fa9cace607fa1a6135c5f897eeaff200bee8bab4b9469eeb29432ee5033c",
+    "BACKGROUND.md": "1e87cc7b5cccc025b48549fa9398fd71b2f511f9471000678c3a6ef7fcd407eb",
+    "AGENTS.md": "74834c13a1d798713a0090083866e8c161268fe854b78e87088cd13867c842c6",
+    "START.md": "f536ff9b04f3e848b97e8d4aa973949f87deea4a65421310be0b01d288eb6809"
+  },
+  "investigator_policy": "gpt-6-astra; actual reasoning setting and provenance required",
+  "preparer": {
+    "model": "gpt-6-astra",
+    "effort": "xhigh",
+    "provider": "openai",
+    "harness": "Codex Desktop",
+    "cli_version": "0.158.0-alpha.2.1"
+  },
+  "agent_session_started": false,
+  "experiments_started": false,
+  "public_code_executed": false,
+  "root_committed_or_pushed_in_this_phase": false
+}

@@ -1,0 +1,931 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ScVuOQ2Vk3moTvXDFvTaXufN0D8</id>
+  <title>arXiv Query: search_query=ti:Ecdysis OR ti:"Modular RSI" OR ti:"Recursive Self-Improvement" OR (abs:agent AND abs:"intervention selection")&amp;id_list=&amp;start=0&amp;max_results=18</title>
+  <updated>2026-09-29T00:21:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:Ecdysis+OR+(ti:%22Modular+RSI%22+OR+(ti:%22Recursive+Self-Improvement%22+OR+(abs:agent+AND+abs:%22intervention+selection%22)))&amp;start=0&amp;max_results=18&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>18</opensearch:itemsPerPage>
+  <opensearch:totalResults>48</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.31186v1</id>
+    <title>Evolutionary Safety of Recursive Self-Improving AI: Taxonomy, Risk Discovery, and Evaluation</title>
+    <updated>2026-09-25T12:17:10Z</updated>
+    <link href="https://arxiv.org/abs/2609.31186v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.31186v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial intelligence is advancing rapidly, with increasingly capable systems taking larger roles in reasoning, decision-making, scientific discovery, and autonomous development. As AI begins to participate in its own improvement, from model training and experience accumulation to agent evolution and automated AI development, the prospect of recursive self-improvement (RSI) is becoming increasingly relevant. This transition raises a fundamental safety question: how can safety be maintained when the system, its accumulated experience, and even the process producing its successors continue to change?
+  We introduce Evolutionary Safety as a perspective for studying safety under persistent and recursive self-improvement. It concerns not only whether an AI system is safe at a particular moment, but how safety properties change, persist, accumulate, and propagate throughout evolution. We characterize recurring manifestations, including intent drift, error accumulation, experience contamination, safety-property erosion, evaluator drift, and risk propagation. We then develop a taxonomy spanning persistent agent state, model state, evaluation and environmental feedback, computational substrate, and meta-level update mechanisms. Building on this taxonomy, we examine how evolutionary risks can be discovered and evaluated across states, updates, trajectories, and lineages, and derive governance principles for modification, selection, authorization, provenance, and recovery. Finally, we outline open problems toward maintaining safety guarantees as AI systems become increasingly persistent, adaptive, and recursively self-improving. Project resources and proposed evaluation systems are available at https://chaunceykung.github.io/evolutionary-safety-rsi.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-25T12:17:10Z</published>
+    <arxiv:comment>25 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chang Gong</name>
+    </author>
+    <author>
+      <name>Jingping Bi</name>
+    </author>
+    <author>
+      <name>Di Yao</name>
+    </author>
+    <author>
+      <name>Xinjian Liang</name>
+    </author>
+    <author>
+      <name>Chao Xiang</name>
+    </author>
+    <author>
+      <name>Ruijie Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.30652v1</id>
+    <title>Recursive Self-Improvement via On-Policy Distillation for Reasoning</title>
+    <updated>2026-09-25T00:42:31Z</updated>
+    <link href="https://arxiv.org/abs/2609.30652v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.30652v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On-policy distillation (OPD) trains a student model by having it generate trajectories, then matching its next-token predictions with an external teacher's next-token predictions. This provides dense, token-level supervision to the student. On-policy self-distillation (OPSD) eliminates the need for the external teacher. Specifically, a second frozen copy of the student model, now given the ground truth in its context, serves as the teacher. The student model only receives the problem and learns to mimic the privileged teacher model, while the teacher remains frozen throughout training. Previous work showed that freezing the teacher is useful for training stability, but we argue that this can prevent the teacher from incorporating the improvements learned by the student during training. Our primary contribution is to address this limitation with a recursive framework built around two complementary components. First, we let the privileged teacher co-evolve with the student so that revision learned in one round can guide the next, a process we refer to as Dynamic Co-Evolution (DCE). Second, because stronger revision can also make responses too verbose and self-critical, we additionally train on shorter, verified rewrites of the model's own on-policy responses. We call this complementary objective Self-Refined Concise Learning (SRCL). Overall, our comprehensive evaluations show that DCE+SRCL outperforms OPSD across multiple model scales and four competition-level mathematics benchmarks. Specifically, on Qwen3-8B, DCE+SRCL reaches 65.97% Average@12, outperforming OPSD by 35.62 percentage points while reducing mean output length by 7.80% relative to DCE alone.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-25T00:42:31Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shangjian Yin</name>
+    </author>
+    <author>
+      <name>Zehao Zhao</name>
+    </author>
+    <author>
+      <name>Kavosh Asadi</name>
+    </author>
+    <author>
+      <name>Rui Liu</name>
+    </author>
+    <author>
+      <name>Yuchen Lu</name>
+    </author>
+    <author>
+      <name>Shike Mei</name>
+    </author>
+    <author>
+      <name>Hang Cui</name>
+    </author>
+    <author>
+      <name>Luke Simon</name>
+    </author>
+    <author>
+      <name>Zhouxing Shi</name>
+    </author>
+    <author>
+      <name>Hamed Firooz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.29773v1</id>
+    <title>Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement</title>
+    <updated>2026-09-24T13:17:57Z</updated>
+    <link href="https://arxiv.org/abs/2609.29773v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.29773v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many real-world tasks (e.g., office workflows, scientific experimentation) require LLM agents to interact repeatedly with their environments for context-dependent operations. However, such environments are often not agent-ready. First, information is often scattered and fragmented across the environment. Second, relevant evidence in the environment is often mixed with misleading information and conflicting versions. Third, environments evolve over time, introducing new noise and more challenging tasks. These challenges can substantially degrade performance for state-of-the-art AI agents (e.g., from 83.9% to 57.6%). To address these challenges, we propose Env-Rethink (a system with 27B post-trained model) that supports three main capabilities: (1) It adaptively builds Collection Maps (for organizing related files) and Event Logs (for contextualizing cross-data relationships) to supplement necessary context; (2) It further leverages the post-trained model (through offline trajectory learning) to identify underlying noise issues in the environment; (3) It ultimately evolves environments through virtual event histories that alter environmental states and evidence relationships, producing more tricky ones for further agent improvement. Experiments show that Env-Rethink can effectively improve downstream task performance (with over 15.1% rubric pass rate improvement across nine models on 30 tasks).</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-24T13:17:57Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yukai Wu</name>
+    </author>
+    <author>
+      <name>Yuanjing Yang</name>
+    </author>
+    <author>
+      <name>Le Zhou</name>
+    </author>
+    <author>
+      <name>Shaokun Han</name>
+    </author>
+    <author>
+      <name>Haoyu Wang</name>
+    </author>
+    <author>
+      <name>Zirui Tang</name>
+    </author>
+    <author>
+      <name>Weihuang Zheng</name>
+    </author>
+    <author>
+      <name>Maxm Pan</name>
+    </author>
+    <author>
+      <name>Xuanhe Zhou</name>
+    </author>
+    <author>
+      <name>Fan Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.27612v1</id>
+    <title>RegenHarness: A Robot Agent Harness with Evidence-Gated Recursive Self-Improvement</title>
+    <updated>2026-09-23T09:29:04Z</updated>
+    <link href="https://arxiv.org/abs/2609.27612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.27612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-horizon robot execution requires a clear distinction between a model's proposal, a controller's termination, and verified task completion. We present RegenHarness, an evidence-gated robot-agent harness connecting task planning to heterogeneous robot skills. Its execution architecture couples a model loop for context-conditioned proposals with an agent loop for dispatch, observation, verification, commitment, and bounded recovery. Four role-isolated contexts separate planning, supervision, verification, and recovery inputs. Versioned memory distinguishes observed facts from accepted task progress, while an identity- and version-bound commit gate controls updates to trusted task state. The runtime combines duplicate-dispatch control, resource leases, and recovery budgets under explicit backend contracts, and checks the original user goal before reporting completion. To our knowledge, we are the first to introduce an evidence-gated recursive self-improvement (RSI) protocol for embodied robotic agents. Across missions, execution records motivate candidate changes to context rules, task templates, routing, and recovery policies; fixed regression checks and release authorization govern their acceptance; versioned rollout and rollback preserve configuration traceability. This RSI protocol revises the harness configuration without online model-weight updates or permission to weaken the commit gate. A real quadruped deployment documents voice-triggered warehouse navigation, panoramic inspection, visual analysis, message delivery, return, and spoken reporting through linked audio, images, trajectories, and receipts. A separate circuit demonstrates why completion depends on execution history rather than endpoint proximity alone. Together, the cases demonstrate integrated perception, physical execution, communication, and history-dependent completion in real-world robot tasks.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-23T09:29:04Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Kailin Wang</name>
+    </author>
+    <author>
+      <name>Haoxiang Jie</name>
+    </author>
+    <author>
+      <name>Yaoyuan Yan</name>
+    </author>
+    <author>
+      <name>Zhiyou Heng</name>
+    </author>
+    <author>
+      <name>Zhaosong Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.27389v1</id>
+    <title>EvoAudio: Recursive Self-Improvement for Audio Understanding</title>
+    <updated>2026-09-23T05:45:11Z</updated>
+    <link href="https://arxiv.org/abs/2609.27389v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.27389v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Audio language models understand what is said far better than how it sounds. Closing this gap takes more than data. Detailed acoustic annotation is costly, labels from stronger models inherit their errors and limits, and fixed data cannot adapt as the learner improves. We therefore propose EvoAudio, a recursive self-improvement system for audio understanding. To our knowledge, it is the first to evolve the model, waveforms, questions, and difficulty in one closed loop. EvoAudio uses the current model's performance to set the focus and difficulty of the next training data. A library of audio tools then constructs questions whose answers follow from how the audio was made, providing verifiable supervision without new human annotation. Reinforcement learning updates the model, and validation decides whether it enters the next evolution round. Across 13 rounds, EvoAudio improves five models with different audio encoders and language backbones on MMSU, MMAU-Pro, and MMAR. It achieves the highest average for every backbone, raising overall performance by up to 6.3 points. The improvement unfolds over successive rounds, with each stronger model starting the next round.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-23T05:45:11Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Yuxiang Wang</name>
+    </author>
+    <author>
+      <name>Shengbo Cai</name>
+    </author>
+    <author>
+      <name>Yingda Shen</name>
+    </author>
+    <author>
+      <name>Ming-Hao Hsu</name>
+    </author>
+    <author>
+      <name>Qinke Ni</name>
+    </author>
+    <author>
+      <name>Liqiang Zhang</name>
+    </author>
+    <author>
+      <name>Teddy Sun</name>
+    </author>
+    <author>
+      <name>Steve Yevs</name>
+    </author>
+    <author>
+      <name>Zhizheng Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.26457v1</id>
+    <title>Recursive self-improvement of AI research agents</title>
+    <updated>2026-09-22T14:12:13Z</updated>
+    <link href="https://arxiv.org/abs/2609.26457v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.26457v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agents are beginning to automate research and development across the AI stack, from improving training efficiency to optimizing inference. A natural next step is to improve the research efficiency of the agents themselves. When an AI research agent's own code is the object of optimization, each accepted rewrite becomes the agent that the next round edits. We refer to this loop as recursive self-improvement. Its significance lies in a long-standing trend, in which increased cumulative spending on R&amp;D yields diminishing returns. Sustained self-improvement offers a way to counter this trend. We present AIDE^2, a system that implements this loop for a frontier AI research agent. It proposes changes to its own code, benchmarks modified versions of itself on a suite of AI R&amp;D tasks, and keeps the changes that perform best on hidden evaluations. In an autonomous 8-day run, AIDE^2 discovered seven successive improvements, ranging from a new search policy to memory mechanisms that compress and manage the agent's growing context. These gains generalize to four held-out benchmarks spanning machine learning engineering, heuristic algorithm engineering, and physics-based weather forecasting, the last of which is out of distribution from the selection tasks. On all four, the strongest discovered agent matches or exceeds a human-engineered production research agent that ranks among the strongest on FML-Bench. On a separate held-out task family, the discovered agents also exhibit reduced reward hacking, a property the loop never explicitly optimized for: the rate falls from 55% to 32% during the run, 7 percentage points below the human-engineered agent. Together, these results show that an AI research agent can improve its own research efficiency through recursive self-improvement, and that these gains transfer to tasks and domains the loop never encountered.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-22T14:12:13Z</published>
+    <arxiv:comment>28 pages, 10 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dhruv Srikanth</name>
+    </author>
+    <author>
+      <name>Bingchen Zhao</name>
+    </author>
+    <author>
+      <name>Dixing Xu</name>
+    </author>
+    <author>
+      <name>Yuxiang Wu</name>
+    </author>
+    <author>
+      <name>Zhengyao Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.24972v2</id>
+    <title>RRSI: Regularized Recursive Self-Improvement of Agent Harnesses</title>
+    <updated>2026-09-23T22:10:39Z</updated>
+    <link href="https://arxiv.org/abs/2609.24972v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.24972v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-distribution gains that shrink or even vanish on out-of-distribution benchmarks. We introduce Regularized Recursive Self-Improvement of Agent Harnesses (RRSI), which incorporates the principles of regularizations into harness self-improvement by constraining the evolution candidate proposal and selection. The proposer operates with a temporally annealed budget, limiting how many edits a candidate can bundle, and it encourages unexplored trajectories based on evolution history. The selector is equipped with a critic and a pruner: the critic screens benchmark-specific proposals, while the pruner, removes changes that are too small, too expensive, or no longer useful. Together these constraints favor reusable agent mechanisms over benchmark-specific ones or even noises. Across eight benchmarks spanning coding, agentic workspace and engineering design tasks, RRSI gains up to 14.1 points on the split it evolves against and up to 4.7 points on the five out-of-distribution benchmarks, while producing a harness that runs on 30% fewer policy tokens than the unregularized evolution. Code is available at https://github.com/google-research/rrsi and project page is https://regularized-rsi.com/.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-21T17:54:49Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Peng Xia</name>
+    </author>
+    <author>
+      <name>Rujun Han</name>
+    </author>
+    <author>
+      <name>Zifeng Wang</name>
+    </author>
+    <author>
+      <name>Yanfei Chen</name>
+    </author>
+    <author>
+      <name>Yufan Zhuang</name>
+    </author>
+    <author>
+      <name>Yoonho Lee</name>
+    </author>
+    <author>
+      <name>Chengsong Huang</name>
+    </author>
+    <author>
+      <name>Han Yu</name>
+    </author>
+    <author>
+      <name>Zhongying CuiZhu</name>
+    </author>
+    <author>
+      <name>Yifei Ming</name>
+    </author>
+    <author>
+      <name>Huaxiu Yao</name>
+    </author>
+    <author>
+      <name>Burak Gokturk</name>
+    </author>
+    <author>
+      <name>Tomas Pfister</name>
+    </author>
+    <author>
+      <name>Chen-Yu Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.24838v1</id>
+    <title>MedRSI: Recursive Self-Improvement for Medical Agents via Clinically Aligned Self-Evolution</title>
+    <updated>2026-09-21T16:19:33Z</updated>
+    <link href="https://arxiv.org/abs/2609.24838v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.24838v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Medical agents increasingly combine general reasoning models with specialized clinical tools, yet their capabilities remain largely fixed by what clinicians and engineers design before deployment. Recursive self-improvement (RSI) offers a different paradigm in which agents learn from their own failures and autonomously expand their capabilities, but directly applying RSI to medicine introduces fundamental safety challenges. We introduce MedRSI, the first recursive self-improvement framework for medicine, which continuously transforms diagnostic failures into new clinical capabilities through tool composition and task-specific model training. Inspired by clinical practice, MedRSI introduces two mechanisms for clinically aligned self-evolution. Clinical-cost-aware failure prioritization directs improvement toward errors according to their potential clinical consequences rather than frequency alone. Fast discovery with slow registration separates rapid capability invention from conservative adoption, allowing new tools to enter the persistent agent only after demonstrating sustained benefit across subsequent patient cohorts. Across public glaucoma and heart disease benchmarks and two private clinical tasks, MedRSI progressively develops segmentation, measurement, prediction, multimodal reasoning, and generative capabilities, surpasses manually engineered medical agents, and autonomously discovers solutions to clinical problems not anticipated by its original designers. Our results show that medical agents need not remain constrained by capabilities specified before deployment: with clinically grounded mechanisms governing what to improve and what to retain, they can continuously construct, validate, and accumulate new capabilities from diagnostic experience. Code is available at https://github.com/ImprintLab/MedRSI.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-21T16:19:33Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Junde Wu</name>
+    </author>
+    <author>
+      <name>Jiayuan Zhu</name>
+    </author>
+    <author>
+      <name>Minghao Hu</name>
+    </author>
+    <author>
+      <name>Fenglin Liu</name>
+    </author>
+    <author>
+      <name>Jiazhen Pan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.17523v1</id>
+    <title>ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents</title>
+    <updated>2026-09-15T17:55:28Z</updated>
+    <link href="https://arxiv.org/abs/2609.17523v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.17523v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution evidence into tasks and evaluation rubrics for continual learning. At its core is recursive-in-recursive self-improvement, a paradigm that couples harness evolution with model reinforcement learning: the inner recursion improves the harness with the model fixed, while the outer recursion trains the model under the improved harness. Harness evolution shapes training experience, and model learning creates new opportunities for harness adaptation. We present case studies of researcher interaction, harness refinement, and model learning, with the benchmark cases spanning four scientific task families. By releasing ScienceBuddy as a research product, we make this paradigm available to the scientific community and take a step toward discovery intelligence: scientific AI that advances through sustained collaboration with researchers and evolves alongside the research it supports. Website: http://science-buddy.io</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-15T17:55:28Z</published>
+    <arxiv:comment>Website: http://science-buddy.io, Code: https://github.com/Gen-Verse/ScienceBuddy-RSI</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shuhan Xue</name>
+    </author>
+    <author>
+      <name>Jianyuan Zhong</name>
+    </author>
+    <author>
+      <name>Ziyuan Nan</name>
+    </author>
+    <author>
+      <name>Wenbin Li</name>
+    </author>
+    <author>
+      <name>Zhaochen Yu</name>
+    </author>
+    <author>
+      <name>Jinchao Ding</name>
+    </author>
+    <author>
+      <name>Qiang Gao</name>
+    </author>
+    <author>
+      <name>Pengyu Zhan</name>
+    </author>
+    <author>
+      <name>Yuntong Zhang</name>
+    </author>
+    <author>
+      <name>Tian Cheng</name>
+    </author>
+    <author>
+      <name>Zhenfei Yin</name>
+    </author>
+    <author>
+      <name>Yingcheng Wu</name>
+    </author>
+    <author>
+      <name>Ling Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.15802v1</id>
+    <title>The Economics of Recursive Self-Improvement</title>
+    <updated>2026-09-14T16:12:25Z</updated>
+    <link href="https://arxiv.org/abs/2609.15802v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.15802v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We model the economics of recursive self-improvement (RSI) and assess its plausibility and impacts. First, we build a sequence of increasingly rich models of AI progress to highlight the feedback loops behind RSI. We represent our models as directed graphs and show that net acceleration in AI capabilities depends on the product of elasticities across each feedback loop. Second, we distinguish between "narrow" and "broad" AI capabilities, capturing the possibility that AI systems improve narrowly at optimizing AI R&amp;D benchmarks without improving at broader economically valuable tasks. Third, we document existing estimates of key parameters and provide a wish list of empirical objects that AI companies can measure and feasibly share publicly. Finally, we calibrate the model with existing data. A back-of-the-envelope calculation suggests that feedback loops are not currently strong enough to generate a self-sustaining acceleration, though they appear to be strengthening. We conclude by assessing the plausibility and implications of such an acceleration.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-14T16:12:25Z</published>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Tom Cunningham</name>
+    </author>
+    <author>
+      <name>Lukas Althoff</name>
+    </author>
+    <author>
+      <name>Basil Halperin</name>
+    </author>
+    <author>
+      <name>Brian Jabarian</name>
+    </author>
+    <author>
+      <name>Andrew Koh</name>
+    </author>
+    <author>
+      <name>Arjun Ramani</name>
+    </author>
+    <author>
+      <name>Phil Trammell</name>
+    </author>
+    <author>
+      <name>Parker Whitfill</name>
+    </author>
+    <author>
+      <name>Cheryl Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.15364v2</id>
+    <title>RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments</title>
+    <updated>2026-09-18T21:46:52Z</updated>
+    <link href="https://arxiv.org/abs/2609.15364v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.15364v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Digital agents must often adapt to new environments whose interfaces, tools, and failure modes are not fully captured by pretrained models. We introduce \textbf{RSIAgent}, a training-free multi-agent framework for recursive self-improvement through autonomous memory construction. RSIAgent coordinates curriculum, actor, and verifier agents to continually explore the environment, validate outcomes, and retain environment-specific knowledge, including reusable causal relationships between actions, conditions, and consequences. It further adopts a \textbf{broad-then-deep} exploration strategy, combining parallel broad recursive self-exploration for discovering diverse environment structures with focused deep self-exploration for uncovering hard cases, hidden constraints, boundary conditions, and previously unknown causal dependencies. The resulting memory is frozen and can be directly reused for downstream tasks without updating model parameters. Experiments on OSWorld-v2 and Agent's Last Exam show that RSIAgent substantially improves strong open-source models, enabling Kimi-K3 and GLM-5.3 to outperform frontier closed-source models including GPT-6.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-14T10:46:40Z</published>
+    <arxiv:comment>50 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sibo Zhu</name>
+    </author>
+    <author>
+      <name>Shicheng Fan</name>
+    </author>
+    <author>
+      <name>Xinyue Wang</name>
+    </author>
+    <author>
+      <name>Wenyi Wu</name>
+    </author>
+    <author>
+      <name>Kun Zhou</name>
+    </author>
+    <author>
+      <name>Biwei Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.14858v1</id>
+    <title>Dream-RSI: Recursive Self-Improvement through Evolving Worlds</title>
+    <updated>2026-09-14T00:10:47Z</updated>
+    <link href="https://arxiv.org/abs/2609.14858v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.14858v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recursive self-improvement is becoming increasingly vital for autonomous AI agents, where progress hinges on discovering high-value solutions across complex domains. The driver of this process is effective exploration, however, managing and improving exploration strategies remains a major bottleneck. Current systems face a fundamental dilemma: fixed strategies fail to adapt as search spaces scale, while online policy optimization requires navigating vast meta-search spaces under delayed and expensive feedback over long-horizon rollouts. We introduce \textsc{Dream-RSI}, a framework for scalable and recursively self-improving exploration. A lightweight orchestration layer makes exploration explicit and programmable while leaving the underlying coding agent unchanged. Our key insight is that accumulated discovery history can serve as a replay simulator over the realized search space. By performing dreaming in the replay simulator constructed from historical discovery trees, \textsc{Dream-RSI} secures immediate, low-cost off-policy feedback to evaluate and refine exploration policies without invoking repetitive, expensive online evaluations. The improved policy is subsequently redeployed online to drive further discovery, continuously expanding the simulator pool in a self-improving loop. Across algorithm engineering, mathematical optimization, and GPU kernel engineering, \textsc{Dream-RSI} achieves competitive or improved discovery quality while substantially reducing discovery cost in several settings.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-14T00:10:47Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tong Zheng</name>
+    </author>
+    <author>
+      <name>Xidong Wu</name>
+    </author>
+    <author>
+      <name>Zheng Zhang</name>
+    </author>
+    <author>
+      <name>Zhankui He</name>
+    </author>
+    <author>
+      <name>Chaoyi Zhang</name>
+    </author>
+    <author>
+      <name>Benjamin Coleman</name>
+    </author>
+    <author>
+      <name>Ruoqiao Wei</name>
+    </author>
+    <author>
+      <name>Di Bai</name>
+    </author>
+    <author>
+      <name>Haolin Liu</name>
+    </author>
+    <author>
+      <name>Rui Liu</name>
+    </author>
+    <author>
+      <name>Xue Wang</name>
+    </author>
+    <author>
+      <name>Yue Zhuan</name>
+    </author>
+    <author>
+      <name>Wang-Cheng Kang</name>
+    </author>
+    <author>
+      <name>Renkai Xiang</name>
+    </author>
+    <author>
+      <name>Heng Huang</name>
+    </author>
+    <author>
+      <name>Xinwu Cheng</name>
+    </author>
+    <author>
+      <name>Yunsong Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.14260v1</id>
+    <title>Recursive Self-Improvement LLM Agents for Inverter Dynamic Model Identification</title>
+    <updated>2026-09-13T03:42:24Z</updated>
+    <link href="https://arxiv.org/abs/2609.14260v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.14260v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is a position paper. We demonstrate that recursive self-improvement (RSI) large language model (LLM) agents are a natural search engine for dynamic model identification of inverter-based resources (IBRs) whose internal controls are often proprietary and hidden from grid operators. White-box models provide physical transparency but require vendor disclosure; black-box models avoid this requirement but sacrifice interpretability; and existing grey-box approaches, including sparse and symbolic regression, are poorly suited to discovering feedback control architectures or incorporating control-engineering priors. Our position is that this gap can be alleviated by (1) restricting the search space to a typed vocabulary of standard control modules, including PI controllers, phase-locked loops (PLLs), low-pass filters, etc., composed under block-diagram grammar rules, and (2) using an RSI LLM agent to perform program search over candidate block-diagram models, guided by measured frequency-domain admittance data at the point of common coupling (PCC), while fitting the free parameters of each candidate by nonlinear least squares. We instantiate this position by adapting ThetaEvolve, an open-source program-evolution framework supporting in-context evolution and test-time learning, to inverter model discovery. In a proof-of-concept study on a grid-following (GFL) inverter benchmark, the RSI loop reduces the normalized root mean square error (NRMSE) of a naive open-loop model from 0.470 to 0.0435 and identifies a 15-module closed-loop structure that closely resembles the hidden ground-truth GFL controller.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-13T03:42:24Z</published>
+    <arxiv:comment>Presented at the 2026 IEEE Power &amp; Energy Society General Meeting, Agentic AI for Empowering Future Grid Operations panel</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Jie Feng</name>
+    </author>
+    <author>
+      <name>Xiaoyang Wang</name>
+    </author>
+    <author>
+      <name>Xin Chen</name>
+    </author>
+    <author>
+      <name>Yuanyuan Shi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.13406v1</id>
+    <title>Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement</title>
+    <updated>2026-09-11T18:15:09Z</updated>
+    <link href="https://arxiv.org/abs/2609.13406v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.13406v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intelligence, RSI is being claimed at many scales, while no single framework that formally describes these emerging instances exists. Its counterpart in the classical realm, iterative policy improvement, is characterized by generalized policy iteration (GPI), a framework of broad applicability with well-understood theoretical properties, but only where the update principle and the evaluation base lie outside the agent. In this paper, we propose Generalized Agent Iteration (GAI), a formal framework that describes iterative policy improvement and RSI as two cases of a single learning paradigm. GAI defines the agent as a configuration of modifiable components within a system and models the learning process as a cycle of agent evaluation and agent improvement. Two pivotal dials then distinguish the instances: whether the improving mechanism is part of the agent and whether the standard it is measured against is grounded outside it. The former dial delineates the boundary between GPI and RSI, and the latter determines a system's polarity as anchored, goal drift, or fully self-referential. Moreover, we use these coordinates to place existing systems on the same two axes and make the defects of recursive self-improvement statable one condition at a time. We see this paper as a first step toward exploring a formal characterization of RSI that rests on the classical account, makes existing systems comparable, and provides a principled basis for analyzing and designing new ones.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-11T18:15:09Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hongyao Tang</name>
+    </author>
+    <author>
+      <name>Yi Ma</name>
+    </author>
+    <author>
+      <name>Pengyi Li</name>
+    </author>
+    <author>
+      <name>Yifu Yuan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11873v3</id>
+    <title>The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement</title>
+    <updated>2026-09-22T12:08:36Z</updated>
+    <link href="https://arxiv.org/abs/2609.11873v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11873v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improve both their capabilities and the process of future improvement. We first use the Headroom-Closed Index (HCI) to reveal the problems of existing LLMs, then introduce the RSI concept and its development roadmap: from improvement-execution autonomy, improvement-strategy autonomy, experience-acquisition autonomy, and environment-adaptation autonomy, to recursive meta-improvement. Next we examine RSI across scenarios (e.g., scientific discovery, embodied intelligence, software engineering), highlighting their distinct requirements and development speeds. Drawing on diverse industry practices and preliminary empirical evidence, we connect RSI research with practical systems and identify key challenges to achieving genuine RSI.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T17:44:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yi Duan</name>
+    </author>
+    <author>
+      <name>Ying Liu</name>
+    </author>
+    <author>
+      <name>Zirui Tang</name>
+    </author>
+    <author>
+      <name>Haodong Chen</name>
+    </author>
+    <author>
+      <name>Jun Zhou</name>
+    </author>
+    <author>
+      <name>Yumou Liu</name>
+    </author>
+    <author>
+      <name>Bangrui Xu</name>
+    </author>
+    <author>
+      <name>Yukai Wu</name>
+    </author>
+    <author>
+      <name>Sidi Chen</name>
+    </author>
+    <author>
+      <name>Yuhan Zhou</name>
+    </author>
+    <author>
+      <name>Haoyu Wang</name>
+    </author>
+    <author>
+      <name>Xiaoyou Yu</name>
+    </author>
+    <author>
+      <name>Shaokun Han</name>
+    </author>
+    <author>
+      <name>Xuzhou Zhu</name>
+    </author>
+    <author>
+      <name>Le Zhou</name>
+    </author>
+    <author>
+      <name>Bolin Lu</name>
+    </author>
+    <author>
+      <name>Wei Zhou</name>
+    </author>
+    <author>
+      <name>Jiachen Liu</name>
+    </author>
+    <author>
+      <name>Nuozhou Fang</name>
+    </author>
+    <author>
+      <name>Jiaxin Tian</name>
+    </author>
+    <author>
+      <name>Ruoyu Chen</name>
+    </author>
+    <author>
+      <name>Yuxuan Li</name>
+    </author>
+    <author>
+      <name>Kai Zuo</name>
+    </author>
+    <author>
+      <name>Kaiyan Zhang</name>
+    </author>
+    <author>
+      <name>Qianyu Yang</name>
+    </author>
+    <author>
+      <name>Zijie Wang</name>
+    </author>
+    <author>
+      <name>Jiantao Qiu</name>
+    </author>
+    <author>
+      <name>Conghui He</name>
+    </author>
+    <author>
+      <name>Guoliang Li</name>
+    </author>
+    <author>
+      <name>Bowen Zhou</name>
+    </author>
+    <author>
+      <name>Zhiyuan Liu</name>
+    </author>
+    <author>
+      <name>Zhoufutu Wen</name>
+    </author>
+    <author>
+      <name>Jihua Kang</name>
+    </author>
+    <author>
+      <name>Xuanhe Zhou</name>
+    </author>
+    <author>
+      <name>Fan Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11677v2</id>
+    <title>Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents</title>
+    <updated>2026-09-20T14:51:46Z</updated>
+    <link href="https://arxiv.org/abs/2609.11677v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11677v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-evolving runtime harnesses can substantially improve the capabilities of large language model (LLM) agents and provide a promising paradigm for optimizing agent execution. Existing failure-driven approaches often treat observed agent failures as direct evidence for harness modification. A key challenge in failure-driven harness evolution is that observed failures can reflect either limitations of the underlying model or systematic deficiencies of the harness. Directly optimizing against individual failures can therefore induce model-specific accommodation and impair generalization across tasks and models. We study whether failure evidence accumulated across task instances can provide a more reliable signal for harness training. Our key insight is that failures recurring across distinct tasks provide stronger inductive evidence for systematic harness deficiencies than isolated failures. Based on this insight, we propose Ecdysis, which aggregates failure evidence across task instances before promoting recurring failure patterns into persistent harness evolution, biasing evolution toward repairs that are more likely to generalize beyond individual model behaviors. Ecdysis further employs collaborative failure analysis to refine modification specifications, trading additional evolution-time reasoning for improved modification quality. Across multiple LLMs and benchmarks, Ecdysis improves the reasoning accuracy of evolved harnesses by 18.56% over existing harness evolution while achieving up to 1.84x faster harness training. Ecdysis also enables more data-efficient training. Fine-grained analysis shows that Ecdysis reduces model-specific accommodation during evolution, while the resulting harnesses exhibit stronger cross-LLM generalization and lower inference-time token consumption.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T15:09:08Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Ruiqing Yue</name>
+    </author>
+    <author>
+      <name>Yu Cui</name>
+    </author>
+    <author>
+      <name>Zhuoyu Sun</name>
+    </author>
+    <author>
+      <name>Sicheng Pan</name>
+    </author>
+    <author>
+      <name>Xianhong Xue</name>
+    </author>
+    <author>
+      <name>Tingyu Li</name>
+    </author>
+    <author>
+      <name>Ting Li</name>
+    </author>
+    <author>
+      <name>Wenzhuo Zhu</name>
+    </author>
+    <author>
+      <name>Yi Chen</name>
+    </author>
+    <author>
+      <name>Yifei Liu</name>
+    </author>
+    <author>
+      <name>Baohan Huang</name>
+    </author>
+    <author>
+      <name>Zhe Cui</name>
+    </author>
+    <author>
+      <name>Haibin Zhang</name>
+    </author>
+    <author>
+      <name>Cong Zuo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.08183v1</id>
+    <title>NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness</title>
+    <updated>2026-09-08T03:14:54Z</updated>
+    <link href="https://arxiv.org/abs/2609.08183v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.08183v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recursive self-improvement (RSI) requires a concrete mechanism through which an AI system observes its capabilities and converts that evidence into the next round of learning. We present NeoHorse-1, a family of agent-native models developed to explore this path through agentic post-training. Our system combines a heterogeneous model pool with intelligent routing, recording the predicted capability demand, selected service tier, and subsequent interaction for each user turn. These records are converted into training examples that preserve interleaved reasoning, tool calls, and harness context, and are admitted through structural validation, six-dimensional semantic evaluation, and subscene-level labeling. Routing signals organize supervised fine-tuning into a three-stage curriculum and extend to routing-guided on-policy distillation, where a teacher supervises student-generated responses under the same progression. Capability-guided allocation then converts evaluation feedback into the next training mixture, closing an evaluation-selection-update loop in which what the system learns to do shapes what it learns from next. Across eleven benchmarks covering harness-based agents, tool use, coding, and instruction following, post-training raises the macro-average from 58.94 to 64.87 at 4B and from 65.60 to 69.04 at 9B, substantially narrowing the aggregate gap between the post-trained 4B model and the 9B base model. NeoHorse-1 provides an initial prototype of this feedback-driven process and a path toward harness-mediated RSI across successive iterations.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-08T03:14:54Z</published>
+    <arxiv:comment>Huggingface: https://hf.co/collections/TokenRhythm/neohorse-1; Github: https://github.com/TokenRhythm/NeoHorse</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name> NeoHorse Team</name>
+    </author>
+    <author>
+      <name>Guoliang Cao</name>
+    </author>
+    <author>
+      <name>Guohao Dai</name>
+    </author>
+    <author>
+      <name>Tianyu Guo</name>
+    </author>
+    <author>
+      <name>Kai Han</name>
+    </author>
+    <author>
+      <name>Hailin Hu</name>
+    </author>
+    <author>
+      <name>Zihan Jiang</name>
+    </author>
+    <author>
+      <name>Xiang Kuang</name>
+    </author>
+    <author>
+      <name>Boxun Li</name>
+    </author>
+    <author>
+      <name>Yulong Li</name>
+    </author>
+    <author>
+      <name>Zehua Pei</name>
+    </author>
+    <author>
+      <name>Yuchuan Tian</name>
+    </author>
+    <author>
+      <name>Jiamin Wang</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Yunhe Wang</name>
+    </author>
+    <author>
+      <name>Yihong Wu</name>
+    </author>
+    <author>
+      <name>Haiyang Xu</name>
+    </author>
+    <author>
+      <name>Shuo Zhang</name>
+    </author>
+    <author>
+      <name>Hang Zhou</name>
+    </author>
+    <author>
+      <name>Siyang Cheng</name>
+    </author>
+    <author>
+      <name>Jiayu Fan</name>
+    </author>
+    <author>
+      <name>Wei He</name>
+    </author>
+    <author>
+      <name>Qingrui Jiao</name>
+    </author>
+    <author>
+      <name>Hongguang Li</name>
+    </author>
+    <author>
+      <name>Zhiyuan Li</name>
+    </author>
+    <author>
+      <name>Runke Liu</name>
+    </author>
+    <author>
+      <name>Xi Liu</name>
+    </author>
+    <author>
+      <name>Xinchen Liu</name>
+    </author>
+    <author>
+      <name>Sinno Jialin Pan</name>
+    </author>
+    <author>
+      <name>Yi Ren</name>
+    </author>
+    <author>
+      <name>Liuyang Song</name>
+    </author>
+    <author>
+      <name>Chenyu Wang</name>
+    </author>
+    <author>
+      <name>Bei Yu</name>
+    </author>
+    <author>
+      <name>Quanlu Zhang</name>
+    </author>
+    <author>
+      <name>Xiangyu Zhang</name>
+    </author>
+    <author>
+      <name>Mengyu Zheng</name>
+    </author>
+    <author>
+      <name>Yingjie Zong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.06396v2</id>
+    <title>MetaRSI / RSI2: A Meta-Recursive Self-Improving System for Recursive Self-Improving Systems Themselves</title>
+    <updated>2026-09-09T11:06:36Z</updated>
+    <link href="https://arxiv.org/abs/2609.06396v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.06396v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recursive self-improvement (RSI) lets a system improve the model-building machinery from its own failures, so every later model inherits the gain. Yet RSI has been validated almost exclusively on coding and formal benchmarks such as science QA and mathematics. This format bound limits RSI to improvement within a machine-checkable slice, not general capability where questions are open and correctness is settled by argument, replication, or measurement. We argue RSI must next operate across real, diverse scientific, engineering, and meta-scientific domains, not where formal evaluation is merely tractable. To that end we present MetaRSI-v1, where improvement is the scheduled composition of three typed operators over one unified paradigm. Data-RSI amplifies existing competence and marks its boundary; Harness-RSI edits a five-slot scaffold without touching weights; Model-RSI internalizes capability into parameters through bounded training. Sharing one loop kernel and artifact vocabulary, they make data, scaffold, and model changes composable rather than exclusive. A two-axis optimizer jointly decides operator order and each operator's proposal policy, while a meta-level policy revises the schedule across terms. We validate MetaRSI-v1 under the field's standard evaluations, on code and closed-form science, with no external teacher: the target model plays every role in its own loop. MetaRSI-v1 reframes self-improvement from a single-surface edit to a composition across the full model-production pipeline, opening two paths: a model route internalizing capability through training, and a harness route leaving weights untouched and thus extending self-improvement to any model reachable through an interface, with Data-RSI redefined as the shared substrate feeding both. The framework further yields refutable laws on where loops exist, how operators compose, and what supervision buys.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-06T05:15:31Z</published>
+    <arxiv:comment>47 pages, 12 figures, 11 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zihan Tan</name>
+    </author>
+    <author>
+      <name>Leixin Sun</name>
+    </author>
+    <author>
+      <name>Zitong Shi</name>
+    </author>
+    <author>
+      <name>Yitao Liu</name>
+    </author>
+    <author>
+      <name>Jiajun Wu</name>
+    </author>
+    <author>
+      <name>Nathaniel Brooks</name>
+    </author>
+    <author>
+      <name>Jiaru Qian</name>
+    </author>
+    <author>
+      <name>Xiaoran Shang</name>
+    </author>
+    <author>
+      <name>Suyuan Huang</name>
+    </author>
+    <author>
+      <name>Yi Ding</name>
+    </author>
+    <author>
+      <name>Yangxu Liao</name>
+    </author>
+    <author>
+      <name>Mukai Li</name>
+    </author>
+    <author>
+      <name>Qiushi Sun</name>
+    </author>
+    <author>
+      <name>Shudong Liu</name>
+    </author>
+    <author>
+      <name>Xuankun Rong</name>
+    </author>
+    <author>
+      <name>Xiaohang Yu</name>
+    </author>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Hejia Geng</name>
+    </author>
+    <author>
+      <name>Chenxin Li</name>
+    </author>
+    <author>
+      <name>Aozhou Wang</name>
+    </author>
+    <author>
+      <name>Zengji Tu</name>
+    </author>
+    <author>
+      <name>Robert Tang</name>
+    </author>
+    <author>
+      <name>Yuxin Zhan</name>
+    </author>
+    <author>
+      <name>Eric Jiang</name>
+    </author>
+    <author>
+      <name>Yuxin Wu</name>
+    </author>
+    <author>
+      <name>Jianqing Zhang</name>
+    </author>
+    <author>
+      <name>Xiao Liang</name>
+    </author>
+    <author>
+      <name>Fang Wu</name>
+    </author>
+    <author>
+      <name>Haochi Zhang</name>
+    </author>
+    <author>
+      <name>Alexander Marlow</name>
+    </author>
+    <author>
+      <name>Guancheng Wan</name>
+    </author>
+  </entry>
+</feed>

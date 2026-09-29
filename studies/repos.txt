@@ -15,3 +15,4 @@ alignment-farm/weight-consolidation
 alignment-farm/lesson-acceptance
 alignment-farm/experience-guided-investigation
 alignment-farm/evidence-set-memory
+alignment-farm/intervention-choice-transfer

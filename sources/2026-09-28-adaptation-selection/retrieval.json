@@ -1,0 +1,80 @@
+[
+  {
+    "url": "https://export.arxiv.org/api/query?search_query=%28abs%3Aagent+AND+%28abs%3A%22self-improvement%22+OR+abs%3Aadaptation%29%29+AND+%28abs%3Amemory+OR+abs%3Aharness+OR+abs%3Aintervention%29&start=0&max_results=8&sortBy=submittedDate&sortOrder=descending",
+    "utc": "2026-09-29T00:19:13.353522+00:00",
+    "status": 200,
+    "name": "prior-discovery",
+    "sha256": "c3c6da59107a2ffa5393bcd42c244d5ba12a79c97117f30ec0464212929a5a6d",
+    "headers": null,
+    "provenance": "Cached discovery from the immediately preceding recommendation; response headers were not recorded."
+  },
+  {
+    "name": "selected-metadata",
+    "url": "https://export.arxiv.org/api/query?id_list=2609.29892%2C2605.22166%2C2609.13739%2C2607.01120&max_results=10",
+    "utc": "2026-09-29T00:21:40.425740+00:00",
+    "status": 200,
+    "sha256": "b780c18d8c4fc629f6186bb5a08c8d6cd7e154f9b96655a87406e020081be005",
+    "headers": {
+      "Connection": "close",
+      "Content-Length": "14312",
+      "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+      "x-cloud-trace-context": "1135da5d90bad34a96d055e4904b4a29",
+      "content-type": "application/atom+xml; charset=utf-8",
+      "server": "Google Frontend",
+      "Accept-Ranges": "bytes",
+      "Age": "0",
+      "Date": "Tue, 29 Sep 2026 00:21:40 GMT",
+      "X-Served-By": "cache-lga-kjfk8660079-LGA, cache-lga-kjfk8660079-LGA, cache-lga-kjfk8660079-LGA, cache-mia-kfll1870044-MIA",
+      "X-Cache": "MISS, MISS, MISS",
+      "X-Cache-Hits": "0, 0, 0",
+      "X-Timer": "S1790641301.596281,VS0,VE151",
+      "Strict-Transport-Security": "max-age=300"
+    }
+  },
+  {
+    "name": "targeted-discovery",
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3AEcdysis+OR+ti%3A%22Modular+RSI%22+OR+ti%3A%22Recursive+Self-Improvement%22+OR+%28abs%3Aagent+AND+abs%3A%22intervention+selection%22%29&start=0&max_results=18&sortBy=submittedDate&sortOrder=descending",
+    "utc": "2026-09-29T00:21:44.269775+00:00",
+    "status": 200,
+    "sha256": "c599761334caf1c1dfcc67b1dbb0ee1e0ef40e3740a035ee23c554e10ea6869d",
+    "headers": {
+      "Connection": "close",
+      "Content-Length": "54115",
+      "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+      "x-cloud-trace-context": "1a54507f5ea723065301843471e7d633",
+      "server": "Google Frontend",
+      "content-type": "application/atom+xml; charset=utf-8",
+      "Accept-Ranges": "bytes",
+      "Age": "0",
+      "Date": "Tue, 29 Sep 2026 00:21:44 GMT",
+      "X-Served-By": "cache-lga-kjfk8660046-LGA, cache-lga-kjfk8660046-LGA, cache-lga-kjfk8660046-LGA, cache-mia-kmia1760080-MIA",
+      "X-Cache": "MISS, MISS, MISS",
+      "X-Cache-Hits": "0, 0, 0",
+      "X-Timer": "S1790641304.351982,VS0,VE328",
+      "Strict-Transport-Security": "max-age=300"
+    }
+  },
+  {
+    "name": "modular-discovery",
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Modular%22+AND+%28ti%3A%22RSI%22+OR+ti%3A%22Self-Improvement%22%29&start=0&max_results=10&sortBy=submittedDate&sortOrder=descending",
+    "utc": "2026-09-29T00:24:22.919021+00:00",
+    "status": 200,
+    "sha256": "80e7924a194053fe9a394942e02883e101ab1d418693baf7a5696cfe74052e0a",
+    "headers": {
+      "Connection": "close",
+      "Content-Length": "6382",
+      "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+      "x-cloud-trace-context": "14afe15969de40acce72a44cfdb60ce7",
+      "server": "Google Frontend",
+      "content-type": "application/atom+xml; charset=utf-8",
+      "Accept-Ranges": "bytes",
+      "Age": "0",
+      "Date": "Tue, 29 Sep 2026 00:24:22 GMT",
+      "X-Served-By": "cache-lga-kjfk8660048-LGA, cache-lga-kjfk8660048-LGA, cache-lga-kjfk8660078-LGA, cache-mia-kfll1870063-MIA",
+      "X-Cache": "MISS, MISS, MISS",
+      "X-Cache-Hits": "0, 0, 0",
+      "X-Timer": "S1790641463.754447,VS0,VE154",
+      "Strict-Transport-Security": "max-age=300"
+    }
+  }
+]

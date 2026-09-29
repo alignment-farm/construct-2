@@ -2,7 +2,7 @@
 
 Executive summary · Ancillary findings, root synthesis and selection through 28 September 2026
 
-Construct-2 asks how agents can accumulate useful experience across sessions, and where that experience should live: explicit memory, contextual lessons, executable tools, model weights or runtime rules. Sixteen ancillary investigations have completed reviewed phases and a seventeenth has produced a qualified development pilot, alongside a review of public research. Completed phases do not close the broader investigations. Our starting hypothesis already allowed these mechanisms to work together. The studies have sharpened the conditions under which that combination helps, and exposed several ways apparently successful learning can fail to produce useful capability.
+Construct-2 asks how agents can accumulate useful experience across sessions, and where that experience should live: explicit memory, contextual lessons, executable tools, model weights or runtime rules. Seventeen ancillary investigations have completed reviewed bounded phases, alongside a review of public research. Completed phases do not close the broader investigations. Our starting hypothesis already allowed these mechanisms to work together. The studies have sharpened the conditions under which that combination helps, and exposed several ways apparently successful learning can fail to produce useful capability.
 
 **The clearest finding is that successful learning, durable usefulness and repayment of learning costs are separate achievements.** A system may acquire a pattern without completing the task, retain information without being able to use it, or improve predictions without outperforming a simpler alternative. Useful accumulated experience must improve complete future behavior or avoid work at comparable quality, while remaining accessible and correctable as the task and agent change.
 
@@ -83,13 +83,32 @@ passed a smaller repair test while still violating its stated contract, and both
 claimed success for probes that had failed. Recognizable investigation steps and
 passing limited checks do not establish useful investigation. Its teaching was
 authored, not derived from learner attempts, so the intended acquisition question
-remains open. [Experience-guided investigation](studies/2026-09-21-experience-investigation-findings.md).
+remains open. [Initial investigation pilot](studies/2026-09-21-experience-investigation-findings.md).
+
+The [28 September continuation](studies/2026-09-28-investigation-continuation-findings.md)
+now supplies complete teaching history to both arms and builds corrections from
+actual failed attempts. A new adapter repairs the strict filter from a supplied
+recorded context (18/18 external checks), but loops without repair autonomously
+(9/18). Further correction induces probes without repair; none of the twelve
+runs uses history or passes a probe assertion. Root verifies an additional rename
+regression hidden by unchanged aggregate scores. Correct conditional behavior,
+autonomous action and useful feedback interpretation are distinct achievements.
+The bounded diagnosis is accepted; fresh transfer remains untested.
 
 Together, the findings support evaluating memory as a maintained capability: retained evidence, learned behavior, access procedures, and ways to check or replace them. A practical inference is to preserve recoverable evidence and working implementations, and justify additional learning through its contribution to future tasks. Changing facts can remain explicit while reusable behavior is learned or implemented. The value of that arrangement depends on the receiving agent, expected reuse and maintenance work. This is a working design preference, not a validated universal architecture or a general verdict against neural memory.
 
 The evidence is strongest within small, controlled workloads. Many supplied the task contract, identities, correction authority or routine selection. Positive cost comparisons omit some engineering work or leave stronger alternatives untested. Equal scores on small samples do not establish equal reliability, and the executable study does not isolate the value of its acquired lessons beyond the supplied contract and examples. We have not demonstrated an agent that independently recognizes recurring work, chooses what to learn and where to retain it, and reliably improves over an extended realistic job.
 
-The next evidential milestone is continuing practical capability: better complete outcomes or less total work across repeated use and consequential change, including acquisition, checking, failures and repair. The [experience-guided investigation](notes/CONTINUING_EXPERIENCE_STUDY.md) remains responsible for bounded acquisition diagnosis and fresh transfer; accepting its pilot does not complete that commission. Useful editing, complete repair and learning from actual attempts are the next evidential needs, with costs interpreted after capability. Broader migration, correction, consolidation and acceptance questions remain open. Root continues synthesis, literature and independent questions. The program's direction remains useful accumulated experience across sessions.
+The [adaptation-selection synthesis](notes/ADAPTATION_SELECTION.md) adds an
+independent research preference: test whether earlier intervention outcomes help
+choose useful changes after the receiving agent changes. Improved remedies and
+improved decisions need separate evidence. The new public-method comparison
+deprioritizes another general co-evolution demonstration; competent current
+diagnosis and unchanged reuse are central alternatives. The user subsequently
+approved the [bounded feasibility commission](notes/INTERVENTION_CHOICE_STUDY.md);
+its independent repository is prepared at `3cabc29`, without experiments yet.
+
+The next evidential milestone is continuing practical capability: better complete outcomes or less total work across repeated use and consequential change, including acquisition, checking, failures and repair. The [experience-guided investigation](notes/CONTINUING_EXPERIENCE_STUDY.md) remains responsible for autonomous acquisition and fresh transfer; accepting its diagnostic phase does not complete that commission. Correct action/feedback use and competent ordinary reuse are the next evidential needs, with costs interpreted after capability. Broader migration, correction, consolidation and acceptance questions remain open. Root continues synthesis, literature and independent questions. The program's direction remains useful accumulated experience across sessions.
 
 On 28 September the user selected [evidence-set memory](notes/EVIDENCE_SET_MEMORY.md)
 and subsequently authorized broader EBM exploration. Five phases are now reviewed

@@ -1,0 +1,132 @@
+{
+  "utc": "2026-09-29T00:47:54.488148+00:00",
+  "repository": "https://github.com/IQuestLab/ModularRSI",
+  "revision": "b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9",
+  "commit_date": "2026-09-24T07:38:48Z",
+  "commit_subject": "[update] scripts & readme",
+  "tree": {
+    "sha256": "e3993b9bbcd8c14ee6415d4e94d8cc77d0c7e8ba36e2d69195ec0bca11dd0d07",
+    "entries": 4599,
+    "truncated": false,
+    "AGENTS_files": []
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/README.md",
+      "utc": "2026-09-29T00:41:57.281814+00:00",
+      "bytes": 5487,
+      "sha256": "766d7c8be68bf518dfc83b71f969940e627a603747364d86f190f477d41a140f",
+      "inspection": "Primary repository landing page read via web; raw copy cached"
+    },
+    {
+      "path": "LICENSE-MODULARRSI.md",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/LICENSE-MODULARRSI.md",
+      "utc": "2026-09-29T00:41:57.486977+00:00",
+      "bytes": 921,
+      "sha256": "40a3a1760528212a8c8ba7fed46404d723e7132894b8f921b114b37cb7a876aa",
+      "inspection": "Full notice"
+    },
+    {
+      "path": "generations/merged_active/README.md",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/generations/merged_active/README.md",
+      "utc": "2026-09-29T00:41:57.695594+00:00",
+      "bytes": 1765,
+      "sha256": "77515306e6c54eadad5b05878dcebf42babbefa039c7b168d7a00f01defa4952",
+      "inspection": "Full library documentation"
+    },
+    {
+      "path": "generations/merged_active/PROVENANCE.json",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/generations/merged_active/PROVENANCE.json",
+      "utc": "2026-09-29T00:41:57.886833+00:00",
+      "bytes": 994,
+      "sha256": "71517043e1037a12cbf7370ad9c20a90a51cb57028f7c32c01d1567b83bb481a",
+      "inspection": "Full provenance record; authors claims not independently verified"
+    },
+    {
+      "path": "generations/merged_active/archive.json",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/generations/merged_active/archive.json",
+      "utc": "2026-09-29T00:41:58.117960+00:00",
+      "bytes": 5975,
+      "sha256": "2b307260bcb617d5615cf48481a25329f5e62346fe2ab988a9113130bef6808c",
+      "inspection": "JSON parsed (20 entries), first 90 lines read; no behavior validation"
+    },
+    {
+      "path": "scripts/evaluate.sh",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/scripts/evaluate.sh",
+      "utc": "2026-09-29T00:41:58.390225+00:00",
+      "bytes": 4243,
+      "sha256": "5377dfc0c00ee052197d286af28d2d9f7dea247a95fc67d9695e93dd97dce980",
+      "inspection": "First 115 lines: defaults, prerequisite checks and launch arguments; not executed"
+    },
+    {
+      "path": "scripts/evolve.sh",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/scripts/evolve.sh",
+      "utc": "2026-09-29T00:41:58.572667+00:00",
+      "bytes": 5499,
+      "sha256": "770c1c26f988955a1ab8cdaa55acadc55bbbb90aa0968a46a4b7122d0d2358ca",
+      "inspection": "First 90 lines: profiles and prerequisite checks; not executed"
+    },
+    {
+      "path": "trajectories/mergefinal/README.md",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/trajectories/mergefinal/README.md",
+      "utc": "2026-09-29T00:41:58.767388+00:00",
+      "bytes": 1074,
+      "sha256": "9e1486e12ec7c94cc31626c4089fa2541bc38da93f779e9fd3e8fd7f3969c972",
+      "inspection": "Full release/omission documentation"
+    },
+    {
+      "path": "trajectories/mergefinal/run-1/config.json",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/trajectories/mergefinal/run-1/config.json",
+      "utc": "2026-09-29T00:41:58.959009+00:00",
+      "bytes": 54,
+      "sha256": "b96651e737406f2d2145a23aabea986518bb2f74019620dbb657aa860e32141f",
+      "inspection": "Full sanitized configuration"
+    },
+    {
+      "path": "trajectories/mergefinal/run-1/result.json",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/trajectories/mergefinal/run-1/result.json",
+      "utc": "2026-09-29T00:41:59.160690+00:00",
+      "bytes": 4926,
+      "sha256": "ca77542917086ab649a8f3dff97a0fdf8605f07d16277c378cb07d4c3f0a0d23",
+      "inspection": "Keys and first 42 lines; summary counts not independently regraded"
+    },
+    {
+      "path": "generations/merged_active/gen_0/modules/verification/margin_gated.py",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/generations/merged_active/gen_0/modules/verification/margin_gated.py",
+      "utc": "2026-09-29T00:41:59.434764+00:00",
+      "bytes": 9638,
+      "sha256": "faa583694e8e1b59366bb306afc7b8793251277b8f53afc3c165bbb2d5305138",
+      "inspection": "Full source reading; not executed"
+    },
+    {
+      "path": "generations/merged_active/gen_0/modules/observation/terminal_scrollback.py",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/generations/merged_active/gen_0/modules/observation/terminal_scrollback.py",
+      "utc": "2026-09-29T00:41:59.719107+00:00",
+      "bytes": 13455,
+      "sha256": "c23db4f6817fe5258a39bff573347476233ce55dac5596a51729b8950964d298",
+      "inspection": "First 100 lines: description, constants and schema only"
+    },
+    {
+      "path": "src/harbor/agents/terminus_2_modular/composer/static.py",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/src/harbor/agents/terminus_2_modular/composer/static.py",
+      "utc": "2026-09-29T00:42:38.836934+00:00",
+      "bytes": 2120,
+      "sha256": "2433468182e16c1caab8c96671668509f541d884b0c9bf3c35ab1c586058302f",
+      "inspection": "Full source reading; not executed"
+    },
+    {
+      "path": "src/harbor/agents/terminus_2_modular/composer/llm_dynamic.py",
+      "url": "https://raw.githubusercontent.com/IQuestLab/ModularRSI/b5c72c36b0d08ff93f00ee202a8fbdebe849dfb9/src/harbor/agents/terminus_2_modular/composer/llm_dynamic.py",
+      "utc": "2026-09-29T00:42:39.040141+00:00",
+      "bytes": 21415,
+      "sha256": "7812d718f5b6488d65cfdcbcf712e01de3ff0af422727656f789939d2754b2cb",
+      "inspection": "Symbol search; lines 40\u201390 and 221\u2013255: exclusions and variant filtering"
+    }
+  ],
+  "public_code_execution": false,
+  "trajectories_replayed": false,
+  "model_calls": 0,
+  "model_identifiers_and_costs": "Release documentation says these were removed; not recoverable from the inspected sanitized configuration",
+  "scope": "Static feasibility inspection, not full repository audit or score replication"
+}

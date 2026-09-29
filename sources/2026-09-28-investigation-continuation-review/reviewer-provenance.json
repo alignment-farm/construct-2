@@ -1,0 +1,16 @@
+{
+  "session": {
+    "id": "01a0e7b0-fe8a-7c53-a0a8-23dde8a9c170",
+    "cli_version": "0.158.0-alpha.2.1",
+    "model_provider": "openai",
+    "originator": "Codex Desktop"
+  },
+  "context": {
+    "model": "gpt-6-astra",
+    "effort": "xhigh"
+  },
+  "replay_python": "3.13.12",
+  "study_reported_python": "3.14.7",
+  "investigator_token_cost": null,
+  "provenance_boundary": "Observed current Codex session metadata retained from preceding review in this same root conversation; no independent backend fingerprint."
+}

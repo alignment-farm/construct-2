@@ -1,5 +1,11 @@
 # Learning what to change
 
+**Current reading — 28 September:** [Adaptation selection](ADAPTATION_SELECTION.md)
+adds direct public intervention-policy precedents and narrows the independent
+AD1–AD2 candidate. Original predictions and dated assessments below are preserved;
+the reading itself made no commission. Subsequent user approval is recorded in
+the [intervention-choice brief](INTERVENTION_CHOICE_STUDY.md).
+
 16 September 2026. Root synthesis during ancillary execution. The enduring
 [research directive](../README.md) is unchanged: how agents accumulate useful
 experience across sessions, and where that experience should live. This note
@@ -320,3 +326,25 @@ and evaluation comparison. WC1–WC3 receive their separate updated assessment.
 Previous AD2/AD3 assessments stand. One source history and one adapter update do
 not establish continuing accumulation, and closing this explained workload limit
 does not close the broader allocation question.
+
+## Assessment after the adaptation-selection reading — 28 September
+
+The [new synthesis](ADAPTATION_SELECTION.md) and
+[P120–P123 ledger](../sources/2026-09-28-adaptation-selection/README.md) distinguish
+improving a component, choosing its use and learning an intervention policy.
+The public landscape now includes reported direct policy-update comparisons;
+the earlier P45 architecture assessment remains specific to its inspected version.
+This reading adds no local experimental support for AD1 and does not change
+AD2/AD3's bounded local assessments.
+
+The narrowed independent recommendation combines AD1's marginal decision-value
+question with AD2's receiving-state change: does prior intervention experience
+help beyond competent current diagnosis and unchanged policy reuse? Functioning
+remedies and complete subsequent obligations matter; improving candidate edits
+alone cannot identify an improvement in selection. Past evidence need not become
+useless after every component change, nor must an acquired preference transfer.
+
+Close this bounded root phase on that distinction and selection. A new generic
+co-evolution demonstration is low priority. No validated workload, experiment or
+ancillary commission follows, and the closed remedy-feasibility phase is not
+reopened. Active ancillary investigators retain their existing remits.

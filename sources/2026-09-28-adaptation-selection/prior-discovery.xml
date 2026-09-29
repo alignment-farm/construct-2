@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jn5sqisGAco6rGzY5dUvPbND+Qw</id>
+  <title>arXiv Query: search_query=(abs:agent AND (abs:"self-improvement" OR abs:adaptation) ) AND (abs:memory OR abs:harness OR abs:intervention)&amp;id_list=&amp;start=0&amp;max_results=8</title>
+  <updated>2026-09-29T00:19:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(abs:agent+AND+(abs:%22self-improvement%22+OR+abs:adaptation))+AND+(abs:memory+OR+(abs:harness+OR+abs:intervention))&amp;start=0&amp;max_results=8&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>8</opensearch:itemsPerPage>
+  <opensearch:totalResults>1961</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.31568v1</id>
+    <title>DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education</title>
+    <updated>2026-09-25T17:33:41Z</updated>
+    <link href="https://arxiv.org/abs/2609.31568v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.31568v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI tutoring could markedly improve learning outcomes for students in developing regions such as Vietnam, yet the two obvious paths both fall short. Cloud assistants such as ChatGPT route sensitive student data to foreign servers---violating data-sovereignty laws such as Vietnam's Decree 53---and, pre-trained on Western-centric corpora, are not organized around the national textbook curriculum, so their knowledge of local content is unsystematic and frequently hallucinated. Self-hosting an open model keeps data on-premise but hits a two-fold wall: post-training quantization (AWQ, GPTQ) tames the static weight footprint, yet the dynamic KV cache and prefill latency of long tutoring contexts still cause out-of-memory failures and slow responses on consumer GPUs, while the model keeps hallucinating on region-specific material. We present DeepEdu-v1, an AI-tutoring system for Vietnamese education built on SCALE (Self-improving Context-Aware Learning Engine), a framework with two innovations. First, a long-context inference engine amortizes token selection from per-sub-chunk to per-cluster granularity; on long-context retrieval it issues x7.7 fewer retrieval calls than a state-of-the-art selective-attention baseline, cutting prefill latency (TTFT) by roughly 35% while matching or improving task accuracy. Second, a self-improving agentic layer continuously curates a verified playbook from past interactions instead of fine-tuning, a design intended to progressively reduce reliance on dominant-language priors as trustworthy local knowledge accumulates. In its deployed configuration, DeepEdu achieves a nearly x2 TTFT speedup over standard vLLM serving and lifts agentic accuracy from 70.0% to 79.5% on complex tasks, with the strongest per-track gains across financial-reasoning and interactive-agent benchmarks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-25T17:33:41Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Quang Nguyen</name>
+    </author>
+    <author>
+      <name>Hieu Nguyen</name>
+    </author>
+    <author>
+      <name>Hien Hoang</name>
+    </author>
+    <author>
+      <name>Toan Pham</name>
+    </author>
+    <author>
+      <name>Cong Tran</name>
+    </author>
+    <author>
+      <name>Nam Vu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.31395v1</id>
+    <title>ActKV: Efficient LLM Agents through Action-Guided KV Cache Management</title>
+    <updated>2026-09-25T15:24:30Z</updated>
+    <link href="https://arxiv.org/abs/2609.31395v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.31395v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic LLM inference accumulates long KV caches across iterative observation-reasoning-action loops, imposing substantial memory overhead and limiting serving throughput. Existing compression methods emphasize overall output quality, overlooking the asymmetric importance of actions in driving task progress. Our key idea is to establish a compression criterion that values KV entries by their contribution to action generation and prioritizes action quality. However, iterative execution, dynamic memory demands, and scattered action-critical entries pose challenges to eviction policies, budget allocation, and paged memory integration. To this end, we propose ActKV, the first KV cache compression framework tailored for agentic LLM inference. (i) Action-oriented KV cache eviction exploits stable action access patterns to retain entries critical to future actions, supporting reliable task progress under compression. (ii) Confidence-driven adaptive budget allocation uses LLM's intrinsic confidence to adapt the budget to evolving action-critical memory demands. (iii) Page-aware compression management standardizes compression into three primitives with customized kernels, realizing practical throughput gains. On long-trace tasks, ActKV retains an average of 98.53% of FullKV's accuracy with only 25.98% of its peak KV cache memory. It also achieves 3.97 times and 3.58 times FullKV's token and task throughput, delivering state-of-the-art performance.</summary>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-25T15:24:30Z</published>
+    <arxiv:primary_category term="cs.OS"/>
+    <author>
+      <name>Zihan Wang</name>
+    </author>
+    <author>
+      <name>Cheng Tang</name>
+    </author>
+    <author>
+      <name>Lei Gong</name>
+    </author>
+    <author>
+      <name>Chao Wang</name>
+    </author>
+    <author>
+      <name>Wenqi Lou</name>
+    </author>
+    <author>
+      <name>Teng Wang</name>
+    </author>
+    <author>
+      <name>Xuehai Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.30830v1</id>
+    <title>AGATE: Provenance-Based Runtime Defense Against Compositional Attacks on LLM Agents</title>
+    <updated>2026-09-25T05:18:02Z</updated>
+    <link href="https://arxiv.org/abs/2609.30830v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.30830v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents can produce harmful effects through sequences of ordinary operations. Judging such actions requires establishing both the authority that permits them and the origin of the data they carry. We present AGATE, an authorization and data-provenance gate at instrumented agent-harness boundaries. Operator declarations and host approval events ground authorization; delegated actions are constrained by grants that bind to exact parameters, expire, and permit a limited number of uses. Source registration connects observed inputs to subsequent transfers, while an effect ledger tracks repeated requests. Deterministic checks make decisions without an LLM in the decision path and retain their grounds with execution evidence for forensic replay. Adapters integrate three production harnesses -- DeepSeek Harness, OpenCode, and OpenClaw -- without modifying host code, translating each host's native observation and veto points into a single shared gate interface; the judgment core is identical in all three, and only enforcement depth differs. Our evaluation combines 153 exercised attack-chain records with deployment, utility, and reconstruction experiments. The deployment observations expose how tool declarations and data checks govern business actions, including a bypass through parameter rewriting. Six of eleven benign file-processing scenarios contain denial events, revealing the utility cost of content-based provenance policies. Across 252 runs on 63 sanitized scenarios, replay agrees with live graph projections for all 63 scenarios on each of two platforms. These results establish the feasibility of provenance-based runtime judgment and identify content transformation, legitimate reuse, and observation coverage as concrete limits.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-25T05:18:02Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Xiaorui Zhang</name>
+    </author>
+    <author>
+      <name>Zhuoran Cheng</name>
+    </author>
+    <author>
+      <name>Kailin Liu</name>
+    </author>
+    <author>
+      <name>Zhaoxi Sun</name>
+    </author>
+    <author>
+      <name>Shiyu Fan</name>
+    </author>
+    <author>
+      <name>Tongyu Yuan</name>
+    </author>
+    <author>
+      <name>Bin Yuan</name>
+    </author>
+    <author>
+      <name>Weizhong Qiang</name>
+    </author>
+    <author>
+      <name>Deqing Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.29892v1</id>
+    <title>Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents</title>
+    <updated>2026-09-24T14:38:08Z</updated>
+    <link href="https://arxiv.org/abs/2609.29892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.29892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid progression of large language models is extending AI from passive content generation into the active workflows of engineering and scientific discovery. This shift raises a compelling question: can AI be both the object of development and an active participant in building next-generation AI systems? We explore this question by building Qwen-Planner-Agent within a closed-loop AI-for-AI framework for scalable development and iterative improvement. Mobile planning offers a demanding test of this approach: complex, long-horizon tasks challenge agent reliability, while costly real-device interaction limits development scalability. The framework connects data production, model training, and deployment through a shared action-feedback-verification contract. (i) AI for Data builds a human-gated agentic data flywheel in which specialized agents construct tasks, collect interaction trajectories, curate and balance training data, and use training feedback to guide subsequent data generation. (ii) AI for Training combines a supervised planning cold start with hybrid-environment online agentic reinforcement learning, where we introduce Competence-Aware Reward-and-Advantage Engineering (CARE) to reduce reasoning and tool-use costs while preserving task performance. (iii) AI drives model--harness co-evolution through an execution-evidence-driven loop that orchestrates memory, skills, and tools at runtime and feeds structured action feedback and preserved failure traces back into coordinated model and harness adaptation. Qwen-Planner-Agent achieves the best overall performance among all evaluated models and systems on MobilePA-Bench, improving over its base model across tool use, memory, skills, and sub-agent coordination. Further evaluations of our model show improvements across non-mobile agentic benchmarks while largely preserving general capabilities.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-24T14:38:08Z</published>
+    <arxiv:comment>https://tongyi-mai.github.io/Qwen-Planner-Agent/</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tingyu Qu</name>
+    </author>
+    <author>
+      <name>Weigao Sun</name>
+    </author>
+    <author>
+      <name>Yuecheng Liu</name>
+    </author>
+    <author>
+      <name>Yucheng Zhao</name>
+    </author>
+    <author>
+      <name>Yi Zhu</name>
+    </author>
+    <author>
+      <name>Yifeng Ding</name>
+    </author>
+    <author>
+      <name>Qiyi Wang</name>
+    </author>
+    <author>
+      <name>Sihan Cao</name>
+    </author>
+    <author>
+      <name>Pengkun Jiao</name>
+    </author>
+    <author>
+      <name>Hanlei Xie</name>
+    </author>
+    <author>
+      <name>Xiongwei Wu</name>
+    </author>
+    <author>
+      <name>Qichao Wang</name>
+    </author>
+    <author>
+      <name>Haodong Zhang</name>
+    </author>
+    <author>
+      <name>Jiajun Liu</name>
+    </author>
+    <author>
+      <name>Yuhao Wang</name>
+    </author>
+    <author>
+      <name>Yuqing Xie</name>
+    </author>
+    <author>
+      <name>Junpeng Zhao</name>
+    </author>
+    <author>
+      <name>Long Chen</name>
+    </author>
+    <author>
+      <name>Ming Ma</name>
+    </author>
+    <author>
+      <name>Sihan Yang</name>
+    </author>
+    <author>
+      <name>Ziwang Zhao</name>
+    </author>
+    <author>
+      <name>Yanhao Jia</name>
+    </author>
+    <author>
+      <name>Liangquan Gong</name>
+    </author>
+    <author>
+      <name>Feida Zhu</name>
+    </author>
+    <author>
+      <name>Yiran Zhong</name>
+    </author>
+    <author>
+      <name>Steven Hoi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.29394v1</id>
+    <title>RACaP: Agentic Reasoning, Acting, and Coding as Policies for Evolvable Robot Learning</title>
+    <updated>2026-09-24T11:22:45Z</updated>
+    <link href="https://arxiv.org/abs/2609.29394v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.29394v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>General-purpose robot agents must learn from experience, transfer to new tasks, and act efficiently. Code as Policies (CaP) methods generate and repair programs at runtime, incurring latency and entangling reusable mechanisms with task-specific decisions. We introduce RACaP, an agentic framework that moves coding to evolution and uses a Reasoning-and-Acting (ReAct) loop to call frozen, typed Policy APIs at deployment. A two-phase strategy combines capability curriculum learning with autonomous self-evolution to improve the APIs, the ReAct harness, and experience memory. The APIs encode reusable physical mechanisms while exposing arguments for runtime adaptation. ReAct combines task-specific working memory, long-term experience memory, and visual feedback to select actions, verify outcomes, and recover from failures without modifying source code. RACaP achieves 54.4% success on LIBERO-90, 45.0% on zero-shot LIBERO-PRO, and 46.0% on LIBERO-Long, compared with at most 4.0% for CaP baselines on long-horizon tasks. On LIBERO-PRO, it achieves 2.5 times the success rate of CaP baselines and a 1.9-fold speedup in median policy time. For efficient on-robot deployment, rejection-sampled fine-tuning distills GPT-5.6 ReAct decisions into Qwen3-VL-8B-Instruct, yielding a 13.2-fold per-decision inference speedup and reducing repeated physical calls from 16 to 4. These results show that separating reusable code from runtime decisions supports continued evolution, effective transfer, and efficient long-horizon control.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-24T11:22:45Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zexi Li</name>
+    </author>
+    <author>
+      <name>Yehang Zhang</name>
+    </author>
+    <author>
+      <name>Haojian Huang</name>
+    </author>
+    <author>
+      <name>Bohan Zhou</name>
+    </author>
+    <author>
+      <name>Wenqian Li</name>
+    </author>
+    <author>
+      <name>Chenxu Wang</name>
+    </author>
+    <author>
+      <name>Yifan Chang</name>
+    </author>
+    <author>
+      <name>Yangkai Wei</name>
+    </author>
+    <author>
+      <name>Tianyi Zhang</name>
+    </author>
+    <author>
+      <name>Ying-Cong Chen</name>
+    </author>
+    <author>
+      <name>Kaiwen Zhou</name>
+    </author>
+    <author>
+      <name>Yinchuan Li</name>
+    </author>
+    <author>
+      <name>James Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.29204v1</id>
+    <title>AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution</title>
+    <updated>2026-09-24T08:14:03Z</updated>
+    <link href="https://arxiv.org/abs/2609.29204v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.29204v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language-action (VLA) models offer strong local control and instruction following but often struggle with long-horizon tasks requiring persistent memory and planning. Task harnesses provide persistent context for agent reasoning by retaining task history and tracking progress across execution stages. To bring these complementary capabilities together, we introduce AdaHVLA, an adaptive harness that refines code-based coordination policies through robot experience to better align agent reasoning and memory with VLA execution. Its decoupled multiagent adaptation process separates evidence analysis, harness revision, and behavioral assessment into distinct working contexts, using testable coordination hypotheses to guide revisions and subsequent rollouts to assess their predicted effects. A stateful revision graph links execution evidence, hypotheses, revisions, and observed effects, preserving alternative harnesses and adaptation memory to guide refinement across repeated attempts and continued adaptation across tasks and environments. In simulation, AdaHVLA raises mean test success on NaVILA-LH from 22.5\% to as high as 57.5\% and improves manipulation test success across three VLA backbones by up to 30.8 percentage points over the initial harness. Real-world deployment further illustrates how the adapted policies support stable execution across task stages.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-24T08:14:03Z</published>
+    <arxiv:comment>9 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Junyi Tang</name>
+    </author>
+    <author>
+      <name>Jie Peng</name>
+    </author>
+    <author>
+      <name>Zezhen Ding</name>
+    </author>
+    <author>
+      <name>Yuan Shen</name>
+    </author>
+    <author>
+      <name>Tianlong Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.29144v1</id>
+    <title>Scope Before You Persist: Preventing Cross-Family Interference in Agent Memory</title>
+    <updated>2026-09-24T07:22:10Z</updated>
+    <link href="https://arxiv.org/abs/2609.29144v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.29144v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Persistent memory lets language-model agents improve prompts and skills without updating model weights. We show that matching retrieval scope to certification scope enables these edits to support reliable repeated adaptation across recurring task families. We study frozen-model agents on ProcStream-RSI, a 12-round code-repair stream, using Orthogonal Regression Control (ORC), an execution-grounded gate for persistent skill edits. In an intervention that holds proposals and gate decisions fixed, retrieving each accepted skill only for its originating family raises mean hidden trajectory utility from 0.713 under global memory to 0.816 and changes harmful deployments from six of eight to none. In 27 paired randomized-order streams, Scoped-ORC improves mean trajectory utility by 0.063 [0.037, 0.094] over Global-ORC, accepts 63 rather than 12 updates, and produces multiple accepted updates in 19/27 streams, with 0/63 harmful acceptances. The global control reaches 0.713, below the static agent's 0.775, because locally valid edits can interfere with unrelated families. These results establish scope matching as a complementary control for persistent agent memory: certification determines whether an edit is supported, while retrieval scope determines where that evidence authorizes its use.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-24T07:22:10Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yezhou Cheng</name>
+    </author>
+    <author>
+      <name>Runjia Du</name>
+    </author>
+    <author>
+      <name>Zeming Liu</name>
+    </author>
+    <author>
+      <name>Qibai Chen</name>
+    </author>
+    <author>
+      <name>Hang Lyu</name>
+    </author>
+    <author>
+      <name>Yankai Zeng</name>
+    </author>
+    <author>
+      <name>Yilan Wei</name>
+    </author>
+    <author>
+      <name>Bojun Lin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.28940v1</id>
+    <title>Calibrated Decision Models for Autonomous Penetration-Testing Harnesses: JEV and Laya as System One Decision Layers for LLM-Driven Pentest Agents</title>
+    <updated>2026-09-24T02:47:20Z</updated>
+    <link href="https://arxiv.org/abs/2609.28940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.28940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous penetration-testing harnesses use large language models (LLMs) for reconnaissance, exploitation, and reporting, but often rely on those same models to confirm findings, grade severity, and select agents. This can lead to false positives, inflated severity, and wasted compute. We examine how System One decision models, lightweight non-generative classifiers that return typed, calibrated verdicts, can support these decisions. We make five contributions. First, we define four decision points: finding adjudication, severity recalibration, agent pruning, and confirmation loops. Second, we present an exploratory NeuroSploit case study comparing one run with TypeSafe System One (Jev) and one without it against a web target containing 13 vulnerabilities. Differences in severity distribution, runtime, and grading by exposed data type motivate the architecture but do not establish statistical significance. Third, we review published specifications for Jev, Jev-Ultrafast, and the open-source Laya without assuming that results from other benchmarks transfer to penetration testing. Fourth, we discuss RLHF, RLAIF, RLCD, and RLHV as training approaches and their implications for trust in security decisions. Finally, we propose Rave, a domain-adapted System One model, and outline its training data, evaluation protocol, and potential effect on harness assurance.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-24T02:47:20Z</published>
+    <arxiv:comment>21 pages, 5 figures, 11 tables, 4 code listings</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Joas Antonio dos Santos Barbosa</name>
+    </author>
+  </entry>
+</feed>

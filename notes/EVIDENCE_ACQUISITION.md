@@ -14,6 +14,14 @@ on later unfamiliar work, with prior answers and ordinary investigation availabl
 This is a research preference, not a new commission or an amendment to an active
 study's methods.
 
+The later [investigation publication review](../studies/2026-09-28-investigation-continuation-findings.md)
+sharpens this distinction experimentally on development material. A correction
+moves the learner toward the probe tool without correct assertion interpretation
+or repair. Choosing an action name therefore supplies less evidence than constructing
+and using a distinguishing observation. Conditional repair elsewhere in the same
+phase shows partial acquisition; autonomous investigation remains open. This
+updates the local evidence without changing the independent research preference.
+
 ## What changed since the observation-boundaries analysis
 
 The [earlier analysis](OBSERVATION_BOUNDARIES.md) showed why repeatedly executing

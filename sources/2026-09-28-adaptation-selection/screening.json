@@ -1,0 +1,406 @@
+{
+  "scope": "Bounded discovery, not exhaustive coverage",
+  "papers": [
+    {
+      "version": "2609.14857v1",
+      "title": "ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement",
+      "metadata_url": "http://arxiv.org/abs/2609.14857v1",
+      "published": "2026-09-14T00:10:45Z",
+      "updated": "2026-09-14T00:10:45Z",
+      "returned_in": [
+        "modular-discovery.xml"
+      ],
+      "paper_id": "P123",
+      "inspection": "Selected primary methods and results; exact scope in README",
+      "reason": "Localized construction and runtime composition"
+    },
+    {
+      "version": "2607.06974v1",
+      "title": "MILES: Modular Instruction Memory with Learnable Selection for Self-Improving LLM Reasoning",
+      "metadata_url": "http://arxiv.org/abs/2607.06974v1",
+      "published": "2026-07-08T03:51:37Z",
+      "updated": "2026-07-08T03:51:37Z",
+      "returned_in": [
+        "modular-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.31568v1",
+      "title": "DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education",
+      "metadata_url": "http://arxiv.org/abs/2609.31568v1",
+      "published": "2026-09-25T17:33:41Z",
+      "updated": "2026-09-25T17:33:41Z",
+      "returned_in": [
+        "prior-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.31395v1",
+      "title": "ActKV: Efficient LLM Agents through Action-Guided KV Cache Management",
+      "metadata_url": "http://arxiv.org/abs/2609.31395v1",
+      "published": "2026-09-25T15:24:30Z",
+      "updated": "2026-09-25T15:24:30Z",
+      "returned_in": [
+        "prior-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.30830v1",
+      "title": "AGATE: Provenance-Based Runtime Defense Against Compositional Attacks on LLM Agents",
+      "metadata_url": "http://arxiv.org/abs/2609.30830v1",
+      "published": "2026-09-25T05:18:02Z",
+      "updated": "2026-09-25T05:18:02Z",
+      "returned_in": [
+        "prior-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.29892v1",
+      "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+      "metadata_url": "http://arxiv.org/abs/2609.29892v1",
+      "published": "2026-09-24T14:38:08Z",
+      "updated": "2026-09-24T14:38:08Z",
+      "returned_in": [
+        "prior-discovery.xml",
+        "selected-metadata.xml"
+      ],
+      "paper_id": "P120",
+      "inspection": "Selected primary methods and results; exact scope in README",
+      "reason": "Prescribed co-development and the allocation distinction"
+    },
+    {
+      "version": "2609.29394v1",
+      "title": "RACaP: Agentic Reasoning, Acting, and Coding as Policies for Evolvable Robot Learning",
+      "metadata_url": "http://arxiv.org/abs/2609.29394v1",
+      "published": "2026-09-24T11:22:45Z",
+      "updated": "2026-09-24T11:22:45Z",
+      "returned_in": [
+        "prior-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.29204v1",
+      "title": "AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution",
+      "metadata_url": "http://arxiv.org/abs/2609.29204v1",
+      "published": "2026-09-24T08:14:03Z",
+      "updated": "2026-09-24T08:14:03Z",
+      "returned_in": [
+        "prior-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.29144v1",
+      "title": "Scope Before You Persist: Preventing Cross-Family Interference in Agent Memory",
+      "metadata_url": "http://arxiv.org/abs/2609.29144v1",
+      "published": "2026-09-24T07:22:10Z",
+      "updated": "2026-09-24T07:22:10Z",
+      "returned_in": [
+        "prior-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.28940v1",
+      "title": "Calibrated Decision Models for Autonomous Penetration-Testing Harnesses: JEV and Laya as System One Decision Layers for LLM-Driven Pentest Agents",
+      "metadata_url": "http://arxiv.org/abs/2609.28940v1",
+      "published": "2026-09-24T02:47:20Z",
+      "updated": "2026-09-24T02:47:20Z",
+      "returned_in": [
+        "prior-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.13739v1",
+      "title": "HarnessBandit: Joint Learnability-Transferability Scheduling for Multi-Harness Agentic Reinforcement Learning",
+      "metadata_url": "http://arxiv.org/abs/2609.13739v1",
+      "published": "2026-09-12T06:22:45Z",
+      "updated": "2026-09-12T06:22:45Z",
+      "returned_in": [
+        "selected-metadata.xml"
+      ],
+      "paper_id": "P43",
+      "inspection": "Metadata refresh only; version unchanged; prior methods boundary retained"
+    },
+    {
+      "version": "2605.22166v2",
+      "title": "Adapting the Interface, Not the Model: Runtime Harness Adaptation for Deterministic LLM Agents",
+      "metadata_url": "http://arxiv.org/abs/2605.22166v2",
+      "published": "2026-05-21T08:36:49Z",
+      "updated": "2026-05-27T04:34:36Z",
+      "returned_in": [
+        "selected-metadata.xml"
+      ],
+      "paper_id": "P41",
+      "inspection": "Metadata refresh only; version unchanged; prior methods boundary retained"
+    },
+    {
+      "version": "2607.01120v2",
+      "title": "Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents",
+      "metadata_url": "http://arxiv.org/abs/2607.01120v2",
+      "published": "2026-07-01T16:08:02Z",
+      "updated": "2026-07-02T14:02:28Z",
+      "returned_in": [
+        "selected-metadata.xml"
+      ],
+      "paper_id": "P45",
+      "inspection": "Metadata refresh only; version unchanged; prior methods boundary retained"
+    },
+    {
+      "version": "2609.31186v1",
+      "title": "Evolutionary Safety of Recursive Self-Improving AI: Taxonomy, Risk Discovery, and Evaluation",
+      "metadata_url": "http://arxiv.org/abs/2609.31186v1",
+      "published": "2026-09-25T12:17:10Z",
+      "updated": "2026-09-25T12:17:10Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.30652v1",
+      "title": "Recursive Self-Improvement via On-Policy Distillation for Reasoning",
+      "metadata_url": "http://arxiv.org/abs/2609.30652v1",
+      "published": "2026-09-25T00:42:31Z",
+      "updated": "2026-09-25T00:42:31Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.29773v1",
+      "title": "Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement",
+      "metadata_url": "http://arxiv.org/abs/2609.29773v1",
+      "published": "2026-09-24T13:17:57Z",
+      "updated": "2026-09-24T13:17:57Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.27612v1",
+      "title": "RegenHarness: A Robot Agent Harness with Evidence-Gated Recursive Self-Improvement",
+      "metadata_url": "http://arxiv.org/abs/2609.27612v1",
+      "published": "2026-09-23T09:29:04Z",
+      "updated": "2026-09-23T09:29:04Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.27389v1",
+      "title": "EvoAudio: Recursive Self-Improvement for Audio Understanding",
+      "metadata_url": "http://arxiv.org/abs/2609.27389v1",
+      "published": "2026-09-23T05:45:11Z",
+      "updated": "2026-09-23T05:45:11Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.26457v1",
+      "title": "Recursive self-improvement of AI research agents",
+      "metadata_url": "http://arxiv.org/abs/2609.26457v1",
+      "published": "2026-09-22T14:12:13Z",
+      "updated": "2026-09-22T14:12:13Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.24972v2",
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "metadata_url": "http://arxiv.org/abs/2609.24972v2",
+      "published": "2026-09-21T17:54:49Z",
+      "updated": "2026-09-23T22:10:39Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.24838v1",
+      "title": "MedRSI: Recursive Self-Improvement for Medical Agents via Clinically Aligned Self-Evolution",
+      "metadata_url": "http://arxiv.org/abs/2609.24838v1",
+      "published": "2026-09-21T16:19:33Z",
+      "updated": "2026-09-21T16:19:33Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.17523v1",
+      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+      "metadata_url": "http://arxiv.org/abs/2609.17523v1",
+      "published": "2026-09-15T17:55:28Z",
+      "updated": "2026-09-15T17:55:28Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.15802v1",
+      "title": "The Economics of Recursive Self-Improvement",
+      "metadata_url": "http://arxiv.org/abs/2609.15802v1",
+      "published": "2026-09-14T16:12:25Z",
+      "updated": "2026-09-14T16:12:25Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.15364v2",
+      "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+      "metadata_url": "http://arxiv.org/abs/2609.15364v2",
+      "published": "2026-09-14T10:46:40Z",
+      "updated": "2026-09-18T21:46:52Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.14858v1",
+      "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+      "metadata_url": "http://arxiv.org/abs/2609.14858v1",
+      "published": "2026-09-14T00:10:47Z",
+      "updated": "2026-09-14T00:10:47Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.14260v1",
+      "title": "Recursive Self-Improvement LLM Agents for Inverter Dynamic Model Identification",
+      "metadata_url": "http://arxiv.org/abs/2609.14260v1",
+      "published": "2026-09-13T03:42:24Z",
+      "updated": "2026-09-13T03:42:24Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.13406v1",
+      "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
+      "metadata_url": "http://arxiv.org/abs/2609.13406v1",
+      "published": "2026-09-11T18:15:09Z",
+      "updated": "2026-09-11T18:15:09Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.11873v3",
+      "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+      "metadata_url": "http://arxiv.org/abs/2609.11873v3",
+      "published": "2026-09-10T17:44:23Z",
+      "updated": "2026-09-22T12:08:36Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.11677v2",
+      "title": "Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents",
+      "metadata_url": "http://arxiv.org/abs/2609.11677v2",
+      "published": "2026-09-10T15:09:08Z",
+      "updated": "2026-09-20T14:51:46Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": "P122",
+      "inspection": "Selected primary methods and results; exact scope in README",
+      "reason": "Failure aggregation, attribution and harness edit scope"
+    },
+    {
+      "version": "2609.08183v1",
+      "title": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+      "metadata_url": "http://arxiv.org/abs/2609.08183v1",
+      "published": "2026-09-08T03:14:54Z",
+      "updated": "2026-09-08T03:14:54Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": null,
+      "inspection": "Discovery lead only; no methods claim relied on",
+      "reason": "Outside this bounded comparison; retrieval is not complete abstract or methods inspection"
+    },
+    {
+      "version": "2609.06396v2",
+      "title": "MetaRSI / RSI2: A Meta-Recursive Self-Improving System for Recursive Self-Improving Systems Themselves",
+      "metadata_url": "http://arxiv.org/abs/2609.06396v2",
+      "published": "2026-09-06T05:15:31Z",
+      "updated": "2026-09-09T11:06:36Z",
+      "returned_in": [
+        "targeted-discovery.xml"
+      ],
+      "paper_id": "P121",
+      "inspection": "Selected primary methods and results; exact scope in README",
+      "reason": "Direct reported improvement-policy comparison"
+    }
+  ]
+}

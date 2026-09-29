@@ -1,0 +1,11 @@
+{
+  "paper_id": "P119",
+  "title": "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning",
+  "version": "AISTATS 2011, PMLR 15:627\u2013635, venue PDF",
+  "url": "https://proceedings.mlr.press/v15/ross11a/ross11a.pdf",
+  "retrieved_utc": "2026-09-28T23:52:26.568414+00:00",
+  "bytes": 1174501,
+  "sha256": "17bdd6e049e64f09010b322f9e2d4fb5c744c33ff7ac99b4c4561e39bd9082a7",
+  "inspection": "Introduction, sections 2\u20133, Algorithm 3.1 and section 4 assumptions; proofs and experiments not reproduced.",
+  "arxiv_api_requests": 0
+}

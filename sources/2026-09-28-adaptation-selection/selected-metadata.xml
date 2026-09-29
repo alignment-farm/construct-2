@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FXvo/G+/Q4Rhg2W1HKCf5sO+lQQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2609.29892,2605.22166,2609.13739,2607.01120&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-29T00:21:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2609.29892,2605.22166,2609.13739,2607.01120" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.13739v1</id>
+    <title>HarnessBandit: Joint Learnability-Transferability Scheduling for Multi-Harness Agentic Reinforcement Learning</title>
+    <updated>2026-09-12T06:22:45Z</updated>
+    <link href="https://arxiv.org/abs/2609.13739v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.13739v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language-model agents are increasingly deployed through diverse harnesses that differ in system prompts, tool schemas, control loops, and trajectory formats. The same model can perform unevenly across these interfaces, making robustness to harness variation an important objective. A natural approach is to train a shared policy through multiple harnesses, but doing so introduces a scheduling problem: each training step should favor a harness that currently provides a useful learning signal while also producing an update that benefits the other harnesses. We develop HarnessBandit, an online scheduler that selects one harness per optimizer step. After a group-relative policy optimization (GRPO) update, it observes learnability -- the mean absolute advantage on the batch -- and transferability -- the cosine between a low-dimensional gradient sketch of the current harness and exponential moving averages of the remaining harnesses. The two signals are fused after pooled sliding-window min-max normalization and sampled with a visit-dependent bonus and an explicit exploration floor. We train Qwen3.5-2B across six harnesses on ClawGym and evaluate on PinchBench (held-out tasks, in-distribution OpenClaw) and ClawEval (held-out tasks and harness). HarnessBandit improves over mixed-batch multi-harness training on both benchmarks, while training diagnostics indicate that learnability and transferability provide distinct, evolving signals.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-12T06:22:45Z</published>
+    <arxiv:comment>13 pages. Equal contribution: Hongliang Wei and Xiaobing Tu. Corresponding authors: Xiaobing Tu and Xiaopeng Fan</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hongliang Wei</name>
+      <arxiv:affiliation>Harbin Institute of Technology</arxiv:affiliation>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiaobing Tu</name>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yinggui Wang</name>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhengxi Liu</name>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rongkun Xue</name>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jinkui Ren</name>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiantao Zhang</name>
+      <arxiv:affiliation>Alibaba Cloud</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Debin Zhao</name>
+      <arxiv:affiliation>Harbin Institute of Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiaopeng Fan</name>
+      <arxiv:affiliation>Harbin Institute of Technology</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.22166v2</id>
+    <title>Adapting the Interface, Not the Model: Runtime Harness Adaptation for Deterministic LLM Agents</title>
+    <updated>2026-05-27T04:34:36Z</updated>
+    <link href="https://arxiv.org/abs/2605.22166v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.22166v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents are shaped not only by their language models, but also by the runtime harness that mediates observation, tool use, action execution, feedback interpretation, and trajectory control. While existing agent adaptation methods mainly update model parameters, many failures in deterministic, rule-governed domains stem from mismatches at the model--environment interface. We propose Life-Harness, a lifecycle-aware runtime harness that improves frozen LLM agents without changing model weights or evaluation environments. Life-Harness evolves from training trajectories by converting recurring interaction failures into reusable interventions across environment contracts, procedural skills, action realization, and trajectory regulation, and remains fixed for evaluation on unseen tasks. On seven deterministic environments from $τ$-bench, $τ^2$-bench, and AgentBench, Life-Harness improves 116 out of 126 model--environment settings across 18 model backbones, with an average relative improvement of 88.5%. Harnesses evolved only from Qwen3-4B-Instruct trajectories transfer to 17 other models, showing that Life-Harness captures reusable environment-side structure rather than model-specific behavior. These results position runtime interface adaptation as a complementary alternative to model-centric agent training. Code is available at https://github.com/Tianshi-Xu/Life-Harness.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-21T08:36:49Z</published>
+    <arxiv:comment>Work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tianshi Xu</name>
+    </author>
+    <author>
+      <name>Huifeng Wen</name>
+    </author>
+    <author>
+      <name>Meng Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.01120v2</id>
+    <title>Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents</title>
+    <updated>2026-07-02T14:02:28Z</updated>
+    <link href="https://arxiv.org/abs/2607.01120v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.01120v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents are rapidly being deployed in production, including coding assistants, customer-support chatbots, and scientific research assistants, yet they remain fundamentally static in enterprise deployment. The LLM weights, system prompts, tool repertoires, and in-context harnesses are frozen at deployment time, and any improvement requires a manual loop of human-curated data collection, offline fine-tuning, modification of the agentic paradigm, and re-deployment. Recent work on self-evolving agents, such as OpenClaw for individual users, indicates that the next leap in agent capability will come from agents that continually learn from their own experience. In this paper, we argue that this vision for self-evolving agent deployment is being held back for enterprise-level large-scale agentic service not by reinforcement learning (RL) algorithms but by agentic online RL systems. Specifically, current agentic RL systems and the surrounding observability software stack are inadequate along three essential aspects: (i) there is no standardized agent trajectory data protocol capable of carrying RL learning signals at step granularity across heterogeneous agent paradigms; (ii) there is no enterprise-grade comprehensive data proxy that converts real workloads into governed learning substrates; and (iii) there is no unified agent evolution control plane that automatically decides, based on trajectory statistics, when to update policy weights or evolve the in-context harness. The next generation of agentic RL systems must be co-designed around these three pillars, and we sketch concrete architectures, case studies, and counter-arguments. We instantiate one branch through AReaL2.0, reorganizing existing RL infrastructure into an agent-oriented online RL loop for policy weight updates from deployed workloads.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T16:08:02Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Ran Yan</name>
+    </author>
+    <author>
+      <name>Wei Fu</name>
+    </author>
+    <author>
+      <name>Jiale Li</name>
+    </author>
+    <author>
+      <name>Shusheng Xu</name>
+    </author>
+    <author>
+      <name>Zhiyu Mei</name>
+    </author>
+    <author>
+      <name>Jiaxuan Gao</name>
+    </author>
+    <author>
+      <name>Jiarui Zhang</name>
+    </author>
+    <author>
+      <name>Wentai Zhang</name>
+    </author>
+    <author>
+      <name>Hao Dai</name>
+    </author>
+    <author>
+      <name>Xujie Shen</name>
+    </author>
+    <author>
+      <name>Chuyi He</name>
+    </author>
+    <author>
+      <name>Zhen Pu</name>
+    </author>
+    <author>
+      <name>Jun Mei</name>
+    </author>
+    <author>
+      <name>Zhiyao Lin</name>
+    </author>
+    <author>
+      <name>Haitao Wang</name>
+    </author>
+    <author>
+      <name>Zhiqiang Ding</name>
+    </author>
+    <author>
+      <name>Jiawei Zhang</name>
+    </author>
+    <author>
+      <name>Huaijie Wang</name>
+    </author>
+    <author>
+      <name>Ruida Xu</name>
+    </author>
+    <author>
+      <name>Honghua Dong</name>
+    </author>
+    <author>
+      <name>Youhe Jiang</name>
+    </author>
+    <author>
+      <name>Yi Wu</name>
+    </author>
+    <author>
+      <name>Tongkai Yang</name>
+    </author>
+    <author>
+      <name>Binhang Yuan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.29892v1</id>
+    <title>Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents</title>
+    <updated>2026-09-24T14:38:08Z</updated>
+    <link href="https://arxiv.org/abs/2609.29892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.29892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid progression of large language models is extending AI from passive content generation into the active workflows of engineering and scientific discovery. This shift raises a compelling question: can AI be both the object of development and an active participant in building next-generation AI systems? We explore this question by building Qwen-Planner-Agent within a closed-loop AI-for-AI framework for scalable development and iterative improvement. Mobile planning offers a demanding test of this approach: complex, long-horizon tasks challenge agent reliability, while costly real-device interaction limits development scalability. The framework connects data production, model training, and deployment through a shared action-feedback-verification contract. (i) AI for Data builds a human-gated agentic data flywheel in which specialized agents construct tasks, collect interaction trajectories, curate and balance training data, and use training feedback to guide subsequent data generation. (ii) AI for Training combines a supervised planning cold start with hybrid-environment online agentic reinforcement learning, where we introduce Competence-Aware Reward-and-Advantage Engineering (CARE) to reduce reasoning and tool-use costs while preserving task performance. (iii) AI drives model--harness co-evolution through an execution-evidence-driven loop that orchestrates memory, skills, and tools at runtime and feeds structured action feedback and preserved failure traces back into coordinated model and harness adaptation. Qwen-Planner-Agent achieves the best overall performance among all evaluated models and systems on MobilePA-Bench, improving over its base model across tool use, memory, skills, and sub-agent coordination. Further evaluations of our model show improvements across non-mobile agentic benchmarks while largely preserving general capabilities.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-24T14:38:08Z</published>
+    <arxiv:comment>https://tongyi-mai.github.io/Qwen-Planner-Agent/</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tingyu Qu</name>
+    </author>
+    <author>
+      <name>Weigao Sun</name>
+    </author>
+    <author>
+      <name>Yuecheng Liu</name>
+    </author>
+    <author>
+      <name>Yucheng Zhao</name>
+    </author>
+    <author>
+      <name>Yi Zhu</name>
+    </author>
+    <author>
+      <name>Yifeng Ding</name>
+    </author>
+    <author>
+      <name>Qiyi Wang</name>
+    </author>
+    <author>
+      <name>Sihan Cao</name>
+    </author>
+    <author>
+      <name>Pengkun Jiao</name>
+    </author>
+    <author>
+      <name>Hanlei Xie</name>
+    </author>
+    <author>
+      <name>Xiongwei Wu</name>
+    </author>
+    <author>
+      <name>Qichao Wang</name>
+    </author>
+    <author>
+      <name>Haodong Zhang</name>
+    </author>
+    <author>
+      <name>Jiajun Liu</name>
+    </author>
+    <author>
+      <name>Yuhao Wang</name>
+    </author>
+    <author>
+      <name>Yuqing Xie</name>
+    </author>
+    <author>
+      <name>Junpeng Zhao</name>
+    </author>
+    <author>
+      <name>Long Chen</name>
+    </author>
+    <author>
+      <name>Ming Ma</name>
+    </author>
+    <author>
+      <name>Sihan Yang</name>
+    </author>
+    <author>
+      <name>Ziwang Zhao</name>
+    </author>
+    <author>
+      <name>Yanhao Jia</name>
+    </author>
+    <author>
+      <name>Liangquan Gong</name>
+    </author>
+    <author>
+      <name>Feida Zhu</name>
+    </author>
+    <author>
+      <name>Yiran Zhong</name>
+    </author>
+    <author>
+      <name>Steven Hoi</name>
+    </author>
+  </entry>
+</feed>

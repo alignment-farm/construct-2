@@ -1,0 +1,22 @@
+{
+  "initial_root_tracked_files": 257,
+  "unchanged_original_files": 251,
+  "intended_changed_original_files": [
+    "EXECUTIVE_SUMMARY.md",
+    "README.md",
+    "notes/CONTINUING_EXPERIENCE_STUDY.md",
+    "notes/EVIDENCE_ACQUISITION.md",
+    "sources/README.md",
+    "studies/README.md"
+  ],
+  "original_CC1_CC3_preserved": true,
+  "new_local_links_checked": 22,
+  "new_link_issues": [],
+  "preexisting_missing_local_clone_links": 52,
+  "preexisting_link_scope": "Existing links into ancillary clones absent on this machine; unchanged, not fetched for this review.",
+  "diff_whitespace_check": "passed",
+  "study_review_boundary": "523eb3fb8aa56fed0ffdfe10f6b1f1cb3002ade6",
+  "study_live_tracked_tree": "clean, before and after root review",
+  "root_models_or_training_run": false,
+  "root_fresh_confirmation_run": false
+}

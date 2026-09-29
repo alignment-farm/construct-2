@@ -1,0 +1,219 @@
+{
+  "utc": "2026-09-29T00:52:21.002841+00:00",
+  "checks_are": "Preparation/source/document verification; no experiment or model evaluation",
+  "baseline_file_count": 276,
+  "unchanged_prior_files": 269,
+  "intentional_status_and_registration_updates": [
+    {
+      "path": "notes/ADAPTATION_SELECTION.md",
+      "prior_sha256": "bb4e617cc968ba5323a1910a68b7b0e6e9d81841905e3af44573716dba1ad55f",
+      "current_sha256": "c34a08063040f522f0cdc96723b3d6499cf8e091bb1ade5d2b3944dbd62d011c",
+      "prior_text_recovered_after_reversing_recorded_edits": true
+    },
+    {
+      "path": "EXECUTIVE_SUMMARY.md",
+      "prior_sha256": "245f11bac95b73baf4ce6a124dbd605196a3ca878db448ed67f524e093d85f22",
+      "current_sha256": "c9ed4659738956373eb93d5248fd47fe08efa2e148b9fdf00fc7855c0757d148",
+      "prior_text_recovered_after_reversing_recorded_edits": true
+    },
+    {
+      "path": "README.md",
+      "prior_sha256": "190aa2cbd1b0e60c39cc7099bff0184ec8b8215990664a464be564bc9c3f78c0",
+      "current_sha256": "7294a0364e4660414988db736cdc547be546575a8584ef02778eef9155938294",
+      "prior_text_recovered_after_reversing_recorded_edits": true
+    },
+    {
+      "path": "notes/ADAPTATION_DECISIONS.md",
+      "prior_sha256": "316b5d5ac34d20afc3938e153adceb4c175a04424736498802a4e321ed50fbf9",
+      "current_sha256": "cdd56d2133c3995f1c0e89e46c676b2816906edbbc485836baf3ad0001768bf5",
+      "prior_text_recovered_after_reversing_recorded_edits": true
+    },
+    {
+      "path": "sources/README.md",
+      "prior_sha256": "4e1018e65cbd29f0d042d9900bc0a81a499f2ec558715ac7f8e485f622997a31",
+      "current_sha256": "fb4d1fc0c182d9534fead40920214a60e3785cbfbbab85fd369999fa1833e0f8",
+      "prior_text_recovered_after_reversing_recorded_edits": true
+    },
+    {
+      "path": "studies/README.md",
+      "prior_sha256": "7df1bf95044ebf427e1d984fa45280d31753eef8a60959c2e2f147edebf12685",
+      "current_sha256": "4601548b13a7ad3cb6cbf424367eb31af187650a64e8d9dd10fdaf93d687f55e",
+      "prior_text_recovered_after_reversing_recorded_edits": true
+    },
+    {
+      "path": "studies/repos.txt",
+      "prior_sha256": "fdb36b151f5309e7340c964f2cd2bf96f611c1be335e1aae63813c93a7acea92",
+      "current_sha256": "8c3ca5ce667be478db14e7e0f9a470e5b22ea50e4a0af2386edef0ff4e8ce66f",
+      "prior_text_recovered_after_reversing_recorded_edits": true
+    }
+  ],
+  "new_local_links": [
+    {
+      "file": "notes/INTERVENTION_CHOICE_STUDY.md",
+      "target": "ADAPTATION_SELECTION.md",
+      "exists": true
+    },
+    {
+      "file": "notes/INTERVENTION_CHOICE_STUDY.md",
+      "target": "../sources/2026-09-28-adaptation-selection/README.md",
+      "exists": true
+    },
+    {
+      "file": "notes/INTERVENTION_CHOICE_STUDY.md",
+      "target": "../../ancillary-studies/intervention-choice-transfer/README.md",
+      "exists": true
+    },
+    {
+      "file": "notes/INTERVENTION_CHOICE_STUDY.md",
+      "target": "../sources/2026-09-28-intervention-choice-preparation/README.md",
+      "exists": true
+    },
+    {
+      "file": "sources/2026-09-28-intervention-choice-preparation/README.md",
+      "target": "artifact-review.json",
+      "exists": true
+    },
+    {
+      "file": "sources/2026-09-28-intervention-choice-preparation/README.md",
+      "target": "../../notes/INTERVENTION_CHOICE_STUDY.md",
+      "exists": true
+    },
+    {
+      "file": "sources/2026-09-28-intervention-choice-preparation/README.md",
+      "target": "preparation.json",
+      "exists": true
+    },
+    {
+      "file": "sources/2026-09-28-intervention-choice-preparation/README.md",
+      "target": "validation.json",
+      "exists": true
+    },
+    {
+      "file": "sources/2026-09-28-intervention-choice-preparation/README.md",
+      "target": "../2026-09-28-adaptation-selection/README.md",
+      "exists": true
+    },
+    {
+      "file": "sources/README.md",
+      "target": "../notes/INTERVENTION_CHOICE_STUDY.md",
+      "exists": true
+    },
+    {
+      "file": "sources/README.md",
+      "target": "2026-09-28-intervention-choice-preparation/README.md",
+      "exists": true
+    },
+    {
+      "file": "EXECUTIVE_SUMMARY.md",
+      "target": "notes/INTERVENTION_CHOICE_STUDY.md",
+      "exists": true
+    },
+    {
+      "file": "notes/ADAPTATION_DECISIONS.md",
+      "target": "INTERVENTION_CHOICE_STUDY.md",
+      "exists": true
+    },
+    {
+      "file": "notes/ADAPTATION_SELECTION.md",
+      "target": "INTERVENTION_CHOICE_STUDY.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "notes/INTERVENTION_CHOICE_STUDY.md",
+      "exists": true
+    },
+    {
+      "file": "studies/README.md",
+      "target": "../../ancillary-studies/intervention-choice-transfer/README.md",
+      "exists": true
+    },
+    {
+      "file": "studies/README.md",
+      "target": "../sources/2026-09-28-intervention-choice-preparation/README.md",
+      "exists": true
+    },
+    {
+      "file": "studies/README.md",
+      "target": "../notes/INTERVENTION_CHOICE_STUDY.md",
+      "exists": true
+    }
+  ],
+  "original_AD_predictions": {
+    "unchanged": true,
+    "sha256": "2fb16c48cea5c9d39af1ab3495660ab0cd954efe290a6f20e77f5c589c44e9a0"
+  },
+  "public_source_hashes": [
+    {
+      "path": "README.md",
+      "matches": true
+    },
+    {
+      "path": "LICENSE-MODULARRSI.md",
+      "matches": true
+    },
+    {
+      "path": "generations/merged_active/README.md",
+      "matches": true
+    },
+    {
+      "path": "generations/merged_active/PROVENANCE.json",
+      "matches": true
+    },
+    {
+      "path": "generations/merged_active/archive.json",
+      "matches": true
+    },
+    {
+      "path": "scripts/evaluate.sh",
+      "matches": true
+    },
+    {
+      "path": "scripts/evolve.sh",
+      "matches": true
+    },
+    {
+      "path": "trajectories/mergefinal/README.md",
+      "matches": true
+    },
+    {
+      "path": "trajectories/mergefinal/run-1/config.json",
+      "matches": true
+    },
+    {
+      "path": "trajectories/mergefinal/run-1/result.json",
+      "matches": true
+    },
+    {
+      "path": "generations/merged_active/gen_0/modules/verification/margin_gated.py",
+      "matches": true
+    },
+    {
+      "path": "generations/merged_active/gen_0/modules/observation/terminal_scrollback.py",
+      "matches": true
+    },
+    {
+      "path": "src/harbor/agents/terminus_2_modular/composer/static.py",
+      "matches": true
+    },
+    {
+      "path": "src/harbor/agents/terminus_2_modular/composer/llm_dynamic.py",
+      "matches": true
+    }
+  ],
+  "repository_inventory": {
+    "count": 18,
+    "unique": 18,
+    "clone_helper_list_matches": true
+  },
+  "ancillary_preparation": {
+    "commit": "3cabc29aa1b784ec8a9129c568224d90badb9cd6",
+    "remote_main": "3cabc29aa1b784ec8a9129c568224d90badb9cd6",
+    "clean": true,
+    "private": true,
+    "session_started": false,
+    "experiments_started": false
+  },
+  "git_diff_check_exit_code": 0,
+  "errors": []
+}

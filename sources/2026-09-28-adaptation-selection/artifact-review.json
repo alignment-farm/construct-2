@@ -1,0 +1,73 @@
+{
+  "utc": "2026-09-29T00:36:17.186990+00:00",
+  "artifacts": [
+    {
+      "cache_directory": ".cache/adaptation-selection-2026-09-28/rsi-harness",
+      "origin": "https://github.com/CosmosMind-ai/RSI-Harness.git",
+      "revision": "737bf1f5a5a56f0c49bbd5180e71d651113038ac",
+      "head_subject": "refactor(harness-rsi): drop the unreachable read_error sampling issue",
+      "git_status_porcelain": "",
+      "history_scope": "Shallow clone; HEAD identity/subject inspected, not full revision archaeology",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "sha256": "7663d7272805c6f34b36850d71b30ec11cc1f24b18409b864e502b82aef4d831",
+          "scope": "overview, runtime and Genome workflow sections"
+        },
+        {
+          "path": "docs/genome/harness-rsi.md",
+          "sha256": "b7babdf7de3dffdc12e0683f63e9874d2a5eba2d6f1781641a00bd18560cda0b",
+          "scope": "authoring workflow documentation (first 180 lines)"
+        },
+        {
+          "path": "config/genomes/harness-rsi/components/instructions.json",
+          "sha256": "fd129a15c452085cdc90f61d22a250db0c33a0433cabf4358ebdc66b4e2dd448",
+          "scope": "authoring sequence and human-approved configuration plan; viewed as data"
+        },
+        {
+          "path": "config/genomes/harness-rsi/skills/genome-authoring/pattern-to-component.md",
+          "sha256": "df36c2e36f4b8710ee1f8840a37292828e5926e42fd77342b857202c166df5c1",
+          "scope": "component decision table and evidence criteria; viewed as data"
+        }
+      ],
+      "execution": "None; static reading and file inventory/search only"
+    },
+    {
+      "cache_directory": ".cache/adaptation-selection-2026-09-28/ecdysis",
+      "origin": "https://github.com/cuiyu-ai/Ecdysis.git",
+      "revision": "cf93866d545b0974dbb0bc83b39c31fbbdeeecb8",
+      "head_subject": "Merge pull request #4 from cuiyu-ai/public-release",
+      "git_status_porcelain": "",
+      "history_scope": "Shallow clone; HEAD identity/subject inspected, not full revision archaeology",
+      "inspected_files": [
+        {
+          "path": "README.md",
+          "sha256": "35ac2bbbe28f0952fafabc3a4f703f1eb5dc2021c6301a9ce1d0161aecce6d3d",
+          "scope": "method, integration contract and release scope"
+        },
+        {
+          "path": "src/ecdysis/README.md",
+          "sha256": "9d02275b39ed41b0a2ec2a43b057121e0eca3a53576b4c2ca48dc6c0a2283ce6",
+          "scope": "source map"
+        },
+        {
+          "path": "src/ecdysis/evolution.py",
+          "sha256": "7c48f7d4ae4e19467ad18d35d5a318503695472c47ca9507374fbb7e4fe9903d",
+          "scope": "mean score, failure grouping, FDCR invocation and nearby helper definitions, lines 155\u2013325"
+        },
+        {
+          "path": "src/ecdysis/training.py",
+          "sha256": "3f7a63449a03b5aa3ed7b2f0e830b69ba0de877066485dfb3d1b08970ee552e1",
+          "scope": "full method-level training and frozen-inference loop"
+        }
+      ],
+      "execution": "None; static reading and file inventory/search only"
+    }
+  ],
+  "rsi_harness_search": {
+    "case_insensitive_pattern": "\\b(metarsi|lora|scheduler|terminal.bench|swe.bench|aime)\\b",
+    "scope": "Nonignored clone files, excluding package-lock.json and bun.lock",
+    "result": "No matches",
+    "interpretation": "Inspected release does not supply a verified reproduction of the paper comparison; not a claim about unpublished or other releases."
+  }
+}

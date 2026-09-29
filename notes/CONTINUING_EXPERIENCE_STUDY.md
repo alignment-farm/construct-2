@@ -12,13 +12,20 @@ prepared and pushed at `7717645b318d3f3e94673c814fd4acb001869dd3`. Its subsequen
 transfer remain unresolved. The study owns execution; it does not replace the
 enduring directive or reopen a completed study.
 
-**Continuation prepared — 28 September:** The user selected bounded experimental
+**Current assessment — 28 September:** The [continuation review](../studies/2026-09-28-investigation-continuation-findings.md)
+accepts diagnostic phase `523eb3f`. Conditional strict repair and full history
+parity are established; autonomous investigation and fresh transfer remain open.
+The [appended assessment](#assessment-after-bounded-acquisition-diagnosis--28-september)
+keeps CC1 unresolved and CC2/CC3 untested, without changing their original wording.
+
+**Historical continuation preparation — 28 September:** The user selected bounded experimental
 continuation and requested an instruction on the study's remote `main` for a new
 ancillary agent. The [handoff](https://github.com/alignment-farm/experience-guided-investigation/blob/121242ca597c607f06d9f9084d88b1fa90a458ff/CONTINUE.md)
 is committed and verified pushed at `121242c`. It carries the pilot qualifications,
 Astra investigator policy, complete acquisition, learner-grounded teaching, full
 source parity and fresh evaluation expectations. Methods remain study-owned.
-Preparation starts no experiment; the reviewed evidence boundary remains `47e5b28`.
+Preparation started no experiment; its then-current evidence boundary was `47e5b28`.
+The subsequent publication advances that boundary as recorded above.
 
 ## Question and starting point
 
@@ -235,3 +242,29 @@ source access for ordinary reuse. P101 and the P42 refresh provide established
 methods to consider, not a prescribed remedy. Preserve the failed branch and
 diagnostic cases as development evidence and use fresh confirmation for any
 new transfer claim. This assessment launches no follow-up or duplicate study.
+
+## Assessment after bounded acquisition diagnosis — 28 September
+
+The [new review](../studies/2026-09-28-investigation-continuation-findings.md)
+accepts `523eb3f` as a completed bounded diagnostic phase. It fixes full teaching
+history parity, uses actual learner failures to construct executed corrections,
+and demonstrates strict filter repair from a supplied recorded context. The same
+adapter fails autonomous repair; a further correction elicits probes without
+using feedback to repair. None of twelve episodes retrieves history or passes a
+probe assertion. All executed cases are development, and the subsequent extension
+remains unevaluated. A conditional repair is useful explanatory progress, not
+complete acquisition of the selected investigation procedure.
+
+| Original expectation | Updated root assessment |
+|---|---|
+| CC1 — Residual experience value | **Unresolved.** Full source access is now matched, but unused. Conditional development repair does not demonstrate fresh benefit or a contribution unavailable from the explicit current contract and ordinary archive. |
+| CC2 — Opportunity cost | **Untested.** Complete autonomous acquisition, a competent extra-allowance alternative and later repayment are absent. Native costs are recorded, not equated. |
+| CC3 — Artifact mediation | **Untested.** The comparisons start from matched supplied programs; policy-specific acquired work products are not crossed. An added rename regression reinforces the need to check retained artifact quality. |
+
+Continue to distinguish correct conditional behavior, autonomous access and use,
+and completion with verification. P119's complementary method narrows the next
+acquisition comparison, but a single corrected context does not evaluate it or
+explain all failure. Correct action arguments and feedback use from actual failed
+states, plus competent ordinary reuse, remain consequential needs within the
+existing remit. The study owns method selection; this review launches no new run.
+Original pilot failures and prospective CC1–CC3 remain preserved.

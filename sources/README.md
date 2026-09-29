@@ -3,6 +3,29 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [28 September intervention-choice preparation](2026-09-28-intervention-choice-preparation/README.md)
+extends P123 to a pinned public module library, identifying candidate components
+and the limits of its final-harness traces. The user-approved
+[commission](../notes/INTERVENTION_CHOICE_STUDY.md) includes independent workload
+discovery and bounded diagnosis. The private study is prepared and pushed at
+`3cabc29`; no agent session or experiment was launched during preparation.
+
+The [28 September adaptation-selection reading](2026-09-28-adaptation-selection/README.md)
+adds P120–P123 and two pinned static artifact inspections. It distinguishes
+component improvement, runtime choice and learning an adaptation policy. The
+[root conclusion](../notes/ADAPTATION_SELECTION.md) narrows AD1–AD2 toward useful
+intervention experience after the receiving system changes. Public claims,
+implementation scope and root inference remain separate. This completes a bounded
+reading phase without models, ancillary review or a new commission.
+
+The [28 September investigation-continuation review](2026-09-28-investigation-continuation-review/README.md)
+advances the experimental boundary to `523eb3f` and accepts a bounded diagnostic
+phase. Root replays saved actions and program checks, verifies full-history parity
+and correction lineage, and confirms an added rename regression. Conditional
+repair does not establish autonomous investigation. P119 supplies a complementary
+acquisition method; the [assessment](../studies/2026-09-28-investigation-continuation-findings.md)
+keeps CC1 unresolved and CC2/CC3 untested. No fresh evaluation or model run occurs.
+
 The [28 September evidence-set review](2026-09-28-evidence-set-review/README.md)
 advances the study boundary to `8ac9b69`, accepting five bounded phases with
 qualifications. Root reproduces native outcomes and five tiny fits, regrades

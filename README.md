@@ -11,7 +11,32 @@ The [source guide](sources/README.md) links the literature review, and the [stud
 
 Contributors can use the [repository list](studies/repos.txt) and [clone instructions](studies/README.md#cloning-the-studies) to retrieve all ancillary studies or select them by name.
 
+**New feasibility commission — 28 September:**
+[Intervention-choice transfer](notes/INTERVENTION_CHOICE_STUDY.md) now owns the
+user-approved question of whether earlier intervention outcomes improve decisions
+after an agent or interface change. The independent repository is prepared and
+pushed at `3cabc29`; workload discovery and diagnostic development are included.
+Preparation launches no agent session or experiments. The other studies continue
+under their existing remits.
+
+**Preceding root conclusion — 28 September:**
+[Learning where to intervene](notes/ADAPTATION_SELECTION.md) separates improving
+remedies from improving the decisions that deploy them. New public methods
+narrow generic co-evolution proposals. Retain transfer of intervention-choice
+experience after an agent change as an independent feasibility recommendation,
+beyond competent current diagnosis and unchanged reuse. This bounded root phase
+is complete; it adds no experiment or commission.
+
 **Latest reviewed publication — 28 September:**
+[Experience-guided investigation](studies/2026-09-28-investigation-continuation-findings.md)
+at `523eb3f` completes a bounded diagnostic phase. A new adapter repairs the
+boolean filter from a supplied recorded context (18/18 external checks), but
+fails to reach repair autonomously (9/18). Further correction elicits probes
+without repair. Full teaching-history access is now matched; no run uses it.
+Root replay confirms the results and an additional rename regression. Autonomous
+acquisition and fresh transfer remain open; acceptance adds no commission.
+
+**Preceding reviewed publication — 28 September:**
 [Evidence-set memory](studies/2026-09-28-evidence-set-findings.md) at `8ac9b69`
 adds five accepted bounded phases. Learning acquires useful set rankings and
 reduces delivered evidence relative to initialization, but ordinary dependency
@@ -145,7 +170,7 @@ remain untested; the supplied executable completes 96/96. Original
 [EU1–EU3 predictions and assessments](notes/EVIDENCE_USE.md) remain identifiable.
 No follow-up experiment is commissioned.
 
-Current work prioritizes neural memory, live weight updates, and learned memory policies. Sixteen ancillary projects have completed reviewed phases, including evidence-set memory, whose broader investigation remains open; experience-guided investigation has a qualified development pilot and open acquisition commission. Update-source selection established reproducible local adapter updates without a task-success advantage in its final full-context comparison. Procedure acquisition and reuse found that its tested adapter transferred less reliably than retained examples and did not demonstrate acquisition-cost repayment at comparable useful accuracy. [Neural memory depth](https://github.com/alignment-farm/neural-memory-depth/blob/main/FINDINGS.md) ([local](../ancillary-studies/neural-memory-depth/FINDINGS.md)) found that interactions among initial representations and training streams strongly affect whether a tiny deeper memory learns full or partial recall. Correcting a verified derivative omission and increasing gradient-refresh frequency did not provide a uniform remedy; the differing published depth trends in Titans and Modular TTT remain unexplained.
+Current work prioritizes neural memory, live weight updates, and learned memory policies. Eighteen ancillary projects are registered: seventeen have completed reviewed bounded phases, and intervention-choice transfer is newly prepared for bounded feasibility. Evidence-set memory retains its broader exploration remit; experience-guided investigation retains its open autonomous-acquisition and transfer commission. Update-source selection established reproducible local adapter updates without a task-success advantage in its final full-context comparison. Procedure acquisition and reuse found that its tested adapter transferred less reliably than retained examples and did not demonstrate acquisition-cost repayment at comparable useful accuracy. [Neural memory depth](https://github.com/alignment-farm/neural-memory-depth/blob/main/FINDINGS.md) ([local](../ancillary-studies/neural-memory-depth/FINDINGS.md)) found that interactions among initial representations and training streams strongly affect whether a tiny deeper memory learns full or partial recall. Correcting a verified derivative omission and increasing gradient-refresh frequency did not provide a uniform remedy; the differing published depth trends in Titans and Modular TTT remain unexplained.
 
 [Procedure transfer](https://github.com/alignment-farm/procedure-transfer/blob/main/FINDINGS.md) ([local](../ancillary-studies/procedure-transfer/FINDINGS.md)) first found poor distillation acquisition and partial transfer through imitation. Its subsequent [diagnosis](https://github.com/alignment-farm/procedure-transfer/blob/main/DIAGNOSIS.md) ([local](../ancillary-studies/procedure-transfer/DIAGNOSIS.md)) establishes a working forward-KL acquisition checkpoint and a controlled repair of failed routing from identical weights. Both selected learners route all 48 new development calls correctly, while identifier production remains unreliable. These diagnostic results explain part of the original failure without establishing a forward-KL transfer advantage. The [root assessment](studies/README.md#procedure-transfer-acquisition-diagnosis) records the evidence, checks and limits.
 
@@ -154,7 +179,7 @@ The [third-phase root assessment, 15 September](studies/2026-09-15-maintenance-f
 | Latest publication | What we learned |
 |---|---|
 | [Evidence-set memory](studies/2026-09-28-evidence-set-findings.md) | Functioning acquisition, compact delivery and successful inference are separate. Ordinary dependency access matches the best native completion; binary-equivalent energies can produce different gradient-search outputs. Natural-text labels qualify apparent QA outcomes. |
-| [Experience-guided investigation](studies/2026-09-21-experience-investigation-findings.md) | Authored tool-use teaching changes actions without complete branch transfer. Passing a smaller repair check hides a predicate-type defect; acquisition remains open. |
+| [Experience-guided investigation](studies/2026-09-28-investigation-continuation-findings.md) | Conditional strict repair succeeds, autonomous repair fails, and further correction produces probes without feedback-driven completion. Full history access is restored but unused; autonomous acquisition and transfer remain open. |
 | [Lesson acceptance](studies/2026-09-20-lesson-acceptance-findings.md) | Paid probes add cost without benefit over competent cheap review. Raw repair fixes every current output but leaves one latent program defect; cheaply corrected code supports direct reuse. |
 | [Weight consolidation](studies/2026-09-18-continuing-consolidation-findings.md) | Following the finite-compiler result, a database continuation reduces familiar execution calls but adds no fresh completion or demonstrated cost repayment. Access to retained experience differs from learning to use it. |
 | [Procedural memory migration](studies/2026-09-17-migration-lineage-findings.md#procedural-migration-unchanged-guidance-is-a-strong-alternative) | Useful unchanged guidance matches paid selection at 12/12 with much lower total token cost. Recipient-dependent value is observed; harmful inheritance and paid adaptation repayment are not. |
@@ -169,20 +194,24 @@ The [third-phase root assessment, 15 September](studies/2026-09-15-maintenance-f
 
 S5 now includes an [accepted placement comparison](studies/2026-09-16-placement-findings.md) alongside the earlier [acquisition, use and maintenance measurements](studies/2026-09-15-maintenance-findings.md#assessment-of-the-prospective-expectations). None demonstrates learning-cost repayment against competent explicit alternatives at comparable complete quality. The placement study shares visible evidence across methods; earlier references have different supplied structures and privileges. The later evidence-use result adds a favorable measured comparison against an uncached lesson, qualified above. These results do not establish a universal ranking of weights, records and executable rules.
 
-**Current work — 28 September 2026:** Seventeen studies are registered.
+**Current work — 28 September 2026:** Eighteen studies are registered.
+[Intervention-choice transfer](notes/INTERVENTION_CHOICE_STUDY.md) is prepared at
+`3cabc29` for the approved bounded feasibility commission.
 [Evidence-set memory](notes/EVIDENCE_SET_MEMORY.md) has five accepted bounded
 phases through `8ac9b69`; broader user-authorized EBM exploration remains open.
-Sixteen have completed reviewed phases; [experience-guided investigation](studies/README.md#experience-guided-investigation)
-has published a development pilot, reviewed with qualifications. Its original
-acquisition-and-transfer commission remains open. The next useful work within
-that remit is bounded diagnosis of editing, complete repair, and teaching from
-actual learner attempts with a competent full-history alternative. This review
-starts no follow-up run. The [commission brief](notes/CONTINUING_EXPERIENCE_STUDY.md)
+The preceding seventeen have completed reviewed bounded phases.
+[Experience-guided investigation](studies/README.md#experience-guided-investigation)
+adds an accepted acquisition diagnosis at `523eb3f`; its original autonomous
+acquisition-and-transfer commission remains open. Next within that remit is
+correct action/feedback use from actual failed contexts and competent ordinary
+reuse, before fresh transfer. Full archive parity and conditional repair are now
+established; complete autonomous investigation is not. This review starts no run. The
+[commission brief](notes/CONTINUING_EXPERIENCE_STUDY.md)
 preserves CC1–CC3 with assessments; a negative pilot does not close the broader
 question or establish a general model limit. Software maintenance remains a test
 setting for useful experience across sessions. Root continues theory, literature
 and independent acceptance/intervention questions. The separate
-[applied derivative](derivatives/README.md) owns prototype development; this pilot
+[applied derivative](derivatives/README.md) owns prototype development; the investigation study
 uses its own MLX instrument and does not advance the runtime's review boundary.
 The next evidential milestone is useful capability across repeated realistic work
 and consequential change, with complete outcomes and total costs. The database follow-up

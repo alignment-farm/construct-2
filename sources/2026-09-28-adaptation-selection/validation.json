@@ -1,0 +1,184 @@
+{
+  "utc": "2026-09-29T00:38:08.729659+00:00",
+  "root_head": "275de307ad4d61479df60dfee4c93246f54083b3",
+  "checks_are": "Document/source checks only, not model evaluation",
+  "pre_existing_files": 264,
+  "unchanged_files": 259,
+  "intentional_additions_to_existing_files": [
+    {
+      "path": "EXECUTIVE_SUMMARY.md",
+      "before_sha256": "9dcc439393c4c5aafcab319324982b571752c165f8709999b80e91c7ca73b8cf",
+      "after_sha256": "245f11bac95b73baf4ce6a124dbd605196a3ca878db448ed67f524e093d85f22",
+      "sha256_after_removing_this_phase_additions": "9dcc439393c4c5aafcab319324982b571752c165f8709999b80e91c7ca73b8cf",
+      "prior_content_preserved": true
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "dabde71a74ebc973980f6249e21ec9f72e257d7fb3771291c53ee74a49a0cb25",
+      "after_sha256": "190aa2cbd1b0e60c39cc7099bff0184ec8b8215990664a464be564bc9c3f78c0",
+      "sha256_after_removing_this_phase_additions": "dabde71a74ebc973980f6249e21ec9f72e257d7fb3771291c53ee74a49a0cb25",
+      "prior_content_preserved": true
+    },
+    {
+      "path": "notes/ADAPTATION_DECISIONS.md",
+      "before_sha256": "0bdef8ffb148feebd2674bcb323ff0eae589e867efee9201b547529a48e5da09",
+      "after_sha256": "316b5d5ac34d20afc3938e153adceb4c175a04424736498802a4e321ed50fbf9",
+      "sha256_after_removing_this_phase_additions": "0bdef8ffb148feebd2674bcb323ff0eae589e867efee9201b547529a48e5da09",
+      "prior_content_preserved": true
+    },
+    {
+      "path": "sources/README.md",
+      "before_sha256": "98d96ed4a873d90ffdfbb5b9082469b4a6d8e13e195b8b329582d73ee86ab4dd",
+      "after_sha256": "4e1018e65cbd29f0d042d9900bc0a81a499f2ec558715ac7f8e485f622997a31",
+      "sha256_after_removing_this_phase_additions": "98d96ed4a873d90ffdfbb5b9082469b4a6d8e13e195b8b329582d73ee86ab4dd",
+      "prior_content_preserved": true
+    },
+    {
+      "path": "studies/README.md",
+      "before_sha256": "aad620eef61516699cce3843e2b310cc8b1d8af2d94f2aedef38df9fd42d0557",
+      "after_sha256": "7df1bf95044ebf427e1d984fa45280d31753eef8a60959c2e2f147edebf12685",
+      "sha256_after_removing_this_phase_additions": "aad620eef61516699cce3843e2b310cc8b1d8af2d94f2aedef38df9fd42d0557",
+      "prior_content_preserved": true
+    }
+  ],
+  "original_AD_prediction_block": {
+    "byte_identical": true,
+    "sha256": "2fb16c48cea5c9d39af1ab3495660ab0cd954efe290a6f20e77f5c589c44e9a0"
+  },
+  "new_local_links": [
+    {
+      "file": "notes/ADAPTATION_SELECTION.md",
+      "target": "ADAPTATION_DECISIONS.md#three-predictions-and-their-possible-failures",
+      "exists": true
+    },
+    {
+      "file": "notes/ADAPTATION_SELECTION.md",
+      "target": "../sources/2026-09-28-adaptation-selection/README.md",
+      "exists": true
+    },
+    {
+      "file": "notes/ADAPTATION_SELECTION.md",
+      "target": "../studies/2026-09-16-remedy-feasibility.md",
+      "exists": true
+    },
+    {
+      "file": "notes/ADAPTATION_SELECTION.md",
+      "target": "../studies/2026-09-16-maintenance-transfer-findings.md",
+      "exists": true
+    },
+    {
+      "file": "notes/ADAPTATION_SELECTION.md",
+      "target": "../studies/2026-09-17-migration-lineage-findings.md",
+      "exists": true
+    },
+    {
+      "file": "sources/2026-09-28-adaptation-selection/README.md",
+      "target": "../../notes/ADAPTATION_SELECTION.md",
+      "exists": true
+    },
+    {
+      "file": "sources/2026-09-28-adaptation-selection/README.md",
+      "target": "reviewer-provenance.json",
+      "exists": true
+    },
+    {
+      "file": "sources/2026-09-28-adaptation-selection/README.md",
+      "target": "retrieval.json",
+      "exists": true
+    },
+    {
+      "file": "sources/2026-09-28-adaptation-selection/README.md",
+      "target": "screening.json",
+      "exists": true
+    },
+    {
+      "file": "sources/2026-09-28-adaptation-selection/README.md",
+      "target": "full-text-retrieval.json",
+      "exists": true
+    },
+    {
+      "file": "sources/2026-09-28-adaptation-selection/README.md",
+      "target": "artifact-review.json",
+      "exists": true
+    },
+    {
+      "file": "sources/2026-09-28-adaptation-selection/README.md",
+      "target": "validation.json",
+      "exists": true
+    }
+  ],
+  "source_hash_checks": [
+    {
+      "path": "sources/2026-09-28-adaptation-selection/prior-discovery.xml",
+      "matches": true
+    },
+    {
+      "path": "sources/2026-09-28-adaptation-selection/selected-metadata.xml",
+      "matches": true
+    },
+    {
+      "path": "sources/2026-09-28-adaptation-selection/targeted-discovery.xml",
+      "matches": true
+    },
+    {
+      "path": "sources/2026-09-28-adaptation-selection/modular-discovery.xml",
+      "matches": true
+    },
+    {
+      "path": ".cache/adaptation-selection-2026-09-28/2609.29892v1.html",
+      "matches": true
+    },
+    {
+      "path": ".cache/adaptation-selection-2026-09-28/2609.06396v2.html",
+      "matches": true
+    },
+    {
+      "path": ".cache/adaptation-selection-2026-09-28/2609.11677v2.html",
+      "matches": true
+    },
+    {
+      "path": ".cache/adaptation-selection-2026-09-28/2609.14857v1.html",
+      "matches": true
+    },
+    {
+      "path": ".cache/adaptation-selection-2026-09-28/rsi-harness/README.md",
+      "matches": true
+    },
+    {
+      "path": ".cache/adaptation-selection-2026-09-28/rsi-harness/docs/genome/harness-rsi.md",
+      "matches": true
+    },
+    {
+      "path": ".cache/adaptation-selection-2026-09-28/rsi-harness/config/genomes/harness-rsi/components/instructions.json",
+      "matches": true
+    },
+    {
+      "path": ".cache/adaptation-selection-2026-09-28/rsi-harness/config/genomes/harness-rsi/skills/genome-authoring/pattern-to-component.md",
+      "matches": true
+    },
+    {
+      "path": ".cache/adaptation-selection-2026-09-28/ecdysis/README.md",
+      "matches": true
+    },
+    {
+      "path": ".cache/adaptation-selection-2026-09-28/ecdysis/src/ecdysis/README.md",
+      "matches": true
+    },
+    {
+      "path": ".cache/adaptation-selection-2026-09-28/ecdysis/src/ecdysis/evolution.py",
+      "matches": true
+    },
+    {
+      "path": ".cache/adaptation-selection-2026-09-28/ecdysis/src/ecdysis/training.py",
+      "matches": true
+    }
+  ],
+  "git_diff_check_exit_code": 0,
+  "new_text_file_whitespace_checked": 8,
+  "paper_rows_P120_through_P123": "one each",
+  "prior_ancillary_review_boundaries": {
+    "experience-guided-investigation": "523eb3fb8aa56fed0ffdfe10f6b1f1cb3002ade6",
+    "evidence-set-memory": "8ac9b69"
+  },
+  "errors": []
+}

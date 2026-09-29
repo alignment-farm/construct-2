@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://arxiv.org/html/2609.29892v1",
+    "version": "2609.29892v1",
+    "utc": "2026-09-29T00:22:40.646446+00:00",
+    "sha256": "51908d9be761f95bd334f5af948c8ae5cc4a0080b122c655232ae6dc8cd4812b",
+    "bytes": 423405,
+    "content_type": "primary HTML"
+  },
+  {
+    "url": "https://arxiv.org/html/2609.06396v2",
+    "version": "2609.06396v2",
+    "utc": "2026-09-29T00:22:41.019227+00:00",
+    "sha256": "45f9e161867538c2526899f8fc9961d2df033c82670236a676cd591d6206e0e4",
+    "bytes": 1151647,
+    "content_type": "primary HTML"
+  },
+  {
+    "url": "https://arxiv.org/html/2609.11677v2",
+    "version": "2609.11677v2",
+    "utc": "2026-09-29T00:22:41.250048+00:00",
+    "sha256": "67b01d72669aa9e36538165ac9ee24944cfe85768640772e3a497f34944fae20",
+    "bytes": 443336,
+    "content_type": "primary HTML"
+  },
+  {
+    "url": "https://arxiv.org/html/2609.14857v1",
+    "version": "2609.14857v1",
+    "utc": "2026-09-29T00:29:38.571152+00:00",
+    "sha256": "72c34ab8805e2a73b76ee3e83219c407a6b83c32d8a7e6280c49e64aa4ec8e08",
+    "bytes": 565166,
+    "content_type": "primary HTML"
+  }
+]

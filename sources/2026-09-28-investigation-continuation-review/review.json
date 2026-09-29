@@ -1,0 +1,427 @@
+{
+  "reviewed_revision": "523eb3fb8aa56fed0ffdfe10f6b1f1cb3002ade6",
+  "python": "3.13.12 (main, Feb 12 2026, 01:06:02) [Clang 21.1.4 ]",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "manifest": {
+    "files_verified": 737,
+    "errors": []
+  },
+  "runs": {
+    "bridge-bridge-adapter": {
+      "score": 9,
+      "total": 18,
+      "public_passed": true,
+      "actions": {
+        "invalid": 1,
+        "probe": 11
+      },
+      "injected_prefix_turns": 0,
+      "application_successful_probes": 7,
+      "passed_assertions": 0,
+      "failed_assertions": 11,
+      "history_accesses": 0,
+      "source_sha256": "ea94299bc4462b272b46123fbed87178e711d8daf282eb72b57f2bc61c951dce",
+      "status": "turn_limit"
+    },
+    "bridge-ordinary-history": {
+      "score": 9,
+      "total": 18,
+      "public_passed": true,
+      "actions": {
+        "invalid": 11,
+        "read": 1
+      },
+      "injected_prefix_turns": 0,
+      "application_successful_probes": 0,
+      "passed_assertions": 0,
+      "failed_assertions": 0,
+      "history_accesses": 0,
+      "source_sha256": "ea94299bc4462b272b46123fbed87178e711d8daf282eb72b57f2bc61c951dce",
+      "status": "turn_limit"
+    },
+    "conditional-correction-adapter": {
+      "score": 18,
+      "total": 18,
+      "public_passed": true,
+      "actions": {
+        "read": 10,
+        "edit": 1,
+        "test": 1
+      },
+      "injected_prefix_turns": 3,
+      "application_successful_probes": 0,
+      "passed_assertions": 0,
+      "failed_assertions": 0,
+      "history_accesses": 0,
+      "source_sha256": "024ef8b44b44a25d1e7e2227aafbfbbfff5941bc4fb28f90d8f8ca757bf92c1f",
+      "status": "turn_limit"
+    },
+    "conditional-ordinary-history": {
+      "score": 9,
+      "total": 18,
+      "public_passed": true,
+      "actions": {
+        "probe": 2,
+        "edit": 10
+      },
+      "injected_prefix_turns": 3,
+      "application_successful_probes": 0,
+      "passed_assertions": 0,
+      "failed_assertions": 2,
+      "history_accesses": 0,
+      "source_sha256": "ea94299bc4462b272b46123fbed87178e711d8daf282eb72b57f2bc61c951dce",
+      "status": "turn_limit"
+    },
+    "dev-execution-base": {
+      "score": 18,
+      "total": 18,
+      "public_passed": true,
+      "actions": {
+        "invalid": 6,
+        "read": 1,
+        "edit": 1,
+        "test": 1,
+        "done": 1
+      },
+      "injected_prefix_turns": 0,
+      "application_successful_probes": 0,
+      "passed_assertions": 0,
+      "failed_assertions": 0,
+      "history_accesses": 0,
+      "source_sha256": "fdc364901d585f8511da26b8141a0f2fb0b6c73e72c9a99001aaf5d7879ac234",
+      "status": "declared_done"
+    },
+    "dev-execution-pilot-adapter": {
+      "score": 18,
+      "total": 18,
+      "public_passed": true,
+      "actions": {
+        "read": 1,
+        "probe": 1,
+        "edit": 1,
+        "test": 1,
+        "done": 1
+      },
+      "injected_prefix_turns": 0,
+      "application_successful_probes": 0,
+      "passed_assertions": 0,
+      "failed_assertions": 1,
+      "history_accesses": 0,
+      "source_sha256": "412b5e881a279e8027d38625f43347ee1283c59a1533e0e57664aa2260eed297",
+      "status": "declared_done"
+    },
+    "dev-filter-fresh-base": {
+      "score": 9,
+      "total": 18,
+      "public_passed": true,
+      "actions": {
+        "invalid": 11,
+        "read": 1
+      },
+      "injected_prefix_turns": 0,
+      "application_successful_probes": 0,
+      "passed_assertions": 0,
+      "failed_assertions": 0,
+      "history_accesses": 0,
+      "source_sha256": "ea94299bc4462b272b46123fbed87178e711d8daf282eb72b57f2bc61c951dce",
+      "status": "turn_limit"
+    },
+    "dev-filter-fresh-pilot-adapter": {
+      "score": 13,
+      "total": 18,
+      "public_passed": true,
+      "actions": {
+        "read": 9,
+        "invalid": 1,
+        "edit": 1,
+        "test": 1
+      },
+      "injected_prefix_turns": 0,
+      "application_successful_probes": 0,
+      "passed_assertions": 0,
+      "failed_assertions": 0,
+      "history_accesses": 0,
+      "source_sha256": "4a13ad5fbe65726091223de7ef46aa714601ca6d458d9ae26f91bbfa755569a8",
+      "status": "turn_limit"
+    },
+    "dev-normalization-base": {
+      "score": 16,
+      "total": 18,
+      "public_passed": false,
+      "actions": {
+        "probe": 2,
+        "edit": 8,
+        "read": 2
+      },
+      "injected_prefix_turns": 0,
+      "application_successful_probes": 0,
+      "passed_assertions": 0,
+      "failed_assertions": 0,
+      "history_accesses": 0,
+      "source_sha256": "3560b75255a67ef7d67c361dbc068ba509526344336c7f614b726d72f7d7da42",
+      "status": "turn_limit"
+    },
+    "dev-normalization-pilot-adapter": {
+      "score": 16,
+      "total": 18,
+      "public_passed": false,
+      "actions": {
+        "read": 3,
+        "edit": 7,
+        "probe": 2
+      },
+      "injected_prefix_turns": 0,
+      "application_successful_probes": 0,
+      "passed_assertions": 0,
+      "failed_assertions": 2,
+      "history_accesses": 0,
+      "source_sha256": "009f9e055c49551fdd8c3a40d22d1858c0df5f350c184011d95d65c934975c89",
+      "status": "turn_limit"
+    },
+    "reacquisition-correction-adapter": {
+      "score": 9,
+      "total": 18,
+      "public_passed": true,
+      "actions": {
+        "read": 12
+      },
+      "injected_prefix_turns": 0,
+      "application_successful_probes": 0,
+      "passed_assertions": 0,
+      "failed_assertions": 0,
+      "history_accesses": 0,
+      "source_sha256": "ea94299bc4462b272b46123fbed87178e711d8daf282eb72b57f2bc61c951dce",
+      "status": "turn_limit"
+    },
+    "reacquisition-ordinary-history": {
+      "score": 9,
+      "total": 18,
+      "public_passed": true,
+      "actions": {
+        "invalid": 11,
+        "read": 1
+      },
+      "injected_prefix_turns": 0,
+      "application_successful_probes": 0,
+      "passed_assertions": 0,
+      "failed_assertions": 0,
+      "history_accesses": 0,
+      "source_sha256": "ea94299bc4462b272b46123fbed87178e711d8daf282eb72b57f2bc61c951dce",
+      "status": "turn_limit"
+    }
+  },
+  "paired_checks": [
+    {
+      "names": [
+        "dev-normalization-base",
+        "dev-normalization-pilot-adapter"
+      ],
+      "initial_source_equal": true,
+      "full_history_equal": true,
+      "task_equal": true,
+      "public_tests_equal": true
+    },
+    {
+      "names": [
+        "dev-execution-base",
+        "dev-execution-pilot-adapter"
+      ],
+      "initial_source_equal": true,
+      "full_history_equal": true,
+      "task_equal": true,
+      "public_tests_equal": true
+    },
+    {
+      "names": [
+        "dev-filter-fresh-base",
+        "dev-filter-fresh-pilot-adapter"
+      ],
+      "initial_source_equal": true,
+      "full_history_equal": true,
+      "task_equal": true,
+      "public_tests_equal": true
+    },
+    {
+      "names": [
+        "reacquisition-ordinary-history",
+        "reacquisition-correction-adapter"
+      ],
+      "initial_source_equal": true,
+      "full_history_equal": true,
+      "task_equal": true,
+      "public_tests_equal": true
+    },
+    {
+      "names": [
+        "conditional-ordinary-history",
+        "conditional-correction-adapter"
+      ],
+      "initial_source_equal": true,
+      "full_history_equal": true,
+      "task_equal": true,
+      "public_tests_equal": true
+    },
+    {
+      "names": [
+        "bridge-ordinary-history",
+        "bridge-bridge-adapter"
+      ],
+      "initial_source_equal": true,
+      "full_history_equal": true,
+      "task_equal": true,
+      "public_tests_equal": true
+    }
+  ],
+  "limitations": [
+    "Published actions replayed; model generation, training and state isolation not rerun.",
+    "Study Python 3.14.7; root replay Python 3.13.12. Elapsed seconds, unittest timing and absolute test traceback paths normalized.",
+    "External checks reused from study after source inspection; root added one rename value-preservation probe.",
+    "Token totals sum saved participant token fields, without retokenization.",
+    "Fresh confirmation material not executed or used to select an intervention."
+  ],
+  "teacher": {
+    "events_replayed": 8,
+    "score": 18,
+    "public_passed": true
+  },
+  "conditional_context": {
+    "first_prompt_equals_taught_probe_prompt": true,
+    "first_action": {
+      "action": "read",
+      "path": "etl_pipeline.py",
+      "start": 100,
+      "limit": 100
+    },
+    "taught_action": {
+      "action": "probe",
+      "payload": {
+        "pipeline": {
+          "steps": [
+            {
+              "op": "filter",
+              "where": "flag"
+            }
+          ]
+        },
+        "dataset": [
+          {
+            "id": 0,
+            "flag": true
+          },
+          {
+            "id": 1,
+            "flag": 1
+          },
+          {
+            "id": 2,
+            "flag": "yes"
+          },
+          {
+            "id": 3,
+            "flag": false
+          },
+          {
+            "id": 4,
+            "flag": null
+          },
+          {
+            "id": 5
+          }
+        ]
+      },
+      "expected": {
+        "status": "ok",
+        "data": [
+          {
+            "id": 0,
+            "flag": true
+          }
+        ],
+        "metrics": {
+          "rows_in": 6,
+          "rows_out": 1
+        }
+      }
+    }
+  },
+  "bridge_target": {
+    "prefix_turns": 2,
+    "application_ok": true,
+    "assertion_passed": false
+  },
+  "additional_rename_preservation_probe": {
+    "payload": {
+      "pipeline": {
+        "steps": [
+          {
+            "op": "rename",
+            "from": "amount",
+            "to": "price"
+          }
+        ]
+      },
+      "dataset": [
+        {
+          "amount": "  keep spaces  "
+        }
+      ]
+    },
+    "expected": {
+      "status": "ok",
+      "data": [
+        {
+          "price": "  keep spaces  "
+        }
+      ],
+      "metrics": {
+        "rows_in": 1,
+        "rows_out": 1
+      }
+    },
+    "results": {
+      "dev-normalization-base": {
+        "ok": true,
+        "returncode": 0,
+        "stdout": "{\"status\":\"ok\",\"data\":[{\"price\":\"  keep spaces  \"}],\"metrics\":{\"rows_in\":1,\"rows_out\":1}}",
+        "stderr": "",
+        "application_ok": true,
+        "assertion_passed": true
+      },
+      "dev-normalization-pilot-adapter": {
+        "ok": true,
+        "returncode": 0,
+        "stdout": "{\"status\":\"ok\",\"data\":[{\"price\":\"keep spaces\"}],\"metrics\":{\"rows_in\":1,\"rows_out\":1}}",
+        "stderr": "",
+        "application_ok": true,
+        "assertion_passed": false
+      }
+    }
+  },
+  "training_costs": {
+    "training_updates": 32,
+    "training_rows": 8,
+    "training_wall_seconds": 129.15820225002244,
+    "training_peak_mlx_bytes": 13086098982,
+    "bridge_initial_hash_matches_correction_final": true
+  },
+  "lineage": {
+    "learner_prefix_targets": 2,
+    "authored_correction_targets": 5,
+    "authored_bridge_targets": 1,
+    "source_hashes_and_contexts_verified": true
+  },
+  "episode_costs": {
+    "episodes": 12,
+    "model_calls": 135,
+    "prompt_tokens": 396996,
+    "completion_tokens": 7694,
+    "episode_wall_seconds": 551.9186281680595,
+    "model_generation_seconds": 534.5274945908459,
+    "cap_hits": 0
+  },
+  "tool_results_replayed": 152,
+  "external_checks_replayed": 234,
+  "public_suite_invocations_for_evaluation": 13,
+  "additional_root_probes": 2,
+  "fresh_confirmation_status": "not evaluated"
+}
