@@ -268,3 +268,37 @@ explain all failure. Correct action arguments and feedback use from actual faile
 states, plus competent ordinary reuse, remain consequential needs within the
 existing remit. The study owns method selection; this review launches no new run.
 Original pilot failures and prospective CC1–CC3 remain preserved.
+
+## Assessment after ordinary-reference development — 29 September
+
+The [joint publication review](../studies/2026-09-29-action-feedback-findings.md)
+accepts `9380a56` as further bounded diagnosis. The shared native interface,
+copyable history and executable casebook now support a competent ordinary 27B
+reference: both exposed joint defects are repaired and verified (18/18 established
+checks, 10/10 new inputs to the same contracts). Ordinary 4B repairs only filtering
+and falsely declares completion (17/18, 5/10). The 46-update adapter repeatedly
+reads history without repair (8/18, 3/10). Paired initial 4B inputs agree; action
+three diverges. Root replays all three joint traces and the published program
+scores. This addresses ordinary feasibility in the instrument; it does not
+isolate which interface or model change enabled it.
+
+Teaching contains actual learner actions and executed investigator continuations.
+The saved run uses a recomputed but gradient-detached prefix, not full-context SFT
+gradients. A full-gradient memory-limit failure and a failed validation attempt
+are retained. The learned joint cutoff was adaptive. Consequently, these results
+neither isolate an acquisition cause nor establish a matched cross-model cost
+comparison. All executed tasks remain development; new input cases do not turn
+an exposed repair into unfamiliar-change transfer.
+
+| Original expectation | Updated root assessment |
+|---|---|
+| CC1 — Residual experience value | **Unresolved.** Competent ordinary history use and complete joint repair are now demonstrated, while learned autonomous acquisition still fails. No fresh residual benefit is established. |
+| CC2 — Opportunity cost | **Untested.** A stronger reference establishes feasibility, not an equal-resource substitute or learning-cost repayment; native costs and unequal/adaptive cutoffs are explicit. |
+| CC3 — Artifact mediation | **Untested.** The joint arms begin with the same supplied source/history; different acquired artifact histories are not crossed. |
+
+Acquiring productive action and valid completion judgment from the learner's
+visited states remains consequential. P119 and the new P125 ordinary self-debugging
+comparison narrow method selection without demonstrating a remedy. Preserve the
+original predictions, failed runs and protocol-reconstruction qualification;
+confirm developed claims on fresh material. The existing remit stays open, with
+methods owned by the study and no new run commissioned by this review.

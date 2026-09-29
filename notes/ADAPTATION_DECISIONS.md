@@ -1,6 +1,12 @@
 # Learning what to change
 
-**Current reading — 28 September:** [Adaptation selection](ADAPTATION_SELECTION.md)
+**Current experimental assessment — 29 September:**
+[Intervention-choice transfer](../studies/2026-09-29-intervention-choice-findings.md)
+adds a bounded explicit-policy comparison and an ordinary-parser limit. Added
+choice value is not established; the wider question stays open. See the dated
+assessment below without changing AD1–AD3.
+
+**Preceding reading — 28 September:** [Adaptation selection](ADAPTATION_SELECTION.md)
 adds direct public intervention-policy precedents and narrows the independent
 AD1–AD2 candidate. Original predictions and dated assessments below are preserved;
 the reading itself made no commission. Subsequent user approval is recorded in
@@ -348,3 +354,37 @@ Close this bounded root phase on that distinction and selection. A new generic
 co-evolution demonstration is low priority. No validated workload, experiment or
 ancillary commission follows, and the closed remedy-feasibility phase is not
 reopened. Active ancillary investigators retain their existing remits.
+
+## Assessment after intervention-choice transfer — 29 September
+
+The [new assessment](../studies/2026-09-29-intervention-choice-findings.md) accepts
+`cb25d5c` as a completed bounded workload phase. An explicit chooser acquired from
+old-interface outcomes functions and persists, but completes 16/18 fresh nested-API
+tasks versus 17/18 using a fixed canonical adapter. A shared source repair makes
+a tie; inherited global C and current schema-aware reuse coincide. The chooser's
+precision preference follows a four-example tie and prescribed D tie-break,
+not evidence that D is better. Better choice is not established by policy storage
+or perfect acquisition-case selection alone.
+
+A later frozen source-only parser completes 36/36 fresh API tasks from eighteen
+new sources. It exploits the disclosed closed grammar, not hidden labels, and
+removes the measured complete-task need for the original chooser. This is remedy
+development informed by diagnosis. Its engineer cost is not fully measured, so
+zero model requests are not a lifetime cost proof.
+
+- **AD1:** receives a narrow comparison with no added decision-value support and
+  an explained limitation after competent ordinary access. The original contrast
+  between missing-evidence and evidence-use failures is not fully tested here.
+- **AD2:** receives an unchanged-policy interface-transfer comparison, while its
+  recalibration/observation-value claim remains unresolved. No receiving-model
+  change or fresh paired estimate isolates a chooser's transfer loss. Preserve
+  the earlier maintenance-choice assessment separately.
+- **AD3:** unchanged; no learned-access lifetime comparison occurs.
+
+A retrospective oracle's advantage depends on the remedy menu. A new ordinary
+solution can eliminate that observed gap without improving the selector. P126's
+algorithm-selection methods reinforce charging feature/probe costs; P127 separates
+structural conformity from source-faithful completion. These narrow future work
+toward informative decision evidence after ordinary remedies, while preserving
+negative feasibility findings as useful outcomes. The original predictions above
+are unchanged. The broad remit stays open; this review adds no experiment.

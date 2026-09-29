@@ -1,0 +1,17 @@
+{
+  "reviewed_revision": "cb25d5c64bd64859e0e9abbcfc41f0e8f44762df",
+  "root_head": "ea166d581e0101b3cf92b17bae1a1308cd5a69a9",
+  "published_unit_tests_passed": 9,
+  "raw_response_replays": 84,
+  "repair_replays": 36,
+  "parser_api_replays": 108,
+  "new_model_calls": 0,
+  "git_diff_check": "pass",
+  "added_relative_links_checked_in_combined_uncommitted_work": 53,
+  "broken_added_links": [],
+  "prior_uncommitted_review_artifacts_preserved": true,
+  "unrelated_preexisting_files_preserved": 284,
+  "active_study_status_after": "clean at reviewed revision",
+  "commit_or_push_performed": false,
+  "limits": "Existing missing sibling-checkout links remain unchanged; active-study files were not edited."
+}

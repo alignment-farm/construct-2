@@ -1,5 +1,13 @@
 # What can experience teach an agent about changing itself?
 
+**Subsequent evidence — 29 September:** The commissioned
+[intervention-choice study](../studies/2026-09-29-intervention-choice-findings.md)
+now has an accepted first phase at `cb25d5c`. An acquired chooser adds no benefit
+beyond ordinary reuse, and a source-only parser resolves its authored grammar.
+This illustrates why the available remedies matter to the decision-value
+comparison; it does not estimate that value on broader language distributions.
+The original reading below remains historical; the study's broader remit is open.
+
 **Subsequent approval — 28 September:** The user approved continuing this
 selection. The [intervention-choice commission](INTERVENTION_CHOICE_STUDY.md)
 now assigns bounded feasibility to a prepared independent study. The completed

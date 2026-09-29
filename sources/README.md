@@ -3,6 +3,24 @@
 Reviews, theory development grounded in that reading, and dated
 source retrieval records for Construct-2's agent memory research.
 
+The [29 September intervention-choice review](2026-09-29-intervention-choice-review/README.md)
+advances the prepared study to `cb25d5c`. Root replays 84 saved model responses,
+36 source repairs, policy decisions/costs and 108 parser API outcomes. The
+[assessment](../studies/2026-09-29-intervention-choice-findings.md) accepts an
+explained limit: an acquired chooser adds no benefit over fixed reuse, and an
+ordinary parser removes the tested need on this grammar. P126–P127 connect
+algorithm-selection evaluation and structural versus semantic correctness.
+The broader remit remains open; no participant calls or new commission.
+
+The [29 September action/feedback review](2026-09-29-action-feedback-review/README.md)
+advances experience-guided investigation to `9380a56` and evidence-set memory to
+`5e2d06a`. Root verifies publication manifests, replays saved programs/actions and
+116 native pytest invocations, and checks the corrected completion and cost
+claims. P124–P125 compare generated-test agreement and ordinary self-debugging.
+The [assessment](../studies/2026-09-29-action-feedback-findings.md) separates
+competent ordinary reuse, unresolved learned acquisition, narrow selector
+transfer and incomplete feedback. No participant calls, new fits or commission.
+
 The [28 September intervention-choice preparation](2026-09-28-intervention-choice-preparation/README.md)
 extends P123 to a pinned public module library, identifying candidate components
 and the limits of its final-harness traces. The user-approved

@@ -1,0 +1,15 @@
+{
+  "previous": "3cabc29aa1b784ec8a9129c568224d90badb9cd6",
+  "reviewed": "cb25d5c64bd64859e0e9abbcfc41f0e8f44762df",
+  "git_status_before": "",
+  "archive_sha256": "8f204031ca3ef2ff239702d061612a37ad49aa62a1212abcd8da07e62d78c7c7",
+  "archive_bytes": 1904640,
+  "retrieved_utc": "2026-09-29T12:00:53.548802+00:00",
+  "log": [
+    "cb25d5c64bd64859e0e9abbcfc41f0e8f44762df Publish bounded transfer findings, source-parser confirmation and costs",
+    "9eb507325fd006461b06123eba2e03b67510dfe6 Record transfer outcomes and freeze source-only follow-up",
+    "f83506ef80e4d1ad0808a224ded6e05a42bc945e Freeze acquired chooser from 24 old-interface intervention outcomes",
+    "723c13a639885e3e7d1eaeca935c1a47417558fd Preserve development failures and freeze source-aware repair control",
+    "e065235c4c04d496a15cfeeee8fec3631a301513 Define bounded interface-transfer protocol and executable harness"
+  ]
+}

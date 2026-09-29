@@ -1,0 +1,41 @@
+{
+  "reviewed": "2026-09-29",
+  "query": "https://export.arxiv.org/api/query?id_list=2207.10397,2304.05128",
+  "user_agent": "Construct-2 research review/1.0 (bounded public methods comparison)",
+  "files": {
+    "2207.10397v2.pdf": {
+      "sha256": "ada1c4b233dda1b2376d2e1950329f6f0addaff50244db6114332721dcc8916c",
+      "bytes": 1394376
+    },
+    "2207.10397v2.txt": {
+      "sha256": "96ec999c6929ac1edd4fd7136ad69800d1e20444d53b819563c51a4092d72e9f",
+      "bytes": 91352
+    },
+    "2304.05128v2.pdf": {
+      "sha256": "020e06b1fb9e1d4b6c33016a9471e8bd31f8ecfd7a22335d85956c14efa39f75",
+      "bytes": 1419448
+    },
+    "2304.05128v2.txt": {
+      "sha256": "61613882530ac981cea0b4872daf57fc1f6d2903dc2e4c88c8f1d480400b4063",
+      "bytes": 229462
+    },
+    "metadata.xml": {
+      "sha256": "2ad6e9e66bbc7eaeb4b28d8f7f8916e25312a7677edb42caaa59a2bb15f3c5c1",
+      "bytes": 5965
+    }
+  },
+  "papers": [
+    {
+      "id": "P124",
+      "version": "2207.10397v2",
+      "updated": "2022-11-23",
+      "pdf": "https://arxiv.org/pdf/2207.10397v2"
+    },
+    {
+      "id": "P125",
+      "version": "2304.05128v2",
+      "updated": "2023-10-05",
+      "pdf": "https://arxiv.org/pdf/2304.05128v2"
+    }
+  ]
+}

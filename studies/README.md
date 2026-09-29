@@ -1,9 +1,30 @@
 **Much of the original question list is already background knowledge or an active research topic.** This revision separates that background from narrower questions that could justify ancillary work. It builds on the [Construct synthesis](../notes/PREVIOUS_RESEARCH.md) and [research perspective](../notes/RESEARCH_PERSPECTIVES.md), with priority given to neural memory, live weight updates, and learned memory policies. The [17 September executable-experience selection](../notes/EXECUTABLE_EXPERIENCE.md) opens a focused allocation comparison alongside the neural-learning emphasis; the [historical preference](../sources/README.md#research-preference-to-date) remains recorded.
 
+**Latest reviewed publication — 29 September:**
+[Intervention-choice transfer](2026-09-29-intervention-choice-findings.md)
+at `cb25d5c` completes its first bounded workload phase. An explicit chooser
+acquired from earlier outcomes completes 16/18 fresh tasks after an API change,
+versus 17/18 for a fixed canonical adapter. Shared repair brings them to a tie.
+A source-only parser then completes 36/36 fresh API tasks with zero model calls,
+exposing the closed grammar's limited need for selection. Root reproduces outcomes,
+policy decisions and costs. Accept this explained workload limit; the broader
+remit remains open, with no new commission.
+
+**Preceding reviewed publications — 29 September:**
+[Action and completion-feedback synthesis](2026-09-29-action-feedback-findings.md)
+reviews experience-guided investigation at `9380a56` and evidence-set memory at
+`5e2d06a`. A competent ordinary reference now completes and verifies the joint
+repair; the trained 4B learner still loops on history. The evidence selector
+transfers to a second source project and saves context on one edit, but adds cost
+across the sequence. Passing executable tests misses an explicit documentation
+requirement. Root replays the saved outcomes and distinguishes useful feedback,
+complete artifacts and truthful completion. Both remits remain open; this review
+adds no commission.
+
 **New feasibility commission — 28 September:**
 [Intervention-choice transfer](../notes/INTERVENTION_CHOICE_STUDY.md) now owns the
 user-approved question of whether earlier intervention outcomes improve decisions
-after an agent or interface change. The independent repository is prepared and
+after an agent or interface change. The independent repository was prepared and
 pushed at `3cabc29`; workload discovery and diagnostic development are included.
 Preparation launches no agent session or experiments. The other studies continue
 under their existing remits.
@@ -16,7 +37,7 @@ intervention-choice experience under agent change as an independent feasibility
 recommendation. Competent current diagnosis and unchanged reuse remain necessary
 comparators. No experiment, commission or ancillary review boundary changes.
 
-**Latest reviewed publication — 28 September:**
+**Preceding reviewed publication — 28 September:**
 [Experience-guided investigation](2026-09-28-investigation-continuation-findings.md)
 at `523eb3f` completes a bounded diagnostic phase. A new adapter repairs the
 boolean filter from a supplied recorded context (18/18 external checks), but
@@ -122,20 +143,20 @@ reduces repaired fields, but rebuilding is cheaper at identical tested quality.
 Correct state does not guarantee correct later orders. PM1–PM3 and CL1–CL3 now
 have bounded assessments; their original wording is preserved.
 
-**Current work — 28 September 2026:** Eighteen studies are registered.
-[Intervention-choice transfer](#intervention-choice-transfer) is newly prepared
-at `3cabc29` for bounded feasibility; it has no experimental publication yet.
-[Evidence-set memory](#evidence-set-memory) has five accepted bounded phases at
-`8ac9b69`, with broader EBM exploration authorized and open. The preceding
-seventeen have completed reviewed bounded phases. [Experience-guided investigation](#experience-guided-investigation)
-adds accepted acquisition diagnosis at `523eb3f`: conditional repair succeeds,
-but autonomous investigation and transfer remain unestablished. Its original
-commission stays open. Correct action/feedback use and competent ordinary reuse
-are the next acquisition needs; full eligible-history parity is now verified.
-The study owns development, and this review starts no follow-up. The
-[commission brief](../notes/CONTINUING_EXPERIENCE_STUDY.md) preserves CC1–CC3 with
-assessments. Root continues theory, literature and independent questions; neither
-one failed pilot nor its recency determines the whole research program.
+**Current work — 29 September 2026:** Eighteen studies are registered.
+All eighteen have completed reviewed bounded phases.
+[Intervention-choice transfer](#intervention-choice-transfer) at `cb25d5c` closes
+its first template workload on an explained ordinary-parser limit; its wider
+remit remains open. [Evidence-set memory](#evidence-set-memory) now has seven accepted
+bounded phases at `5e2d06a`; expanded EBM exploration continues. Its frozen
+selector reaches cross-project edits without a sequence-level advantage, and
+full requirements qualify executable success. [Experience-guided investigation](#experience-guided-investigation)
+at `9380a56` now demonstrates competent ordinary history use and verified joint
+repair, while its learner still fails autonomous acquisition. CC1 remains
+unresolved and CC2/CC3 untested. Both existing remits stay open; the
+[joint review](2026-09-29-action-feedback-findings.md) launches no follow-up.
+Root continues theory, literature and independent questions, informed by the
+new distinction between valid feedback, complete artifacts and verified finish.
 The [applied derivative registry](../derivatives/README.md) separately records
 Construct Runtime, whose reviewed memory-worker build supplies separate primary
 and learned-memory roles. Its development is independent of these studies.
@@ -153,15 +174,15 @@ No continuation is commissioned. The independent executable-experience review
 is complete; the fixed directive and AD1–AD3 remain intact.
 
 
-This map connects the root's questions, ancillary publications and current research directions. Eighteen projects are registered: seventeen have completed reviewed bounded phases, and intervention-choice transfer is prepared for bounded feasibility. Evidence-set memory and experience-guided investigation retain open broader remits. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
+This map connects the root's questions, ancillary publications and current research directions. Eighteen projects are registered, all with completed reviewed bounded phases. Intervention-choice transfer, evidence-set memory and experience-guided investigation retain open broader remits. The [third-phase maintenance assessment](2026-09-15-maintenance-findings.md) accepts the latest S1/S2/S4 publications and evaluates the preserved [M1–M3 expectations](../notes/LEARNING_MAINTENANCE.md#prospective-expectations). Complete procedural behavior and later compositional use are now demonstrated in controlled settings; reliable maintenance and economical placement remain open. The [synthesis below](#what-the-completed-investigations-change) connects these findings, and [research selection](#6-research-selection) distinguishes recommended directions from commissioned work. Read each study's directory for its latest evidence. A useful replication or explanation need not claim novelty; any proposed new contribution needs its closest methods and evaluation settings checked.
 
 ## Cloning the studies
 
 [repos.txt](repos.txt) is the maintained list of Construct-2 ancillary repositories,
 one `organization/repository` per line, including completed studies. It contains
-all eighteen studies currently in this program: seventeen with completed reviewed
-bounded phases and the newly prepared intervention-choice-transfer study. Open
-remits include its feasibility commission, EBM exploration and experience-guided
+all eighteen studies currently in this program, each with completed reviewed
+bounded phases. Open remits include intervention-choice transfer beyond its first
+workload, EBM exploration and experience-guided
 investigation's acquisition-and-transfer commission. The root
 and other lab projects are outside its scope. Contributors need Git, an
 authenticated GitHub CLI (`gh auth login`), and access to these private repositories.
@@ -425,6 +446,10 @@ For S1, we should distinguish three outcomes: **the chosen text becomes easier t
 | **P121. [MetaRSI, 2609.06396v2](https://arxiv.org/html/2609.06396v2)** — §§4.2–4.5, 5.1–5.2, 5.4; selected §6/F | Experience-revised improvement policy. | Direct public precedent; outcome replication remains outside this review. [Ledger](../sources/2026-09-28-adaptation-selection/README.md). |
 | **P122. [Ecdysis, 2609.11677v2](https://arxiv.org/html/2609.11677v2)** — §§3.1–3.4, 4.1, 6.2; selected A | Reviewed harness changes. | Recurrence does not identify a unique remedy. [Ledger](../sources/2026-09-28-adaptation-selection/README.md). |
 | **P123. [ModularRSI, 2609.14857v1](https://arxiv.org/html/2609.14857v1)** — §§3–6.6 | Modular construction and composition. | Distinguish these from learned allocation. [Ledger](../sources/2026-09-28-adaptation-selection/README.md). |
+| **P124. [CodeT, 2207.10397v2](https://arxiv.org/abs/2207.10397v2)** — introduction, §§2–3, Table 2 / selected §4.1 | Generated tests and execution agreement rank code candidates. | Agreement is not a complete-task oracle or continuing acquisition result. [Ledger](../sources/2026-09-29-action-feedback-review/README.md#public-method-comparison). |
+| **P125. [Self-Debugging, 2304.05128v2](https://arxiv.org/abs/2304.05128v2)** — introduction, §§2–4, selected setup | Prompted explanation and execution feedback without finetuning. | Competent ordinary method family; correctness feedback can omit requirements. [Ledger](../sources/2026-09-29-action-feedback-review/README.md#public-method-comparison). |
+| **P126. [ASlib, 2016 author copy](https://www.cs.uwyo.edu/~larsko/papers/bischl_aslib__2016.pdf)** — §2.1, §3 workflow, §4 opening, §§6.2–6.3 | Fixed/oracle comparisons with feature costs. | Complementary outcomes do not guarantee useful selection. [Ledger](../sources/2026-09-29-intervention-choice-review/README.md#public-method-comparison). |
+| **P127. [JSONSchemaBench, 2501.10868v3](https://arxiv.org/html/2501.10868v3)** — introduction, §2, §6 | Compliance and task accuracy evaluated separately. | Structural remedies do not certify source fidelity. [Ledger](../sources/2026-09-29-intervention-choice-review/README.md#public-method-comparison). |
 
 The [migration/lineage review](../sources/2026-09-17-migration-lineage-review/README.md)
 adds P86 and revisits P83/P84 as the local findings sharpen cost and behavior
@@ -850,7 +875,20 @@ the latest experiment's recency.
 work on a later unfamiliar change, after a fresh session, beyond competent reuse
 of the same artifacts and source history?
 
-**Current review — 28 September:** The [continuation assessment](2026-09-28-investigation-continuation-findings.md)
+**Current review — 29 September:** The [joint assessment](2026-09-29-action-feedback-findings.md)
+accepts `9380a564e104dbd766702a823a125f21ab55696a` as further bounded diagnosis.
+Native tools and executable history support an ordinary 27B reference that repairs
+both exposed defects (18/18 established and 10/10 new contract checks) with current
+verification. A 46-update 4B adapter loops on history (8/18, 3/10); ordinary 4B
+repairs only the filter (17/18, 5/10) and falsely declares completion. The learner
+uses stopped-prefix gradients, and its cutoff is adaptive; neither causal
+attribution nor matched cross-model cost follows. Root replays twelve programs,
+all 42 joint actions, target lineage and native cost records. This establishes
+competent ordinary reuse in the instrument, not autonomous acquisition or fresh
+change transfer. CC1 remains unresolved, CC2/CC3 untested. The existing remit
+stays open; acceptance adds no commission.
+
+**Preceding review — 28 September:** The [continuation assessment](2026-09-28-investigation-continuation-findings.md)
 accepts bounded diagnostic publication `523eb3fb8aa56fed0ffdfe10f6b1f1cb3002ade6`.
 The new correction adapter reaches 18/18 external checks from an injected recorded
 prefix, but 9/18 autonomously. A subsequent four-update correction produces eleven
@@ -895,7 +933,7 @@ source access, and fresh complete-task evaluation. It adds the Astra investigato
 policy and carries root's qualifications without rewriting pilot evidence or
 CC1–CC3. The user assigned the ancillary agent; its resulting publication is
 assessed above. Preparation launched no experiment; the current experimental
-review boundary is now `523eb3f`. EBM exploration proceeds independently.
+review boundary is now `9380a56`. EBM exploration proceeds independently.
 
 ### Evidence-set memory
 
@@ -926,6 +964,21 @@ transfer or EBM benefit; the later publication advances this boundary below.
 The original experience-guided investigation remains separately commissioned;
 no other completed phase is reopened.
 
+**Current review — 29 September:** The [joint assessment](2026-09-29-action-feedback-findings.md)
+advances through phases 6–7 to `5e2d06a22f302ecfbd124f6f009b84274c39986b`.
+Executed source-edit feedback fits a six-parameter preference among six evidence
+packages. Frozen coefficients transfer from python-dotenv to python-slugify:
+useful context savings on one edit do not yield a sequence-level advantage over
+ordinary access. All four policies pass both new executable tasks, but ordinary,
+full-context and learned selection omit requested documentation on the second;
+empirical reuse supplies both artifacts but fails one explicit finish. Self-tests
+include incorrect expectations and miss a known mutation. The post-hoc ordinary
+documentation repair is separately charged. Root replays 116 pytest invocations,
+checks request boundaries, documentation and publication chronology. ES1 gains
+actual edit feedback without a learned deployment advantage; ES2 gains narrow
+cross-project preference reuse; ES3 receives no new iterative-inference test.
+The expanded EBM remit remains open without a new commission.
+
 **Five phases accepted — 28 September:** The
 [root assessment](2026-09-28-evidence-set-findings.md) reviews `8ac9b69`, with
 functioning acquisition, source-label qualifications and explained inference
@@ -954,6 +1007,20 @@ of learned infrastructure without redirecting the ongoing EBM exploration.
 
 ### Intervention-choice transfer
 
+**Current review — 29 September:** The [root assessment](2026-09-29-intervention-choice-findings.md)
+accepts `cb25d5c64bd64859e0e9abbcfc41f0e8f44762df`. An explicit category policy
+acquired from 24 old-interface outcomes reaches 16/18 fresh nested-API tasks,
+versus 17/18 for a fixed canonical adapter; shared source repair makes a tie.
+The retrospective oracle's 18/18 is not an available free policy. A frozen
+source-only parser subsequently completes 36/36 fresh API tasks with zero model
+calls, exposing the authored grammar's limited need for selection. Root verifies
+raw outputs, frozen policy lineage, costs and parser execution. AD1 has no added
+decision-value support here; AD2 gains a narrow unchanged-policy interface test
+without recalibration or an isolated transfer effect; AD3 is unchanged. Close this
+workload phase on explanatory progress, preserving the broader remit. No new
+experiment or commission follows. The preparation history below remains distinct.
+
+
 The user approved continuing the [adaptation selection](../notes/ADAPTATION_SELECTION.md).
 The [root brief](../notes/INTERVENTION_CHOICE_STUDY.md) commissions an independent
 bounded feasibility investigation of intervention experience after a receiving
@@ -961,18 +1028,19 @@ agent or interface change, beyond competent current diagnosis and unchanged reus
 It develops AD1–AD2 without rewriting them or reopening an earlier bounded phase.
 
 The private [repository](https://github.com/alignment-farm/intervention-choice-transfer)
-([local README](../../ancillary-studies/intervention-choice-transfer/README.md)) is
+([local README](../../ancillary-studies/intervention-choice-transfer/README.md)) was
 prepared at `3cabc29aa1b784ec8a9129c568224d90badb9cd6`, verified against remote `main`.
 Its [starting instruction](https://github.com/alignment-farm/intervention-choice-transfer/blob/3cabc29aa1b784ec8a9129c568224d90badb9cd6/START.md)
 assigns workload discovery, functioning-remedy development, acquisition diagnosis
 and publication to the investigator. The `gpt-6-astra` policy and resource
-coordination responsibilities are included. No session or experiment was launched.
+coordination responsibilities are included. Preparation launched no session or
+experiment; the publication above advances the experimental boundary.
 
 The [preparation ledger](../sources/2026-09-28-intervention-choice-preparation/README.md)
 extends P123 to a public implementation boundary. Candidate components and
 published final-harness traces do not yet supply the required intervention-choice
-comparison. This is a preparation boundary, not acceptance of an experimental
-claim. The study proceeds independently of the existing investigation and EBM
+comparison. That preparation did not accept an experimental claim; the new review
+above does. The study proceeds independently of the existing investigation and EBM
 remits.
 
 <a id="what-the-three-completed-investigations-change"></a>
@@ -983,7 +1051,7 @@ The investigations examine different mechanisms and tasks. Together they sharpen
 
 | Investigation | Distinction supported by the bounded evidence | Implication for the root question |
 |---|---|---|
-| Evidence-set memory | Learned compactness, discrete ranking, fractional inference and valid complete use are distinct. Ordinary dependency access solves the native workloads; natural-text labels qualify downstream scores. | Include the practical inference procedure and evidence validity in the learned capability; establish remaining task headroom before claiming useful allocation to a specialist. |
+| Evidence-set memory, phases 1–5 | Learned compactness, discrete ranking, fractional inference and valid complete use are distinct. Ordinary dependency access solves the native workloads; natural-text labels qualify downstream scores. | Include the practical inference procedure and evidence validity in the learned capability; establish remaining task headroom before claiming useful allocation to a specialist. |
 | Update-source selection (S1) | Source reliability differs from its value as training material; changing loss or generation need not change task success. | A trustworthy record alone does not tell us whether training on it is useful. |
 | Procedure acquisition and reuse (relevant to S2/S5) | Recall of demonstrations differs from transfer to new inputs; cheaper repeated inference need not repay acquisition at comparable useful accuracy. | Retaining a parameter update is valuable only to the extent that its learned behavior serves the later workload. |
 | Procedure transfer and acquisition diagnosis (relevant to S1/S2) | Loss orientation and starting policy affect acquisition; a controlled objective switch repairs failed routing. Acquired routing transfers more reliably than identifier production. | Useful learning depends on the update and learner state as well as the evidence. A learned relation supplies a subject for retention and correction even while complete actions remain imperfect. |
@@ -998,7 +1066,9 @@ The investigations examine different mechanisms and tasks. Together they sharpen
 | Procedural memory migration | Useful unchanged guidance matches paid selection; recipient-dependent marginal value coexists with failed selection-cost repayment. | An agent change warrants comparing inheritance and adaptation, not assuming adaptation is needed. |
 | Correction lineage | Accurate initial links and fewer repaired fields coexist with higher cost than rebuilding; correct repaired state coexists with later task errors. | Maintaining reasons to revise is another paid, fallible capability, and must be assessed through subsequent behavior. |
 | Lesson acceptance | Competent cheap review matches paid probes; ordinary repair fixes current outputs but can leave a defective program. Acquired corrected SQL supports direct reuse. | Acceptance evidence, its interpretation and the reusable object are separate choices. Additional checking must resolve uncertainty left by competent ordinary review. |
-| Experience-guided investigation | Learner-grounded correction enables conditional strict repair but fails autonomous acquisition; further correction elicits probes without repair. Full history is available but unused. | Correct behavior at a supplied context, autonomous access and feedback-driven completion need separate evidence. Equal archive access does not establish competent reuse. |
+| Experience-guided investigation | A competent ordinary reference now uses history and verifies joint repair; the trained learner loops on history, while ordinary 4B partially repairs and falsely finishes. | Availability, productive action and sound interpretation of completion feedback remain separate capabilities; ordinary feasibility is now demonstrated. |
+| Evidence-set memory, phases 6–7 | Useful fitted rankings and narrow cross-project edit savings coexist with no sequence-level advantage over ordinary access, unreliable self-tests and omitted documentation. | Compact delivery, valid checks, complete artifacts and verified finish are distinct outcomes; learned selection must earn its full cost. |
+| Intervention-choice transfer | An acquired category chooser trails fixed reuse, ties after shared repair, and loses its tested purpose when a source parser solves the closed grammar. | Complementary remedy outcomes and a retrospective oracle gap do not establish useful decision experience; improving available remedies can remove the apparent choice problem. |
 | Weight consolidation | The first compiler removes a manual-route learning benefit; the database continuation shortens familiar execution without better fresh completion. Identical source access coexists with different evidence use. | Marginal weight value depends on the remaining task and teaching target. Output equality alone cannot establish procedural acquisition or loss. |
 
 This is a synthesis of distinct local findings, not evidence that the adapter's transfer deficit and the deeper memory's partial retrieval share a cause. The experiments also concern different persistence boundaries: training a fast-memory system to learn within sequences does not demonstrate accumulation of experience across agent sessions. S3's successful synthetic recalls supply no placement or acquisition-cost comparison against accessible explicit evidence.
@@ -1011,9 +1081,31 @@ Where experience lives is part of a larger decision about what to change and pre
 
 ## 6. Research selection
 
+**Intervention-choice assessment — 29 September:** Accept the [first phase](2026-09-29-intervention-choice-findings.md)
+at `cb25d5c` and close this template workload. Further selector search on its closed
+grammar has no demonstrated value after ordinary parsing. The existing remit
+remains open for workload discovery with trustworthy source labels, credible
+ordinary parsing/retrieval/repair, and observations that might make remaining
+remedy differences useful. More varied prose alone does not establish that
+opportunity; an explained negative feasibility result remains legitimate.
+P126–P127 narrow oracle and validator interpretations. No new commission or root
+participant run follows; study methods remain locally owned.
+
+**Joint publication assessment — 29 September:** Accept EGI `9380a56` and ESM
+`5e2d06a` with [bounded conclusions](2026-09-29-action-feedback-findings.md).
+EGI now has competent ordinary reuse; its remaining acquisition problem concerns
+productive action from the learner's observed states, followed by fresh
+confirmation. ESM justifies developing shared public-requirement review and
+checking self-test validity before interpreting selector capacity or larger
+context savings. P124–P125 narrow generic generated-test/self-debugging proposals;
+neither supplies a guaranteed remedy. These are priorities within existing
+remits, not new commissions or prescriptions of study methods. Keep
+intervention-choice transfer independent: the new findings constrain feedback
+and remedy validity, but do not test decision experience after recipient change.
+
 **Intervention-choice commission — 28 September:** The user approved the
 recommendation below. [Intervention-choice transfer](#intervention-choice-transfer)
-is prepared and pushed at `3cabc29` for bounded feasibility, including workload
+was prepared and pushed at `3cabc29` for bounded feasibility, including workload
 discovery and diagnostic development. Public assets narrow the starting search
 without establishing decision headroom or a functioning local comparison.
 Select informative complete-task contrasts; a learned-policy advantage is not

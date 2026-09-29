@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VyjzwNuEPkbOHy5jF77jVfrT2C0</id>
+  <title>arXiv Query: search_query=&amp;id_list=1506.02465,2501.10868,2602.14743&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-29T12:01:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=1506.02465,2501.10868,2602.14743" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1506.02465v3</id>
+    <title>ASlib: A Benchmark Library for Algorithm Selection</title>
+    <updated>2016-04-06T13:20:23Z</updated>
+    <link href="https://arxiv.org/abs/1506.02465v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.02465v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The task of algorithm selection involves choosing an algorithm from a set of algorithms on a per-instance basis in order to exploit the varying performance of algorithms over a set of instances. The algorithm selection problem is attracting increasing attention from researchers and practitioners in AI. Years of fruitful applications in a number of domains have resulted in a large amount of data, but the community lacks a standard format or repository for this data. This situation makes it difficult to share and compare different approaches effectively, as is done in other, more established fields. It also unnecessarily hinders new researchers who want to work in this area. To address this problem, we introduce a standardized format for representing algorithm selection scenarios and a repository that contains a growing number of data sets from the literature. Our format has been designed to be able to express a wide variety of different scenarios. Demonstrating the breadth and power of our platform, we describe a set of example experiments that build and evaluate algorithm selection models through a common interface. The results display the potential of algorithm selection to achieve significant performance improvements across a broad range of problems and algorithms.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-08T12:35:04Z</published>
+    <arxiv:comment>Accepted to be published in Artificial Intelligence Journal</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Bernd Bischl</name>
+    </author>
+    <author>
+      <name>Pascal Kerschke</name>
+    </author>
+    <author>
+      <name>Lars Kotthoff</name>
+    </author>
+    <author>
+      <name>Marius Lindauer</name>
+    </author>
+    <author>
+      <name>Yuri Malitsky</name>
+    </author>
+    <author>
+      <name>Alexandre Frechette</name>
+    </author>
+    <author>
+      <name>Holger Hoos</name>
+    </author>
+    <author>
+      <name>Frank Hutter</name>
+    </author>
+    <author>
+      <name>Kevin Leyton-Brown</name>
+    </author>
+    <author>
+      <name>Kevin Tierney</name>
+    </author>
+    <author>
+      <name>Joaquin Vanschoren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14743v1</id>
+    <title>LLMStructBench: Benchmarking Large Language Model Structured Data Extraction</title>
+    <updated>2026-02-16T13:37:58Z</updated>
+    <link href="https://arxiv.org/abs/2602.14743v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14743v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present LLMStructBench, a novel benchmark for evaluating Large Language Models (LLMs) on extracting structured data and generating valid JavaScript Object Notation (JSON) outputs from natural-language text. Our open dataset comprises diverse, manually verified parsing scenarios of varying complexity and enables systematic testing across 22 models and five prompting strategies. We further introduce complementary performance metrics that capture both token-level accuracy and document-level validity, facilitating rigorous comparison of model, size, and prompting effects on parsing reliability.
+  In particular, we show that choosing the right prompting strategy is more important than standard attributes such as model size. This especially ensures structural validity for smaller or less reliable models but increase the number of semantic errors. Our benchmark suite is an step towards future research in the area of LLM applied to parsing or Extract, Transform and Load (ETL) applications.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T13:37:58Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sönke Tenckhoff</name>
+    </author>
+    <author>
+      <name>Mario Koddenbrock</name>
+    </author>
+    <author>
+      <name>Erik Rodner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.10868v3</id>
+    <title>JSONSchemaBench: A Rigorous Benchmark of Structured Outputs for Language Models</title>
+    <updated>2025-02-27T15:37:21Z</updated>
+    <link href="https://arxiv.org/abs/2501.10868v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.10868v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reliably generating structured outputs has become a critical capability for modern language model (LM) applications. Constrained decoding has emerged as the dominant technology across sectors for enforcing structured outputs during generation. Despite its growing adoption, little has been done with the systematic evaluation of the behaviors and performance of constrained decoding. Constrained decoding frameworks have standardized around JSON Schema as a structured data format, with most uses guaranteeing constraint compliance given a schema. However, there is poor understanding of the effectiveness of the methods in practice. We present an evaluation framework to assess constrained decoding approaches across three critical dimensions: efficiency in generating constraint-compliant outputs, coverage of diverse constraint types, and quality of the generated outputs. To facilitate this evaluation, we introduce JSONSchemaBench, a benchmark for constrained decoding comprising 10K real-world JSON schemas that encompass a wide range of constraints with varying complexity. We pair the benchmark with the existing official JSON Schema Test Suite and evaluate six state-of-the-art constrained decoding frameworks, including Guidance, Outlines, Llamacpp, XGrammar, OpenAI, and Gemini. Through extensive experiments, we gain insights into the capabilities and limitations of constrained decoding on structured generation with real-world JSON schemas. Our work provides actionable insights for improving constrained decoding frameworks and structured generation tasks, setting a new standard for evaluating constrained decoding and structured generation. We release JSONSchemaBench at https://github.com/guidance-ai/jsonschemabench</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-18T20:26:00Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Saibo Geng</name>
+    </author>
+    <author>
+      <name>Hudson Cooper</name>
+    </author>
+    <author>
+      <name>Michał Moskal</name>
+    </author>
+    <author>
+      <name>Samuel Jenkins</name>
+    </author>
+    <author>
+      <name>Julian Berman</name>
+    </author>
+    <author>
+      <name>Nathan Ranchin</name>
+    </author>
+    <author>
+      <name>Robert West</name>
+    </author>
+    <author>
+      <name>Eric Horvitz</name>
+    </author>
+    <author>
+      <name>Harsha Nori</name>
+    </author>
+  </entry>
+</feed>

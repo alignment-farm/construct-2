@@ -1,0 +1,22 @@
+[
+  {
+    "study": "experience-guided-investigation",
+    "previous": "523eb3fb8aa56fed0ffdfe10f6b1f1cb3002ade6",
+    "reviewed": "9380a564e104dbd766702a823a125f21ab55696a",
+    "archive_bytes": 29685760,
+    "archive_sha256": "6623a1f86371a22edf9f57cfe61e888004b314ab8ec2180ade4acf68f3831e65",
+    "changed_files": 429,
+    "git_status_before": "",
+    "utc": "2026-09-29T06:16:14.099278+00:00"
+  },
+  {
+    "study": "evidence-set-memory",
+    "previous": "8ac9b694a32e53e5941912b65e2c8881ce0d7c4b",
+    "reviewed": "5e2d06a22f302ecfbd124f6f009b84274c39986b",
+    "archive_bytes": 20654080,
+    "archive_sha256": "27e7c62050f91e85dfa0e03242e47624c44172b144b1f5cdf1109d567f77be55",
+    "changed_files": 511,
+    "git_status_before": "",
+    "utc": "2026-09-29T06:16:14.391830+00:00"
+  }
+]

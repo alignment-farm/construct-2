@@ -1,0 +1,319 @@
+{
+  "revision": "cb25d5c64bd64859e0e9abbcfc41f0e8f44762df",
+  "python": "3.13.12",
+  "source_hashes_verified": 9,
+  "raw_response_replays": 84,
+  "shared_repair_replays": 36,
+  "parser_replays": {
+    "parser-development": {
+      "source_cases": 36,
+      "complete": 72
+    },
+    "parser-confirmation": {
+      "source_cases": 18,
+      "complete": 36
+    }
+  },
+  "policy_counts": {
+    "plain": {
+      "D": {
+        "success": 3,
+        "n": 4
+      },
+      "C": {
+        "success": 4,
+        "n": 4
+      }
+    },
+    "correction": {
+      "D": {
+        "success": 3,
+        "n": 4
+      },
+      "C": {
+        "success": 4,
+        "n": 4
+      }
+    },
+    "precision": {
+      "D": {
+        "success": 4,
+        "n": 4
+      },
+      "C": {
+        "success": 4,
+        "n": 4
+      }
+    }
+  },
+  "policy_choice": {
+    "plain": "C",
+    "correction": "C",
+    "precision": "D"
+  },
+  "raw_policies": {
+    "fixed_D": {
+      "n": 18,
+      "success": 14,
+      "valid": 16,
+      "requests": 18,
+      "prompt_tokens": 7425,
+      "completion_tokens": 3765,
+      "oracle_not_deployable": false
+    },
+    "fixed_C": {
+      "n": 18,
+      "success": 17,
+      "valid": 18,
+      "requests": 18,
+      "prompt_tokens": 6759,
+      "completion_tokens": 2355,
+      "oracle_not_deployable": false
+    },
+    "inherited_category": {
+      "n": 18,
+      "success": 16,
+      "valid": 16,
+      "requests": 18,
+      "prompt_tokens": 6981,
+      "completion_tokens": 2887,
+      "oracle_not_deployable": false
+    },
+    "inherited_global": {
+      "n": 18,
+      "success": 17,
+      "valid": 18,
+      "requests": 18,
+      "prompt_tokens": 6759,
+      "completion_tokens": 2355,
+      "oracle_not_deployable": false
+    },
+    "current_source": {
+      "n": 18,
+      "success": 16,
+      "valid": 18,
+      "requests": 18,
+      "prompt_tokens": 6981,
+      "completion_tokens": 2845,
+      "oracle_not_deployable": false
+    },
+    "schema_aware_reuse": {
+      "n": 18,
+      "success": 17,
+      "valid": 18,
+      "requests": 18,
+      "prompt_tokens": 6759,
+      "completion_tokens": 2355,
+      "oracle_not_deployable": false
+    },
+    "validator_fallback": {
+      "n": 18,
+      "success": 16,
+      "valid": 18,
+      "requests": 20,
+      "prompt_tokens": 8127,
+      "completion_tokens": 4027,
+      "oracle_not_deployable": false
+    },
+    "oracle": {
+      "n": 18,
+      "success": 18,
+      "valid": 18,
+      "requests": 18,
+      "prompt_tokens": 7277,
+      "completion_tokens": 3427,
+      "oracle_not_deployable": true
+    }
+  },
+  "repaired_policies": {
+    "fixed_D": {
+      "n": 18,
+      "success": 15,
+      "valid": 17,
+      "requests": 18,
+      "prompt_tokens": 7425,
+      "completion_tokens": 3765,
+      "oracle_not_deployable": false
+    },
+    "fixed_C": {
+      "n": 18,
+      "success": 17,
+      "valid": 18,
+      "requests": 18,
+      "prompt_tokens": 6759,
+      "completion_tokens": 2355,
+      "oracle_not_deployable": false
+    },
+    "inherited_category": {
+      "n": 18,
+      "success": 17,
+      "valid": 17,
+      "requests": 18,
+      "prompt_tokens": 6981,
+      "completion_tokens": 2887,
+      "oracle_not_deployable": false
+    },
+    "inherited_global": {
+      "n": 18,
+      "success": 17,
+      "valid": 18,
+      "requests": 18,
+      "prompt_tokens": 6759,
+      "completion_tokens": 2355,
+      "oracle_not_deployable": false
+    },
+    "current_source": {
+      "n": 18,
+      "success": 16,
+      "valid": 18,
+      "requests": 18,
+      "prompt_tokens": 6981,
+      "completion_tokens": 2845,
+      "oracle_not_deployable": false
+    },
+    "schema_aware_reuse": {
+      "n": 18,
+      "success": 17,
+      "valid": 18,
+      "requests": 18,
+      "prompt_tokens": 6759,
+      "completion_tokens": 2355,
+      "oracle_not_deployable": false
+    },
+    "validator_fallback": {
+      "n": 18,
+      "success": 16,
+      "valid": 18,
+      "requests": 19,
+      "prompt_tokens": 7779,
+      "completion_tokens": 3899,
+      "oracle_not_deployable": false
+    },
+    "oracle": {
+      "n": 18,
+      "success": 18,
+      "valid": 18,
+      "requests": 18,
+      "prompt_tokens": 7314,
+      "completion_tokens": 3543,
+      "oracle_not_deployable": true
+    }
+  },
+  "failures": [
+    {
+      "phase": "development",
+      "case_id": "110-correction-0",
+      "action": "D",
+      "interface": "v2",
+      "valid": false,
+      "differences": [
+        "/order/1:value"
+      ],
+      "error": null
+    },
+    {
+      "phase": "development",
+      "case_id": "110-precision-1",
+      "action": "D",
+      "interface": "v2",
+      "valid": false,
+      "differences": [
+        "/order/1:value"
+      ],
+      "error": null
+    },
+    {
+      "phase": "development",
+      "case_id": "110-plain-1",
+      "action": "D",
+      "interface": "v2",
+      "valid": false,
+      "differences": [
+        "/order/1:value"
+      ],
+      "error": null
+    },
+    {
+      "phase": "acquisition",
+      "case_id": "220-plain-3",
+      "action": "D",
+      "interface": "v1",
+      "valid": true,
+      "differences": [
+        "/invoices/1/amount_minor:value"
+      ],
+      "error": null
+    },
+    {
+      "phase": "acquisition",
+      "case_id": "220-correction-2",
+      "action": "D",
+      "interface": "v1",
+      "valid": true,
+      "differences": [
+        "/invoices/0/amount_minor:value"
+      ],
+      "error": null
+    },
+    {
+      "phase": "confirmation",
+      "case_id": "330-correction-1",
+      "action": "D",
+      "interface": "v2",
+      "valid": true,
+      "differences": [
+        "/invoices/INV-330-1-1-78842/money/units:value"
+      ],
+      "error": null
+    },
+    {
+      "phase": "confirmation",
+      "case_id": "330-precision-3",
+      "action": "C",
+      "interface": "v2",
+      "valid": true,
+      "differences": [
+        "/invoices/INV-330-3-1-29323/money/units:value"
+      ],
+      "error": null
+    },
+    {
+      "phase": "confirmation",
+      "case_id": "330-precision-5",
+      "action": "D",
+      "interface": "v2",
+      "valid": false,
+      "differences": [
+        "/order/1:value"
+      ],
+      "error": null
+    },
+    {
+      "phase": "confirmation",
+      "case_id": "330-precision-1",
+      "action": "D",
+      "interface": "v2",
+      "valid": false,
+      "differences": null,
+      "error": "JSONDecodeError(\"Expecting ',' delimiter: line 1 column 422 (char 421)\")"
+    },
+    {
+      "phase": "confirmation",
+      "case_id": "330-plain-1",
+      "action": "D",
+      "interface": "v2",
+      "valid": true,
+      "differences": [
+        "/invoices/INV-330-1-1-1-62208:key",
+        "/invoices/INV-330-1-1-62208:key",
+        "/order/1:value"
+      ],
+      "error": null
+    }
+  ],
+  "participant_prompt_tokens": 32180,
+  "participant_completion_tokens": 12928,
+  "chronology_and_manifest_checks": "passed; follow-up protocol hash checked at historical freeze",
+  "new_model_calls": 0,
+  "limits": "Saved generation outputs replayed; no regeneration, new cases, causal interface-transfer estimate, natural-language coverage or total engineering-cost estimate."
+}

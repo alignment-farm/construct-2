@@ -1,8 +1,8 @@
 # Construct-2: what we have learned about accumulating useful experience
 
-Executive summary · Ancillary findings, root synthesis and selection through 28 September 2026
+Executive summary · Ancillary findings, root synthesis and selection through 29 September 2026
 
-Construct-2 asks how agents can accumulate useful experience across sessions, and where that experience should live: explicit memory, contextual lessons, executable tools, model weights or runtime rules. Seventeen ancillary investigations have completed reviewed bounded phases, alongside a review of public research. Completed phases do not close the broader investigations. Our starting hypothesis already allowed these mechanisms to work together. The studies have sharpened the conditions under which that combination helps, and exposed several ways apparently successful learning can fail to produce useful capability.
+Construct-2 asks how agents can accumulate useful experience across sessions, and where that experience should live: explicit memory, contextual lessons, executable tools, model weights or runtime rules. Eighteen ancillary investigations have completed reviewed bounded phases, alongside a review of public research. Completed phases do not close the broader investigations. Our starting hypothesis already allowed these mechanisms to work together. The studies have sharpened the conditions under which that combination helps, and exposed several ways apparently successful learning can fail to produce useful capability.
 
 **The clearest finding is that successful learning, durable usefulness and repayment of learning costs are separate achievements.** A system may acquire a pattern without completing the task, retain information without being able to use it, or improve predictions without outperforming a simpler alternative. Useful accumulated experience must improve complete future behavior or avoid work at comparable quality, while remaining accessible and correctable as the task and agent change.
 
@@ -16,6 +16,16 @@ untrained initialization, which already completes every task. Separate diagnosti
 show that even identical scores for every discrete evidence set can yield different
 gradient-search behavior. Natural-text selection also improves, but defective
 source chains and grading labels prevent a clean downstream success claim.
+
+The [29 September code-edit review](studies/2026-09-29-action-feedback-findings.md)
+adds executed edit feedback and a second source project. A frozen learned selector
+saves context on one edit but uses more tokens across the two-task sequence than
+ordinary access. Both pass the executable tests yet omit requested documentation
+on one task. Empirical reuse delivers both artifacts at higher cost, but fails to
+finish one attempt. **Passing tests, delivering every requested artifact and
+correctly declaring completion are distinct achievements.** The self-tests also
+include wrong expectations and miss a known defect; a later public review repairs
+the documentation omission, with its cost and assistance kept separate.
 
 **Access can matter as much as storage.** In controlled memory experiments, changing the reader recovered useful answers from an unchanged stored state. Other failures reflected information that was actually absent. Losing detail also did not necessarily prevent a particular later use. These distinctions matter operationally: better access, retaining more evidence and learning again address different problems. A failed answer alone does not identify which one is needed. [Memory and later use](studies/2026-09-15-maintenance-findings.md).
 
@@ -86,7 +96,7 @@ authored, not derived from learner attempts, so the intended acquisition questio
 remains open. [Initial investigation pilot](studies/2026-09-21-experience-investigation-findings.md).
 
 The [28 September continuation](studies/2026-09-28-investigation-continuation-findings.md)
-now supplies complete teaching history to both arms and builds corrections from
+supplied complete teaching history to both arms and builds corrections from
 actual failed attempts. A new adapter repairs the strict filter from a supplied
 recorded context (18/18 external checks), but loops without repair autonomously
 (9/18). Further correction induces probes without repair; none of the twelve
@@ -94,6 +104,15 @@ runs uses history or passes a probe assertion. Root verifies an additional renam
 regression hidden by unchanged aggregate scores. Correct conditional behavior,
 autonomous action and useful feedback interpretation are distinct achievements.
 The bounded diagnosis is accepted; fresh transfer remains untested.
+
+The [29 September investigation review](studies/2026-09-29-action-feedback-findings.md)
+now demonstrates competent ordinary history use. A larger reference completes
+and verifies a joint repair; the new 4B adapter reads history without acting,
+while ordinary 4B repairs only part of the task and falsely finishes. The new
+training estimator detaches prefix gradients, and the learner's stopping point is
+adaptive, so the result does not isolate an acquisition cause. This is explanatory
+development progress, with autonomous learned acquisition and fresh transfer
+still open. Useful history, capable action and valid feedback must work together.
 
 Together, the findings support evaluating memory as a maintained capability: retained evidence, learned behavior, access procedures, and ways to check or replace them. A practical inference is to preserve recoverable evidence and working implementations, and justify additional learning through its contribution to future tasks. Changing facts can remain explicit while reusable behavior is learned or implemented. The value of that arrangement depends on the receiving agent, expected reuse and maintenance work. This is a working design preference, not a validated universal architecture or a general verdict against neural memory.
 
@@ -106,13 +125,24 @@ improved decisions need separate evidence. The new public-method comparison
 deprioritizes another general co-evolution demonstration; competent current
 diagnosis and unchanged reuse are central alternatives. The user subsequently
 approved the [bounded feasibility commission](notes/INTERVENTION_CHOICE_STUDY.md);
-its independent repository is prepared at `3cabc29`, without experiments yet.
+its first publication is now reviewed at `cb25d5c`.
 
-The next evidential milestone is continuing practical capability: better complete outcomes or less total work across repeated use and consequential change, including acquisition, checking, failures and repair. The [experience-guided investigation](notes/CONTINUING_EXPERIENCE_STUDY.md) remains responsible for autonomous acquisition and fresh transfer; accepting its diagnostic phase does not complete that commission. Correct action/feedback use and competent ordinary reuse are the next evidential needs, with costs interpreted after capability. Broader migration, correction, consolidation and acceptance questions remain open. Root continues synthesis, literature and independent questions. The program's direction remains useful accumulated experience across sessions.
+The [intervention-choice findings](studies/2026-09-29-intervention-choice-findings.md)
+explain a limit of that first workload. An acquired category policy completes
+16/18 fresh tasks after an API change, while a fixed canonical adapter completes
+17/18. Shared repair brings them to a tie. A later source-only parser completes
+36/36 fresh API tasks with no model calls because the authored prose has a closed,
+invertible grammar. **Different remedy outcomes do not by themselves justify
+learning a chooser.** Better ordinary remedies can remove the apparent selection
+opportunity. This closes the template phase, not the broader question; varied
+language, useful decision information and full costs remain to be established.
+
+The next evidential milestone is continuing practical capability: better complete outcomes or less total work across repeated use and consequential change, including acquisition, checking, failures and repair. The [experience-guided investigation](notes/CONTINUING_EXPERIENCE_STUDY.md) remains responsible for autonomous acquisition and fresh transfer; accepting its diagnostic phase does not complete that commission. Competent ordinary reuse is now demonstrated in its development instrument; learned productive action and feedback use remain the next evidential needs, with costs interpreted after capability. Broader migration, correction, consolidation and acceptance questions remain open. Root continues synthesis, literature and independent questions. The program's direction remains useful accumulated experience across sessions.
 
 On 28 September the user selected [evidence-set memory](notes/EVIDENCE_SET_MEMORY.md)
-and subsequently authorized broader EBM exploration. Five phases are now reviewed
-at `8ac9b69`, with functioning acquisition and explained limits. The broader
+and subsequently authorized broader EBM exploration. Seven phases are now reviewed
+at `5e2d06a`, with functioning acquisition, narrow cross-project use and explained
+limits in feedback and complete-task grading. The broader
 question remains whether learning improves complete later work beyond competent
 access at a useful total cost. Native dependency success does not yet establish
 useful LLM infrastructure or broad task improvement. Further exploration belongs

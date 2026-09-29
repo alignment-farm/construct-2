@@ -1,0 +1,21 @@
+{
+  "root_starting_revision": "ea166d581e0101b3cf92b17bae1a1308cd5a69a9",
+  "root_head_unchanged": true,
+  "initial_root_clean": true,
+  "modified_existing_files": [
+    "EXECUTIVE_SUMMARY.md",
+    "README.md",
+    "notes/CONTINUING_EXPERIENCE_STUDY.md",
+    "notes/EVIDENCE_SET_MEMORY.md",
+    "sources/README.md",
+    "studies/README.md"
+  ],
+  "new_relative_markdown_links_checked": 27,
+  "new_broken_relative_links": 0,
+  "git_diff_check": "pass",
+  "review_scripts_parse": "pass",
+  "json_xml_parse": "pass",
+  "active_ancillary_working_trees": "both clean at reviewed revisions after replay",
+  "commit_or_push_performed": false,
+  "limitations": "Older links to ancillary repositories not installed on this machine were already unresolved; only added links are required to resolve for this change. No model generations or new parameter fits performed."
+}

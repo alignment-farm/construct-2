@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-29",
+  "api_query": "https://export.arxiv.org/api/query?id_list=1506.02465,2501.10868,2602.14743",
+  "user_agent": "Construct-2 research review/1.0 (intervention-choice assessment)",
+  "metadata_sha256": "390caddc4995fbcee380bfc7c520a83a11b5cc57095e6b50e741c90ec07f44dc",
+  "failed_acquisitions": [
+    {
+      "url": "https://arxiv.org/pdf/1506.02465v3",
+      "error": "HTTP 406"
+    },
+    {
+      "url": "https://ada.liacs.leidenuniv.nl/papers/BisEtAl16.pdf",
+      "error": "web fetch timeout"
+    }
+  ],
+  "retrievals": [
+    {
+      "file": "ASlib-2016.pdf",
+      "url": "https://www.cs.uwyo.edu/~larsko/papers/bischl_aslib__2016.pdf",
+      "sha256": "d6e3da741eecab3bb96c4c30ae8ac3caf5d71a91497e2faa921c1bb11a22f28c",
+      "bytes": 338771
+    },
+    {
+      "file": "2501.10868v3.html",
+      "url": "https://arxiv.org/html/2501.10868v3",
+      "sha256": "7f5773cfa66c31923895658f64953cd0afdf80d1a93fbffb62f1cf30807c991f",
+      "bytes": 684118
+    }
+  ],
+  "inspected": [
+    {
+      "id": "P126",
+      "publication": "ASlib (2016), author-hosted copy",
+      "scope": "2.1; 3 workflow; 4 opening; 6.2\u20136.3"
+    },
+    {
+      "id": "P127",
+      "version": "2501.10868v3",
+      "scope": "Introduction; 2 constrained-decoding description; 6 quality"
+    }
+  ],
+  "metadata_only": [
+    "2602.14743v1"
+  ]
+}

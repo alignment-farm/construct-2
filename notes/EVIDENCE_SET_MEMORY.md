@@ -234,3 +234,41 @@ task headroom and valid grounding. The study's proposed source-native edit pilot
 fits its expanded authorization, subject to its own workload discovery. This
 assessment neither prescribes that method nor commissions another study. Broad
 LLM improvement remains open, and accepting these phases does not end exploration.
+
+## Assessment after code-edit phases — 29 September
+
+The [joint review](../studies/2026-09-29-action-feedback-findings.md) advances to
+`5e2d06a` through phases 6–7. Executed earlier edits now provide a six-coefficient
+preference over six evidence packages. Phase 6 completes the API extension but
+all policies miss the mixed-newline requirement. A post-hoc investigator repair
+explains a local semantic error; it is not autonomous acquisition. Phase-6 task
+definitions precede comparison freeze, correcting earlier wording about authorship.
+Phase-7 tasks occur in Git after its freeze and use a second source project.
+
+Inherited weights reduce context on one new edit, but cost 59,738 logical tokens
+across two edits versus ordinary's 55,466. Both pass executable checks and omit
+one explicit documentation requirement. Empirical reuse supplies both requested
+artifacts at 106,144 tokens, but fails to finish one attempt within its cap. A
+later ordinary documentation repair is review-assisted and charged separately.
+Self-tests contain wrong expectations and miss a known mutation. Root replays
+native outcomes, requirement audits and costs; these are two task instances,
+with exact request caching, not eight independent successes.
+
+- **ES1:** gains a comparison grounded in actual edit feedback, with no established
+  sequence-level learned deployment advantage. Preserve the positive single-task
+  saving without attributing all verification-path differences to smaller context.
+- **ES2:** gains narrow cross-project use of a frozen preference. There is no new
+  parameter acquisition, learned authority or demonstrated general maintenance
+  advantage. Canonical accepted history follows executable success and still
+  omits documentation; functional retention is not full requirement retention.
+- **ES3:** no new iterative energy-inference test. Enumerating six proposals with
+  a linear score does not establish an EBM-specific architecture advantage. Earlier
+  practical-inference findings retain their own scope.
+
+P124–P125 narrow further generic self-test proposals: generated checks and
+feedback-guided repair are established methods, while trustworthy expectations,
+requirement coverage and total cost remain material. Shared requirement review
+and diagnosis of misleading feedback are justified development directions within
+the expanded remit, followed by fresh material. They are not remedies already
+shown to improve autonomous performance. This accepts two bounded phases without
+closing the wider EBM question, rewriting ES1–ES3 or adding a commission.
